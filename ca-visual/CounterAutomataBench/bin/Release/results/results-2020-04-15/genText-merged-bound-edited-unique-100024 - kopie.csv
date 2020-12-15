@@ -1,0 +1,131 @@
+Regex;Lines;Visited;Cache Size(Found);Status
+user(name)?[ -~ \n\t\r\f]{0,70}(secret|password);142;5003;12297;Text generated.
+php.*\x3f[^\n]{256};21;5090;15142;Text generated.
+php.*\x3f[^\n]{256};21;5090;15142;TIMEOUT.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};18;5024;9946;Text generated.
+M{1000};1;1001;1001;Text generated.
+identityId:.*[0-9a-z]{64};65;562;562;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;38;5150;13519;Text generated.
+Color Name[ \n\t\r\f]{2,}RGB[^-]*-{70}.(.*?)-{70};6;70;70;Text generated.
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437};16;5279;8714;Text generated.
+a{51};1;52;52;Text generated.
+a{256};1;257;257;Text generated.
+5[0-9a-zA-Z]{50};112;5012;9802;Text generated.
+200 [^\x0a]{64};93;5034;9608;Text generated.
+>([^<]{100,})<;22;5082;9917;Text generated.
+={65}.*?(?:EXPORTED\n\n)+;1;142;142;Text generated.
+<pre>(?:.{1023}\n){1024}</pre>;2;8;8;Text generated.
+<?(a)?:?([0-9a-zA-Z_]{2,32}):([0-9]{17,19})>?;3;85;85;Text generated.
+-{20,40}[0-9a-zA-Z_]{6,24}[\n\r]*;4;45;45;Text generated.
+_{58};1;59;59;Text generated.
+^X?PAT[ \n\t\r\f]+[^\n]{1024};6;5119;5121;Text generated.
+^Via\x3A[ \n\t\r\f]+SIP\x2F2\x2E0\x2F(TCP|UDP)[ \n\t\r\f]+[^\x3B\r\n]{63};65;2098;2098;Text generated.
+^USER[ \n\t\r\f]+[^\n]{100,};85;5003;5004;Text generated.
+^To\x3A[ \n\t\r\f]+[^\r\n]{256};22;5191;5192;Text generated.
+^TEST[ \n\t\r\f]+[^\n]{100,};85;5003;5004;Text generated.
+^SOML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};28;5120;5294;Text generated.
+^SEARCH[ \n\t\r\f]+[^\n]{1024};6;5122;5123;Text generated.
+^SAML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};28;5120;5294;Text generated.
+^RCPT TO\x3a[ \n\t\r\f]*[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};28;5117;5291;Text generated.
+^PASS[ \n\t\r\f]+[^\n]{100};85;5003;5004;Text generated.
+^MAIL FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};28;5120;5294;Text generated.
+^Location[ \n\t\r\f]*\x3a[ \n\t\r\f]*[0-9a-zA-Z_]+\x3a\/\/([^\n]*\x3a)?[^\n]{128};42;5119;10144;Text generated.
+^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?ethereum\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+);66;2071;2064;Text generated.
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,};6;5127;10241;Text generated.
+^From\x3A[ \n\t\r\f]+[^\r\n]{256};22;5193;5194;Text generated.
+^Content-Length\x3A[ \n\t\r\f]*[^\r\n]{100,};85;5013;5014;Text generated.
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128};49;5071;5072;Text generated.
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};155;5026;6321;Text generated.
+^<([a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>;4;193;193;Text generated.
+^<([a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>;4;193;193;Text generated.
+^\n*[sS][oO][mM][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};28;5090;5264;Text generated.
+^\n*[sS][eE][nN][dD] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};28;5090;5264;Text generated.
+^\n*[sS][aA][mM][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};28;5090;5264;Text generated.
+^\n*[rR][cC][pP][tT] [tT][oO]\x3a[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b\x40\.]{0,200}\x3b[a-zA-Z0-9\x5f\x20\x09\x0b=x40\.]{200,}\x3b[a-zA-Z0-9\x5f\x20\x09\x0b\x40\.]{0,200};28;5088;5262;Text generated.
+^\n*[mM][aA][iI][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};28;5090;5264;Text generated.
+^\%?([A-Z]{2})([^\^]{1,13})\^?([^\^]{1,35})\^?([^\^]+)\^?\?;3;12;12;Text generated.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};19;5270;5271;Text generated.
+^[a-z0-9A-Z_ /-]{0,256}[a-z0-9A-Z_ -]{1,253}\.js$;17;5068;5306;Text generated.
+^[a-z0-9]{40}|[a-z0-9]{70}$;2;43;43;Text generated.
+^[a-z0-9-!#\$%&'*+/=?^_`{|}\~]+(?:[.][a-z0-9-!#\$%&'*+/=?^_`{|}\~]+)*@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z-]{2,24}$;64;1963;1963;Text generated.
+^[[0-9a-fA-F]{12}|[0-9a-fA-F]{40}]$;14;94;94;Text generated.
+^[ \n\t\r\f]*SEND[ \n\t\r\f]+[^\n]{246};23;5208;5209;Text generated.
+^[ \n\t\r\f]*SAML[ \n\t\r\f]+[^\n]{246};23;5208;5209;Text generated.
+^[ \n\t\r\f]*Cookie[ \n\t\r\f]*\x3a.*?OvOSLocale[ \n\t\r\f]*\x3d[ \n\t\r\f]*[^\x3b \n\t\r\f]{249};22;5083;9007;Text generated.
+^[ \n\t\r\f]*Content-Type[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300};19;5278;5279;Text generated.
+^[ \n\t\r\f]*Content-Transfer-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\n]{100};84;5006;5007;Text generated.
+^[ \n\t\r\f]*Content-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300};19;5282;5283;Text generated.
+^.{3}\xFF[sS][mM][bB][sS].{56}.*\x00.{255}.*\x00\x00.*.*\x00\x00;4;17;17;Text generated.
+^(NT|CallBack|SID|TimeOut)[ \n\t\r\f]*\x3a[ \n\t\r\f]*[^\n]{512};11;5094;5098;Text generated.
+^(6334[5-9]([0-9]{11}|[0-9]{13,14}))|(6767([0-9]{12}|[0-9]{14,15}))$;131;427;427;Text generated.
+^([a-zA-Z0-9]{4} ){2,8}[a-zA-Z0-9]{1,4}|[a-zA-Z0-9]{12,34}$;2;10;10;Text generated.
+^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,8}$;62;1958;1958;Text generated.
+^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$;62;1958;1958;Text generated.
+^([a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?\.)*[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?\.[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?$;63;193;193;Text generated.
+^([0-9]{3,})[ \n\t\r\f]?([0-9a-zA-Z_]{0,5})[ \n\t\r\f]([a-zA-Z]{2,30})[ \n\t\r\f]([a-zA-Z]{2,15})\.?[ \n\t\r\f]?([0-9a-zA-Z_]{0,5})$;6;49;49;Text generated.
+^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z]{2,6}$;62;1958;1958;Text generated.
+^(?:[a-z0-9\*](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]$;63;1959;1959;Text generated.
+^(?:[^^a-z0-9A-Z__]((?:[^^a-z0-9A-Z__]|-){0,61}[^^a-z0-9A-Z__])?\.)+[a-zA-Z]{2,6}\.?$;7;361;361;Text generated.
+^(.{30}).{4,}(.{30})$;1;33;33;Text generated.
+^(.{30})(.*?)(.{30})$;1;32;32;Text generated.
+^(([^=;]+))[ \n\t\r\f]{0,256}=[ \n\t\r\f]*([^\n\r\0]*);2;259;259;Text generated.
+^ (.{30}) .*? (.{30}) $;1;35;35;Text generated.
+\x99{40}\xeb\x12\x01\x99{4}\x18A{5}.{4}A{6};2;48;48;Text generated.
+\x3D[^ \n\t\r\f\n]{88};61;5044;9968;Text generated.
+\x3C[^\x3E\x0a]{500};12;5483;10944;Text generated.
+\x01.{240}.*\x0C.*.{0}.*%.{1}.{0,7}%.{1}.{0,7}%;1;0;24146;TIMEOUT.
+\r\nContent-Length\x3A[ \n\t\r\f]*[^\r\n]{100,};85;5015;5017;Text generated.
+\r\nAccept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};152;5027;6227;Text generated.
+\Ahttp.+([0-9a-f]{20,20})\/([0-9a-f]{40,40})\/?\Z;1;28;28;Text generated.
+\A([\p{L}0-9_]([\p{L}0-9\-_]{0,61}[\p{L}0-9])?\.)+[\p{L}]{2,6}\z;62;1958;1958;Text generated.
+\[{50000}a\]{50000};1;0;21331;TIMEOUT.
+\[\n \n\t\r\f*[^\[\{\}\]]{0,100}\];86;5005;5006;Text generated.
+\.{100,};1;101;101;Text generated.
+[a-zA-Z0-9]{94}\=\=\-\-[a-z0-9]{40};1;99;99;Text generated.
+[A-Za-z0-9]{64};1;65;65;Text generated.
+[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\/.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+;1;0;19487;TIMEOUT.
+[A-Za-z0-9\+/]{342}==;1;345;345;Text generated.
+[-a-zA-Z0-9@:%_+.~#?&/=]{2,63}[.,][a-z]{2,10}[ \n\t\r\f](/[-a-zA-Z0-9@:%_+~#?&/=]*)?;1;0;127;TIMEOUT.
+[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;254;1518;1518;Text generated.
+[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?;254;1518;1518;Text generated.
+[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}[ \n\t\r\f]([-a-zA-Z0-9@:%_+.~#?&//=]*);254;2015;2015;Text generated.
+[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}[ \n\t\r\f]([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*);254;2015;2015;Text generated.
+[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}[ \n\t\r\f]([-a-zA-Z0-9@:%_\+.~#?&//=]*);254;2015;2015;Text generated.
+[A-Za-z]{64};1;65;65;Text generated.
+[a-zA-Z]{50};1;51;51;Text generated.
+[a-z0-9A-Z_0-9]{64};1;65;65;Text generated.
+[a-z0-9A-Z_]{64};1;65;65;Text generated.
+[a-z0-9A-Z_\./]{3,10} +[a-z0-9A-Z_\./]{1,400} +[a-z0-9A-Z_\./]{1,20}.+;4;420;420;Text generated.
+[A-Z0-9_-]{64};1;65;65;Text generated.
+[a-z0-9]{32}:[A-Za-z0-9]{32};1;34;34;Text generated.
+[a-z0-9._%+-]{1,64}@(?:[a-z0-9-]{1,63}\.){1,125}[a-z]{2,63};5;136;136;Text generated.
+[a-z]{64};1;65;65;Text generated.
+[a-fA-F0-9]{64};1;65;65;Text generated.
+[A-Fa-f0-9]{128};1;129;129;Text generated.
+[a-f0-9]{64}$;1;65;65;Text generated.
+[A-F0-9]{60};1;61;61;Text generated.
+[a-f0-9]{60,}$;1;61;61;Text generated.
+[a-f0-9]{32,64};1;33;33;Text generated.
+[a-f0-9]{16,128};1;17;17;Text generated.
+[1-9a-km-zA-LMNP-Z]{51,111};1;52;52;Text generated.
+[1-9]{1}[0-9]{63};87;5030;9888;Text generated.
+[0-9a-zA-Z_]{5,255};1;6;6;Text generated.
+[0-9a-zA-Z]{50};1;51;51;Text generated.
+[0-9a-fA-F]{64};1;65;65;Text generated.
+[0-9A-Fa-f]{32}|[0-9A-Fa-f\-]{36};38;694;694;Text generated.
+[0-9a-f]{64};1;65;65;Text generated.
+[0-9a-f]{144};1;145;145;Text generated.
+[0-9a-f]{128};1;129;129;Text generated.
+[0-9^0-9]{100};1;101;101;Text generated.
+[0-9]{64};1;65;65;Text generated.
+[01]{70};1;71;71;Text generated.
+[^\n]{990};1;991;991;Text generated.
+[^ \n\t\r\f]{50};1;51;51;Text generated.
+[^ \n\t\r\f]{190}.rt;2;197;197;Text generated.
+[^ \n\t\r\f]{100,};1;101;101;Text generated.
+[ =]{25}={50}[ =]{25};26;126;126;Text generated.
+[ \n\t\r\f^ \n\t\r\f]{100};1;101;101;Text generated.
+[ \n\t\r\f]{255,};1;256;256;Text generated.
+[ \n\t\r\f]{230,}\.htr;1;236;236;Text generated.
+[ \n\t\r\f]{230,}.htr;2;237;237;Text generated.
+[ \n\t\r\f]*(.{10,70})(?:[ \n\t\r\f]+|$);2;21;21;Text generated.

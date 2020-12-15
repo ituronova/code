@@ -1,0 +1,1000 @@
+name=\"id\"\\s+value=\"([^\"]+)\"
+(\\\\\\d{3})
+^I should not see a table header with \"([^\"]*)\"$
+[=:].*$
+\\$SPM
+^import|^module
+(S\\d+).*(2160p).*(Netflix|Amazon).*(TrollUHD|NTb|VLAD)
+<\\/?(?:script|iframe)\\b[^>]*>
+(?<=\\s)u[\\'\"](?!\\)|,|$)
+all_docs$
+^(\\w+) goes to \"(.+)\"$
+r'[^']*'
+run
+^(?:[^\\w\\d_\\-\\.%]|$)
+^\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}$
+src\\/utils
+remark-preset-lint
+\\s+Asset\\s+Size\\s+Chunks\\s+Chunk Names
+OK\\|(\\d+)
+(<(?:frame|iframe|img)\\W[^>]*?src\\s*=\\s*)([\\\"\\'])(\\S*?)(\\s.*?)?>
+(?:%([a-fA-F0-9]{2})%([a-fA-F0-9]{2}))
+%path%
+^[[]
+[^a-zA-Z0-9\\._\\-]
+^  Punt is an example command
+:\\d*|^\\.
+(?<_1>action)\\s+(?<_2>[\\w\\d]+)\\s+(?<_3>{)
+[_0-9]+
+^(\\w+)\\s*:\\s*(.+)$
+def yo
+[^a-zA-Z0-9\\-\\.~_]+
+<([a-zA-Z0-9:]+)(?=[^>]*></\\1>)
+^created by (.*)
+.{1,78}
+/|mailto:
+\\A<h\\d>|<\\/h\\d>\\z
+^Z
+No mapping found for the path \"danf\\/protected\\/public.css\".
+(?:\\*|\\s-\\b|\\b(?:OR|AND|\\+)\\b)
+r(?P<length>[whqes])?
+(?:^|\\s+)([A-Z])
+(\\b19|\\b20)\\d\\d-\\d\\d
+([\\w]*glut[\\w]*)$
+.*: (.*) created
+\\[write\\] (.+$filename)
+FooDeathTest\\.\n  Test1\nFoo\\.\n  Bar1\n  Bar2\n  DISABLED_Bar3\nFooBar\\.\n  Baz\nFooTest\\.\n  Test1\n  DISABLED_Test2\n  Test3\n
+^the page title should( not)? be \"(.*)\"$
+.*if_not_exists\\s*\\((?P<path>.+),\\s*(?P<default>.+)\\).*
+<\\s*\\/?body[^>]*>
+ ($END) 
+odt
+has a \"clear\" operator in \"nodeRefList\"
+^([^@]+@)?([^:]+):/?(.+)$
+([?*\\{\\[]+.*$)
+^([^\\s]*)\\s*([\\S\\s]*)
+^the value at \"([^\"]*)\" should be a list$
+illegal root
+^there is a wiki with no Cucumber features defined$
+^by_
+^\\* NAMESPACE (.*)
+^      <label>
+^Maypole
+ d\\.c\\.
+^[a-zA-Z][a-zA-Z0-9_]*(?:\\.[a-zA-Z][a-zA-Z0-9_]*)*
+^(?:name|longname|sequence-ID|\n                          creation-date|direction|strandedness|\n                          type|offset|group-ID|creator|descrip|\n                          comment|sequence)
+^.*-([0-9]+)(?:,([0-9]+))? \\+([0-9]+)(?:,([0-9]+))?.*$
+^text/html
+^(?:enum)
+\\$[0-9a-f]{1,2}$
+^:pending   if it throws a `Specdown::Pending` exception$
+^he should see the (\\d+) meetings that are running$
+$seq_dir/(.*)
+(^=\\s*([\\\"\\'])(.*?)\\2\\s*)
+IssuersFrameVar: (0|-?[1-9]\\d{0,18})\n
+(?<!.zip)$
+SGS-(.*) Device, Compiled on .*$
+(&)?(!)?\\b(\\w+)(?:\\[\\s*(.*?\\]?)\\s*\\]|\\(\\s*(.*?\\)?)\\s*\\))?\\s*(;|\\|)?
+ActiveRecord::UnknownMigrationVersionError:
+puppet/provider/does_not_exist/does_not_exist
+Url must be a string. Received undefined
+Nothing to see here\\.
+.*19.*24\\.5.*
+not a valid GraphQL DocumentNode
+^[^[:word:]][^\"]*$
+\\A(\\d{2})W(\\d{2})(\\d{1})?\\z
+(^-?\\d\\d*$)
+(.+-)+.+
+^\\d{4}-(0[0-9]|1[0,1,2])-([0,1,2][0-9]|3[0,1])$
+\\A+?[1-9][0-9]*\\Z
+(?i)\\bmusl\\b
+^server process \\(PID (\\d+)\\) was terminated by signal (6|11)
+(\\\\subsection){(.*)}
+[\\(<]{1}(http|ssh|ftp|git)
+([a-zA-Z0-9]+)(\\[([0-9]*)\\])?
+\\006
+\\A\n\t               Attribute [ ] \\((.*)\\)  # $1 = attribute name\n\t\t\t\t   [ ] does [ ] not [ ] pass [ ] the \n\t\t\t\t   [ ] type [ ] constraint [ ] because: \n\t\t\t\t   [ ] Validation [ ] failed [ ] for [ ] '(.*)' # $2 = type\n\t\t\t\t   [ ] failed [ ] with [ ] value [ ] (.*) # $3 = bad value\n\t\t\t\t   \\z
+../(?:index\\.php)?\\?id=([^&]+)
+\\x1b\\\\[[0-9]+m[\\x1b]?
+\\s*-?\\d+(?:rad|deg)\\s*
+(\\d+) 
+(BeOS|Haiku|AmigaOS|MorphOS|AROS|VMS|RISC|Joli|OS\\/2|Inferno|Syllable|Grid|MTK|MRE|MAUI|Nucleus|QNX|VRE|SpreadTrum|ThreadX)
+^(\\d+)(K|M|G)?$
+^IPC::Cmd::TimeOut:
+[^\\uff40-\\u{10428}]+
+Lumen \\(([0-9\\.]+)\\)
+all_sts_seq
+ingests\\/jq937jp0017\\/v0002
+(<\\w[^>]*>)
+^\\e\\[0;32m\\d{2}:\\d{2}:\\d{2} (AM|PM) Success message\\e\\[0m$
+Mobile\\sSafari
+\\AAsymmetricObjectProperty
+\\.deb$
+function[^\\(]*\\(([^\\)]*)\\)[^\\{]*{([^\\}]*)\\}
+%3F|%26
+^(-|[abcdefgh][36])$
+^[A|M].*
+^[\\da-z]+[\\da-z\\-_]*[\\da-z]+$
+two \\w+ message$
+fr
+\\t#<Async::Node:0x\\h+>\\n
+(<E[^>]*><T>[Aa]n<\\/T> <N pl=\"n\" gnt=\"n\" gnd=\"m\">[Mm]he\\x{e1}n<\\/N><\\/E> (?:<N[^>]*gnt=\"y\"[^>]*>(?:[Ll]ae|[Oo]\\x{ed}che)<\\/N>))
+^$exc
+Profile\\sViews:&nbsp;\\s*(\\d{1,})
+PRELIM_CHECK$
+APP_KEY=?(.*)
+ \\p{InHangulSyllables}    
+node_modules\\/sinon\\/
+\\A(sort|select)\\z
+^//\\s*(.*)$
+\\b\\d+:?\\d*[ap]\\b
+\\{\\s*\\[native\\s+code\\]\\s*\\}
+\\$\\{([^\\$\\{\\}]+)\\}
+@slug (.*?)\\n
+keepLines
+:$preset
+(\\[Round.*?\\])
+^access_token
+class AvatarUploader < CarrierWave::Uploader::Base
+^(\\d+) ((?:month|day|week|quarter)s?) ago$
+(\\w{2}_\\w{2})$
+/\\*.*\\@func\\w*\\s+aj
+^(?:\\s*let)|(?:\\s*(rule|$))
+(?i)Error: image .* not found
+^[a-z]+\\(([0-9]+)\\)$
+[(^rgb\\()]*?[^a-fA-F0-9,]*
+^{filedir_(\\d+)}(.*?)$
+\\[\\^[\\\\\\/]+\\]
+([iIuU]})(\\\\ham{a})
+\\A^[-+*={}()<].*
+^the output DOM should be:$
+Invalid Authorization Number
+CrOS
+/namespaces/default/pods/[a-z0-9-]+/log\\?.*follow
+^\\d:
+\n[\t]+?([^\t])
+^this\\.(.+)$
+^(ARRAY|HASH)$
+(.*?)G.*
+START|STOP|FAILED
+\\d+\\.\\d+.*
+(.+)\\t\\[(.+)\\]
+^\\s*(?<_1>import static)\\b(?:\\s*(?<_2>[^ ;$]+)\\s*(?<_3>;)?)?
+^(.+?) record$
+^place\\/\\d+\\/siblings$
+[\u00c6]
+(Test|Spec)\\.(m|mm)$
+\u03ac|\u03ad|\u03ae|\u03af|\u03cc|\u03cd|\u03ce|\u0386|\u0388|\u0389|\u038a|\u03aa|\u038c|\u038e|\u038f|\u03ca|\u03cb|\u0390|\u03b0
+^the process(?: \"([^\\\"]*)\")? should exit successfully$
+(.+?)[a-z]
+([^\\$\\w\\d])wwWWwWW([^\\w\\d])
+due \\d+ \\w+$
+\\A(.*?)($self->{rx})
+<script type=\"text\\/javascript\" src=\"js\\/app.js\"><\\/script>
+^(.*?)(?:\\(\\s*(.+?)\\s*\\))?$
+\\A MSWin
+^UK ALTERNATE:\\s*
+http://.*\\.honest
+\\A([bwtglsavn]:)(\\w|\\{)
+0pxdow=0px
+^(javascript|#)
+B<(.*?)>\n              
+[[:alpha:]]+\\\\(.+\\\\)
+<\\/(?:p|div|h[1-6]|li|td|pre)>(?=[^\\n])
+mount\\s+
+there are both positional and keyword arguments for parameter \"y\"
+^MOV\\s*R(\\d+)\\s*,\\s*PC$
+^ *\\t*(?:import|from)[ ]+(?:(\\w+)[, ]*)+
+(\"updtr-test-module-\\d+\": \")(\\d+)
+^(?:include|ascii|condition|meta|nocase|fullword|strings|wide)$
+([\\w]+\\.template\\.)([\\w]+)
+^(\u0393\u0395|\u03a3\u03a4\u0391)$
+\\A(\\d+)_.+\\.(json)\\z
+^$tmp_patterns[$i]\\.
+(\\w+)=(['\"]?)([a-zA-Z0-9@=.\\/_-]+)\\2
+^\\s*\\[([^\\[\\]]+)\\]\\s*$
+^\\$\\d
+[ \n]d=\"[^\"]*\"
+Conference report to accompany 
+<Name>gs-test.*<\\/Name>
+(?P<url_chars>.*)(?P<tag><\\/[a-z]+)$
+^data-(.+)
+^Icon.{1}$
+--db=(.+)
+class Min_Driver.*\\n\\t}
+default\\s+(\\S*)\\s
+\\{\\s*\"foo\":\\s*\"bar\"\\s*\\}
+\\[\\[::HARD_BREAK::\\]\\]
+[\\[\\]:*?/\\\\]
+(\\d+),(\\d+),(.+?),(.+)\\z
+^(x86_64)$
+<meta\\s+[^>]*\\s*charset\\s*=\\s*[\"']([a-z0-9-]{3,15})[\"']
+(?<!\\.)\\b(?<_1>class|double|function|functions|input|inputname|inputParser|int16|int32|int64|int8|logical|single|struct|uint16|uint32|uint64|uint8)\\b
+<!-- BEGIN (.*?) -->
+<ph:def_main_auto_include ?/?>
+^(?:[\\w+(?:-\\w+)+.])+(?:[\\:0-9]{4,5})?
+\\<(\\s*cross-domain-policy(?=\\s|\\>))
+(.+)/(\\d+)-(\\d+)
+^/([bgeupsliok])$
+unimarc$
+((\\r?\\n[ \\t]*){0,$num})$
+pre\\._stderr
+contains no patterns.
+<a class='u'.*?name=\".*?\"\\s*>(.*?)</a>
+Organization not found
+^\\$citizen\\s*==\\s*-?\\d+$
+\\A(.+)is$
+(\\\\d{2}\\\\.\\\\d{2}\\\\.\\\\d{2}) (\\\\d{2}:\\\\d{2}:\\\\d{2}) (.*)
+it failed with ampersands\"
+[\\u00a0 ]
+^IBLOCK_(\\d+)_SECTION$
+$self->{separator}->{release}([$self->{sep_class}])
+ReferenceError
+[\\\\][\\\\]*
+[\\r\\n\\u2028\\u2029]
+(?:global|local) [a-zA-Z0-9_]+
+^\\#\\s+(RNA model)\\s+\\=\\s+(\\S+)
+result=(-?[\\d*#]+)
+^Logging::
+_(\\d+x\\d+|cy\\d+i\\d+|sum|m|b)?(xz|xc)?((?:q\\d+)?(?:s\\d+)?)(\\.jpg)?(_\\.webp)?$
+ \u2010
+^Unscoped\\ call\\ to\\ `Email\\#find_by_id!`
+not able to get
+^IDENT:([^\\@]+)\\@
+^[ ]{2,}\\z
+stuff here
+.*Infinity|NaN
+^Linux version (\\S+) \\(
+warn|err
+^(?i)CfPagePreview|CfCatalog|AddCfProjectData|CfProjectChangeCategory|NewCfProject|MyCfProjects|DelCfProject|DelCfFunding|CfStart$
+(?<!\\\\)\\#\\{.*\\}
+title 2.*title 1
+@fileoverview\\b
+Module not found: Error: Cannot resolve 'file' or 'directory'
+(<!--.*?-->|<[^\">]*(?:\"[^\"]*\")*[^>]*>)
+^t/\\Q$_
+.*(public|protected|private|static|final|\\s) +[\\w\\<\\>\\[\\]]+\\s+(\\w+).*
+^Error: scalar was invalid \\(zero or overflow\\)$
+^application/json\\b
+^dnf.*
+((\\p{L}+)-$)|(^-(\\p{L}+)(.*))|((\\p{L}+)-(\\p{L}+)(.*))
+\\\\begin{tikzpicture}
+(?m)<span class=\"comment-date\">.+?<\\/div>.+?<\\/div>
+^([a-f0-9]{40})
+($number_re)
+end|\\d+
+\\boff
+MIDP
+(^|[\\n ]) 
+You are no longer a member
+^\\/?(.*)
+(jparticles(\\.all)?\\.js|maps)\\s
+<span class=\"spoiler\">(.*?)<\\/span>
+\\$[\\w\\d][\\w\\d_:]*
+\\A..?\\z
+\\b((f+o+o+|b+[a4]+r+))\\b
+^(.*)(_with_destroyed)$
+(?i)hugolib:
+^(?:alive|down|dead)$
+,?([achlmqrstvxz]),?
+^[0-9]{2}_[0-9]{3}$
+[aiouy]+e*|e(?!d$|ly).|[td]ed|le$
+warehouseclosed
+\\AUTF-?8\\z
+BADSESSION
+(?:\\/\\/[@#][ \\t]+sourceMappingURL=([^\\s'\"]+?)[ \\t]*$)
+Apache(/([\\d.]+))?(\\s+\\(([A-Za-z0-9]+)\\))?
+Reek.+
+^OPEN(\\d+)
+SELECT COUNT\\(\\*\\) FROM \\\"articles\\\"
+^gu(.*)
+KEY_CREATED
+.vml$
+is expected to be a Float and is not
+\\bAS\\b
+\\.bgz$
+(^|:| )operator 
+^\\\\u([0-9a-fA-F]{4})
+^undef:$
+Argument 2 \\('errorCallback'\\) to Database\\.transaction must be a function
+^\\s*No builder for extension ''$
+data-client attribute is required
+^.(II|MM)
+fragment(?![as])
+[^\\/]+\\.jar
+\\[e:([0-9A-F]{3})\\]
+^(?:\\s*)([^=\\s]+)(?:\\=\"(.*?)\")?
+tacacs-server host\\s(testhost\\.example\\.com)(.*)
+example_
+^\\.|\\/\\.|\\.\\.|~|\\^|:|\\/$|\\.lock$|\\.lock\\/|\\\\|\\*|\\s|^\\s*$|\\.$
+datetime\\(\\s*CURRENT_TIMESTAMP\\s*,\\s*'localtime'\\s*\\)
+Did you mean this\\?[^\\n]*\\n\\s*([^\\n]*)
+\\s*=\\s*([^,\\}]+)
+SELECT.*FROM.*event_store_events.*WHERE.*event_store_events.*stream.*=.*ORDER BY.*event_store_events.*id.* ASC LIMIT.*
+(\\s*(?:family|major|minor|patch|patch_minor|brand|model):)\\s?\\n$
+\\.$format$
+^[cb]a+t
+^\\w+_(in|out)$
+^a doc string element based on the following gherkin:$
+\\<strong\\>
+\\s*(.*?)(\\d+ files? changed)
+\\[app\\.model\\] namespace should be defined
+^[\"'`]
+(?<!\\*)\\*\\*/|^\\s*\\}|\\/*\\s*@end\\s*\\*\\/
+Geo polygon query does not support scripted fields
+^([^%]*)%R(\\d*)x([^%]*)$
+(?x)\n     /\\*\\*(?!\\*)\n    |^(?![^{]*?//|[^{]*?/\\*(?!.*?\\*/.*?\\{)).*?\\{\\s*($|//|/\\*(?!.*?\\*/.*\\S))\n    
+var data \\= (.+)\\;
+(\\=+)$
+INFO.*Meh
+:registerable,
+^IS
+^(.+?)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+)\\s+(\\d+)%\\s+(.+)$
+    drop_table :users
+^(OR|Inclusive)$
+(\u00d0\u00b5\u00d0\u00b2|\u00d0\u00b8\u00d0\u00bd|\u00d1\u008b\u00d0\u00bd|\u00d1\u0091\u00d0\u00b2|\u00d0\u00be\u00d0\u00b2)\u00d0\u00b0$
+JUC.+(ucweb)[\\/\\s]?([\\w\\.]+)
+^D
+/[^\\(\\)\\<\\>\\[\\]\\{\\}\\/\\%\\s]+
+\"client_secret\":\"X\"
+^CF\\.(.+)$
+^Table `.*` already exists
+(NONE|WEP-H|WEP-A|TKIP|AES)
+, *(?=[^(]*\\))
+\\bqw?\\s*\\[
+(\\W|\\n)
+[\\.\\:]
+Invalid namespace id
+^\\/video\\/[^\\/]+\\/(\\d+)
+[0-9]+(?:\\.[0-9]+){3}/[0-9]+
+[Ss][Hh][Aa][Ww][Nn]
+^[0-9]{2,4}-[0-9]{2,4}$
+comment><comment>sets and returns the instance variable B<format_table>. See also the option B<format_table><
+office-ui-fabric-react[\\\\/]lib[\\\\/]components[\\\\/]ContextualMenu[\\\\/]ContextualMenu.js
+^(?:do|while|for|switch)$
+};([^}]*)$
+\\s+Keep reading .\\s*$
+\\x1b\\[\\d+?m
+before=$
+^(Windows-(1253|1255|1257|1258)|Windows-874)
+function\\s*(\\w+)
+(\\.aspx?$|\\.php$|\\.jsx?$|\\.html?$)
+(?:^:| :)(.*)$
+^\\#\\s{0,1}
+\\A(?:$prefix)?(.*)(?:$suffix)?\\z
+^((?!web[-_]config_diff.html).)*$
+^View\\:
+(\\S+)([ \t]*?)(.*)
+(<V cop=\"y\">[^<]+<\\/V> <E[^>]*>(?:<P[^>]*>\\x{e9}ard<\\/P>)<\\/E>)
+.*?\\015?\\012
+can\\'t connect
+The convert_to lookup_option for key 'mod_a::to_int' raised error.*The string 'bananas' cannot be converted to Integer
+(?<![<>])(<F>[Dd]aoithe<\\/F>)(?![<>])
+render\\s*\\(
+^(\\w+)_news$
+ *\\(\\@INC contains:.*
+^===disabled because of timeout: (\\d+)$
+(?<![<>])(<S>(?:[Dd][eo]n|[Ss]an?|[Ff]aoin|[\\x{d3}\\x{f3}]n)<\\/S> <N pl=\"n\" gnt=\"n\" gnd=\"m\">T\\x{f3}ga<\\/N>)(?![<>])
+Symbol:[\\w\\d\\s.-]+
+^(\\d+)\\b
+^configuration$|^.*files$|^grades$|^gradeitems$|^questions$|^attempts$
+^\\+-o\\s(?P<name>.*)\\s+<class (?P<ioclass>[\\w]+),(?P<flags>[^>]*)
+^(get|post|delete)
+\\,(\\))
+title must be a string
+[\\s]*
+libffi.a
+archive
+^app\\/assets\\/javascripts\\/
+.*(?=\\*\\/)
+^@@ -(\\d+)(?:,(\\d+))? \\+(\\d+)(?:,(\\d+))? @@[ ]?(.*)
+(?:<[\\/A-DF-Z][^>]*>)+([Tt]har)<\\/[A-DF-Z]> (?:<[\\/A-DF-Z][^>]*>)+(br\\x{e1}id)<\\/[A-DF-Z]>
+^[%#]
+.*ana.*
+^aws_(.*)$
+&radic;
+(?><<-'((?:\\w+_|)(?:JS|JAVASCRIPT))')
+adv_act_list\\.gif$
+^feb\\.?(braio)?$
+trimmed|TRIMMED
+host
+[a-zA-Z0-9_.,@/:#-]+
+\\((\\w+),(\\w+)\\)
+[./\\(\\)]
+(\"|')(https:\\/\\/.*)(\"|')
+\\A([AC-FHKNPRTV-Y]\\d{2}|D6W)\\s?[0-9AC-FHKNPRTV-Y]{4}\\z
+\\#[^\\\"]*$
+^selenium_blank
+label [^>]*for.+hoho
+7-bit
+Windows Phone
+([#.@])([-:_a-zA-Z0-9]+)
+(?:^@|\\s+@)(\\w+)
+^:ALL$
+Gene:CG
+<([^>$specials]+)(?:[$specials][^>]+)?>
+<a (.*?)href=\"(.*?)\"(.*?)>(.*?)<\\/a>
+contacts
+^(?:mailto)\\:(.+)
+\\A(')
+(.*)\n                                \\[(?:([\\d_,.]+)/([\\d_,.]+)  |\n                                     (?:([\\d_,.]+)%))\n                                  (?:\\s+[^]]*)?\\s+Done\\]\n                                (.*)
+\\[Status\\]\\s+(.+)\\n
+url *\\( *(.+?) *\\)
+^(#\\pL[\\pL\\d\\-_.]*[\\pL\\d])$
+^OK \\(([0-9]+) tests?, ([0-9]+) assertions?
+\\[\\[(.+)\\]\\]
+Tcp
+Device supports SMART
+^endfilter$
+^.* \\d{3} 
+((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))\\s*:\\s*(\\d{2,5})
+login:\\s
+(\\^\\^[a-zA-Z]+)
+[ \\(\\)<>@,;:\\\"\\/\\[\\]\\?=]
+\\{(.*)\\((.*)\\)\\}(.*)\\{\\/\\1\\}
+intf
+$y
+\\sLIMIT\\s
+rspec-multi-matchers/lib/match_each\\.rb
+unidades
+^(?:(?<groupId>[^:]+?):(?<artifactId>[^:]+?):(?<version>[0-9][^:]+?))$
+[a-c]{3}-[d-f]{3}-[0-9]{4}
+bytes (\\d+)-(\\d+)
+^\\s*\\<\\!DOCTYPE\\s+html[\\s|\\>]
+^(any|Window|Worker)$
+<(p|br\\s*/)>
+[A-Z]?[a-z]+|[A-Z]+(?=[A-Z]|$)
+(iPhone|iPad|iPod).*?OS\\s+(\\d+_\\d(_\\d)?)
+blogs.law.harvard.edu
+(?<![<>])((?:<N[^>]*>[Mm]ara<\\/N>) <A pl=\"n\" gnt=\"n\">miste<\\/A>)(?![<>])
+&(?![a-zA-Z0-9#]{1,20};)
+^\\#\\s*((if)(?:n?def)?|elsif|else|endif)\\b
+[\\+j-]
+^((<=?)|(>=?)|={2,3}|[~!]=|in|not\\s+in)\\s*
+^rfnd_test
+^(?:--?)?status$
+origin
+v(.*)
+Unity_\\d+\\.\\d+\\.\\d+[a-z]\\d+
+t\\d+:\\d+$
+(\\\\u[\\dabcdef]{4}|\\\\x[\\dabcdef]{2})
+<iframe[^>]+src=\"(https?://(?:news\\.sportbox|matchtv)\\.ru/vdl/player[^\"]+)\"
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:(?:3(?:Joh|[\\s\\xa0]*I|\\.[\\s\\xa0]*I)|III\\.?[\\s\\xa0]*I)n|Ioannis[\\s\\xa0]*III|(?:III\\.?|3\\.?)[\\s\\xa0]*Ioannis|Epistula[\\s\\xa0]*I(?:II[\\s\\xa0]*Ioannis|oannis[\\s\\xa0]*III)))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+^I should see each version listed\\.$
+=FOOTER
+($spaces)($r->{'livres_et_abbreviations'})($spaces)($r->{'chapitre'})($spaces)
+^\\s*else
+[\\n\\r\\f\\t ]+$
+^([a-f\\d]{2}:){5}[a-f\\d]{2}$
+^(?:p|hr|blockquote|pre|listing|plaintext|xmp|title)$
+^( (?:>\\s+)? \\d+ ) (\\.\\x20)
+<li>
+^I wait until it says \"([^\\\"]*)\"$
+<template>([\\s\\S]*)<\\/template>
+\\(|\\)|`([^`]||``)*`|`|[^\\s()`]+
+\\{ \\\\ (?:$Acc_char|$Acc_let[ ]) [ ]* [a-z]+ [ ]*\n\t(?:\\}|\\Z)
+^seq1 \\= .*\\, \\d+ bp(\\r|\\r?\\n)seq2 \\= .*\\, \\d+ bp(\\r|\\r?\\n)
+be modern
+Received multiple instances of Authorization parameter oauth_version
+<!-- (?<found_action_name>\\w+) examples: begin -->
+(\\d*\\.?\\d+)
+^alignment-adjust
+^[^\\]]+
+\\[event\\-summary\\](.*?)\\[\\/event\\-summary\\]
+\\/View\\/(\\w*)\\.pm
+\\s*(-?\\d*\\.{0,1}\\d+)\\s*(-?\\d*\\.{0,1}\\d+)\\s*(-?\\d*\\.{0,1}\\d+)\\s*
+^v([\\d]+)
+()<B><Z>(?:<[^>]+>)+<\\/Z>([Mm]h?\\x{f3}ir)<\\/B>()
+^document\\('?(.*?)'?\\)(.*)$
+^.*?Immediate\\b.*source-map-file.js:7.*$
+^lng_([a-z]{2}(-[a-z]{2})?)\\.php$
+HHVM/([\\d.]+)
+^collapsed ?introns?
+\\\\xFF hellow \\\\u00A3 \\\\50 there \\\\cB \\\\n \\\\w
+landscape
+^.*[A-Z].*\\.reg\\z
+([^/]|\\\\.)*
+(.*)feeds$
+^-*$
+\\\\.data$
+\\brequire ([\\\"\\'])[a-zA-Z0-9\\.\\-\\_]+\\1\\;[\\r\\n]
+($spaces)($r->{'livres_et_abbreviations'})($spaces)($r->{'chapitre'})($spaces)($r->{'cv_separateur'})($spaces)($r->{'verset'})($spaces)($r->{'intervale'})($spaces)($r->{'livres_et_abbreviations'})($spaces)($r->{'chapitre'})($spaces)
+<div class=\"bi_annotation_text\"><div class=\"bi_anno_text_head\">Summary</div>([^<]+)<
+^([a-z]+:\\/\\/[^?]+)\\/\\/
+([a-z.]+)\\.([A-Z][A-Za-z.]+)
+^dict\\.sql$
+add_column_to_table\\.sql
+^([\\w-]+(?: [\\w-]+)*)$
+^\\n[\\u0000-\\uffff]
+(?:(?:^| )(\\d+))
+Interface 'CTSSPEC_INT' defined twice
+rgba\\(\\s*([^,]+?)\\s*,\\s*([^,]+?)\\s*,\\s*([^,]+?)\\s*,\\s*([^\\)]+?)\\s*\\)
+^\\s*\\{.*
+(?:\\[.*?\\])|(?:\\(.*?\\))
+&[a-zA-Z0-9]*;
+^peta
+# New Relic Ruby Agent Release Notes #
+^if the (\\w+) attribute is not in the (\\w+) state: [\\w, ]*(form-associated element)$
+(\\d+) error|(\\d+) failure
+class|struct
+^I get the networks status with \"([^\"]*)\"$
+^(SELECT( DISTINCT)?)
+^(http:\\/\\/.+:80)|(https:\\/\\/.+:443)$
+facebook.com
+^(?P<prefix>.*?)(?P<size>\\d{3,}?x\\d{2,}?)([,\\s])(?P<postfix>.*)$
+^(family|type):([a-z][a-z0-9_]*)(?::([a-z][a-z0-9_]*))?
+^[^, \\t\\r\\n()\"']
+(^cp\\d+)_
+^[cbdefghijklnrtuvCBDEFGHIJKLNRTUV]{32,48}$
+\\\\(\\W)
+^\\.([^~]*)\\.(json|meta)$
+^@(\\w+(?:::\\w+)*)$
+(?x)\n              (?<!-)\n              (?<=>)\n            (\n              ( ( ((\\\\)breve)|        # Duration (groups 1-4)\n                  64|32|16|8|4|2|1\n                )\n                (\\.+)?                  # Augmentation dot (group 5)\n              ) |\n              (?![\\s}~a-z]|$)\n            )\n          
+^I execute it, the test status should be:$
+^Table_.+_
+<(type|class|function) '?(.*?)'?>
+(%\\{)(?:HTTP_(?:USER_AGENT|REFERER|COOKIE|FORWARDED|HOST|PROXY_CONNECTION|ACCEPT)|REMOTE_(?:ADDR|HOST|USER|IDENT)|REQUEST_(?:METHOD|URI|FILENAME)|SCRIPT_FILENAME|PATH_INFO|QUERY_STRING|AUTH_TYPE|DOCUMENT_ROOT|SERVER_(?:ADMIN|NAME|ADDR|PORT|PROTOCOL|SOFTWARE)|TIME_(?:YEAR|MON|DAY|HOUR|MIN|SEC|WDAY)|TIME|API_VERSION|THE_REQUEST|IS_SUBREQ|(?:ENV|LA-U|LA-F|HTTP|SSL):[^\\}]+)(\\})
+^$a{method}$
+^(.+?)\\s+(\\d+)\\:([a-f0-9]+)$
+(?:^\"|\"$)
+^[^:]+\\*$
+(sqlite)
+{{nick}}
+($self->{current}{ending})
+$valid
+<file\\s*name=\".+?\">[\\s\\S]+?<\\/file>
+apply_style *\\([ \"']*BODY
+\\A(\\d+)L\\z
+<!--R-->
+((( \\(\\d\\d\\) -|(\\d\\d)? - \\d\\d\\.|\\d{4} \\d\\d -) | - \\d\\d-| \\d\\d\\. [a-z]).+| \\d\\d of \\d\\d| \\dof\\d)\\.mp3\"?|([\\)\\(\\[\\s])\\d{1,5}(\\/|([\\s_])of([\\s_])|-)\\d{1,5}([\\)\\]\\s$:])|\\(\\d{1,3}\\|\\d{1,3}\\)|[^\\d]{4}-\\d{1,3}-\\d{1,3}\\.|\\s\\d{1,3}\\sof\\s\\d{1,3}\\.|\\s\\d{1,3}\\/\\d{1,3}|\\d{1,3}of\\d{1,3}\\.|^\\d{1,3}\\/\\d{1,3}\\s|\\d{1,3} - of \\d{1,3}
+^[\\w/].*
+\u001b\\[\\d+m(.+?)\u001b\\[37m
+\\binterp->result\\s*=[^;]*$
+height:100px
+^macos
+RSpec
+[iIlL]
+^Q[1-9][0-9]*$
+^(\\d)([a-zA-Z]+)$
+Failed to load connector module
+Bob.*admin.*Admins.*Carol.*Editors.*ViewerA.*ViewerB.*ViewerC.*Viewers
+^(pp_(?:lex)?sub_.*_)(\\d*)$
+$arghash{$key}
+((animated|animation)_text(\\(([0-9]+)\\))?:)(.+)
+^Foundry Networks, Inc\\. ([A-Za-z0-9\\s]+), IronWare Version ([0-9a-zA-Z\\.]+) Compiled on (([a-zA-Z]+) (\\d+) (\\d+) )at ((\\d\\d):(\\d\\d):(\\d\\d)) labeled as ([A-Za-z0-9\\.]+)$
+[^-\\/+|\\w ]
+<dc:Language>(.*)<\\/dc:Language>
+https:\\/\\/github\\.[a-z]+\\/(.*)
+(?:this|null|true|false)\\b
+[^\\\"]*\\\"([^\\\"]*)\\\"(.*)
+^(\\[[^.[{]*)\\.?(.*)$
+^(Client\\-)
+<b><\\/b>
+TRACE
+\\A[^!]
+^openid_[^_]+_(?:value_contact_)?email$
+^ID\\s*(\\S+)
+\".+\",
+State transition from open to closed
+^ +(@#[^@]+@) +BET +(.+) +AND +(.+)
+(\\w*)-bold
+\\s*\\n\\r?(.*)
+Subject:(.)
+ \\/tmp\\/
+\\\\oint 
+.?post_id.? = 
+([+-]?)(\\w+)
+Thing#foo is deprecated; use bar instead\\.
+^Failed to parse
+ LOCK=NONE\\s*$
+bhyve
+\\\\g<([0-9]+)>
+Order Canceled - reason:
+^950
+&\\#821[12];?
+https?:\\/\\/www.youtube.com\\/watch\\?v=(?P<id>[\\w-]+)(?P<timestamp>\\&t=\\d*m?\\d*s?)?
+unset.*must
+params\\.require\\(:product_line\\)\\.permit\\(:title, :product_id, :user_id\\)
+^(\\+|\\-)?nan
+:0 0 0 0([^\\.])
+<%(\\*?[a-zA-z_][a-zA-z0-9_]*)%>
+if \\(typeInput\\.text !== ''\\)
+(?<!\\*\\*)_(?<!\\*\\*)(.*)(?<!\\*\\*)_(?<!\\*\\*)
+(?<!\\\\)[\\$\\@\\#\\&]
+^[a-zA-Z\\d_-]+$
+(=\\s*|^)for\\b
+I click the \"(.*)\" span
+^down$
+Usage: express
+windows-rss
+openui5
+homepage\\s+= \".*\"
+^s(et?)?$
+\\b([NS])\\s*(\\d+)??(?:\\s*(\\d+)(?:[.,](\\d+)|'?\\s*(\\d+(?:[.,]\\d+)?)(?:''|\\\")?)?)?
+There is an autoload on a frozen module/class
+^I use the jeweler command to generate the \"([^\"]+)\" project in the working directory$
+^NAME\\s{8}(.+)$
+\\/\\*__VIRON_COMPONENTS_CSS__\\*\\/
+min|max
+%HESITATION ?
+Accepted publickey for ([A-Za-z0-9@.\\-]+) from
+Unknown transport z found for z://foo
+^\\s*([a-f0-9]+)[ \\t]*\\r\\n
+sc_super\\((.+?)\\)
+(?:!include|!insertmacro)\\b
+<Label><!\\[CDATA\\[(.*)\\]\\]><\\/Label>
+^(?<amount>[\\d\\.]+)( (?<currency>\\w{3}))?$
+^REGEX:([a-zA-Z0-9]+):(.*)$
+Negative
+^Does not exist
+\\$\\{([^\\}]+)\\}
+https?:\\/\\/(www\\.)?onenote\\.com
+\\{(?!@\\w+\\})
+index [a-z0-9]+..[a-z0-9]+ 100644
+Required parameter: countries
+^\\(\\((.*)\\)\\)$
+coll(e|a)ge
+^s([^s])
+\\\\\\/|\\\\\\\\
+^radius
+^\\d{4,4}-[01]\\d-[0123]\\d[- _]
+\\{([^/]+?)}
+\\G.*?([\\(\\[\\{'\"\\$\\@%;])
+(?:^|\\s+)cke_[^\\s]*
+^([^/]*?:\\/\\/)(.*?)(\\/.*)$
+([^%]|^)%([^a-zA-Z%]*)l(f|g|e)
+(?P<basefile>KVV?FS \\d{4}:\\d+)
+\\\\?i(?:mage|con):([^:\\s\\[](?:[^\\n\\[]*[^\\s\\[])?)\\[(|
+^\\#\\s*ifndef\\s+(.*)
+\\[\\s?(ANDROID|GENERAL|IOS)\\s?\\]\\s*?\\[\\s?(ADDED|CHANGED|DEPRECATED|REMOVED|FIXED|SECURITY)\\s?\\]\\s*?\\-\\s*?(.*)
+pending \"add some examples to \\(or delete\\)
+[+#]11
+Unable to decrypt data
+^[0-9a-z]{3,24}$
+rubygems/core_ext/kernel_require\\.rb:\\d+:Kernel:<:
+F1\\/Escape
+^\\s*\\S+\\s+
+$Bio::Root::IO::PATHSEP
+^($conjunctives\\s+)
+<[sS][uU][pP]$R
+3\\.2\\.5\\.|done|nodeify|2\\.2\\.6
+^$toplevelq
+You're successfully running JSON Server
+^that AMI should exist as a private AMI in our AWS account$
+\\A<(\\d+)> (\\w+) - (.*)\\Z
+JS error
+registry.yarnpkg.com
+unable to connect to renderer
+\\x1b[^=]*=
+^timeout$
+^[~]+.*[~]+$
+(\\w+)sec
+[~!@#$%^&*()_|+\\-=?;:\",.<>\\{\\}\\[\\]\\\\\\/]
+\\b2?[ou]
+\\bT[AEIOU]\\b
+^\\d{12,15}$
+^https?://(?:(?:www\\.)?bitbucket\\.org|(api\\.)?github\\.com|(?:www\\.)?gitlab\\.com)/
+\\A(.*)freeze$
+^(${\\$self->qualifier_pattern})?
+([^aeiou][aeiouy]([bdgmnprst]))$
+(??)|(??)|(pm)|(PM)
+custom_require\\.rb
+^GB
+^.*:\\d+:\\d+: 
+ prepTime=\"[^\"]+\"
+^Bug (\\d+)[^\\w]*(?:Part \\d+[^\\w]*)?(.*?)\\s*(?:r=(\\w*))?$
+\\s\\\\?/
+.*\\s
+^I output the page source$
+^[^/]+/[^/}+/[^/]+/.+
+[^\u00ef\u00f4\u00e5\u00f1\u00eb\u00e4\u00f6\u00fca-zA-Z0-9\\s\\/\\-\\_\\,\\&\\.\\\"\\~\\*\\:]
+^\\s*(\\d+(?:\\.\\d+)?)\\s*(%|(?:[mM]|[kK]|[gG])?[bB])?\\s*$
+^(.+)\\.main\\..+$
+[\\\\_]
+(<\\/p><p>)+
+^(?:class\\b|constructor\\()
+\u001b.+?m
+<img src=\"/images/pub-cover-html.png\"
+\\w[']re$
+\\x{feff}feff
+<FIELD KEY=\"card_name\">
+plugins\\/([^/]+)\\/app
+^(?:not )?ok \\d
+ WHERE 
+^(BUNDLE_.+): (['\"]?)(.*(?:\\n(?!BUNDLE).+)?)\\2$
+[^\\w\\/.-](?:volume|vol\\.?|v\\.?)?\\s*([a-z]*?\\d+[a-z]*?)   # volume\n           [^\\w\\/.-]+(?:n|no|number|issue|\\#)?\\.?\\s*([a-z]*?\\d+[a-z]*?) # issue\n           [^\\w\\/.-]+(?:pages|page|pp|p)?\\.?\n                \\s*([a-z]*?\\d+[a-z]*?)(?:\\s*-\\s*[a-z]*?\\d+[a-z]*?)?\n           [^\\w(:\\/.-]+?((19|20)\\d\\d)[a-z]?\\s*(?![)-])
+^Pending: (.*)
+^processor\\s*:\\s+[0-9]+\\s*$
+^a user is browsing the desktop site$
+-([0-9][0-9])
+key.*required
+unknown-key
+\\/fixtures
+$skipexpression
+^[(!)\\d*\\w*\\s*\\[\\]\\{\\}\\/\\\\\\.\\-\\\"\\(\\)]*$
+\\/gemfiles$
+^x_upyun_file
+(?:Other Character|Original Companion|Unspecified Companion|None)
+(<Y>[^<]+<\\/Y> <E[^>]*>(?:<A[^>]*>(?:[CcDdFfGgMmPpSsTt][Hh]|[Bb]h[^fF])[^<]+<\\/A>)<\\/E>)
+[\u0e44\u0e43]([\u0e01-\u0e2e])
+expected
+^(#\\s*(if|ifdef|ifndef|else|elif|endif)\\b.*)(?:\\r\\n|\\r|\\n)
+\\/versions\\/
+\\?([^#]+)
+\\\\<title[\\\\S\\\\s]+?\\\\</title\\\\>
+^PU([GH])AN$
+<merchant-private-data>
+(?x)\n        (?<=^|\\s)\n        (?=@?[a-zA-Z\\$_])\n        (\n          @?[a-zA-Z\\$_](\\w|\\$|:|\\.)*\\s*\n          (?=[:=](\\s*(\\()(.*)(\\)))?\\s*([=-]>))\n        )\n      
+\\Ah.*d\\z
+^\n                (\\d+)\n                (\n                    s(?:ecs?)?\n                    |\n                    m(?:mins?)?\n                    |\n                    h(?:hours?)?\n                )?\n            $
+^[a-z0-9][a-z0-9\\.\\-_]*$
+[0-9][^0-9]([0-9]+)
+COMMENT\\s*=\\s*'(?<comment>([^']|'')+)'
+^spares\\s*:\\s*(.*)
+-jcb\\d+\\.[a-z]{3}$
+changefreq is invalid
+[\\w\\'\\\"\\)\\$]$
+operator><normal>>[<
+^refs/(heads|tags|remotes)/
+do\\b
+^(?:SugarCRM-1.1.3)
+STEAM_(\\d):(\\d):(\\d+)
+^the environment variable \"(.+)\" is \"(.+)\"
+Goodbye world
+(\\d+)\\s*\\(\\s*(\\S+)\\s*(.*?)\\):
+\\<(a|form|select|input|option|img)\\s+[^\\>]+\\>
+\\.min
+(?P<name>(\\w|[-.+])+)\n                      \\s*=\\s*(?P<callable>(\\w+)([:\\.]\\w+)*)\n                      \\s*(\\[\\s*(?P<flags>\\w+(=\\w+)?(,\\s*\\w+(=\\w+)?)*)\\s*\\])?\n                      
+^[^\\d]{0,10}(\\d{1,5})
+^\\[object\\s+(.*?)]$
+Failure scheduling retry using the defined `sidekiq_retry_in`
+\\s*>([^<]+)<
+packager\\.xpm$
+^.*Rails.application.config.assets.precompile.*$
+^(\\.git|\\.svn|jit.*|i386|.*\\.orig|bytecode.*\\.pl|c?ccode.*|regen_lib\\.pl)$
+-o?32
+_p[0-9]+_
+win|mingw
+^\\s*REPOST:\\s
+^([^-]*)?([-]+BEGIN (?:\\w+\\s)?PRIVATE KEY[-]+[^-]+[-]+END (?:\\w+\\s)?PRIVATE KEY[-]+\\n)([^]*)$
+[#]([^{}\\[\\]().,\\-:!*_?#\\s]+)
+^[ \\t]*(for(each)?)\\b.*\\@
+erLhcoreClassModelChatConfig::fetch\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)->data\\['([a-zA-Z0-9-\\.-\\/\\_]+)'\\]
+ceph_monitor_store_log_bytes{cluster=\"ceph\",monitor=\"test-mon03\"} 871605
+character(?: varying)?(?:\\((\\d+)\\))?
+^[^\\'\\\"]+(.+)[^\\'\\\"]+$
+redis.*: .*\\?
+\\G(?:\\\n(?# 1:  SPACE   )( )|\\\n(?# 2:  NIL     )(NIL)|\\\n(?# 3:  NUMBER  )(\\d+)|\\\n(?# 4:  QUOTED  )\"((?:[^\\x00\\r\\n\"\\\\]|\\\\[\"\\\\])*)\"|\\\n(?# 5:  LITERAL )\\{(\\d+)\\}\\r\\n|\\\n(?# 6:  LPAR    )(\\()|\\\n(?# 7:  RPAR    )(\\)))
+^I upload a file named '([^\\']+)' using the checksum of '(.+)' to the sandbox$
+^(Vodafone|SoftBank|MOT-)
+  <-- GET \\/
+[; ,|]
+\\\"\\]
+(^|\\s)*#([\\u00C0-\\u1FFF\\w]+)
+^-(-version|v)$
+^@group (.*?)$
+%%LIGHTHOUSE_TEMPLATES%%
+\\<(.*)script(.*)\\<\\/(.*)script(.*)\\>
+^Ethernet adapter (.+):\\s*$
+^SimpleCov for (.*) is configured with:$
+usage: Scout2
+^I delete the IAM user$
+(v|^)\\d+\\.\\d+$
+ (\\\\)* \\[ (\\^?) (.+) ] 
+(addPathRow|MoveProgress|Import|DoNext|JCMenu|AttachFile|CloseDialog|_processData|showComment|ShowWarnings|SWFObject|deliveryCalcProceed|structReload|addForumImagesShow|rsasec_form_bind|BX_YMapAddPolyline|BX_YMapAddPlacemark|CloseWaitWindow|DoChangeExternalSaleId|AjaxSend|readFileChunk|EndDump|createMenu|addProperty)\\(
+[\\p{L}\\p{M}\\p{S}\\p{N}\\p{P}\\s]+
+<(\\/?(?:col|noscript))(\\s[^>]*?)?(\\s?\\/)?>
+^\\[[^\\]]+\\](.*)$
+^(.+?) \\<(.+?)\\>$
+<[cC][iI][tT][eE]$R
+^[^\\n\\r]*\\u001b\\[2K
+Unable to execute commands as other users on Windows
+^use ActionDispatch::Static$
+\\p{Mn}+
+\\#|}
+It looks like you're using ngModel on the same form field as formControlName
+`(\\d\\.\\d+\\.\\d+)`
+\\n[ \\t]*$
+^DBI-Factory$
+^d[ay]*$
+([\\?#].+)$
+^(DEFAULTS|DEFAULT)\\s+\\-\\-\\>\\s+(.*)
+^Status: 5\\.1\\.1
+test pooler
+(<E[^>]*><S>[Tt]r\\x{ed}d<\\/S> <T>an<\\/T> (?:<N[^>]*pl=\"n\" gnt=\"n\" gnd=\"m\"[^>]*>(?:[CcDdFfGgMmPpSsTt][Hh]|[Bb]h[^fF])[^<]+<\\/N>) (?:<A[^>]*>(?:[^<]+th?[ae]|c\\x{e9}ad|cib\\x{e9}|cos\\x{fa}il|deich|dh\\x{e1}|[Gg]ach|seacht|[Ss]eo|[Ss]in|tr\\x{ed}|\\x{fa}d|uile|[^<]+ [^<]+)<\\/A>)<\\/E>)
+^0x([0-9a-f]+(\\.[0-9a-f]*)?|\\.[0-9a-f]+)(p[+-]?\\d+)?$
+_\\u200c\\u200d\\ua67e\\u05be\\u05f3\\u05f4\\uff5e\\u301c\\u309b\\u309c\\u30a0\\u30fb\\u3003\\u0f0b\\u0f0c\\xb7
+^(vcg|gdl)\\z
+(1+)$
+[^-]*-?([^\\.]*).*$
+((attribute|uniform|varying)\\s+)[A-Za-z0-9_]+\\s+([A-Za-z0-9_]+)\\s*(\\[[^\\]]*\\]\\s*)?;\\s*
+\\A[^;]{,70}\\z
+package\\s+(\\S+)\\s*;
+^()()($identifier_re)()()$
+^Failed to parse config file
+^([ ]{4}|[ ]{0,3}\\t)
+^(?<k>[[:blank:]]*[[:graph:]]+): +(?!null$)(?<q>[\"']?)#?(?<v>\\w{3,6})\\k<q> *(?:#.*)?$
+{ext}
+^I set the focus to the test text_field using the onfocus event$
+gem \"jekyll\", \"~> 
+^gsl_[^_]+_(accel_)?
+banshee
+[/\\\\?<>:*|!\"\\']
+END:(\\w+)
+^#[a-z]+
+Expected the qualified key
+Page 1 of 3
+decoder_stub
+^I visit \"([^\"]*)\" page$
+(windows\\smobile|windows)[\\s\\/]?([ntce\\d\\.\\s]+\\w)
+^:?din.?.?y:?
+\\*|\\d+\\.
+^/[\\w.]*[[:alnum:]][\\w.]*/[\\w.]*[[:alnum:]][\\w.]*.dlq$
+(?:^|\\s)mw:(Transclusion|Extension)(?=$|\\s)
+confirmation_token=([^&]*)&
+event/(\\d+)/(\\d+)/(\\d+)
+^O-O-O(?:\\+|\\#)?$
+^    at foo \\((?:.*[/\\\\])?.original\\.js:1:1\\)$
+^\\[DOCUMENT=(.*)\\]
+(^|-|\\/)(.)
+^vt\\s
+^set-cookie: 
+^File::Modified::Signature::([^:]+)$
+named_transaction_group\\/
+Invalid ascii85 character
+GOALIGN
+ChEBI
+^\\/(@[\\w\\-\\.]+\\/[\\w\\-\\.]+)\\/\\-rev\\/([\\w\\-\\.]+)$
+ic_(.*)_([0-9]+)px.svg
+\\bfun:(m|c|re)alloc\\b
+^[AD]$
+^(.(?:[^${}!=~?| ]|(?<=\\\\)[${}!=~?|])*)$
+[^a-zA-Z0-9_$]C\\.([A-Z0-9_]+)
+\\A-[a-zA-Z_]{2,}\\Z
+\\).*
+device_token cannot be nil.
+^ [\\x00-\\xFF] + \\z
+^[crudl]$
+^-?headline$
+[^0123456789\\.]
+(\\b\\d+)
+^customStyle$
+^\\[object (?:HTML)?Document\\]$
+(?:^| |)(.*?\\.feature(?:(?::\\d+)*))
+^([+-]?)\\d{4}(-?)W\\d{2}(?:\\2\\d)?$
+\\bDatetimeSchema\\b
+\\A\n          Gakubuchi\\.configure\\ do\\ \\|config\\|\\n\n          .*\n          \\#\\ config.leave_digest_named_templates\\ =\\ false\\n\n          .*\n          
+^(?P<cpu>[0-9]+)$
+^[^']*'
+^(?:Quad|Hex)$
+(,\\s)
+^\u7b2c?\\d+
+^[A-Z][a-z] [0-9]{2}:[0-9]{2}-[0-9]{2}:[0-9]{2}$
+(^[^*][^\\n]*$\\n)\\n+([*])
+([\\d\\.]+)\\)$
+The option '--envirmont' is not registered with the 'serve' command. Run `ember serve --help` for a list of supported options.
+column (\\d+):
+^\\d[^,]*|,\\d[^,]*
+^($lhs_type_regex)(\\w+)$
+[=.:]
+length (\\d+)
+^[^\\n]*>[\\-+]?\\n
+\\bD60\\b
+^[0-9a-f]{5,40}\\b
+$acceptLines
+^ ([#:]?) ([+-]\\d+) $
+Has no parent
+tled$
+^(Domain|Registrant|Administrative contact|Technical contact|Registrar|Name servers|DNSSEC):?\\n
+\\b(abstract|add|alias|ascending|as|base|bool|break|byte|case|catch|char|checked|class|const|continue|decimal|default|delegate|descending|double|do|dynamic|else|enum|event|explicit|extern|false|finally|fixed|float|foreach|for|from|get|global|goto|group|if|implicit|int|interface|internal|into|in|is|join|let|lock|long|namespace|new|object|operator|orderby|out|override|params|partial|private|protected|public|readonly|ref|remove|return|sbyte|sealed|select|set|short|sizeof|stackalloc|static|string|struct|switch|this|throw|try|typeof|uint|unchecked|ulong|unsafe|ushort|using|value|var|virtual|void|volatile|where|while|yield)\\b
+attr2='val2'
+(.*?)(?:,|$)
+Qt\\/([0-9.]*)
+^dijit\\/tests\\/
+(.*?)\\:(.*)
+^e_.*_r5$
+^the query result with \"([^\\\"]*)\" == \"([^\\\"]*)\" has the document '(.*)'$
+^date-of-last-transition$
+-(\\D)
+^\\.(svn|\\.DS_Store)$
+\\A[89]?[34]\\d{3}\\z
+'(|\\\\D{})(|[aiu]N?)([\\s\\-])
+^translate(?:3d)?\\((-?\\d+)(?:\\.\\d*)?(?:px)?, (-?\\d+)
+\\A\\$([156])\\$(?:rounds=(\\d+)\\$)?(.+)\\$(.+)
+[AEIOUY]|ST|MT|DR|JN?R|SN?R
+(===== IFSTAT-A =====.*?)=====
+shared example '.*' already registered
+<[a-zA-Z\\/!].*?>
+(\\d*\\.\\d{0,3}){1}
+^([-+]?)(1[01]*)[bB]$
+ \\G .*? ( $regex ) 
+HandleOKCallback
+Albers
+freebsd(\\d+(\\.\\d+)*)?
+^(Boundary:|Version:|X-MRIM-Flags:|Subject:|\\-\\-)
+^#:\\((\\S+?)\\)::(.*)$
+[+\\-*&^%:=<>!|\\/]
+['\"<>&]
+packages/d3fc-site/src/
+\\/\\/\\#[^\\n\\r]+[\\n\\r]*$
+\\((?:iphone|ipod(?: touch)?);.+(apple)
+(\\d{4})-(\\d{2})-(\\d{2})(?:[ T](\\d{2}):(\\d{2}):(\\d{2})([\\.,]\\d{1,3})?)?(Z|\\+00:?00)?
+Redis \\(\\d+\\.\\d+ms\\)  \\[ SET test <BINARY DATA> \\]
+(-?[0-9\\.]+)(px|pt|cm|in)?
+new repository
+[\u00f2\u00f4\u00f5\u00f6\u00f8\u014d\u0151\u014f\u014f]
+:(die|dat|wat) *$
+Can't locate $file\\.pm in \\@INC
+sub.* b.*ton
+(\\d{4})-(\\d\\d)-(\\d\\d)T(\\d\\d):(\\d\\d):(\\d\\d)
+(<H.>)(.*)(<\\/H.>)
+^#[a-fA-F0-9]{3}([a-fA-F0-9]{3})?$
+^\\s*\\/\\*\\*(?!\\/)([^\\*]|\\*(?!\\/))*$
+([#0]*)([\\.]?)([0#]*)([eE])([\\+\\-])([0#]+)
+ReshapePluginError:\\sGreetings\\snot\\spermitted\\nFrom\\sPlugin:\\sNoGreetingsPlugin\\nLocation:\\n.*reshape\\/test\\/fixtures\\/basic\\.html:1:9\\n\\n>\\s1\\s|\\s<custom>hi<\\/custom>\\n\\s{4}|\\s{9}\\^\\n\\s\\s2 | \\n
+//sys:(.*?): (.*?) (.*?)\\\\((.*)\\\\);
+^\\s*(?:my|our|local)\\s*(\\((?:.+)\\)\\s*=.*)[^;]*;.*$
+(^|\\n) +(\\>[\\s\\S]*)
+\\A\\$(.+)
+n00bz?
+^([-+]?\\d+)(\\w*)$
+bad error for you
+(class=[\"'][^'\"]*)align(none|left|right|center)\\s?
+#DFFF00
+(\\.css|\\.js)$
+[a-zA-Z0-9_-]*
+PHILIPS_OLS_20[0-9]+
+\\s+LIMIT\\s+(\\d+)\\s+OFFSET\\s+(\\d+)(?:\\s+(?:PROCEDURE|INTO|FOR|LOCK).+)?$
+MSIE |Trident\\/
+month-\\d\\d
+\\.\\. (eval|exec)::(.*)
+\"/(projects/mingw/files/Installer/mingw-get/mingw-get-.*?-(\\d\\d\\d\\d\\d\\d\\d\\d)-(\\d+))/\"
+\\((.+?)\\)\\#
+(!\\[(.*?)\\][ ]?(?:\\n[ ]*)?\\[(.*?)\\])()()()()
+^MN
+\\{note\\}
+^-?[0-9]*(\\.|,)?[0-9]*$
+Variable type \\(of A\\) should be one of \\[
+,\"whatwg-fetch.js\"\\)
+list\\/
+^(Base|MetaSyntactic)\\z
+>|\\/>|([^\\s=]+)=(?:\"([^\"]*)\"|'([^']*)'|([^\\s\"']+))
+\\n\\s*\\*\\s*
+%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)
+^(\\d{4})-(0[1-9]|1[0-2])-([0-2][0-9]|30|31)(Z?)$
+(?<pre>.*)# (?<type>=>|raises) (?<expectation>.*)
+^(yes|on|true|1)$
+<!(channel)[^>]*>
+^!([1-4]{1,1}) 
+<<type>>
+\\$\\\\?.
+[~><=!]
+[ =]{25}={50}[ =]{25}
+'myfunc' parameter 'a' expects an Integer value, got String
+\\\\?(?:image|icon):([^:\\[][^\\[]*)\\[((?:\\\\\\]|[^\\]])*?)\\]
+^global$
+ \\d+ pass
+ (.*) [^S]S (.*) 
+^std_deviation
+.*?static
+(https?://)?([a-zA-Z0-9\\._\\-]+)(:[0-9]{2,6})?/?
+\\%(\\d*)
+^Responding with 200 for: GET (?P<url>.+)\nHeaders: (?P<headers>\\{.+\\})\n\nresponse\\!\n\\s*$
+(?i)\\b(?<_1>(?<_2>https?|ftp|news|telnet|gopher|wais):\\/\\/(?<_3>[A-Za-z0-9_.-]+(?<_4>:[^ @]*)?@)?|(?<_5>www[23]?|ftp)\\.)[A-Za-z0-9%._\\/~:,=$@&+-]+\\b\\/*(?<_6>\\?[A-Za-z0-9\\/%&=+;.,$@*_-]+)?(?<_7>#[A-Za-z0-9%._-]*)?
+http[s]?://www\\.legislation\\.gov\\.uk/(id/)?
+(?:<[\\/A-DF-Z][^>]*>)+([Ff]aoi)<\\/[A-DF-Z]> (?:<[\\/A-DF-Z][^>]*>)+(bhr\\x{e1}id)<\\/[A-DF-Z]>
+^\\r?\\n$
+\"undeclared:json_objectStack\":\"\\*\\* Excluded by Filter \\*\\*\"
+require 'vlad'
+t\\.point\\s+\"legacy_x\"$
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:1\\.?[\\s\\xa0]*Krallar)|(?:1(?:K(?:gs|r)|\\.?[\\s\\xa0]*Kr)|I[\\s\\xa0]*Krallar|(?:I(?:lk|\\.)|[i\u0130\u0131]lk)[\\s\\xa0]*Krallar|Bir(?:inci)?[\\s\\xa0]*Krallar))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+\n        \\b                    # Word boundary\n        architecture          # architecture keyword\n        \\s+                   # At least one whitespace\n        (?P<id>[a-zA-Z][\\w]*) # An identifier\n        \\s+                   # At least one whitespace\n        of                    # of keyword\n        \\s+                   # At least one whitespace\n        (?P<entity_id>[a-zA-Z][\\w]*) # An identifier\n        \\s+                   # At least one whitespace\n        is                    # is keyword\n        
+read called with a negative length
+passed.*failed
+Begin 1 bootstrap\\(s\\)
+[SV]
+^\\s+\"exception\": \".*NameError.*error_undefined
+\\{\\d*\\}
+\\b(?:class|interface)\\s+[a-zA-Z_\\x80-\\xff][a-zA-Z0-9_\\x80-\\xff]*\\s+[a-z]+$
+^(\\s+buildToolsVersion).*$
+[0-9]{4,5}[-]?[0-9]{0,4}$

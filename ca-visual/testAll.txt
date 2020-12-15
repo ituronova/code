@@ -1,0 +1,1133 @@
+pattern
+^/arvados/v1/collections/([0-9a-fA-F]{32}\+[0-9]+)+$
+([A-HJ-Z])(?:\s*((?:\d{1}\s*\d{1})|(?:\d{2}\s*\d{2})|(?:\d{3}\s*\d{3})|(?:\d{4}\s*\d{4})|(?:\d{5}\s*\d{5})))?
+^(([^<>()[\]\.,:\s@]+(\.[^<>()[\]\.,:\s@]+)*)|(.+))@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
+^(?i)[0-9a-z\\_\.\-]{1,100}:[0-9]+$
+^[0-9a-zA-Z]([-0-9a-zA-Z]{0,48}[0-9a-zA-Z])?$
+^[A-Za-z0-9](?:[A-Za-z0-9\-]{0,61}[A-Za-z0-9])?$
+^[a-zA-Z0-9]([-._a-zA-Z0-9]{0,48}[a-zA-Z0-9])?$
+[a-zA-Z0-9][a-zA-Z0-9_]{2,29}
+http://\\.?video\\.google+\\.\\w{2,3}/videoplay\\?docid=[\\w-]{19}
+^SSH-[^\x0a]{600}
+^HELO [^\x0a]{500}
+^ETRN [^\x0A]{500}
+^200 [^\x0a]{64}
+^\n*TRACE[^s]{432}
+^\n*PUT[^s]{432}
+^\n*POST[^s]{432}
+^\n*MOVE[^s]{432}
+^\n*MKCOL[^s]{432}
+^\n*LOCK[^s]{432}
+^\n*HEAD[^s]{432}
+^\n*GET[^s]{432}
+^\n*DELETE[^s]{432}
+^\n*COPY[^s]{432}
+^\n*200[\x20\x09\x0b][^\n]{64}
+^\n*[xXmMkKdD][\x20\x09\x0b][^\n]{100}
+^\n*[xX][tT][nN][dD][\x20\x09\x0b][^\n]{50}
+^\n*[vV][rR][fF][yY][^\n]{255,}
+^\n*[uU][sS][eE][rR][nN][aA][mM][eE]\:[^\n]{100}
+^\n*[uU][sS][eE][rR][^\x0a]{49}
+^\n*[uU][sS][eE][rR][\x20\x09\x0b][^\n]{50,}
+^\n*[uU][sS][eE][rR][\x20\x09\x0b][^\n]{49}
+^\n*[sS][tT][oO][uU][\x20\x09\x0b][^\n]{100}
+^\n*[sS][sS][hH]-[\x20\x09\x0b][^\n]{200}
+^\n*[pP][rR][iI][vV][mM][sS][gG][\x20\x09\x0b]+[nN][iI][cC][kK][sS][eE][rR][vV][\x20\x09\x0b]+[iI][dD][eE][nN][tT][iI][fF][yY][\x20\x09\x0b][^\n]{100}
+^\n*[pP][aA][sS][sS][\x20\x09\x0b][^\n]{50}
+^\n*[mM][dD][tT][mM][\x20\x09\x0b][^\n]{100}
+^\n*[hH][tT]{2}[pP]\x3a\x2f\x2f[^\n]{400}
+^\n*[hH][eE][lL][pP][\x20\x09\x0b][^\n]{500}
+^\n*[hH][eE][lL][oO][\x20\x09\x0b][^\n]{500}
+^\n*[fF][oO][lL][dD][\x20\x09\x0b][^\n]{256}
+^\n*[fF][iI][lL][eE]\x3a\x2f\x2f[^\n]{400}
+^\n*[eE][xX][pP][nN][^\n]{255,}
+^\n*[eE][tT][rR][nN]][\x20\x09\x0b][^\n]{500}
+^\n*[aAlLlLoO][\x20\x09\x0b][^\n]{100}
+^\n*[aA][uU][tT][hH][iI][nN][fF][oO][\x20\x09\x0b]+[uU][sS][eE][rR][\x20\x09\x0b][^\n]{200}
+^\n*[aA][uU][tT][hH][\x20\x09\x0b][^\n]{50}
+^\n*[aA][uU][tT][hH][\x20\x09\x0b][^\n]{100}
+^\n*[aA][pP][pP][eE][\x20\x09\x0b][^\n]{100}
+^\n*[aA][pP][oO][pP][\x20\x09\x0b][^\n]{256}
+^\n*[\x20\x09\x0b]LOGIN[\x20\x09\x0b][^\n]{100}
+^\n*[\x20\x09\x0b][rR][eE][nN][aA][mM][eE][\x20\x09\x0b][^\n]{100}
+^\n*[\x20\x09\x0b][lL][iI][sS][tT][\x20\x09\x0b][^\n]{100}
+^\n*[\x20\x09\x0b][fF][iI][nN][dD][\x20\x09\x0b][^\n]{100}
+^\n*[\x20\x09\x0b][cC][rR][eE][aA][tT][eE][\x20\x09\x0b][^\n]{1024}
+^.{82}.*Login failed for user 'sa'
+^.{82}.*Login failed for user \x27sa\x27
+^.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]
+^.{24}.{0,17}NAMENAME
+^.{24}.{0,17}\x4e\x41\x4d\x45\x4e\x41\x4d\x45
+^.{0,92}\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f
+^.{0,24}ISSPNGRQ
+^.{0,24}\x49\x53\x53\x50\x4e\x47\x52\x51
+^([nN][aA][mM][eE]|[iI][dD]|[nN][uU][mM][bB][eE][rR]|[tT][oO][tT][aA][lL]|[bB][oO][uU][nN][dD][aA][rR][yY])=[\x20\x09\x0b]*[^\r\n\x3b\s\x2c]{300}
+\r\nAccept-Language\x3A[^\n]{100}
+\r\nAuthorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{250}
+\r\nAuthorization\x3a\s*Basic[^\n]{256}
+\r\nCONNECT\s[^\s]{1024}
+\r\nDESCRIBE\s[^\n]{300}
+\r\nHost\x3A\s[^\r\n]{300,}
+\r\nUser-Agent\x3a[^\n]{216}
+\r\nUser-Agent\x3a[^\n]{244,255}
+\x2fWebID\x2fIISWebAgentIF.dll[^\n\x26\x3f]*\x3fRedirect\x3furl=[^\n\x26\x3f]{1024}
+^[^\x3e\x3f\x26]{50}
+^GET\s+\w[^\x0a\x20]{165}
+cache_lastpostdate\[[^\]]+\]=[^\x00\x3B\x3D]{30}
+pwd=(\!|\%21)CRYPT(\!|\%21)[A-Z0-9]{512}
+.*[AC]B{70,70}CC.*
+.*A.*[BD]C{43,43}D[^E].*
+.*A.*[BD]C{86,86}DD.*
+.*A.*B[C-F]{43,53}CEF[^C-F].*
+.*ADCC[B-D]{200,200}.*
+.*BA{0,50}(EC|EE)A{0,10}[DE]{86,86}FF.*
+.*BA{0,50}(FD|FF)A{0,10}[E-G]{43,43}H[^CG].*
+.*GDIIJFHE[AB]+[C-J]{52,52}([AB].*|B+.*)
+.*IHEGFJDCA[BD-J]{60,60}A.*
+   ([A-Za-z\d.]{2,31}) #accept ASCII alphanumeric and period
+(^(30)[0-5]\d{11}$)|(^(36)\d{12}$)|(^(38[0-8])\d{11}$)
+(^(6011)\d{12}$)|(^(65)\d{14}$)
+(^\([0]\d{1}\))(\d{7}$)|(^\([0][2]\d{1}\))(\d{6,8}$)|([0][8][0][0])([\s])(\d{5,8}$)
+^(?<dayOfWeek>\w{3}) (?<monthName>\w{3}) (?<day>\d{1,2}) (?<year>\d{4})? ?(?<hours>\d{1,2}):(?<minutes>\d{1,2}):(?<seconds>\d{1,2}) (GMT|UTC)(?<timeZoneOffset>[-+]?\d{4}) (?<year>\d{4})?\(?(?<timeZoneName>[a-zA-Z\s]+)?\)?$
+^([0-9A-Za-z@.]{1,255})$
+^([1-zA-Z0-1@.\s]{1,255})$
+^([a-zA-Z.\s']{1,50})$
+^([a-zA-Z0-9-\,\s]{2,64})$
+^[ .a-zA-Z0-9:-]{1,150}$
+^[\w\W]{1,1500}$
+^[{][A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12}[}]$|^[A-Za-z0-9]{8}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{4}-[A-Za-z0-9]{12}$
+^[a-zA-Z0-9\x20'\.]{8,64}[^\s]$
+^\{?[a-fA-F\d]{32}\}?$
+^\W{0,5}[Rr]e:\W[a-zA-Z0-9]{1,10},\W[a-z]{1,10}\W[a-z]{1,10}\W[a-z]{1,10}
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-1101 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-500 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-512 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-518 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-519 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-520 
+S-1-5-21-\d{5,15}\-\d{5,15}\-\d{5,15}-556 
+User-Agent\x3a \{[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}\}
+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}|(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S+\s+(0x[0-9a-f]+)|(0[0-8]+)|([1-9]\d*)\s+(0x)?[0-9a-f]+\s+\S{65}
+.* [aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][eE] [^\x20]{100}
+.* [cC][hH][oO][wW][nN] [^\x20]{100}
+.* [cC][pP][wW][dD] [^\x20]{100}
+.* [lL][iI][sS][tT] [^\x20]{100}
+.* [zZ][iI][pP][cC][hH][kK] [^\x20]{100}
+.* BODY\.PEEK\[[^\]]{1024}
+.*[pP][rR][iI][vV][mM][sS][gG] [nN][iI][cC][kK][sS][eE][rR][vV] [iI][dD][eE][nN][tT][iI][fF][yY][^\x20]{150}
+.*[rR][eE][sS][tT] [^\x20]{100}
+.*[rR][mM][dD] [^\x20]{100}
+.*[rR][mM][dD][iI][rR] [^\x20]{100}
+.*[sS][iI][tT][eE] [^\x20]{100}
+.*[sS][tT][aA][tT] [^\x20]{100}
+.*[uU][sS][eE][rR] [^\x20]{100}
+.*\x20[lL][oO][cC][aA][tT][iI][oO][nN]\x20[^\x20]{128}
+[aA][uU][tT][hH][iI][nN][fF][oO] [uU][sS][eE][rR] [^\x20]{500}
+\(\s*TIMESTAMP\s*(\s*(\x20[^\x20]+'|\x20[^\x20]+\x20)\s*,)\s*((\x20[^\x20]{1000,})|(\x20[^\x20]{1000,}))
+\sCREATE\s[^\n]{1024}
+\sPARTIAL.*BODY\.PEEK\[[^\]]{1024}
+\sPARTIAL.*BODY\[[^\]]{1024}
+\x20\s*name\s*\x20[^\x20]{260,}
+\x20\x20\x20\x20[^\x20]{262,}
+\x20\x20\x20\x20\x20inclu0200\s+file[^(\x20\x20\x20)]{250,}
+\x20reate\s+(aggregate\s+)*function\s+\S{50}
+\x2fWebID\x2fIISWebAgentIF.dll[^\n\x26\x3f]*\x3fRedirect\x3furl=[^\n\x26\x3f]{1024}
+^(\x20|\x20)[^\x20]+\x20[^\x20]{473}
+^.{268}(\x20\x20\x20\x20|.{12})
+^[^\n]*[\x20-t].*\nAccept-Language\x20\s*[\S]{32}
+^\S{65}|\S+\s+\S{65}|\S+\s+\S+\s+\S{65}
+^\sFIND\s[^\n]{100}
+^\w+\s+SUBSCRIBE\s[^\n]{100}
+^\w+\s+UNSUBSCRIBE\s[^\n]{100}
+^\x20[^\x20]{256}
+^a=[^\r\n]{256}
+^Accept-Language\x3A[^\n]{100}
+^APOP\s[^\n]{256}
+^APOP\s+USER\s[^\n]{256}
+^AUTH\s[^\n]{50}
+^AUTHINFO\s+USER\s[^\n]{200}
+^Authorization\x20\s*Basic[^\n]{256}
+^CON\w{1,10}\d+\x20[^\r\n]{1,20}\x20
+^CONNECT\s[^\s]{1024}
+^DELETE[^s]{432}
+^File[0-9]+=http\x20\x20\x20[^\n]{150}
+^FOLD\s[^\n]{256}
+^HELO\s[^\n]{500}
+^HELP\s[^\n]{500}
+^PASS\s[^\n]{49}
+^PASS\s[^\n]{50}
+^POST[^s]{432}
+^PRIVMSG\s+[^\s]+\s+\x20\s*\x20SENDLINK\x20[^\x20]{69}
+^RNFR\s[^\n]{200}
+^SITE\s+CPWD\s[^\n]{100}
+^SITE\s+CHMOD\s[^\n]{200}
+^SITE\s+CHOWN\s[^\n]{100}
+^SITE\s+NEWER\s[^\n]{100}
+^SITE\s+ZIPCHK\s[^\n]{100}
+NUMTO(DS|YM)INTERVAL\s*\(\s*\d+\s*,\s*((\x20[^\x20]{1000,})|(\x20[^\x20]{1000,}))
+select\s+xmlquery\s*\x20\s*(\x20|\x20)[^\x20\x20]{512}
+SET_(SENDFROM|MAILHOST)\x20\x20[^\x20]{256}
+TIME_ZONE\s*=\s*((\x20[^\x20]{1000,})|(\x20[^\x20]{1000,}))
+USING\s*((\x20[^\x20]{1000,})|(\x20[^\x20]{1000,}))
+    _secure_another_setting: ([A-Za-z0-9\+/]{342}==)$
+    _secure_setting:       ([A-Za-z0-9\+/]{342}==)$
+   ([a-zA-Z0-9\-]{36}) - ([^\n]+)
+ ?< ?(ref) [a-zA-Z0-9= ]{2,100}\/ ?> ?
+ ?< ?(span|div|table|data) [a-zA-Z0-9= ]{2,100}\/? ?> ?
+ \d{47}\.{3}$
+((a)b{28,}c|d)x
+(.*)/objects/[0-9a-f]{2}/[0-9a-f]{38}$
+(.*)/objects/pack/pack-[0-9a-f]{40}\.idx$
+(.*)/objects/pack/pack-[0-9a-f]{40}\.pack$
+(.*)\.([a-f0-9]{32})\.(.*)
+(.*t=)[a-zA-Z0-9]{32}(.*)
+(.|[\r\n]){1,2000}
+(.+)\s.+\s-\s\[(.+)\]\s(GET|POST|PUT|HEAD|OPTIONS|DELETE).+HTTP/1\.[0-1]\s[0-9]{3}\s([0-9]{1,20})\s.+
+(:[a-z0-9A-Z-]{1,50}:)
+(?:\[((?:[a-z]|\*){1,16})(?:[=\s]([^\x00-\x1F'<>\[\]]{1,2083}))?\])|(?:\[\/([a-z]{1,16})\])
+(?:^|[,&?])\s*([a-z0-9]{50,}=*)(?:\W|$)
+(?:^|msid=)([0-9]{21}\.[0-9a-f]{21})(?:$|&)
+(?:^5[1-5]\d{14}$)|(?:^2(?:2(?:2[1-9]|[3-9]\d)\d{2}|[3-6]\d{4}|7(?:[01]\d{3}|20\d{2}))\d{10}$)
+(?:0[xX])[A-F0-9]{40}
+(?:board=\d+)?((?:topic|threadid)=[\dmsg#\.\/]{1,40}(?:start=[\dmsg#\.\/]{1,40})?|action=profileu=\d+)
+(?:Domain )?(?:Expires|Expiration Date):\s+\w{3} (\w{3}) (\d{2}) (?:\d{2}:\d{2}:\d{2} \w{3}(?:[-+]\d{2}:\d{2})? )(\d{4})
+(?<path>\/media\/display\/)(?<uuid>[0-9a-z-]{36})
+(?i)(&|^)(?:jsessionid=[0-9a-z$]{10,}|sessionid=[0-9a-z]{16,}|phpsessid=[0-9a-z]{16,}|sid=[0-9a-z]{16,}|aspsessionid[a-z]{8}=[0-9a-z]{16,}|cfid=[0-9]+&cftoken=[0-9a-z-]+)(&|$)
+(?i)^[0-9a-f](?:[.][0-9a-f]){0,31}$
+(?i)^[a-z][a-z0-9_]{0,127}$
+(?i)^[a-z0-9][a-z0-9._-]{0,127}$
+(?i)^[a-zA-Z][a-zA-Z-]{1,30}[a-zA-Z]$
+(?m)^Change-Id: (I[0-9a-fA-F]{40})\n?
+(?s)BBX\.context\.assets\['[0-9a-f]{32}'\]\.push\(({.+})\)
+([\a-z0-9_\-\.]+)@([a-z0-9-]{1,64})\.([a-z]{2,10})
+([^\s]+) ([^\s]+) \(git+\+([^#\s]+)#([^\s]{40})\)
+-([0-9a-f]{32,40})\.[^.]+(?:\.map)?$
+-([0-9a-f]{32})
+-([0-9a-f]{7,128})\.[^.]+\z
+'([a-f0-9]{96})'
+(\[|\()((\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(\.\d+)?(\+|\-)\d{2})|infinity),((\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(\.\d+)?(\+|\-)\d{2})|infinity)(\]|\))
+(\+[1-9]\d{0,3}) +\d{1,10} +([\d][\d \-]{0,24}[\d])
+(\r\n)?[0-9a-fA-F]+chunk-signature=[0-9a-f]{64}(\r\n){,2}
+(^|\s)(([a-zA-Z0-9_-]+):)?([a-zA-Z0-9]{40})
+(^|Locomotive::)(Content)*Entry([0-9a-fA-F]{24})$
+(<videomessage[^>]*\ssid=([a-f0-9]{32}))
+(0-[a-z]+-d[0-9]-[a-z0-9]{32})
+(href=(/assets/app\.[a-f0-9]{64}\.css))
+(CHK\@[a-zA-Z0-9,~\-]{54})[\/ ]+(.*)\s*$
+(IOPlatformUUID = ([0-9A-F-]{36}))
+(outputImage|getImage)\?fileId=([a-z0-9A-Z]{24})
+(previous [0-9a-f]{40})|boundary
+(quicklatex.com-[a-f0-9]{32}_l3.)(png)
+(Signature keyId=my key,algorithm=hmac-sha256,headers=date,signature=[0-9a-zA-Z/+]{43}=)
+(sites|spaces)\.[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}\.json
+(src=(/assets/app\.head\.[a-f0-9]{64}\.js))
+(src=(main\.[a-z0-9]{0,32}\.js))
+(src=https://cdn\.example\.com/assets/app\.head\.[a-f0-9]{64}\.js)
+(trace_id:\w{32})
+.*(/objects/[0-9a-f]{2}/[0-9a-f]{38})$
+.*/(objects/[0-9a-f]{2}/[0-9a-f]{38})$
+.*/(objects/pack/pack-[0-9a-f]{40}\.pack)$
+.*bind to ([0-9a-f]{40}).*
+.*boundary=([\d\w]{70})
+.*'skia_revision': '([0-9a-fA-F]{2,40})'.*
+.*The zone with id '[0-9a-zA-Z-]{36}' was not found.*
+.{1,1019}
+.{1,1024}
+.{1,1600}
+.{1,2047}
+.{1,32767}
+.{1,7168}
+.{1,8191}
+.+\n([^\n]{30,70})$
+.sprockets-manifest-[a-f0-9]{32}.json
+.state 'test',[\n\r]* {8}url: '\/test'[\n\r]* {8}templateUrl: 'home\/test.tpl.html'[\n\r]* {8}controller: 'TestCtrl'[\n\r]
+.state 'test.test',[\n\r]* {8}url: '\/test'[\n\r]* {8}templateUrl: 'home\/test.tpl.html'[\n\r]* {8}controller: 'TestCtrl'[\n\r]
+.state\('test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl',[\n\r]* {8}controllerAs: 'test'[^$]*}\)
+.when '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html'[\n\r]* {8}controller: 'TestCtrl'[\n\r]* {8}controllerAs: 'test'[\n\r]
+/(.*)/(objects/pack/pack-[0-9a-f]{40}\.pack)$
+/nifi-api/connections/[a-f0-9\-]{36}
+/nifi-api/controller-services/[a-f0-9\-]{36}
+/nifi-api/controller-services/[a-f0-9\-]{36}/state
+/nifi-api/controller-services/node/[a-f0-9\-]{36}/references
+/nifi-api/flow/connections/[a-f0-9\-]{36}/status
+/nifi-api/flow/output-ports/[a-f0-9\-]{36}/status
+/nifi-api/flow/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/controller-services
+/nifi-api/flow/processors/[a-f0-9\-]{36}/status
+/nifi-api/flow/processors/[a-f0-9\-]{36}/status/history
+/nifi-api/flow/remote-process-groups/[a-f0-9\-]{36}/status
+/nifi-api/flowfile-queues/[a-f0-9\-]{36}/drop-requests
+/nifi-api/flowfile-queues/[a-f0-9\-]{36}/listing-requests/[a-f0-9\-]{36}
+/nifi-api/input-ports/[a-f0-9\-]{36}/run-status
+/nifi-api/output-ports/[a-f0-9\-]{36}
+/nifi-api/output-ports/[a-f0-9\-]{36}/run-status
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/controller-services
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/funnels
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/input-ports
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/output-ports
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/processors
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/templates
+/nifi-api/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))/variable-registry
+/nifi-api/processors/[a-f0-9\-]{36}
+/nifi-api/processors/[a-f0-9\-]{36}/diagnostics
+/nifi-api/processors/[a-f0-9\-]{36}/run-status
+/nifi-api/provenance/[a-f0-9\-]{36}
+/nifi-api/remote-process-groups/[a-f0-9\-]{36}/run-status
+/nifi-api/reporting-tasks/[a-f0-9\-]{36}
+/nifi-api/reporting-tasks/[a-f0-9\-]{36}/run-status
+/nifi-api/tenants/user-groups/[a-f0-9\-]{36}
+/nifi-api/versions/process-groups/(?:(?:root)|(?:[a-f0-9\-]{36}))
+/rusqbins/((?i)[A-F0-9]{8}\-[A-F0-9]{4}\-4[A-F0-9]{3}\-[89AB][A-F0-9]{3}\-[A-F0-9]{12})/requests/?$
+/templates/[a-f0-9\-]{36}/download
+::c([ad]{1,704})r$
+:[a-z0-9A-Z_]{1,50}:
+:HasExtendedXMP\s*(=\s*[']|>)(\w{32})
+@media.*(min|max)-width:([ ]+)?(([0-9]{1,5})(\.[0-9]{1,20}|)(px|em))
+[&#]([0-9A-Za-z]{10,48})[&#]
+[\s\S]{1,8192}
+-[0-9a-f]{32}$
+-[0-9a-f]{32}.css$
+-[0-9a-f]{32}\.
+-[0-9a-f]{40}\.
+-[0-9a-fA-F]{32,}$
+-[0-9a-fA-F]{32}$
+-[a-f0-9A-F]{32,64}\z
+-[a-f0-9A-F]{32}\z
+-[a-z0-9]{40}$
+[A-Za-z0-9]{1,1024}
+\$([A-Za-z0-9]{16,64})$
+\$routeProvider[\n\r]* {6}.when '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html'[\n\r]* {8}controller: 'TestCtrl'[\n\r]* {8}controllerAs: 'test'[\n\r]
+\$routeProvider[\n\r]* {6}.when\('\/test', {[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl'[^$]*}\)
+\$stateProvider[\n\r]* {4}.state\('test', {[\n\r]* {6}url: '\/test',[\n\r]* {6}templateUrl: 'home\/test.tpl.html',[\n\r]* {6}controller: 'TestCtrl'[^$]*}\)
+\$stateProvider[\n\r]* {6}.state 'test',[\n\r]* {8}url: '\/test'[\n\r]* {8}templateUrl: 'home\/test.tpl.html'[\n\r]* {8}controller: 'TestCtrl'[\n\r]
+\$stateProvider[\n\r]* {6}.state\('test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl'[\n\r]* {6}\}\)
+\$stateProvider[\n\r]* {6}.state\('test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl'[^$]*}\)
+\( `name` = (:[0-9a-z]{32}) AND `age` = (:[0-9a-z]{32}) \)
+\.*tmnsessionid\%3D(\w{32})\.*
+\/\* -{30} [$\w]+ -{30} \*\/
+\/assets\/ixti-[a-f0-9]{32}.gif
+\/css\/style.[a-f0-9]{32}.css
+\/media\/css\/[u|s]\.[a-f0-9]{32}\.[0-9]{10}\.css
+\/static\/res\/[a-z\d]{32}\.
+\:\-{2056,}
+\[%(\s*)(source|_bip|_client|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})#[a-zA-Z0-9_\-#:.$@*[\],?()]*(\s*)%\]
+\[%(\s*)(source|_bip|_client|\w*\.\w*|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})#[a-zA-Z0-9_\-#:.$@*[\],?()]*(\s*)%\]
+\[[\d-]{10} [\d:.]{12}] \[warn] log from a renderer process
+\[[\d-]{10} [\d:.]{12}] \[warn] Log from nw.js
+\{\{([A-Za-z0-9 ]){0,99}\}\}
+\{gfm-extraction-([0-9a-f]{32})\}
+\}\)[\n\r]* {6}.state\('test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl',[\n\r]* {8}controllerAs: 'test'[\n\r]* {6}\}\)
+\}\)[\n\r]* {6}.state\('test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl'[\n\r]* {6}\}\)
+\}\)[\n\r]* {6}.state\('test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html'[\n\r]* {6}\}\)
+\}\)[\n\r]* {6}.state\('test.test', {[\n\r]* {8}url: '\/test',[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl'[\n\r]* {6}\}\)
+\}\)[\n\r]* {6}.when\('\/test', {[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl',[\n\r]* {8}controllerAs: 'test'[\n\r]* {6}\}\)
+\}\)[\n\r]* {6}.when\('\/test', {[\n\r]* {8}templateUrl: 'home\/test.tpl.html',[\n\r]* {8}controller: 'TestCtrl'[\n\r]* {6}\}\)
+\A(?:[-]{50}|Content-Type:[ ]*message/rfc822)
+\A([0-9a-f]{128})\ +[!-~]+\n\z
+\A(\w+) (.{1,250}) ([0-9]+) ([0-9]+) ([0-9]+)\r\n
+\A(sha256:)?[0-9a-f]{64}\z
+\A.{2080}Microsoft Excel 5.0 Worksheet
+\A.{60,}\n\Z
+\A/images/email.[a-f0-9]{32}.png\z
+\A[^:]+:\$2[aby]\$\d{2}\$.{53}\z
+\A[0-9a-f]{128}\z
+\A[0-9a-zA-Z\=\-\+\/]{138}\Z
+\A[a-f0-9]{60}.html\z
+\A[a-v0-9]{5,1024}\Z
+\A[a-z0-9]{64}\z
+\A[A-Za-z0-9\+/]{342}==\z
+\A[A-Za-z0-9\+\/]{342}==\z
+\A[a-zA-Z0-9][a-zA-Z0-9\-\\_\.]{2,34}[a-zA-Z0-9]\z
+\A\$[0-9a-z]{2}\$[0-9]{2}\$[A-Za-z0-9\.\/]{53}\z
+\A\$2(a?)\$([0-9]{2})\$\n\t\t\t\t([./A-Za-z0-9]{22})([./A-Za-z0-9]{31})\z
+\A\$2[ayb]\$[0-9]{2}\$[A-Za-z0-9\.\/]{53}\z
+\A\$2a?\$\d\d\$[./0-9A-Za-z]{53}
+\A\$5\$[a-zA-Z0-9./]{16}\$[a-zA-Z0-9./]{43}\z
+\A\$5\$0123456789abcdef\$[a-zA-Z0-9./]{43}\z
+\A\$5\$rounds=1234\$salty\$[a-zA-Z0-9./]{43}\n\z
+\A\$6\$[a-zA-Z0-9./]{16}\$[a-zA-Z0-9./]{86}\n\z
+\A\$6\$[a-zA-Z0-9./]{16}\$[a-zA-Z0-9./]{86}\z
+\A\$6\$0123456789abcdef\$[a-zA-Z0-9./]{86}\z
+\A\$6\$rounds=1000\$[a-zA-Z0-9./]{16}\$[a-zA-Z0-9./]{86}\z
+\A\$6\$rounds=5678\$[a-zA-Z0-9./]{16}\$[a-zA-Z0-9./]{86}\z
+\A\$6\$rounds=5678\$salted\$[a-zA-Z0-9./]{86}\z
+\A\$6\$salted\$[a-zA-Z0-9./]{86}\z
+\A\/attachment\/([a-f0-9\-]{36})\/(.*)
+\A\n                \s+ (\d+) \s+ ([A-Fa-f0-9]{40})\n            
+\A\s*(?<name>[a-z0-9A-Z_]{1,50})\s*(\=|:)\s*(?<value>.{1,255})\s*\Z
+\A<input type=hidden name=_csrf value=([+\/0-9A-Za-z]{84}) \/>\z
+\A<input type=hidden name=foo value=([+\/0-9A-Za-z]{84}) \/>\z
+\A<meta name=_csrf content=([+\/0-9A-Za-z]{84}) \/>\z
+\A<meta name=foo content=([+\/0-9A-Za-z]{84}) \/>\z
+\A10{900}9{100}\z
+\A10{99}1\z
+\Adelete (.{1,250})\s?([0-9]*)\r\n
+\AEJ\[(\d):([A-z0-9+=/]{44}):([A-z0-9+=/]{32}):(.+)\\]\z
+\AEJ\[(\d):([A-Za-z0-9+=/]{44}):([A-Za-z0-9+=/]{32}):(.+)\\]\z
+\Aget (.{1,250})\s*\r\n
+\Aobjects/[0-9a-f]{2}/[0-9a-f]{38}\z
+\Aobjects/pack/pack-[0-9a-f]{40}\.pack\z
+\Aset (.{1,250}) ([0-9]+) ([0-9]+) ([0-9]+)\r\n
+\ASprdAuth apiKey=test, data=post https:\/\/api.spreadshirt.net\/api\/v1\/orders [0-9]+, sig=[0-9a-f]{40}, sessionId=abcd-1234\Z
+\d+:[0-9a-fA-F]{32}
+\n          \[EvilEvents:EventProcessed\(overwatch_released\)\]:\s\n          EVENT_ID:\s[a-z0-9]{8}\-[a-z0-9]{4}\-[a-z0-9]{4}\-[a-z0-9]{4}\-[a-z0-9]{12}\s::\s\n          STATUS:\ssuccessful\s::\s\n          SUBSCRIBER:\s
+\n[-=]{3,80}\n
+\r\n\r\n\/\/ This works in non-strict mode(?:.){1,304}
+\s*<!-- File hash: [0-9a-zA-Z]{32} -->\s*$
+\s+inet (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) netmask (([0-9a-f]){1,8}) broadcast (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+^         :bar => b{97}...\n
+^         :foo => a{97}...\n
+^      [0-9a-f]{64}$
+^  (.{40,}) - (can be restored)$
+^  (.{40,}) - (OK|NOT FOUND|CORRUPT|FOUND: (.*))$
+^ ([^/]+) / (\d+) / (-?\d+) / (.*) / ([a-fA-F0-9]{32}) (?: / (sh\.\d+\.\d+))? $
+^ ([^/]+) / (\d+) / (-?\d+) / ([^/]*) / ([a-fA-F0-9]{32}) (?: / (sh\.\d+\.\d+))? $
+^ (\w{10})    # product ID\n          (\w)        # processing stage flag\n          (\w{3})     # originator ID\n          (\d{8}) _   # start_day\n          (\d{6}) _   # start_time\n          (\d{8})     # duration\n          (\w)        # phase id\n          (\d{3}) _   # cycle number within phase\n          (\d{5}) _   # relative orbit number within cycle\n          (\d{5}) _   # absolute orbit number\n          (\d{4})     # product file counter\n          \. (\w\w)   # satellite ID\n       
+^ {9}(?<index>\d{3}) (?<step>.{8}) (?<procedureStep>.{8}) (?<class>.) (?<name>.{8}) {1,9}(?<length>\d{1,9}) $
+^ => appveyor_artifacts.py [\.]{15,79} [\d]{5,6} bytes\n$
+^((?:@[^/]{1,100}\/)?[^@]{1,100})(?:@(.{1,100}))?$
+^((?:[\w\-.!~*|\/?=+\$,%#]|&amp){0,100})$
+^(([^\/:@&_\*]+)\.)[^\/:@&_\*\-\.]{2,63}$
+^(([a-z]{2,3})(-([A-Z][a-z]{3}))?(-([A-Z]{2}|[0-9]{3}))?)((-([a-zA-Z0-9]{5,8}|[0-9][a-zA-Z0-9]{3}))*)$|^(root)$
+^((sha256\.[a-f0-9]{64})|(sif\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}))$
+^(.){0,255}$
+^(.){1,64}$
+^(.*)(?:phpsessid=[0-9a-zA-Z]{32})(?:&(.*))?$
+^(.*)-(\d+)-g([a-fA-F0-9]{7,40})(-dirty)?$
+^(.*)/(\d+|%[^%]+%|env_\w+_[a-f0-9A-F]{32,})$
+^(.*)_\d+_[A-Z0-9]{32}$
+^(.{0,76})\s
+^(.{23}Z)\t[a-g0-9\-]{36}\t((?s).*)\n
+^(.{255})
+^(.{3,1000})$
+^(.{3,50})$
+^(.{30,70})\s
+^(.{30}) (.{20}) (.{20}) (.+)
+^(.{330}[^\.]+\.).*
+^(.{345,}\w+)\W.*
+^(.{40,60})[ \t]*([\{[:\(])
+^(.{5})\s([0-9#]{2})\s([A-Z#]{2})\s(L)\s(.{30})\s([YN])\s([YN])\s([YNCT])\s([YN])\s([YN])\s([YN])\s([YN])\s([YN])\s([YN])\s([0-9]{2})\s([YNC])\s([AOC])
+^(.{5})\s([0-9#]{2})\s([YN])\s([YN])\s([YN])\s([YN])\s([YN])\s([YN])\s([YN])\s([YN])\s([CF])\s([+A])\s([DMY\s])\s([0-9]{8})\s([0-9]{10})\s([YN])\s([YN])\s([YN])\s([0-9]{2})\s([YN])\s([YN])\s([YN])\s([YN])$
+^(.{50}\S*).*
+^(.{512})
+^(.{52,})\n+
+^(.{60}).
+^(.{64})
+^(.{990})
+^(.+) Android Application - (.*) Build\/(.+)  - [0-9A-F]{8,8}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{4,4}-[0-9A-F]{12,12}$
+^(?:!([-0-9a-z.]{1,40})!)?([-.\w]{10,1200})$
+^(?:(?:(?:00\s?|\+)44\s?|0)(?:1\d{8,9}|[23]\d{9}|7(?:[1345789]\d{8}|624\d{6})))$
+^(?:(4[0-9]{12}(?:[0-9]{3})?)|(5[1-5][0-9]{14})|(6(?:011|5[0-9]{2})[0-9]{12})|(3[47][0-9]{13})|(3(?:0[0-5]|[68][0-9])[0-9]{11})|((?:2131|1800|35[0-9]{3})[0-9]{11}))$
+^(?:[1-9][0-9]*/)?[a-f0-9]{40}$
+^(?:[a-z0-9]\.|[a-z0-9][-a-z0-9]{0,61}[a-z0-9]\.)*(?:com|edu|gov|int|mil|net|org|biz|info|name|museum|coop|aero|[a-z][a-z])$
+^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|(222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11}|6[27][0-9]{14})$
+^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|(222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11}|62[0-9]{14})$
+^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$
+^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6011[0-9]{12}|3(?:0[0-5]|[68][0-9])[0-9]{11}|3[47][0-9]{13})$
+^(?:eval|local-test_logging\.js|[a-f0-9]{40}\.js)
+^(?:When )?I request a course with id ([a-f0-9]{24}) for an org with id ([a-f0-9]{24})$
+^(?:When )?I request a course with id ([a-f0-9]{24}) for that school$
+^(?:When )?I request a section with id ([a-f0-9]{24}) for that org$
+^(?:When )?I request a section with id ([a-f0-9]{24}) for that school$
+^(?:When )?I request a school with id ([a-f0-9]{24}) for that org$
+^(?:When )?I request a student with id ([a-f0-9]{24}) for an org with id ([a-f0-9]{24})$
+^(?:When )?I request a student with id ([a-f0-9]{24}) for that org$
+^(?:When )?I request a student with id ([a-f0-9]{24}) for that school$
+^(?:When )?I request a teacher with id ([a-f0-9]{24}) for that org$
+^(?:When )?I request a teacher with id ([a-f0-9]{24}) for that school$
+^(?:When )?I request an org with id ([a-f0-9]{24})$
+^(?:When )?I request sections for an org with id ([a-f0-9]{24}) and a school with id ([a-f0-9]{24})$
+^(?:When )?I request students for an org with id ([a-f0-9]{24}) and a school with id ([a-f0-9]{24})$
+^(?:When )?I request students for an organization with id ([a-f0-9]{24})$
+^(?:When )?I request teachers for an org with id ([a-f0-9]{24}) and a school with id ([a-f0-9]{24})$
+^(?:When )?I request the current term for an org with id ([a-f0-9]{24}) and a school with id ([a-f0-9]{24})$
+^(?<name>.{8}) (?<id>.{8}) (?<owner>.{8}) (?<status>(INPUT|ACTIVE|OUTPUT)) (?<class>.{1,8})( (?<rest>.*))?$
+^(?i)([0-9a-h]{128})$
+^(?i)([0-9a-h]{64})$
+^(?i)[0-9a-z\,\s\.\-]{1,255}$
+^(?i)[0-9a-z\\_\.\-]{1,100}:[0-9]+$
+^(?i:[a-z0-9.]{1,50})$
+^(?i:0x)?([a-fA-F0-9]{10,64})$
+^([*]|[a-z0-9][a-z0-9\-]{0,62})(?:\.([*]|[a-z0-9][a-z0-9\-]{0,62}))*$
+^([\+][0-9]{1,3}[ \.\-])?([\(]{1}[0-9]{2,6}[\)])?([0-9 \.\-\/]{3,20})((x|ext|extension)[ ]?[0-9]{1,4})?$
+^([\w\-\./_=]){0,64}\*$
+^([^\x20]{1,79})\x20(\x20|\x20)\x20([^\x20]*)(.)[^\x20]*\x20(.*)$
+^([^-]+)-([A-Za-z0-9+/=]{44,88})(\?[\x21-\x7E]*)*$
+^([0-9/]{10}) +([0-9:]{4,5}( [AP]M)?) +(<DIR>|[0-9,]+) +([^ ]{0,11}) +(.+)$
+^([0-9]{1,20}) CREATED (\S+) ([0-9]{1,20}) (\S+) (.*)$
+^([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})[ ]*\-[ ]*([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})\.([0-9]{1,3})$
+^([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})-([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})$
+^([0-9]{5})(.{64})\n
+^([0-9]+) (.+) ([0-9a-fA-F]{40})(\s+[0-9]+|\s+-)?\t(.+)$
+^([0-9]+) (.+) ([0-9a-fA-F]{40})\t(.+)$
+^([0-9a-f]{32,80})_[a-z]{2}$
+^([0-9a-f]{32})-([0-9a-f]{32})\.
+^([0-9a-f]{40,})\s+refs/changes/[0-9a-f]{2}/([0-9]+)/(.+)$
+^([0-9a-f]{40})\s+(.+)$
+^([0-9a-f]{64}) .+
+^([0-9a-f]{8})([0-9a-f]{32})([0-9a-f]{256})$
+^([0-9a-f]{8})([0-9a-f]{32})([0-9a-f]{64})([0-9a-f]{66})$
+^([0-9a-fA-F]{40})\s+tags\/(.+)(\^[0-9]+|\~[0-9]+)$
+^([0-9a-z](?:[_-]?[0-9a-z]){1,35}|\+)/(devices)/([0-9a-z](?:[_-]?[0-9a-z]){1,35}|\+)/(events|up|down)([0-9a-z/]+)?$
+^([ABC])\t([0-9]{1,20})\tCREATED\t(\S+)\t([0-9]{1,20})\t([+-]?[0-9]{1,20}|NONE)\t(\S+)\t(.*)$
+^([A-F,0-9]){512}$
+^([a-f0-9]{40}) refs/tags/(\S+)(\^\{\})?$
+^([a-f0-9]{64})$
+^([a-f0-9A-F]{32})(\+[0-9]+)?((\+[B-Z][A-Za-z0-9@_-]*)*)(\+A([a-f0-9A-F]{40})@([a-f0-9A-F]{8}))((\+[B-Z][A-Za-z0-9@_-]*)*)$
+^([a-fA-F0-9][a-fA-F0-9]){1,32}$
+^([a-z\d][a-z\d-]{0,61}[a-z\d])\.tumblr\.com/
+^([a-z][0-9a-zA-Z_]{1,63})$
+^([-a-z0-9]{1,63})(\.[-a-z0-9]{1,63}){1,}$
+^([a-z0-9]{40})\s+(.+)$
+^([a-z0-9-]+)/([a-z0-9-])+/([a-zA-Z0-9_-]{1,63})$
+^([A-Za-z]\d{7}|\s{8}) ([A-Za-z]\d{7}|\s{8}) ([0-9a-fA-F]{8}|\s{8}) ([0-9a-fA-F]{8})
+^([A-Za-z]\d{7}|\s{8}) ([A-Za-z]\d{7}|\s{8}) ([0-9a-fA-F]{8}|\s{8}) ([0-9a-fA-F]{8}) (.*)$
+^([A-Za-z0-9._-]+):([A-Za-z0-9._-]+):([A-Za-z0-9+/]{341}[AQgw]==)$
+^([a-zA-Z0-9]){64}$
+^([a-zA-Z0-9]{1}[a-zA-Z0-9_-]{1,62}){1}(\.[a-zA-Z0-9]{1}[a-zA-Z0-9_-]{1,62})+$
+^([a-zA-Z0-9]{10,100})$
+^([a-zA-Z0-9]{76} )+[a-zA-Z0-9]{76}$
+^([a-zA-Z0-9-_.]{1,100})\/([a-zA-Z0-9-_.]{1,100})$
+^([a-zA-Z0-9_-]){1,160}$
+^([a-zA-Z0-9_-]){1,80}$
+^([a-zA-Z0-9_][a-zA-Z0-9_-]{0,62})(\.[a-zA-Z0-9_][a-zA-Z0-9_-]{0,62})*[._]?$
+^([a-zA-Z0-9_]{1}[a-zA-Z0-9_-]{0,62}){1}(\.[a-zA-Z0-9_]{1}[a-zA-Z0-9_-]{0,62})*[\._]?$
+^(\$2[axy]|\$2)\$[0-9]{2}\$[a-z0-9\/.]{53}$
+^(\$cisco4\$)?[a-z0-9\/.]{43}$
+^(\$django\$\*1\*)?pbkdf2_sha256\$[0-9]+\$[a-z0-9]+\$[a-z0-9\/+=]{44}$
+^(\$chap\$0\*)?[a-f0-9]{32}[\*:][a-f0-9]{32}(:[0-9]{2})?$
+^(\$md5,rounds=[0-9]+\$|\$md5\$rounds=[0-9]+\$|\$md5\$)[a-z0-9\/.]{0,16}(\$|\$\$)[a-z0-9\/.]{22}$
+^(\$snefru\$)?[a-f0-9]{64}$
+^(\$wbb3\$\*1\*)?[a-f0-9]{40}[:*][a-f0-9]{40}$
+^(\.|[a-zA-Z0-9_\-]{1,255})(/[a-zA-Z0-9_/\-]{0,255})(\?.*)?$
+^(\+49[ \.\-])?([\(]{1}[0-9]{1,6}[\)])?([0-9 \.\-\/]{3,20})((x|ext|extension)[ ]?[0-9]{1,4})?$
+^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}),(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}),(\d+),(\d+),..,.*$
+^(\d{1,9})\.(\d{1,9})(?:\.|-([a-z]+))(\d{1,9})(\.\d{1,9})?$
+^(\d{1,9})\.(\d{1,9})\.(\d{1,9})(\.\d{1,9})?-([^-]+)-([^-]+)$
+^(\d{2}-\w{3}-\d{4}\s+\d{2}:\d{2}:\d{2}\.\d{3})\s+client\s+(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})#\d+:\s+query:\s+(.*)\s+IN\s+(\w+)\s+\+\s+\((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\)$
+^(\d{2}-\w{3}-\d{4}\s+\d{2}:\d{2}:\d{2}\.\d{3})\s+client\s+(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})#\d+\s+\(.+\):\s+query:\s+(.*)\s+IN\s+(\w+)\s+\+\w*\s+\((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\)$
+^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})\d{0,4}([+-]{1}\d{2}:\d{2}|Z)$
+^(\d{6})(\d{4})?(C|D|RC|RD)\D?(\d{1,12},\d{0,2})((?:N|F).{3})(NONREF|.{0,16})(?:$|\/\/)(.*)
+^(\d{8})(.{58})(\d{5})(.{30})(\d\d)(\d)
+^(\d{9})..<+(\d{6}).<+(\d{6}).<+.$
+^(\d+),(-|)(\d{1,6}|\d+\.\d+|\.\d+|),(-|)(\d{1,6}|\d+\.\d+|\.\d+|),(-|)(\d{1,6}|\d+\.\d+|\.\d+|),(-|)(\d{1,6}|\d+\.\d+|\.\d+|),(-|)(\d{1,6}|\d+\.\d+|\.\d+|),([01]{0,8})
+^(\d+):UKEY=(.{16})\sTEXT=(.{16})\sRKEY=(\S+)\sCIPH=(\S+)
+^(\d+)\t(\d+)\t(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) - (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\t(..)
+^(\d+)-g([a-fA-F0-9]{7,40})(-dirty)?$
+^(\w[\w\-.]{0,254})$
+^({SSHA})?[a-z0-9\+\/]{32,38}?(==)?$
+^(0x)?[0-9A-F]{512}$
+^(0x)?[0-9A-F]{64}$
+^(0x)?[0-9a-f]{64}$
+^(-0x|0x)?[0-9a-fA-F]{64}$
+^(0x|0X)[a-fA-F0-9]{64}$
+^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$
+^(application|audio|font|image|message|model|multipart|text|video)/[a-zA-Z0-9.\-+]{1,100}$
+^(blockchain:)((\/\/[a-fA-F0-9]{64})?)\/(tx|block|address)\/([a-fA-F0-9]{64})$
+^(cacheline_[a-fA-F0-9]{1,50}|cl_[a-fA-F0-9]{1,50})$
+^(cacheline_[a-zA-Z0-9]{1,50}|cl_[a-zA-Z0-9]{1,50})$
+^(ff){16}011b01040064007801010101fe(ab){254}$
+^(ff){16}011c01040064007801010101ff(ab){255}$
+^(ff){16}012001040064007801010101ffff0100(ab){256}$
+^(ff){16}012101040064007801010101ffff0101(ab){257}$
+^(http|https)://steamcommunity.com/openid/id/[0-9]{15,25}$
+^(record|gtable|app|applet|workflow|globalworkflow|job|analysis|project|container|file|database)-[0-9A-Za-z]{24}$
+^(revert: )?(feat|fix|docs|style|refactor|perf|test|workflow|ci|chore|build)(\(.+\))?: .{1,50}
+^(revert: )?(feat|fix|polish|docs|style|refactor|perf|test|workflow|ci|chore|types)(\(.+\))?: .{1,50}
+^(revert: )?(feat|fix|polish|docs|style|refactor|perf|test|workflow|ci|chore|types|build|merge)(\(.+\))?: .{1,50}
+^(S:)?[a-f0-9]{40}(:)?[a-f0-9]{20}$
+^(sha256:|)[a-z0-9]{64}\n$
+^(tree|object) ([a-fA-F0-9]{40})$
+^(V|R|E)\t([0-9]{12}Z)\t([0-9]{12}Z)?\t([0-9a-fA-F]{2,})\t([^\t]+)\t(.+)
+^(xrb_|nano_)[13][13-9a-km-uw-z]{59}$
+^.{0,100}$
+^.{0,256}EndData[\x0d\x0a]+
+^.{1,253}$
+^.{1,256}$
+^.{100}
+^.{1080}(M\.K\.|M!K!|FLT4|FLT8|[5-9]CHN|[1-3][0-9]CH)
+^.{60,}\n$
+^.{60}$
+^.{65,}
+^.{76,}$
+^.{77,}
+^.{8}(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2}).(.{15})([NS])(\d{8})([EW])(\d{9})(\d{8})
+^/.*/tmp/golang/src/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$
+^/.*/tmp/java/src/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$
+^/.*/tmp/python/src/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$
+^/claim-work/([a-zA-Z0-9_-]{1,22})/([a-zA-Z0-9_-]{1,22})$
+^/internal/task/([a-zA-Z0-9_-]{22})/runs/([0-9]+)/put-artifact/(.*)$
+^/trireme/[a-zA-Z0-9_\-:.$%]{1,64}$
+^/trireme_uid/[a-zA-Z0-9_\-]{1,32}(/[0-9]{1,32}){0,1}$
+^:[0-7]{6} [0-7]{6} [0-9a-fA-F]{40} [0-9a-fA-F]{40} ([ACDMR])\d{0,3}\t(.+)(?:\t(.+))?$
+^:[0-9]{6} [0-9]{6} [0-9a-f]{40} [0-9a-f]{40} ([ACDMRTUX])[0-9]{0,3}\t(.+)$
+^[ -~]{0,200}[!-~]$
+^[ -~]{16,64}$
+^[!-~]{1,250}$
+^[!-~]{64}$
+^[-.:_\/\w ]{1,255}$
+^[.\w-]{1,64}$
+^[\sa-z0-9_-]{1,200}$
+^[\u0020-\u007E\u00A0-\u00FF]{1,100}$
+^[\u0430-\u044fa-z0-9.-]{2,255}$
+^[\w\-.]{1,80}$
+^[\w\-\.~/_=#]{1,512}$
+^[\w\-~\/\.]{1,400}$
+^[\w\d]{4,64}$
+^[-\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u01110-9#~!$%^&*_=+\/`\|}{\'?]+(\.[-\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u01110-9#~!$%^&*_=+\/`\|}{\'?]+)*@([\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u01110-9_][-\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u01110-9_]*(\.[-\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u01110-9_]+)*([\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u0111]+)|(\.[\w\u0430-\u044f\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u0105\u00e6\u00e7\u0107\u00e8\u00e9\u00ea\u00eb\u0119\u0153\u00ec\u00ed\u00ef\u00ee\u0142\u0144\u00f0\u00f2\u00f3\u00f4\u00f5\u00f6\u00f8\u015b\u00f9\u00fa\u00fb\u00f1\u00fc\u00fd\u00ff\u017c\u017a\u00df\u00de\u010f\u0111]{2,6})|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$
+^[\w][\w.-]{0,127}$
+^[\w-]{1,63}$
+^[\w]{32}:[\w]{32}$
+^[\w-]{6,128}$
+^[\w+=,.@-]{1,64}$
+^[\x00-\x7F]{8,63}$
+^[\x20-\x7E]{0,127}$
+^[\x20-\x7E]{0,64}$
+^[\x20-\x7E]{1,128}$
+^[\x20-\x7E]{1,64}$
+^[\x21-\x7e]{1,255}$
+^[\x21-\x7e]{20,1024}$
+^[^*]{1,255}$
+^[^.]{1,63}(\.[^.]{1,63})*$
+^[^\.][\w\-\.]{0,255}$
+^[^\.]{1,63}(\.[^\.]{1,63})*\.?$
+^[^\x00-\x1F<>]{0,256}$
+^[^\x00-\x1F<>]{0,512}$
+^[^<>*%&:\?.+/]{0,127}[^<>*%&:\?.+/\s]$
+^[-+].{79}
+^[+a-z0-9A-Z_-]{0,63}$
+^[01]{1,128}$
+^[0-9]{1,309}\.[0-9]{1,2}$
+^[0-9]{4}:[a-f0-9]{16}:[a-f0-9]{2080}$
+^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]{3}([-+][0-9]{2}:[0-9]{2}|Z)$
+^[0-9]{6} (blob|tree) ([0-9a-f]{40})\t(.+)$
+^[0-9a-f:]{2,64}$
+^[0-9a-f]{40} Braid: Update mirror 'skit1' to '[0-9a-f]{7}'$
+^[0-9a-f]{40} Braid: Update mirror 'skit-layouts' to '[0-9a-f]{7}'$
+^[0-9a-f]{56}$
+^[0-9a-f]{64}$
+^[0-9a-f]{8}-?[0-9a-f]{4}-?[1-5][0-9a-f]{3}-?[89ab][0-9a-f]{3}-?[0-9a-f]{12}$
+^[0-9a-f]{96}$
+^[0-9A-Fa-f]{64}
+^[0-9a-fA-F]{64}$
+^[0-9A-Fa-f]{66}$
+^[0-9A-HJ-NP-Za-km-z]{70,80}$
+^[0-9a-z][0-9a-z-]{0,30}[0-9a-z]$
+^[0-9A-Z]{52}$
+^[0-9a-z]{64}$
+^[0-9a-z]+\$[0-9a-z]+\$[0-9a-z]+\$[A-Za-z0-9]{16,64}$
+^[0-9a-z]+\$[0-9a-z]+\$[0-9a-z]+\$[A-Za-z0-9]{16,64}\$[A-Za-z0-9]{32,1024}$
+^[0-9a-z_]{3,255}$
+^[0-9A-Za-z._-]{0,100}$
+^[0-9a-zA-Z\-\\_]{0,500}$
+^[0-9A-Za-z\\_\.]{0,50}$
+^[0-9A-Za-z\\_\-]{1,63}$
+^[0-9a-zA-Z\\_]{1,64}$
+^[0-9a-zA-Z]{1}[0-9a-zA-Z_\-]{0,127}$
+^[0-9a-zA-Z]{64}$
+^[0-9a-zA-Z]{80,}$
+^[0-9A-Za-z_\-\. \)\(]{1,100}$
+^[0-9A-Za-z_\-\.]{1,100}$
+^[0-9a-zA-Z_-]{1,50}$
+^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{106}$
+^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{95}$
+^[1-9a-km-zA-HJ-NP-Z]{1,111}$
+^[ab]{64}$
+^[a-f0-9]{128}$
+^[a-f0-9]{130}(:[a-f0-9]{40})?$
+^[a-f0-9]{1329}$
+^[a-f0-9]{256}$
+^[a-f0-9]{256}:[a-f0-9]{256}:[a-f0-9]{16}:[a-f0-9]{16}:[a-f0-9]{320}:[a-f0-9]{16}:[a-f0-9]{40}:[a-f0-9]{40}:[a-f0-9]{40}$
+^[a-f0-9]{28,56}$
+^[a-f0-9]{32,}  [^ ].*$
+^[a-f0-9]{32}:.{30}$
+^[a-f0-9]{32}:[a-f0-9]{32}$
+^[a-f-0-9]{32}:[a-f-0-9]{32}$
+^[a-f0-9]{40}:[^*]{1,25}$
+^[a-f0-9]{51}$
+^[a-f0-9]{56}$
+^[a-f0-9]{64}$
+^[a-f0-9]{64}(:.+)?$
+^[a-f0-9]{64}:[a-f0-9]{32}:[0-9]{5}:[a-f0-9]{608}$
+^[a-f0-9]{70}$
+^[a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-?[89ab][a-f0-9]{3}-?[a-f0-9]{12}\Z
+^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}_Basecall_2D_(.*)$
+^[a-f0-9A-F]{136}$
+^[a-fA-F\d]{128}$
+^[a-fA-F\d]{32}:[a-fA-F\d]{32}$
+^[a-fA-F\d]{64}$
+^[a-fA-F0-9]{32}:[a-zA-z0-9]{32}$
+^[a-fA-f0-9]{64}$
+^[a-fA-F0-9]{64}$
+^[A-Fa-f0-9]{64}$
+^[a-fA-F0-9]{64}-[0-9]{10}$
+^[a-z\d\-_\s\.]{3,150}$
+^[a-z\d\-_\s]{3,150}$
+^[a-z\d][a-z\d\._-]{1,230}[a-z\d]$
+^[A-z\d]{50}$
+^[a-z](?:_?[a-z0-9])*:\$2[aby]?\$\d{1,2}\$[./A-Za-z0-9]{53}$
+^[a-z][0-9a-z_\-:\./]{0,199}$
+^[a-z][0-9a-zA-Z_]{0,63}$
+^[a-z][a-z_0-9]{0,254}$
+^[a-z][a-z0-9-]{0,62}$
+^[a-z][a-z0-9]{2,64}@(yahoo-inc\.com|uk\.yahoo-inc\.com|yahoo-corp\.jp|tumblr\.com|yahoo\.com)$
+^[a-z][a-zA-Z0-9_-]{1,62}$
+^[a-z]{1,50}$
+^[a-z]{1}[a-z0-9-._]{1,50}$
+^[a-z_\x7f-\xff][a-z0-9_\x7f-\xff]{0,60}$
+^[a-z0-9.]{1,50}$
+^[a-z0-9-.]{1,64}$
+^[a-z0-9'\(\)\+_\-,\.\/:=\?\ ]{0,69}[a-z0-9'\(\)\+_\-,\.\/:=\?]$
+^[a-z0-9\-\,\s]{1,500}$
+^[a-z0-9\-_]{2,50}$
+^[a-z0-9](([a-z0-9\-[^\-])){1,61}[a-z0-9]$
+^[a-z0-9][a-z0-9\.\-]{1,61}[a-z0-9]$
+^[a-z0-9][a-z0-9\._-]{1,253}[a-z0-9]$
+^[a-z0-9][a-z0-9\-]{2,62}$
+^[a-z0-9][a-z0-9-]+[a-z0-9]--[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-4[0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$
+^[a-z0-9-]{0,50}$
+^[a-z0-9-]{1,63}$
+^[a-z0-9-]{1,64}$
+^[a-z0-9-]{1,64}?$
+^[a-z0-9]{10,64}$
+^[a-z0-9]{128}$
+^[a-z0-9]{32}/[a-z0-9]{32}$
+^[A-Z0-9]{4}SG([0-9A-F]{24})DLK([0-9A-F]{32})$
+^[a-z0-9]{56}$
+^[a-z0-9]{64}$
+^[A-Z0-9]{64}$
+^[a-z0-9_.-]{1,64}$
+^[a-z0-9_.-]{3,255}$
+^[a-z0-9_]{1,60}$
+^[a-z0-9_]{3,250}$
+^[a-z0-9_-]{3,250}(\.(\[\d+\]|[a-z0-9_-]{1,250}))*$
+^[a-z0-9-_]+_([a-f0-9]{40}(\-[a-z0-9]+)?)\.tar\.gz$
+^[A-Z0-9<]{88}$
+^[a-z0-9A-Z:_-]{1,255}$
+^[a-z0-9A-Z][a-z0-9A-Z\-]{0,61}[a-z0-9A-Z]|[a-zA-Z]$
+^[a-z0-9A-Z][a-z0-9A-Z_-]{0,149}$
+^[a-z0-9A-Z]{100}$
+^[a-z0-9A-Z_-]{0,63}$
+^[a-zA-Z\d\-_\s]{2,50}$
+^[a-zA-Z\d_\.]{2,64}$
+^[a-zA-Z\s]{3,50}$
+^[a-zA-Z][-_!a-zA-Z0-9]{2,149}$
+^[a-zA-Z][-_a-zA-Z0-9]{0,255}$
+^[a-zA-Z][-_a-zA-Z0-9]{0,99}$
+^[a-zA-Z][a-z0-9A-Z\-]{0,61}[a-z0-9A-Z]$
+^[A-Za-z][A-Za-z0-9\.\-_]{1,50}$
+^[a-zA-Z][a-zA-Z0-9\-_]{0,63}$
+^[a-zA-Z][a-zA-Z0-9-]{0,127}$
+^[a-zA-Z][-a-zA-Z0-9]{1,49}$
+^[A-Za-z][A-Za-z0-9]{2,62}$
+^[a-zA-Z][A-Za-z0-9_]{1,150}$
+^[a-zA-Z]\w{0,143}$
+^[a-zA-Z]{1}[a-zA-Z0-9]{1,255}$
+^[A-Za-z]{2,6}(\.[A-Za-z0-9-]{1,63})+$
+^[a-zA-Z]{4,99}$
+^[a-zA-Z_][0-9a-zA-Z_]{0,62}$
+^[a-zA-Z_][a-zA-Z0-9_]{0,127}$
+^[a-zA-Z_-]{1,100}$
+^[a-zA-Z0-9- ]{1,63}$
+^[A-Za-z0-9,+/=-]{20,200}$
+^[a-zA-Z0-9.@_-]{1,100}$
+^[a-zA-Z0-9.\-_]{1,255}$
+^[a-zA-Z0-9-.]{0,63}$
+^[a-zA-Z0-9.]{1,128}$
+^[a-zA-Z0-9._~-]{43,128}$
+^[a-zA-Z0-9/-]{60,80}={0,2}$
+^[A-Za-z0-9/_\-\.]{0,512}$
+^[a-zA-Z0-9/+=]{20,60}$
+^[A-Za-z0-9\.\-_]{1,255}$
+^[A-Za-z0-9\.-]{1,100}$
+^[A-Za-z0-9\-\.]{0,511}[A-Za-z0-9\.]$
+^[a-zA-Z0-9\-\.]{3,255}$
+^[a-zA-Z0-9\-_.]{1,64}$
+^[A-Za-z0-9\-_]{1,128}$
+^[a-zA-Z0-9\+\/=\-.:_ ]{1,250}$
+^[a-zA-Z0-9\u4E00-\u9FA5]{1}[a-zA-Z0-9\u4E00-\u9FA5-]{0,62}$
+^[a-zA-Z0-9][-._a-zA-Z0-9]{0,48}([a-zA-Z0-9])?$
+^[a-zA-Z0-9][\w-./~]{0,258}([a-zA-Z0-9])?$
+^[A-Za-z0-9][A-Za-z0-9!#$&^_-]{0,126}$
+^[A-Za-z0-9][A-Za-z0-9\.\-\\_\:]{1,61}[A-Za-z0-9]$
+^[A-Za-z0-9][A-Za-z0-9\.\-]{1,255}$
+^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$
+^[A-Za-z0-9-]{1,100}$
+^[a-zA-Z0-9-]{1,128}$
+^[a-zA-Z0-9]{1}[a-zA-Z0-9-]{0,63}$
+^[a-zA-Z0-9]{16,128}$
+^[a-zA-Z0-9]{2,64}$
+^[a-zA-Z0-9]{58}$
+^[a-zA-Z0-9]{64}$
+^[a-zA-Z0-9_.:-]{1,128}$
+^[a-zA-Z0-9_.-]{1,128}$
+^[-A-Za-z0-9_.]{1,255}$
+^[-a-zA-Z0-9_.]{3,255}$
+^[a-zA-Z0-9_.-]{3,50}$
+^[a-zA-Z0-9_.]{4,256}$
+^[A-Za-z0-9_/]{1,50}\.png$
+^[a-zA-Z0-9_:.@\-()+,=$!*'%]{1,254}$
+^[a-zA-Z0-9_\-.:@]{1,256}$
+^[a-zA-Z0-9_\-.]{3,128}$
+^[a-zA-Z0-9_\-\:\.]{1,500}$
+^[a-zA-Z0-9_\-]{1,50}$
+^[a-zA-Z0-9_\-+=:\/@\.]{1,127}$
+^[a-zA-Z0-9_\-+=:\/@\.]{1,255}$
+^[a-zA-Z0-9_][]a-zA-Z0-9_\.\-]{0,127}$
+^[a-zA-Z0-9-_]{1,255}$
+^[a-zA-Z0-9_]{1,64}$
+^[a-zA-Z0-9-_]{1,64}$
+^[a-zA-Z0-9_-]{1,64}\/[a-zA-Z0-9_:.@\-()+,=$!*'%]{1,254}$
+^[A-Za-z0-9_]{10,59}$
+^[a-zA-Z0-9-_]{4,100}$
+^[A-Za-z0-9_-]{40,50}$
+^[a-zA-Z0-9~._-]{43,128}$
+^[a-zA-Z0-9+\(\)/.$_][a-zA-Z0-9+\(\)/.$_-]{0,199}$
+^[A-Za-z0-9+=/]{80}$
+^[c][123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{51}$
+^[fadtFADT]{65}$
+^[gatcn]{11,50}$
+^[LK][123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{51}$
+^\$[0-9a-z]{2}\$[0-9]{2}\$[A-Za-z0-9\.\/]{53}$
+^\$\w{2}\$\w{5,}\$[\w\/\=\+]{11,64}\$[\w\/\=\+]{1,256}$
+^\$2[aby]\$[0-9]{2}\$.{53}$
+^\$2[aby]\$\d+\$.{50,}
+^\$2[axy]?\$\d{2}\$[./a-zA-Z0-9]{53}$
+^\$2[ayb]\$.{56}$
+^\$2[a-z]?\$([0-9]+)\$(.{22})(.{31})$
+^\$5\$(rounds=[0-9]+\$)?[a-z0-9\/.]{0,16}\$[a-z0-9\/.]{43}$
+^\$6\$(rounds=[0-9]+\$)?[a-z0-9\/.]{0,16}\$[a-z0-9\/.]{86}$
+^\.breakfast-manifest-[0-9a-f]{32}.json$
+^\.sprockets-manifest-[0-9a-f]{32}.json$
+^\.sprockets-manifest-[a-f0-9]{32}.json
+^\/[a-z]\/(\d{8})\/(\w{40})\/(\d{2,3})x(\d{2,3})-(\w{4}).(\w{3})(?:\?(.*))?$
+^\/docker\/[0-9a-f]{64}(\/docker\/[0-9a-f]{64})
+^\/webhooks\/(\d+)\/[A-Za-z0-9-_]{64,}
+^\:(\d{6}) (\d{6}) (\w{40}) (\w{40}) (\w{1}[0-9]*)\t(.*)$
+^\-{58}
+^\{isa = PBXBuildFile fileRef = [A-Z0-9]{24}\}$
+^\{PKCS5S2\}[a-z0-9\/+]{64}$
+^\d{1,30}\.\d{1,30}\.\d{1,30}
+^\d{1,4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,9})?(Z|[+-]\d{2}:\d{2})
+^\d{1200}$
+^\d+(\.\d+)?\.\.\d+(\.\d+)?$|^\d{4}\/\d{2}\/\d{2}@\d{2}:\d{2}:\d{2}\.\.\d{4}\/\d{2}\/\d{2}@\d{2}:\d{2}:\d{2}$
+^\n                (?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})[Tt]\n                (?<hour>\d{2}):(?<minute>\d{2})(?::(?<second>\d{2})(?:\.(?<microsecond>\d{1,6}))?)?\n                (?<timezone>[Zz]|[+-]\d{2}:\d{2})?\n            $
+^\n            (?:[a-f0-9]{8}) -\n            (?:[a-f0-9]{4}) -\n            (?:[a-f0-9]{4}) -\n            (?:[a-f0-9]{4}) -\n            (?:[a-f0-9]{12})\n        $
+^\n        urn:                                # URN indicator\n        [A-Z0-9]                            # First caracter (must be alphanumeric)\n        [A-Z0-9-]{0,31}:                    # First word in URN (max of 32 caracters)\n        [-A-Z0-9()+,\.:=@\$_!*'%\/?#]+    # Rest of URN (almost any caracters)\n    $
+^\n[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?  # host\n(\.[a-z0-9\-_]{0,62}[a-z0-9])*       # domain\n\.?                                  # trailing dot\n$
+^\s*([^:\s][^:\n]{2,29})\s*:\s*\S
+^\s*(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(\/\d{1,2}|-\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})?)(\s+(.*)|)$
+^\s*Change-Id: *I[a-f0-9]{40}$
+^\S.{0,1022}$
+^\S{2,50}$
+^\w[\w_\.-]{1,61}\w$
+^\w{1,100}\/\w{1,100}
+^\w{1,64}$
+^\w{3},\s(\d{2})\s(\w{3})\s(\d{2,4})\s(\d{1,2}):(\d{2}):(\d{2})\s.{1,21}$
+^\w{6,9},\s(\d{2})-(\w{3})-(\d{2})\s(\d{2}):(\d{2}):(\d{2})\s.{3,20}$
+^\w{9}-\w{9}-\w{9}-\w{9}-\w{9}$
+^\x20\x20{50}
+^\x20BitTorrent protocol.{48}$
+^`{32} example\n((?s).*)\n\.\n(?:|((?s).*)\n)`{32}$|^#{1,6} *(.*)$
+^{@link\s+topic:(\w{32})(\s.+)?}$|^topic:(\w{32})$
+^-{72}$
+^{SCRYPT}([A-Za-z0-9+/]{128})$
+^<Buffer (?:78 ){50}\.\.\. >$
+^={10,100}$
+^={77}$
+^={80}$
+^0{127}
+^0x[0-9a-f]{64}$
+^0x[0-9a-zA-Z]{64}$
+^0x[ABCDEF0-9]{8,64}$
+^0x[a-f0-9]{4}[a-f0-9]{16}[a-f0-9]{64}$
+^0x[a-f0-9]{60}\s0x[a-f0-9]{40}$
+^0x[a-f0-9]{64}$
+^0x[a-f0-9]{66}$
+^0x0100[a-f0-9]{48}$
+^0x0100[a-f0-9]{88}$
+^234[5-9]\d{1000}$
+^6P[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{56}$
+^A-[A-Za-z0-9:]{95}$
+^Apache-Session-([a-z0-9]{32})\.lock$
+^arn:aws:cognito-identity:[^:]+:[0-9]{12}:identitypool/[^:]+:([0-9a-f]){8}-([0-9a-f]){4}-([0-9a-f]){4}-([0-9a-f]){4}-([0-9a-f]){12}$
+^arn:aws:config:[\w-]+:\d{12}:aggregation-authorization/\d{12}/[\w-]+$
+^arn:aws:kms:[a-z]{2}-[a-z]+-\d{1}:[0-9]{12}:key/[a-z0-9-]{36}$
+^ATCO-CIF(\d\d)(\d\d)(.{32})(.{16})(\d{8})(\d{4,6})$
+^Auction [a-f0-9]{8}-?[a-f0-9]{4}-?4[a-f0-9]{3}-?[89ab][a-f0-9]{3}-?[a-f0-9]{12} timedOut$
+^BOR-STATUS\s{10}\s.{5}\sL\s(.{50})\s(.*)$
+^commits/[^/]+/\S{40}$
+^Content-Type:\s(.{0,100}charset=[^\n]+)
+^dejitter=(\d{1,10})(CDB=(\d{1,10})BTM=(0|1|2))?(TD=(\d{1,10}))?(BFR=(0|1))?$
+^Digest realm=Administrators, nonce=\w{32}$
+^Digest realm=Users, domain=\/admin \/private, nonce=\w{32}$
+^Digest realm=Users, domain=\/admin, nonce=\w{32}$
+^Digest realm=Users, nonce=\w{32}$
+^Digest realm=Users, nonce=\w{32}, algorithm=MD5-sess$
+^Digest realm=Users, nonce=\w{32}, opaque=abcdefg1234$
+^Digest realm=Users, nonce=\w{32}, qop=auth$
+^Digest realm=Users, nonce=\w{32}, qop=auth,auth-int$
+^filesystem:chrome-extension:\/\/[a-p]{32}\/external\/
+^from \S+ by \S+ \(.{0,100}\) with qmail-scanner
+^github\.com/[\w.-]{1,100}/[\w.-]{1,100}$
+^gpg:\s+using subkey ([a-f0-9]{16,40}) instead of primary key ([a-f0-9]{16,40})$
+^hsl\(\s{0,31}[\-\.]?\d+\s{0,31},\s{0,31}\.?\d+%\s{0,31},\s{0,31}\.?\d+%\s{0,31}\)|hsla\(\s{0,31}[\-\.]?\d+\s{0,31},\s{0,31}\.?\d+%\s{0,31},\s{0,31}\.?\d+%\s{0,31},\s{0,31}\.?\d+\s{0,31}\)$
+^https://steamcommunity.com/openid/id/([0-9]{17,25})
+^https:\/\/example\.com\/authorize\?client_id=1234&nonce=[\w\d]{32}&response_type=code&scope=openid&state=[\w\d]{32}$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|googleapis\.com|prod\.google\.com|sandbox\.google\.com|staging\-www\.sandbox\.googleapis\.com)(:[0-9]+)?\/
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/+embed\/+
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?\/
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/embed\/
+^https?:\/\/(www\.gstatic\.com\/doubleclick\/studio\/innovation\/ytplayer|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris|tpc\.googlesyndication\.com\/safeframe\/|lightbox-(demos|builder)\.appspot\.com\/|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|2mdn\.net|googlesyndication\.com|corp\.google\.com|borg\.google\.com|googleads\.g\.doubleclick\.net|prod\.google\.com|static\.doubleclick\.net|static\.googleadsserving\.cn|studioapi\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|ytimg\.com)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/gyazo.com\/[a-z\d]{32}$
+^https?:\/\/sketchfab\.com\/models\/[a-z0-9]{32}
+^chrome-extension[_|://]([a-z]{32})
+^I have entered my api key as ([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})$
+^I should get a course with id ([a-f0-9]{24})$
+^I should get a school with id ([a-f0-9]{24})$
+^I should get a student with id ([a-f0-9]{24})$
+^I should get an organization with id ([a-f0-9]{24})$
+^I should get the organization with id ([a-f0-9]{24})$
+^id:([^ ]+) sub:(\d{1,3}) dlvrd:(\d{3}) submit date:(\d{10,12}) done date:(\d{10,12}) stat:([A-Z ]{7}) err:(\d{2,3}) text:(.*)$
+^ip-address\s*(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) *(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})*
+^magnet:\?xt=urn:[a-z0-9]+:[a-z0-9]{32,40}&dn=.+&tr=.+$
+^Merge\s\w{40}\sinto\s\w{40}$
+^mlid=(w\d{16})\r\npasswd=(.{16,32})$
+^multipart\/form-data boundary=--------------------------\d{24}$
+^otpauth://hotp/\?secret=\w{32}&counter=0$
+^otpauth://totp/Example\:roberto@heapsource\.com\?secret=\w{32}&issuer=Example$
+^otpauth://totp/roberto@heapsource\.com\?secret=\w{32}$
+^otpauth://totp/roberto\?secret=\w{32}$
+^overwrite\.sig=.{27} path=\/ httponly$
+^PGTIOU-[0-9]{10,}-[a-zA-Z0-9]{32}$
+^please relay (\w{64}) for side (\w{16})\n
+^Q([012]{27})([012]{27})([012]{27})\z
+^QB([NDR])(.{12})(.{8})(.{8})(.{24})(.{24})$
+^QL([NDR])(.{12})(.{48})(.)([BSPRID ])(.{8})$
+^QS([NDR])(.{4})(.{6})(\d{8})(\d{8}| {8})([01]{7})([ SH])([ ABXG])(.{4})(.{6})(.{8})(.{8})(.)$
+^rake d *# x{65}\.\.\.$
+^rake d\n *x{80}
+^refs\/heads\/([^ ]+) ([0-9a-f]{40})$
+^rename-command CONFIG [a-zA-Z0-9]{40}$
+^rename-command SHUTDOWN [a-zA-Z0-9]{40}$
+^RESULT PREPARED [0-9a-f]{32} \[\[ks, tbl, col, :varchar\]\]$
+^rgb\(\s{0,31}[\d]{1,3}\s{0,31},\s{0,31}[\d]{1,3}\s{0,31},\s{0,31}[\d]{1,3}\s{0,31}\)|rgba\(\s{0,31}[\d]{1,3}\s{0,31},\s{0,31}[\d]{1,3}\s{0,31},\s{0,31}[\d]{1,3}\s{0,31},\s{0,31}[\.\d]+\s{0,31}\)$
+^rgba\(\d{1,3}(\.\d{1,2})?%?, ?\d{1,3}(\.\d{1,2})?%?, ?\d{1,3}(\.\d{1,2})?%?, ?[01](\.\d{1,6})?\)$
+^sample-file\.rb:13:   def inspection {100,} \| 
+^sample-file\.rb:14:     x\.inspect {100,} \| 
+^sample-file\.rb:20: s\.inspection {100,} \| 
+^sequenceflow-end-yellow-blue-[A-Za-z0-9]{25}$
+^sha256:[0-9a-f]{64}$
+^sha256[:$][0-9]+[:$][a-z0-9\/+]+[:$][a-z0-9\/+]{32,128}$
+^signed\.sig=.{27} path=\/ httponly$
+^skit1 \([0-9a-f]{40}\) \[BRANCH=branch1\] \(Locally Modified\)$
+^skit1 \([0-9a-f]{40}\) \[BRANCH=branch1\]$
+^skit1 \([0-9a-f]{40}\) \[BRANCH=master\] \(Locally Modified\)$
+^skit1 \([0-9a-f]{40}\) \[BRANCH=master\] \(Remote Modified\)$
+^skit1 \([0-9a-f]{40}\) \[BRANCH=master\]$
+^skit1 \([0-9a-f]{40}\) \[TAG=v1\] \(Locally Modified\)$
+^skit1 \([0-9a-f]{40}\) \[TAG=v1\]$
+^STM.{48,55}$
+^text/[a-zA-Z0-9.\-+]{1,100}\s?charset=([a-zA-Z0-9.\-+\s]{0,70}|[a-zA-Z0-9.\-+]{0,70})(\s?\([a-zA-Z0-9.\-+\s]{1,20}\))?$
+^text\/[a-zA-Z0-9\.\-\+]{1,100}\s?charset=([a-zA-Z0-9\.\-\+\s]{0,70}|[a-zA-Z0-9\.\-\+]{0,70})(\s?\([a-zA-Z0-9\.\-\+\s]{1,20}\))?$
+^UPDATEarm:0\d{13}10\nUPDATEarm:1\d{13}20\nUPDATEarm:2\d{13}30\nUPDATEarm:3\d{13}40\n$
+^urn:btih:(.{40})
+^Version: ([a-f0-9]{40})$
+^When I request sections for an organization with id ([a-f0-9]{24})$
+^When I request teachers for an organization with id ([a-f0-9]{24})$
+__cfduid=([a-f0-9]{46})
+_secure_my_unencrpyted_setting: [A-Za-z0-9\+\/]{342}==
+`age` BETWEEN (:[0-9a-z]{32}) AND (:[0-9a-z]{32})
+`name` IN \((:[0-9a-z]{32}),(:[0-9a-z]{32}),(:[0-9a-z]{32})\)
+{/\*(mclAssignmentBeginI[a-z]{55}IEnd)\*/}
+<([0-9a-f]{4})[0-9a-f]{4}[0-9a-f]{4}\$\n           ([0-9a-f]{4})[0-9a-f]{4}\$\n           ([0-9a-f]{8})\@(\S+)>
+<a href=([^#]+)>([^<]+)</a>\n\s+\(<a (?:title=MD5 hash\n\s+)href=[^?]+\?:action=show_md5&ampdigest=([0-9a-f]{32})>md5</a>\)
+<img src='\/\/cdn-[0|1].example.org\/images\/background.[a-f0-9]{32}.jpg' \/>
+<img.*src=[']:\/([a-zA-Z0-9]{32})[']
+<input type=hidden name=(\w{32}) value=(\w{32})>
+<script src='\/js\/app.[a-f0-9]{32}.js'><\/script>
+<script src='\/js\/hello.[a-f0-9]{32}.js'><\/script>
+<script src='\/js\/hi.[a-f0-9]{32}.js'><\/script>
+<string>[a-z0-9]{64}</string>
+0x(?i:[0-9a-f]{40})
+0x([a-fA-F0-9]{40})
+0x[0-9a-f]{32}
+0x[0-9a-f]{64}
+0x[0-9a-fA-F]{40}
+10\.1371/journal\.p[a-zA-Z]{3}\.[\d]{7}|10\.1371/annotation/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{12}
+addr=([13][123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{25,33})
+api\/smrt\/reports\/(\d{13})\/(\d{13})\/statements
+arn:aws:iam::((\d{12})|aws):policy/([a-zA-Z0-9-=,\.@_]{1,128})
+arn:aws:iam::(\d{12}):instance-profile/([a-zA-Z0-9-=,\.@_]{1,128})
+avocado-vt-joblock-[0-9a-f]{40}-[0-9]+-[0-9a-z]{8}\.pid
+background: url\(\/\/cdn-[0|1].example.org\/images\/background.[a-f0-9]{32}.jpg\)
+background-image: url\('..\/sprites.png\?[0-9a-f]{40}'\)
+btih:([a-f0-9]{40})
+cgisess_[0-9a-f]{32}
+commit\s+([a-f\d]{40})
+compilation-.*\/[0-9a-f]{8}-[0-9a-f-]{27}
+compilation-[0-9a-f]{8}-[0-9a-f-]{27}
+compilation-[0-9a-f]{8}-[0-9a-f-]{27}\/[0-9a-f]{8}-[0-9a-f-]{27}
+Corp: ([a-zA-Z0-9]{1}[a-zA-Z0-9'. -]{1,48}[a-zA-Z0-9.]{1})
+Creating missing vms: foobar2\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f-]{12} \(1\)
+Current IPTC Digest: (0|#){32}
+d_array_example\/[0-9a-f]{24}\/edit
+data:image/png;base64,[A-Za-z0-9=/]{100,}
+digest:\s*(sha256:[a-f0-9]{64})
+discord(?:app\.com\/invite|\.gg(?:\/invite)?)\/([\w-]{2,255})
+document\.cookie=a=([a-f0-9]{32})path=/
+dogrulama=[a-z0-9]{40}
+dummy-fastboot-\w{32}
+ember-states-([0-9a-f]{40})
+Faction: ([a-zA-Z0-9]{1}[a-zA-Z0-9'. -]{1,48}[a-zA-Z0-9.]{1})
+fatal: (Path '([^']+)' does not exist in '([0-9a-f]{40})'|ambiguous argument '([^']+)': unknown revision or path not in the working tree.)
+first-job\/[0-9a-f]{8}-[0-9a-f-]{27}
+foobar/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}
+foobar\/[0-9a-f-]{36} \(0\) \(canary\)
+guid: [a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}-[a-zA-Z0-9]{8}
+href=(.*) title=.* alt= coords=(-?[0-9]{1,6}),(-?[0-9]{1,6}),(-?[0-9]{1,6}),(-?[0-9]{1,6})
+href=(/a/bar/app\.[a-f0-9]{64}\.css)
+href=(/assets/app\.assets\.css\.[a-f0-9]{64}\.css)
+href=.+/commit/([a-z0-9]{40})/>
+href='//cdn-[0|1].example.org/assets/a.[a-f0-9]{32}.css'
+href=/foo(/assets/app\.[a-f0-9]{64}\.css)
+href=/foo(/assets/app\.assets\.css\.[a-f0-9]{64}\.css)
+href=https://cdn\.example\.com/assets/app\.[a-f0-9]{64}\.css
+http://asa\.tv/movie/D5/gcuppapa/[a-z0-9A-Z]{32}\.flv
+http://cdn\w*\.yourfilehost\.com/thumbs/\d+/[a-z0-9A-Z]{32}\.jpg
+http://content\.veoh\.com/flash/p/\d/[a-z0-9A-Z]{16}/[a-z0-9A-Z]{40}\.fll\?ct=[a-z0-9A-Z]{48}
+http://file\d+\.agesage\.jp/flv/\d{8}/\d{10}_\d{6}\.flv
+http://jp\.youtube\.com/get_video\?video_id=ATHC8qDkoO0&t=[-_a-z0-9A-Z]{32}
+http://media\w+\.tube8\.com/flv/[a-z0-9A-Z]{32}/[a-z0-9A-Z]{8}/\d{4}/\d{2}/[a-z0-9A-Z]+/[a-z0-9A-Z]+\.flv
+http://mobile\d+\.tube8\.com/flv/[a-z0-9A-Z]{32}/[a-z0-9A-Z]{8}/\d{4}/\d{2}/[a-z0-9A-Z]+/[a-z0-9A-Z]+\.3gp
+http://www\.asa\.tv/captured/gcuppapa/[a-z0-9A-Z]{32}_1\.jpg
+http://www\.example\.com/v1/recipes/[a-f0-9]{24}
+http:\/\/api.tropo.com\/v1\/applications\/\d{1,7}\/addresses\/number\/\d{1,20}
+http[s]?://.+/(?:[V|v]\d+|[V|v]\d+\.\d+)/([a-z|A-Z|0-9]{32})(?:/|$)
+https://example.com/v1/AUTH_account/container/object\?temp_url_sig=[a-f0-9]{40}&temp_url_expires=1086400
+https:\/\/accounts\.google\.com\/o\/oauth2\/v2\/auth\?client_id=cg-mock-id&redirect_uri=https:\/\/api-id\.execute-api\.eu-west-1\.amazonaws\.com\/dev\/authentication\/callback\/custom-google&response_type=code&scope=profile email&state=.{64}
+https:\/\/accounts\.google\.com\/o\/oauth2\/v2\/auth\?client_id=g-mock-id&redirect_uri=https:\/\/api-id\.execute-api\.eu-west-1\.amazonaws\.com\/dev\/authentication\/callback\/google&response_type=code&scope=profile email&state=.{64}
+https:\/\/login\.live\.com\/oauth20_authorize\.srf\?client_id=ms-mock-id&redirect_uri=https:\/\/api-id\.execute-api\.eu-west-1\.amazonaws\.com\/dev\/authentication\/callback\/microsoft&response_type=code&scope=wl\.basic wl\.emails&state=.{64}
+Chapter ?[sS]egment ?UID: length 16, data: 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2})
+CHK\@[a-zA-Z0-9~\-]{31},([a-zA-Z0-9~\-]{22})
+index\.[a-z0-9]{32}\.html
+INGRESSCOOKIE=[0-9a-f]{40}
+-jcb[0-9a-f]{32}\.[a-z]{3}$
+job-[A-Za-z0-9]{24}
+jsessionid=[0-9a-z]{32}$
+key_(live|test)_[A-Za-z0-9]{32}
+link rel='stylesheet' href='/css/application.[a-f0-9]{32}.css' media='screen'
+link rel='stylesheet' href='/css/screen.[a-f0-9]{32}.css' media='screen'
+link rel='stylesheet' href='/subpath/css/application.[a-f0-9]{32}.css' media='screen'
+link rel='stylesheet' href='/subpath/css/screen.[a-f0-9]{32}.css' media='screen'
+Moon: ([a-zA-Z0-9]{1}[a-zA-Z0-9'. -]{1,48}[a-zA-Z0-9.]{1})
+multipart\/form-data boundary=--------------------------\d{24}
+Name: ([a-zA-Z0-9]{1}[a-zA-Z0-9'. -]{1,48}[a-zA-Z0-9.]{1})
+Name\s+: (.+)\s+LastWriteTime\s+: ([0-9]{14}[0-9:\+-]{0,6})\s+LastAccessTime\s+: ([0-9]{14}[0-9:\+-]{0,6})\s+CreationTime\s+: ([0-9]{14}[0-9:\+-]{0,6})\s+Mode\s+: ([adhsr-]+)\s+Length\s+: {0,1}([0-9]{0,})
+open\.spotify\.com\/(?:track|artist|user\/\w+\/playlist)\/[a-zA-Z-0-9]{22}
+pack-([0-9a-f]{40}).idx
+part\-[0-9a-f]{8}\-[0-9a-f]{4}\-[0-9a-f]{4}\-[0-9a-f]{4}\-[0-9a-f]{12}\@response\.info
+Playing from \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \(\d+.\d+\) until \d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \(\d+.\d+\)\.
+powershell -executionpolicy bypass & { if \(Test-Path variable:global:ProgressPreference\){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'}\. c:/Windows/Temp/packer-ps-env-vars-[a-z0-9A-Z]{8}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{12}\.ps1 &'c:/Windows/Temp/script.ps1' exit \$LastExitCode }
+powershell -executionpolicy bypass & { if \(Test-Path variable:global:ProgressPreference\){set-variable -name variable:global:ProgressPreference -value 'SilentlyContinue'}\. c:/Windows/Temp/packer-ps-env-vars-[a-z0-9A-Z]{8}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{12}\.ps1 &'c:/Windows/Temp/inlineScript.ps1' exit \$LastExitCode }
+powershell -executionpolicy bypass -file C:/Windows/Temp/packer-elevated-shell-[a-z0-9A-Z]{8}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{4}-[a-z0-9A-Z]{12}\.ps1
+quiver-note-url/([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})
+s\.setAttribute\('value', '([a-f0-9]{40})'\);
+SECRET_KEY=[a-f0-9]{128}
+Segment UID: 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2}) 0x([0-9a-f]{2})
+sha1: [a-z0-9]{40}\n
+SHA256 checksum: ([0-9a-f]{64})
+sha256:[a-z0-9]{64}
+snapper\.ws=([0-9a-zA-Z.~_-]{24,})
+src=(/a/foo/app\.head\.[a-f0-9]{64}\.js)
+src=(/assets/app\.assets\.js\.head\.[a-f0-9]{64}\.js)
+src='//cdn-[0|1].example.org/assets/b.[a-f0-9]{32}.js'
+src=/foo(/assets/app\.assets\.js\.head\.[a-f0-9]{64}\.js)
+src=/foo(/assets/app\.head\.[a-f0-9]{64}\.js)
+src='/images/email.[a-f0-9]{32}.png'
+Statement [0-9a-f]{32} prepared on node a4a70900-24e1-11df-8924-001ff3591711 \(h3.example.com:1234\)
+stdout:job=fake-errand-name index=0 id=.{36}\nnew-stdout\nadditional-stdout
+This reverts commit ([0-9a-f]{40})
+tree ([a-z0-9]{40})
+Update web-platform-tests to revision [0-9a-f]{40}
+Updating instance foobar1: foobar1\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f-]{12} \(0\)
+Updating instance foobar1: foobar1\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f-]{12} \(2\)
+Updating instance foobar1: foobar1\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f-]{12} \(3\)
+Updating instance foobar2: foobar2\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f-]{12} \(1\)
+Updating instance foobar2: foobar2\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f-]{12} \(2\)
+Updating instance our_instance_group: our_instance_group\/[0-9a-f]{8}-[0-9a-f-]{27} \(0\)
+url\(fonts\/myfont\.woff\?([0-9a-f]{32})\)
+Using [0-9a-f]{40} as shared key
+var *_0x([a-f0-9]){4,6} *= *_0x([a-f0-9]){4,6}\['\w{5}'\]\(!_0x([a-f0-9]){4,6}, *!_0x([a-f0-9]){4,6}\)
+var *_0x([a-f0-9]){4,6} *= *function *\(_0x([a-f0-9]){4,6}, *_0x([a-f0-9]){4,6}, *_0x([a-f0-9]){4,6}\) *{
+vendor-\w{32}
+Victim: ([a-zA-Z0-9]{1}[a-zA-Z0-9'. -]{1,48}[a-zA-Z0-9.]{1})
+WEB_SESSIONS_SECRET=[\w]{64}
+write-behind\.replica_mklhash [\d\w]{40}\r\n
+&(#[0-9]+|#[xX][0-9a-fA-F]+|[^\t\n\f <&#]{1,32})
+(&amp|\?)sid=[0-9a-f]{32}$
+(&amp|\?)sid=[0-9a-f]{32}&amp
+(?mi)^[a-z][a-z\-]{0,38}$
+([&?])sid=[0-9a-f]{32}&
+([?&])PHPSESSID=([0-9a-zA-Z]{32})
+([^\s]*[\/][0-9a-f]{32})([^\s]*)
+([a-zA-Z]{1,8})(-([a-zA-Z|-]{1,8}))?(\s*\s*q\s*=\s*(1\.0{0,3}|0\.\d{0,3}))?\s*(,|$)
+(== ([a-f0-9]{40}))
+/+organizations/+([a-z0-9][a-z0-9_-]{0,254})
+[_a-zA-Z][_a-zA-Z0-9]{0,30}
+[0-9a-z-_/\.]{1,100}
+[a-z_]{1}[a-z0-9_]{0,30}
+\$([^?&$\']{1,40})\$
+\*\) (.{0,55})
+\A(-?)(0|[1-9][0-9]{0,38})\z
+\A[\w@\-_.=,]{1,164}\z
+\A[A-Za-z0-9()_$./+][A-Za-z0-9()_$./+-]{0,200}\z
+\A[A-Za-z0-9._][A-Za-z0-9._-]{0,31}\Z
+\A\$1\$([!-#%-9-~]{0,8})\$([./0-9A-Za-z]{22})\z
+\A\$P\$([./0-9A-Za-z])([!-9-~]{8})\n\t\t\t\t([./0-9A-Za-z]{22})\z
+\s{1,100}
+^ *[0-9]+\) ([A-Z0-9]{40}) (.+)$
+^&(?:#x[a-f0-9]{1,8}|#[0-9]{1,8}|[a-z][a-z0-9]{1,31})
+^(&[a-z][a-z0-9]{1,31})
+^(?:[\}]|\s{1,256})
+^([0-9]{1,30})|([0-9]+\.[0-9]+[e]\+\[0-9]+)$
+^([0-9a-f]{32})$
+^([0-9a-f]{8})-?([0-9a-f]{4})-?([0-9a-f]{4})-?([0-9a-f]{4})-?([0-9a-f]{12})$
+^([0-9a-fA-F]{8,16}) ([0-9a-fA-F]{8,16} )?[tTwW] (.*)$
+^([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}|0)$
+^([a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12})$
+^([a-zA-Z0-9\-]{38})$
+^([a-zA-Z0-9][a-z0-9A-Z_-]{0,62})(.*)$
+^(\$md2\$)?[a-f0-9]{32}$
+^(\$NT\$)?[a-f0-9]{32}$
+^(\{{0,1}([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12}\}{0,1})$
+^(0x)?[0-9A-F]{40}$
+^(0x|0X)?[A-F0-9]{40}$
+^(job|analysis)-[0-9A-Za-z]{24}:[a-zA-Z_][0-9a-zA-Z_]*$
+^/([^/]+/[^/]+)/([0-9a-fA-F]{40})(/.*)?$
+^/task/([a-zA-Z0-9_-]{22})/artifacts/(.*)$
+^/task/([a-zA-Z0-9_-]{22})/runs/([0-9]+)/exception$
+^[0-9a-f]{1,40}$
+^[0-9a-z]{3,24}$
+^[A-Z,0-9]{1,34}$
+^[A-Z]{2}[0-9]{2}[A-Z0-9]{11,30}$
+^[a-z0-9]{5,40}$
+^[A-Z0-9_]{1,30}$
+^[a-zA-Z0-9,\-]{22,40}$
+^[A-Za-z0-9-_]{40}$
+^\s*(\={3,50})
+^ACK ([0-9a-f]{40})$
+^ETag: ([a-z0-9]{32})
+^UC([a-zA-Z0-9\-\\_]{22})$
+`name` = (:[0-9a-z]{32})
+ember-([0-9a-f]{4,40})
+IMPORTS\s+(.+[A-Z][\w\-?]{0,63})\s*
+ns=(\d*)g=([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})
+ObjectID\(([0-9a-f]{24})\)
+resourceID:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})
+.*<OBJECT\s+[^>]*type\s*=[\x20\x20]\x20{32}
+.*cache_lastpostdate\[[^\]]+\]=[^\x20\x3B\x3D]{30}
+^Authorization\x20\s*Negotiate\s*((YE4G.{40}LgMc)|(YIIQ.{40}QUFB))

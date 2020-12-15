@@ -1,0 +1,8 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+\sPARTIAL.*BODY\.PEEK\[[^\]]{1000};3;1026;3026;1;1000;1000;1;0,003001;76;497;153;Text generated.
+\sCREATE\s[^\n]{1024};2;1033;3081;1;1024;1024;1;0,003073;16;65;2354;Text generated.
+^(<(?:\\\\|\.|[^<>\\\]){0,1000}>);ERROR WHILE CONVERTING TO DCA.
+(?:\[((?:[a-z]|\*){1,16})(?:[=\s]([^\x20-\x1F'<>\[\]]{1,1000}))?\])|(?:\[\/([a-z]{1,16})\]);ERROR WHILE CONVERTING TO DCA.
+^(<(?:\\\|\\.|[^<>\\\]){0,1024}>);ERROR WHILE CONVERTING TO DCA.
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+\sCREATE\s[^\n]{1000};116;8866;19865;1;1000;1000;4;0,042264;16;65;107;TIMEOUT.

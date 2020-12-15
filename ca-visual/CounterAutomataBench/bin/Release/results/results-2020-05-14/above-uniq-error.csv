@@ -1,0 +1,12 @@
+Pattern;Message;
+^'((?:(?:''|[^']){0,32766}){0,32766})'\s*(.*)$;Dimenze pole překročily podporovaný rozsah.
+^[-\/\?:@&=\+\$,\_\.!~\*'\(\)%0-9a-z\u00c0-\u00ff#]{1,2048}$|\${\S+};analýza ^[-\/\?:@&=\+\$,\_\.!~\*'\(\)%0-9a-z\u00c0-\u00ff#]{1,2048}$|\${\S+} - Nerozpoznaná řídicí sekvence \_.
+^\((?:(?:\\\\|[^\\]){0,32766}){0,32766})\\\"\s*(.*)$;analýza ^\((?:(?:\\\\|[^\\]){0,32766}){0,32766})\\\"\s*(.*)$ - Příliš mnoho zavíracích závorek ).
+<image[\s\w-\_=\\]*xlink:href=\\data:image\/[^\\\]{0,5120}\\\"[^>]*>;analýza <image[\s\w-\_=\\]*xlink:href=\\data:image\/[^\\\]{0,5120}\\\"[^>]*> - Nerozpoznaná řídicí sekvence \_.
+https?://[-\_.?&~;+=/#0-9A-Za-z]{1,2076};analýza https?://[-\_.?&~;+=/#0-9A-Za-z]{1,2076} - Nerozpoznaná řídicí sekvence \_.
+Pattern;Message;
+^'((?:(?:''|[^']){0,32766}){0,32766})'\s*(.*)$;Dimenze pole překročily podporovaný rozsah.
+^\((?:(?:\\\\|[^\\]){0,32766}){0,32766})\\\"\s*(.*)$;analýza ^\((?:(?:\\\\|[^\\]){0,32766}){0,32766})\\\"\s*(.*)$ - Příliš mnoho zavíracích závorek ).
+Pattern;Message;
+^'((?:(?:''|[^']){0,32766}){0,32766})'\s*(.*)$;Dimenze pole překročily podporovaný rozsah.
+^((?:(?:\\\\|[^\\]){0,32766}){0,32766})\\\"\s*(.*)$;Dimenze pole překročily podporovaný rozsah.

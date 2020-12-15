@@ -1,0 +1,59 @@
+Regex;Lines;Visited;Cache Size(Found);Status
+user(name)?[ -~ \n\t\r\f]{0,70}(secret|password);888;30040;69818;Text generated.
+php.*\x3f[^\n]{256};92;22964;68881;TIMEOUT.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};104;29783;59492;TIMEOUT.
+M{1000};1;1001;1001;Text generated.
+identityId:.*[0-9a-z]{64};65;562;562;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;3;267;1006;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;55;6958;18111;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;210;26198;66311;TIMEOUT.
+Color Name[ \n\t\r\f]{2,}RGB[^-]*-{70}.(.*?)-{70};6;70;70;Text generated.
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437};183;27859;45164;Text generated.
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437};202;30113;48474;Text generated.
+a{51};1;52;52;Text generated.
+a{256};1;257;257;Text generated.
+5[0-9a-zA-Z]{50};708;30011;58608;Text generated.
+200 [^\x0a]{64};616;30018;56961;Text generated.
+>([^<]{100,})<;156;30128;58623;Text generated.
+={65}.*?(?:EXPORTED\n\n)+;1;142;142;Text generated.
+<?(a)?:?([0-9a-zA-Z_]{2,32}):([0-9]{17,19})>?;2;21;85;TIMEOUT.
+-{20,40}[0-9a-zA-Z_]{6,24}[\n\r]*;4;45;45;Text generated.
+_{58};1;59;59;Text generated.
+^X?PAT[ \n\t\r\f]+[^\n]{1000};32;30570;30572;Text generated.
+^Via\x3A[ \n\t\r\f]+SIP\x2F2\x2E0\x2F(TCP|UDP)[ \n\t\r\f]+[^\x3B\r\n]{63};65;2098;2098;Text generated.
+^USER[ \n\t\r\f]+[^\n]{100,};101;5156;5156;Text generated.
+^To\x3A[ \n\t\r\f]+[^\r\n]{256};180;30076;30077;Text generated.
+^TEST[ \n\t\r\f]+[^\n]{100,};101;5156;5156;Text generated.
+^SOML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};203;20521;20519;Text generated.
+^SEARCH[ \n\t\r\f]+[^\n]{1000};32;30573;30574;Text generated.
+^SAML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};203;20521;20519;Text generated.
+^RCPT TO\x3a[ \n\t\r\f]*[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};203;20518;20516;Text generated.
+^PASS[ \n\t\r\f]+[^\n]{100};101;5156;5156;Text generated.
+^MAIL FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};203;20521;20519;Text generated.
+^Location[ \n\t\r\f]*\x3a[ \n\t\r\f]*[0-9a-zA-Z_]+\x3a\/\/([^\n]*\x3a)?[^\n]{128};164;19991;39859;TIMEOUT.
+^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?ethereum\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+);66;2089;2064;Text generated.
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1000,};21;19956;39875;TIMEOUT.
+^From\x3A[ \n\t\r\f]+[^\r\n]{256};149;27164;27187;TIMEOUT.
+^Content-Length\x3A[ \n\t\r\f]*[^\r\n]{100,};101;5166;5166;Text generated.
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128};129;8392;8392;Text generated.
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};260;8262;10665;Text generated.
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};366;11442;14873;Text generated.
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};517;15936;20410;Text generated.
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};774;23389;30253;TIMEOUT.
+^<([a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>;3;193;193;Text generated.
+^<([a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>;3;193;193;Text generated.
+^\n*[sS][oO][mM][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};201;20315;20315;Text generated.
+^\n*[sS][eE][nN][dD] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};66;10999;11270;Text generated.
+^\n*[sS][eE][nN][dD] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};201;20315;20315;Text generated.
+^\n*[sS][aA][mM][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};201;20315;20315;Text generated.
+^\n*[rR][cC][pP][tT] [tT][oO]\x3a[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b\x40\.]{0,200}\x3b[a-zA-Z0-9\x5f\x20\x09\x0b=x40\.]{200,}\x3b[a-zA-Z0-9\x5f\x20\x09\x0b\x40\.]{0,200};201;20313;20313;Text generated.
+^\n*[mM][aA][iI][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};201;20315;20315;Text generated.
+^\%?([A-Z]{2})([^\^]{1,13})\^?([^\^]{1,35})\^?([^\^]+)\^?\?;3;12;12;Text generated.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};127;30056;30057;Text generated.
+^[a-z0-9A-Z_ /-]{0,256}[a-z0-9A-Z_ -]{1,253}\.js$;116;30115;30254;Text generated.
+^[a-z0-9]{40}|[a-z0-9]{70}$;2;43;43;Text generated.
+^[a-z0-9-!#\$%&'*+/=?^_`{|}\~]+(?:[.][a-z0-9-!#\$%&'*+/=?^_`{|}\~]+)*@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z-]{2,24}$;65;1963;1963;Text generated.
+^[[0-9a-fA-F]{12}|[0-9a-fA-F]{40}]$;14;94;94;Text generated.
+^[ \n\t\r\f]*SEND[ \n\t\r\f]+[^\n]{246};213;30003;30004;Text generated.
+^[ \n\t\r\f]*SAML[ \n\t\r\f]+[^\n]{246};213;30003;30004;Text generated.
+^[ \n\t\r\f]*Cookie[ \n\t\r\f]*\x3a.*?OvOSLocale[ \n\t\r\f]*\x3d[ \n\t\r\f]*[^\x3b \n\t\r\f]{249};70;16444;29636;Error while generating text.

@@ -1,0 +1,16 @@
+pattern	MIN-trans	DFA-trans	timeouts-classical	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|min|	Classical exception
+Twain	15	27		15.2183	17.3386	13.1511	6	10	6	
+(?i)Twain	15	27		25.3222	0.2346	0.1829	6	10	6	
+[a-z]shing	22	41		12.2011	0.5934	0.2436	7	12	7	
+Huck[a-zA-Z]+|Saw[a-zA-Z]+	26	26		6.1252	10.547	0.0798	14	8	8	
+[a-q][^u-z]{13}x	57343	106492		0.5528	304.5395	197.2511	16	32768	16385	
+Tom|Sawyer|Huckleberry|Finn	126	126		0.3298	5.5994	0.1673	29	22	22	
+(?i)Tom|Sawyer|Huckleberry|Finn	126	126		22.9779	13.5364	0.1731	29	22	22	
+.{0,2}(Tom|Sawyer|Huckleberry|Finn)	126	2944		0.7602	11.8229	2.0211	29	432	22	
+.{2,4}(Tom|Sawyer|Huckleberry|Finn)	151	3008		0.1141	10.278	1.5928	31	464	24	
+Tom.{10,25}river|river.{10,25}Tom	63493	63493		0.1936	6659.0522	145.1178	71	13385	13385	
+[a-zA-Z]+ing	14	25		0.0786	0.3026	0.1837	7	8	5	
+\s[a-zA-Z]{0,12}ing\s	214	426		1.0023	1.2628	0.8213	19	100	51	
+([A-Za-z]awyer|[A-Za-z]inn)\s	42	83		0.0938	0.9193	0.5905	13	19	10	
+["'][^"']{0,30}[?!\.][\"']	188	374		0.8906	1.5889	0.4951	35	126	64	
+\p{Sm}	3	3		0.6218	0.1865	0.0637	2	2	2	

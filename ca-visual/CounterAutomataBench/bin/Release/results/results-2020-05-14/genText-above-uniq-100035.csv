@@ -1,0 +1,17 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+([*]a[_] ){49999}[*]a_;1;1001;1001;1;49999;49999;250;0,1255;8;23;76;Text generated.
+(_a ){64999}_a;1;1001;1001;1;64999;64999;334;0,167167;6;17;804;Text generated.
+(<blockquote>\n){50000};1;1001;1001;1;50000;50000;77;0,038962;28;82;1455;Text generated.
+(a[_] ){64999}a_;1;1001;1001;1;64999;64999;334;0,167167;6;17;2541;Text generated.
+\[(https?|news|ftp|mailto|gopher|irc):\/\/[^\]\| ]{4,1500}([\| ].*)?\];1;1001;2001;1;1500;1500;1;0,001987;208;1118;3222;Text generated.
+\[{50000}a\]{50000};1;1001;1001;2;50000;100000;1000;0,5005;3;8;4840;Text generated.
+^'((?:(?:''|[^']){0,32766}){0,32766})'\s*(.*)$;ERROR WHILE GENERATING TEXT.
+^(?:([^\&'/:<>@]{1,1023})@)?([^/@]{1,1023})(?:/(.{1,1023}))?$;1;1001;1005;3;1023;3067;2;0,001005;6;12;5731;Text generated.
+^([\w !\#$%&'()*+,-.\/:<>?@\[\]^`{|}~\\]{1,1024})=(.*)$;1;1001;1002;1;1024;1024;1;0,001001;2;3;6013;Text generated.
+^.{1,4096}$;1;1001;1001;1;4096;4096;1;0,001001;1;1;6163;Text generated.
+^[-\/\?:@&=\+\$,\_\.!~\*'\(\)%0-9a-z\u00c0-\u00ff#]{1,2048}$|\${\S+};ERROR WHILE CONVERTING TO DCA.
+^\((?:(?:\\\\|[^\\]){0,32766}){0,32766})\\\"\s*(.*)$;ERROR WHILE CONVERTING TO DCA.
+^grub\.pbkdf2\.sha512\.[0-9]+\.([a-f0-9]{128,2048}\.|[0-9]+\.)?[a-f0-9]{128}$;3;407;407;2;1920;2048;2;0,000387;535;1439;6661;Text generated.
+^PRIVMSG (#+\S+) :(.{1,1024});2;15;15;1;1024;1024;1;2E-06;16;23;6765;Text generated.
+<image[\s\w-\_=\\]*xlink:href=\\data:image\/[^\\\]{0,5120}\\\"[^>]*>;ERROR WHILE CONVERTING TO DCA.
+https?://[-\_.?&~;+=/#0-9A-Za-z]{1,2076};ERROR WHILE CONVERTING TO DCA.

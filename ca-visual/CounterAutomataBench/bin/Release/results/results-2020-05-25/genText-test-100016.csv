@@ -1,0 +1,11 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+/world\n.{40};TIMEOUT.
+/hello\n.{40};ERROR WHILE GENERATING TEXT.
+/hello\n.{40};2;61;112;1;40;40;2;0,000114;14;58;148;Text generated.
+/hello\n.{40};2;61;112;1;40;40;2;0,000114;14;58;148;TIMEOUT.
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300};1;61;108;1;300;300;47;0,002256;20;36;553;Text generated.
+\n\s{25,26};4;60;114;1;26;26;26;0,001745;4;10;633;Text generated.
+\$31\$(\d\d?)\$(.{43});2;61;138;1;43;43;1;0,00013;36;167;786;Text generated.
+^From\x3A\s+[^\r\n]{256};1;61;115;1;256;256;54;0,00297;13;27;941;Text generated.
+\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96};1;61;99;1;96;96;1;7,7E-05;44;193;1082;Text generated.
+^\s*Content-Encoding\s*\x3A\s*[^\r\n]{300};1;61;104;1;300;300;43;0,001892;24;40;1155;Text generated.

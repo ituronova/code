@@ -1,0 +1,7 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+[ab]{2,4}.*[cd]{2,4};2;10;10;4;Text generated.
+[ab]{2,4}[bd]{2,4};5;12;12;4;Text generated.
+[ab]{2,4}.*[cd]{2,6}[ab]{2,8}.*[cd]{2,10}[ab]{2,12}.*[cd]{2,14}[ab]{2,16}.*[cd]{2,18}[ab]{2,20}.*[cd]{2,24};;;;;Error while converting to DCA: Error: more than 7 counters.
+.*(KAREL){2,4}$;1;3;3;1;Text generated.
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+^[a-f0-9]{256}:[a-f0-9]{256}:[a-f0-9]{16}:[a-f0-9]{16}:[a-f0-9]{320}:[a-f0-9]{16}:[a-f0-9]{40}:[a-f0-9]{40}:[a-f0-9]{40}$;1;0;1;1;Error while generating text.

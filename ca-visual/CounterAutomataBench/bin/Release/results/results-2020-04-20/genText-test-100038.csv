@@ -1,0 +1,12 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+[ab]{2,4}.*[cd]{2,4};2;10;10;4;Text generated.
+[ab]{2,4}.*[cd]{2,6}[ab]{2,8}.*[cd]{2,10}[ab]{2,12}.*[cd]{2,14}[ab]{2,16}.*[cd]{2,18}[ab]{2,20}.*[cd]{2,24};;;;;Error while converting to DCA: Error: more than 7 counters.
+.*(KAREL){2,4}.*(KAREL){2,4}$;;;;;Error while converting to DCA: Error: EXIT_SET1 leading to noncounting state.
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+^[ab]{2,4}[cd]{2,4};2;7;7;1;Text generated.
+^[ab]{2,4}[bd]{2,4}[ab]{2,4};9;29;29;3;Text generated.
+^[ab]{2,4}[bd]{2,4}[ab]{2,4}[bd]{2,4};20;58;58;4;Text generated.
+^[ab]{2,4}[bd]{2,4}[ab]{2,4}[bd]{2,4}[ab]{2,4};;;;;TIMEOUT while finding cycles.
+^[ab]{2,4}[bd]{2,4}[ab]{2,4}[bd]{2,4}[ab]{2,4}[ab]{2,4};;;;;TIMEOUT while converting to DCA.
+^[ab]{2,4}[bd]{2,4}[ab]{2,4}[bd]{2,4}[ab]{2,4}[ab]{2,4}[ab]{2,4};;;;;TIMEOUT while converting to DCA.
+;;;;;Error while converting to DCA: Dimenze pole překročily podporovaný rozsah.

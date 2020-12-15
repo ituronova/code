@@ -1,0 +1,21 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+^[nN][aA][mM][eE]=s{900,1000}[^\r\n\x3b\x20\x09\x0b\x2c]{300};101;26256;26256;2;1000;1300;101;1,207951;12;28;40;Text generated.
+#{255};1;256;256;1;255;255;255;0,03264;4;10;137216;Text generated.
+[^\x00-\x21\xff]{1,250}$;1;251;251;1;250;250;250;0,031375;2;4;137231;Text generated.
+(.{1,78})(?: +|$)\n?|(.{78});78;156;156;2;78;156;156;0,012322;5;11;137278;Text generated.
+^AUTH\s+\S+\s+[^\n]{128};129;8392;8392;1;128;128;128;0,366016;14;30;137321;Text generated.
+[A-Fa-f0-9]{128};1;129;129;1;128;128;128;0,008256;4;10;141182;Text generated.
+.{10,128}$;1;129;129;1;128;128;128;0,008256;2;2;141207;Text generated.
+^TEST\s+[^\n]{100,};101;5156;5156;1;100;100;100;0,17675;15;39;141243;Text generated.
+^USER\s+[^\n]{100,};101;5156;5156;1;100;100;100;0,17675;15;39;142647;Text generated.
+\S{100,};1;101;101;1;100;100;100;0,00505;5;13;144040;Text generated.
+\[\n\s{900,1000}[^\[\{\}\]]{0,100}\];100;6054;6054;2;1000;1100;101;0,177751;10;39;144066;Text generated.
+\r\nContent-Length\x3A\s{900,1000}[^\r\n]{100,};954;50001;7213;2;1000;1100;40;0,071934;102;585;152251;Text generated.
+\.{100,};1;101;101;1;100;100;100;0,00505;5;13;465504;Text generated.
+(={80});1;81;81;1;80;80;80;0,00324;4;10;465520;Text generated.
+(={77});1;78;78;1;77;77;77;0,003003;4;10;465536;Text generated.
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+#{255};1;51;51;1;255;255;50;0,001275;4;10;37;Text generated.
+\.{100,};1;51;51;1;100;100;50;0,001275;5;13;92;Text generated.
+(={80});1;51;51;1;80;80;50;0,001275;4;10;118;Text generated.
+(={77});1;51;51;1;77;77;50;0,001275;4;10;139;Text generated.

@@ -1,0 +1,592 @@
+Pattern;Message;
+([0-9a-zA-Z]+(?:[_\.\-]?[0-9a-zA-Z]+)*[@](?:[0-9a-zA-Z]+(?:[_\.\-]?[0-9a-zA-Z]+)*\.[a-zA-Z]{2,}|(?:\d{1,}\.){3}\d{1,}));Error: Creating loop in NCA.
+(0\.|([1-9]([0-9]+)?)\.){3}(0|([1-9]([0-9]+)?)){1};Error: Creating loop in NCA.
+(\d\.?){3};Error: Creating loop in NCA.
+(border|margin):(\d+(?:\p{Alpha}*))(\2){3};analýza (border|margin):(\d+(?:\p{Alpha}*))(\2){3} - Neznámá vlastnost Alpha.
+^(?:\s+([\w.-]+)\s+\((.+)\)\n){2,};Error: Creating loop in NCA.
+^([A-Za-z]+, ){8}[A-Za-z]+ & [A-Za-z]+$;Error: Creating loop in NCA.
+\.package\(url:\s\"https:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*).git\",\s((\.upToNextMajor|\.upToNextMinor)\(from:\s\"(-?\d+\.){2}-?\d+\"\)|from:\s\"(-?\d+\.){2}-?\d+\")\),?$;Not implemented: word-boundary \b
+^([-\w=+/]+\.){2}[-\w=+/]+$;Error: Creating loop in NCA.
+^([-*]\s?){3};Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>$;Error: Creating loop in NCA.
+\Apeugeot-206-([a-z0-9]+\-){4}[a-z0-9]+\z;Error: Creating loop in NCA.
+ISBN +(?:97[89][ -]?)?(?:\d[ -]?){9}[\dx]\b|(?:RFC|PMID) +\d+;Not implemented: word-boundary \b
+\A([\w']+\.? ?){2,3}\z;Error: Creating loop in NCA.
+(\n\s+)(criterion .*\n)(\s.+){1,99};Error: Creating loop in NCA.
+^(.\udf1a\u0020\ud83c.){3}$;Index je mimo hranice pole.
+^\s+[A-Z](\s+\d+,){3};Error: Creating loop in NCA.
+CMD(?:\s+\S+){9}\s+(\S+)(?:\s+\S+){2}\s+(\d+):(\d+):(\d+);Error: Creating loop in NCA.
+(\u2014|--|__|-\w)|(^Sent from my (\w+\s*){1,3});Error: Creating loop in NCA.
+(\[\*[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\*\].*){2};Not implemented: word-boundary \b
+Deployment 'simple1'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s+VM\s+CID\s+VM\s+Type\s+Active\s*\n(foobar1\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s+\d+\s+a\s+true\s*\n){2}\n2 vms;Error: Creating loop in NCA.
+^(full|square|(pct:)?([\d.]+,){3}([\d.]+))$;Error: Creating loop in NCA.
+.(.)(.)(?: 1.\2){4};Not supported: references \1
+(\<([\?\%])[\+\-\=\~]? $TT .* [\+\-\=\~]?\1\>.*){3};Not supported: references \1
+^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$;Error: Creating loop in NCA.
+^\s*-1(\s+0){6};Error: Creating loop in NCA.
+^\?a=cid-for-abc\&b=amp-([a-zA-Z0-9_-]+){10,};Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>;\+sip\.phone;pub-gruu=goldfish$;Error: Creating loop in NCA.
+\A([^\r\n]+(\r\n?|\n\r?)){2};Error: Creating loop in NCA.
+^<ul>(<li><a href=\"#\w+\" title=\"\w+\">[ \w]+<\/a><\/li>){3}<\/ul>$;Error: Creating loop in NCA.
+(\<\!\-\-[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\-\-\>.*){3};Not implemented: word-boundary \b
+(?i)(?:v=|\/)(([\w-]+){11});Error: Creating loop in NCA.
+(?:^|\ {30})\ *[A-Z][a-z]{2}\ +[0-9]+\ +([0-9]+)\n\t\t\t   \ +([-+]?[0-9]+(?:\.[0-9]+)?)\n\t\t\t   (?:\ +(?:-|[-+]?[0-9]+(?:\.[0-9]+)?)){1,2}\n\t\t\t   (?:\ *[\r\n]|\ {30});Error: Creating loop in NCA.
+^([\w\-_]\.?){2,}$;Error: Creating loop in NCA.
+\A([\w\u00f1\u00d1\u00fa-]+\.? ?){2,5}\z;Error: Creating loop in NCA.
+wlan0.* (\d+\.){3}\d+/(\d+) ;Error: Creating loop in NCA.
+\b(?:[A-Z]+[a-z\d]+){2,}\b;Not implemented: word-boundary \b
+^(\d+\.){3}(\d+)$;Error: Creating loop in NCA.
+^([0-9]+\.){3}([0-9]+);Error: Creating loop in NCA.
+^([0-9]+,){2}(,[0-9]+)*$;Error: Creating loop in NCA.
+^do\s+domain\s+records?\s+create\s(?:[^\s]+\s+){2}[^\s];Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>;\+sip\.phone$;Error: Creating loop in NCA.
+(\n\r?){2,};Error: Creating loop in NCA.
+\A(\s+\|){2,};Error: Creating loop in NCA.
+^(?:\s+([\w.-]+)\n){2,};Error: Creating loop in NCA.
+^(?:\d[\ |-]?){13}$;Error: Creating loop in NCA.
+^ *1000000 +A +thread_deleted( +deleted_thread:B| +thread_count:12){2}$;Error: Creating loop in NCA.
+Deployment 'simple2'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s+VM\s+CID\s+VM\s+Type\s+Active\s*\n(foobar2\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s+\d+\s+a\s+true\s*\n){4}\n4 vms;Error: Creating loop in NCA.
+lc=(\d+\s+){3};Error: Creating loop in NCA.
+lk=(\d+\s+){3};Error: Creating loop in NCA.
+^[\w\.]+\@(\w+\.){2,3}[a-f0-9]{5}\.example\.com$;Error: Creating loop in NCA.
+ \A (?: (?:x|[0-9]+x?) \. ){1,2} (?: x | [0-9]+x? ) \z ;SetIsEmpty
+\bOS X (?:\d+\.){2,};Not implemented: word-boundary \b
+^([0-9]+\.){2}[0-9]+$;Error: Creating loop in NCA.
+ISBN +(?:97[89][ -]?)?(?:\d[ -]?){9}[\dx]\b;Not implemented: word-boundary \b
+^(?:\s+([\w.-]+)){2,};Error: Creating loop in NCA.
+^(?:[^:]+:){2}(.*?)$;Match generation with mixed lazy and eager loops currently not supported.
+^(\d+\.?){1,3}\.(\d+([A-z]+(-?\d+)?))$;Error: Creating loop in NCA.
+^([0-9]+\.){3,}[0-9]+$;Error: Creating loop in NCA.
+(--|__|-\w)|(^Sent from my (\w+\s*){1,3});Error: Creating loop in NCA.
+\A\|1(\|.+){2}\z;Error: Creating loop in NCA.
+^(([ \t]+[^\s\n*+=-].+\n){2,});Error: Creating loop in NCA.
+(?:(?:\x0D\x0A?){2}|(?:\x0A\x0D?){2})status;Error: Creating loop in NCA.
+^S-1-5-21(-\d+){2,};Error: Creating loop in NCA.
+(?<command>omxplayer) (?<arg>--\w+ \S+\s?){2,} (?<file>\"\S+\") < (?<pipe>\S+) &;Error: Creating loop in NCA.
+Deployment 'simple2'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s*\n(foobar2\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s*\n){4}\n4 instances;Error: Creating loop in NCA.
+^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)[1-9]((\s|\s?\-\s?)?[0-9]){8}$;Internal error
+^[a-z0-9]+([._\\-]*[a-z0-9])*@(\w+([-.]\w+)*\.){1,63}[a-z0-9]+$;Error: Creating loop in NCA.
+\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b;Not implemented: word-boundary \b
+\As(\\?\W)(?:\^|\${1,2})\1\1(;|\z);Not supported: references \1
+<head wdom_id=\"\d+\">.*<link( href=\"cssfile\"| rel=\"stylesheet\"| wdom_id=\"\d+\"){3}>.*</head>;Error: Creating loop in NCA.
+^<dl>(<dt>[ \w]+<\/dt><dd>[ \w.]+<\/dd>){3}<\/dl>$;Error: Creating loop in NCA.
+ \A (?:[0-9]+) (?:\.[0-9]+){0,2} (?:_\d+)? \z ;SetIsEmpty
+^(\s+\S+){3}(\s+\d+){2}(\s+\S+\s+(\d+|\-)){2}(\s+\d+\/\d+){2}(\s+)?$;Error: Creating loop in NCA.
+^(\s+[\w\-]+){2,}$;Error: Creating loop in NCA.
+\n            \A\n            (.+ [^/]) # Maximally at least two charcters not ending in a slash.\n            (\n              (?: / [^/]+ ){2} # Slash followed by maximally non-slash, twice.\n            )\n            \z\n          ;SetIsEmpty
+^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$;Error: Creating loop in NCA.
+(::ffff:)?([0-9]+\.){3}[0-9]+|[0-9a-f]+:([0-9a-f]*:)[0-9a-f]*;Error: Creating loop in NCA.
+^var _0x(\w){4} *= *\['\u0430\u0431\u0446'\];;SetIsEmpty
+^([0-9]+[dhms]?)( [0-9]+[dhms]?){2,}$;Error: Creating loop in NCA.
+^\s*matrix\(\s*1\s*,\s*0\s*,\s*0\s*,\s*1\s*(?:,\s*0(?:px)?\s*){2}\)\s*$;Error: Creating loop in NCA.
+\b((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))$;Not implemented: word-boundary \b
+^logout_token=(([\w-]+\.?){3})$;Error: Creating loop in NCA.
+^.*\/jcr_root(\/[^/]+){2,}$;Error: Creating loop in NCA.
+(?:^|\.)((?:\d+\.){4})xip\.io$;Error: Creating loop in NCA.
+^\s*(json(?:_[a-z]+){0,2})\([^)]*\);Error: Creating loop in NCA.
+^(library://)?([a-z0-9]+(?:[._-][a-z0-9]+)*/){2}([a-z0-9]+(?:[._-][a-z0-9]+)*)(:[a-z0-9]+(?:[,._-][a-z0-9]+)*)?$;Error: Creating loop in NCA.
+\G(%tree((?:\s+(?:bypass|alias)){0,2}));Not implemented: \G
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP>$;Error: Creating loop in NCA.
+^(\d+\.){3}\d+$;Error: Creating loop in NCA.
+^( rgba\( (?: \d+% , ){3} \d+% \) )$;Error: Creating loop in NCA.
+^<p>(?:[ \w\.]+<br>){2}[ \w\.]+<\/p>$;Error: Creating loop in NCA.
+(?<api_key>^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12})\:(?<secret>\w+)$;analýza (?<api_key>^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12})\:(?<secret>\w+)$ - Nerozpoznaná řídicí sekvence \h.
+^(\/[a-z_]+s\/\d+){2}$;Error: Creating loop in NCA.
+bound to (([0-9]+\.){3}3);Error: Creating loop in NCA.
+^(\d+ +){5}.*$;Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>;\+sip\.instance=\"<urn:uuid:abcde>\";Error: Creating loop in NCA.
+^([^ ]+ +){3};Error: Creating loop in NCA.
+(http|https)?:\/\/(www\.|maps\.)?google(\.[a-z]+){1,2}\/maps\/.*;Error: Creating loop in NCA.
+^(?:(?:(?:\+|00)34\D?))?(?:9|6)(?:\d\D?){8}$;Error: Creating loop in NCA.
+\A([a-z0-9]+\-){4}[a-z0-9]+\z;Error: Creating loop in NCA.
+https?://(?:\S+/){4}([0-9a-f]{40})/?([^#\s]+)?(?:#(\S+))?;Error: Creating loop in NCA.
+\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b;Not implemented: word-boundary \b
+\A(?:\w+-){4}\w+\Z;Error: Creating loop in NCA.
+^(?:[a-zA-Z0-9-_]+\.){2}[a-zA-Z0-9-_]+$;Error: Creating loop in NCA.
+(\<([\?\%])[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\1\>.*){3};Not implemented: word-boundary \b
+(?:\r\n?|\n\r?){2,}|((?:\r\n?|\n\r?)\s*\-\s+);Error: Creating loop in NCA.
+^(([0-9]+\s*){1,255})(.*)?$;Error: Creating loop in NCA.
+^((\d+\.\d+|\d+) ){0,3}(\d+\.\d+|\d+);Error: Creating loop in NCA.
+^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)6((\s|\s?\-\s?)?[0-9]){8}$;Internal error
+(?:[`|]-(?:\+-)?|\\_) (\d+:){3}\d+;Error: Creating loop in NCA.
+Mozilla/[0-9]\.[0-9] \(([A-Za-z0-9 \/._]+;){1,3} ([A-Za-z0-9 \/.:_]+){0,2}\)( ([A-Za-z0-9 \/.]+){1} \(KHTML, like Gecko\)){0,1} ([A-Za-z0-9 \/.]+){2,3};Error: Creating loop in NCA.
+(\[\%[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\%\].*){3};Not implemented: word-boundary \b
+new-([0-9a-z]+\-){4}[0-9a-z]+\z;Error: Creating loop in NCA.
+(\${1,2})((?:\\.|[^$])*)\1;Not supported: references \1
+( [\w\.]+Exception: (([\S]+ ){0,6}));Error: Creating loop in NCA.
+EC\:((:?[\-\d]+\.){3}(:?[\-\d]+));Error: Creating loop in NCA.
+^[0-9]+ +[A-Z][A-Za-z]?( +[-+]?([0-9]*\.)?[0-9]+){3}$;Error: Creating loop in NCA.
+^(#[^#\n]+\n){5}\n*;Error: Creating loop in NCA.
+^3(?:\.[0-9]+){2,3}$;Error: Creating loop in NCA.
+^(([0-9]+:){1,2}[0-9]{2}[,.][0-9]{3}) --\> (([0-9]+:){1,2}[0-9]{2}[,.][0-9]{3})(.*);Error: Creating loop in NCA.
+\brepeat-x\b|\brepeat-y\b|(\brepeat|\bspace\b|\bround\b|\bno-repeat\b){1,2};Not implemented: word-boundary \b
+::(?:\r?\n|\r){2}([ \t]+).+(?:(?:\r?\n|\r)\1.+)*;Not supported: references \1
+^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12}\:\w+$;analýza ^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12}\:\w+$ - Nerozpoznaná řídicí sekvence \h.
+inet addr:(?<ip>(\d+[.]){3}\d+);Error: Creating loop in NCA.
+^(([0-9]+\.){3}([0-9]+))\s*$;Error: Creating loop in NCA.
+^\s*(((\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+)))\s*,){0,2}(\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+)))))|((\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+)))\s){0,2}(\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+))))))\s*$;Error: Creating loop in NCA.
+^(\S+\s+){7}\S+;Error: Creating loop in NCA.
+^(?:\s+\d+){2}\s+([\w\d\-]+) (.*)$;Error: Creating loop in NCA.
+\s*inspec-test-fixture\s+\((\d+\.\d+\.\d+(,\s)?){2,}\);Error: Creating loop in NCA.
+(\R){2,};analýza (\R){2,} - Nerozpoznaná řídicí sekvence \R.
+Deployment 'simple1'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s*\n(foobar1\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s*\n){2}\n2 instances;Error: Creating loop in NCA.
+(iPad|iPhone|iPod).*OS ((\d+_?){2,3});Error: Creating loop in NCA.
+^(\d+\.){2}(\d+)$;Error: Creating loop in NCA.
+^([A-Za-z0-9-]+\.){1,2}cloudpassage\.com$;Error: Creating loop in NCA.
+bbox((\s+\d+){4});Error: Creating loop in NCA.
+^(.+\n){3,}\n;Error: Creating loop in NCA.
+^\s*\w+\s+0(\s+-*\d*\.*\d*){3};Error: Creating loop in NCA.
+^(([0-9]|[1-9][0-9]+)\.){2}([0-9]|[1-9][0-9]+)((-|\+)[0-9a-zA-Z\.]+){0,2}$;Error: Creating loop in NCA.
+\Anew-york-([a-z0-9]+\-){4}[a-z0-9]+\z;Error: Creating loop in NCA.
+\A(\d+-){2}\d+T(\d+:){2}\d+\+\d+:\d+\s+;Error: Creating loop in NCA.
+(abc\..\b ?){2};Not implemented: word-boundary \b
+^(library://)?([a-z0-9]+(?:[._-][a-z0-9]+)*/){0,2}([a-z0-9]+(?:[._-][a-z0-9]+)*)(:[a-z0-9]+(?:[._-][a-z0-9]+)*)?$;Error: Creating loop in NCA.
+^( rgba\( (?: \d+ , ){3} \d+ \) )$;Error: Creating loop in NCA.
+^\s*([A-Z][a-z]?|\d{1,3})([,\s]+[eE\d.+-]+){3};Error: Creating loop in NCA.
+(\${1,2})([^\$]+)\1$;Not supported: references \1
+^(?:\d+\.){3}\d+$;Error: Creating loop in NCA.
+^<ul>(<li>[ \w.]+<\/li>){3}<\/ul>$;Error: Creating loop in NCA.
+<meta( charset=\"TEST\"| wdom_id=\"\d+\"){2}>;Error: Creating loop in NCA.
+^localhost$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$;Error: Creating loop in NCA.
+\b((25[0-5]|2[0-4][\d]|[01]?[\d][\d]?)(\.|$)){4}\b;Not implemented: word-boundary \b
+^[0-9]+ +[A-Z][a-z]?( +[-+]?([0-9]*\.)?[0-9]+){2}$;Error: Creating loop in NCA.
+^do\s+droplets?\s+restore(?:\s+\d+){2}$;Error: Creating loop in NCA.
+(^|/)knockout-(\\d+\\.){3}(debug\\.)?js$;Error: Creating loop in NCA.
+build-tools/[^/]+/(\d{1,}[.]){2}\d{1,}(_rc\d)?;Error: Creating loop in NCA.
+^([+-]?0+:){6}[+-]?0+$;Error: Creating loop in NCA.
+^do\s+droplets?\s+rebuild(?:\s+\d+){2}$;Error: Creating loop in NCA.
+^(\d+(\.\d+)?\:){1,2}(\d+(\.\d+)?)?$;Error: Creating loop in NCA.
+^(.+\n){1,3};Error: Creating loop in NCA.
+^<input(\s+type=\"text\"|\s+aria-label=\"monkeys\"){2,}>;Error: Creating loop in NCA.
+^(\d+\s){2,}[0-9 ]*$;Error: Creating loop in NCA.
+^[A-Z][a-z]* ([a-z ]+){3} [a-z]+\.$;Error: Creating loop in NCA.
+^\#(([a-fA-F0-9])\2){3}$;Not supported: references \1
+^do\s+droplets?\s+create(?:\s+[^\s]+){4};Error: Creating loop in NCA.
+\G%(tree((?:\s+(?:bypass|alias)){0,2}));Not implemented: \G
+^\+(?:[0-9]\x20?){6,14}[0-9]$;Error: Creating loop in NCA.
+#(([A-Za-z0-9])\2){3};Not supported: references \1
+^\s*\S+\s+(online|offline|restricted)(\s+\S+){2};Error: Creating loop in NCA.
+\w+(\|\w+){3};Zadaný argument je mimo rozsah platných hodnot.
+^(?:\s+\d+){2}\s+([\w\d]+) (.*)$;Error: Creating loop in NCA.
+^ *1000000 +A +thread_created( +new_thread:B| +thread_count:13){2}$;Error: Creating loop in NCA.
+^([0-9]{1,}\s?){14}$;Error: Creating loop in NCA.
+(\<\%[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\>.*){3};Not implemented: word-boundary \b
+ \x08(?:(?:-|\\|\/|\|)\x08){4,}don't\nbreak\n;SetIsEmpty
+^(([+-]?\d+(\.\d+)?)\s*){2,6}$;Error: Creating loop in NCA.
+\d{3},\d{2},[^,]+,(\d+),(\d+),(\d+),(\d+),(?:\d+,){7}([\d,]+)$;Error: Creating loop in NCA.
+^(?:(?:doi:?\s*|(?:http:\/\/)?(?:dx\.)?(?:doi\.org)?\/))?(10(?:\.\d+){1,2}\/\S+)$;Error: Creating loop in NCA.
+(^|:)(0+(:|$)){2,8};Error: Creating loop in NCA.
+^\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b$;Not implemented: word-boundary \b
+\B@([a-z0-9](?:-?[a-z0-9]){0,38});Not implemented: non-word-boundary \B
+[&|?](?:star)?t=((\d+[hms]?){1,3});Error: Creating loop in NCA.
+.*(?:([0-9a-f]):?(?:\1:?){5}).*;Not supported: references \1
+^([^:]+: (([\w\"]+ ){0,6}));Error: Creating loop in NCA.
+^(Hello( hello)+\.\s*){2}$;Error: Creating loop in NCA.
+\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$;Not implemented: word-boundary \b
+^\s*((?:[a-z]+_){0,2}jsonb?(?:_[a-z]+){0,2})\([^)]*\);Error: Creating loop in NCA.
+\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)$;Not implemented: word-boundary \b
+function[ ]?\w*\([\w,]*\)\{(?:\S[ \n]?){100,}\};Error: Creating loop in NCA.
+^\s*(\S)(\S{3})(\S{3})(\S{3})(?:\s+\S+){3}\s+(\d+)\s+(\w+\s+\d+)\s+([\d:]+)\s+(.+)$;Error: Creating loop in NCA.
+\A([a-z\u00e0\u00e2\u00e7\u00e9\u00e8\u00ea\u00eb\u00ee\u00ef\u00f4\u00fb\u00f9\u00fc\u00ff\u00f1\u00e6\u0153]+\.? ?){2,}\z;Error: Creating loop in NCA.
+^\s*Image:\s+re[lv]\/((\d+\.){1,3}\d+);Error: Creating loop in NCA.
+.* ((?:[0-9]+\.){3}[0-9]+) .* \[(.*?)\] (GET|POST) (\S+) .* generated (\d+) bytes in (\d+) msecs .*;Match generation with mixed lazy and eager loops currently not supported.
+^data(?:\[[^]]+\]){3}(\[data\](?:\[[^]]+\]){4,})$;Error: Creating loop in NCA.
+ICE_Dims.{92}((_?(X|\d+)){13});Error: Creating loop in NCA.
+^(\/[^\/\s]+){2,}$;Error: Creating loop in NCA.
+^(\/[a-z]+=[^=]*){3,}$;Error: Creating loop in NCA.
+sqlalchemy/([a-z_]+/){0,2}[a-z_]+\.py;Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob;arbitrary-param=\"<\/uri>\">$;Error: Creating loop in NCA.
+\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}\b;Not implemented: word-boundary \b
+^[0-9]{8}\.([A-Z][a-z]+){4}$;Error: Creating loop in NCA.
+^(?:\n                    (?:\w+_){2,}map             # foo_bar_map\n                  | (?:\w+_)*\w+_(?:\w+_)*\w+s  # foo_bars\n                  | (?:\w+_)*\w+s_(?:\w+_)*\w+s # foos_bars\n               )$;Error: Creating loop in NCA.
+(\n\s?){3,};Error: Creating loop in NCA.
+^(?:([^\t]+)\t)(?:[^\t]+\t){7,};Error: Creating loop in NCA.
+^(-?[a-z]+){1,7}\.json$;Error: Creating loop in NCA.
+(a\1?){2};Not supported: references \1
+pool/([a-z_]+/){0,2}[a-z_]+\.py;Error: Creating loop in NCA.
+(testdata/abc\..\b ?){2};Not implemented: word-boundary \b
+github\.com(?:\/[^/]+){2}($|#);Error: Creating loop in NCA.
+<body.*<script( src=\"jsfile\"| type=\"text/javascript\"| wdom_id=\"\d+\"){3}>\s*</script>.*</body;Error: Creating loop in NCA.
+^S-\d-\d+-(\d+-){1,14}\d+$;Error: Creating loop in NCA.
+(foo){2}(bar)\g<1>;analýza (foo){2}(bar)\g<1> - Nerozpoznaná řídicí sekvence \g.
+^(?:\d[\ |-]?){9}[\d|X]$;Error: Creating loop in NCA.
+^([A-Za-z]+(, | & )){0,5}[A-Za-z]+$;Error: Creating loop in NCA.
+^(eslint(-\w+){0,3}|exported|globals?)(\s|$);Error: Creating loop in NCA.
+([Aa](\s+[0-9]+){3})\s+([01])\s*([01]);Error: Creating loop in NCA.
+(?:\.\s?){2,}\.;Error: Creating loop in NCA.
+((?:\d+|\.|-){5,7});Error: Creating loop in NCA.
+^(\w+\.? ?){2,3}$;Error: Creating loop in NCA.
+^([a-zA-Z0-9]+ ?){0,5}$;Error: Creating loop in NCA.
+^<ol>(<li>[ \w.]+<\/li>){3}<\/ol>$;Error: Creating loop in NCA.
+\.(\w+){2,4}$;Error: Creating loop in NCA.
+^(?:\d+\.){3}\d+;Error: Creating loop in NCA.
+^\h*[*-](?:\h?[*-]){2,}(?:\n+|$);analýza ^\h*[*-](?:\h?[*-]){2,}(?:\n+|$) - Nerozpoznaná řídicí sekvence \h.
+^\/?sap\/opu\/odata4((?:\/[^/]+){5})(\/[^/]+){1}(\/.*)?;Error: Creating loop in NCA.
+^\s*\d{1,6}(\s+[a-zA-Z\-]+){1,3}\s*$;Error: Creating loop in NCA.
+\A([A-Za-z]+, ){8}[A-Za-z]+ & [A-Za-z]+\z;Error: Creating loop in NCA.
+(\%\%[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\%\%.*){2};Not implemented: word-boundary \b
+app/code/([A-z_]+/){3}|app/locale/[^\n]*|app/etc/modules/[^\n]*|app/design/([^/\n]+/?){6}|(shell|js|skin)/[^\n]+|lib/[A-z]+/;Error: Creating loop in NCA.
+^((\d+\.){17}\d+);Error: Creating loop in NCA.
+\A(?<region>([[:alnum:]]+'?-?.?,?\s?){1,5}), (?<country>([[:alnum:]]+\s?){1,5})\z;Error: Creating loop in NCA.
+\s*(-?[0-9]{1,3})\n                          \s*(-?[0-9]{1,3})\n                          \s*(-?[0-9]{1,3}) #h,k,l\n                          \s*(-?[0-9]+\.[0-9]+)\n                          \s*(-?[0-9]+\.[0-9]+) #I, SigI\n                          ([\s*-?[0-9]+\.[0-9]+){2}  #Peak, background\n                          \s*([0-9]+\.[0-9]+)\n                          \s*([0-9]+\.[0-9]+) #fs, ssi;Error: Creating loop in NCA.
+bbox(\s+-?\d+){4};Error: Creating loop in NCA.
+version=\"([0-9]+\.?){1,3}\";Error: Creating loop in NCA.
+((\3|b)\2(a)){2,};Not supported: references \1
+^( rgb \( (?: \d+% , ){2} \d+% \) )$;Error: Creating loop in NCA.
+\A([A-Za-z]+(, | & )){0,5}[A-Za-z]+\z;Error: Creating loop in NCA.
+^([a-z-])([a-z-]{9})  # -rw-r--r--\n      \s+\d*                # 1\n\t(?:\s+\w+){2}         # root root\n  \s+\d+                # 312\n    \s+\w+\s+\d+\s+[\d:]+ # Aug 1 1994\n      \s+(.+)               # welcome.msg\n\t$;Error: Creating loop in NCA.
+^(\d+(\.|_)){0,2}\d+;Error: Creating loop in NCA.
+U3\/((\d+|\.){5,});Error: Creating loop in NCA.
+^ *DEFINE_args\(([^,\"]+, *){1,2} *\".+\"\);Error: Creating loop in NCA.
+\A(\w+\.? ?){2,3}\z;Error: Creating loop in NCA.
+\b(((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))\b;Not implemented: word-boundary \b
+^( rgb \( (?: \d+ , ){2} \d+ \) )$;Error: Creating loop in NCA.
+(\.adobe\.com|www\.google(\.\w+){1,2}|^duckduckgo\.com|^search\.yahoo\.com)$;Error: Creating loop in NCA.
+(.*?)(_\d\d){1,2};Match generation with mixed lazy and eager loops currently not supported.
+^(\d+\.){2}\d+([a-z](\w+)?)?$;Error: Creating loop in NCA.
+\/bbs\/[-_\w]+\/(?:\w+\.){4}html$;Error: Creating loop in NCA.
+Pattern;Message;
+([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3};ERROR: nonmonadic regex!
+(?:[a-z0-9][\w\-]*[a-z0-9]*\.)*(?:(?:(?:[a-z0-9][\w\-]*[a-z0-9]*)(?:\.[a-z0-9]+)?)|(?:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)));ERROR: nonmonadic regex!
+((2[0-5][0-5]|1[\d][\d]|[\d][\d]|[\d])\.){3}(2[0-5][0-5]|1[\d][\d]|[\d][\d]|[\d]);ERROR: nonmonadic regex!
+((0[1-9]|1[0-9]|2[0-4])([0-5]\d){2});ERROR: nonmonadic regex!
+([0-9a-zA-Z]+(?:[_\.\-]?[0-9a-zA-Z]+)*[@](?:[0-9a-zA-Z]+(?:[_\.\-]?[0-9a-zA-Z]+)*\.[a-zA-Z]{2,}|(?:\d{1,}\.){3}\d{1,}));Error: Creating loop in NCA.
+(0\.|([1-9]([0-9]+)?)\.){3}(0|([1-9]([0-9]+)?)){1};Error: Creating loop in NCA.
+(\d\.?){3};Error: Creating loop in NCA.
+(border|margin):(\d+(?:\p{Alpha}*))(\2){3};analýza (border|margin):(\d+(?:\p{Alpha}*))(\2){3} - Neznámá vlastnost Alpha.
+^(?:\s+([\w.-]+)\s+\((.+)\)\n){2,};Error: Creating loop in NCA.
+(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?);ERROR: nonmonadic regex!
+^([A-Za-z]+, ){8}[A-Za-z]+ & [A-Za-z]+$;Error: Creating loop in NCA.
+(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?);ERROR: nonmonadic regex!
+\.package\(url:\s\"https:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*).git\",\s((\.upToNextMajor|\.upToNextMinor)\(from:\s\"(-?\d+\.){2}-?\d+\"\)|from:\s\"(-?\d+\.){2}-?\d+\")\),?$;Not implemented: word-boundary \b
+^([-\w=+/]+\.){2}[-\w=+/]+$;Error: Creating loop in NCA.
+(\r\n|\n){2};ERROR: nonmonadic regex!
+^([-*]\s?){3};Error: Creating loop in NCA.
+([0-2]?[0-9])((?::[0-5][0-9]){0,2})([PpAa]\.?[Mm]\.?)?;ERROR: nonmonadic regex!
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>$;Error: Creating loop in NCA.
+\Apeugeot-206-([a-z0-9]+\-){4}[a-z0-9]+\z;Error: Creating loop in NCA.
+ISBN +(?:97[89][ -]?)?(?:\d[ -]?){9}[\dx]\b|(?:RFC|PMID) +\d+;Not implemented: word-boundary \b
+\A([\w']+\.? ?){2,3}\z;Error: Creating loop in NCA.
+^(?:localhost|::1|(?:[01]?\d?\d|2[0-4]\d|25[0-5])(\.(?:[01]?\d?\d|2[0-4]\d|25[0-5])){3})$;ERROR: nonmonadic regex!
+(\n\s+)(criterion .*\n)(\s.+){1,99};Error: Creating loop in NCA.
+^(.\udf1a\u0020\ud83c.){3}$;Index je mimo hranice pole.
+^\s+[A-Z](\s+\d+,){3};Error: Creating loop in NCA.
+CMD(?:\s+\S+){9}\s+(\S+)(?:\s+\S+){2}\s+(\d+):(\d+):(\d+);Error: Creating loop in NCA.
+(\u2014|--|__|-\w)|(^Sent from my (\w+\s*){1,3});Error: Creating loop in NCA.
+(\[\*[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\*\].*){2};Not implemented: word-boundary \b
+Deployment 'simple1'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s+VM\s+CID\s+VM\s+Type\s+Active\s*\n(foobar1\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s+\d+\s+a\s+true\s*\n){2}\n2 vms;Error: Creating loop in NCA.
+^(full|square|(pct:)?([\d.]+,){3}([\d.]+))$;Error: Creating loop in NCA.
+.(.)(.)(?: 1.\2){4};Not supported: references \1
+(\<([\?\%])[\+\-\=\~]? $TT .* [\+\-\=\~]?\1\>.*){3};Not supported: references \1
+((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4};ERROR: nonmonadic regex!
+^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$;Error: Creating loop in NCA.
+^\s*-1(\s+0){6};Error: Creating loop in NCA.
+^\?a=cid-for-abc\&b=amp-([a-zA-Z0-9_-]+){10,};Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>;\+sip\.phone;pub-gruu=goldfish$;Error: Creating loop in NCA.
+\A([^\r\n]+(\r\n?|\n\r?)){2};Error: Creating loop in NCA.
+(?:'\\''){2,};ERROR: nonmonadic regex!
+^<ul>(<li><a href=\"#\w+\" title=\"\w+\">[ \w]+<\/a><\/li>){3}<\/ul>$;Error: Creating loop in NCA.
+(\<\!\-\-[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\-\-\>.*){3};Not implemented: word-boundary \b
+(?i)(?:v=|\/)(([\w-]+){11});Error: Creating loop in NCA.
+([^\]])(\[br\ \/\]){6}([^\[]);ERROR: nonmonadic regex!
+(?:^|\ {30})\ *[A-Z][a-z]{2}\ +[0-9]+\ +([0-9]+)\n\t\t\t   \ +([-+]?[0-9]+(?:\.[0-9]+)?)\n\t\t\t   (?:\ +(?:-|[-+]?[0-9]+(?:\.[0-9]+)?)){1,2}\n\t\t\t   (?:\ *[\r\n]|\ {30});Error: Creating loop in NCA.
+^\"((?:(?:\\"|[^\"]){0,32766}){0,32766})\"\s*(.*)$;ERROR: nonmonadic regex!
+^([d\-]?)([r\-][w\-][x\-]){3}$;ERROR: nonmonadic regex!
+(ff){16}00170200000000;ERROR: nonmonadic regex!
+^([\w\-_]\.?){2,}$;Error: Creating loop in NCA.
+(?:\r\n|\r|\n){2,};ERROR: nonmonadic regex!
+^(\d{1,3})((?:000){1,2})$;ERROR: nonmonadic regex!
+\A([\w\u00f1\u00d1\u00fa-]+\.? ?){2,5}\z;Error: Creating loop in NCA.
+wlan0.* (\d+\.){3}\d+/(\d+) ;Error: Creating loop in NCA.
+:(0:){2,};ERROR: nonmonadic regex!
+(([01][0-9][0-9]|2[0-4][0-9]|25[0-5])\.){3}([01][0-9][0-9]|2[0-4][0-9]|25[0-5]);ERROR: nonmonadic regex!
+\b(?:[A-Z]+[a-z\d]+){2,}\b;Not implemented: word-boundary \b
+(([2]([0-4][0-9]|[5][0-5])|[0-1]?[0-9]?[0-9])[.]){3}(([2]([0-4][0-9]|[5][0-5])|[0-1]?[0-9]?[0-9]));ERROR: nonmonadic regex!
+^(\d+\.){3}(\d+)$;Error: Creating loop in NCA.
+^([0-9]+\.){3}([0-9]+);Error: Creating loop in NCA.
+(\r\n|\r|\n){3,};ERROR: nonmonadic regex!
+^([0-9]+,){2}(,[0-9]+)*$;Error: Creating loop in NCA.
+^do\s+domain\s+records?\s+create\s(?:[^\s]+\s+){2}[^\s];Error: Creating loop in NCA.
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>;\+sip\.phone$;Error: Creating loop in NCA.
+(\n\r?){2,};Error: Creating loop in NCA.
+\A(\s+\|){2,};Error: Creating loop in NCA.
+^(?:\s+([\w.-]+)\n){2,};Error: Creating loop in NCA.
+([0-9a-f][0-9a-f][-:]){5}([0-9a-f][0-9a-f]);ERROR: nonmonadic regex!
+^(?:\d[\ |-]?){13}$;Error: Creating loop in NCA.
+^ *1000000 +A +thread_deleted( +deleted_thread:B| +thread_count:12){2}$;Error: Creating loop in NCA.
+(?:[^:\-]|\A)(?:[0-9A-F][0-9A-F][:\-]){5}[0-9A-F][0-9A-F](?:[^:\-]|\Z);ERROR: nonmonadic regex!
+Deployment 'simple2'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s+VM\s+CID\s+VM\s+Type\s+Active\s*\n(foobar2\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s+\d+\s+a\s+true\s*\n){4}\n4 vms;Error: Creating loop in NCA.
+(\w\w[:-]){5}\w\w;ERROR: nonmonadic regex!
+lc=(\d+\s+){3};Error: Creating loop in NCA.
+lk=(\d+\s+){3};Error: Creating loop in NCA.
+^[\w\.]+\@(\w+\.){2,3}[a-f0-9]{5}\.example\.com$;Error: Creating loop in NCA.
+(?:\S\S ){2}(\S\S);ERROR: nonmonadic regex!
+ \A (?: (?:x|[0-9]+x?) \. ){1,2} (?: x | [0-9]+x? ) \z ;SetIsEmpty
+\bOS X (?:\d+\.){2,};Not implemented: word-boundary \b
+^([0-9]+\.){2}[0-9]+$;Error: Creating loop in NCA.
+([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}:\d{1,6};ERROR: nonmonadic regex!
+((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))\s*:\s*(\d{2,5});ERROR: nonmonadic regex!
+ISBN +(?:97[89][ -]?)?(?:\d[ -]?){9}[\dx]\b;Not implemented: word-boundary \b
+^(?:\s+([\w.-]+)){2,};Error: Creating loop in NCA.
+^(?:[^:]+:){2}(.*?)$;Match generation with mixed lazy and eager loops currently not supported.
+^(\d+\.?){1,3}\.(\d+([A-z]+(-?\d+)?))$;Error: Creating loop in NCA.
+^([0-9]+\.){3,}[0-9]+$;Error: Creating loop in NCA.
+(--|__|-\w)|(^Sent from my (\w+\s*){1,3});Error: Creating loop in NCA.
+\A\|1(\|.+){2}\z;Error: Creating loop in NCA.
+^(([ \t]+[^\s\n*+=-].+\n){2,});Error: Creating loop in NCA.
+(?:(?:\x0D\x0A?){2}|(?:\x0A\x0D?){2})status;Error: Creating loop in NCA.
+^S-1-5-21(-\d+){2,};Error: Creating loop in NCA.
+(?<command>omxplayer) (?<arg>--\w+ \S+\s?){2,} (?<file>\"\S+\") < (?<pipe>\S+) &;Error: Creating loop in NCA.
+Deployment 'simple2'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s*\n(foobar2\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s*\n){4}\n4 instances;Error: Creating loop in NCA.
+^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)[1-9]((\s|\s?\-\s?)?[0-9]){8}$;Internal error
+^[a-z0-9]+([._\\-]*[a-z0-9])*@(\w+([-.]\w+)*\.){1,63}[a-z0-9]+$;Error: Creating loop in NCA.
+\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b;Not implemented: word-boundary \b
+\As(\\?\W)(?:\^|\${1,2})\1\1(;|\z);Not supported: references \1
+<head wdom_id=\"\d+\">.*<link( href=\"cssfile\"| rel=\"stylesheet\"| wdom_id=\"\d+\"){3}>.*</head>;Error: Creating loop in NCA.
+^<dl>(<dt>[ \w]+<\/dt><dd>[ \w.]+<\/dd>){3}<\/dl>$;Error: Creating loop in NCA.
+ \A (?:[0-9]+) (?:\.[0-9]+){0,2} (?:_\d+)? \z ;SetIsEmpty
+^(\s+\S+){3}(\s+\d+){2}(\s+\S+\s+(\d+|\-)){2}(\s+\d+\/\d+){2}(\s+)?$;Error: Creating loop in NCA.
+^(\s+[\w\-]+){2,}$;Error: Creating loop in NCA.
+\n            \A\n            (.+ [^/]) # Maximally at least two charcters not ending in a slash.\n            (\n              (?: / [^/]+ ){2} # Slash followed by maximally non-slash, twice.\n            )\n            \z\n          ;SetIsEmpty
+^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$;Error: Creating loop in NCA.
+(::ffff:)?([0-9]+\.){3}[0-9]+|[0-9a-f]+:([0-9a-f]*:)[0-9a-f]*;Error: Creating loop in NCA.
+^var _0x(\w){4} *= *\['\u0430\u0431\u0446'\];;SetIsEmpty
+^(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}$;ERROR: nonmonadic regex!
+^([0-9]+[dhms]?)( [0-9]+[dhms]?){2,}$;Error: Creating loop in NCA.
+^\s*matrix\(\s*1\s*,\s*0\s*,\s*0\s*,\s*1\s*(?:,\s*0(?:px)?\s*){2}\)\s*$;Error: Creating loop in NCA.
+(?:\S\S ){3}(\S)\S (\S);ERROR: nonmonadic regex!
+\b((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))$;Not implemented: word-boundary \b
+(([2][5][0-5]\.)|([2][0-4][0-9]\.)|([0-1]?[0-9]?[0-9]\.)){3}(([2][5][0-5])|([2][0-4][0-9])|([0-1]?[0-9]?[0-9]));ERROR: nonmonadic regex!
+^logout_token=(([\w-]+\.?){3})$;Error: Creating loop in NCA.
+^.*\/jcr_root(\/[^/]+){2,}$;Error: Creating loop in NCA.
+(?:^|\.)((?:\d+\.){4})xip\.io$;Error: Creating loop in NCA.
+(\d\d[\s\-]?){4}$;ERROR: nonmonadic regex!
+^\s*(json(?:_[a-z]+){0,2})\([^)]*\);Error: Creating loop in NCA.
+^(library://)?([a-z0-9]+(?:[._-][a-z0-9]+)*/){2}([a-z0-9]+(?:[._-][a-z0-9]+)*)(:[a-z0-9]+(?:[,._-][a-z0-9]+)*)?$;Error: Creating loop in NCA.
+\G(%tree((?:\s+(?:bypass|alias)){0,2}));Not implemented: \G
+((?:'\\''){2,});ERROR: nonmonadic regex!
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP>$;Error: Creating loop in NCA.
+^(\d+\.){3}\d+$;Error: Creating loop in NCA.
+^( rgba\( (?: \d+% , ){3} \d+% \) )$;Error: Creating loop in NCA.
+^<p>(?:[ \w\.]+<br>){2}[ \w\.]+<\/p>$;Error: Creating loop in NCA.
+(?<api_key>^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12})\:(?<secret>\w+)$;analýza (?<api_key>^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12})\:(?<secret>\w+)$ - Nerozpoznaná řídicí sekvence \h.
+^(\/[a-z_]+s\/\d+){2}$;Error: Creating loop in NCA.
+^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){0,3}$;ERROR: nonmonadic regex!
+((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]);ERROR: nonmonadic regex!
+bound to (([0-9]+\.){3}3);Error: Creating loop in NCA.
+^(\d+ +){5}.*$;Error: Creating loop in NCA.
+(0\d){6};ERROR: nonmonadic regex!
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob>;\+sip\.instance=\"<urn:uuid:abcde>\";Error: Creating loop in NCA.
+^([^ ]+ +){3};Error: Creating loop in NCA.
+(([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}):(\d+);ERROR: nonmonadic regex!
+(http|https)?:\/\/(www\.|maps\.)?google(\.[a-z]+){1,2}\/maps\/.*;Error: Creating loop in NCA.
+^(?:(?:(?:\+|00)34\D?))?(?:9|6)(?:\d\D?){8}$;Error: Creating loop in NCA.
+\A([a-z0-9]+\-){4}[a-z0-9]+\z;Error: Creating loop in NCA.
+https?://(?:\S+/){4}([0-9a-f]{40})/?([^#\s]+)?(?:#(\S+))?;Error: Creating loop in NCA.
+\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b;Not implemented: word-boundary \b
+(?:\S\S ){3}(\S\S);ERROR: nonmonadic regex!
+\A(?:\w+-){4}\w+\Z;Error: Creating loop in NCA.
+^(?:[a-zA-Z0-9-_]+\.){2}[a-zA-Z0-9-_]+$;Error: Creating loop in NCA.
+(\<([\?\%])[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\1\>.*){3};Not implemented: word-boundary \b
+(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}/(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).*;ERROR: nonmonadic regex!
+(?:\r\n?|\n\r?){2,}|((?:\r\n?|\n\r?)\s*\-\s+);Error: Creating loop in NCA.
+^(([0-9]+\s*){1,255})(.*)?$;Error: Creating loop in NCA.
+^((\d+\.\d+|\d+) ){0,3}(\d+\.\d+|\d+);Error: Creating loop in NCA.
+^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)6((\s|\s?\-\s?)?[0-9]){8}$;Internal error
+([0-9a-f][0-9a-f]-){5}[0-9a-f][0-9a-f];ERROR: nonmonadic regex!
+(?:[`|]-(?:\+-)?|\\_) (\d+:){3}\d+;Error: Creating loop in NCA.
+Mozilla/[0-9]\.[0-9] \(([A-Za-z0-9 \/._]+;){1,3} ([A-Za-z0-9 \/.:_]+){0,2}\)( ([A-Za-z0-9 \/.]+){1} \(KHTML, like Gecko\)){0,1} ([A-Za-z0-9 \/.]+){2,3};Error: Creating loop in NCA.
+(\[\%[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\%\].*){3};Not implemented: word-boundary \b
+new-([0-9a-z]+\-){4}[0-9a-z]+\z;Error: Creating loop in NCA.
+(\.\.\/){1,2}bower_components\/;ERROR: nonmonadic regex!
+\A((255.){3}(0|128|192|224|240|248|252|254))|((255.){2}(0|128|192|224|240|248|252|254).0)|(255.(0|128|192|224|240|248|252|254)(.0){2})|((128|192|224|240|248|252|254)(.0){3})\z;ERROR: nonmonadic regex!
+(\${1,2})((?:\\.|[^$])*)\1;Not supported: references \1
+( [\w\.]+Exception: (([\S]+ ){0,6}));Error: Creating loop in NCA.
+EC\:((:?[\-\d]+\.){3}(:?[\-\d]+));Error: Creating loop in NCA.
+((?:(?:25[0-5]|2[0-4]\d|[01]?\d?\d)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d?\d));ERROR: nonmonadic regex!
+(ff){16}001e030202736f6d652064617461;ERROR: nonmonadic regex!
+^[0-9]+ +[A-Z][A-Za-z]?( +[-+]?([0-9]*\.)?[0-9]+){3}$;Error: Creating loop in NCA.
+^(#[^#\n]+\n){5}\n*;Error: Creating loop in NCA.
+^3(?:\.[0-9]+){2,3}$;Error: Creating loop in NCA.
+^(([0-9]+:){1,2}[0-9]{2}[,.][0-9]{3}) --\> (([0-9]+:){1,2}[0-9]{2}[,.][0-9]{3})(.*);Error: Creating loop in NCA.
+\brepeat-x\b|\brepeat-y\b|(\brepeat|\bspace\b|\bround\b|\bno-repeat\b){1,2};Not implemented: word-boundary \b
+::(?:\r?\n|\r){2}([ \t]+).+(?:(?:\r?\n|\r)\1.+)*;Not supported: references \1
+^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12}\:\w+$;analýza ^(\h){8}-(\h){4}-(\h){4}-(\h){4}-(\h){12}\:\w+$ - Nerozpoznaná řídicí sekvence \h.
+inet addr:(?<ip>(\d+[.]){3}\d+);Error: Creating loop in NCA.
+^(([0-9]+\.){3}([0-9]+))\s*$;Error: Creating loop in NCA.
+^\s*(((\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+)))\s*,){0,2}(\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+)))))|((\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+)))\s){0,2}(\s*(-|\+)?((\.\d+)|(\d+\.\d+)|(\d+)|(\d+(\.\d+)?e(-|\+)?(\d+))))))\s*$;Error: Creating loop in NCA.
+^(\S+\s+){7}\S+;Error: Creating loop in NCA.
+^(?:\s+\d+){2}\s+([\w\d\-]+) (.*)$;Error: Creating loop in NCA.
+((?:0x.., ){8});ERROR: nonmonadic regex!
+\s*inspec-test-fixture\s+\((\d+\.\d+\.\d+(,\s)?){2,}\);Error: Creating loop in NCA.
+(\R){2,};analýza (\R){2,} - Nerozpoznaná řídicí sekvence \R.
+([^\]])(\[br\ \/\]){2}([^\[]);ERROR: nonmonadic regex!
+Deployment 'simple1'\s*\n\nInstance\s+Process\s+State\s+AZ\s+IPs\s*\n(foobar1\/\w+-\w+-\w+-\w+-\w+\s+running\s+-\s+\d+.\d+.\d+.\d+\s*\n){2}\n2 instances;Error: Creating loop in NCA.
+(iPad|iPhone|iPod).*OS ((\d+_?){2,3});Error: Creating loop in NCA.
+^(\d+\.){2}(\d+)$;Error: Creating loop in NCA.
+^([A-Za-z0-9-]+\.){1,2}cloudpassage\.com$;Error: Creating loop in NCA.
+bbox((\s+\d+){4});Error: Creating loop in NCA.
+(<\/p><p>){2,};ERROR: nonmonadic regex!
+(?:\n|\r\n){2,};ERROR: nonmonadic regex!
+^(.+\n){3,}\n;Error: Creating loop in NCA.
+^\s*\w+\s+0(\s+-*\d*\.*\d*){3};Error: Creating loop in NCA.
+^(([0-9]|[1-9][0-9]+)\.){2}([0-9]|[1-9][0-9]+)((-|\+)[0-9a-zA-Z\.]+){0,2}$;Error: Creating loop in NCA.
+\Anew-york-([a-z0-9]+\-){4}[a-z0-9]+\z;Error: Creating loop in NCA.
+\A(\d+-){2}\d+T(\d+:){2}\d+\+\d+:\d+\s+;Error: Creating loop in NCA.
+(\.\.\/){3}style\/usage;ERROR: nonmonadic regex!
+(abc\..\b ?){2};Not implemented: word-boundary \b
+^(library://)?([a-z0-9]+(?:[._-][a-z0-9]+)*/){0,2}([a-z0-9]+(?:[._-][a-z0-9]+)*)(:[a-z0-9]+(?:[._-][a-z0-9]+)*)?$;Error: Creating loop in NCA.
+(\r\n|\n\r|\n|\r){2,};ERROR: nonmonadic regex!
+^( rgba\( (?: \d+ , ){3} \d+ \) )$;Error: Creating loop in NCA.
+(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?);ERROR: nonmonadic regex!
+^\s*([A-Z][a-z]?|\d{1,3})([,\s]+[eE\d.+-]+){3};Error: Creating loop in NCA.
+((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.)?){1};ERROR: nonmonadic regex!
+^((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])$;ERROR: nonmonadic regex!
+(\${1,2})([^\$]+)\1$;Not supported: references \1
+(?:\[.{2}\]){0,3}([^\[]*);ERROR: nonmonadic regex!
+(0[0-9]|1[0-9]|2[0-3])(:[0-5][0-9]){2};ERROR: nonmonadic regex!
+(?:\S\S ){4}(\S);ERROR: nonmonadic regex!
+^(?:\d+\.){3}\d+$;Error: Creating loop in NCA.
+(?:.d){2};ERROR: nonmonadic regex!
+^<ul>(<li>[ \w.]+<\/li>){3}<\/ul>$;Error: Creating loop in NCA.
+(?:\d{1-3}\.){4};ERROR: nonmonadic regex!
+<meta( charset=\"TEST\"| wdom_id=\"\d+\"){2}>;Error: Creating loop in NCA.
+^localhost$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*\:)*?:?0*1$;Error: Creating loop in NCA.
+\b((25[0-5]|2[0-4][\d]|[01]?[\d][\d]?)(\.|$)){4}\b;Not implemented: word-boundary \b
+^[0-9]+ +[A-Z][a-z]?( +[-+]?([0-9]*\.)?[0-9]+){2}$;Error: Creating loop in NCA.
+((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3});ERROR: nonmonadic regex!
+^do\s+droplets?\s+restore(?:\s+\d+){2}$;Error: Creating loop in NCA.
+(^|/)knockout-(\\d+\\.){3}(debug\\.)?js$;Error: Creating loop in NCA.
+build-tools/[^/]+/(\d{1,}[.]){2}\d{1,}(_rc\d)?;Error: Creating loop in NCA.
+^([+-]?0+:){6}[+-]?0+$;Error: Creating loop in NCA.
+^do\s+droplets?\s+rebuild(?:\s+\d+){2}$;Error: Creating loop in NCA.
+^(\d+(\.\d+)?\:){1,2}(\d+(\.\d+)?)?$;Error: Creating loop in NCA.
+^(.+\n){1,3};Error: Creating loop in NCA.
+^<input(\s+type=\"text\"|\s+aria-label=\"monkeys\"){2,}>;Error: Creating loop in NCA.
+^(\d+\s){2,}[0-9 ]*$;Error: Creating loop in NCA.
+^[A-Z][a-z]* ([a-z ]+){3} [a-z]+\.$;Error: Creating loop in NCA.
+(([01]?\d\d?|2[0-4]\d|25[0-5])\.){3}([01]?\d\d?|2[0-4]\d|25[0-5]);ERROR: nonmonadic regex!
+^\#(([a-fA-F0-9])\2){3}$;Not supported: references \1
+^do\s+droplets?\s+create(?:\s+[^\s]+){4};Error: Creating loop in NCA.
+\G%(tree((?:\s+(?:bypass|alias)){0,2}));Not implemented: \G
+^\+(?:[0-9]\x20?){6,14}[0-9]$;Error: Creating loop in NCA.
+#(([A-Za-z0-9])\2){3};Not supported: references \1
+([^\]])(\[br\ \/\]){3}([^\[]);ERROR: nonmonadic regex!
+^\s*\S+\s+(online|offline|restricted)(\s+\S+){2};Error: Creating loop in NCA.
+\w+(\|\w+){3};Zadaný argument je mimo rozsah platných hodnot.
+([0]|[1-9]\d?)(\.([0]|[1-9]\d?)){2};ERROR: nonmonadic regex!
+^(?:\s+\d+){2}\s+([\w\d]+) (.*)$;Error: Creating loop in NCA.
+^ *1000000 +A +thread_created( +new_thread:B| +thread_count:13){2}$;Error: Creating loop in NCA.
+^([0-9]{1,}\s?){14}$;Error: Creating loop in NCA.
+(00){2}$;ERROR: nonmonadic regex!
+(\<\%[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\>.*){3};Not implemented: word-boundary \b
+ \x08(?:(?:-|\\|\/|\|)\x08){4,}don't\nbreak\n;SetIsEmpty
+^(([+-]?\d+(\.\d+)?)\s*){2,6}$;Error: Creating loop in NCA.
+\d{3},\d{2},[^,]+,(\d+),(\d+),(\d+),(\d+),(?:\d+,){7}([\d,]+)$;Error: Creating loop in NCA.
+^(?:(?:doi:?\s*|(?:http:\/\/)?(?:dx\.)?(?:doi\.org)?\/))?(10(?:\.\d+){1,2}\/\S+)$;Error: Creating loop in NCA.
+(^|:)(0+(:|$)){2,8};Error: Creating loop in NCA.
+^\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b$;Not implemented: word-boundary \b
+\B@([a-z0-9](?:-?[a-z0-9]){0,38});Not implemented: non-word-boundary \B
+([^\]])(\[br\ \/\]){4}([^\[]);ERROR: nonmonadic regex!
+((255.){3}(0|128|192|224|240|248|252|254|255))|((255.){2}(0|128|192|224|240|248|252|254).0)|(255.(0|128|192|224|240|248|252|254)(.0){2})|((0|128|192|224|240|248|252|254)(.0){3});ERROR: nonmonadic regex!
+(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\[?\\.\\]?){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?);ERROR: nonmonadic regex!
+(?:#{validateUrlDecOctet}(?:\.#{validateUrlDecOctet}){3});ERROR: nonmonadic regex!
+[&|?](?:star)?t=((\d+[hms]?){1,3});Error: Creating loop in NCA.
+.*(?:([0-9a-f]):?(?:\1:?){5}).*;Not supported: references \1
+^([^:]+: (([\w\"]+ ){0,6}));Error: Creating loop in NCA.
+(\r\n|\n|\u2424){2,};ERROR: nonmonadic regex!
+^(Hello( hello)+\.\s*){2}$;Error: Creating loop in NCA.
+\.(?:\r\n|\r|\n)|(?:\r\n|\r|\n){2};ERROR: nonmonadic regex!
+(?:\r\n|\r|\n){3,};ERROR: nonmonadic regex!
+\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$;Not implemented: word-boundary \b
+^\s*((?:[a-z]+_){0,2}jsonb?(?:_[a-z]+){0,2})\([^)]*\);Error: Creating loop in NCA.
+(\d\d\d\d)(\d\d){5};ERROR: nonmonadic regex!
+\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)$;Not implemented: word-boundary \b
+(\r\n|\r|\n){2,};ERROR: nonmonadic regex!
+function[ ]?\w*\([\w,]*\)\{(?:\S[ \n]?){100,}\};Error: Creating loop in NCA.
+(00){1,2}$;ERROR: nonmonadic regex!
+(00){15,15}01;ERROR: nonmonadic regex!
+^\s*(\S)(\S{3})(\S{3})(\S{3})(?:\s+\S+){3}\s+(\d+)\s+(\w+\s+\d+)\s+([\d:]+)\s+(.+)$;Error: Creating loop in NCA.
+\A([a-z\u00e0\u00e2\u00e7\u00e9\u00e8\u00ea\u00eb\u00ee\u00ef\u00f4\u00fb\u00f9\u00fc\u00ff\u00f1\u00e6\u0153]+\.? ?){2,}\z;Error: Creating loop in NCA.
+^(\r\n|\r|\n){2}$;ERROR: nonmonadic regex!
+^\s*Image:\s+re[lv]\/((\d+\.){1,3}\d+);Error: Creating loop in NCA.
+([^\]])(\[br\ \/\]){8}([^\[]);ERROR: nonmonadic regex!
+.* ((?:[0-9]+\.){3}[0-9]+) .* \[(.*?)\] (GET|POST) (\S+) .* generated (\d+) bytes in (\d+) msecs .*;Match generation with mixed lazy and eager loops currently not supported.
+((center|top|bottom|right|left) ?){2};ERROR: nonmonadic regex!
+([^\]])(\[br\ \/\]){5}([^\[]);ERROR: nonmonadic regex!
+^data(?:\[[^]]+\]){3}(\[data\](?:\[[^]]+\]){4,})$;Error: Creating loop in NCA.
+ICE_Dims.{92}((_?(X|\d+)){13});Error: Creating loop in NCA.
+^(\/[^\/\s]+){2,}$;Error: Creating loop in NCA.
+^(\/[a-z]+=[^=]*){3,}$;Error: Creating loop in NCA.
+sqlalchemy/([a-z_]+/){0,2}[a-z_]+\.py;Error: Creating loop in NCA.
+(?:(?:one\n){3}(?:two\n){2});ERROR: nonmonadic regex!
+(ff){16}001d0200000006800f03000104;ERROR: nonmonadic regex!
+<sip:quaff@(\d+\.){3}\d+:\d+;transport=UDP;ob;arbitrary-param=\"<\/uri>\">$;Error: Creating loop in NCA.
+\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}\b;Not implemented: word-boundary \b
+(?:(?:2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(?:2[0-4]\d|25[0-5]|[01]?\d\d?);ERROR: nonmonadic regex!
+([0-9a-zA-Z]{1}[0-9a-zA-Z]{1}[:]{1}){5}[0-9a-zA-Z]{1}[0-9a-zA-Z]{1};ERROR: nonmonadic regex!
+^[0-9]{8}\.([A-Z][a-z]+){4}$;Error: Creating loop in NCA.
+^(?:\n                    (?:\w+_){2,}map             # foo_bar_map\n                  | (?:\w+_)*\w+_(?:\w+_)*\w+s  # foo_bars\n                  | (?:\w+_)*\w+s_(?:\w+_)*\w+s # foos_bars\n               )$;Error: Creating loop in NCA.
+(\n\s?){3,};Error: Creating loop in NCA.
+^(?:([^\t]+)\t)(?:[^\t]+\t){7,};Error: Creating loop in NCA.
+^(-?[a-z]+){1,7}\.json$;Error: Creating loop in NCA.
+(a\1?){2};Not supported: references \1
+pool/([a-z_]+/){0,2}[a-z_]+\.py;Error: Creating loop in NCA.
+(testdata/abc\..\b ?){2};Not implemented: word-boundary \b
+((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$;ERROR: nonmonadic regex!
+(ff){16}001d0200000006800f03000180;ERROR: nonmonadic regex!
+github\.com(?:\/[^/]+){2}($|#);Error: Creating loop in NCA.
+<body.*<script( src=\"jsfile\"| type=\"text/javascript\"| wdom_id=\"\d+\"){3}>\s*</script>.*</body;Error: Creating loop in NCA.
+^S-\d-\d+-(\d+-){1,14}\d+$;Error: Creating loop in NCA.
+(foo){2}(bar)\g<1>;analýza (foo){2}(bar)\g<1> - Nerozpoznaná řídicí sekvence \g.
+([0-2]\d)(:[0-5]\d){1,2};ERROR: nonmonadic regex!
+^(?:\d[\ |-]?){9}[\d|X]$;Error: Creating loop in NCA.
+^([A-Za-z]+(, | & )){0,5}[A-Za-z]+$;Error: Creating loop in NCA.
+^(eslint(-\w+){0,3}|exported|globals?)(\s|$);Error: Creating loop in NCA.
+([Aa](\s+[0-9]+){3})\s+([01])\s*([01]);Error: Creating loop in NCA.
+((2[0-4]\d|25[0-5]|[01]?\d\d?)\.){3}(2[0-4]\d|25[0-5]|[01]?\d\d?);ERROR: nonmonadic regex!
+(?:\.\s?){2,}\.;Error: Creating loop in NCA.
+((?:\d+|\.|-){5,7});Error: Creating loop in NCA.
+^(\w+\.? ?){2,3}$;Error: Creating loop in NCA.
+([0-9]|[0-9][0-9]|[01][0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[0-9][0-9]|[01][0-9][0-9]|2[0-4][0-9]|25[0-5])){3};ERROR: nonmonadic regex!
+^([a-zA-Z0-9]+ ?){0,5}$;Error: Creating loop in NCA.
+^<ol>(<li>[ \w.]+<\/li>){3}<\/ol>$;Error: Creating loop in NCA.
+\.(\w+){2,4}$;Error: Creating loop in NCA.
+([^\]])(\[br\ \/\]){7}([^\[]);ERROR: nonmonadic regex!
+^(?:\d+\.){3}\d+;Error: Creating loop in NCA.
+^\h*[*-](?:\h?[*-]){2,}(?:\n+|$);analýza ^\h*[*-](?:\h?[*-]){2,}(?:\n+|$) - Nerozpoznaná řídicí sekvence \h.
+^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?).){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$;ERROR: nonmonadic regex!
+^\/?sap\/opu\/odata4((?:\/[^/]+){5})(\/[^/]+){1}(\/.*)?;Error: Creating loop in NCA.
+^\s*\d{1,6}(\s+[a-zA-Z\-]+){1,3}\s*$;Error: Creating loop in NCA.
+\A([A-Za-z]+, ){8}[A-Za-z]+ & [A-Za-z]+\z;Error: Creating loop in NCA.
+((?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?));ERROR: nonmonadic regex!
+(\%\%[\+\-\=\~]? (PROCESS|WRAPPER|FOREACH|BLOCK|END|INSERT|INCLUDE)\b .* [\+\-\=\~]?\%\%.*){2};Not implemented: word-boundary \b
+app/code/([A-z_]+/){3}|app/locale/[^\n]*|app/etc/modules/[^\n]*|app/design/([^/\n]+/?){6}|(shell|js|skin)/[^\n]+|lib/[A-z]+/;Error: Creating loop in NCA.
+^((\d+\.){17}\d+);Error: Creating loop in NCA.
+\A(?<region>([[:alnum:]]+'?-?.?,?\s?){1,5}), (?<country>([[:alnum:]]+\s?){1,5})\z;Error: Creating loop in NCA.
+\s*(-?[0-9]{1,3})\n                          \s*(-?[0-9]{1,3})\n                          \s*(-?[0-9]{1,3}) #h,k,l\n                          \s*(-?[0-9]+\.[0-9]+)\n                          \s*(-?[0-9]+\.[0-9]+) #I, SigI\n                          ([\s*-?[0-9]+\.[0-9]+){2}  #Peak, background\n                          \s*([0-9]+\.[0-9]+)\n                          \s*([0-9]+\.[0-9]+) #fs, ssi;Error: Creating loop in NCA.
+((([1-9]?|1\d)\d|2([0-4]\d|5[0-5]))\.){3}(([1-9]?|1\d)\d|2([0-4]\d|5[0-5]));ERROR: nonmonadic regex!
+bbox(\s+-?\d+){4};Error: Creating loop in NCA.
+version=\"([0-9]+\.?){1,3}\";Error: Creating loop in NCA.
+((\3|b)\2(a)){2,};Not supported: references \1
+^( rgb \( (?: \d+% , ){2} \d+% \) )$;Error: Creating loop in NCA.
+\A([A-Za-z]+(, | & )){0,5}[A-Za-z]+\z;Error: Creating loop in NCA.
+^([a-z-])([a-z-]{9})  # -rw-r--r--\n      \s+\d*                # 1\n\t(?:\s+\w+){2}         # root root\n  \s+\d+                # 312\n    \s+\w+\s+\d+\s+[\d:]+ # Aug 1 1994\n      \s+(.+)               # welcome.msg\n\t$;Error: Creating loop in NCA.
+^(http[s]?\:\/\/)?((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3})(:[0-9]+)?$;ERROR: nonmonadic regex!
+^(\d+(\.|_)){0,2}\d+;Error: Creating loop in NCA.
+\A(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\z;ERROR: nonmonadic regex!
+U3\/((\d+|\.){5,});Error: Creating loop in NCA.
+^ *DEFINE_args\(([^,\"]+, *){1,2} *\".+\"\);Error: Creating loop in NCA.
+(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3};ERROR: nonmonadic regex!
+\A(\w+\.? ?){2,3}\z;Error: Creating loop in NCA.
+\b(((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?))\b;Not implemented: word-boundary \b
+bladeIpAddress\">((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3});ERROR: nonmonadic regex!
+^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$;ERROR: nonmonadic regex!
+^( rgb \( (?: \d+ , ){2} \d+ \) )$;Error: Creating loop in NCA.
+(\.adobe\.com|www\.google(\.\w+){1,2}|^duckduckgo\.com|^search\.yahoo\.com)$;Error: Creating loop in NCA.
+(.*?)(_\d\d){1,2};Match generation with mixed lazy and eager loops currently not supported.
+[^:\-](?:[0-9A-F][0-9A-F][:\-]){5}[0-9A-F][0-9A-F][^:\-];ERROR: nonmonadic regex!
+^(\d+\.){2}\d+([a-z](\w+)?)?$;Error: Creating loop in NCA.
+(__NEW_LINE__){3,};ERROR: nonmonadic regex!
+\/bbs\/[-_\w]+\/(?:\w+\.){4}html$;Error: Creating loop in NCA.
+(?:\S\S ){3}(\S);ERROR: nonmonadic regex!

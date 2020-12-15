@@ -1,0 +1,12 @@
+^[ \n\t\r\f]*SEND[ \n\t\r\f]+[^\n]{246}
+^(NT|CallBack|SID|TimeOut)[ \n\t\r\f]*\x3a[ \n\t\r\f]*[^\n]{512}
+\x01.{240}.*\x0C.*.{0}.*%.{1}.{0,7}%.{1}.{0,7}%
+.{82}.*Login failed for user \x27sa\x27
+^[ \n\t\r\f]*Content-Type[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300}
+^MAIL FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}
+^[ \n\t\r\f]*SAML[ \n\t\r\f]+[^\n]{246}
+^[ \n\t\r\f]*Content-Transfer-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\n]{100}
+.{59}\x00\x14
+^SAML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}
+.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]
+.*<[0-9a-zA-Z_]+\x3afill[ \n\t\r\f][^>]*method[ \n\t\r\f]*=[ \n\t\r\f]*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^ \n\t\r\f>]{32})

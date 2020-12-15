@@ -1,0 +1,18 @@
+DCA (showGraph(false)
+- labely hran: CountingSetAutomata/DescribeCondition (counterové podmínky)
+- update: CountingSetAutomata/internal string ToString(bool debugmode)
+- start condition: CSAutomata/DescribeStartLabel()
+- rozdělovače popisku labelu hrany - internal string ToString(bool debugmode)
+
+- popis stavu CSAutomata/DescribeState
+
+DCA (showGraph(true), debugmode in  internal string ToString(bool debugmode) set to True) - RST, INCR
+- label of the edge CountingSetAutomata/public override string ToString() - dictFlag = true
+- counter condition - CountingSetAutomata/public string ToString<S>(CsAlgebra<S> algebra),  
+                    - DescribeCondition<S>(CsAlgebra<S> algebra, CsCondition cond, int i) (dictFlag = true)
+
+NCA (showGraph(true) s q0,q1)
+- state - CountingAutomata/DescribeState(int state)
+- start label of the edge - CountingAutomata/ DescribeStartLabel()
+- label of the edge - CountingAutomata/DescribeLabel, CountingAutomata/PrettyPrint(Tuple<Maybe<S>, Sequence<CounterOperation>> t)
+					- update - ConditionalDerivative/public override string ToString()

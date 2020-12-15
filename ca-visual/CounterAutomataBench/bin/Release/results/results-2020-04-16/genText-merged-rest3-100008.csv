@@ -1,0 +1,13 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128};129;8392;8392;128;Text generated.
+^Content-Length\x3A[ \n\t\r\f]*[^\r\n]{100,};101;5166;5166;100;Text generated.
+^[ \n\t\r\f]*Content-Transfer-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\n]{100};101;5177;5177;100;Text generated.
+^PASS[ \n\t\r\f]+[^\n]{100};101;5156;5156;100;Text generated.
+^USER[ \n\t\r\f]+[^\n]{100,};101;5156;5156;100;Text generated.
+^TEST[ \n\t\r\f]+[^\n]{100,};101;5156;5156;100;Text generated.
+^[ \n\t\r\f]*Cookie[ \n\t\r\f]*\x3a.*?OvOSLocale[ \n\t\r\f]*\x3d[ \n\t\r\f]*[^\x3b \n\t\r\f]{249};30;4954;519;1;TIMEOUT.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};203;26526;26697;300;TIMEOUT.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};77;14649;33466;4;TIMEOUT.
+\r\nContent-Length\x3A[ \n\t\r\f]*[^\r\n]{100,};187;8925;8925;100;Text generated.
+\r\nAccept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};195;6830;7168;37;TIMEOUT.
+\[\n \n\t\r\f*[^\[\{\}\]]{0,100}\];101;5158;5158;100;Text generated.

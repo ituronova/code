@@ -1,0 +1,1000 @@
+\\P{XPosixPrint}
+^(s)|(hi)
+(.*)//(.*)
+(width|height|align)\\=\\\"(.*?)\\\"
+[\\u2460-\\u24FF]
+.+(-ref[0-9]*$|-notref[0-9]*$)
+WashU
+failed to run command
+Command exited with non-zero status \\d+
+^\t\t\t\t
+<title>Unable to find distribution
+japanese/zipcodes\\.rb\\Z
+key_(live|test)_[A-Za-z0-9]{32}
+(:?[\\r\\n\\t\\f\\v]| {2})
+(^|[^a-z0-9])(.)
+^(?:(?P<userinfo>[^@/?#]*)@)?(?P<host>(?:\\[(?P<ipv6_host>[^[\\]/?#]*)\\])|(?P<plain_host>[^:/?#[\\]]*)|(?P<bad_host>.*?))?(?::(?P<port>.*))?$
+(.)T{2,}(.)
+\\s+(\\d+.\\S+)\\s+\\(.*\\).*
+width=\"800\"
+#break
+^CGI::Application::Plugin::ActionDispatch::Attributes$
+lib(.+)(\\.so|\\.dylib|\\.a)(.+)?
+((?:unsigned )?(?:tiny|small|medium|big)?int)
+[/,-]
+^[a-zA-Z0-9_\\\\]+@[a-zA-Z0-9_]+$
+([a-z0-9]+)repository$
+^[0-9a-f]{8}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{4}-?[0-9a-f]{12}$
+\\A\\s*-?\\d{4}-\\d{2}-\\d{2} # allow minus, anyway\n        (t|\\s)\n        \\d{2}:\\d{2}:\\d{2}(\\.\\d+)?\n        (z|[-+]\\d{2}:\\d{2})\\s*\\z
+^([^\\(]+?) \\(.*\\)
+project \\\"(.+?)\\\":
+^\\$exists (.+)
+Geckoboard-Ruby\\/0\\.[\\d]+(\\.[\\d])*
+\\Astring:\\/\\/
+^Service[A-Za-z]*$
+ENSP[A-Z,0-9]+
+Missing path
+^1[567]{1}[0-9]{1}$
+([^[:alnum:]]+)([A-Za-z0-9\\._-]+[@][A-Za-z0-9\\._-]+[\\.].[A-Za-z0-9]+)
+1 runs, 1 assertions, 0 failures, 0 errors
+#\\d+\\s
+\\s*\\*(\\s+|(?!/))
+\\?|_
+comment><comment>#\t\t$self->logwarning(\"dynamic substitution is called for but nothing to substitute\");<
+^(mailto|javascript):
+^\"?[0-9]{1,2}
+(\\w+:)(/+)?
+^Common Name
+([\\u0030-\\u0039\\u00B2\\u00B3\\u00B9\\u00BC-\\u00BE\\u0660-\\u0669\\u06F0-\\u06F9\\u07C0-\\u07C9\\u0966-\\u096F\\u09E6-\\u09EF\\u09F4-\\u09F9\\u0A66-\\u0A6F\\u0AE6-\\u0AEF\\u0B66-\\u0B6F\\u0B72-\\u0B77\\u0BE6-\\u0BF2\\u0C66-\\u0C6F\\u0C78-\\u0C7E\\u0CE6-\\u0CEF\\u0D66-\\u0D75\\u0E50-\\u0E59\\u0ED0-\\u0ED9\\u0F20-\\u0F33\\u1040-\\u1049\\u1090-\\u1099\\u1369-\\u137C\\u16EE-\\u16F0\\u17E0-\\u17E9\\u17F0-\\u17F9\\u1810-\\u1819\\u1946-\\u194F\\u19D0-\\u19DA\\u1A80-\\u1A89\\u1A90-\\u1A99\\u1B50-\\u1B59\\u1BB0-\\u1BB9\\u1C40-\\u1C49\\u1C50-\\u1C59\\u2070\\u2074-\\u2079\\u2080-\\u2089\\u2150-\\u2182\\u2185-\\u2189\\u2460-\\u249B\\u24EA-\\u24FF\\u2776-\\u2793\\u2CFD\\u3007\\u3021-\\u3029\\u3038-\\u303A\\u3192-\\u3195\\u3220-\\u3229\\u3248-\\u324F\\u3251-\\u325F\\u3280-\\u3289\\u32B1-\\u32BF\\uA620-\\uA629\\uA6E6-\\uA6EF\\uA830-\\uA835\\uA8D0-\\uA8D9\\uA900-\\uA909\\uA9D0-\\uA9D9\\uAA50-\\uAA59\\uABF0-\\uABF9\\uFF10-\\uFF19])([^\\u0030-\\u0039\\u00B2\\u00B3\\u00B9\\u00BC-\\u00BE\\u0660-\\u0669\\u06F0-\\u06F9\\u07C0-\\u07C9\\u0966-\\u096F\\u09E6-\\u09EF\\u09F4-\\u09F9\\u0A66-\\u0A6F\\u0AE6-\\u0AEF\\u0B66-\\u0B6F\\u0B72-\\u0B77\\u0BE6-\\u0BF2\\u0C66-\\u0C6F\\u0C78-\\u0C7E\\u0CE6-\\u0CEF\\u0D66-\\u0D75\\u0E50-\\u0E59\\u0ED0-\\u0ED9\\u0F20-\\u0F33\\u1040-\\u1049\\u1090-\\u1099\\u1369-\\u137C\\u16EE-\\u16F0\\u17E0-\\u17E9\\u17F0-\\u17F9\\u1810-\\u1819\\u1946-\\u194F\\u19D0-\\u19DA\\u1A80-\\u1A89\\u1A90-\\u1A99\\u1B50-\\u1B59\\u1BB0-\\u1BB9\\u1C40-\\u1C49\\u1C50-\\u1C59\\u2070\\u2074-\\u2079\\u2080-\\u2089\\u2150-\\u2182\\u2185-\\u2189\\u2460-\\u249B\\u24EA-\\u24FF\\u2776-\\u2793\\u2CFD\\u3007\\u3021-\\u3029\\u3038-\\u303A\\u3192-\\u3195\\u3220-\\u3229\\u3248-\\u324F\\u3251-\\u325F\\u3280-\\u3289\\u32B1-\\u32BF\\uA620-\\uA629\\uA6E6-\\uA6EF\\uA830-\\uA835\\uA8D0-\\uA8D9\\uA900-\\uA909\\uA9D0-\\uA9D9\\uAA50-\\uAA59\\uABF0-\\uABF9\\uFF10-\\uFF19])
+(?<![<>])(<N pl=\"n\" gnt=\"n\" gnd=\"m\">g?Ch?ontae<\\/N> (?:<N[^>]*>(?:[BCDFGMPT][^Hh']|S[lnraeiou\\x{e1}\\x{e9}\\x{ed}\\x{f3}\\x{fa}]|bhF)[^<]*<\\/N>))(?![<>])
+\\-(\\d+)\\z
+[\\s-_]+
+Gemfile|gems\\.
+ProfilePrinter$
+^[A-Za-z_][:A-Za-z0-9_-]*$
+[ ](?=[^\\]]*?(?:\\[|$))
+^I view the first version of that image$
+^an aws\\-record model with definition:$
+(Windows NT 6\\.3)
+^(FROM|BET) (.+) (AND|TO) (.+)
+Solicit$
+^a file named \"([^\"]*)\" with ([^\\s]*) in it$
+office_fax
+\\.(png|ppm)$
+\\A\n                 \\{(.*)\\}\n                 (?:\n                     (\\s*)\n                     ([#;])(.*)\n                 )?\n                 \\z
+^.*\\s+(\\S+\\s+\\S+$)
+^.3
+(<E[^>]*><G>[Aa]<\\/G> (?:<V[^>]*t=\"caite\"[^>]*>(?:(?:[Dd]\\x{fa}i?r|[Rr]ai?bh|[Ff]uair|[Ff]hac|[Dd]heach|[Dd]hearna)[^<]*|[Ff]uarthas)<\\/V>)<\\/E>)
+^shuffle\\s+teams(?:\\s+\\((.+)\\))?$
+[\\u1ED4]
+^Token 
+^Notification-Priority: 1
+([0-9]+) (day|week|month|year)s? ago
+^([\\x00-\\x7D\\x7F]+)
+Basic (.*)
+Login failed for user '(.*)'\\.
+^LV\\sNAME\\s+
+^[\\w\\d]*?:
+(?P<type>feat|fix|docs|style|refactor|test|chore)(?:\\((?P<scope>[\\w _\\-]+)\\))?: (?P<subject>[^\\n]+)(:?\\n\\n(?P<text>.+))?
+^(footnote|citation)$
+::[\\w ]+$
+RIGOL TECHNOLOGIES
+\\/\\/# sourceMappingURL=fixture-compiled.js.map\\n$
+(?:show +)?status
+^k-(widget|tool-icon|state-hover|header|combobox|dropdown|selectbox|colorpicker)$
+(\\S.+?[.!?]\"?)(?=\\s+|$)
+Could not parse output from FFProbe
+^Merged #(?:\\d+)\\.
+ts_([a-zA-Z0-9]*)_(\\d{4})_(\\d{2})
+file 2
+(<)(build)\\s*(>)(?!<\\s*/\\2\\s*>)
+Object isn't an Exception
+^[+-]\\d{4}
+^\\s*function ([^\\(]+)\\(
+^I run Eyemask on \"([^\\\"]+)\" with the authors: \"([^\\\"]+)\" and \"([^\\\"]+)\"$
+hello-hello$
+^Apple TV
+\\Q$(\\E(INSTALL(?!DIRS)${MACRO_RE})\\Q)\\E
+module FooBar\\n  module Namespaced
+Invalid pid file:.*is not a file
+^${da1rx}$
+^@page|@keyframes
+[a-zA-Z].+
+\\n\\<
+^TINY
+warning: --donation-link: invalid link 'hello world'
+{{ color-7 }}
+([\\^$(){}+*?\\-|\\[\\]\\:\\\\])
+\\A\\w*#\\w++(?:\\-\\w++)*\\z
+(gmap|landmark)
+(^|[^-])%d
+^\\[?([^\\]]+)\\]?:(\\d+)$
+[^\\x00-\\x7F]+
+([-+]?[0-9]+(\\.[0-9]*)?([eE][-+]?[0-9]+)?)(M)?
+@@.+@@
+<key>content<\\/key>\\s*<string>([^<]*)<\\/string>
+$genus\\s+
+this.type = 'myServer'
+around_step
+^\\s*(\\/\\*\\*\\*).*\\*\\/\\s*$
+\\t\\S+\\.(c|go):\\d+
+[\\w_$/:.-]+
+\\W(MPL-2.0-no-copyleft-exception|Mozilla\\WPublic\\WLicense\\W2.0\\W(no\\Wcopyleft\\Wexception))\\W
+^lastrowid-
+^Footnotes::Notes::(\\w+)Note$
+^(?:DIRECTORIES\\b)
+^99967
+^\\$1\\$[a-z0-9\\/.]{0,8}\\$[a-z0-9\\/.]{22}(:.*)?$
+README.md
+^replies\\\\+([^@]+)@diplicity-engine.appspotmail.com
+--listen-address (.+?) 
+^\\s*\\([.\\d]+\\)
+^ *(\\S.*\\|.*)\\n *([-:]+ *\\|[-| :]*)\\n((?:.*\\|.*(?:\\n|$))*)\\n*
+([><=]+)([\\d\\.]+)
+^x-wmapp0:
+sw=\\d+
+(Installing \\w+ )\\((.*)\\)
+^(?:-=)
+\\-studio$
+(<[a-z][^>]*)font-variant\\s*:[^;]*;
+^hosts
+([A-Za-z0-9_\\-]+)=(?:\"((?:[^\"]+|\\\\\")*)\"|'((?:[^']+|\\\\')*)')
+\\G(==|!=|<=|>=|[-=+*\\/%<>!]|[{}])
+^the test server has TLS mode \"(\\w+)\"$
+^I expect that element \"([^\"]*)?\" does( not)* exist$
+Processing by (?<controller>[^\\s]*) as (?<format>.*)
+ bundle\\b
+[!\"#%-,\\.\\/;->@\\[-\\^`\\{-~]
+Unrecognized host or address
+span2
+\\>\\:([^ ]+) 
+:(\\d+)\\/
+((?:-|\\b)\\d+\\b|[=;{}]|\\[\\]|\\[deprecated\\]|\\b[A-Za-z_][A-Za-z0-9_]*\\b|\\/\\/.*|\\s+)
+^\\/*(\\w):
+File not an ELF object
+\\A(?:TRANSLATION)
+at .+ \\((.+):(\\d+):(?:\\d+)\\)$
+^Log[A-Z]
+((.*)\\s)?<(.+)>
+([\"\\\\$`])
+\\AContent-Length:\\s*(\\d+)\\s*\\z
+\\[whitespace\\]
+(\\d+)\\s+([^\\s]+)\\s[^\\d]+.*
+0160ACharging your bank account                   
+^\\s*geo\\s*(.*?)\\s*{
+^Laatste wijziging: (.*)$
+^[\\$\\@]+$
+(def blah)
+\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}((\\+|-)\\d{2}:\\d{2}|Z)
+quick
+\\[Errno 10053\\] An established connection was aborted
+(?:\\/
+\\s*[\\[\\{\\\"]
+[^a-zA-Z0-9_\\.! ]
+\\\\\\/
+The expression <\\$facts\\[os\\]\\[family\\]> is not a valid type specification
+npm_config_scripts_prepend_node_path=(true|auto)
+^a=msid:.+ (.+)$
+the edit project page
+(?<!a(?:b|cd))
+(^|\\s|\\(|,)url\\((.*?[^\\\\])\\)(?=$|\\s|\\)|,)
+\\d{7}(\\d|X)
+&lt;\\/?[a-z][^]*?&gt;
+^\\(([^\\)]*)\\)
+\"level\":3
+(?i:\\b(?<_1>Empty|False|Nothing|Null|True)\\b)
+^MAX(.*)$
+^[ivxlcdm]+\\.$
+[\\w\\W]+blablabla Some previous changelog.\\n$
+^(Net::Blogger::Engine::(Manila|Radio))$
+[^a-zA-Z0-9\\/_| -]
+VG (\\S+)
+^P(?:(?:(-?\\d{1,9})Y)?(?:(-?\\d{1,9})M)?(?:(-?\\d{1,9})D)?(?:T(?:(-?\\d{1,9})H)?(?:(-?\\d{1,9})M)?(?:(-?\\d{1,9})(?:[.,](-?\\d{1,9}))?S)?)?|(-?\\d{1,9})W)$
+/etc/custom_chef_dir
+^[[:upper:]]*BLAST[[:upper:]]*.*\\[.*\\]$
+\\b(SET|AS|ASC|COUNT|DESC|IN|LIKE|DISTINCT|INTO|VALUES|LIMIT)\\b
+(([.]?[\\\\/])*([.][.])[\\\\/]([.]?[\\\\/])*)+
+^(?:@\\[)
+-(.*?):(.*)
+&[a-z]+?;
+\\\\not\\\\equiv 
+[\\\\\\/](app|cx|cx-react|cx-theme-\\w*)[\\\\\\/]
+(?<_1>\\\\)[A-Za-z@]+
+((^|\\n)[ \\t]*)(Ability|Ahoy matey!|Arwedd|Aspekt|Besigheid Behoefte|Business Need|Caracteristica|Caracter\u00edstica|Egenskab|Egenskap|Eiginleiki|Feature|F\u012b\u010da|Fitur|Fonctionnalit\u00e9|Fonksyonalite|Funcionalidade|Funcionalitat|Functionalitate|Func\u0163ionalitate|Func\u021bionalitate|Functionaliteit|Fungsi|Funkcia|Funkcija|Funkcionalit\u0101te|Funkcionalnost|Funkcja|Funksie|Funktionalit\u00e4t|Funktionalit\u00e9it|Funzionalit\u00e0|Hwaet|Hw\u00e6t|Jellemz\u0151|Karakteristik|laH|Lastnost|Mak|Mogucnost|Mogu\u0107nost|Moznosti|Mo\u017enosti|OH HAI|Omadus|Ominaisuus|Osobina|\u00d6zellik|perbogh|poQbogh malja'|Potrzeba biznesowa|Po\u017eadavek|Po\u017eiadavka|Pretty much|Qap|Qu'meH 'ut|Savyb\u0117|T\u00ednh n\u0103ng|Trajto|Vermo\u00eb|Vlastnos\u0165|W\u0142a\u015bciwo\u015b\u0107|Zna\u010dilnost|\u0394\u03c5\u03bd\u03b1\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1|\u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03af\u03b1|\u041c\u043e\u0433\u0443\u045b\u043d\u043e\u0441\u0442|\u041c\u04e9\u043c\u043a\u0438\u043d\u043b\u0435\u043a|\u041e\u0441\u043e\u0431\u0438\u043d\u0430|\u0421\u0432\u043e\u0439\u0441\u0442\u0432\u043e|\u04ae\u0437\u0435\u043d\u0447\u04d9\u043b\u0435\u043a\u043b\u0435\u043b\u0435\u043a|\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b|\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u043d\u043e\u0441\u0442|\u0424\u0443\u043d\u043a\u0446\u0438\u044f|\u0424\u0443\u043d\u043a\u0446\u0456\u043e\u043d\u0430\u043b|\u05ea\u05db\u05d5\u05e0\u05d4|\u062e\u0627\u0635\u064a\u0629|\u062e\u0635\u0648\u0635\u06cc\u062a|\u0635\u0644\u0627\u062d\u06cc\u062a|\u06a9\u0627\u0631\u0648\u0628\u0627\u0631 \u06a9\u06cc \u0636\u0631\u0648\u0631\u062a|\u0648\u0650\u06cc\u0698\u06af\u06cc|\u0930\u0942\u092a \u0932\u0947\u0916|\u0a16\u0a3e\u0a38\u0a40\u0a05\u0a24|\u0a28\u0a15\u0a36 \u0a28\u0a41\u0a39\u0a3e\u0a30|\u0a2e\u0a41\u0a39\u0a3e\u0a02\u0a26\u0a30\u0a3e|\u0c17\u0c41\u0c23\u0c2e\u0c41|\u0cb9\u0cc6\u0c9a\u0ccd\u0c9a\u0cb3|\u0e04\u0e27\u0e32\u0e21\u0e15\u0e49\u0e2d\u0e07\u0e01\u0e32\u0e23\u0e17\u0e32\u0e07\u0e18\u0e38\u0e23\u0e01\u0e34\u0e08|\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16|\u0e42\u0e04\u0e23\u0e07\u0e2b\u0e25\u0e31\u0e01|\uae30\ub2a5|\u30d5\u30a3\u30fc\u30c1\u30e3|\u529f\u80fd|\u6a5f\u80fd):([^:]+\\n)*
+^(1[0-1]|0?\\d)
+%H|%k
+openbsd(\\d+\\.\\d+)
+^the content type should be \"([^\\\"]*)\"$
+.*?\\b(?P<name>\\w+)\\Z
+^\\d+(\\.\\d+)
+^Tailor::
+^[a-zA-Z\\d\\xa0-\\uffff_-]+$
+<body>\\s*<form.*action=\"/form_dest\".*>.*<input.*authenticity_token.*/>.*<p>inside the form</p>.*</form>
+^.*[/\\\\](.*?)$
+^zoom (?:out|in) \\S+
+^$test_class
+\\[(\\w{2}(?:\\-\\w{2})?)\\]
+t\\('\\.(.*?)'\\)
+^.+?=.+?&.+?=.+?$
+-Djava\\.util\\.logging\\.config\\.file=/tmp/logging\\.properties\\.12345
+^\\*?\\.(.*)\\z
+(http|https)://(.*?)[.].+
+^(\\d{6}z)
+\\[[^\\]]*
+^I should generate in assets folder mongodb_logger files$
+^SyntaxError: Strict mode code may not include a with statement
+\\s(at|@|and|&)\\s
+<span>(.*?)<\\/span>
+stopped|absent
+^\\s*([\\s\\S]+?)\\s+for\\s+([\\s\\S]+?)\\s*$
+^([^\\s]*)\\s+([^\\s]*)\\s+([^\\s]*)\\s+\\[([^: ]+):([^ ]+) ([-+0-9]+)\\]\\s+\"(\\w+) ([^\\s]*) ([^\\s]*)\"\\s+([^\\s]*)\\s+([^\\s]*)\\s+\"([^\"]*)\"\\s+\"([^\"]*)\"\\s+\"([^\"]*)\"\\s+\"([^\"]*)\"\\s+\"([^\"]*)\"\\s+(\\d+)
+(?<![<>])(<A pl=\"n\" gnt=\"n\">[^<]+<\\/A> <A pl=\"n\" gnt=\"y\" gnd=\"f\">[^<]+<\\/A>)(?![<>])
+call.*msgSend
+^B\\d$
+https?://kobato\\.hologfx\\.com/reader/read/
+^(n(?: % \\d+)?) (==|!=) (\\d+(?:\\.\\.\\d+|,\\d+)+)$
+^99904
+Mutating an arranged ArrayProxy is not allowed
+^(?:[\\w-]+:|From )
+^(\\s*)<script.*?>(.*?)\\s*</script
+^vendor/golang_org/
+verbosity
+\\.(mjs|jsx?)$
+^([a-f0-9]{40}) refs/tags/(\\S+?)(\\^\\{\\})?$
+([12]\\d|0[1-9]|3[01])
+((\\d+) cores?)$
+((?:[^*\\\\]|\\\\.)*)(?:\\s|^)(\\*(?:[^*\\\\]|\\\\.)*\\*)(?:\\s|$)
+#EXTVLCOPT
+function bash
+M[d|D].
+^$element_id$
+([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2})\\s(URL|ERROR)
+templates\\/components\\/(.*)$
+.+:only-child
+^[A-Z][a-z]-[A-Z][a-z] [0-9]{2}:[0-9]{2}-[0-9]{2}:[0-9]{2}$
+^\\[\\!\\[(?P<text>.*?)\\]\\[(?P<badge>.*?)\\]\\]\\[(?P<target>.*?)\\]$
+invalid\\b.*\\bfile mode
+([\\s)\"])and([\\s(\"])
+ok\\s+ExamplePassTest
+<meta http-equiv=\\\"Content-Security-Policy\\\" content=\\\"default-src \\* gap: ws: https:\\/\\/ssl.gstatic.com;img-src \\* 'self' data: content:;style-src 'self' 'unsafe-inline' data: blob:;script-src \\* 'unsafe-inline' 'unsafe-eval' data: blob:;\\\"
+^PING (.*?)\\s$
+(\\d+)/?$
+xls$
+(^|\\n)(    )*# Subtest(?:: (.*))?(\\n|$)
+\\x0A\\x0A#
+^\\s*(\\w+)[\\s.]+(\\w+)
+^\\(([0-9.]+),([0-9.]+)\\)$
+\"user_id\":1
+^<nav\\b[^>]+>
+\\s+\\)
+\\ASource-IP:[ ]*(.+)\\z
+\n          <payment>\n            .*<sender>\n              .*<documents>\n                .*<document>\n                  .*<type>CNPJ</type>\n                  .*<value>62057673000135</value>\n                .*</document>\n                .*<document>\n                  .*<type>CPF</type>\n                  .*<value>00242866131</value>\n          
+^[a-z,A-Z]+$
+^.*\\.rsp2$
+.*bowtie2.*version (.*)$
+to render '
+(([0-9]+)[\\s][0-9]+[\\s]obj[\\n])
+^\\S+ \\S+ \\S+ 1110, 74616
+^mixin ([a-zA-Z_]+\\w*)(\\(((\\$\\w*(,\\s)?)*)\\))?$
+[\\\\\\/]bluebird[\\\\\\/]js[\\\\\\/](main|debug|zalgo|instrumented)
+^Samp ([^] ]+) /(.*?)/ (.*)$
+\\bseventy\\s*-?\\s*seven\\b
+@admin_role\\.destroy
+^End of search list
+invalidhomepagegem 1<\\/b>\\s+(<span title=\"rdoc not installed\">\\[rdoc\\]<\\/span>|<a href=\"\\/doc_root\\/invalidhomepagegem-1\\/\">\\[rdoc\\]<\\/a>)\\s+<a href=\"\\.\" title=\"\\.\">\\[www\\]<\\/a>
+\\bchd=t:0,100,66.7\\b
+^demo\\.\\w{8}\\.js\\.map
+Dernier
+[\\p{Punct}&&[^.]]*$
+?
+Malformed response when trying to upload 
+<a>(.+?)<\\/a>
+^\\@clear\\s+([a-zA-Z0-9_-]+)
+($promptish)
+#\\{(?:[^{}]|\\{[^{}]*\\})*\\}
+-[^\\d\\W]\\w*
+(?<!\\*)\\*\\*/|^\\s*\\}
+^\\s*#define\\s+LUA_VERSION_NUM\\s+50(\\d)\\s*$
+You need to pass both a model name and id
+GO
+^((http|https)://|(mailto:)|(//))[a-z0-9]
+\\b(?i:(achar|adjustl|adjustr|char|iachar|ichar|index|len_trim|repeat|scan|string|trim|verify|len)(?=\\())
+UPSSTD
+\\/ping\\/((\\w|.)*)
+$remove_reg
+^.*?\\$(.*?)($|@|:)
+</?td>
+T(\\d):
+(a)(?(1)(b|c|d)|(e|f|g))(h)(?(2)(i|j|k)|(l|m|n))|o|p
+^Function
+[\\$|@|@@](?:(?:global|script|private|env):)?[A-Z0-9_]+
+matrix\\(|\\)
+SELECT .* FROM posts WHERE .* ORDER BY views ASC, author_id DESC
+ready|ok
+\nVERSION = '(.*)'
+^[\\s*]*|[\\s*]*$
+(?<=://).*
+Unexpected token \"foobar\" in raw tag on line 1\\.
+^(?:([+-]?[0-9]+(\\.[0-9]+)?([eE][+\\-]?[0-9]+)?|[+-]?\\.[0-9]+([eE][+\\-]?[0-9]+)?)([Vv])([Mm])([Aa])([Xx]))
+^AR_COM_PARM_(\\w+)
+\\n<\\/script>
+reg\\.ru
+^ci($syl$syl)
+^\\d{1200}$
+[^\\u0021\\u0023-\\u002b\\u002d-\\u003a\\u003c-\\u005b\\u005d-\\u007e]
+ DESC
+\\G(\\S+)
+^[a-z][a-z_]+$
+^(.*?)/(.*?)$
+http://en.wordpress.com/tag/beef-jerky/
+(^Color | image$)
+A screenshot of the page at the time of the failure has been written to (.*)
+\\{\\{expected\\}\\}
+[^-_=\\w\\d\\(\\)<>\\.]
+^$R/idmap/.+
+(^\\s*)context(\\s.*do)
+(^<\\?xml)|(^<\\!DOCTYPE)
+\\d+\\.html$
+hello from Chef::Provider::ProviderThingy
+(?x) (?: (?= \\s )  (?:(?<=else|new|return) | (?<!\\w)) (\\s+))?\n      (\\b \n        (?!(while|for|do|if|else|switch|catch|enumerate|return|sizeof|[cr]?iterate)\\s*\\()(?:(?!NS)[A-Za-z_][A-Za-z0-9_]*+\\b | :: )++                  # actual name\n      )\n       \\s*(\\()
+[^\\b\\-^]
+$cntl
+\\{(.*)\\}
+^.[ACDMR]
+<a(.*)>(.*)<\\/a>
+\\s\\/c\\s+ruby-rtmidi\\.cpp\\b
+nested-glob-erb
+^EM\\x00
+^\\s{4}\\b[\\w\\s\\d-]{35}\\d{6}
+^the month is uncertain: \"([^\"]*)\"$
+\\\\cyrchar\\\\CYRTDSC 
+^[+-]+$
+^\\/(?:widgets)\\/.+
+https:\\/\\/fillmurray\\.com\\/(\\d+)\\/(\\d+)
+bold|black
+R[0-9A-Z]{10}$
+^((?:[^$DLE]+|$DLE[^$ETX$DC4])*)
+<include src=\"([^>]*)\" />
+\\d+_\\d+_2.xls
+\\b(downto|if|else|match|then|to|when|with|try)\\b
+rhino\\d_
+name :users
+Trait \\'trait1\\' already exists
+(\\$\\{x\\}|%COL)
+^(\\d+)\\s+(\\w+)$
+^(\\-)?\\.
+describe \\('DELETE \\/Testing\\/:id', function \\(\\) \\{
+^(.*)(,[mw0]|[xol]s),[mf],d(.*)$
+```(.*?)\\r?\\n([\\s\\S]*?)```
+^six
+^(p|h[1-6]|pre)$
+^(?:(?P<user>[a-z0-9_-]+)?(?::(?P<password>[^@]+))?@)?(?P<host>[^:\\s]+)(?::(?P<port>[0-9]+))?$
+:control_branch
+\\b(?:OCT(?:OBER)?|Oct(?:ober)?)\\b
+([lke])(?=%(%%)*(?!%))
+\u00e1\u00bf\u00ba
+^\\w+:\\w+
+Bio::DB::Sam::Segment
+Checking file permissions
+^\\.PAGE\\s*=\\s*([^;]+);
+\\bdatetime\\b
+content changed.*(md5|sha256)
+Errno::[A-Z]+
+^(\\s*\\w+\\s*\\=\\s*)(.*)(\\s*)$
+([\\/])+
+^[\\-\\+]?[0-9\\.]+
+PR:\\d+
+-f (\\S+)
+^dbi\\:([^\\:]+)\\:
+SYN,ACK,FIN. Must be one of: .+
+(maps\\.)?google\\.([a-z]{2,3}(\\.[a-z]{2})?)\\/(((maps\\/(place\\/(.*)\\/)?\\@(.*),(\\d+.?\\d+?)z))|(\\?ll=))(.*)?
+solbot
+\\s+at\\s+\\/\\S+.+$
+Prefix (\\w)
+(/\\*\\*|%?\\{\\s*$)
+mariadb
+(kb|kilobytes?)
+^P(?P<manufacturer>\\w{3})$
+connecting... ok
+add_handler(\"TOPIC\", -> $event {\n      %:channels{normalize $event<object>}<topic> = $event<rest>;\n    });\n\n    # 
+Unmatched \\'{\\'
+^\\.foo #bar[\\s]*\\{[\\s]*color:\\s*(red|#f00);?[\\s]*\\}
+(\"(?:\\\\.|[^\"\\n])*\"|'(?:\\\\.|[^'\\n])*')|\\/\\*[\\s\\S]*?\\*\\/
+\\s[.]{1,}
+(empty)
+icsp.example.com
+^xlink:?(.+)
+\n                CONSTRAINT \\s $fk_name_quote_re \\s (      # start capture of full SQL\n                    FOREIGN \\s KEY \\s \\( [^\\)]+ \\) \\s     # \"FOREIGN KEY\" plus column list (which we already have above)\n                    REFERENCES \\s [^\\(]+ \\s \\( [^\\)]+ \\)  # \"REFERENCES\" plus table+column list (again, already captured above)\n                    \\s? ( [^\\)\\,]* )                      # ON DELETE/UPDATE, DEFER, MATCH, etc.\n                )                                         # end capture of full SQL\n            
+(\\w+) ?\\((\\d+)(?:,(\\d+))?\\)
+'%(\\d+)$([sdf])'
+^(?:VARCHAR\\b)
+\\/[^\\/]+\\/\\.\\.
+\\.vtt$
+$block_end
+([A-Za-z0-9])([\\+\\-\\*\\/=&\\\\|<>])([\\u2e80-\\u2eff\\u2f00-\\u2fdf\\u3040-\\u309f\\u30a0-\\u30ff\\u3100-\\u312f\\u3200-\\u32ff\\u3400-\\u4dbf\\u4e00-\\u9fff\\uf900-\\ufaff])
+(.*)/\\*SUB_ID\\*/(.*)
+\\{\\s*version\\s*(<|>|==|!=|>=|<=)\\s*([\\d._]+)\\s*\\}
+\\](\\w+(\\[.+)?)
+\\$USER_ACCOUNT_DB\\b
+Invalid glob .* 0
+^\\[(.+)\\]$
+^(.*)-(.*).txt$
+^BUNDLE_
+\\A((.+::)?(\\[[^\\]]+\\]|[^-+\\d{]+))(([-+*&%@!>=<?\\dW.\\(\\)]|\\{.+?\\})+)?(?:(T([:*=.,\\d]+)?)([A-Z]+(\\?.+)?|[-+][:\\d]+)?)?\\z
+(?s:\\\\(.))
+([\\w\\.]+)\\s* = \\s*(?:rb_define_class|boot_defclass)\\s*\n            \\(\n               \\s*\"([\\w:]+)\",\n               \\s*(\\w+|0)\\s*\n            \\)
+\\s{1,}<span class=\"line-num
+<vspace blankLines=\"0\"/>(The following two bits)
+(\\\\)?\\.(\\*)?
+\\.tag$
+blib\\/lib
+Disclosure Provision For Income Taxes
+(([!#\\$%&*-~]|
+^RE-RECV
+\\Q$label\\E\\n
+([a-fA-F0-9\\\\.]+)
+NetApp Release ([\\w\\.\\d]+)
+\\.routes\\.draw do\\n  resources :products\\n
+\n        \\n=+$\n        .*\\Z\n    
+SELECT \\[people\\]\\.\\* FROM \\[people\\] WITH\\(NOLOCK\\) LEFT OUTER JOIN \\[readers\\] WITH\\(NOLOCK\\)\\s+ON \\[readers\\]\\.\\[person_id\\] = \\[people\\]\\.\\[id\\]
+$texmfRoot/.*\\bGOOE$
+(list_)?tcDesc\\s*=\\s*(\\d+\\.)?
+^mac$
+^process activity is logged to \"([^\\\"]*)\"$
+\\\\('|\\\\)
+(^|[\\\\\\/])\\.\\.([\\\\\\/]|$)
+^[0-9a-z]+[_\\.'0-9a-z-]*[0-9a-z]*[\\@]{1}[0-9a-z]*[\\.0-9a-z-]*[0-9a-z]+[\\.]{1}[a-z]{2,4}$
+^n_pkey$
+^([01-]+)\\s+([01-]+)$
+function _interopRequireDefault\\(obj\\) \\{ return obj && obj\\.__esModule \\? obj : \\{ default: obj \\}; }
+.users.\\..name.
+(008|Altresium|Argus|BaiduMobaider|BoardReader|DNSGroup|DataparkSearch|EDI|Goodzer|Grub|INGRID|Infohelfer|LinkedInBot|LOOQ|Nutch|PathDefender|Peew|PostPost|Steeler|Twitterbot|VSE|WebCrunch|WebZIP|Y!J-BR[A-Z]|YahooSeeker|envolk|sproose|wminer)/(\\d+)(?:\\.(\\d+)(?:\\.(\\d+))?)?
+\\W*\\([^\\)]+\\)?\\W*$
+{.*?\"sources\": \\[\"
+^filter-copy$
+/current/?$
+files.length
+^\\$(\\S+)$
+invalid range
+^(?P<indent>\\s*)#\\s+at\\s+(?P<stack>.*)$
+^([\\'\\\"]?)\\$(.*?)\\1
+foo=okay&passwd=\\**
+(?:User unknown|Unknown user)
+^[^\\n`\\[\\]\\\\!<&*_'\"]+
+UA-XXXXXXX-XX
+ZONE:\\s+(([-+])(\\d{2})(\\d{2})\\s+(\\w+))
+\\G \\% $longopt
+^InstallationChecker: Unable to parse: .*package.json
+(.*)\\.class$
+\\n- 
+<property[^>]+ti\\.android\\.bug2373\\.finishfalseroot[^>]+>true<\\/property>
+\\\\?(?:\\[\\[([a-zA-Z:_][\\w:.-]*)(?:,[\\t ]*(\\S.*?))?\\]\\]|anchor:(\\S+)\\[(.*?[^\\\\])?\\])
+react\\/lib\\/(ReactContext|ExecutionEnvironment)
+mrna
+\\bq\\{(?:\\{[^}]*\\}|[^}])*\\}
+[^\\w\\\\-]
+__FILENAME__
+\\s*([-+*x/%^&|.]=?\r\n                    | [!=]~\r\n                    | =(?!>)\r\n                    | (\\*\\*|&&|\\|\\||<<|>>)=?\r\n                    | split|grep|map|return\r\n                    )
+Key \\((.+?)\\)=(\\(.+?)\\)
+^ret\\d+$
+\\s*end$
+^Item [0-9]+$
+^\\s*(0|f(alse|)|n(o|)|off)\\s*$
+\\(\\d{2}\\) \\d{4}-\\d{4}
+\\A (\\w+):: \\z
+\\\\{[^{}]+\\\\}
+^[(I|V)][(L|R|C|D)][(Y|N)][(S|N)][N]$
+rel=.*memento\"
+[\"<>;]
+[^0-9a-zA-Z-_]
+updated template 'RSpec-flow-file-template'
+(<\\/?)(?:html|head)\\b
+{{2}\\d+}{2}
+message_loop
+((?:[+-]?)(?=\\d|\\.\\d)\\d*(?:\\.\\d*)?(?:[Ee](?:[+-]?\\d+))?)
+\n         <span \\s class=\"category\"[^>]*>\n           country \\s comparison \\s to \\s the \\s world:\n         <\\/span>\n          \\s*\n         <span \\s class=\"category_data\"[^>]*>\n          \\s*\n            <a \\s [^>]+>\n             .+?\n            <\\/a>\n          \\s*\n         <\\/span>\n        
+[\\u0024\\u00a3]
+AR.js$
+Maybe I should get a real Gridinit account
+(?=(a+))\\1(?:)
+(^#D Name: )
+([^a-zA-Z_0-9]|^)(process)([^a-zA-Z_0-9])
+\\.(\\d).*
+from [0-9A-F]{16} 
+c_int_7.*limit: 7
+new_value
+-([0-9a-f]+)\\.\\w+$
+^I should have (\\d+) hidden fields$
+\\(\\W+\\)
+(?:\\?(?:[^&]*&)*([^&]*))?\\b(yui(?:-\\w+)?)\\/\\2(?:-(min|debug))?\\.js
+^I am on the test page$
+^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\\\\-]*[a-zA-Z0-9])\\\\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\\\\-]*[A-Za-z0-9])?$
+^([0-9]{3})([0-9]{4})$
+^\\s*\\(([^)]+)\\) \\[\\d+
+\\A(?:DLURLPATH)
+message\\.php.*index
+\\[ActiveJob\\].*\\[LoggingJob\\] \\[LOGGING-JOB-ID\\] Performing LoggingJob \\(Job ID: .*?\\) from .* with arguments: \"NestedJob\"
+foo(.{3})
+^[4]\\.\\d\\.\\d$
+^(\\d+):(.*)
+<(?:!--.*?--|(?:!|(\\/?[a-z][\\w:-]*))(?:[^>'\"]|\"[^\"]*\"|'[^']*')*)>|$
+^#!.+php
+\\A\\s*\\[\\[\\s*$imagere\\s*\\]\n                                    (\\[[^\\]\\[]+?\\])?\\]\\s*\\z
+^(.*) day(?:s)? (?:away)?\\s*(?:from now)?$
+<Key>(.*)<\\/Key>
+\\A\\/Root
+^vpc-[a-f0-9]+$
+^...+[\\$_]
+\\boauth_token=(\\w+)
+___${MARKER}_PRESERVED_TOKEN_([0-9]+)___
+^run@(.+)$
+[0-9]{1,2}-[ ]?[0-9]{1,2}-[0-9]{4}
+(?m)^\\\\s*Authentication Suites .*$
+Helvetica
+^$callingpkg\\:\\:
+(?<={)@(?P<name>[a-zA-Z]+)
+export is not implemented
+(www\\.|https?://)?[a-z0-9]+\\.[a-z0-9]{2,4}\\S*
+^set\\s+server\\s*output\\s+(on|off)$
+Cannot get status from director
+hello.world
+create_table \"widgets\", id: :bigint, unsigned: true, 
+setPhoneCallback
+(?:([\\w\\.\\$]+)|([\"'][^\"']+[\"']))\\s*[=]\\s*function\\s?\\(([^\\)]*)
+(.+?)
+Notes\\n\\s*Optional
+gem 'spring.*
+^([\\s\\d]{3}\\d)([\\s\\d]{4}\\d)?([\\s\\d]\\d)\\s(.*?)\\s*$
+^$grammar{$_}$
+[$allowed]
+uninitialized constant (LittlePlugger::)?Plugins
+$self->{custom_feed_handle}
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:(?:1e?|I)[\\s\\xa0]*Mak(?:kabee[e\\xEB]n)?|1Macc|(?:1e?|I)\\.[\\s\\xa0]*Mak(?:kabee[e\\xEB]n)?|Eerste[\\s\\xa0]*Mak(?:kabee[e\\xEB]n)?))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+^(https?|\\/\\/)
+^Locomotive::ContentEntry
+user has already been assigned that role
+invalid iv length
+CONTEST
+^x-bce-
+Attempted to wrap .* property .* as function
+\\{slug\\:[a-zA-z0-9\\_\\-\\/]*\\}
+\\\"__at__(.+?\\\"\\s*:)
+Unknown timeout type
+(?<_1>\\|)[^|]+(?<_2>\\|_{0,2})
+You must configure
+alternate|common|collapsed
+(?<![<>])(<V p=\"y\" t=\"gn\\x{e1}th\">[^<]+a\\x{ed}odh<\\/V> (?:<P[^>]*>t\\x{fa}<\\/P>))(?![<>])
+%(?:3[dD]|26)
+^weight_([0-9]+)$
+^(802.1Q Encapsulation Tag \\d+|VLAN \\d+|lo\\d+)
+[^0-9-\\s]+
+(?<![<>])(<N pl=\"n\" gnt=\"n\" gnd=\"m\">dh\\x{ed}leas<\\/N>)(?![<>])
+Ob\u00f6
+TGT-(.+)
+\\{macro main\\(\\)\\}my content\\{\\/macro\\}
+^TypeError: List.foldMap: Provided function must return Semigroups of the same type
+\\/lang
+^(.+)\\.s3\\.?(-external-1)?\\.amazonaws\\.com(\\.[a-z]+)?$
+['&]
+^QUIT(?:\\s+:?(.*))?$
+(jasmine[^\\/]*\\.js|Timer\\.listOnTimeout)
+\\A(\\d{1,3})
+setEmptyAssetPrefix
+^I shoud be able to click with the right button in this element$
+[\\x{0000}-\\x{001F}]
+^([\\w\\+\\.\\-]+:)(?:\\/\\/([^\\/?#:]*)(?::(\\d+)|)|)
+^\\s*karma\\s*(.+)$
+\\$l
+\\.\\s*(?![^()]*\\))
+SvrDrive
+<key>(.+)</key>
+Bio::Polloc::RuleSet::(\\S+)
+ixyze
+^</?(?:p|dl)>
+a{1,2147483648}
+invalid char.*'a'$
+function *_0x(?:[a-f0-9]){4,6} *\\((_0x(?:[a-f0-9]){4,6})\\)
+(?<![\\w\\.\\,])(\\d+)\\.$
+^I create a widget in one db using mongoid$
+\\w+\\s+(.*)
+^(.+\\/)seajs\\/[\\d\\.]+\\/$
+([A-Z]\\w+)\\/?$
+($_dbtype_name_regexp)
+^om(.)(.*)
+([^a-zA-Z0-9._\\\\-])
+^\n                                      OCRA-1:HOTP-SHA\n                                      (1|256|512)-\n                                      (\\d+):\n                                      (C-)?Q\n                                      (A|N|H)\\d+\n                                      (-PSHA(1|256|512))?\n                                      (-S(\\d+))?\n                                      (-T(\\d+)(S|H|M))?\n                                      $\n                                      
+^.*?\\d{3} (Message size exceeds fixed limit);.*$
+^[/^\\\\A]*(.*?)[/\\$\\?\\\\z]*$
+^[,:\\s]+
+note in css
+^  \"version\": \"[^\"]*\"
+colorgy/.+\\.(?:png|gif|jpg|eot|svg|ttf|woff|woff2)$
+(?:chrome|crios)\\/(\\d+)
+    it { is.expected_to ensure_length_of\\(:title\\).is_at_most\\(30\\) }
+\u5199\u771f
+(?<start>.*){{\\s*endforeach;\\s*}}(?<end>.*)
+\",
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:(?:[1I]\\.|[1I]|Kwanza)[\\s\\xa0]*Timotheo)|(?:Timotheo[\\s\\xa0]*I|1Tim|[1I][\\s\\xa0]*Tim|[1I]\\.[\\s\\xa0]*Tim|Kwanza[\\s\\xa0]*Tim|Barua[\\s\\xa0]*ya[\\s\\xa0]*Kwanza[\\s\\xa0]*kwa[\\s\\xa0]*Timotheo|Waraka[\\s\\xa0]*wa[\\s\\xa0]*Kwanza[\\s\\xa0]*kwa[\\s\\xa0]*Timotheo))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+Upgrading description '.*' failed:\\n.*\\nUpgrading description '.*' failed:\\n.*
+^rotate/(-?\\d+)/
+</?t[dr]>
+(?:([0-9a-f]+):)?(.*)
+(\\x9B|\\x1B\\[)([0-?]*[ -\\/]*[@-~])
+\\A(?:strike[_]?through_color)\\z
+#_CLASS_HPLOO_CMT_(\\d+)#
+best_search_engine_score\\[(\\d+)\\]
+^git@github.com:.*.git$
+Policy1300753700208
+^port=(\\w+)
+Broadway
+([\\w:-]+)
+smarterclayton-redis-
+;&#x
+\u00d7\u009c
+[^\\w\\s]+?
+dockerhub://
+<([\\w\\:]+)((?:[\\s\\w:=]|'[^']*'|\"[^\"]*\")*)(?:\\/>|>([\\d,]*)<\\/[^>]+>)
+^\\d{4}-\\d{2}-\\d{2}T\\d{2}\\:\\d{2}\\:\\d{2}Z$
+Windows (95|98|ME|XP|Vista|[\\d\\.]+)
+^I should not see a sortable table header with \"([^\"]*)\"$
+button\\ .*?type=\"submit\".*\\>\n                  
+^(rdoc|pkg|src|trinidad-libs|racklib)
+[\\W+\\+[!'+]]
+t\\.\\w+\\s+\"(\\w+)\"
+translation missing:
+\\(|,|\\)
+^\\  
+^Reviewed\\-.*: (.*)$
+acl=(?P<path>[^\"'*]+)
+Content-Disposition: attachment;
+\\s(tablet)[;\\/]
+(get|set|is|has)
+Serializer for json already registered
+(<S>[Aa]r<\\/S> <E[^>]*><N pl=\"n\" gnt=\"n\">[Ii]nn<\\/N><\\/E> <S>ar<\\/S> (?:<P[^>]*>ea<\\/P>))
+.\\/index\\.js
+\\A\\S+:\\s (.*?) \\s\\s
+api\\/ng\\/provider\\/\\$compileProvider
+http://api-public\\.netflix\\.com/users/
+git@github.com:([^/]+)/([^.]+).git
+KEEP_CALLER_REPLACE
+<\\/?p [^>]*>
+(.*)HTTP\\/\\d\\.\\d \\d\\d\\d[\\w\\s]*\\n
+^(?:CC-BY-NC-1.0)
+\\$[A-Z0-9]*
+TypeWithKT
+^(.+)\\bconst\\*$
+[}]\\s*$
+^  LS Type: ([\\w ()]+)$
+iPhone
+^<[a-zA-Z0-9$.]{2,128}@[a-zA-Z0-9\\-.]{2,63}>$
+^${ignore_case}\\Q$choice\\E$
+(Automatic Capacitor Pod dependencies, do not delete)[\\s\\S]*(#\u00a0Do not delete)
+Element|Node
+^ONE TOUCH ([^\\s]*)
+Gem .* received and indexed\\.
+ADD(\\d{2,3})(\\w+)(, ?)?(.*)$
+((?:\\\\.|[^=\\s]+)*)=(\"(?:\\\\.|[^\"\\\\]+)*\"|(?:\\\\.|[^\\s\"\\\\]+)*)
+\\AWebSocket\\z
+^:(\\d+): parser error : Input is not proper UTF-8, indicate encoding \\!
+[\\s\\w\\.\\']*
+(?:<[\\/A-DF-Z][^>]*>)+([Rr]ib\\x{ed})<\\/[A-DF-Z]> (?:<[\\/A-DF-Z][^>]*>)+(r\\x{f3}ib\\x{e9}is)<\\/[A-DF-Z]>
+^align[-_]?(\\w+)
+.+expected type Boolean\\[\\]
+^Hit 
+(?<=[Zz])ue(?=g | n[dfgs] | c[hk] | be[lr] | rn[^t] | ri?ch | bl)
+^https?://(www|maps|mapsengine)\\.google(\\.co|\\.com)?(\\.[a-z]+)?/.*?(\\?.+)
+\\n?</translate>
+^I check quota$
+contains 1 dirs
+stats\\s+socket \\s*([^\\s]*)
+Digit No. (\\d+).*input name=\"(.*?)\"
+el-table_[^\\s]+
+Another Statement
+CHANGED AS WELL
+http:.*?\\.gif
+^(adminer|editor)/(include/)?[-_.a-z0-9]+$
+M(\\W+)
+^\\s*[.;:,\\(\\)]
+;{2,}
+^(?:blib|_build|inc|Makefile(?:\\.old)?|pm_to_blib)\\z
+\\A(\\w+)\\/(\\w+)\\z
+^(?:([\\$\\w]+)|\\(([\\$\\w]+)\\s*,\\s*([\\$\\w]+)\\))$
+an error containing \"(.+)\" is raised
+(lys|xis|bas|ris|ips|thes|uros|oas|ys|ops)es$
+Class (.+) does not exist
+(^palau|^PW$)
+^(\\#+\\s+)
+^$MULTI_PRE_OPEN_RE[ \\t]*[rR][aA][wW]$(.*?)^$MULTI_PRE_CLOSE_RE$
+(\\d+ is .*an .* number|console\\..*? exists)
+Array supports \\[\\] with one or two arguments\\. Got 0
+([0-9]{4})(-?([0-9]{2})(-?([0-9]{2})(T([0-9]{2}):([0-9]{2})(:([0-9]{2})(\\.([0-9]+))?)?(Z|(([-+])([0-9]{2}):([0-9]{2})))?)?)?)?
+_dcgcr_(?:[0-9]+_)*token
+#\\s+!SLIDE[^\\n]*\\n\\s*#\\s*([^\\n]+)
+delete template 'RSpec-test-template'
+^\\[0*m$
+^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[0-1]|0[1-9]|[1-2][0-9])(T(2[0-3]|[0-1][0-9]):([0-5][0-9]):([0-5][0-9])(\\.[0-9]+)?(Z|[+-](?:2[0-3]|[0-1][0-9]):[0-5][0-9])?)?$
+[0-9a-z]{4}
+\\G([^$glob_class\\\\']+)
+([\\w\\W]+?)=([\\w\\W]*})[\\w\\W]*?$
+EEEE*
+^cdxj?\\+(?P<url>https?\\:.*)
+\\.PL
+\\QT5.6-009
+[\t ]+\r\n
+\\bthey'?ve\\b
+^\\d+\\.\\d*[eE][+-]?[0-9]+$
+lib/ladle/default.ldif$
+^\\.1\\.3\\.6\\.1\\.4\\.1\\.318\\.1\\.1\\.1\\.1\\.1\\.1\\.0 = STRING:\\s(.*)
+((?:\\ud83d\\udc69\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc69|\\ud83d\\udc68\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc8b\\u200d\\ud83d\\udc68|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc67\\u200d\\ud83d\\udc67|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d\\udc67|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc67\\u200d\\ud83d\\udc66|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d\\udc67|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc66\\u200d\\ud83d\\udc66|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc68|\\ud83d\\udc69\\u200d\\u2764\\ufe0f\\u200d\\ud83d\\udc69|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc66|\\ud83d\\udc68\\u200d\\ud83d\\udc68\\u200d\\ud83d\\udc67|\\ud83d\\udc69\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67|\\ud83d\\udc68\\u200d\\ud83d\\udc69\\u200d\\ud83d\\udc67|\\ud83c\\uddf7\\ud83c\\uddf8|\\ud83d\\udd95\\ud83c\\udffd|\\ud83d\\udd95\\ud83c\\udffc|\\ud83d\\udd95\\ud83c\\udffb|\\ud83d\\udd90\\ud83c\\udfff|\\ud83d\\udd90\\ud83c\\udffe|\\ud83d\\udd90\\ud83c\\udffd|\\ud83d\\udd90\\ud83c\\udffc|\\ud83d\\udd90\\ud83c\\udffb|\\ud83d\\udcaa\\ud83c\\udfff|\\ud83d\\udcaa\\ud83c\\udffe|\\ud83d\\udcaa\\ud83c\\udffd|\\ud83d\\udcaa\\ud83c\\udffc|\\ud83d\\udcaa\\ud83c\\udffb|\\ud83d\\udc87\\ud83c\\udfff|\\ud83d\\udc87\\ud83c\\udffe|\\ud83d\\udc87\\ud83c\\udffd|\\ud83d\\udc87\\ud83c\\udffc|\\ud83d\\udc87\\ud83c\\udffb|\\ud83d\\udc86\\ud83c\\udfff|\\ud83d\\udc86\\ud83c\\udffe|\\ud83d\\udc86\\ud83c\\udffd|\\ud83e\\udd18\\ud83c\\udfff|\\ud83e\\udd18\\ud83c\\udffe|\\ud83e\\udd18\\ud83c\\udffd|\\ud83e\\udd18\\ud83c\\udffc|\\ud83e\\udd18\\ud83c\\udffb|\\ud83d\\udec0\\ud83c\\udfff|\\ud83d\\udec0\\ud83c\\udffe|\\ud83d\\udec0\\ud83c\\udffd|\\ud83d\\udec0\\ud83c\\udffc|\\ud83d\\udec0\\ud83c\\udffb|\\ud83d\\udeb6\\ud83c\\udfff|\\ud83d\\udeb6\\ud83c\\udffe|\\ud83d\\udeb6\\ud83c\\udffd|\\ud83d\\udeb6\\ud83c\\udffc|\\ud83d\\udeb6\\ud83c\\udffb|\\ud83d\\udeb5\\ud83c\\udfff|\\ud83d\\udeb5\\ud83c\\udffe|\\ud83d\\udeb5\\ud83c\\udffd|\\ud83d\\udeb5\\ud83c\\udffc|\\ud83d\\udeb5\\ud83c\\udffb|\\ud83d\\udeb4\\ud83c\\udfff|\\ud83d\\udeb4\\ud83c\\udffe|\\ud83d\\udeb4\\ud83c\\udffd|\\ud83d\\udeb4\\ud83c\\udffc|\\ud83d\\udeb4\\ud83c\\udffb|\\ud83d\\udea3\\ud83c\\udfff|\\ud83d\\udea3\\ud83c\\udffe|\\ud83d\\udea3\\ud83c\\udffd|\\ud83d\\udea3\\ud83c\\udffc|\\ud83d\\udea3\\ud83c\\udffb|\\ud83d\\ude4f\\ud83c\\udfff|\\ud83d\\ude4f\\ud83c\\udffe|\\ud83d\\ude4f\\ud83c\\udffd|\\ud83d\\ude4f\\ud83c\\udffc|\\ud83d\\ude4f\\ud83c\\udffb|\\ud83d\\ude4e\\ud83c\\udfff|\\ud83d\\ude4e\\ud83c\\udffe|\\ud83d\\ude4e\\ud83c\\udffd|\\ud83d\\ude4e\\ud83c\\udffc|\\ud83d\\ude4e\\ud83c\\udffb|\\ud83d\\ude4d\\ud83c\\udfff|\\ud83d\\ude4d\\ud83c\\udffe|\\ud83d\\ude4d\\ud83c\\udffd|\\ud83d\\ude4d\\ud83c\\udffc|\\ud83d\\ude4d\\ud83c\\udffb|\\ud83d\\ude4c\\ud83c\\udfff|\\ud83d\\ude4c\\ud83c\\udffe|\\ud83d\\ude4c\\ud83c\\udffd|\\ud83d\\ude4c\\ud83c\\udffc|\\ud83d\\ude4c\\ud83c\\udffb|\\ud83d\\ude4b\\ud83c\\udfff|\\ud83d\\ude4b\\ud83c\\udffe|\\ud83d\\ude4b\\ud83c\\udffd|\\ud83d\\ude4b\\ud83c\\udffc|\\ud83d\\ude4b\\ud83c\\udffb|\\ud83d\\ude47\\ud83c\\udfff|\\ud83d\\ude47\\ud83c\\udffe|\\ud83c\\udde8\\ud83c\\uddf3|\\ud83c\\udde9\\ud83c\\uddea|\\ud83c\\uddea\\ud83c\\uddf8|\\ud83c\\uddeb\\ud83c\\uddf7|\\ud83c\\uddec\\ud83c\\udde7|\\ud83c\\uddee\\ud83c\\uddf9|\\ud83c\\uddef\\ud83c\\uddf5|\\ud83c\\uddf0\\ud83c\\uddf7|\\ud83c\\uddf7\\ud83c\\uddfa|\\ud83c\\uddfa\\ud83c\\uddf8|\\ud83d\\udc86\\ud83c\\udffc|\\ud83d\\ude47\\ud83c\\udffd|\\ud83d\\ude47\\ud83c\\udffc|\\ud83d\\udc86\\ud83c\\udffb|\\ud83d\\udc85\\ud83c\\udfff|\\ud83d\\udc85\\ud83c\\udffe|\\ud83d\\udc85\\ud83c\\udffd|\\ud83d\\udc85\\ud83c\\udffc|\\ud83d\\udc85\\ud83c\\udffb|\\ud83d\\udc83\\ud83c\\udfff|\\ud83d\\udc83\\ud83c\\udffe|\\ud83d\\udc83\\ud83c\\udffd|\\ud83d\\udc83\\ud83c\\udffc|\\ud83d\\udc83\\ud83c\\udffb|\\ud83d\\udc82\\ud83c\\udfff|\\ud83c\\udde6\\ud83c\\udde8|\\ud83c\\udde6\\ud83c\\udde9|\\ud83c\\udde6\\ud83c\\uddea|\\ud83c\\udde6\\ud83c\\uddeb|\\ud83c\\udde6\\ud83c\\uddec|\\ud83c\\udde6\\ud83c\\uddee|\\ud83c\\udde6\\ud83c\\uddf1|\\ud83c\\udde6\\ud83c\\uddf2|\\ud83c\\udde6\\ud83c\\uddf4|\\ud83c\\udde6\\ud83c\\uddf6|\\ud83c\\udde6\\ud83c\\uddf7|\\ud83c\\udde6\\ud83c\\uddf8|\\ud83c\\udde6\\ud83c\\uddf9|\\ud83c\\udde6\\ud83c\\uddfa|\\ud83c\\udde6\\ud83c\\uddfc|\\ud83c\\udde6\\ud83c\\uddfd|\\ud83c\\udde6\\ud83c\\uddff|\\ud83c\\udde7\\ud83c\\udde6|\\ud83c\\udde7\\ud83c\\udde7|\\ud83c\\udde7\\ud83c\\udde9|\\ud83c\\udde7\\ud83c\\uddea|\\ud83c\\udde7\\ud83c\\uddeb|\\ud83c\\udde7\\ud83c\\uddec|\\ud83c\\udde7\\ud83c\\udded|\\ud83c\\udde7\\ud83c\\uddee|\\ud83c\\udde7\\ud83c\\uddef|\\ud83c\\udde7\\ud83c\\uddf1|\\ud83c\\udde7\\ud83c\\uddf2|\\ud83c\\udde7\\ud83c\\uddf3|\\ud83c\\udde7\\ud83c\\uddf4|\\ud83c\\udde7\\ud83c\\uddf6|\\ud83c\\udde7\\ud83c\\uddf7|\\ud83c\\udde7\\ud83c\\uddf8|\\ud83c\\udde7\\ud83c\\uddf9|\\ud83c\\udde7\\ud83c\\uddfb|\\ud83c\\udde7\\ud83c\\uddfc|\\ud83c\\udde7\\ud83c\\uddfe|\\ud83c\\udde7\\ud83c\\uddff|\\ud83c\\udde8\\ud83c\\udde6|\\ud83c\\udde8\\ud83c\\udde8|\\ud83c\\udde8\\ud83c\\udde9|\\ud83c\\udde8\\ud83c\\uddeb|\\ud83c\\udde8\\ud83c\\uddec|\\ud83c\\udde8\\ud83c\\udded|\\ud83c\\udde8\\ud83c\\uddee|\\ud83c\\udde8\\ud83c\\uddf0|\\ud83c\\udde8\\ud83c\\uddf1|\\ud83c\\udde8\\ud83c\\uddf2|\\ud83c\\udde8\\ud83c\\uddf4|\\ud83c\\udde8\\ud83c\\uddf5|\\ud83c\\udde8\\ud83c\\uddf7|\\ud83c\\udde8\\ud83c\\uddfa|\\ud83c\\udde8\\ud83c\\uddfb|\\ud83c\\udde8\\ud83c\\uddfc|\\ud83c\\udde8\\ud83c\\uddfd|\\ud83c\\udde8\\ud83c\\uddfe|\\ud83c\\udde8\\ud83c\\uddff|\\ud83c\\udde9\\ud83c\\uddec|\\ud83c\\udde9\\ud83c\\uddef|\\ud83c\\udde9\\ud83c\\uddf0|\\ud83c\\udde9\\ud83c\\uddf2|\\ud83c\\udde9\\ud83c\\uddf4|\\ud83c\\udde9\\ud83c\\uddff|\\ud83c\\uddea\\ud83c\\udde6|\\ud83c\\uddea\\ud83c\\udde8|\\ud83c\\uddea\\ud83c\\uddea|\\ud83c\\uddea\\ud83c\\uddec|\\ud83c\\uddea\\ud83c\\udded|\\ud83c\\uddea\\ud83c\\uddf7|\\ud83c\\uddea\\ud83c\\uddf9|\\ud83c\\uddea\\ud83c\\uddfa|\\ud83c\\uddeb\\ud83c\\uddee|\\ud83c\\uddeb\\ud83c\\uddef|\\ud83c\\uddeb\\ud83c\\uddf0|\\ud83c\\uddeb\\ud83c\\uddf2|\\ud83c\\uddeb\\ud83c\\uddf4|\\ud83c\\uddec\\ud83c\\udde6|\\ud83c\\uddec\\ud83c\\udde9|\\ud83c\\uddec\\ud83c\\uddea|\\ud83c\\uddec\\ud83c\\uddeb|\\ud83c\\uddec\\ud83c\\uddec|\\ud83c\\uddec\\ud83c\\udded|\\ud83c\\uddec\\ud83c\\uddee|\\ud83c\\uddec\\ud83c\\uddf1|\\ud83c\\uddec\\ud83c\\uddf2|\\ud83c\\uddec\\ud83c\\uddf3|\\ud83c\\uddec\\ud83c\\uddf5|\\ud83c\\uddec\\ud83c\\uddf6|\\ud83c\\uddec\\ud83c\\uddf7|\\ud83c\\uddec\\ud83c\\uddf8|\\ud83c\\uddec\\ud83c\\uddf9|\\ud83c\\uddec\\ud83c\\uddfa|\\ud83c\\uddec\\ud83c\\uddfc|\\ud83c\\uddec\\ud83c\\uddfe|\\ud83c\\udded\\ud83c\\uddf0|\\ud83c\\udded\\ud83c\\uddf2|\\ud83c\\udded\\ud83c\\uddf3|\\ud83c\\udded\\ud83c\\uddf7|\\ud83c\\udded\\ud83c\\uddf9|\\ud83c\\udded\\ud83c\\uddfa|\\ud83c\\uddee\\ud83c\\udde8|\\ud83c\\uddee\\ud83c\\udde9|\\ud83c\\uddee\\ud83c\\uddea|\\ud83c\\uddee\\ud83c\\uddf1|\\ud83c\\uddee\\ud83c\\uddf2|\\ud83c\\uddee\\ud83c\\uddf3|\\ud83c\\uddee\\ud83c\\uddf4|\\ud83c\\uddee\\ud83c\\uddf6|\\ud83c\\uddee\\ud83c\\uddf7|\\ud83c\\uddee\\ud83c\\uddf8|\\ud83c\\uddef\\ud83c\\uddea|\\ud83c\\uddef\\ud83c\\uddf2|\\ud83c\\uddef\\ud83c\\uddf4|\\ud83c\\uddf0\\ud83c\\uddea|\\ud83c\\uddf0\\ud83c\\uddec|\\ud83c\\uddf0\\ud83c\\udded|\\ud83c\\uddf0\\ud83c\\uddee|\\ud83c\\uddf0\\ud83c\\uddf2|\\ud83c\\uddf0\\ud83c\\uddf3|\\ud83c\\uddf0\\ud83c\\uddf5|\\ud83c\\uddf0\\ud83c\\uddfc|\\ud83c\\uddf0\\ud83c\\uddfe|\\ud83c\\uddf0\\ud83c\\uddff|\\ud83c\\uddf1\\ud83c\\udde6|\\ud83c\\uddf1\\ud83c\\udde7|\\ud83c\\uddf1\\ud83c\\udde8|\\ud83c\\uddf1\\ud83c\\uddee|\\ud83c\\uddf1\\ud83c\\uddf0|\\ud83c\\uddf1\\ud83c\\uddf7|\\ud83c\\uddf1\\ud83c\\uddf8|\\ud83c\\uddf1\\ud83c\\uddf9|\\ud83c\\uddf1\\ud83c\\uddfa|\\ud83c\\uddf1\\ud83c\\uddfb|\\ud83c\\uddf1\\ud83c\\uddfe|\\ud83c\\uddf2\\ud83c\\udde6|\\ud83c\\uddf2\\ud83c\\udde8|\\ud83c\\uddf2\\ud83c\\udde9|\\ud83c\\uddf2\\ud83c\\uddea|\\ud83c\\uddf2\\ud83c\\uddeb|\\ud83c\\uddf2\\ud83c\\uddec|\\ud83c\\uddf2\\ud83c\\udded|\\ud83c\\uddf2\\ud83c\\uddf0|\\ud83c\\uddf2\\ud83c\\uddf1|\\ud83c\\uddf2\\ud83c\\uddf2|\\ud83c\\uddf2\\ud83c\\uddf3|\\ud83c\\uddf2\\ud83c\\uddf4|\\ud83c\\uddf2\\ud83c\\uddf5|\\ud83c\\uddf2\\ud83c\\uddf6|\\ud83c\\uddf2\\ud83c\\uddf7|\\ud83c\\uddf2\\ud83c\\uddf8|\\ud83c\\uddf2\\ud83c\\uddf9|\\ud83c\\uddf2\\ud83c\\uddfa|\\ud83c\\uddf2\\ud83c\\uddfb|\\ud83c\\uddf2\\ud83c\\uddfc|\\ud83c\\uddf2\\ud83c\\uddfd|\\ud83c\\uddf2\\ud83c\\uddfe|\\ud83c\\uddf2\\ud83c\\uddff|\\ud83c\\uddf3\\ud83c\\udde6|\\ud83c\\uddf3\\ud83c\\udde8|\\ud83c\\uddf3\\ud83c\\uddea|\\ud83c\\uddf3\\ud83c\\uddeb|\\ud83c\\uddf3\\ud83c\\uddec|\\ud83c\\uddf3\\ud83c\\uddee|\\ud83c\\uddf3\\ud83c\\uddf1|\\ud83c\\uddf3\\ud83c\\uddf4|\\ud83c\\uddf3\\ud83c\\uddf5|\\ud83c\\uddf3\\ud83c\\uddf7|\\ud83c\\uddf3\\ud83c\\uddfa|\\ud83c\\uddf3\\ud83c\\uddff|\\ud83c\\uddf4\\ud83c\\uddf2|\\ud83c\\uddf5\\ud83c\\udde6|\\ud83c\\uddf5\\ud83c\\uddea|\\ud83c\\uddf5\\ud83c\\uddeb|\\ud83c\\uddf5\\ud83c\\uddec|\\ud83c\\uddf5\\ud83c\\udded|\\ud83c\\uddf5\\ud83c\\uddf0|\\ud83c\\uddf5\\ud83c\\uddf1|\\ud83c\\uddf5\\ud83c\\uddf2|\\ud83c\\uddf5\\ud83c\\uddf3|\\ud83c\\uddf5\\ud83c\\uddf7|\\ud83c\\uddf5\\ud83c\\uddf8|\\ud83c\\uddf5\\ud83c\\uddf9|\\ud83c\\uddf5\\ud83c\\uddfc|\\ud83c\\uddf5\\ud83c\\uddfe|\\ud83c\\uddf6\\ud83c\\udde6|\\ud83c\\uddf7\\ud83c\\uddea|\\ud83c\\uddf7\\ud83c\\uddf4|\\ud83d\\udc82\\ud83c\\udffe|\\ud83c\\uddf7\\ud83c\\uddfc|\\ud83c\\uddf8\\ud83c\\udde6|\\ud83c\\uddf8\\ud83c\\udde7|\\ud83c\\uddf8\\ud83c\\udde8|\\ud83c\\uddf8\\ud83c\\udde9|\\ud83c\\uddf8\\ud83c\\uddea|\\ud83c\\uddf8\\ud83c\\uddec|\\ud83c\\uddf8\\ud83c\\udded|\\ud83c\\uddf8\\ud83c\\uddee|\\ud83c\\uddf8\\ud83c\\uddef|\\ud83c\\uddf8\\ud83c\\uddf0|\\ud83c\\uddf8\\ud83c\\uddf1|\\ud83c\\uddf8\\ud83c\\uddf2|\\ud83c\\uddf8\\ud83c\\uddf3|\\ud83c\\uddf8\\ud83c\\uddf4|\\ud83c\\uddf8\\ud83c\\uddf7|\\ud83c\\uddf8\\ud83c\\uddf8|\\ud83c\\uddf8\\ud83c\\uddf9|\\ud83c\\uddf8\\ud83c\\uddfb|\\ud83c\\uddf8\\ud83c\\uddfd|\\ud83c\\uddf8\\ud83c\\uddfe|\\ud83c\\uddf8\\ud83c\\uddff|\\ud83c\\uddf9\\ud83c\\udde6|\\ud83c\\uddf9\\ud83c\\udde8|\\ud83c\\uddf9\\ud83c\\udde9|\\ud83c\\uddf9\\ud83c\\uddeb|\\ud83c\\uddf9\\ud83c\\uddec|\\ud83c\\uddf9\\ud83c\\udded|\\ud83c\\uddf9\\ud83c\\uddef|\\ud83c\\uddf9\\ud83c\\uddf0|\\ud83c\\uddf9\\ud83c\\uddf1|\\ud83c\\uddf9\\ud83c\\uddf2|\\ud83c\\uddf9\\ud83c\\uddf3|\\ud83c\\uddf9\\ud83c\\uddf4|\\ud83c\\uddf9\\ud83c\\uddf7|\\ud83c\\uddf9\\ud83c\\uddf9|\\ud83c\\uddf9\\ud83c\\uddfb|\\ud83c\\uddf9\\ud83c\\uddfc|\\ud83c\\uddf9\\ud83c\\uddff|\\ud83c\\uddfa\\ud83c\\udde6|\\ud83c\\uddfa\\ud83c\\uddec|\\ud83c\\uddfa\\ud83c\\uddf2|\\ud83c\\uddfa\\ud83c\\uddfe|\\ud83c\\uddfa\\ud83c\\uddff|\\ud83c\\uddfb\\ud83c\\udde6|\\ud83c\\uddfb\\ud83c\\udde8|\\ud83c\\uddfb\\ud83c\\uddea|\\ud83c\\uddfb\\ud83c\\uddec|\\ud83c\\uddfb\\ud83c\\uddee|\\ud83c\\uddfb\\ud83c\\uddf3|\\ud83c\\uddfb\\ud83c\\uddfa|\\ud83c\\uddfc\\ud83c\\uddeb|\\ud83c\\uddfc\\ud83c\\uddf8|\\ud83c\\uddfd\\ud83c\\uddf0|\\ud83c\\uddfe\\ud83c\\uddea|\\ud83c\\uddfe\\ud83c\\uddf9|\\ud83c\\uddff\\ud83c\\udde6|\\ud83c\\uddff\\ud83c\\uddf2|\\ud83c\\uddff\\ud83c\\uddfc|\\ud83c\\udf85\\ud83c\\udffb|\\ud83c\\udf85\\ud83c\\udffc|\\ud83c\\udf85\\ud83c\\udffd|\\ud83c\\udf85\\ud83c\\udffe|\\ud83c\\udf85\\ud83c\\udfff|\\ud83c\\udfc3\\ud83c\\udffb|\\ud83c\\udfc3\\ud83c\\udffc|\\ud83c\\udfc3\\ud83c\\udffd|\\ud83c\\udfc3\\ud83c\\udffe|\\ud83c\\udfc3\\ud83c\\udfff|\\ud83c\\udfc4\\ud83c\\udffb|\\ud83c\\udfc4\\ud83c\\udffc|\\ud83c\\udfc4\\ud83c\\udffd|\\ud83c\\udfc4\\ud83c\\udffe|\\ud83c\\udfc4\\ud83c\\udfff|\\ud83c\\udfc7\\ud83c\\udffb|\\ud83c\\udfc7\\ud83c\\udffc|\\ud83c\\udfc7\\ud83c\\udffd|\\ud83c\\udfc7\\ud83c\\udffe|\\ud83c\\udfc7\\ud83c\\udfff|\\ud83c\\udfca\\ud83c\\udffb|\\ud83c\\udfca\\ud83c\\udffc|\\ud83c\\udfca\\ud83c\\udffd|\\ud83c\\udfca\\ud83c\\udffe|\\ud83c\\udfca\\ud83c\\udfff|\\ud83c\\udfcb\\ud83c\\udffb|\\ud83c\\udfcb\\ud83c\\udffc|\\ud83c\\udfcb\\ud83c\\udffd|\\ud83c\\udfcb\\ud83c\\udffe|\\ud83c\\udfcb\\ud83c\\udfff|\\ud83d\\udc42\\ud83c\\udffb|\\ud83d\\udc42\\ud83c\\udffc|\\ud83d\\udc42\\ud83c\\udffd|\\ud83d\\udc42\\ud83c\\udffe|\\ud83d\\udc42\\ud83c\\udfff|\\ud83d\\udc43\\ud83c\\udffb|\\ud83d\\udc43\\ud83c\\udffc|\\ud83d\\udc43\\ud83c\\udffd|\\ud83d\\udc43\\ud83c\\udffe|\\ud83d\\udc43\\ud83c\\udfff|\\ud83d\\udc46\\ud83c\\udffb|\\ud83d\\udc46\\ud83c\\udffc|\\ud83d\\udc46\\ud83c\\udffd|\\ud83d\\udc46\\ud83c\\udffe|\\ud83d\\udc46\\ud83c\\udfff|\\ud83d\\udc47\\ud83c\\udffb|\\ud83d\\udc47\\ud83c\\udffc|\\ud83d\\udc47\\ud83c\\udffd|\\ud83d\\udc47\\ud83c\\udffe|\\ud83d\\udc47\\ud83c\\udfff|\\ud83d\\udc48\\ud83c\\udffb|\\ud83d\\udc48\\ud83c\\udffc|\\ud83d\\udc48\\ud83c\\udffd|\\ud83d\\udc48\\ud83c\\udffe|\\ud83d\\udc48\\ud83c\\udfff|\\ud83d\\udc49\\ud83c\\udffb|\\ud83d\\udc49\\ud83c\\udffc|\\ud83d\\udc49\\ud83c\\udffd|\\ud83d\\udc49\\ud83c\\udffe|\\ud83d\\udc49\\ud83c\\udfff|\\ud83d\\udc4a\\ud83c\\udffb|\\ud83d\\udc4a\\ud83c\\udffc|\\ud83d\\udc4a\\ud83c\\udffd|\\ud83d\\udc4a\\ud83c\\udffe|\\ud83d\\udc4a\\ud83c\\udfff|\\ud83d\\udc4b\\ud83c\\udffb|\\ud83d\\udc4b\\ud83c\\udffc|\\ud83d\\udc4b\\ud83c\\udffd|\\ud83d\\udc4b\\ud83c\\udffe|\\ud83d\\udc4b\\ud83c\\udfff|\\ud83d\\udc4c\\ud83c\\udffb|\\ud83d\\udc4c\\ud83c\\udffc|\\ud83d\\udc4c\\ud83c\\udffd|\\ud83d\\udc4c\\ud83c\\udffe|\\ud83d\\udc4c\\ud83c\\udfff|\\ud83d\\udc4d\\ud83c\\udffb|\\ud83d\\udc4d\\ud83c\\udffc|\\ud83d\\udc4d\\ud83c\\udffd|\\ud83d\\udc4d\\ud83c\\udffe|\\ud83d\\udc4d\\ud83c\\udfff|\\ud83d\\udc4e\\ud83c\\udffb|\\ud83d\\udc4e\\ud83c\\udffc|\\ud83d\\udc4e\\ud83c\\udffd|\\ud83d\\udc4e\\ud83c\\udffe|\\ud83d\\udc4e\\ud83c\\udfff|\\ud83d\\udc4f\\ud83c\\udffb|\\ud83d\\udc4f\\ud83c\\udffc|\\ud83d\\udc4f\\ud83c\\udffd|\\ud83d\\udc4f\\ud83c\\udffe|\\ud83d\\udc4f\\ud83c\\udfff|\\ud83d\\udc50\\ud83c\\udffb|\\ud83d\\udc50\\ud83c\\udffc|\\ud83d\\udc50\\ud83c\\udffd|\\ud83d\\udc50\\ud83c\\udffe|\\ud83d\\udc50\\ud83c\\udfff|\\ud83d\\udc66\\ud83c\\udffb|\\ud83d\\udc66\\ud83c\\udffc|\\ud83d\\udc66\\ud83c\\udffd|\\ud83d\\udc66\\ud83c\\udffe|\\ud83d\\udc66\\ud83c\\udfff|\\ud83d\\udc67\\ud83c\\udffb|\\ud83d\\udc67\\ud83c\\udffc|\\ud83d\\udc67\\ud83c\\udffd|\\ud83d\\udc67\\ud83c\\udffe|\\ud83d\\udc67\\ud83c\\udfff|\\ud83d\\udc68\\ud83c\\udffb|\\ud83d\\udc68\\ud83c\\udffc|\\ud83d\\udc68\\ud83c\\udffd|\\ud83d\\udc68\\ud83c\\udffe|\\ud83d\\udc68\\ud83c\\udfff|\\ud83d\\ude47\\ud83c\\udffb|\\ud83d\\ude46\\ud83c\\udfff|\\ud83d\\ude46\\ud83c\\udffe|\\ud83d\\ude46\\ud83c\\udffd|\\ud83d\\ude46\\ud83c\\udffc|\\ud83d\\ude46\\ud83c\\udffb|\\ud83d\\ude45\\ud83c\\udfff|\\ud83d\\ude45\\ud83c\\udffe|\\ud83d\\ude45\\ud83c\\udffd|\\ud83d\\ude45\\ud83c\\udffc|\\ud83d\\ude45\\ud83c\\udffb|\\ud83d\\udc69\\ud83c\\udffb|\\ud83d\\udc69\\ud83c\\udffc|\\ud83d\\udc69\\ud83c\\udffd|\\ud83d\\udc69\\ud83c\\udffe|\\ud83d\\udc69\\ud83c\\udfff|\\ud83d\\udd96\\ud83c\\udfff|\\ud83d\\udd96\\ud83c\\udffe|\\ud83d\\udd96\\ud83c\\udffd|\\ud83d\\udd96\\ud83c\\udffc|\\ud83d\\udd96\\ud83c\\udffb|\\ud83d\\udd95\\ud83c\\udfff|\\ud83d\\udd95\\ud83c\\udffe|\\ud83d\\udc6e\\ud83c\\udffb|\\ud83d\\udc6e\\ud83c\\udffc|\\ud83d\\udc6e\\ud83c\\udffd|\\ud83d\\udc6e\\ud83c\\udffe|\\ud83d\\udc6e\\ud83c\\udfff|\\ud83d\\udc70\\ud83c\\udffb|\\ud83d\\udc70\\ud83c\\udffc|\\ud83d\\udc70\\ud83c\\udffd|\\ud83d\\udc70\\ud83c\\udffe|\\ud83d\\udc70\\ud83c\\udfff|\\ud83d\\udc71\\ud83c\\udffb|\\ud83d\\udc71\\ud83c\\udffc|\\ud83d\\udc71\\ud83c\\udffd|\\ud83d\\udc71\\ud83c\\udffe|\\ud83d\\udc71\\ud83c\\udfff|\\ud83d\\udc72\\ud83c\\udffb|\\ud83d\\udc72\\ud83c\\udffc|\\ud83d\\udc72\\ud83c\\udffd|\\ud83d\\udc72\\ud83c\\udffe|\\ud83d\\udc72\\ud83c\\udfff|\\ud83d\\udc73\\ud83c\\udffb|\\ud83d\\udc73\\ud83c\\udffc|\\ud83d\\udc73\\ud83c\\udffd|\\ud83d\\udc73\\ud83c\\udffe|\\ud83d\\udc73\\ud83c\\udfff|\\ud83d\\udc74\\ud83c\\udffb|\\ud83d\\udc74\\ud83c\\udffc|\\ud83d\\udc74\\ud83c\\udffd|\\ud83d\\udc74\\ud83c\\udffe|\\ud83d\\udc74\\ud83c\\udfff|\\ud83d\\udc75\\ud83c\\udffb|\\ud83d\\udc75\\ud83c\\udffc|\\ud83d\\udc75\\ud83c\\udffd|\\ud83d\\udc75\\ud83c\\udffe|\\ud83d\\udc75\\ud83c\\udfff|\\ud83d\\udc76\\ud83c\\udffb|\\ud83d\\udc76\\ud83c\\udffc|\\ud83d\\udc76\\ud83c\\udffd|\\ud83d\\udc76\\ud83c\\udffe|\\ud83d\\udc76\\ud83c\\udfff|\\ud83d\\udc77\\ud83c\\udffb|\\ud83d\\udc77\\ud83c\\udffc|\\ud83d\\udc77\\ud83c\\udffd|\\ud83d\\udc77\\ud83c\\udffe|\\ud83d\\udc77\\ud83c\\udfff|\\ud83d\\udc78\\ud83c\\udffb|\\ud83d\\udc78\\ud83c\\udffc|\\ud83d\\udc78\\ud83c\\udffd|\\ud83d\\udc78\\ud83c\\udffe|\\ud83d\\udc78\\ud83c\\udfff|\\ud83d\\udc7c\\ud83c\\udffb|\\ud83d\\udc7c\\ud83c\\udffc|\\ud83d\\udc7c\\ud83c\\udffd|\\ud83d\\udc7c\\ud83c\\udffe|\\ud83d\\udc7c\\ud83c\\udfff|\\ud83d\\udc81\\ud83c\\udffb|\\ud83d\\udc81\\ud83c\\udffc|\\ud83d\\udc81\\ud83c\\udffd|\\ud83d\\udc81\\ud83c\\udffe|\\ud83d\\udc81\\ud83c\\udfff|\\ud83d\\udc82\\ud83c\\udffb|\\ud83d\\udc82\\ud83c\\udffc|\\ud83d\\udc82\\ud83c\\udffd|\\u270a\\ud83c\\udffd|\\u270b\\ud83c\\udffd|\\u270d\\ud83c\\udffe|\\u270d\\ud83c\\udffd|\\u270d\\ud83c\\udffc|\\u270d\\ud83c\\udffb|\\u270c\\ud83c\\udfff|\\u270c\\ud83c\\udffe|\\u270c\\ud83c\\udffd|\\u270c\\ud83c\\udffc|\\u270c\\ud83c\\udffb|\\u270b\\ud83c\\udfff|\\u270b\\ud83c\\udffc|\\u270b\\ud83c\\udffb|\\u270a\\ud83c\\udfff|\\u270d\\ud83c\\udfff|\\u270a\\ud83c\\udffe|\\u270b\\ud83c\\udffe|\\u270a\\ud83c\\udffc|\\u270a\\ud83c\\udffb|\\u261d\\ud83c\\udfff|\\u261d\\ud83c\\udffd|\\u261d\\ud83c\\udffc|\\u261d\\ud83c\\udffb|\\u261d\\ud83c\\udffe|\\u26f9\\ud83c\\udffe|\\u26f9\\ud83c\\udfff|\\u26f9\\ud83c\\udffd|\\u26f9\\ud83c\\udffc|\\u26f9\\ud83c\\udffb|\\u0039\\ufe0f?\\u20e3|\\u0038\\ufe0f?\\u20e3|\\u0037\\ufe0f?\\u20e3|\\u0036\\ufe0f?\\u20e3|\\u0035\\ufe0f?\\u20e3|\\u0034\\ufe0f?\\u20e3|\\u0033\\ufe0f?\\u20e3|\\u0032\\ufe0f?\\u20e3|\\u0031\\ufe0f?\\u20e3|\\u0030\\ufe0f?\\u20e3|\\u0023\\ufe0f?\\u20e3|\\u002a\\u20e3|\\u0039\\ufe0f?\\u20e3|\\u0038\\ufe0f?\\u20e3|\\u0037\\ufe0f?\\u20e3|\\u0036\\ufe0f?\\u20e3|\\u0035\\ufe0f?\\u20e3|\\u0034\\ufe0f?\\u20e3|\\u0033\\ufe0f?\\u20e3|\\u0032\\ufe0f?\\u20e3|\\u0031\\ufe0f?\\u20e3|\\u0030\\ufe0f?\\u20e3|\\u0023\\ufe0f?\\u20e3|\\ud83d\\udd55|\\ud83d\\udd56|\\ud83d\\udd57|\\ud83d\\udd58|\\ud83d\\udd59|\\ud83d\\udd5a|\\ud83d\\udd5b|\\ud83d\\uddfb|\\ud83d\\uddfc|\\ud83d\\uddfd|\\ud83d\\uddfe|\\ud83d\\uddff|\\ud83d\\ude01|\\ud83d\\ude02|\\ud83d\\ude03|\\ud83d\\ude04|\\ud83d\\ude05|\\ud83d\\ude06|\\ud83d\\ude09|\\ud83d\\ude0a|\\ud83d\\ude0b|\\ud83d\\ude0c|\\ud83d\\ude0d|\\ud83d\\ude0f|\\ud83d\\ude12|\\ud83d\\ude13|\\ud83d\\ude14|\\ud83d\\ude16|\\ud83d\\ude18|\\ud83d\\ude1a|\\ud83d\\ude1c|\\ud83d\\ude1d|\\ud83d\\ude1e|\\ud83d\\ude20|\\ud83d\\ude21|\\ud83d\\ude22|\\ud83d\\ude23|\\ud83d\\ude24|\\ud83d\\ude25|\\ud83d\\ude28|\\ud83d\\ude29|\\ud83d\\ude2a|\\ud83d\\ude2b|\\ud83d\\ude2d|\\ud83d\\ude30|\\ud83d\\ude31|\\ud83d\\ude32|\\ud83d\\ude33|\\ud83d\\ude35|\\ud83d\\ude37|\\ud83d\\ude38|\\ud83d\\ude39|\\ud83d\\ude3a|\\ud83d\\ude3b|\\ud83d\\ude3c|\\ud83d\\ude3d|\\ud83d\\ude3e|\\ud83d\\ude3f|\\ud83d\\ude40|\\ud83d\\ude45|\\ud83d\\ude46|\\ud83d\\ude47|\\ud83d\\ude48|\\ud83d\\ude49|\\ud83d\\ude4a|\\ud83d\\ude4b|\\ud83d\\ude4c|\\ud83d\\ude4d|\\ud83d\\ude4e|\\ud83d\\ude4f|\\ud83d\\ude80|\\ud83d\\ude83|\\ud83d\\ude84|\\ud83d\\ude85|\\ud83d\\ude87|\\ud83d\\ude89|\\ud83d\\ude8c|\\ud83d\\ude8f|\\ud83d\\ude91|\\ud83d\\ude92|\\ud83d\\ude93|\\ud83d\\ude95|\\ud83d\\ude97|\\ud83d\\ude99|\\ud83d\\ude9a|\\ud83d\\udea2|\\ud83d\\udea4|\\ud83d\\udea5|\\ud83d\\udea7|\\ud83d\\udea8|\\ud83d\\udea9|\\ud83d\\udeaa|\\ud83d\\udeab|\\ud83d\\udeac|\\ud83d\\udead|\\ud83d\\udeb2|\\ud83d\\udeb6|\\ud83d\\udeb9|\\ud83d\\udeba|\\ud83d\\udebb|\\ud83d\\udebc|\\ud83d\\udebd|\\ud83d\\udebe|\\ud83d\\udec0|\\ud83c\\udde6|\\ud83c\\udde7|\\ud83c\\udde8|\\ud83c\\udde9|\\ud83c\\uddea|\\ud83c\\uddeb|\\ud83c\\uddec|\\ud83c\\udded|\\ud83c\\uddee|\\ud83c\\uddef|\\ud83c\\uddf0|\\ud83c\\uddf1|\\ud83c\\uddf2|\\ud83c\\uddf3|\\ud83c\\uddf4|\\ud83c\\uddf5|\\ud83c\\uddf6|\\ud83c\\uddf7|\\ud83c\\uddf8|\\ud83c\\uddf9|\\ud83c\\uddfa|\\ud83c\\uddfb|\\ud83c\\uddfc|\\ud83c\\uddfd|\\ud83c\\uddfe|\\ud83c\\uddff|\\ud83c\\udf0d|\\ud83c\\udf0e|\\ud83c\\udf10|\\ud83c\\udf12|\\ud83c\\udf16|\\ud83c\\udf17|\\ud83c\\udf18|\\ud83c\\udf1a|\\ud83c\\udf1c|\\ud83c\\udf1d|\\ud83c\\udf1e|\\ud83c\\udf32|\\ud83c\\udf33|\\ud83c\\udf4b|\\ud83c\\udf50|\\ud83c\\udf7c|\\ud83c\\udfc7|\\ud83c\\udfc9|\\ud83c\\udfe4|\\ud83d\\udc00|\\ud83d\\udc01|\\ud83d\\udc02|\\ud83d\\udc03|\\ud83d\\udc04|\\ud83d\\udc05|\\ud83d\\udc06|\\ud83d\\udc07|\\ud83d\\udc08|\\ud83d\\udc09|\\ud83d\\udc0a|\\ud83d\\udc0b|\\ud83d\\udc0f|\\ud83d\\udc10|\\ud83d\\udc13|\\ud83d\\udc15|\\ud83d\\udc16|\\ud83d\\udc2a|\\ud83d\\udc65|\\ud83d\\udc6c|\\ud83d\\udc6d|\\ud83d\\udcad|\\ud83d\\udcb6|\\ud83d\\udcb7|\\ud83d\\udcec|\\ud83d\\udced|\\ud83d\\udcef|\\ud83d\\udcf5|\\ud83d\\udd00|\\ud83d\\udd01|\\ud83d\\udd02|\\ud83d\\udd04|\\ud83d\\udd05|\\ud83d\\udd06|\\ud83d\\udd07|\\ud83d\\udd08|\\ud83d\\udd09|\\ud83d\\udd15|\\ud83d\\udd2c|\\ud83d\\udd2d|\\ud83d\\udd5c|\\ud83d\\udd5d|\\ud83d\\udd5e|\\ud83d\\udd5f|\\ud83d\\udd60|\\ud83d\\udd61|\\ud83d\\udd62|\\ud83d\\udd63|\\ud83d\\udd64|\\ud83d\\udd65|\\ud83d\\udd66|\\ud83d\\udd67|\\ud83d\\ude00|\\ud83d\\ude07|\\ud83d\\ude08|\\ud83d\\ude0e|\\ud83d\\ude10|\\ud83d\\ude11|\\ud83d\\ude15|\\ud83d\\ude17|\\ud83d\\ude19|\\ud83d\\ude1b|\\ud83d\\ude1f|\\ud83d\\ude26|\\ud83d\\ude27|\\ud83d\\ude2c|\\ud83d\\ude2e|\\ud83d\\ude2f|\\ud83d\\ude34|\\ud83d\\ude36|\\ud83d\\ude81|\\ud83d\\ude82|\\ud83d\\ude86|\\ud83d\\ude88|\\ud83d\\ude8a|\\ud83d\\ude8b|\\ud83d\\ude8d|\\ud83d\\ude8e|\\ud83d\\ude90|\\ud83d\\ude94|\\ud83d\\ude96|\\ud83d\\ude98|\\ud83d\\ude9b|\\ud83d\\ude9c|\\ud83d\\ude9d|\\ud83d\\ude9e|\\ud83d\\ude9f|\\ud83d\\udea0|\\ud83d\\udea1|\\ud83d\\udea3|\\ud83d\\udea6|\\ud83d\\udeae|\\ud83d\\udeaf|\\ud83d\\udeb0|\\ud83d\\udeb1|\\ud83d\\udeb3|\\ud83d\\udeb4|\\ud83d\\udeb5|\\ud83d\\udeb7|\\ud83d\\udeb8|\\ud83d\\udebf|\\ud83d\\udec1|\\ud83d\\udec2|\\ud83d\\udec3|\\ud83d\\udec4|\\ud83d\\udec5|\\ud83d\\udecd|\\ud83d\\udecc|\\ud83d\\udecb|\\ud83e\\udd81|\\ud83e\\udd80|\\ud83e\\udd18|\\ud83c\\udf46|\\ud83e\\uddc0|\\ud83e\\udd84|\\ud83e\\udd83|\\ud83e\\udd82|\\ud83e\\udd17|\\ud83e\\udd16|\\ud83e\\udd15|\\ud83e\\udd14|\\ud83e\\udd13|\\ud83e\\udd12|\\ud83e\\udd11|\\ud83e\\udd10|\\ud83d\\udef3|\\ud83d\\udef0|\\ud83d\\udeec|\\ud83c\\udccf|\\ud83c\\udd8e|\\ud83c\\udd91|\\ud83c\\udd92|\\ud83c\\udd93|\\ud83c\\udd94|\\ud83c\\udd95|\\ud83c\\udd96|\\ud83c\\udd97|\\ud83c\\udd98|\\ud83c\\udd99|\\ud83c\\udd9a|\\ud83d\\udeeb|\\ud83d\\udee9|\\ud83d\\udee5|\\ud83d\\udee4|\\ud83d\\udee3|\\ud83d\\udee2|\\ud83d\\udee1|\\ud83d\\udee0|\\ud83d\\uded0|\\ud83d\\udecf|\\ud83c\\ude01|\\ud83c\\ude32|\\ud83c\\ude33|\\ud83c\\ude34|\\ud83c\\ude35|\\ud83c\\ude36|\\ud83c\\ude38|\\ud83c\\ude39|\\ud83c\\ude3a|\\ud83c\\ude50|\\ud83c\\ude51|\\ud83c\\udf00|\\ud83c\\udf01|\\ud83c\\udf02|\\ud83c\\udf03|\\ud83c\\udf04|\\ud83c\\udf05|\\ud83c\\udf06|\\ud83c\\udf07|\\ud83c\\udf08|\\ud83c\\udf09|\\ud83c\\udf0a|\\ud83c\\udf0b|\\ud83c\\udf0c|\\ud83c\\udf0f|\\ud83c\\udf11|\\ud83c\\udf13|\\ud83c\\udf14|\\ud83c\\udf15|\\ud83c\\udf19|\\ud83c\\udf1b|\\ud83c\\udf1f|\\ud83c\\udf20|\\ud83c\\udf30|\\ud83c\\udf31|\\ud83c\\udf34|\\ud83c\\udf35|\\ud83c\\udf37|\\ud83c\\udf38|\\ud83c\\udf39|\\ud83c\\udf3a|\\ud83c\\udf3b|\\ud83c\\udf3c|\\ud83c\\udf3d|\\ud83c\\udf3e|\\ud83c\\udf3f|\\ud83c\\udf40|\\ud83c\\udf41|\\ud83c\\udf42|\\ud83c\\udf43|\\ud83c\\udf44|\\ud83c\\udf45|\\ud83d\\udece|\\ud83c\\udf47|\\ud83c\\udf48|\\ud83c\\udf49|\\ud83c\\udf4a|\\ud83c\\udf4c|\\ud83c\\udf4d|\\ud83c\\udf4e|\\ud83c\\udf4f|\\ud83c\\udf51|\\ud83c\\udf52|\\ud83c\\udf53|\\ud83c\\udf54|\\ud83c\\udf55|\\ud83c\\udf56|\\ud83c\\udf57|\\ud83c\\udf58|\\ud83c\\udf59|\\ud83c\\udf5a|\\ud83c\\udf5b|\\ud83c\\udf5c|\\ud83c\\udf5d|\\ud83c\\udf5e|\\ud83c\\udf5f|\\ud83c\\udf60|\\ud83c\\udf61|\\ud83c\\udf62|\\ud83c\\udf63|\\ud83c\\udf64|\\ud83c\\udf65|\\ud83c\\udf66|\\ud83c\\udf67|\\ud83c\\udf68|\\ud83c\\udf69|\\ud83c\\udf6a|\\ud83c\\udf6b|\\ud83c\\udf6c|\\ud83c\\udf6d|\\ud83c\\udf6e|\\ud83c\\udf6f|\\ud83c\\udf70|\\ud83c\\udf71|\\ud83c\\udf72|\\ud83c\\udf73|\\ud83c\\udf74|\\ud83c\\udf75|\\ud83c\\udf76|\\ud83c\\udf77|\\ud83c\\udf78|\\ud83c\\udf79|\\ud83c\\udf7a|\\ud83c\\udf7b|\\ud83c\\udf80|\\ud83c\\udf81|\\ud83c\\udf82|\\ud83c\\udf83|\\ud83c\\udf84|\\ud83c\\udf85|\\ud83c\\udf86|\\ud83c\\udf87|\\ud83c\\udf88|\\ud83c\\udf89|\\ud83c\\udf8a|\\ud83c\\udf8b|\\ud83c\\udf8c|\\ud83c\\udf8d|\\ud83c\\udf8e|\\ud83c\\udf8f|\\ud83c\\udf90|\\ud83c\\udf91|\\ud83c\\udf92|\\ud83c\\udf93|\\ud83c\\udfa0|\\ud83c\\udfa1|\\ud83c\\udfa2|\\ud83c\\udfa3|\\ud83c\\udfa4|\\ud83c\\udfa5|\\ud83c\\udfa6|\\ud83c\\udfa7|\\ud83c\\udfa8|\\ud83c\\udfa9|\\ud83c\\udfaa|\\ud83c\\udfab|\\ud83c\\udfac|\\ud83c\\udfad|\\ud83c\\udfae|\\ud83c\\udfaf|\\ud83c\\udfb0|\\ud83c\\udfb1|\\ud83c\\udfb2|\\ud83c\\udfb3|\\ud83c\\udfb4|\\ud83c\\udfb5|\\ud83c\\udfb6|\\ud83c\\udfb7|\\ud83c\\udfb8|\\ud83c\\udfb9|\\ud83c\\udfba|\\ud83c\\udfbb|\\ud83c\\udfbc|\\ud83c\\udfbd|\\ud83c\\udfbe|\\ud83c\\udfbf|\\ud83c\\udfc0|\\ud83c\\udfc1|\\ud83c\\udfc2|\\ud83c\\udfc3|\\ud83c\\udfc4|\\ud83c\\udfc6|\\ud83c\\udfc8|\\ud83c\\udfca|\\ud83c\\udfe0|\\ud83c\\udfe1|\\ud83c\\udfe2|\\ud83c\\udfe3|\\ud83c\\udfe5|\\ud83c\\udfe6|\\ud83c\\udfe7|\\ud83c\\udfe8|\\ud83c\\udfe9|\\ud83c\\udfea|\\ud83c\\udfeb|\\ud83c\\udfec|\\ud83c\\udfed|\\ud83c\\udfee|\\ud83c\\udfef|\\ud83c\\udff0|\\ud83d\\udc0c|\\ud83d\\udc0d|\\ud83d\\udc0e|\\ud83d\\udc11|\\ud83d\\udc12|\\ud83d\\udc14|\\ud83d\\udc17|\\ud83d\\udc18|\\ud83d\\udc19|\\ud83d\\udc1a|\\ud83d\\udc1b|\\ud83d\\udc1c|\\ud83d\\udc1d|\\ud83d\\udc1e|\\ud83d\\udc1f|\\ud83d\\udc20|\\ud83d\\udc21|\\ud83d\\udc22|\\ud83d\\udc23|\\ud83d\\udc24|\\ud83d\\udc25|\\ud83d\\udc26|\\ud83d\\udc27|\\ud83d\\udc28|\\ud83d\\udc29|\\ud83d\\udc2b|\\ud83d\\udc2c|\\ud83d\\udc2d|\\ud83c\\udf21|\\ud83c\\udf24|\\ud83c\\udf25|\\ud83c\\udf26|\\ud83c\\udf27|\\ud83c\\udf28|\\ud83c\\udf29|\\ud83c\\udf2a|\\ud83c\\udf2b|\\ud83c\\udf2c|\\ud83c\\udf2d|\\ud83c\\udf2e|\\ud83c\\udf2f|\\ud83c\\udf36|\\ud83c\\udf7d|\\ud83c\\udf7e|\\ud83c\\udf7f|\\ud83d\\udc2e|\\ud83d\\udc2f|\\ud83d\\udc30|\\ud83d\\udc31|\\ud83d\\udc32|\\ud83c\\udf96|\\ud83c\\udf97|\\ud83c\\udf99|\\ud83c\\udf9a|\\ud83c\\udf9b|\\ud83c\\udf9e|\\ud83c\\udf9f|\\ud83d\\udc33|\\ud83d\\udc34|\\ud83d\\udc35|\\ud83d\\udc36|\\ud83d\\udc37|\\ud83d\\udc38|\\ud83d\\udc39|\\ud83d\\udc3a|\\ud83d\\udc3b|\\ud83d\\udc3c|\\ud83c\\udfc5|\\ud83d\\udc3d|\\ud83d\\udc3e|\\ud83d\\udc40|\\ud83d\\udc42|\\ud83d\\udc43|\\ud83d\\udc44|\\ud83d\\udc45|\\ud83d\\udc46|\\ud83d\\udc47|\\ud83d\\udc48|\\ud83d\\udc49|\\ud83d\\udc4a|\\ud83d\\udc4b|\\ud83d\\udc4c|\\ud83d\\udc4d|\\ud83c\\udfcb|\\ud83c\\udfcc|\\ud83c\\udfcd|\\ud83c\\udfce|\\ud83c\\udfcf|\\ud83c\\udfd0|\\ud83c\\udfd1|\\ud83c\\udfd2|\\ud83c\\udfd3|\\ud83c\\udfd4|\\ud83c\\udfd5|\\ud83c\\udfd6|\\ud83c\\udfd7|\\ud83c\\udfd8|\\ud83c\\udfd9|\\ud83c\\udfda|\\ud83c\\udfdb|\\ud83c\\udfdc|\\ud83c\\udfdd|\\ud83c\\udfde|\\ud83c\\udfdf|\\ud83c\\udff3|\\ud83c\\udff4|\\ud83c\\udff5|\\ud83c\\udff7|\\ud83c\\udff8|\\ud83c\\udff9|\\ud83c\\udffa|\\ud83c\\udffb|\\ud83c\\udffc|\\ud83c\\udffd|\\ud83c\\udffe|\\ud83c\\udfff|\\ud83d\\udc3f|\\ud83d\\udc41|\\ud83d\\udc4e|\\ud83d\\udc4f|\\ud83d\\udc50|\\ud83d\\udc51|\\ud83d\\udc52|\\ud83d\\udc53|\\ud83d\\udc54|\\ud83d\\udc55|\\ud83d\\udc56|\\ud83d\\udc57|\\ud83d\\udc58|\\ud83d\\udc59|\\ud83d\\udc5a|\\ud83d\\udc5b|\\ud83d\\udc5c|\\ud83d\\udc5d|\\ud83d\\udc5e|\\ud83d\\udc5f|\\ud83d\\udc60|\\ud83d\\udc61|\\ud83d\\udc62|\\ud83d\\udc63|\\ud83d\\udc64|\\ud83d\\udc66|\\ud83d\\udc67|\\ud83d\\udc68|\\ud83d\\udc69|\\ud83d\\udc6a|\\ud83d\\udc6b|\\ud83d\\udc6e|\\ud83d\\udc6f|\\ud83d\\udc70|\\ud83d\\udc71|\\ud83d\\udc72|\\ud83d\\udc73|\\ud83d\\udc74|\\ud83d\\udc75|\\ud83d\\udc76|\\ud83d\\udc77|\\ud83d\\udc78|\\ud83d\\udc79|\\ud83d\\udc7a|\\ud83d\\udc7b|\\ud83d\\udc7c|\\ud83d\\udc7d|\\ud83d\\udc7e|\\ud83d\\udc7f|\\ud83d\\udc80|\\ud83d\\udc81|\\ud83d\\udc82|\\ud83d\\udc83|\\ud83d\\udc84|\\ud83d\\udc85|\\ud83d\\udc86|\\ud83d\\udc87|\\ud83d\\udc88|\\ud83d\\udc89|\\ud83d\\udc8a|\\ud83d\\udc8b|\\ud83d\\udc8c|\\ud83d\\udc8d|\\ud83d\\udc8e|\\ud83d\\udc8f|\\ud83d\\udc90|\\ud83d\\udc91|\\ud83d\\udc92|\\ud83d\\udc93|\\ud83d\\udc94|\\ud83d\\udc95|\\ud83d\\udc96|\\ud83d\\udc97|\\ud83d\\udc98|\\ud83d\\udc99|\\ud83d\\udc9a|\\ud83d\\udc9b|\\ud83d\\udc9c|\\ud83d\\udc9d|\\ud83d\\udc9e|\\ud83d\\udc9f|\\ud83d\\udca0|\\ud83d\\udca1|\\ud83d\\udca2|\\ud83d\\udca3|\\ud83d\\udca4|\\ud83d\\udca5|\\ud83d\\udca6|\\ud83d\\udca7|\\ud83d\\udca8|\\ud83d\\udca9|\\ud83d\\udcaa|\\ud83d\\udcab|\\ud83d\\udcac|\\ud83d\\udcae|\\ud83d\\udcaf|\\ud83d\\udcb0|\\ud83d\\udcb1|\\ud83d\\udcb2|\\ud83d\\udcb3|\\ud83d\\udcb4|\\ud83d\\udcb5|\\ud83d\\udcb8|\\ud83d\\udcb9|\\ud83d\\udcba|\\ud83d\\udcbb|\\ud83d\\udcbc|\\ud83d\\udcbd|\\ud83d\\udcbe|\\ud83d\\udcbf|\\ud83d\\udcc0|\\ud83d\\udcc1|\\ud83d\\udcc2|\\ud83d\\udcc3|\\ud83d\\udcc4|\\ud83d\\udcc5|\\ud83d\\udcc6|\\ud83d\\udcc7|\\ud83d\\udcc8|\\ud83d\\udcc9|\\ud83d\\udcca|\\ud83d\\udccb|\\ud83d\\udccc|\\ud83d\\udccd|\\ud83d\\udcce|\\ud83d\\udccf|\\ud83d\\udcd0|\\ud83d\\udcd1|\\ud83d\\udcd2|\\ud83d\\udcd3|\\ud83d\\udcd4|\\ud83d\\udcd5|\\ud83d\\udcd6|\\ud83d\\udcd7|\\ud83d\\udcd8|\\ud83d\\udcd9|\\ud83d\\udcda|\\ud83d\\udcdb|\\ud83d\\udcdc|\\ud83d\\udcdd|\\ud83d\\udcde|\\ud83d\\udcdf|\\ud83d\\udce0|\\ud83d\\udce1|\\ud83d\\udce2|\\ud83d\\udce3|\\ud83d\\udce4|\\ud83d\\udce5|\\ud83d\\udce6|\\ud83d\\udce7|\\ud83d\\udce8|\\ud83d\\udce9|\\ud83d\\udcea|\\ud83d\\udceb|\\ud83d\\udcee|\\ud83d\\udcf0|\\ud83d\\udcf1|\\ud83d\\udcf2|\\ud83d\\udcf3|\\ud83d\\udcf4|\\ud83d\\udcf6|\\ud83d\\udcf7|\\ud83d\\udcf9|\\ud83d\\udcfa|\\ud83d\\udcfb|\\ud83d\\udcfc|\\ud83d\\udd03|\\ud83d\\udd0a|\\ud83d\\udd0b|\\ud83d\\udd0c|\\ud83d\\udd0d|\\ud83d\\udd0e|\\ud83d\\udd0f|\\ud83d\\udd10|\\ud83d\\udd11|\\ud83d\\udd12|\\ud83d\\udd13|\\ud83d\\udd14|\\ud83d\\udd16|\\ud83d\\udd17|\\ud83d\\udd18|\\ud83d\\udd19|\\ud83d\\udd1a|\\ud83d\\udd1b|\\ud83d\\udd1c|\\ud83d\\udd1d|\\ud83d\\udd1e|\\ud83d\\udd1f|\\ud83d\\udd20|\\ud83d\\udd21|\\ud83d\\udd22|\\ud83d\\udd23|\\ud83d\\udd24|\\ud83d\\udd25|\\ud83d\\udd26|\\ud83d\\udcf8|\\ud83d\\udcfd|\\ud83d\\udcff|\\ud83d\\udd49|\\ud83d\\udd4a|\\ud83d\\udd4b|\\ud83d\\udd4c|\\ud83d\\udd4d|\\ud83d\\udd4e|\\ud83d\\udd6f|\\ud83d\\udd70|\\ud83d\\udd73|\\ud83d\\udd74|\\ud83d\\udd75|\\ud83d\\udd76|\\ud83d\\udd77|\\ud83d\\udd78|\\ud83d\\udd79|\\ud83d\\udd87|\\ud83d\\udd8a|\\ud83d\\udd8b|\\ud83d\\udd8c|\\ud83d\\udd8d|\\ud83d\\udd27|\\ud83d\\udd28|\\ud83d\\udd29|\\ud83d\\udd2a|\\ud83d\\udd2b|\\ud83d\\udd90|\\ud83d\\udd2e|\\ud83d\\udd2f|\\ud83d\\udd30|\\ud83d\\udd31|\\ud83d\\udd32|\\ud83d\\udd95|\\ud83d\\udd33|\\ud83d\\udd34|\\ud83d\\udd35|\\ud83d\\udd36|\\ud83d\\udd37|\\ud83d\\udd96|\\ud83d\\udda5|\\ud83d\\udda8|\\ud83d\\uddb1|\\ud83d\\uddb2|\\ud83d\\uddbc|\\ud83d\\uddc2|\\ud83d\\uddc3|\\ud83d\\uddc4|\\ud83d\\uddd1|\\ud83d\\uddd2|\\ud83d\\uddd3|\\ud83d\\udddc|\\ud83d\\udddd|\\ud83d\\uddde|\\ud83d\\udde1|\\ud83d\\udde3|\\ud83d\\udde8|\\ud83d\\uddef|\\ud83d\\uddf3|\\ud83d\\uddfa|\\ud83d\\ude41|\\ud83d\\ude42|\\ud83d\\ude43|\\ud83d\\ude44|\\ud83d\\udd38|\\ud83d\\udd39|\\ud83d\\udd3a|\\ud83d\\udd3b|\\ud83d\\udd3c|\\ud83d\\udd3d|\\ud83d\\udd50|\\ud83d\\udd51|\\ud83d\\udd52|\\ud83d\\udd53|\\ud83d\\udd54|\\ue50a|\\u2797|\\u2796|\\u2795|\\u2763|\\u2755|\\u2754|\\u2753|\\u2728|\\u2721|\\u2705|\\u2699|\\u2697|\\u2696|\\u2694|\\u2692|\\u2639|\\u2638|\\u2626|\\u2623|\\u2622|\\u2620|\\u2618|\\u2604|\\u2603|\\u2602|\\u2328|\\u274c|\\u274e|\\u271d|\\u270a|\\u270b|\\u270d|\\u269b|\\u269c|\\u262f|\\u262a|\\u262e|\\u27b0|\\u27bf|\\u26f9|\\u26ce|\\u26b0|\\u26b1|\\u26c8|\\u26cf|\\u26d1|\\u26d3|\\u26e9|\\u26f0|\\u26f1|\\u26f4|\\u26f7|\\u26f8|\\u23f1|\\u23e9|\\u23ec|\\u23f0|\\u23ed|\\u23ee|\\u23f3|\\u23ea|\\u23fa|\\u23f9|\\u23f8|\\u23f2|\\u23eb|\\u23ef|\\u00a9|\\u00ae)|(?:(?:\\ud83c\\udc04|\\ud83c\\udd70|\\ud83c\\udd71|\\ud83c\\udd7e|\\ud83c\\udd7f|\\ud83c\\ude02|\\ud83c\\ude1a|\\ud83c\\ude2f|\\ud83c\\ude37|\\u3299|\\u3297|\\u3030|\\u2935|\\u2934|\\u2764|\\u2757|\\u2747|\\u2744|\\u2734|\\u2733|\\u2716|\\u2714|\\u2712|\\u2709|\\u2708|\\u2702|\\u2693|\\u2668|\\u2666|\\u2665|\\u2663|\\u2660|\\u2653|\\u2652|\\u2651|\\u2650|\\u2649|\\u2648|\\u2615|\\u2614|\\u2611|\\u2601|\\u2600|\\u2199|\\u2198|\\u2197|\\u2196|\\u2195|\\u2194|\\u2139|\\u2122|\\u2049|\\u303d|\\u270f|\\u270c|\\u267f|\\u267b|\\u264b|\\u264a|\\u264f|\\u264e|\\u264d|\\u264c|\\u263a|\\u261d|\\u260e|\\u231a|\\u231b|\\u203c|\\u27a1|\\u26c5|\\u26a0|\\u26a1|\\u26d4|\\u26ea|\\u26f2|\\u26aa|\\u26f5|\\u26fa|\\u26fd|\\u26ab|\\u26bd|\\u26be|\\u26c4|\\u26f3|\\u25fc|\\u25fb|\\u25fe|\\u25c0|\\u25b6|\\u25ab|\\u25aa|\\u25fd|\\u24c2|\\u21a9|\\u21aa|\\u2b05|\\u2b55|\\u2b50|\\u2b06|\\u2b07|\\u2b1c|\\u2b1b)([\\uFE0E\\uFE0F]?)))
+ionally$
+^I run the command use with the parameters (.+)$
+Query\\Z
+^I enter the code \"(.*?)\"$
+I am Ron Burgandy?
+\\A(?:FOUND)
+^\\{([a-z]+):%(\\d+)\\|(.*)\\}$
+https:\\/\\/(.*)api.dotmailer.com
+\\[\\[ ([\\w/+-]+) (?:\\( (.*) \\))? \\]\\]
+; *(LG[ \\-]|LG)([^;/]+)[;/]? Build
+description: 'ProductReview model count'
+(boolean|byte|char|short|int|float|long|double|(?:\\w+\\.)*[A-Z]\\w*\\b(?:<(?:[\\w, ]*)>)?(?:\\[\\s*\\])*)
+_(\\d+)x(\\d+)
+([A-Z][a-z]+)([A-Z].*)
+(?<!\\\\)(?>\\\\\\\\)*\\.
+\\A/features/(?<feature_name>.*)/percentage_of_actors/?\\Z
+^\\s*'([^']+)',?$
+^(?:ddq\\b)
+\\$\\{[^}]*\\}
+(\\e.*?m|\\n)
+\\[\\[Image:[^\\[]*\\|.*\\]\\]
+([?!${}*:()|=^[\\]/\\\\.+])
+^hyphenate-resource
+^\\/(album\\/)?([0-9]+)\\/?$
+\\A127\\.|\\A::1\\z
+^\\/?[^\\/]+\\/(.*)$
+www.mturk.com
+(\\S+)\\s*:
+(P)?[-.]?(\\d{8})[-.]?(\\d{1})[\\/]?(\\d{3})
+number(\\w+)
+^Invalid KeyConditionExpression: Incorrect operand type for operator or function; operator or function: attribute_type, operand type:
+^calc\\((?:[0-9a-z \\.\\+\\-\\*\\/\\(\\)]+)\\)$
+^# Exported by \\S+ on .*
+http://yourdomain\\.example\\.com/x
+@([a-zA-Z]*)( *)(.*)
+tag:
+[:\\./]
+^[^#]*#?
+casper\\.elementVisible
+\\[center\\](.*?)\\[\\/center\\]
+end-$marker-inline
+^revert_
+as(df)
+^\\w+([.+-]\\w+)*@\\w+([.-]\\w+)*$
+\\043
+^(?:public|private)$
+[0-9][0-9]-[0-9]{3,6}-[0-9]
+^!urban (.+)
+^(.+) logs? in with username \"([^\"]*)\" and password \"([^\"]*)\"$
+order by things asc$
+^(\\d+)\\s+(\\d+)\\s+obj
+\\d+\\.\\d+\\s(G|M|K)iB
+trac\\[(\\d+)\\]|\\[(\\d+)\\]
+^\\]:
+\\$stateProvider[\\s\\n]*\\.
+\\$VAR\\d+\\s=\\s?
+^eslint-.*
+^HTTP\\/\\d+\\.\\d+ (\\d+)
+^<v>
+\\/l\\/(.*?).html
+\\\"version\\\": \\\"(\\d+)\\.(\\d+)\\.(\\d+)\\\"
+\\s+([^\\s])
+\\*\\*double strong tags\\*\\*
+((?:^|\\n)[\\t ]*script(?:(?:&[^(]+)?\\([^)]+\\))*) .+
+\\(\\|(.+?)\\)
+my\\/lib13\\/library-preload\\.json
+([^\\cJ]+)\\cJ([^\\c@]*)\\c@
+(?<![<>])(<S>[\\x{d3}\\x{f3}]n<\\/S> (?:<N[^>]*>[BbCcFfGgPp][^hHcCpP'][^<]*<\\/N>))(?![<>])
+a\\G{2,3}b\\G++c
+^\\s*list\\s+buys{0,1}\\s*$
+Ph\\.\\s*D\\.
+<p><strong>bar(<br>)?<\\/strong>(<br>)?<\\/p>
+bccwin|cygwin|djgpp|mingw|mswin|wince
+Error response from daemon: removal of container (\\w+) is already in progress
+<p>\\s*?<\\/p>
+^sin:                   $ 
+^cte:(.+)$
+Your\\s+(.*\\s)?search\\s+(for.*\\s.*\\s)?did\\s+not\\s+return\\s+any\\s+documents\\.
+ClojureMate-(.+)\\.port
+\\*([AIUEO])
+<h\\d\\s+id=\"([^\"]+)
+###native_transport_port###
+[^:](:(?:\\w+|(?=['\"](.*?)['\"])(?:\"\\2\"|'\\2')))
+nt 6.2
+('|\")DISPLAY_NAME\\1\\s*:\\s*('|\")(.*)\\2
+^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$
+^A, \\[.+?\\] +ANY -- program: message\\n
+FooModel\\(\\)
+^[\\d.e+-]$
+^\\s*([+\\-]?\\d*)\\s*:\\s*([+\\-]?\\d*)\\s*$
+^(?:error|:levels|:all)$
+print\\s*(\\'\\w*\\'|\\\"\\w*\\\"|\\d+|[*]|\\b\\w)
+(?:(.*)(\\r?\\n))|(?:(.+)($))
+\\$LIB([_A-Z0-9]+)_PATH\\b
+^\"(.*?)\" is available
+__RC__
+^a HTTPS BasicAuth ODataService exists using self-signed certificate and username \"([^\\\"]*)\" and password \"([^\\\"]*)\"$
+--server=master
+^I confirm popup$
+^[a-zA-Z0-9]{16,40}$
+.+ version/([0-9]+(?:\\.[0-9]+)?).*
+^[^\\/\\|,\\$\\%\\@\\ \\\"\\<\\>\\:\\#\\&\\*\\{\\}\\[\\]\\(\\)]+(\\:\\:[^\\/\\|,\\$\\%\\@\\ \\\"\\<\\>\\:\\#\\&\\*\\{\\}\\[\\]\\(\\)]+)*$
+Also at 
+CriOS\\/([0-9.]+)
+^Unescaped model attribute
+^[\\d+]:5.[89]
+https:\\/\\/download.moodle.org\\/download.php\\/stable[0-9].\\/moodle-latest-[0-9].\\.tgz
+\\s*,?\\s*([\\/\\\\])\\s*([^,\\\\\\/]+)
+^.+?([}{])
+Wget/|curl/
+ShipmentRequestDetails.PackageDimensions
+^[gimy]{0,2}$
+^SYN \\[(.*)\\]
+\\n\\s*\\n$
+.*CentOS.*
+^[-]*(.*?)=(.*?)$
+telldir\\(
+^\\s*( and )
+\\Q$oldsubstate
+^endwhile\\b
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u0400-\u0481\u0483-\u0487\u048a-\u0527\u1e00-\u1eff\u2c60-\u2c7f\u2de0-\u2dff\ua640-\ua66f\ua674-\ua67d\ua67f-\ua697\ua69f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:3(?:[\\s\\xa0]*\u041c\u0430\u043a\u0430(?:\u0432\u0435\u0458(?:\u0441\u043a)?|\u0431\u0435\u0458\u0430\u0446)\u0430|Macc|[\\s\\xa0]*\u041c\u043a)|III[\\s\\xa0]*\u041c\u0430\u043a\u0430(?:\u0432\u0435\u0458(?:\u0441\u043a)?|\u0431\u0435\u0458\u0430\u0446)\u0430|(?:III|3)\\.[\\s\\xa0]*\u041c\u0430\u043a\u0430(?:\u0432\u0435\u0458(?:\u0441\u043a)?|\u0431\u0435\u0458\u0430\u0446)\u0430|\u0422\u0440\u0435\u045b(?:\u043e\u043c[\\s\\xa0]*\u041c\u0430\u043a\u0430(?:\u0432\u0435\u0458(?:\u0441\u043a)?|\u0431\u0435\u0458\u0430\u0446)|\u0430[\\s\\xa0]*\u041c\u0430\u043a\u0430(?:\u0432\u0435\u0458(?:\u0441\u043a)?|\u0431\u0435\u0458\u0430\u0446))\u0430))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+^\\s*[+\\-]?\\d+\\s*$
+^0(\\d{2})(\\d{3})([012])([\\dx])$
+^/api/publications/([^/]+)$
+<\\/?(speak|break|phoneme|audio|say-as|s\\b|w\\b)[^>]*>
+\\$\\{?[a-zA-Z0-9_]+\\}?
+subscr_cancel|subscr_eot|subscr_failed|RECURRING_STOPPED|RECURRING_COMPLETE|RECURRING_INSTALLMENT_FAILED
+^${path}::
+keep this;
+x$
+(\\S+)_(by)_([a-zA-Z0-9]+)_(\\S+)
+^--([a-z0-9][a-z0-9-]*)$
+^\\d{1,}.?\\d{0,}d$
+^https?:\\/\\/twitter\\.com\\/([a-z0-9_]{1,20})
+^I have a valid access key$
+^Content: Modern$
+(?<=(?:\\1b)(aa)).
+\\:access\\_token
+Lord street
+consensus\\s*lineage
+Cannot overwrite `model-discriminator-4148-bar`
+^a page titled \"([^\\\"]*)\"$
+[^ ]\\}\\z
+passed: [12]
+^gcode:(?:(.*)@)?(.*?)(?:/(.*))?$
+^([^:]+): (.*)\\s+$
+^Supportability
+^\\#([0-9A-F]{2})([0-9A-F]{2})([0-9A-F]{2})
+^(remove)_.*_(?:from)_(.*)
+<(?:script|link).+=['\"]\\.?\\.?\\/?shared\\/([^\\/]+)\\/([^'\"\\s]+)['\"]
+custom.js
+xmlns:xlink=\"http:\\/\\/www\\.w3\\.org\\/1999\\/xlink\"
+^\\s*\\*\\s?
+; *(?:LAVA[ _])?IRIS[ _\\-]?([^/;\\)]+) *(?:;|\\)|Build)
+^I should not see the following (request|response) headers:$
+\\G>(?:Email|Posting) has been sent anonymously
+Link-Pattern:\\s*<\\{uri\\};json_schema>;.*type.*application\\/x-schema\\+json
+(^|[^.])<\\/?\\w+(?:\\s+[^\\s>\\/=]+=(\"|')(?:\\\\[\\s\\S]|(?!\\2)[^\\\\])*\\2)*\\s*\\/?>
+^(.*)::[^A-Z].*$
+\\.idx$
+(\\e\\[[0-9]+m)
+\\bLDSHARED\\b
+^\\s*-+\\s*$
+(?<_1>\\?|@)
+^(\\d+)(k|m|g|)$
+^(?:EQUALS\\b)
+\\\\cyrchar\\\\CYRG 
+the admin password reset form with token \"([^\"]*)\"
+app/views/notifier/foo\\.text\\.slim
+^[\\s_]
+(<object[^>]*>)\\s*
+[\u00e1\u008c\u0080-\u00e1\u008c\u0086]
+finalize=0
+ (data-parsoid|prefix|about|rev|datatype|inlist|usemap|vocab|content|style)=\\\\?\"[^\\\"]*\\\\?\"
+^\\s*(\\w+)\\s*(?:\\(\\s*(\\w+)\\s*\\))?\\s*$
+B\\u{1F4AB}{2}B
+^(..)(.+)
+\\b(XML (attribute|data|element|file)s?)\\b
+[whdms]
+Product Version ([0-9.]+)
+[\\/\\(\\)]
+^x([2-9]|[1-9][0-9]+)?$
+\u05d4\u05f3$
+fail,,,\r\n
+^-?(maintenance[-_]url)$
+^non_existing_url.html\\?_=[0123456789]+$
+\\.(ttf|ttc)$
+{{abe[\\S\\s].*?key=['|\"]([\\S\\s].*?['|\"| ]}})
+\\A[<]([^ ]+[@][^ ]+)[>]\\z
+[!,]
+[\\d+]
+bikes
+(\\d{4}-\\d{1,2}-\\d{1,2})
+[^a-zA-Z0-9-_\\u4e00-\\u9fa5]
+Too many arguments in function f
+mongodb://[\\\\w+.+:\\\\w+.+@]+[\\\\w+.+:\\\\w+.+,]+[/\\\\w]*[?\\\\w+;=]+
+^1|true$
+Task \\d* done
+^emailAddress_max
+(?:,|\\s)+
+1010
+Data::Microformat
+$prefix([a-zA-Z0-9._]+)
+^found invalid count value: LISTEN_FDS=a$
+URI parameter must have name specified
+^short
+^\\n\\n
+\\A=+\\s*
+argument for parameter \"l\" must be a Array -- got nil of type NilClass
+(\\d+) hosts completed
+http://noticias.terra.com.br/ultimasnoticias/0,,EI188-PI(1|2),00.html
+<category.+<metadata
+^(?:(?![^:@]+:[^:@\\/]*@)([^:\\/?#.]+):)?(?:\\/\\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\\/?#]*)(?::(\\d*))?)(((\\/(?:[^?#](?![^?#\\/]*\\.[^?#\\/.]+(?:[?#]|$)))*\\/?)?([^?#\\/]*))(?:\\?([^#]*))?(?:#(.*))?)
+(\\w+)\\.ports
+(?:\\s*\\n\\s*)+
+^coderay
+<[^?]
+\\{(\\#([a-z_][a-z0-9_]*?))\\}
+usb|acm|^com
+^\\/stylesheets
+<([a-zA-Z][a-zA-Z0-9]*)/([^/]*)/
+\\.data(\\.[dg]z)?
+/abc123/
+\\<\\?(xml:stylesheet.*?)\\?\\>
+\\s*([0-9]*):([0-9]*):([0-9]*).([0-9]*)\\s*([VDIWEF])\\s*(\\w*)\\s*:\\s*\\[([a-zA-Z0-9_.]*):([0-9]*)\\]\\s(.*)
+^l\\d+$
+parser\\.pm$
+^u[a-fA-F0-9]{32}$
+^side$|combx|retweet|mediaarticlerelated|menucontainer|navbar|comment|PopularQuestions|contact|foot|footer|Footer|footnote|cnn_strycaptiontxt|cnn_html_slideshow|cnn_strylftcntnt|links|meta$|scroll|shoutbox|sponsor|tags|socialnetworking|socialNetworking|cnnStryHghLght|cnn_stryspcvbx|^inset$|pagetools|post-attributes|welcome_form|contentTools2|the_answers|communitypromo|runaroundLeft|subscribe|vcard|articleheadings|date|^print$|popup|author-dropdown|tools|socialtools|byline|konafilter|KonaFilter|breadcrumbs|^fn$|wp-caption-text|legende|ajoutVideo|timestamp|js_replies
+\n        (\n            (?:\".*?\")|          # double quotes\n            (?:'.*?')|          # single quotes\n            (?:[^'\",\\#]?.*?)    # unquoted\n        )\n        \\s*,\\s*                 # comma\n        
+[.?!:;][\\\u00c2\u00bb\"'\u00c2\u00b4]*\\s*$
+^keep(?:\\s+)?$
+stomp
+ceph_pool_read_total{cluster=\"ceph\",pool=\"cinder_sas\"} 3.48986643e\\+08
+(<h(\\d+?).*?>(.+?)</h\\d>)\\s?(.+)?
+(HASH|ARRAY|GLOB|SCALAR)
+(.)([^$])
+([\\* ])(?:[\\da-f]{2}:){5}[\\da-f]{2}  (\\d)     \\w+\\s+(Master|\\w+)
+Check\\:\\s(\\d+)\\s
+.*[a-zA-Z]+\\S
+^(?:TYPE\\b)
+promot
+Hiera YAML backend starting
+^[\\w0-9_\\/:\\.\\-@#&]+$
+^([-\\w]+)([-+]\\d+)$
+CODE_OF_CONDUCT
+\\A(?:tag:yaml\\.org,2002:|!!?)omap\\z
+<div( class=\"[^\"]+\")(.+?)><
+(\"|)([^\"() ]+)(\"|) (NOT |)IN \\(([^()]*)\\)
+[^a-z0-9_.:@]+
+%[<]([^>]*)[>]
+(?!\\d)
+^/workers/(?P<id>\\d+)/status/?$
+http://schema.org/ImageGallery
+[^A-Z^a-z^0-9]+
+(^\\/|[^:]\\/)\\/+
+@[-|keyframes].*?\\{.*?\\}[ \\r\\n]*\\}
+^\\s*rgba\\(\\s*(-?\\d{1,3}%{1})\\s*,\\s*(-?\\d{1,3}%{1})\\s*,\\s*(-?\\d{1,3}%{1})\\s*,\\s*(-?\\d+\\.?\\d*?)\\s*\\)\\s*$
+^Min
+\\A([a-zA-Z0-9]{3})(\\|([a-z0-9\\ \\*])([a-z0-9\\ \\*])\\|)?([a-z0-9]*)?\\Z
+[0-9a-f]{32}(-data)?\\.[0-9a-z]+
+%%%name%%%
+invalid version
+(?<user>[\\w][\\w-]*\\$?)(:(?<group>[\\w][\\w-]*\\$?))?
+IPX
+engineyard-serverside.*deploy
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:2(?:[\\s\\xa0]*Ti(?:m(?:\\xF4th\\xEA)?|\\-?m\\xF4\\-?th\\xEA)|Tim|\\.[\\s\\xa0]*Ti(?:m(?:\\xF4th\\xEA)?|\\-?m\\xF4\\-?th\\xEA))|II(?:\\.[\\s\\xa0]*Ti(?:m(?:\\xF4th\\xEA)?|\\-?m\\xF4\\-?th\\xEA)|[\\s\\xa0]*Ti(?:m(?:\\xF4th\\xEA)?|\\-?m\\xF4\\-?th\\xEA))))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+^[ \\t]*[\\n\\r]\\s*
+ ^\n            mongodb://\n            (?: ([^:]*) : ([^@]*) @ )? # [username:password@]\n            ([^/]*) # host1[:port1][,host2[:port2],...[,hostN[:portN]]]\n            (?:\n                / ([^?]*) # /[database]\n                (?: [?] (.*) )? # [?options]\n            )?\n            $ 
+:(\\d{2})$
+User logs in
+failed to change window state

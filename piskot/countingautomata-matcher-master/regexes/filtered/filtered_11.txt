@@ -1,0 +1,497 @@
+[A-Z0-9]{9}
+^ s* d{4}- d d- d d((T| )( d d(: d d(: d d(\. d d? d?)?)?)?)?([\+\-] d d:? d d)?)?$
+^RL s{3}(.*)
+ d{3}.*
+Name: [^\/]+ \/ ([a-zA-Z0-9]{1}[a-zA-Z0-9'. -]{1,48}[a-zA-Z0-9.]{1})
+^[0-9a-zA-Z-]{1,50}$
+^Digest realm="Users", nonce="\w{32}", opaque="abcdefg1234"$
+^ d{4}- d{2}- d{2}.|^ d{4}- d{1,2}- d{1,2}[T \t]+ d{1,2}: d{2}: d{2}(\.[0-9])?(([ \t]*)Z|[-+] d{2}(: d{2})?)?$
+views\/view-b\.[a-z0-9]{16}\.html
+ d{4}- d{2}- d{2}  d{2}: d{2}: d{2}
+/[a-z0-9]{38}$
+\/([a-z]{2})\.wikipedia
+(\.port[0-9]{1,5})?\.[^.]+\..*local_servername$
+^tool_generator_([0-9]{6})$
+[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6} b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)
+^[0-9a-fA-F]{40} \S+ ( d+)$
+( d{10}) ( d{5}) ([nf])(: \r| 
+|\r
+|\r|
+)
+^[[A-Za-z0-9]]{64}
+^ d{1,2}\. d$
+- d{3,}$
+(<=^.{51}).{4,}$
+^[a-z]{1}[a-z0-9]{0,11}$
+^#{1,5}
+(qrouter|qdhcp)-[a-fA-F0-9]{8}
+^ d{5,6}$
+
+\\| +`([^`]+)` +\\| +`(0x[0-9a-f]{2})` +\\| +([a-z_]+ +: +)?`?([^ `|]*)`?[ |]
+^\/{4,} s*$
+## (i:(HEAD|v? d+. d+(. d+)?)( / ( d{4}- d{2}- d{2}))?)
+^[A-Z][A-Z0-9]{2,}
+http://rinfo.lagrummet.se/publ/sfs/(P<arsutgava> d{4}):(P<lopnummer>\w+)#?(k_(P<kapitel>[0-9a-z]+))?(p_(P<paragraf>[0-9a-z]+))?
+
+( d{4}- d{2}- d{2}.
+ d{8}.(:
+ \[ d+\].)+)
+^(.)\|([!-{]{2})([!-{]{2})([!-{]{2}|)([!-{]{2}|)([!-{]{2}|)([!-{]{2}|)([!-{]{2}|)\|(.)$
+^[a-z0-9-]{0,25}$
+(0|1)( d{5})([4-9])( d{1})
+^([a-z]{2,3})-([a-z]{4})-([a-z]{2}| d{3})$
+^(:[a-z]{2} d{9}[a-z]{2}| d{15}| d{14}[a-z])$
+^n      ((:[0-9A-Fa-f]{1,4}(::[0-9A-Fa-f]{1,4}))?) ::n      ((:[0-9A-Fa-f]{1,4}:))n      ( d+)\.( d+)\.( d+)\.( d+)n      $
+^\{?[A-Z0-9]{8}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{12}\}$
+^( d{4})(:-( d{2}))?(:-( d{2}))?$
+assets\/fonts\/icons\.[a-z0-9]{16}\.eot
+[.-]{2}
+^ d+(\. d+)?.*|^ d{4}\/ d{2}\/ d{2}@ d{2}: d{2}: d{2}$
+^(-{5}BEGIN PGP (.)-{5}..*)
+main\.[a-zA-Z0-9]{20}\.js
+^[ d]{0,9}$
+(/{2,})
+\\(<_1>[uU](<_2> h{4}| h{2})| d{1,3}|.)
+\.(P<region>[a-z]{2}-[a-z]+- d{1})\.amazonaws\.com
+^(=.{5,20}.)(![_.])(!.[_.]{2})[a-zA-Z0-9._]+(<![_.])$
+Windows Phone [^;]+; .IEMobile/[^;\)]+[;\)] ?(:ARM; ?Touch; ?|Touch; ?)?(:NOKIA|Nokia)[^;]; *(RM- d{3,})
+^\.2a?\. d d\.*[./0-9A-Za-z]{53}
+.( d{4}).
+^(\+66|66|0) d{9}$
+fo+bar{3}
+\ d{3,}
+ {7}actual: 'Seven'
+(.) \([^\)0-9]( d{4})((\/\w)|(. d{4})|([^\)]))?\)
+^\([a-z0-9\+\/]{20}\)?$
+([-\/\\|!@#.%^&\(\)=_+\[\]\\.?;'":<>]) 1{2,}
+.*_[a-zA-Z]{2}(:-[a-zA-Z]{2})?\.properties$
+^ d{1,2}- d{1,2}- d{2}$
+^( d{4})( PH|(\-( d{4}) PH))\:?$
+[1-7]{3}[a-g]{3}
+([^
+,]+), s([A-Z]{2})(: s( d{5}))
+^ d{1,2}- d{2}$
+^EL[0-9]{9}$
+^([A-Za-z0-9]+\.[a-z\.]{2,5})$
+^(-? d{4})-?( d d)-?( d d)(:T( d d)(::?( d d)(::?( d d)(:\.( d{3}))?)?)?(Z|([+-])( d d):?( d d)))?$
+promo[0-9]{1,3}nm
+h( d{1,3})
+((^ {0,3}>[ \t]?.+
+(.+
+)
+)+)
+^ s[mtsh]? d{2}\. d{2}\. d{2}n    (tn    ( d{2}: d{2}(: d{2}([,.] d)?)?n    (z|[-+] d{2}(:? d{2})?)?)?)? s*$
+^[01]{12}$
+^(<_1>(<_2>âœ‚-{6})+.*
+)
+(.{1,78})(,|.*) ?
+(:\\@[_a-zA-Z0-9]{1,17})|(:(:(:(:http|https|irc)?:\\/\\/(:(:[!.&-.0-9;=?A-Z_a-z]|(:\\%[a-fA-F0-9]{2}))+(:\\:(:[!.&-.0-9;=?A-Z_a-z]|(:\\%[a-fA-F0-9]{2}))+)?\\@)?)?(:(:(:[a-zA-Z0-9][-a-zA-Z0-9]\\.)+(:(:aero|arpa|asia|a[cdefgilmnoqrstuwxz])|(:biz|b[abdefghijmnorstvwyz])|(:cat|com|coop|c[acdfghiklmnoruvxyz])|d[ejkmoz]|(:edu|e[cegrstu])|f[ijkmor]|(:gov|g[abdefghilmnpqrstuwy])|h[kmnrtu]|(:info|int|i[delmnoqrst])|j[emop]|k[eghimnrwyz]|l[abcikrstuvy]|(:mil|museum|m[acdeghklmnopqrstuvwxyz])|(:name|net|n[acefgilopruz])|(:org|om)|(:pro|p[aefghklmnrstwy])|qa|r[eouw]|s[abcdeghijklmnortuvyz]|(:tel|travel|t[cdfghjklmnoprtvwz])|u[agkmsyz]|v[aceginu]|w[fs]|y[etu]|z[amw]))|(:(:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9])\\.(:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[0-9])\\.(:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[0-9])\\.(:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[0-9])))(:\\:\ d{1,5})?)(:\\/(:(:[!#&-;=?-Z_a-z~])|(:\\%[a-fA-F0-9]{2})))?)
+^(622425) d{11}$
+[aeiou]{2,}
+^#?[0-9a-f]{3}(:[0-9a-f]{3})?$
+^(<prefix>[+-]?)(<numeric_part> d{1,}\. d{3}, d{2}(: d)?)(<suffix>)$
+^ d{12,19}$
+^\\x([0-9a-f]{2})$
+^ d{4}-(:0[0-9]{1}|1[0-2]{1})-(3[01]|0[1-9]|[12][0-9])$
+^LU[0-9]{8}$
+^[A-Za-z0-9\-..*~:\/?#&=,]{1,512}$
+( d+)( d{2}\. d+)
+^[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789=+\/]{44}$
+^([A-Z][A-Z0-9]{1,9}-[0-9]+)$
+^[a-z0-9_]{1,63}$
+[a-zA-Z]{3}[0-9]{2}
+^\+ d{10,16}$
+^[0-9A-Fa-f]{4,40}$
+ {3}6 \| - \[x\] Line 6
+^[a-zA-Z0-9\u4E00-\u9FA5]{1}[a-zA-Z0-9\u4E00-\u9FA5-]{0,62}$
+process_max_fds [0-9]{2,}
+[A-Fa-f0-9]{2}
+- d{4}(=-)
+ d{4}- d{2}- d{2}T d{2}: d{2}: d{2}\.{1} d*
+(^[a-z]{2})(-.*)?
+Ruby Enterprise Edition ( d{4}\. d d)
+^[a-z0-9]{40}\.js$
+^\ s*([A-Z]{3,}): s+
+([+-])([0-9]{2}):([0-9]{2})$
+\.{3}|\u2026|,|!
+(.{100}).+
+([a-zA-Z0-9\-\.]+):?([0-9]{2,5})?
+^.*fd d{2}_\w+\.t$
+^ {5}
+^( d{4})\-([01][0-9])\-([0-3][0-9])T([0-2][0-9]):([0-5][0-9]):([0-5][0-9])[\+\-]([0-2][0-9]):([0-5][0-9])$
+^([a-z]{2})(-[A-Z]{2})?$
+Backtrace:(: s+0x4[0-9a-fA-F]{7}:0x3[0-9a-fA-F]{7})+
+[A-Z]{2}- d+( +\( d+\))?
+^([0-9]{4})[\-\/\.]([0-9]{1,2})[\-\/\.]([0-9]{1,2})$
+âš [ ]{3}0:0[ ]{2}Unexpected todo comment.[ ]{13}no-warning-comments
+contents_([a-z]{2})/([^/]+)/.metadata.md
+^([a-z]{2,3})(:,|;|.*)
+^[a-f d]{8}$
+^::(ffff:)?([ da-f]{1,4}):([ da-f]{1,4})$
+^(1)(33|55|81) d{8}$
+[0-9]{14}$
+\w{20}
+\+|\!|\-|&(gt|lt|amp);|\/\=|\||\@|\:|\.|\{2}|\:|\*|\=|#|\.{2}|(\\)[a-zA-Z_]
+^([+-] d{2})(::( d{2}))?$
+^(\\[0-9A-Fa-f]{2})+$
+(binary|string|table)([\?\*]{0,2})?$
+^\#([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})
+^( d{4})-( d d)-( d d)_( d d)-( d d)-( d d)(Z?),( d+)$
+( d{1,3}):([0-5] d):([0-5] d)$
+^\[
+[ ]{2}{
+[ ]{4}
+(P<loc1>[A-Z0-9]{3,4}) s?- s?(P<loc2>[A-Z0-9]{3,4})
+^\#[ da-f]{3}$
+ s{4,}
+^([\+-][0-9]{2})$
+^#?([0-9a-f]{6})$
+(\D+)(:, (:[bdf]l?\. )?(:ca. )? d{4}(:\?| or  d{1,2})?(:-(:[bdf]l?\. )?(:ca. )? d{4}(:\?| or  d{1,2})?)?|(: d{2}th(:/ d{2}th)? cent\.)\.?)
+^[A-Z]{3}$
+^([a-z]{2}(-[A-Z]{2})?)/(.*)$
+^([0-9a-z]{4}:)+[0-9a-z]{4}$
+^( d{1,4})([ s\/\.*.-])( d{1,2}) 2( d{1,4})$
+^[a-fA-F0-9]{12}$
+hulu\.com/watch/([0-9]{4,10})
+\ b[A-Fa-f0-9]{64}\ b
+a{2,}a{2,}
+(:( d{1,3}\. d{1,3}\. d{1,3}\. d{1,3}| s[a-z0-9.-]{3,100}\.[a-z]{2,10}))(: s: s| s+)( d{2,5})
+^[^1] d{6}$
+^n        U \+ [0-9a-fA-F]{4,}n    $
+[ d]{2}
+^[-]{1,2}
+^ d{1,2}/ d{4}$
+\\{2,}
+\x5cx[0-9a-fA-F]{2}
+([a-f0-9]{32})
+ ^n	    ( .rel_re ) \D				# Relative dayn	    (: (  d{2} ) \D				# Hourn		(: (  d{2} ) \D			# Minuten		    (: (  d{2} ) \D )?		# Secondn		)?n	    )? . 
+L_([a-zA-Z]+)([0-9]{0,2})
+^((13[0-9])|(15[^4])|(18[0-9])|(17[0-8])|(147,145)) d{8}$
+^vol-[0-9a-f]{8}
+(^ d+)::([a-f0-9]{32})::(.*)$
+^(( d d d d)-( d d)-( d d)|( d d?)-([A-Za-z]{3})-( d d( d d)?)) s*([ sT]( d d):( d d)(:( d d)(\.( d d d))?)?Z?)?$
+^([0-9]{4})(:[0-9]{2})\/(:[0-9]{2})$
+\, s{2,}
+^([0-9a-f]{40})
+^( d{4})[-/]( d{1,2})[-/]( d{1,2})T([0-2] d):([0-5] d):([0-5] d)$
+\/Date\((-? d+)([-\+]? d{2})?( d{2})?\)\/
+( d{1,3})%? s( d{1,3})%?, s( d{1,3})%? s( d{1,3})%?
+^([0-9]{4})_([0-9]{2})$
+^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$
+([0-9a-f]{8})
+^(: d{3,4}\-)?8? d{7}$
+^utf[\-_]?( d{1,2})?(\w{1,2})$
+^(<prefix>[+-]?)(<numeric_part> d{2,})(<suffix>)$
+^ d{1,7}-? d{2}-?$
+supplemental\/currencyData\/fractions\/[A-Za-z]{3}$
+^ d{3} ? d{2}$
+^[1-9a-hj-km-np-z]{8}$
+^[\-\+][0-9\.,]{8}$
+^value([A-Z]{1,2})$
+^([^ s\xc2\xa0])([ s\xc2\xa0]) p{3}(:[,.] p+)?([ s\xc2\xa0])([^ s\xc2\xa0])$
+^https?:\/\/((www\.|encrypted\.)?google(\.com|\.co)?\.[a-z]{2,3}\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites.googlegroups.com\/a\/google.com\/flash-api-test-harness\/apiharness.swf|([A-Za-z0-9-]{1,63}\.)(imasdk\.googleapis\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|picasaweb\.google\.com|lh2\.google\.com|plus\.google\.com|books\.googleusercontent\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?([\/\?\#]|.))
+^(u?int)( d{1,3})$
+^ d{6}
+id: \"[0-9]{1,3}\"
+name: \/var_b
+^( {0,3})([`~]{3,}) (\\S)?(:.*)
+^ (#{1,6}) ([^
+]) # (:
+|.*)
+\.[a-f0-9]{8}$
+^[0-9a-f]{1,6}
+^[A-Z s]{20,}$
+^QS([NDR])(.{4})(.{6})( d{8})( d{8}| {8})([01]{7})([ SH])([ ABXG])(.{4})(.{6})(.{8})(.{8})(.)$
+ (P<date>(1|2) d{3}) 
+^(<name>.*)( s+\((<type>\w{1,2})\))?$
+^[\.\/0-9A-Za-z]{86}$
+\/video\/([a-z0-9]{25,})
+(<=.{3})(.{4}).*
+60.{2}604052
+^(940012) d{10}$
+^-(\w{2,})$
+^[A-Za-z0-9][A-Za-z0-9!#.*&^_.-]{0,126}$
+ b(A(B(DAY_([1-7])|MON_([0-9]{1,2}))|LT_DIGITS|M_STR|SSERT_(ACTIVE|BAIL|CALLBACK|QUIET_EVAL|WARNING))|C(ASE_(LOWER|UPPER)|HAR_MAX|O(DESET|NNECTION_(ABORTED|NORMAL|TIMEOUT)|UNT_(NORMAL|RECURSIVE))|REDITS_(ALL|DOCS|FULLPAGE|GENERAL|GROUP|MODULES|QA|SAPI)|RNCYSTR|RYPT_(BLOWFISH|EXT_DES|MD5|SALT_LENGTH|STD_DES)|URRENCY_SYMBOL)|D(AY_([1-7])|ECIMAL_POINT|IRECTORY_SEPARATOR|_(FMT|T_FMT))|E(NT_(COMPAT|NOQUOTES|QUOTES)|RA(|_D_FMT|_D_T_FMT|_T_FMT|_YEAR)|XTR_(IF_EXISTS|OVERWRITE|PREFIX_(ALL|IF_EXISTS|INVALID|SAME)|SKIP))|FRAC_DIGITS|GROUPING|HTML_(ENTITIES|SPECIALCHARS)|IN(FO_(ALL|CONFIGURATION|CREDITS|ENVIRONMENT|GENERAL|LICENSE|MODULES|VARIABLES)|I_(ALL|PERDIR|SYSTEM|USER)|T_(CURR_SYMBOL|FRAC_DIGITS))|L(C_(ALL|COLLATE|CTYPE|MESSAGES|MONETARY|NUMERIC|TIME)|O(CK_(EX|NB|SH|UN)|G_(ALERT|AUTH(|PRIV)|CONS|CRIT|CRON|DAEMON|DEBUG|EMERG|ERR|INFO|KERN|LOCAL([0-7])|LPR|MAIL|NDELAY|NEWS|NOTICE|NOWAIT|ODELAY|PERROR|PID|SYSLOG|USER|UUCP|WARNING)))|M(ON_([0-9]{1,2}|DECIMAL_POINT|GROUPING|THOUSANDS_SEP)|YSQL_(ASSOC|BOTH|NUM)|_(1_PI|2_(PI|SQRTPI)|E|L(N10|N2|OG(10E|2E))|PI(|_2|_4)|SQRT1_2|SQRT2))|N(EGATIVE_SIGN|O(EXPR|STR)|_(CS_PRECEDES|SEP_BY_SPACE|SIGN_POSN))|P(ATH(INFO_(BASENAME|DIRNAME|EXTENSION|FILENAME)|_SEPARATOR)|M_STR|OSITIVE_SIGN|_(CS_PRECEDES|SEP_BY_SPACE|SIGN_POSN))|RADIXCHAR|S(EEK_(CUR|END|SET)|ORT_(ASC|DESC|NUMERIC|REGULAR|STRING)|TR_PAD_(BOTH|LEFT|RIGHT))|T(HOUS(ANDS_SEP|EP)|_(FMT(|_AMPM)))|YES(EXPR|STR)) b
+^(13[4-9]|147|15[0-2]|15[7-9]) d{8}$
+<PxPayUserId>Test_Dev<\/PxPayUserId><PxPayKey>\w{64}<\/PxPayKey>
+(\/)((![])(:[^\r
+\[/\\]|\\.|\[(:[^\r
+\]\\]|\\.)\])+)(\/)(!\/)([igm]{0,3})
+^(P<iso_date>\D{3} s+ d{1,2} s+ d{2}: d{2}: d{2}) s+(P<source>.+) s+(P<facility>.+)\[(P<pid> d+)\]: s(P<message>.*)$
+^(:( d{4})(:-( d{2})(:-( d{2}))?)?)?(:(:T( d{1,2}):( d{2}):( d{2}(:\. d+)?)(Z|(:[+-] d{1,2}(::( d{2}))?)))|Z)?$
+[0-9]{1,19}
+^( d{1,2})\/( d{1,2})\/( d{4})$
+\.[A-Z]{3} d{7}\.
+(_0x([a-f0-9]){4,6}): *for
+
+^!ttl!x! d{13}!bar2$
+^ s(={1,6}) s(.) s= s.*(\r?
+)?
+@(att|comcast|bellsouth)\.[a-zA-Z\.]{2,6}$
+(i)^#?([0-9a-f]{3})$
+^[a-z][0-9a-z\-]{2,27}$
+^ s[a-zA-Z][a-zA-Z_-]{0,31} s(\(|=)
+^5019 d{12}$
+^(\w{32})(/( d+))?(;o=( d+))?
+^(:<a?:\w{2,32}:)?( d{17,19})>?$
+^(:(<hr>[+-] d{2}):(<mi> d{2}))$
+-{3,}\r?(:
+|.*)
+[Qq]( d) s*( d{4})
+[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}Z
+^([0-9]{2}|[0-9]{5})$
+^4 d{12}( d{3})?$
+PREFIX\-[0-9]{4}
+^(0|84)(92|186|188)(\ d{7})$
+^( d{11})
+([0-9]{1})([0-9]{3})([0-9]{3})([0-9]{4})
+(:^|[\r
+]) s(:\/{2,})? s(['"])?#((:un)?check)\[([\w,]+)\] 1 s*;?
+ d{1,2}-(ÑƒÐ¼|ÑŽÐ¼)
+^(:#[0-9a-fA-F]{6})$
+waf (P<command>block) (P<addresses>(:\ d{1,3}\\.\ d{1,3}\\.\ d{1,3}\\.\ d{1,3}/\ d{1,2}\ s?)+)
+^[a-z]+(-([A-Z]{2}|[0-9]{3}))?$
+( s+|(<=[\w\!\"\'\&\.\,\?])-{2,}(=\w))
+(\([0-9\+\-]+\)) s?([0-9]{2})\-?([0-9]{2})\-?([0-9]{2})
+\{{3}
+[ ]{2,}
+( )[0-9]{1,2}([^0-9]?)
+[A-Fa-f0-9]{40}
+([-_][a-zA-Z]{3})[a-zA-Z]*
+^(.wr(:ote|ites) s(:|\.{3})) s*$
+^DE[0-9]{9}$
+^[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,63})$
+[\u0100\u0200]{1,3}
+^Job DAG:
+(job_ d{12}_)(.*)
+
+
+^-? d{4}- d{2}- d{2}(:Z|[+-] d{2}:? d{2})?$
+
+{1,2}(=\(!\))
+^.*cc_re{2}
+function \ (_0x[a-f0-9]{4,6}) \(\) *\{
+^([SQPK])[0-9]{7}[A-J]$
+^[a-zA-Z0-9-]{3,50}$
+^([ ]{0,3}(\S.|)
+)
+&#x([ da-f]{1,6});
+[A-Za-z]{3,}
+[A-Z0-9]{4,10}/[A-Z0-9]{2,4}$
+^new file mode ( d{6})
+&#([0-9]{1,3});
+^[=-]{3,}$
+^( d{4})-( d{2})-( d{2})$
+^. b( d{4}){1}\D.*$
+^ s( d{4})(:-( d d)(:-( d d)(:T( d d):( d d)(::( d d)(:\.( d+))?)?(:(Z)|([+\-])( d d):( d d)))?)?)? s$
+^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$
+^( d{4})( d{2})( d{2})( d{2})( d{2})( d{2})\.( d)$
+^[0-9A-F]{2}
+^([0-9]{4})([0-9]{2})$
+( d{2,4})(\/|-)( d{1,2})(\/|-)( d{1,2})
+:[^\/]+\.{3}
+%[a-f d]{2}
+^[a-f0-9]{7}$
+/(.*)/(objects/pack/pack-[0-9a-f]{40}\.idx)$
+^(\w+[^.]+)\.{2,}\: s*(.+)$
+[0-9abcdefABCDEF]{6}
+  hanami db migrate [ d]{14} # Migrate to a specific version
+^\D?( d{3})\D?\D?( d{3})\D?( d{4})$
+[.] d{3}
+^[ d]{1,5}$
+(:
+
+|^)(: s{4,}lang(:uage)?: s(\w+) s
+)?((: s{4}.
+)+)(^ s{0,3}\S|.*)?
+(\.*i( d{3}))( d)
+^(<hr> d{2}):(<mi> d{2})(<se>)(<ms>)
+.{3,4}
+^ d{4}[\/\-] d{1,2}$
+^([xX]{1}[0-9]{2,6}|[0-9]{3,7})$
+^\([ d,]+\. d{2}\)$
+^(0|1{2,4}0)([01]+)$
+^#?([0-9A-F]{3}|[0-9A-F]{6})$
+^ d{4}- d{2}- d{2}T d{2}: d{2}: d{2}.+$
+^[[A-Fa-f0-9]]{8}-[[A-Fa-f0-9]]{4}-[1-5][[A-Fa-f0-9]]{3}-[89abAB][[A-Fa-f0-9]]{3}-[[A-Fa-f0-9]]{12}$
+(0|1)( d{5})(5)( d{1})
+^(= d{11}.*)^1(:3 d|4[57]|5[^4\D]|6[67]|7[^249\D]|8 d|9[189]) d{8}$
+[ d]{1,3}$
+^([ da-fA-F]{32})v( d+)(\.[0-9a-zA-Z]+)?$
+^\+55 s?[1-9] d s?[2-5] d{3}-? d{4}$
+^ d{3}\. d{3}\. d{3}\- d{2}$
+^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}$
+^(\{{0,1}([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12}\}{0,1})$
+[ M?]{2} (.*\.rb)
+ b s{3} b
+^(\ u[0-9A-F]{4}|\\U[0-9A-F]{8}|\\\\|[\u0020-\u0021\u0023-\u005B]|[\u005D-\u10FFFF]|\\t|\
+|\\r|\\"|\u0009|\u000A|\u000D|"[^"]|""[^"])*
+^([0-9]{4})-([0-9]{2})-([0-9]{2})([Tt]([0-9]{2}):([0-9]{2}):([0-9]{2})(\.[0-9]+)?)?([Tt]([0-9]{2}):([0-9]{2}):([0-9]{2})(\\.[0-9]+)?)?(([Zz]|([+-])([0-9]{2}):([0-9]{2})))?
+n    ((\([Dd][Oo][Ii]( s)\)?:?( s))       # 'doi:' or 'doi' or '(doi)' (upper or lower case)n    |(https?://(dx\.)?doi\.org\/))?         # or 'http://(dx.)doi.org/'  (neither has to be present)n    (P<doi>10\.                            # 10.                        (mandatory for DOI's)n     d{4}                                   # [0-9] x4n    (/|%2f)                                 # / (possibly urlencoded)n    [\w\-_:;\(\)/\.<>]+                     # any charactern    [\w\-_:;\(\)/<>])                       # any character excluding a full stopn    
+.(.{20})?
+(i) b(P<trigger>[0-9]{10}|[0-9]{12}|[0-9]{15}|[0-9]{20}) b
+^ {0,3}\|(.+)
+ {0,3}\| s([\-:]+[\-| :])
+((: s\|.(:
+|.)))(=
+|.*)
+ s{3,}(Ã¢Â‚Â¬|Ã‚Â£|\.): s(Ã¢Â‚Â¬|Ã‚Â£|\.*)>
+pyWinUSB\/\w{40}\/source\/(.*\/)
+{
+{2,}
+^(0[1-9]|[1-2][0-9]|3[0-1])-([a-z]|[A-Z]){3}-[0-9]{4}.*$
+(\w{3,})ØªÙ…(\W)
+^\(function \(\) {function _0x[a-f0-9]{4,6} \(_0x[a-f0-9]{4,6}\) *\{
+.*R/q/( d{14})
+^(620010) d{10}$
+^(P<level>#{1,6})(P<rest>.*)
+^-?[1-9] d{0,8}$
+^bpm([1-9] d+(:\. d+)?) s*( d+)\.( d+).( d{1,3})$
+(:(\: s{1,}))(.+S d{1,3}[.-_ ]?[ED] d{1,3}.+)( s{2,}|\r|
+)
+97(:8|9)([ -]?) d{1,5} 1 d{1,7} 1 d{1,6} 1 d
+Linux Ventana; [a-z]{2}-[a-z]{2}; (.+) Build
+^ d{4}-(:0[0-9]{1}|1[0-2]{1})-[0-9]{2}[tT ] d{2}: d{2}: d{2}(\. d+)?([zZ]|[+-] d{2}: d{2})$
+^ d{3}\+
+^(628275|622565|622287) d{10}$
+(\w{3,})ÙƒÙ…(\W)
+^ d{8}T d{6}(:?Z(:?- d{2}(:? d{2})?)?)?$
+.LED smask: s d{4}([01]) d{3}.*
+^(<gp> d+)\.(<sp> d{2})(<cp> d{2})$
+^={2}(P<string>.*)={2}
+^[\w]{2,}
+\.(([a-z0-9]{2,})(:[._][a-z0-9]+|\[ s['"](:[^\/])['"] s\])*)
+\\([ da-fA-F]{4}) s?
+\\(<_1>[ntrf\\'"]|(<_2>[0-7]{3}))
+^( d{3})
+start_(:time|date): .+(<tz>(:-|\+) d{2}: d{2})$
+^( d{2})( d{2})
+^[a-z][0-9a-z_\-:\./]{0,199}$
+(
+) {2}
+\|.*[
+\r]{1,2}
+ s(rgb\(.+\)|#\w{3,6}|[^#]?[a-z]{3,}) s
+^(\-? d+(\. d{1,2})?)@s$
+(\W)ÙˆØ§Ù„(\w{3,})
+^[0-9]{5}-
+^([a-z]{2,3})_([A-Z]{2,3})$
+SEPA-KING\/[0-9a-z_]{22}
+(i) b(P<trigger>(1Z ?[0-9A-Z]{3} ?[0-9A-Z]{3} ?[0-9A-Z]{2} ?[0-9A-Z]{4} ?[0-9A-Z]{3} ?[0-9A-Z]|T d{3} ? d{4} ? d{3}| d{22})) b
+!\[(.)] s?\([ \t]()<?(\S+)>?(: =([ d]+[A-Za-z%]{0,4})x([ d]+[A-Za-z%]{0,4}))?[ \t](:(['"])(.) 6[ \t]*)?\)
+([+-] d{1,2}):?( d{2})
+^62[0-5] d{13,16}$
+^( d{4}- d{2}- d{2})?$
+( d{1,3})\.( d{1,3})\.( d{1,3})([ \-](\w+))?
+^((http(s)?):)?\/\/((((lh[3-6](-tt|-d[a-g,z])?\.((ggpht)|(googleusercontent)|(google)))|(([1-4]\.bp\.blogspot)|(bp[0-3]\.blogger))|((((cp|ci|gp)[3-6])|(ap[1-2]))\.(ggpht|googleusercontent))|(gm[1-4]\.ggpht)|(((yt[3-4])|(sp[1-3]))\.(ggpht|googleusercontent)))\.com)|(dp[3-6]\.googleusercontent\.cn)|(dp4\.googleusercontent\.com)|(photos\-image\-(dev|qa)(-auth)?\.corp\.google\.com)|((dev|dev2|dev3|qa|qa2|qa3|qa-red|qa-blue|canary)[-.]lighthouse\.sandbox\.google\.com\/image)|(image\-dev\-lighthouse(-auth)?\.sandbox\.google\.com(\/image)?))\/|^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com|xfx7\.com|yt\.akamaized\.net)(:[0-9]+)?\/
+\w[-\w.',;& ]+((s d{1,2}[._ -]?[bde] d{1,2})| d{1,2}x d{2}|ep[._ -]? d{2})[._ -](480|720|1080)[ip][._ -](BD(-?(25|50|RIP))?|Blu-?Ray ?(3D)?|BRRIP|CAM(RIP)?|DBrip|DTV|DVD\-?(5|9|(R(IP)?|scr(eener)?))?|[HPS]D?(RIP|TV(RIP)?)?|NTSC|PAL|R5|Ripped |S?VCD|scr(eener)?|SAT(RIP)?|TS|VHS(RIP)?|VOD|WEB-DL)[._ -]nSD[._ -](DivX|[HX][._ -]?264|MPEG2|XviD(HD)?|WMV)[._ -]NhaNC3[-\w.',;& ]+\w
+([+-]{3}.)\t.
+^-?[0-9]{1,12}$
+(<![[A-Za-z]])[\-]?(:0x[[A-Fa-f0-9]]{1,4}| d+(\. d+)?)(![[A-Za-z]])
+^(:When )?I request a section with id ([a-f0-9]{24}) for an org with id ([a-f0-9]{24})$
+(\*){2,}\/
+\\?([0-9a-f]{1,6})
+^[fF]_[0-9a-fA-F]{6}$
+^  \+ duration: ([0-9]{2}):([0-9]{2}):([0-9]{2})
+^(:[a-zA-Z0-9\-_]+\/)?(:[a-zA-Z0-9\-_]+@)?(:[a-f0-9]{7,40} b)
+[n]{1,2}
+^ d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01]).|^(:(:(:0?[13578]|1[02])(\/|-)31)|(:(:0?[1,3-9]|1[0-2])(\/|-)(:29|30)))(\/|-)(:[1-9] d d d| d[1-9] d d| d d[1-9] d| d d d[1-9]).|^(:(:0?[1-9]|1[0-2])(\/|-)(:0?[1-9]|1 d|2[0-8]))(\/|-)(:[1-9] d d d| d[1-9] d d| d d[1-9] d| d d d[1-9]).*|^(0?2(\/|-)29)(\/|-)(:(:0[48]00|[13579][26]00|[2468][048]00)|(: d d)?(:0[48]|[2468][048]|[13579][26]))$
+( d* smins sago)|(Today|Y-day) s d d: d d| d d- d d s( d d: d d| d{4})
+^(P<hour> d{2}):(P<min> d{2}):(P<sec> d{2})\.(P<nsec> d{9})$
+(P<start> d{1,2}: d{1,2}: d{1,2}) s-(P<end> s d{1,2}: d{1,2}: d{1,2})
+test\. d{2}: d{2}\.log$
+^(622717) d{10}$
+\/{2}
+^#{3}(P<mode>\\.{1,2}) 
+^CLASS s{7}
+p([0-9]|[a-f]){16}p-
+ d{8}T d{6}
+a{2,}a{1,2}
+^[a-zA-Z][a-zA-Z0-9_]{0,127}$
+^CHE[0-9]{9}(MWST)?$
+(n|\ 0{0,4}(4e|6e)(\r
+|[ \t\r
+\f])?|\
+)
+import \ as (bark_0x[a-f0-9]{4,6}) from '\.\/foo';
+(^.|^(([^<>()[\]\\.,;: s@"]+(\.[^<>()[\]\\.,;: s@"]+))|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,})).*)
+20 d{2}
+^[0-9]{44}$
+(<= s|^)(<!\\)([_]{1,3})(.)(!\\) 1(=[ s[ p]]|.*)
+^[A-Z]{1,2}([1-9][0-9A-HJKMNPR-Y]?|0[A-HJKMNPR-Y]?)$
+(.+)#( d{4})
+ ( d{1,2}) Ð² ÐœÐ°Ñ€Ñ‚Ðµ
+ d{4}/ d{1,2}/ d{1,2} + d{1,2}
+<anonymous>:([ d]){1,10}:([ d]{1,10})
+(: s|^|\W)([A-Z]{1,10}-[1-9][0-9]*) b
+\.\w{2,8}(.*|\?)+
+^#{0,1}([0-9a-z]{2})([0-9a-z]{2})([0-9a-z]{2})$
+^(( d{4})-( d d)-( d d)T( d d):( d d):( d d)|( d{4})-( d d)-( d d)T( d d):( d d)|( d{4})-( d d)-( d d)|( d{4})-( d d)|( d d d d))$
+^( d{1,2})[-\/]( d{1,2})[-\/]( d{4})$
+^ s{8,}
+( d{4})( d{2})( d{2})( d{2})( d{2})( d{2})\.( d)Z
+(:youtube(:-nocookie)?\.com\/(:[^\/]+\/.+\/|(:v|e(:mbed)?)\/|n           .*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})
+ {4}'myHouse.handle'
+^ (`{3,}|~{3,}) (\S+)? 
+([ s\S]+) s 1 (:
+ )+
+
+[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}$
+ s*( d{3,4}Z)
+^ {3}(<_1>[a-zA-Z0-9]+: )
+n    ^                                      # Start of stringn    %?                                      # Start sentineln    [bB]                                    # Format coden    ( d{12,19}| d{4} s d{6} s d{5})         # PANn    \^                                      # Field separatorn    (                                       # Name fieldn      ( d{3})?                              # Country coden      (=[^^]{2,26})                        # Lookahead assertionn      ([^\/]+)                              # Surnamen      (:\/?([^.]+)(:\.?([^^]+))?)?        # Given name and titlen    )                                       #n    \^                                      # Field separatorn    ( d{4})                                 # Expirationn    ( d{3}|\^)                              # Service coden    ([^?])                                 # Discretionary datan    \?                                     # End sentineln    .                                      # End of stringn  
+\=[ da-f]{0,2}$
+^( d+)( d{6})\D?
+^ d{1,2}(:? d{1,2})?([\.:]? d{1,2}([\.:] d{1,6})?)?$
+^ s{4}([^ s}]+)
+n				(http:\/\/)					# http://n				([A-Za-z0-9\.\-]+)	 		# hostnamen				(:([0-9]{1,5}))? 			# :portn				(\/.|.)					# the pathn			
+(^|
+)(=+[^=
+]+=+)[
+]{2,}
+^(836) d{5}$
+^5[1-5]([0-9]{14})$
+^DAILY\|(( d{2}: d{2})(, d{2}: d{2})*)$
+[a-z0-9]{20,}
+^-rw-r--r--(: s+ d+)? s+(:system| d+ s+ d+) s+(:system| d+) s+( d+) s+( d{4}- d{2}- d{2}  d{2}: d{2}|\w{3}  d{2} s+(: d{4}| d{2}: d{2})) s+(.*)$
+^([rgba]){1,4}$
+^(<prefix>[+-]?)(<numeric_part> d{1,}\. d{3}, d{3})(<suffix>)$
+\.*([0-9A-Fa-f]{4})
+-{69,71}
+^[-+][01] d{3}$
+ b(: d{4}) b
+^(.*): [a-z0-9]{7}
+S{2,}
+ d{1,2}-(Ð¹|Ð³Ð¾|Ñ)
+ d{2}\.0\.0
+^\^([^\^]{1,120})\^
+044  d{2}  d{4}  d{4}
+Holesize (P<toolid>[0-9]{1,2})\. = (P<size>[0-9/.]+) Tolerance = \+(P<xtol>[0-9/.]+)/-(P<ytol>[0-9/.]+) (P<plated>(PLATED)|(NON_PLATED)|(OPTIONAL)) MM Quantity = [0-9]+
+1.0 d+\:(:.*)(.{11})
+[A-Z]{2}\-[0-9]{3}\-[A-Z]{2}
+android.+[;\/ s]+(Venue[ d s]{2,7}) s+build
+#(.{2})(.{2})(.{2})
+^-? d+ d{2}$
+(s)( s{0,5}</div>)? s{0,3}</body>.*$
+ b(\w{3,5}:\/\/[^ s\t,()<>\[\]"']+[^ s\t.,;()<>\[\]"'])
+^([[A-Fa-f0-9]]{4,6})$
+^[a-zA-Z][a-zA-Z0-9_]{2,31}$
+^((http(s)?):)?\/\/((((lh[3-6](-tt|-d[a-g,z])?\.((ggpht)|(googleusercontent)|(google)))|(([1-4]\.bp\.blogspot)|(bp[0-3]\.blogger))|((((cp|ci|gp)[3-6])|(ap[1-2]))\.(ggpht|googleusercontent))|(gm[1-4]\.ggpht)|(((yt[3-4])|(sp[1-3]))\.(ggpht|googleusercontent)))\.com)|(dp[3-6]\.googleusercontent\.cn)|(dp4\.googleusercontent\.com)|(photos\-image\-(dev|qa)(-auth)?\.corp\.google\.com)|((dev|dev2|dev3|qa|qa2|qa3|qa-red|qa-blue|canary)[-.]lighthouse\.sandbox\.google\.com\/image)|(image\-(dev|qa)\-lighthouse(-auth)?\.sandbox\.google\.com(\/image)?))\/|^https?:\/\/(([A-Za-z0-9-]{1,63}\.)(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|plus\.google\.com|mail\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com|xfx7\.com|yt\.akamaized\.net|chat\.google\.com)(:[0-9]+)?\/|([A-Za-z0-9-]{1,63}\.)(sandbox\.google\.com)(:[0-9]+)?\/(!url b))
+(\+|-) d{2}: d{2}$
+^( d{8,12})(\.( d{2}))?$
+\?d=([ d]{1,4})x([ d]{1,4})$
+Copyright s+\(C\) s(<pre_year>.)-?(<cur_year> d{4}) s+(<company>.+)
+^\w[\w\-\.]+\@[a-zA-Z0-9\-\.]+\.[a-z]{2,}$
+^[\u0020-\u007E\u00A0-\u00FF]{1,100}$
+^INFO 192.0.2.1:1234 "1.1.1.1, 1.2.2.2, 1.2.3.3" "POST / HTTP/1.1" 200 9 0. d{6} "-" "-"$
+^(127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})
+^[234567abcdefghijklmnopqrstuvwxyz]{16}$
+\.log\. d{4}- d{2}- d{2}$
+^anomalies-([0-9]{8})-[0-9]{6}.txt$
+^(<yr> d{4})-(<mo> d{2})-(<da> d{2})T(<hr> d{2}):(<mi> d{2})(<se>(<ms>))
+^[A-Za-z0-9+/]*={0,2}$
+^62[24-68][ dx]{13}$
+ b[A-Z0-9_]{2,} b
+ d{4}- d{2}- d{2}T d+: d+: d+\+ d+: d+
+\@RSYNCD: AUTHREQD (.{22})
+[&\?]#[0-9]{1,3};

@@ -1,0 +1,9 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+(.{1,980}[,])\s+(\S);1;100025;4598;1;980;980;980;2,388097;7;17;1414;Text generated.
+\x20[^\x21\x22]{500};1;32630;52133;1;500;500;500;15,524542;2;4;0;TIMEOUT GEN TEXT.
+\x3C[^\x3E\x0a]{500};1;25602;41021;1;500;500;500;12,191403;2;4;0;TIMEOUT GEN TEXT.
+^SOML FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,1000};1;100289;3831;3;1000;1400;401;1,070687;45;203;1932;Text generated.
+^SEND FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,1000};1;100289;3831;3;1000;1400;401;1,070687;45;203;1965;Text generated.
+php.*\x3f[^\n]{256};1;23752;42822;1;256;256;256;7,463902;15;65;0;TIMEOUT GEN TEXT.
+php.*\x3f[^\n]{256};1;30016;54157;1;256;256;256;9,425561;15;65;0;TIMEOUT GEN TEXT.
+php.*\x20[^\n]{256};1;20359;36811;1;256;256;256;6,414434;15;65;0;TIMEOUT GEN TEXT.

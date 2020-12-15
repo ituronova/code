@@ -1,0 +1,7 @@
+/world\n.{40}
+/hello\n.{40}
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300}
+\n\s{25,26}
+\$31\$(\d\d?)\$(.{43})
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300}
+\n\s{25,26}

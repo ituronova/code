@@ -1,0 +1,7 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+VeryLongRegExp!{1,1000}$;1;1015;1015;1;Text generated.
+a265627a7a72305820([0-9a-f]{64})6c6578706572696d656e74616cf50037$;;;;;TIMEOUT while finding cycles.
+a165627a7a72305820[a-fA-F0-9]{64}0029$;;;;;Error while finding cycles: Index je mimo hranice pole.
+a165627a7a72305820[a-fA-F0-9]{64}0029$;495;16082;20021;3;TIMEOUT.
+a165627a7a72305820[0-9a-zA-Z_]{64}0029([0-9a-zA-Z_]*)$;;;;;TIMEOUT while finding cycles.
+^QB([NDR])(.{12})(.{8})(.{8})(.{24})(.{24})$;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.

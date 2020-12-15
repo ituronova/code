@@ -1,0 +1,6 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+.* [rR][eE][nN][aA][mM][eE] [^\x0a]{1000};TIMEOUT.
+^POST [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1000,};TIMEOUT.
+.* [fF][iI][nN][dD] [^\x0a]{1000};TIMEOUT.
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1000,};TIMEOUT.
+\sCREATE\s[^\n]{1000};TIMEOUT.

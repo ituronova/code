@@ -1,0 +1,7 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+.{191}(.{16})(.{16})==;1;226;226;3;191;223;223;0,025422;17;95;7559;Text generated.
+\$?([\w\d]{40})(~|=)([\w\d]{1,19}) ([\w-]+)==;2;107;107;2;40;59;40;0,001852;18;74;7638;Text generated.
+(.)(.{11})(.{20})(.{32})==;1;67;67;3;32;63;52;0,001548;17;95;7789;Text generated.
+(\d{3,})\s?(\w{0,5})\s([a-zA-Z]{2,30})\s([a-zA-Z]{2,15})\.?\s?(\w{0,5})==;41;212;210;5;30;58;8;0,000659;38;263;8126;Text generated.
+.{84}.*\\x20[wW]\x20[iI]\x20[nN]\x20[rR]\x20[eE]\x20[gG]\x20==;1;104;104;1;84;84;84;0,005166;38;109;8255;Text generated.
+/(.*)/(objects/pack/pack-[0-9a-f]{40}\.pack)$==;ERROR WHILE CONVERTING TO DCA.

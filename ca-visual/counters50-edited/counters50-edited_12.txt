@@ -1,0 +1,98 @@
+^{SSHA512}[a-z0-9\/+]{96}$
+^<([a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>
+^<([a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>
+^<([a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*)>
+^={10,100}$
+^={75}\n
+^={77}$
+^={80}$
+^0{127}
+^0x[0-9a-f]{64}$
+^0x[0-9a-zA-Z]{64}$
+^0x[ABCDEF0-9]{8,64}$
+^0x[a-f0-9]{4}[a-f0-9]{16}[a-f0-9]{64}$
+^0x[a-f0-9]{60}[ \n\t\r\f]0x[a-f0-9]{40}$
+^0x[a-f0-9]{64}$
+^0x[a-f0-9]{66}$
+^0x[a-fA-F0-9]{64}$
+^0x0100[a-f0-9]{88}$
+^0x0200[a-f0-9]{136}$
+^1{11}|2{11}|3{11}|4{11}|5{11}|6{11}|7{11}|8{11}|9{11}|0{11}$
+^234[5-9][0-9]{1000}$
+^6P[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{56}$
+^A-[A-Za-z0-9:]{95}$
+^a=[^\r\n]{256}
+^abstract[ \n\t\r\f]+class[A-Za-z0-9_ \n\t\r\f]{1,100}{
+^ALLO[ \t][^\n]{200}
+^amp-[a-z0-9A-Z_.-]{22,64}$
+^APOP[ \n\t\r\f][^\n]{256}
+^APOP[ \n\t\r\f]+USER[ \n\t\r\f][^\n]{256}
+^APPE[ \t][^\n]{200}
+^ATCO-CIF([0-9][0-9])([0-9][0-9])(.{32})(.{16})([0-9]{8})([0-9]{4,6})$
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128}
+^AUTHINFO[ \n\t\r\f]+USER[ \n\t\r\f][^\n]{200}
+^BLN([0-9])([a-z0-9_ \-]{5}):(.{0,67})
+^BLN([A-Z])([a-zA-Z0-9_ \-]{5}):(.{0,67})
+^BOR-STATUS[ \n\t\r\f]{10}[ \n\t\r\f].{5}[ \n\t\r\f]L[ \n\t\r\f](.{50})[ \n\t\r\f](.*)$
+^CEL[ \t][^\n]{100}
+^CMD[ \t][^\n]{200}
+^Composer version (?:1.0-dev \([0-9a-f]{40}\)|[0-9a-f]{40}) 2[0-9]{3}-(?:0[0-9]|1[0-2])-(?:[0-2][0-9]|3[0-1]) (?:[0-1][0-9]|2[0-3]):[0-5][0-9]:(?:[0-5][0-9]|60)$
+^CONNECT[ \n\t\r\f][^ \n\t\r\f]{1024}
+^Content-Type:[ \n\t\r\f](.{0,100}charset=[^\n]+)
+^copay:[0-9A-HJ-NP-Za-km-z]{70,80}$
+^COPY[^s]{432}
+^CWD[ \t][^\n]{180}
+^data:([a-z0-9][a-z0-9\!\#\$\&\-\^\\_\+\.]{0,126}\/[a-z0-9][a-z0-9\!\#\$\&\-\^\\_\+\.]{0,126}(;[a-z0-9\-]+\=[a-z0-9\-]+)?)?(;base64)?,[a-z0-9\!\$\&\'\,\(\)\*\+\,\;\=\-\.\\_\~\:\@\/\?\% \n\t\r\f]*[ \n\t\r\f]*$
+^DELE[ \t][^\n]{100}
+^DELETE[^s]{432}
+^DESCRIBE[ \n\t\r\f][^\n]{300}
+^ETRN[ \n\t\r\f][^\n]{500}
+^EXPN[^\n]{255,}
+^FOLD[ \n\t\r\f][^\n]{256}
+^from [^ \n\t\r\f]+ by [^ \n\t\r\f]+ \(.{0,100}\) with qmail-scanner
+^GET[^s]{432}
+^github\.com/[a-z0-9A-Z_.-]{1,100}/[a-z0-9A-Z_.-]{1,100}$
+^gpg:[ \n\t\r\f]+using subkey ([a-f0-9]{16,40}) instead of primary key ([a-f0-9]{16,40})$
+^grub\.pbkdf2\.sha512\.[0-9]+\.([a-f0-9]{128,2048}\.|[0-9]+\.)?[a-f0-9]{128}$
+^hash: ([0-9]{10}-[0-9a-f]{64})$
+^HEAD[^s]{432}
+^HELO[ \n\t\r\f][^\n]{500}
+^HELP[ \t][^\n]{200}
+^HELP[ \n\t\r\f][^\n]{500}
+^hsl\([ \n\t\r\f]{0,31}[\-\.]?[0-9]+[ \n\t\r\f]{0,31},[ \n\t\r\f]{0,31}\.?[0-9]+%[ \n\t\r\f]{0,31},[ \n\t\r\f]{0,31}\.?[0-9]+%[ \n\t\r\f]{0,31}\)|hsla\([ \n\t\r\f]{0,31}[\-\.]?[0-9]+[ \n\t\r\f]{0,31},[ \n\t\r\f]{0,31}\.?[0-9]+%[ \n\t\r\f]{0,31},[ \n\t\r\f]{0,31}\.?[0-9]+%[ \n\t\r\f]{0,31},[ \n\t\r\f]{0,31}\.?[0-9]+[ \n\t\r\f]{0,31}\)$
+^http:\/\/0\.[a-z0-9\-_]+\.[a-z0-9\-_]+\.l2gfe\.[a-z0-9_]+\.([a-z]{2}|i)\.borg\.google\.com(:[0-9]+)?\/|^https?:\/\/((?:uytfe\.corp|dev-uytfe\.corp|uytfe\.sandbox)\.google\.com\/|([-a-z0-9A-Z_]*www[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*web[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*canary[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*dev[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]{1,3}\.)+youtube(education|-nocookie)?\.com\/|([a-z]+\.)?[a-z0-9\-]{1,63}\.([a-z]{3}|i)\.corp\.google\.com(:[0-9]+)?\/|(docs|drive)\.google\.com\/(a\/[^/\%]+\/|)|[A-Za-z0-9]+(-v6)?\.prod\.google\.com(:[0-9]+)?\/|m?web-ppg\.corp\.google\.com\/|play\.google\.com\/)
+^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?ethereum\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+)
+^https:\/\/example\.com\/authorization\?client_id=1234&nonce=[a-z0-9A-Z_0-9]{32}&response_type=code&scope=openid&state=[a-z0-9A-Z_0-9]{32}$
+^https:\/\/example\.com\/authorize\?client_id=1234&nonce=[a-z0-9A-Z_0-9]{32}&response_type=code&scope=openid&state=[a-z0-9A-Z_0-9]{32}$
+^https?://(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+[A-Z]{2,6}\.?|localhost|[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})(?::[0-9]+)?(?:/?|/[^ \n\t\r\f]+)$
+^https?://(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+[A-Z]{2,6}\.?|localhost|[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})(?::[0-9]+)?(?:/?|[/?][^ \n\t\r\f]+)$
+^https?:\/\/(([-a-z0-9A-Z_]*www[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*web[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*canary[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*qa[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]*dev[-a-z0-9A-Z_]*\.|[-a-z0-9A-Z_]{1,3}\.)+youtube(education|-nocookie)?\.com\/|[a-z0-9\-]{1,63}\.([a-z]{3}|i)\.corp\.google\.com(:[0-9]+)?\/|0\.borg-playground-[a-z0-9\-]+\.youtube-dev\.([a-z]{2}|i)\.borg\.google\.com(:[0-9]+)?\/|web-ppg\.corp\.google\.com\/|(docs|drive)\.google\.com\/(a\/[^/\%]+\/|)|play\.google\.com\/|[A-Za-z0-9]+\.prod\.google\.com(:[0-9]+)?\/)
+^https?:\/\/(([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|2mdn\.net|googlesyndication\.com|corp\.google\.com|borg\.google\.com|googleads\.g\.doubleclick\.net|prod\.google\.com|static\.doubleclick\.net|static\.googleadsserving\.cn|studioapi\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube\-nocookie\.com|youtubeeducation\.com|ytimg\.com)(:[0-9]+)?\/|lightbox-(demos|builder)\.appspot\.com\/|s[01](qa)?\.2mdn\.net\/ads\/richmedia\/studio\/mu\/templates\/tetris|tpc\.googlesyndication\.com\/safeframe\/|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris|www\.gstatic\.com\/doubleclick\/studio\/innovation\/ytplayer)
+^https?:\/\/(([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleads\.g\.doubleclick\.net|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|picasaweb\.google\.com|get\.google\.com|lh2\.google\.com|plus\.google\.com|spaces\.google\.com|books\.googleusercontent\.com|blogger\.com|mail\.google\.com|play\-books\-internal\-sandbox\.googleusercontent\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube\-nocookie\.com|youtubeeducation\.com|vevo\.com|jamboard\.google\.com)(:[0-9]+)?\/|(www\.|encrypted\.)?google\.(cat|com(\.(a[fgiru]|b[dhnorz]|c[ouy]|do|e[cgt]|fj|g[hit]|hk|jm|kh|kw|l[bcy]|m[mtxy]|n[afgip]|om|p[aeghkry]|qa|s[abglv]|t[jnrw]|ua|uy|vc|vn))?|a[cdelmstz]|c[acdfghilmnvz]|b[aefgijsty]|ee|es|d[ejkmz]|g[aefglmpry]|f[imr]|i[emoqrst]|h[nrtu]|k[giz]|je|jo|m[degklnsuvw]|l[aiktuv]|n[eloru]|p[lnst]|s[cehikmnort]|r[osuw]|us|t[dgklmnot]|ws|vg|vu|co\.(ao|bw|ck|cr|i[dln]|jp|ke|kr|ls|ma|mz|nz|th|tz|u[gkz]|ve|vi|z[amw]))\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites\.googlegroups\.com\/a\/google\.com\/flash-api-test-harness\/apiharness\.swf|lightbox-(demos|builder)\.appspot\.com\/|s0\.2mdn\.net\/instream\/html5\/native\/|s[01](qa)?\.2mdn\.net\/ads\/richmedia\/studio\/mu\/templates\/tetris|tpc\.googlesyndication\.com\/safeframe\/|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris)
+^https?:\/\/(([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleads\.g\.doubleclick\.net|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|picasaweb\.google\.com|get\.google\.com|lh2\.google\.com|plus\.google\.com|spaces\.google\.com|books\.googleusercontent\.com|blogger\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube\-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?\/|(www\.|encrypted\.)?google\.(cat|com(\.(a[fgiru]|b[dhnorz]|c[ouy]|do|e[cgt]|fj|g[hit]|hk|jm|kh|kw|l[bcy]|m[mtxy]|n[afgip]|om|p[aeghkry]|qa|s[abglv]|t[jnrw]|ua|uy|vc|vn))?|a[cdelmstz]|c[acdfghilmnvz]|b[aefgijsty]|ee|es|d[ejkmz]|g[aefglmpry]|f[imr]|i[emoqrst]|h[nrtu]|k[giz]|je|jo|m[degklnsuvw]|l[aiktuv]|n[eloru]|p[lnst]|s[cehikmnort]|r[osuw]|us|t[dgklmnot]|ws|vg|vu|co\.(ao|bw|ck|cr|i[dln]|jp|ke|kr|ls|ma|mz|nz|th|tz|u[gkz]|ve|vi|z[amw]))\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites\.googlegroups\.com\/a\/google\.com\/flash-api-test-harness\/apiharness\.swf|lightbox-(demos|builder)\.appspot\.com\/|s[01](qa)?\.2mdn\.net\/ads\/richmedia\/studio\/mu\/templates\/tetris|tpc\.googlesyndication\.com\/safeframe\/|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris)
+^https?:\/\/(([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleads\.g\.doubleclick\.net|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|picasaweb\.google\.com|get\.google\.com|lh2\.google\.com|plus\.google\.com|spaces\.google\.com|books\.googleusercontent\.com|blogger\.com|mail\.google\.com|play\-books\-internal\-sandbox\.googleusercontent\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube\-nocookie\.com|youtubeeducation\.com|vevo\.com|jamboard\.google\.com)(:[0-9]+)?\/|(www\.|encrypted\.)?google\.(cat|com(\.(a[fgiru]|b[dhnorz]|c[ouy]|do|e[cgt]|fj|g[hit]|hk|jm|kh|kw|l[bcy]|m[mtxy]|n[afgip]|om|p[aeghkry]|qa|s[abglv]|t[jnrw]|ua|uy|vc|vn))?|a[cdelmstz]|c[acdfghilmnvz]|b[aefgijsty]|ee|es|d[ejkmz]|g[aefglmpry]|f[imr]|i[emoqrst]|h[nrtu]|k[giz]|je|jo|m[degklnsuvw]|l[aiktuv]|n[eloru]|p[lnst]|s[cehikmnort]|r[osuw]|us|t[dgklmnot]|ws|vg|vu|co\.(ao|bw|ck|cr|i[dln]|jp|ke|kr|ls|ma|mz|nz|th|tz|u[gkz]|ve|vi|z[amw]))\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites\.googlegroups\.com\/a\/google\.com\/flash-api-test-harness\/apiharness\.swf|lightbox-(demos|builder)\.appspot\.com\/|s[01](qa)?\.2mdn\.net\/ads\/richmedia\/studio\/mu\/templates\/tetris|tpc\.googlesyndication\.com\/safeframe\/|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris)
+^https?:\/\/((www\.|encrypted\.)?google(\.com|\.co)?\.[a-z]{2,3}\/(search|webhp)\?|(101epmpngvqtgfsf73utp3aomcvh4be6|mb33edaaot4tnevadfqhve4857kpq1rs|ot5106nq9r49sc62k7h52rtfngv5j94j)-a-hangout-opensocial\.googleusercontent\.com\/|24e12c4a-a-95274a9c-s-sites.googlegroups.com\/a\/google.com\/flash-api-test-harness\/apiharness.swf|([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/((www\.|encrypted\.)?google(\.com|\.co)?\.[a-z]{2,3}\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites.googlegroups.com\/a\/google.com\/flash-api-test-harness\/apiharness.swf|([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|plus\.google\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/((www\.|encrypted\.)?google(\.com|\.co)?\.[a-z]{2,3}\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites.googlegroups.com\/a\/google.com\/flash-api-test-harness\/apiharness.swf|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|picasaweb\.google\.com|lh2\.google\.com|plus\.google\.com|books\.googleusercontent\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/([-a-z0-9A-Z_.]+\.youtube(education)?\.com\/|[a-z0-9\-]{1,63}\.([a-z]{3}|i)\.corp\.google\.com\/|0\.borg-playground-[a-z0-9\-]+\.youtube-dev\.([a-z]{2}|i)\.borg\.google\.com(:[0-9]+)?\/|yt-devenv-shared\.corp\.google\.com\/|(docs|drive)\.google\.com\/(a\/[^/\%]+\/|)|play\.google\.com\/)
+^https?:\/\/([-a-z0-9A-Z_.]+\.youtube(education)?\.com\/|[a-z0-9\-]{1,63}\.([a-z]{3}|i)\.corp\.google\.com\/|yt-devenv-shared\.corp\.google\.com\/|(docs|drive)\.google\.com\/(a\/[^/]+\/|)|play\.google\.com\/)
+^https?:\/\/([-a-z0-9A-Z_.]+\.youtube(education|-nocookie)?\.com\/|[a-z0-9\-]{1,63}\.([a-z]{3}|i)\.corp\.google\.com(:[0-9]+)?\/|0\.borg-playground-[a-z0-9\-]+\.youtube-dev\.([a-z]{2}|i)\.borg\.google\.com(:[0-9]+)?\/|web-ppg\.corp\.google\.com\/|(docs|drive)\.google\.com\/(a\/[^/\%]+\/|)|play\.google\.com\/|[A-Za-z0-9]+\.prod\.google\.com(:[0-9]+)?\/)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|gdata\.youtube\.com|prod\.google\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|googleapis\.com|prod\.google\.com|sandbox\.google\.com|staging\-www\.sandbox\.googleapis\.com)(:[0-9]+)?\/
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|sandbox\.google\.com|youtube\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|sandbox\.google\.com|youtube\.com)(:[0-9]+)?\/
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube\-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/\/*embed(\/+|\?|#|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/+embed(\/+|\?|#|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/+embed\/+
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?\/
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|gdata\.youtube\.com|prod\.google\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/embed\/
+^https?:\/\/(sf\.api\.[a-z0-9\-]+\.km\.playstation\.net\/|([A-Za-z0-9-]{1,63}\.)*(themis\.dl\.playstation\.net)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/(www\.gstatic\.com\/doubleclick\/studio\/innovation\/ytplayer|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|2mdn\.net|corp\.google\.com|googlesyndication\.com|prod\.google\.com|static\.doubleclick\.net|static\.googleadsserving\.cn|studioapi\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|ytimg\.com)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/(www\.gstatic\.com\/doubleclick\/studio\/innovation\/ytplayer|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris|tpc\.googlesyndication\.com\/pagead\/gadgets\/|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|2mdn\.net|googlesyndication\.com|corp\.google\.com|borg\.google\.com|googleads\.g\.doubleclick\.net|prod\.google\.com|static\.doubleclick\.net|static\.googleadsserving\.cn|studioapi\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|ytimg\.com)(:[0-9]+)?([\/\?\#]|$))
+^https?:\/\/(www\.gstatic\.com\/doubleclick\/studio\/innovation\/ytplayer|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris|tpc\.googlesyndication\.com\/safeframe\/|lightbox-(demos|builder)\.appspot\.com\/|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|2mdn\.net|googlesyndication\.com|corp\.google\.com|borg\.google\.com|googleads\.g\.doubleclick\.net|prod\.google\.com|static\.doubleclick\.net|static\.googleadsserving\.cn|studioapi\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|ytimg\.com)(:[0-9]+)?([\/\?\#]|$))

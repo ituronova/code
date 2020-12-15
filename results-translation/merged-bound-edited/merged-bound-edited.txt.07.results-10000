@@ -1,0 +1,31 @@
+pattern	MIN-trans	DFA-trans	timeouts-classical	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|min|	Classical exception
+^USER[ \n\t\r\f]+[^\n]{100,}	404	15862		24.7819	224.7761	60.2183	108	10308	205	
+^[ \n\t\r\f]*Cookie[ \n\t\r\f]*\x3a.*?OvOSLocale[ \n\t\r\f]*\x3d[ \n\t\r\f]*[^\x3b \n\t\r\f]{249}	273	273		2.4786	1.416	1.569	273	269	269	
+\x3D[^ \n\t\r\f\n]{88}			1							TIMEOUT
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300}			1							TIMEOUT
+^RCPT TO\x3a[ \n\t\r\f]*[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}	613	21118		1.3837	2426.9893	614.2317	615	20713	611	
+^SOML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}	616	21121		0.6504	2599.9351	570.6589	618	20716	614	
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37}			1							TIMEOUT
+.{84}.*\[wW][iI][nN][rR][eE][gG]\x00	208	413		0.8171	48.1541	1.1744	97	188	95	
+[^ \n\t\r\f]{190}.rt	399	794		7.7205	129.3731	1.3316	195	390	196	
+^Location[ \n\t\r\f]*\x3a[ \n\t\r\f]*[0-9a-zA-Z_]+\x3a\/\/([^\n]*\x3a)?[^\n]{128}			1							TIMEOUT
+.{199}\xFF\xF6\xFF\xF6\xFF\xFB\x08\xFF\xF6	432	862		0.748	224.3292	10.4871	210	416	209	
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,}			1							TIMEOUT
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128}	520	25161		0.3557	3817.1307	988.0789	139	16520	263	
+^From\x3A[ \n\t\r\f]+[^\r\n]{256}			1							TIMEOUT
+php.*\x3f[^\n]{256}			1							TIMEOUT
+^PASS[ \n\t\r\f]+[^\n]{100}	404	15455		0.2469	3657.463	732.772	107	10106	205	
+.{84}.*\\x00[wW]\x00[iI]\x00[nN]\x00[rR]\x00[eE]\x00[gG]\x00	232	461		0.4657	135.2835	28.3925	103	200	101	
+^TEST[ \n\t\r\f]+[^\n]{100,}	404	15862		0.2356	3824.5915	785.5597	108	10308	205	
+[ \n\t\r\f]{230,}.htr	481	959		0.4571	549.6718	58.2019	237	472	237	
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437}			1							TIMEOUT
+^SEARCH[ \n\t\r\f]+[^\n]{1024}			1							TIMEOUT
+^[ \n\t\r\f]*Content-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300}			1							TIMEOUT
+.{0,92}\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f	24	5456		0.4139	2154.4098	133.5035	103	1432	9	
+^To\x3A[ \n\t\r\f]+[^\r\n]{256}			1							TIMEOUT
+^Via\x3A[ \n\t\r\f]+SIP\x2F2\x2E0\x2F(TCP|UDP)[ \n\t\r\f]+[^\x3B\r\n]{63}	271	6321		77.6982	1513.3087	427.3884	85	4052	144	
+200 [^\x0a]{64}			1							TIMEOUT
+.{59}\x00\x14	126	249		0.1745	166.9318	19.0131	63	122	62	
+^Content-Length\x3A[ \n\t\r\f]*[^\r\n]{100,}	414	15872		0.2805	5894.9044	1235.5256	118	10318	215	
+\x3C[^\x3E\x0a]{500}			1							TIMEOUT
+\x99{40}\xeb\x12\x01\x99{4}\x18A{5}.{4}A{6}	176	349		79.0195	44.6591	23.4445	65	146	74	

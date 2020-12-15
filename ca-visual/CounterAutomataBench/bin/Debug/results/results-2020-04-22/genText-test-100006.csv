@@ -1,0 +1,8 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+.{71,}\n;;;;;;TIMEOUT while converting to DCA.
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+(\((?:[^\(\)]|\([^\(\)]*\)){0,250})\n((?:[^\(\)]|\([^\(\)]*\)){0,250}\));;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(\([^\(\)]{0,250})\n([^\(\)]{0,250}\))
+(\[[^\[\]]{0,250})\n([^\[\]]{0,250}\])
+(\n[ \n\t\r\f]+)(criterion .*\n)([ \n\t\r\f].+){1,99}
+(address .{0,60} changed | domain .{0,40} retired) .*\n          (has[ \n\t\r\f]*been|was|have|will[ \n\t\r\f]*be) [ \n\t\r\f]* (forwarded|delivered)

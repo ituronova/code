@@ -1,0 +1,6 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+user(name)?[ -~ \n\t\r\f]{0,70}(secret|password);656;22233;52712;6;TIMEOUT.
+php.*\x3f[^\n]{256};102;15964;47578;256;TIMEOUT.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};59;11758;23480;4;Text generated.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};152;30110;59314;5;Text generated.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};152;30110;59314;5;Error while generating text.

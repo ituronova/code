@@ -1,0 +1,9 @@
+pattern
+pattern
+(?:board=\d+)+((?:topic|threadid)=[\dmsg#\.\/]{1,40}(?:start=[\dmsg#\.\/]{1,40})+|action=profileu=\d+)
+(^|\s)(([a-zA-Z0-9_-]+):)+([a-zA-Z0-9]{40})
+@media.*(min|max)-width:([ ]+)+(([0-9]{1,5})(\.[0-9]{1,20}|)(px|em))
+pattern
+(?:board=\d+)+((?:topic|threadid)=[\dmsg#\.\/]{1,40}(?:start=[\dmsg#\.\/]{1,40})+|action=profileu=\d+)
+(^|\s)(([a-zA-Z0-9_-]+):)+([a-zA-Z0-9]{40})
+@media.*(min|max)-width:([ ]+)+(([0-9]{1,5})(\.[0-9]{1,20}|)(px|em))

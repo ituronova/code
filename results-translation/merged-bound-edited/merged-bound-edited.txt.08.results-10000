@@ -1,0 +1,13 @@
+pattern	MIN-trans	DFA-trans	timeouts-classical	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|min|	Classical exception
+^[ \n\t\r\f]*SEND[ \n\t\r\f]+[^\n]{246}	989	91887		24.6663	2586.3904	404.7932	254	60768	497	
+^(NT|CallBack|SID|TimeOut)[ \n\t\r\f]*\x3a[ \n\t\r\f]*[^\n]{512}			1							TIMEOUT
+\x01.{240}.*\x0C.*.{0}.*%.{1}.{0,7}%.{1}.{0,7}%			1							TIMEOUT
+.{82}.*Login failed for user \x27sa\x27	268	533		0.4323	26.757	1.2954	111	216	109	
+^[ \n\t\r\f]*Content-Type[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300}			1							TIMEOUT
+^MAIL FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}	616	21121		8.5556	3350.5573	669.8185	618	20716	614	
+^[ \n\t\r\f]*SAML[ \n\t\r\f]+[^\n]{246}			1							TIMEOUT
+^[ \n\t\r\f]*Content-Transfer-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\n]{100}	427	15478		0.3539	1174.1655	248.7322	130	10127	226	
+.{59}\x00\x14	126	249		0.2264	42.9892	0.7384	63	122	62	
+^SAML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}	616	21121		9.3185	3872.3706	731.9481	618	20716	614	
+.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]	214	425		0.8502	43.9912	1.2592	83	160	81	
+.*<[0-9a-zA-Z_]+\x3afill[ \n\t\r\f][^>]*method[ \n\t\r\f]*=[ \n\t\r\f]*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^ \n\t\r\f>]{32})			1							TIMEOUT

@@ -1,0 +1,83 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max CS;Status
+user(name)?[ -~ \n\t\r\f]{0,70}(secret|password);261;9104;21859;1;5;TIMEOUT.
+SoftCart.exe\?[^ \n\t\r\f]{100};1231;14589;18587;1;4;TIMEOUT.
+php.*\x3f[^\n]{256};32;5019;15139;1;256;TIMEOUT.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};33;6634;13316;1;4;TIMEOUT.
+M{1000};1;1001;1001;1;1000;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;;;;;;TIMEOUT while finding cycles.
+5[0-9a-zA-Z]{50};111;4096;8001;1;50;TIMEOUT.
+200 [^\x0a]{64};72;3592;6890;1;4;TIMEOUT.
+>([^<]{100,})<;10;1726;4570;1;100;TIMEOUT.
+<pre>(?:.{1000}\n){1000}</pre>;3;1012;2975;2;2;TIMEOUT.
+^X?PAT[ \n\t\r\f]+[^\n]{1000};14;7430;8504;1;1000;TIMEOUT.
+^To\x3A[ \n\t\r\f]+[^\r\n]{256};29;4623;4851;1;256;TIMEOUT.
+^text\/[a-zA-Z0-9\.\-\+]{1,100}[ \n\t\r\f]?charset=(\[a-zA-Z0-9\.\-\+ \n\t\r\f]{0,70}\\|[a-zA-Z0-9\.\-\+]{0,70})([ \n\t\r\f]?\([a-zA-Z0-9\.\-\+ \n\t\r\f]{1,20}\))?$\\\"";;;;;;Error while converting to DCA: SetIsEmpty
+^SOML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};22;2866;3100;3;200;TIMEOUT.
+^SEARCH[ \n\t\r\f]+[^\n]{1000};1;0;1182;1;587;TIMEOUT.
+^SAML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};1;0;516;3;200;TIMEOUT.
+^RCPT TO\x3a[ \n\t\r\f]*[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};5;1229;1491;3;200;TIMEOUT.
+^MAIL FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};;;;;;TIMEOUT while converting to DCA.
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1000,};;;;;;Error while converting to DCA: Odkaz na objekt není nastaven na instanci objektu.
+^From\x3A[ \n\t\r\f]+[^\r\n]{256};6;1162;1413;1;256;TIMEOUT.
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128};54;2698;2814;1;128;TIMEOUT.
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37};91;3012;6136;2;37;TIMEOUT.
+^\n*[sS][oO][mM][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};33;3708;3957;3;200;TIMEOUT.
+^\n*[sS][eE][nN][dD] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};10;1474;1763;3;200;Text generated.
+^\n*[sS][eE][nN][dD] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};29;3374;3582;3;200;TIMEOUT.
+^\n*[sS][aA][mM][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};26;3113;3331;3;200;TIMEOUT.
+^\n*[rR][cC][pP][tT] [tT][oO]\x3a[\x20\x09\x0b]+[a-zA-Z0-9\x5f\x20\x09\x0b\x40\.]{0,200}\x3b[a-zA-Z0-9\x5f\x20\x09\x0b=x40\.]{200,}\x3b[a-zA-Z0-9\x5f\x20\x09\x0b\x40\.]{0,200};29;3546;3802;3;200;TIMEOUT.
+^\n*[mM][aA][iI][lL] [fF][rR][oO][mM]:[\x20\x09\x0b]+[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{200,}\x3b[a-zA-Z0-9_\x20\x09\x0b@\.]{0,200};27;3288;3462;3;200;TIMEOUT.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};18;4986;5159;1;18;TIMEOUT.
+^[a-z0-9A-Z_ /-]{0,256}[a-z0-9A-Z_ -]{1,253}\.js$;12;3043;3517;2;253;TIMEOUT.
+^[a-z0-9-!#\$%&'*+/=?^_`{|}\~]+(?:[.][a-z0-9-!#\$%&'*+/=?^_`{|}\~]+)*@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z-]{2,24}$;;;;;;TIMEOUT while converting to DCA.
+^[^@]+@[^@]+\.[^@]{2,63}$;;;;;;TIMEOUT while converting to DCA.
+^[-a-z0-9!#$%&'*+/=?^_`{|}~]+(?:\.[-a-z0-9!#$%&'*+/=?^_`{|}~]+)*@(?:[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])?\.)*(?:aero|arpa|asia|biz|cat|com|coop|edu|gov|info|int|jobs|mil|mobi|museum|name|net|org|pro|tel|travel|[a-z][a-z])$;;;;;;TIMEOUT while converting to DCA.
+^[ \n\t\r\f]*SOML[ \n\t\r\f]+[^\n]{246};;;;;;TIMEOUT while converting to DCA.
+^[ \n\t\r\f]*SEND[ \n\t\r\f]+[^\n]{246};;;;;;TIMEOUT while converting to DCA.
+^[ \n\t\r\f]*SAML[ \n\t\r\f]+[^\n]{246};;;;;;TIMEOUT while converting to DCA.
+^[ \n\t\r\f]*Content-Type[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300};;;;;;TIMEOUT while converting to DCA.
+^[ \n\t\r\f]*Content-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300};;;;;;TIMEOUT while converting to DCA.
+^(NT|CallBack|SID|TimeOut)[ \n\t\r\f]*\x3a[ \n\t\r\f]*[^\n]{512};;;;;;TIMEOUT while converting to DCA.
+^([a-zA-Z0-9\*]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$;;;;;;TIMEOUT while converting to DCA.
+^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,8}$;;;;;;TIMEOUT while converting to DCA.
+^(.{0,256}):?[a-zA-Z][-_a-zA-Z0-9]{0,255}$;;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.
+^(?:http)s?://(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?))(?:/?|[/?][^ \n\t\r\f]+)$;;;;;;Error while converting to DCA: Odkaz na objekt není nastaven na instanci objektu.
+^(?:[^^a-z0-9A-Z__]((?:[^^a-z0-9A-Z__]|-){0,61}[^^a-z0-9A-Z__])?\.)+[a-zA-Z]{2,6}\.?$;7;276;333;3;61;TIMEOUT.
+^ (.{30}) .* (.{30}) $;16;365;365;3;61;Text generated.
+^ (.{30}) .* (.{30}) $;;;;;;TIMEOUT while converting to DCA.
+\x3D[^ \n\t\r\f\n]{88};;;;;;TIMEOUT while converting to DCA.
+\x3C[^\x3E\x0a]{500};;;;;;Error while converting to DCA: Odkaz na objekt není nastaven na instanci objektu.
+\x3C[^\x3E\x0a]{500};;;;;;TIMEOUT while converting to DCA.
+\A([\p{L}0-9_]([\p{L}0-9\-_]{0,61}[\p{L}0-9])?\.)+[\p{L}]{2,6}\z;;;;;;TIMEOUT while converting to DCA.
+\[{1000}a\]{1000};;;;;;TIMEOUT while converting to DCA.
+\((http://|https://|//)[-a-zA-Z0-9@:%_\+.~\#?&=]{2,256}\.[a-z]{2,4}[^\\\n\r']*)\\\\\"\"";;;;;;TIMEOUT while converting to DCA.
+[a-z0-9._%+-]{1,64}@(?:[a-z0-9-]{1,63}\.){1,125}[a-z]{2,63};;;;;;Error while converting to DCA: The anchor \A or ^ is not supported if it is preceded by other regex patterns or is nested in a loop
+[a-z0-9._%+-]{1,64}@(?:[a-z0-9-]{1,63}\.){1,125}[a-z]{2,63};;;;;;Error while converting to DCA: Odkaz na objekt není nastaven na instanci objektu.
+[a-z0-9._%+-]{1,64}@(?:[a-z0-9-]{1,63}\.){1,125}[a-z]{2,63};;;;;;Error while converting to DCA: analýza \((http://|https://|//)[-a-zA-Z0-9@:%_\+.~\#?&=]{2,256}\.[a-z]{2,4}[^\\\n\r']*)\\\\\"\"" - Příliš mnoho zavíracích závorek ).
+[1-9]{1}[0-9]{63};62;3122;6136;1;63;TIMEOUT.
+[^\n]{990};1;991;991;1;990;Text generated.
+[^ \n\t\r\f]{990};1;991;991;1;990;Text generated.
+[\\][\\][^\\].{0,255}[\\]{1}[^\\]*.*[.]{1}.*;636;1795;2503;1;5;TIMEOUT.
+[ \n\t\r\f]STATUS[^\n]{100};292;3497;6456;1;4;TIMEOUT.
+[ \n\t\r\f]SELECT[ \n\t\r\f][^\n]{100};341;3571;6447;1;4;TIMEOUT.
+[ \n\t\r\f]RENAME[ \n\t\r\f][^\n]{100};277;2971;5463;1;4;TIMEOUT.
+[ \n\t\r\f]LSUB[ \n\t\r\f][^\n]{100};272;2977;5810;1;4;TIMEOUT.
+[ \n\t\r\f]LIST[ \n\t\r\f][^\n]{100};257;2764;5323;1;4;TIMEOUT.
+[ \n\t\r\f]FETCH[ \n\t\r\f][^\n]{256};15;2396;6059;1;3;TIMEOUT.
+[ \n\t\r\f]EXAMINE[ \n\t\r\f][^\n]{100};293;3086;5419;1;4;TIMEOUT.
+[ \n\t\r\f]DELETE[ \n\t\r\f][^\n]{100};260;2739;4969;1;4;TIMEOUT.
+[ \n\t\r\f]CREATE[ \n\t\r\f][^\n]{1000};4;1027;3021;1;2;TIMEOUT.
+[ \n\t\r\f]CAPABILITY[ \n\t\r\f][^\n]{100};283;3053;5048;1;4;TIMEOUT.
+[ \n\t\r\f]AUTHENTICATE[ \n\t\r\f][^\n]{100};296;3358;5164;1;3;Text generated.
+[ \n\t\r\f]AUTHENTICATE[ \n\t\r\f][^\n]{100};332;3639;5544;1;3;TIMEOUT.
+[ \n\t\r\f]APPEND[ \n\t\r\f][^\n]{256};12;1924;4764;1;3;Text generated.
+[ \n\t\r\f]APPEND[ \n\t\r\f][^\n]{256};12;1924;4835;1;3;Text generated.
+[ \n\t\r\f]APPEND[ \n\t\r\f][^\n]{256};15;2409;6140;1;3;TIMEOUT.
+(https?:\/\/)?((www\.)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}[ \n\t\r\f]([-a-zA-Z0-9@:%_\+.~#?&\/=]*)));;;;;;TIMEOUT while finding cycles.
+([0-9]{1,1000})\:([0-9]{1,1000});2;1003;1003;2;1000;Text generated.
+(.{1000,}[^>]*>)<;1;1004;1004;1;1000;Text generated.
+.*<[0-9a-zA-Z_]+\x3afill[ \n\t\r\f][^>]*method[ \n\t\r\f]*=[ \n\t\r\f]*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^ \n\t\r\f>]{32});;;;;;TIMEOUT while converting to DCA.
+.*/#(.{0,255})#/$;;;;;;TIMEOUT while converting to DCA.
+-{20,40}[0-9a-zA-Z_]{6,24}[\n\r]*;;;;;;TIMEOUT while converting to DCA.
+--comments \[^\\]{256,}\\\\\"\"";;;;;;Error while converting to DCA: Odkaz na objekt není nastaven na instanci objektu.
+--comments \[^\\]{256,}\\\\\"\"";;;;;;Error while converting to DCA: SetIsEmpty

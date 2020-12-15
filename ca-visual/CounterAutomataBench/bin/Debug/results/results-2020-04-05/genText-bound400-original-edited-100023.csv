@@ -1,0 +1,14 @@
+pattern;max elems;average;max counter;sum counter;DCA states;time [ms]
+^\n*COPY[^s]{432};1;1;432;432;7;1897;text generated
+^\n*DELETE[^s]{432};1;1;432;432;9;4576;text generated
+^\n*[fF][iI][lL][eE]\x3a\x2f\x2f[^\n]{400};1;1;400;400;10;4608;text generated
+^\n*GET[^s]{432};1;1;432;432;6;4635;text generated
+^\n*HEAD[^s]{432};1;1;432;432;7;4662;text generated
+^\n*[hH][tT]{2}[pP]\x3a\x2f\x2f[^\n]{400};1;2;400;402;8;4691;text generated
+^\n*LOCK[^s]{432};1;1;432;432;7;4718;text generated
+^\n*MKCOL[^s]{432};1;1;432;432;8;4746;text generated
+^\n*MOVE[^s]{432};1;1;432;432;7;4787;text generated
+^\n*POST[^s]{432};1;1;432;432;7;4813;text generated
+^\n*PUT[^s]{432};1;1;432;432;6;4846;text generated
+^\n*TRACE[^s]{432};1;1;432;432;8;4873;text generated
+^[\a-z0-9A-Z_\-~\/\.]{1,400}$;1;1;400;400;1;4897;text generated

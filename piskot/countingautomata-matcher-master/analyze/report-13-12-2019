@@ -1,0 +1,29 @@
+compileOpt (NCA to DCA)				0.99%
+compile (regex to symboli regex)	2.68%
+createCountingAutomatonPushIncr		0.63%
+isMatchCA							85%
+
+IsMatchCA
+- initialization of CS 	 1%
+- delta 				72%
+- checkFinalCond 		 6%
+
+Delta
+- updateCS				29%
+- getTransition			14%
+
+UpdateCS
+- get_item				4%			
+- push0					2%
+- isAbove			    0.58%
+- incr					0.99%
+
+GetTransition
+- isSAT					6%
+
+IsSAT
+- get_item				0.76%
+- satisfies				1%
+
+Satisfies
+- get_LowerBound		0.03%

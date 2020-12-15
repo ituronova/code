@@ -1,0 +1,5 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+\r\nAuthorization\x3a(\s{300,500}|\s{300,500}\r?\n\s{300,500})Basic\s[^\n]{250};41;10574;22244;3;500;1250;5;0,062484;74;368;194;TIMEOUT.
+^(\x20|\x20)[^\x20]{300,500}\x20[^\x20]{473};1;976;976;2;500;973;1;0,000975;4;6;119596;Text generated.
+^AUTHINFO\s{300,500}USER\s[^\n]{200};1;714;714;2;500;700;1;0,000702;16;20;119787;Text generated.
+^\w{300,500}\s{300,500}SUBSCRIBE\s[^\n]{100};2;1111;1111;3;500;1100;1;0,001102;14;19;119931;Text generated.

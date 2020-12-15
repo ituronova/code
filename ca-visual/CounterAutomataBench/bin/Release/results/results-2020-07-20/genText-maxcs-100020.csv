@@ -1,0 +1,14 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+^.* [aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][eE] [^\x0a]{100};2;115;216;1;100;100;1;0,000202;56;292;110;Text generated.
+^.*SEARCH \/ HTTP\/1\.1\x0D\x0AHost\x3A.{2,251}\x0D\x0A\x0D\x0A;2;280;780;1;251;251;1;0,000752;120;647;261;Text generated.
+[a-z0-9._%+-]{1,64}@(?:[a-z0-9-]{1,63}\.){1,125}[a-z]{2,63};2;193;255;4;125;315;65;0,010397;14;71;368;Text generated.
+src=\/foo(/assets/app\.assets\.js\.head\.[a-f0-9]{64}\.js);1;103;103;1;64;64;1;6,5E-05;39;116;459;Text generated.
+src=\/foo(/assets/app\.head\.[a-f0-9]{64}\.js);1;93;93;1;64;64;1;6,5E-05;29;86;498;Text generated.
+([*]a[_] ){49999}[*]a_;1;1001;1001;1;49999;49999;250;0,1255;8;23;548;Text generated.
+(_a ){64999}_a;1;1001;1001;1;64999;64999;334;0,167167;6;17;1621;Text generated.
+(<blockquote>\n){50000};1;1001;1001;1;50000;50000;77;0,038962;28;82;2439;Text generated.
+(a[_] ){64999}a_;1;1001;1001;1;64999;64999;334;0,167167;6;17;3956;Text generated.
+\[{50000}a\]{50000};1;1001;1001;2;50000;100000;1000;0,5005;3;8;5962;Text generated.
+^'((?:(?:''|[^']){2,32766}){2,32766})'\s*(.*)$;ERROR WHILE CONVERTING TO DCA.
+^([\w !\#$%&'()*+,-.\/:<>?@\[\]^`{|}~\\]{1,1024})=(.*)$;1;1001;1002;1;1024;1024;1;0,001001;2;3;8344;Text generated.
+^(?i)[0-9a-z\\_\.\-\]{1,100}:[0-9]+$;1;2;2;0;-1;-1;0;0;2;2;8512;Text generated.

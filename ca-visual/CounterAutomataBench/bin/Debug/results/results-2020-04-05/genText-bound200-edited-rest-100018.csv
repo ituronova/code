@@ -1,0 +1,76 @@
+pattern;max elems;average;max counter;sum counter;DCA states;time [ms]
+^.{1,210}$;1;1;210;210;1;8786;text generated
+^[-A-Za-z0-9_.]{1,255}$;1;1;255;255;1;8820;text generated
+^[\*A-Za-z0-9]{1,255}$;1;1;255;255;1;8843;text generated
+\bcid:([^'\" \n\t\r\f]{1,256});;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+^(.{255});1;1;255;255;2;8884;text generated
+^[a-zA-Z]{1}[a-zA-Z0-9]{1,255}$;1;1;255;255;2;8927;text generated
+(https?:\/\/)?((www\.)?([-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/=]*)));;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+^[\u0430-\u044fa-z0-9.-]{2,255}$;1;1;255;255;1;22587;text generated
+^[a-zA-Z0-9_-]{1,256}$;1;1;256;256;1;22611;text generated
+^[a-z0-9][a-z0-9_-]{0,254}$;1;1;254;254;2;22628;text generated
+[A-Za-z][A-Za-z_]{0,254};1;1;254;254;4;22644;text generated
+(?i)\A[A-Z0-9._%+-]{1,64}@(?:[A-Z0-9-]*\.){1,125}[A-Z]{2,63}\z;1;3;125;252;5;22689;text generated
+(?i)\A[A-Z0-9._%+-]{1,64}@(?:[A-Z0-9-]*\.){1,125}[A-Z]{2,63}\z;1;3;125;252;5;TIMEOUT while generating line.
+[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*);;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+(?i)\A[A-Z0-9._%+-]{1,64}@(?:[A-Z0-9-]*\.){1,125}[A-Z]{2,63}\z;1;3;125;252;5;TIMEOUT while generating line.
+^[A-Za-z][A-Za-z0-9]{1,254}$;1;1;254;254;2;982821;text generated
+[ \n\t\r\f^ \n\t\r\f]{1,232};1;1;232;232;4;982875;text generated
+^(?:[^\"\]{1,256}|\[bfnrt\"\\/]|\u[0-9a-fA-F]{4}|\");;;;;;TIMEOUT while converting regex to DCA.
+^.{1,253}$;1;1;253;253;1;5813498;text generated
+^[^\.][a-z0-9A-Z_\-\.]{0,255}$;1;1;255;255;2;5813559;text generated
+\.package\(url:[ \n\t\r\f]\"https:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*).git\",[ \n\t\r\f]((\.upToNextMajor|\.upToNextMinor)\(from:[ \n\t\r\f]\"(-?[0-9]+\.){2}-?[0-9]+\"\)|from:[ \n\t\r\f]\"(-?[0-9]+\.){2}-?[0-9]+\")\),?$;;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+(?:<)?((?:http(s)?://.)?(?:www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b(?:[-a-zA-Z0-9@:%_+.~#?&/=]*))(?:>)?;;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+^([A-Fa-f0-9]{16,256});1;1;256;256;3;5813687;text generated
+\"((http://|https://|//)[-a-zA-Z0-9@:%_\+.~\#?&=]{2,256}\.[a-z]{2,4}[^\"\n\r']*)\";1;2;256;260;32;5813883;text generated
+\Adelete (.{1,250})[ \n\t\r\f]?([0-9]*)\r\n;1;1;250;250;22;5813950;text generated
+^[a-f0-9]{256}$;1;1;256;256;1;5813984;text generated
+\A[-.:_?\\/a-z0-9A-Z_ ]{1,255}\z;1;1;255;255;1;5814035;text generated
+https?://(?:www)?(?:[a-z0-9A-Z_-]{2,255}(?:\.[0-9a-zA-Z_]{2,6}){1,2})(?:/[a-z0-9A-Z_&%?#-]{1,300})?;;;;;;Error while converting regex to DCA: Error: Creating loop in NCA.
+(captchaservice\[0-9a-zA-Z_]{200,});1;1;200;200;53;5814297;text generated
+(captchaservice\[0-9a-zA-Z_]{200,});1;1;200;200;53;TIMEOUT while generating line.
+^github\.com/[a-z0-9A-Z_.-]{1,100}/[a-z0-9A-Z_.-]{1,100}$;1;2;100;200;13;6294443;text generated
+^github\.com/[a-z0-9A-Z_.-]{1,100}/[a-z0-9A-Z_.-]{1,100}$;1;2;100;200;13;TIMEOUT while generating line.
+^[a-z]([-a-z0-9_.]{0,253}[a-z0-9])?$;1;1;253;253;5;6774528;text generated
+^(([^=;]+))[ \n\t\r\f]{0,256}=[ \n\t\r\f]*([^\n\r\0]*);256;247,778305423644;256;256;8;6774588;text generated
+\Adelete (.{1,250})(?: ([0-9]+))?\r\n;1;1;250;250;18;6774637;text generated
+\0{1,256};1;1;256;256;4;6774678;text generated
+^[a-z][a-z0-9_-]{0,255}$;1;1;255;255;2;6774797;text generated
+^[a-zA-Z0-9]{3,255}$;1;1;255;255;1;6774874;text generated
+^[a-zA-Z0-9:\-_]{1,255}$;1;1;255;255;1;6774928;text generated
+^[\x21-\x7E\xA0-\xBF\p{L}]{5,256}$;1;1;256;256;1;6777503;text generated
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-z]{1,6}([-a-zA-Z0-9@:%_\+.~#?&//=]*);2;2,15384615384615;256;262;99;6778085;text generated
+^[a-zA-Z][-._~a-zA-Z0-9]{0,258}([a-zA-Z0-9])?$;1;1;258;258;4;6778140;text generated
+\A[a-z0-9._+-]+@[a-z0-9.-]{1,253}\z;1;1;253;253;3;6778181;text generated
+^[-a-z0-9A-Z_.]{3,255}$;1;1;255;255;1;6778385;text generated
+^ *([A-Za-z0-9][A-Za-z0-9!#$&^_-]{0,126})\/([A-Za-z0-9][A-Za-z0-9!#$&^_.+-]{0,126}) *$;1;2;126;252;5;6778449;text generated
+[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?;;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+^[a-z0-9_./\-]{1,256}$;1;1;256;256;1;6778558;text generated
+\A[a-zA-Z0-9_.+-]{1,255}\Z;1;1;255;255;1;6778635;text generated
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+^[A-Za-z0-9_.-]{3,200}$;1;1;200;200;1;6778695;text generated
+(https?:\/\/)((?:www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,16}\b)([-a-zA-Z0-9@:%_+.~#?&//=]*);;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+^.{1,255}$;1;1;255;255;1;6778771;text generated
+^[A-Za-z_][a-z0-9A-Z_\-]{0,254}$;1;1;254;254;2;6778833;text generated
+^[\p{L}][a-z0-9A-Z_\p{L}]{2,254}$;1;1;254;254;2;6780481;text generated
+.{1,255};1;1;255;255;3;6780526;text generated
+uploaded a file: <(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*));;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+[a-zA-Z0-9 \.,\_-]{1,255};;;;;;TIMEOUT while converting regex to DCA.
+[a-zA-Z_][a-z-A-Z_0-9]{0,254};1;1;254;254;4;18774847;text generated
+^(.){7,200}$;1;1;200;200;1;18774875;text generated
+^(.){7,200}$;1;1;200;200;1;TIMEOUT while generating line.
+.*/#(.{0,255})#/$;1;1;255;255;8;19254941;text generated
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*);;;;;;Error while converting regex to DCA: Not implemented: word-boundary \b
+\AST\-[^ \n\t\r\f]{1,253}\Z;1;1;253;253;4;19254993;text generated
+^[a-zA-Z0-9][a-zA-Z0-9\._-]{1,253}[a-zA-Z0-9]$;1;1;253;253;4;19255026;text generated
+a{256};256;128,5;256;256;4;19255056;text generated
+[\][\][^\].{0,255}[\]{1}[^\]*.*[.]{1}.*;-1;0;-1;0;2;19255108;text generated
+href=\"(.{1,125})\">.{1,90}(Staffel|Season).*?([0-9]{1,2}-?[0-9]{1,2}|[0-9]{1,2});;;125;219;220;TIMEOUT while finding cycles.
+^[é0-9]{256}$;1;1;256;256;1;19737670;text generated
+\A[A-Za-z0-9()_$.;/+][A-Za-z0-9()_$.;/+-]{0,200}\z;1;1;200;200;2;19738216;text generated
+\A[A-Za-z0-9()_$.;/+][A-Za-z0-9()_$.;/+-]{0,200}\z;1;1;200;200;2;TIMEOUT while generating text file.
+^[a-z0-9_.-]{3,255}$;1;1;255;255;1;TIMEOUT while generating text file.
+^[a-z0-9_.-]{3,255}$;1;1;255;255;1;19738636;text generated
+^([a-zA-Z0-9-._~!$&\'()*+,;=]|%[A-Fa-f0-9]{2}){1,254}$;;;;;;Error while converting regex to DCA: Error: Creating loop in NCA.
+^[ 0-9a-zA-Z\._\+/\$-]{1,256}$;1;1;256;256;1;TIMEOUT while generating text file.
+^[ 0-9a-zA-Z\._\+/\$-]{1,256}$;1;1;256;256;1;19739414;text generated

@@ -1,0 +1,1000 @@
+(\\bstates: )(.*)
+^(\\s*)\\b(AcceptFilter|AcceptPathInfo|AccessFileName|Action|AddAlt|AddAltByEncoding|AddAltByType|AddCharset|AddDefaultCharset|AddDescription|AddEncoding|AddHandler|AddIcon|AddIconByEncoding|AddIconByType|AddInputFilter|AddLanguage|AddModuleInfo|AddOutputFilter|AddOutputFilterByType|AddType|Alias|AliasMatch|Allow|AllowCONNECT|AllowEncodedSlashes|AllowMethods|AllowOverride|AllowOverrideList|Anonymous|Anonymous_LogEmail|Anonymous_MustGiveEmail|Anonymous_NoUserID|Anonymous_VerifyEmail|AsyncRequestWorkerFactor|AuthBasicAuthoritative|AuthBasicFake|AuthBasicProvider|AuthBasicUseDigestAlgorithm|AuthDBDUserPWQuery|AuthDBDUserRealmQuery|AuthDBMGroupFile|AuthDBMType|AuthDBMUserFile|AuthDigestAlgorithm|AuthDigestDomain|AuthDigestNonceLifetime|AuthDigestProvider|AuthDigestQop|AuthDigestShmemSize|AuthFormAuthoritative|AuthFormBody|AuthFormDisableNoStore|AuthFormFakeBasicAuth|AuthFormLocation|AuthFormLoginRequiredLocation|AuthFormLoginSuccessLocation|AuthFormLogoutLocation|AuthFormMethod|AuthFormMimetype|AuthFormPassword|AuthFormProvider|AuthFormSitePassphrase|AuthFormSize|AuthFormUsername|AuthGroupFile|AuthLDAPAuthorizePrefix|AuthLDAPBindAuthoritative|AuthLDAPBindDN|AuthLDAPBindPassword|AuthLDAPCharsetConfig|AuthLDAPCompareAsUser|AuthLDAPCompareDNOnServer|AuthLDAPDereferenceAliases|AuthLDAPGroupAttribute|AuthLDAPGroupAttributeIsDN|AuthLDAPInitialBindAsUser|AuthLDAPInitialBindPattern|AuthLDAPMaxSubGroupDepth|AuthLDAPRemoteUserAttribute|AuthLDAPRemoteUserIsDN|AuthLDAPSearchAsUser|AuthLDAPSubGroupAttribute|AuthLDAPSubGroupClass|AuthLDAPUrl|AuthMerging|AuthName|AuthnCacheContext|AuthnCacheEnable|AuthnCacheProvideFor|AuthnCacheSOCache|AuthnCacheTimeout|AuthnzFcgiCheckAuthnProvider|AuthnzFcgiDefineProvider|AuthType|AuthUserFile|AuthzDBDLoginToReferer|AuthzDBDQuery|AuthzDBDRedirectQuery|AuthzDBMType|AuthzSendForbiddenOnFailure|BalancerGrowth|BalancerInherit|BalancerMember|BalancerPersist|BrowserMatch|BrowserMatchNoCase|BufferedLogs|BufferSize|CacheDefaultExpire|CacheDetailHeader|CacheDirLength|CacheDirLevels|CacheDisable|CacheEnable|CacheFile|CacheHeader|CacheIgnoreCacheControl|CacheIgnoreHeaders|CacheIgnoreNoLastMod|CacheIgnoreQueryString|CacheIgnoreURLSessionIdentifiers|CacheKeyBaseURL|CacheLastModifiedFactor|CacheLock|CacheLockMaxAge|CacheLockPath|CacheMaxExpire|CacheMaxFileSize|CacheMinExpire|CacheMinFileSize|CacheNegotiatedDocs|CacheQuickHandler|CacheReadSize|CacheReadTime|CacheRoot|CacheSocache|CacheSocacheMaxSize|CacheSocacheMaxTime|CacheSocacheMinTime|CacheSocacheReadSize|CacheSocacheReadTime|CacheStaleOnError|CacheStoreExpired|CacheStoreNoStore|CacheStorePrivate|CGIDScriptTimeout|CGIMapExtension|CharsetDefault|CharsetOptions|CharsetSourceEnc|CheckCaseOnly|CheckSpelling|ChrootDir|ContentDigest|CookieDomain|CookieExpires|CookieName|CookieStyle|CookieTracking|CoreDumpDirectory|CustomLog|Dav|DavDepthInfinity|DavGenericLockDB|DavLockDB|DavMinTimeout|DBDExptime|DBDInitSQL|DBDKeep|DBDMax|DBDMin|DBDParams|DBDPersist|DBDPrepareSQL|DBDriver|DefaultIcon|DefaultLanguage|DefaultRuntimeDir|DefaultType|Define|DeflateBufferSize|DeflateCompressionLevel|DeflateFilterNote|DeflateInflateLimitRequestBody|DeflateInflateRatioBurst|DeflateInflateRatioLimit|DeflateMemLevel|DeflateWindowSize|Deny|DirectoryCheckHandler|DirectoryIndex|DirectoryIndexRedirect|DirectorySlash|DocumentRoot|DTracePrivileges|DumpIOInput|DumpIOOutput|EnableExceptionHook|EnableMMAP|EnableSendfile|Error|ErrorDocument|ErrorLog|ErrorLogFormat|Example|ExpiresActive|ExpiresByType|ExpiresDefault|ExtendedStatus|ExtFilterDefine|ExtFilterOptions|FallbackResource|FileETag|FilterChain|FilterDeclare|FilterProtocol|FilterProvider|FilterTrace|ForceLanguagePriority|ForceType|ForensicLog|GprofDir|GracefulShutdownTimeout|Group|Header|HeaderName|HeartbeatAddress|HeartbeatListen|HeartbeatMaxServers|HeartbeatStorage|HeartbeatStorage|HostnameLookups|IdentityCheck|IdentityCheckTimeout|ImapBase|ImapDefault|ImapMenu|Include|IncludeOptional|IndexHeadInsert|IndexIgnore|IndexIgnoreReset|IndexOptions|IndexOrderDefault|IndexStyleSheet|InputSed|ISAPIAppendLogToErrors|ISAPIAppendLogToQuery|ISAPICacheFile|ISAPIFakeAsync|ISAPILogNotSupported|ISAPIReadAheadBuffer|KeepAlive|KeepAliveTimeout|KeptBodySize|LanguagePriority|LDAPCacheEntries|LDAPCacheTTL|LDAPConnectionPoolTTL|LDAPConnectionTimeout|LDAPLibraryDebug|LDAPOpCacheEntries|LDAPOpCacheTTL|LDAPReferralHopLimit|LDAPReferrals|LDAPRetries|LDAPRetryDelay|LDAPSharedCacheFile|LDAPSharedCacheSize|LDAPTimeout|LDAPTrustedClientCert|LDAPTrustedGlobalCert|LDAPTrustedMode|LDAPVerifyServerCert|LimitInternalRecursion|LimitRequestBody|LimitRequestFields|LimitRequestFieldSize|LimitRequestLine|LimitXMLRequestBody|Listen|ListenBackLog|LoadFile|LoadModule|LogFormat|LogLevel|LogMessage|LuaAuthzProvider|LuaCodeCache|LuaHookAccessChecker|LuaHookAuthChecker|LuaHookCheckUserID|LuaHookFixups|LuaHookInsertFilter|LuaHookLog|LuaHookMapToStorage|LuaHookTranslateName|LuaHookTypeChecker|LuaInherit|LuaInputFilter|LuaMapHandler|LuaOutputFilter|LuaPackageCPath|LuaPackagePath|LuaQuickHandler|LuaRoot|LuaScope|MaxConnectionsPerChild|MaxKeepAliveRequests|MaxMemFree|MaxRangeOverlaps|MaxRangeReversals|MaxRanges|MaxRequestWorkers|MaxSpareServers|MaxSpareThreads|MaxThreads|MergeTrailers|MetaDir|MetaFiles|MetaSuffix|MimeMagicFile|MinSpareServers|MinSpareThreads|MMapFile|ModemStandard|ModMimeUsePathInfo|MultiviewsMatch|Mutex|NameVirtualHost|NoProxy|NWSSLTrustedCerts|NWSSLUpgradeable|Options|Order|OutputSed|PassEnv|PidFile|PrivilegesMode|Protocol|ProtocolEcho|ProxyAddHeaders|ProxyBadHeader|ProxyBlock|ProxyDomain|ProxyErrorOverride|ProxyExpressDBMFile|ProxyExpressDBMType|ProxyExpressEnable|ProxyFtpDirCharset|ProxyFtpEscapeWildcards|ProxyFtpListOnWildcard|ProxyHTMLBufSize|ProxyHTMLCharsetOut|ProxyHTMLDocType|ProxyHTMLEnable|ProxyHTMLEvents|ProxyHTMLExtended|ProxyHTMLFixups|ProxyHTMLInterp|ProxyHTMLLinks|ProxyHTMLMeta|ProxyHTMLStripComments|ProxyHTMLURLMap|ProxyIOBufferSize|ProxyMaxForwards|ProxyPass|ProxyPassInherit|ProxyPassInterpolateEnv|ProxyPassMatch|ProxyPassReverse|ProxyPassReverseCookieDomain|ProxyPassReverseCookiePath|ProxyPreserveHost|ProxyReceiveBufferSize|ProxyRemote|ProxyRemoteMatch|ProxyRequests|ProxySCGIInternalRedirect|ProxySCGISendfile|ProxySet|ProxySourceAddress|ProxyStatus|ProxyTimeout|ProxyVia|ReadmeName|ReceiveBufferSize|Redirect|RedirectMatch|RedirectPermanent|RedirectTemp|ReflectorHeader|RemoteIPHeader|RemoteIPInternalProxy|RemoteIPInternalProxyList|RemoteIPProxiesHeader|RemoteIPTrustedProxy|RemoteIPTrustedProxyList|RemoveCharset|RemoveEncoding|RemoveHandler|RemoveInputFilter|RemoveLanguage|RemoveOutputFilter|RemoveType|RequestHeader|RequestReadTimeout|Require|RewriteBase|RewriteCond|RewriteEngine|RewriteMap|RewriteOptions|RewriteRule|RLimitCPU|RLimitMEM|RLimitNPROC|Satisfy|ScoreBoardFile|Script|ScriptAlias|ScriptAliasMatch|ScriptInterpreterSource|ScriptLog|ScriptLogBuffer|ScriptLogLength|ScriptSock|SecureListen|SeeRequestTail|SendBufferSize|ServerAdmin|ServerAlias|ServerLimit|ServerName|ServerPath|ServerRoot|ServerSignature|ServerTokens|Session|SessionCookieName|SessionCookieName2|SessionCookieRemove|SessionCryptoCipher|SessionCryptoDriver|SessionCryptoPassphrase|SessionCryptoPassphraseFile|SessionDBDCookieName|SessionDBDCookieName2|SessionDBDCookieRemove|SessionDBDDeleteLabel|SessionDBDInsertLabel|SessionDBDPerUser|SessionDBDSelectLabel|SessionDBDUpdateLabel|SessionEnv|SessionExclude|SessionHeader|SessionInclude|SessionMaxAge|SetEnv|SetEnvIf|SetEnvIfExpr|SetEnvIfNoCase|SetHandler|SetInputFilter|SetOutputFilter|SSIEndTag|SSIErrorMsg|SSIETag|SSILastModified|SSILegacyExprParser|SSIStartTag|SSITimeFormat|SSIUndefinedEcho|SSLCACertificateFile|SSLCACertificatePath|SSLCADNRequestFile|SSLCADNRequestPath|SSLCARevocationCheck|SSLCARevocationFile|SSLCARevocationPath|SSLCertificateChainFile|SSLCertificateFile|SSLCertificateKeyFile|SSLCipherSuite|SSLCompression|SSLCryptoDevice|SSLEngine|SSLFIPS|SSLHonorCipherOrder|SSLInsecureRenegotiation|SSLOCSPDefaultResponder|SSLOCSPEnable|SSLOCSPOverrideResponder|SSLOCSPResponderTimeout|SSLOCSPResponseMaxAge|SSLOCSPResponseTimeSkew|SSLOCSPUseRequestNonce|SSLOpenSSLConfCmd|SSLOptions|SSLPassPhraseDialog|SSLProtocol|SSLProxyCACertificateFile|SSLProxyCACertificatePath|SSLProxyCARevocationCheck|SSLProxyCARevocationFile|SSLProxyCARevocationPath|SSLProxyCheckPeerCN|SSLProxyCheckPeerExpire|SSLProxyCheckPeerName|SSLProxyCipherSuite|SSLProxyEngine|SSLProxyMachineCertificateChainFile|SSLProxyMachineCertificateFile|SSLProxyMachineCertificatePath|SSLProxyProtocol|SSLProxyVerify|SSLProxyVerifyDepth|SSLRandomSeed|SSLRenegBufferSize|SSLRequire|SSLRequireSSL|SSLSessionCache|SSLSessionCacheTimeout|SSLSessionTicketKeyFile|SSLSRPUnknownUserSeed|SSLSRPVerifierFile|SSLStaplingCache|SSLStaplingErrorCacheTimeout|SSLStaplingFakeTryLater|SSLStaplingForceURL|SSLStaplingResponderTimeout|SSLStaplingResponseMaxAge|SSLStaplingResponseTimeSkew|SSLStaplingReturnResponderErrors|SSLStaplingStandardCacheTimeout|SSLStrictSNIVHostCheck|SSLUserName|SSLUseStapling|SSLVerifyClient|SSLVerifyDepth|StartServers|StartThreads|Substitute|Suexec|SuexecUserGroup|ThreadLimit|ThreadsPerChild|ThreadStackSize|TimeOut|TraceEnable|TransferLog|TypesConfig|UnDefine|UndefMacro|UnsetEnv|Use|UseCanonicalName|UseCanonicalPhysicalPort|User|UserDir|VHostCGIMode|VHostCGIPrivs|VHostGroup|VHostPrivs|VHostSecure|VHostUser|VirtualDocumentRoot|VirtualDocumentRootIP|VirtualScriptAlias|VirtualScriptAliasIP|WatchdogInterval|XBitHack|xml2EncAlias|xml2EncDefault|xml2StartParse)\\b
+<context>
+YYYYA
+ (MSIE 8|MSIE 9|MSIE 10)\\.
+^(change|delete)$
+.if_greater_than\\(.*\\)
+}\\n(else|catch|finally)\\b
+ERROR.*uses the SSH protocol but no private key was given
+Invalid broker identity \"rs-broker-fourth-5672\"
+\\?\\s*\\(
+0\\'(\\\\\\'|.)
+MOBISTEL
+(rekonq)\\/?((\\d+)[\\w\\.]+)*
+^nameserver 
+\"<\\?(?:php(?:\\d)?)?(.+?)\\?>\"
+No realms defined, I am adding one as All
+\\b(bool|byte|complex(64|128)|float(32|64)|func|interface|map|rune|string|struct|u?int(8|16|32|64)?|var)(?=\\b)
+^(\\\\d){13,16}$
+\\s*mpc.baseMVA\\s*=\\s*
+^(https?\\:\\/\\/|$)
+^I should have a failure$
+`name` can't be blank \\(value: undefined\\)
+^\\h{12}$
+^load\\s+(?:extension\\s+)?(\\S+)$
+^((?:mot|fat|par)*)$
+<(-\\w)>
+^AUTH=(\\S+)
+temporarily unavailable
+(?P<BAR>(?P<PERCENT>\\d{1,3})%\\s?\\[\\s*[=+>]*\\s*\\].+)
+<small>10-Yr Bond</small></a></td><td nowrap><small>([\\d.%]+)</small>
+<!\\[CDATA[^>]*>
+^(_authToken|username|_password|password|email|always-auth|_auth)$
+^```notes?$
+^(?:kappa\\b)
+[.](?:js|css)$
+(\\n)(\\n)$
+^(#[a-f0-9]{3}|#[a-f0-9]{6}|[a-z]+)$
+([a-zA-Z0-9])+(@)([a-zA-Z0-9])+((.)[a-zA-Z0-9])+
+^debug\\/
+\\A\\%prefix
+novelid=(\\d+)
+([0-9][0-9]*[fFdD])
+(?:<[\\/A-DF-Z][^>]*>)+([Aa]r)<\\/[A-DF-Z]> (?:<[\\/A-DF-Z][^>]*>)+(doimhneacht)<\\/[A-DF-Z]>
+^[A-Z_][A-Z_\\d]*$
+.*'skia_revision': '([0-9a-fA-F]{2,40})'.*
+\\A(tpl|use)-
+ *-- *(UP|DOWN) *--
+$postalCode
+archiveofourown.org/works/(\\d+)
+I issue the command 'setup.rb install' unprepared$
+\\{@link\\s+([^}]+)\\}
+This is some HTML
+(\\d.\\d*.\\d).jar
+timestamp=[0-9]+
+\\.([\\w\\-\\$]+)\\.(gz|Z|zip|gzip)\\Z
+In order to deploy applications, you must create a domain
+^(?:CC-BY-NC-ND-2\\.5)
+>>>HANDLER_ERRORS<<<
+\"renders a JSON response with errors for the \\w+\"
+([\\[\\]\\(\\)\\|]|\\.\\.\\.)
+Test Suites: 1 failed, 0 passed, 1 total
+bookmarks\\.html$
+must contain a fields property
+[\\/\\\\]manifest\\.webapp$
+^[0-9]{4}-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])(T(2[0-3]|[01][0-9])(:[0-5][0-9])?(:[0-5][0-9])?(\\.[0-9][0-9]?[0-9]?)?(Z|[+-](?:2[0-3]|[01][0-9])(?::?(?:[0-5][0-9]))?)?)?$
+/?(?P<zoom>[0-9]?[0-9])/(?P<x>[0-9]{1,10})/(?P<y>[0-9]{1,10})(\\\\.[a-zA-Z]{3,4})?$
+CONTENT
+[aeiuoAEIOU\u00c3\u0080\u00c3\u0081\u00c3\u0082\u00c3\u0083\u00c3\u0084\u00c3\u0085\u00c3\u0086\u00c3\u0088\u00c3\u0089\u00c3\u008a\u00c3\u008b\u00c3\u008c\u00c3\u008d\u00c3\u008e\u00c3\u008f\u00c3\u0092\u00c3\u0093\u00c3\u0094\u00c3\u0095\u00c3\u0096\u00c3\u0099\u00c3\u009a\u00c3\u009b\u00c3\u009c\u00c3\u009d\u00c3\u00a0\u00c3\u00a1\u00c3\u00a2\u00c3\u00a3\u00c3\u00a4\u00c3\u00a5\u00c3\u00a6\u00c3\u00a8\u00c3\u00a9\u00c3\u00aa\u00c3\u00ab\u00c3\u00ac\u00c3\u00ad\u00c3\u00ae\u00c3\u00af\u00c3\u00b1\u00c3\u00b2\u00c3\u00b3\u00c3\u00b4\u00c3\u00b5\u00c3\u00b6\u00c3\u00b9\u00c3\u00ba\u00c3\u00bb\u00c3\u00bc\u00c3\u00bd\u00c3\u00bf]
+\\\\cyrchar\\\\CYRIOTBYUS 
+(?=<<<\\s*('?)([a-zA-Z_]+[a-zA-Z0-9_]*)(\\1)\\s*$)
+\\b[P|p]*(OST|ost)*\\.*\\s*[O|o|0]*(ffice|FFICE)*\\.*\\s*[B|b][O|o|0][X|x]\\b
+^(http[s]?)://
+^form\\_([a-zA-Z0-9\\_\\-]+)\\.php$
+\\\"\\.\\\"
+(?<=[^\\n])\\n(?=[^\\n])
+, source\\[(.*)\\], extra_source
+^(?:\".+\"|<.+>)$
+\\:+(?!\\d)(\\w+)
+\\(\\?P=[^)]+\\)
+hello\\=world
+^([a-z0-9_.$\\[\\]]+) ([a-z0-9_$]+)\\(([a-z$0-9_.\\[\\] ,]*)\\)
+\\\\circledcirc 
+^$summary
+foo is invalid
+<foo>\\n\\s+<bar></bar>\\n</foo>
+^BS  (R\\d+)
+^0 0 0 0$
+task :default => :
+given (\\d+) ([^\\u0000]*) text (?:s{0,1})
+rotate\\s+:\\s(\\d+)\\s
+status: *[\\w-]*active
+\\{(?P<directive>[^}]+)\\}|(?P<terms>[^{}\\s]+)|(?P<space>\\s+)
+[-+]?\\d+[\\.]?\\d*
+^(\\s+)\\),
+\\((.+?)\\)
+^(\\+?298)?\\s?\\d{2}\\s?\\d{2}\\s?\\d{2}$
+5.004
+charset=([A-Za-z0-9_-]+)
+^read\\-only|readonly|ro$
+(mint)[\\/\\s\\(]?(\\w+)*
+^\\/(.*)\\/(\\d+)\\/
+.*\\.mydomain\\.com
+^(\\w|-|\\>|\\t)
+$NoUDC
+oos$
+\\.(png|jpe?g|gif|bmp|svg)?$
+updated service 'RSpec-json-service-by-name'
+Unexpected option \"foo\" passed to the command \"bar0\"\\.
+\u00f6il
+\\003(\\d|),(\\d)
+3\\.2-
+CBOE
+^g|global$
+WARN Watir \\[DEPRECATION\\] ([^.*\\ ]*)
+^(-)
+^[\\s
+^I should be able to write \"(.*?)\" in a element using id$
+Rule version:.*$
+(5[56]\\d\\d)|VSP|4950|59100
+(?is)//(www\\.)?(dailymotion|youtube|youtube-nocookie|player\\.vimeo)\\.com
+^JPEG
+\\<div class=\\\"MathJax_Preview\\\"\\>[\\s\\S]*?\\<\\/div\\>
+^{
+^requesting the `Statement Type` should give (.*)$
+(?<![<>])(<[A-DF-Z][^>]*>[Pp]h?\\x{e9}ire<\\/[A-DF-Z]> (?:<N[^>]*gnt=\"n\"[^>]*>[^<]+<\\/N>))(?![<>])
+\\{\\{PROD_FEATURES\\}\\}
+^[-+]?(?:inf|[$base_digits]+)$
+stack|recursion
+This is deprecated!
+<\\/documentRecord>
+[^\\\\w\\\\s'-]*
+^\\$sha1\\$(\\d+)\\$([\\.\\/0-9A-Za-z]{0,64})(?:\\$([\\.\\/0-9A-Za-z]{28}))?$
+Missile$
+^[a-z]*-[a-z]*-[0-9]{20}$
+brush
+[ \t\\)].*$
+^# ?(?:names(?: +[-\\w]+)*|default)\\s*$
+[.]\\d{3,6}
+Temporarily Disillusioned
+\\.(jpg|jpeg|png|gif|tiff|ico|svg|eot|otf|ttf|woff|woff2)$
+in `.*'$
+\u00e1\u00bf\u00a7
+(.+)\\s+(.+)\\s+\\((push|fetch)\\)
+0:\\s+'x' = \"x\"
+\\/{2,}#DEBUG[\\s\\S]*?\\/{2,}#ENDDEBUG
+composition_marker
+^(us|eu|ap|sa|ca)\\\\-\\\\w+\\\\-\\\\d+$
+dsn.*$
+^jira\\sdetails\\s
+^Version: (.+)$
+^([[:lower:]][[:lower:]\\d]*[\\.\\?:\\/]?)+
+\\s*(\\w+)((\\s*=\\s*\\*?\\w+\\.\\w+(\\s*\\[\\d+,\\d+\\])?)+)\\s*(\\,\\s*(.*))?;
+^[^\\S\\r\\n]*[\\r\\n]*$
+^\\\\\\!
+(?!default\\b)
+.*::(\\w+)Provider
+(?<![<>])(<S>[Aa]r<\\/S> <N pl=\"n\" gnt=\"n\" gnd=\"m\">[Ff]hiar<\\/N>)(?![<>])
+[,;:. ]\\s*(?:volume|vol)[. ]\\s*([a-z]*\\d+[a-z]*)\\b
+Root[\\s]+([0-9]+)[\\s]+([0-9]+)[\\s]+R
+\n      every\n        |\n      each\n        |\n      (?: 
+\\% Permission denied
+(>?
+[0-9a-zA-Z-_.]+
+^rgba? \\s* \\( \\s* (\\d+) \\s* , \\s* (\\d+) \\s* , \\s* (\\d+) \\s* \\)
+^(\\w+_)*id$
+^v(\\d+)\\.(\\d+)\\.(\\d+)
+^[a-z\\_][a-z0-9\\_^\\n\\r]*$
+^.+@.+\\..+$
+Total conversion savings
+\\.epp$
+<\\?xml version=\"1.0\"( encoding=\"[^\\\"]*\")?\\?>\\n
+eschlecht
+^\\r$
+.+(?=\\n)
+(\\\\[\\[\\]\\-\\\\])|\\\\(.)|([\\[\\]\\\\])
+<dc:title>Pternistis Wagler 1832</dc:title>
+^host_update_status_(?:add|del|set)$
+^(text\\b|structure\\b)?\\s*(.*)$
+^I have an authenticated REST API server for (.+?)$
+activity
+^www-authenticate$
+^Version.*
+^([^= \\t]+)[ \\t]*=[ \\t]*([#;].*)?
+mainmenu
+bla:1
+^the zip file in \"(.*?)\" folder should not exist$
+^(\\S[^\\r\\n]+):\\s*
+([\\000-\\037,=:%])
+SERVER END|SUCCESS|NOT FOUND
+zero_floor_time
+^Bundle::(.*)
+^there should be (\\d+) validation_condition(?:s?) with:$
+^(.*?):(after|before)$
+Unknown message digest
+^(.*)/.*\\+(.*)$
+jszip\\.js$
+(^[-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?)(cm|em|ex|in|mm|pc|pt|px|%)?$
+^:(\\w+)\\s*\\((-?\\d+)\\)$
+\\/\\/# sourceMappingURL=(.*)$
+^(?:use|require)\\s+lib\\s+(.*)
+WMD-50433
+\\d{,3}\\.\\d{,3}\\.\\d{,3}\\.\\d{,3}
+^(.*?)/(.*)$
+shucks
+\\A($LANGUAGE_RANGE)(?:;q=($QVALUE))?\\z
+self-
+\\A[a-z0-9]{40}\\Z
+^webpack\\/bootstrap\\/
+^b{10,12}$
+(field|return_field|input_field|connection|argument) :(?<name>[a-zA-Z_0-9]*).*
+^\\#define (GL_[^\\s]+) 1
+^/api/server_arrays/([^/]+)/alert_specs/([^/]+)$
+(\\n\\n)\\t(http:\\/\\/[A-Za-z0-9\\/\\%\\&\\=\\-\\_\\\\\\.]+)\\n([^\\t]|\\t\\n)
+[?!,]
+^el-4
+^\\s*([a-zA-Z_\\$][a-z0-9A-Z_\\$]*)\\s*$
+/api/ip_address_bindings
+(20\\d{4}|20\\d{6}|20\\d{2}_\\d{1,2}|20\\d{2}_\\d{1,2}_\\d{1,2})
+mswin32(\\_(\\d+))?
+^(\\s*)\"path\" arg \\(\\s*c\\(\\s*c\\(\\s*\"abstract\",\\s*c\\(\\s*\"loose\",\\s*\"loose-link\",\\s*\"strict\"\\s*\\)\\s*\\)\\.as\\(:oneline\\)
+^\\s*cached\\s+(\\w+)(?:\\s+(\\d+)(?:\\s+([^\\d\\s].*))?)?\\s*$
+^([a-zA-Z]+) ?=(.*)
+^UCWEB.+; wds (\\d+)\\.([\\d]+);.+; ([ A-Za-z0-9_-]+); ([ A-Za-z0-9_-]+)\\) U2
+^(-[a-z]+-)?margin
+</*\\w+:\\w[^>]*+>
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:2(?:[\\s\\xa0]*Tes(?:aloniceni)?|Thess|\\.[\\s\\xa0]*Tes(?:aloniceni)?)|II(?:\\.[\\s\\xa0]*Tes(?:aloniceni)?|[\\s\\xa0]*Tes(?:aloniceni)?)))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+[ ;,]+
+(#([0-9]+))
+^(\\w+)(\\.)(c)$
+\\}[\\n\\r]?\\[\\{
+license
+stats\\s+socket \\s*([^\\s]*) \\s*.*process \\s*1[\\d^]?
+^!a($| [\\w ,]+$)
+\\.bgr$
+^(0|1|2)$
+^(https|git)(:\\\\/\\\\/|@)([^\\\\/:]+)[\\\\/:]([^\\\\/:]+)\\\\/(.+)$
+give\\s+me\\s+(\\d+)\\s+(\\w.*\\S)\\s*$
+^(tcn|scn)
+^old-style middleware \"<test_web_middleware.test_old_style_middleware_class.<locals>.Middleware object at 0x[0-9a-fA-F]+>\" deprecated, see #2252$
+Expecting OpenSecureChannelRequest
+(.+[\\/|\\#])(.+)
+^(([0-2]?[0-9]:[0-5][0-9])|([0-1]?[0-9]:[0-5][0-9]\\s(am|pm)))$
+'if *\\(<%= *arrays *%>[^']*
+^formatted
+''(?!')
+[\\s\\(\\/][\\S\\s]+$
+\\A(['\"])(.*)\\1\\z
+^$order$
+vrf green
+^user:\\s*(.*?)\\s*$
+test_lifecycle
+data_
+^P[0-9]+
+(this\\.[a-zA-Z0-9]*(L|l)anguageService\\.setLocations\\(\\[['\"a-zA-Z0-9\\-_,\\s]+\\]\\);[\\s]*)
+unknown.+gender
+^[a-z]|\\s+[-z]
+undefined method `waka_waka'
+([^*|!?=<>(){}:,\\s]|\\*(?!/))+
+\\e\\[7;37;1m15\\e\\[0m:\\e\\[37;1mbright_white\\e\\[0m\\n
+\\{\\%
+.*?chrome\\/([0-9]+)\\.([0-9]+).*
+ns3:
+^Autostart:\\s+enable
+$AA->{$aa} \\($aa\\)\\s+\\d+\\s+(\\d+\\.\\d+)%
+^.*?\\{
+^tx_templavoilaplus_pi1\\.(nested_fields|current_field)
+^h(1|2|3|4|5|6)$
+^(?:SERIAL(?:4|8)?|BIGSERIAL)$
+^xmlns(--|:)([a-z0-9_-]+)$
+LOEWE\\/TV
+Updated: (.*)
+^[^\\:\\W]+$
+^ar|dv|fa|ha|he|ks|ku|ps|ur|yi
+`([^`\\\\]*(?:\\\\.[^`\\\\]*)*)`
+^__UPLOAD_FAILED__
+^set:
+(\\d+)h
+<div><p>this is the ERb layout</p><p>this is the mail with a Fortitude view!</p>\\s*</div>
+\\.(js|css|scss|sass|less|styl)$
+^([a-f0-9]*|%reference%)$
+\\b(?<_1>if|then|else)\\b
+^#\\\\\\\\?.$
+%OV
+^$NAME$
+^array\\(\\s*([^\\s^=^>]*)(\\s*=>\\s*(.*))?\\s*\\)
+^From: amavisd(?:-new)? <postmaster\\@
+a\u222fm(\u222f)\\s[A-Z]
+^\\s*#\\s*sphinx_gallery_([A-Za-z0-9_]+)\\s*=\\s*(.+)\\s*$
+^[\\*\\+\\-]$
+^File: (\\S+)
+Output must be defined
+<ExtData Name=\\\"COMMENT2\\\" Value=\\\"Comment2 string\\\"/>
+(<style.*?>|<\\/style>)
+\\[XDeathMaxLifetime\\] Lifetime remain \\d+\\/60 seconds\\.
+.*alt=\\\"Current photo of.*\\\".*
+unknown OTP type
+(.*)</pre>
+^(\\d+(?:Kb?|Mb?|Gb?)?)$
+(?<!^|\\s).
+\\\\cyrchar\\\\CYRCHRDSC 
+^(?<remote>[^ ]*) (?<host>[^ ]*) (?<user>[^ ]*) \\[(?<time>[^\\]]*)\\] \"(?<method>\\S+)(?: +(?<path>[^\\\"]*?)(?: +\\S*)?)?\" (?<code>[^ ]*) (?<size>[^ ]*)(?: \"(?<referer>[^\\\"]*)\" \"(?<agent>[^\\\"]*)\"(?:\\s+(?<http_x_forwarded_for>[^ ]+))?)?$
+(<[^>]+?(?:href|src|cite|action)\\s*=\\s*['\\\"])http:(//[^>]+?>)
+\\.\\d\\d\\dZ$
+htt(p|ps)://
+bgcolor=\\\"#ffffff\\\"\\s+
+%CLASSHPLOO_PH_REF_(\\d+)%\\s*=\\s*(.*?);
+^(https?://[a-z\\d\\.:-]+?)(/.*)
+^help (.+)$
+(^| )(
+%Y|%m|%d|%H|%M|%S
+$location_re
+\\AClassAssertion
+iaddr
+^dbgp://
+^crypt\\$[a-f0-9]{5}\\$[a-z0-9\\/.]{13}$
+\\# Projected DOS for atomic kind (?P<element>\\w+) at iteration step i = \\d+, E\\(Fermi\\) = [ \\t]* (?P<Efermi>[^\\t ]+) a\\.u\\.
+\\A(.+?)(\\.{2,3})(.+)\\z
+^\\d+(?:_\\d+)*(?:#[\\w.\\\\]+#(?:[+-]?\\d+(?:_\\d+)*)?|(?:\\.\\d+(?:_\\d+)*)?(?:e[+-]?\\d+(?:_\\d+)*)?)
+[.,]+
+(android)[\\/\\s-]?([\\w\\.]+)*
+modified_peptide=
+(?:_\\D*|[A-Za-z]\\d*)$
+$NUM_RE
+^.*(\\d{3})$
+^the two drivers should not interfere with one another's known hosts files$
+^X-wscompose-(.*)$
+\\\\ElsevierGlyph\\{300B\\}
+\\W(VOSTROM\\WPublic\\WLicense\\Wfor\\WOpen\\WSource)\\W
+^FreeBSD$
+test-console\\.css
+<t[hd]
+^that the version '(.*?)' has the store_dir overridden to '(.*?)'$
+No authentication methods available
+([+-]\\d{2}):(\\d{2})$
+^(.*)\\.(.*)\\.(.*)\\.(.*)\\/(.*)$
+^\\d+[.]?\\d*$
+^(\\d+|unlimited)$
+$re_attr_value
+(alpha numeric)
+document.*?;
+##UNPACKDIR##
+http://schema.org/PublicSwimmingPool
+No value provided for required options '--path'
+%CC%
+[\\.\\-\\s]
+(?:([ MADRCU?])([ MADRCU?]) )?(.*?)\\0
+[\u0001-\b\u000b\f\u000e-\u001f\u007f-\u0084\u0086-\u009f]
+^Synchronous test after load of page$
+worker2 \\[(\\d+)\\] started
+(?i)(((SELECT|ORDER\\s+BY|GROUP\\s+BY|SET)\\s+|\\(\\s*)(--.*|/\\*.*\\*/\\s*)*\\s*)(,)
+source|origin|region
+P[3,6]
+^v.+$
+%args>\n<%init>\nmy $val;\n\nmy $col_name = ref $column ? $column->name : $column;\n\nif (defined $row)\n{\n    $val = $row->select( $col_name );\n}\n\n$val = '' unless defined $val;\n<
+^(?:POST|GET|PUT|DELETE|OPTIONS|PATCH|TRACE|CONNECT)\\shttps?:\\/\\/\\S+\\sHTTP\\/[0-9.]+
+^graph_union$
+attr2$
+\\[emerg\\]
+/(?!\\.\\.)[^/]*/\\.\\./
+.*S\\d{1,2}E\\d{1,2}-(?:S\\d{1,2}E|E|)\\d{1,2}.*
+^\\n*perl;(.*)
+^\\d+\\.\\d+$|^\\d+$
+heavenly::(.*)
+.*>+\\s*
+(border\\-?(?:top|right|bottom|left|)|outline)\\:none(;|\\}| \\!)
+^Content-(Type|Length)$
+two\\.\\d+\\.gif
+test[\\\\/]test[/\\\\]not-ok\\.js \\.+ 0/[12]( [0-9.]+m?s)?$
+^location-note$
+^(BUILD|VERSION)\\:\\:
+^require_once\\b
+000
+Interface needs to be 10G to act as a peer-link
+^${patt}$
+^(\\d{1,3})\\-(\\d{1,3})$
+GMT
+\\bscores\\b
+(?<![<>])(<S>[Aa]r<\\/S> <N pl=\"n\" gnt=\"n\" gnd=\"m\">nd\\x{f3}<\\/N>)(?![<>])
+9(#)[0-8]++
+[*:?+]
+.*-v(\\d+(\\.\\d+)*)$
+^\\s*+ class \\s++ \\w++ \\s*+ \\( \\s*+ object \\s*+ \\)
+^\\.{1,2}
+[\u0430-\u044f\u0451]
+(\\w(?:\\s*%\\s*\\d+)?)\\s*=\\s*((?:[0-9.]+,)+[0-9.]+)
+<gray>(.*?)</gray>
+(_<\\w_>)
+prepended module
+__local_rules_dir__
+$perm
+([-+*.\\[\\]()\\^])
+VIRTUAL GENERATED
+carat\\/(\\d.)
+\\bthere\\s+has\\b
+text\\/xml$
+; *(M-MP[^;/]+|SmartPad ?\\d{2,}[^;/]+) Build
+^\\((\\w+) (\\d+ \\d+)\\)$
+client_io_ops{cluster=\"ceph\"} 8710
+\\.(eot|ttf|woff(2)?)(\\?v=\\d+\\.\\d+\\.\\d+)?
+^\\?OTR[^,]+,(\\d),(\\d)
+[\\uFB50-\\uFDFF]
+(?:(?:[A-Z???a-z????]+[0-9]+)|(?:[0-9]+[A-Z???a-z????]+))[A-Z???a-z????0-9]*
+Bootstrap: Oopsie
+<textarea .*?>(.*?)</textarea>
+Tests:.*2\\s+passed,\\s+2\\s+total
+/tagSet/item/value$
+^(?:`{3,}|~{3,})(?= *$)
+object of prop
+^(VAFIN)|(VAINF)|(VVINF)$
+Finished TestRetryJobFork.*attempt 2 of 2
+\\s*<\\s*(\\S*)\\s*>\\s*
+(\\w*)(.*)
+property '.*' given invalid value
+^[\\[\\]]\\s*(\\S.*\\S)\\s*[\\[\\]]$
+\\* Software Release (?i:v|REL)?(.+?) 
+/isFixedPitch[\\s]*([^\\s]*)
+\\[\\$(.*)\\]
+\\.(css|scss|sass)(\\?.*)?$
+^(TINYINT|tinyint)
+(?<![*+!_?\\-])\\b(true|false|nil)\\b(?![*+!_?\\-])
+^\\s*set\\s+
+remove.* app[/\\\\]basics[/\\\\]does-not-exist.txt
+\\s*;+\\s*
+Wyzo\\/([0-9.]*)
+\u00e1\u008d\u00bc\\b
+Welcome, gdb
+^\\#([0-9A-F]{2})([0-9A-F]{2})([0-9A-F]{2})([0-9A-F]{2})$
+^(\\/)|(http)
+^gotoSlide:(\\d+)$
+[\\w.\\S]+
+^([^\\@]+)(?:|\\@([^\\@]+))$
+]]$
+[a-zA-Z][0-9a-zA-Z.]*://.*
+^en(g(i(sh?)?)?)?
+propertyOp
+^\\s*n\\s+(\\d+)
+<p>---demostart---<\\/p>
+\\s([0-9]{1,2}([\\.,][0-9]{1,2})?)(\\\"){1,1}
+(^\\d+)\\t(.*) (\\w) (\\w+)
+^zoom (out|in) \\S+
+HTTP\\/(\\d\\.\\d)\\s*(\\d+)\\s*(.*)
+\\.xml\\z
+^the tree node \"([^\"]*)\"$
+^\\s*hsl\\(\\s*(\\d{1,3})\\s*,\n                         \\s*(\\d{1,3})%\\s*,\n                         \\s*(\\d{1,3})%\\s*\\)\\s*$
+(?<![<>])(<S>[Aa]r<\\/S> <N pl=\"n\" gnt=\"n\" gnd=\"f\">[Bb]huile<\\/N>)(?![<>])
+^#(.*)</des>
+(?:\\s*\\/\\/.*\\n)* *var sourceURL[^;]+;|\\+ *sourceURL
+(HTC)
+^[ \\t]*([^a-zA-Z0-9\\s]{1,3})[ \\t]+\\S
+^(HTTP\\/[0-9]+\\.[0-9]+) ([0-9]{3}) ([\\x20-\\x7e]+)$
+^Controllers found: (\\d+)$
+-----BEGIN CERTIFICATE-----([^-]*)-----END CERTIFICATE-----
+^(?:\\/\\*+[\\w|\\W]*?\\*\\/|\\/\\/.*?[\\n\\r\\u2028\\u2029]|\\s)*([\"'])use strict\\1;?$
+^(?:TRAN\\b)
+kuaiso
+(?>(?>(?>[[:space:]])+|(?>\\#)(?>(?>[^\\n])*))*)(?>\\*)(?>(?>(?>[[:space:]])+|(?>\\#)(?>(?>[^\\n])*))*)(?>,)
+^the additional cartridge storage amount should be (\\w+)$
+service: aws-nodejs
+(\\w+(?:[-']\\w+)*)
+^[\\s-]*$
+every\\s+other\\s+weekend
+Integer|Float
+^([A-Z0-9]{13})?$
+t.text\\s+\"long_text\",\\s+:limit => 2147483647$
+XXORIGINXX\\.
+first\\n  1\\. one\\n  2\\. two\\n  3\\. three\\n  4\\. four\\nsecond\\n  1\\. one\\n  2\\. two\\n  3\\. three\\n  4\\. four\\n
+^(\\d+)(?:\\.(\\d+))?(?:\\.(\\d+))?
+([^0-9]+)(?: release )?([\\d.]+)[^(]*(?:\\((.+)\\))?
+^/quit
+url\\s*:\\s*'((?!/\\b)[^']+)
+^(?:.\\:)?[^:]+:([\\d]+)
+(?<![aAiIuUeEoO\u02d0\u00b7\u031e])O(?![\u02d0\u00b7])
+foo\\.css$
+\\((.+?)\\)(?: WHERE (.+))?\\z
+Sport\\.htm
+^\\s*(\\w+):?\\s+(\\d+)((,|%\\s+\\/)\\s+(\\d+))?((,|%\\s+-)\\s+([RP]))?
+<URI>([^<>]+)</URI>
+^soybean
+\\$\\{content\\}
+^\\w+[\\w-]*$
+^[\\.\\_\\d]+
+\\[trace\\]
+^style\\s?guide\\s?[-:]?\\s?
+^[\\s\\n]+$
+`(\\(\\w\\)[,.]?(\\s|\\n|$))
+$username:
+\\-?(TRIAL|RC)\\d*
+^I create a widget in another db using mongomapper$
+(\\w+):\\s*([^ ]+)
+mkdir .*? -p \\/var\\/chef\\/cookbooks$
+\\AData::Sah::Type::
+\\b(?<_1>unix|win32|mac|debug|release)\\b
+_[0-9]*
+scenario2\\/lib7\\/library-preload$
+\\b(?<_1>create|pass|attempt|bind|bindAsEventListener|delay|periodical)\\b
+\\bbabel-jest\\b
+connection timed out|connect ECONNREFUSED
+CHAR\\((\\d+)\\)
+^\\s*\\[[\\s\\w]+\\]\\s*$
+^\\\"|^\\'
+^\\d{4}-\\d{2}-\\d{2}\\s\\d{2}:\\d{2}:\\d{2}$
+\\/device$
+$id\\s+IN\\s*$
+\\\\c[A-Z]
+/?>\\s*$
+prev_fmts=(\\d+?x\\d+?%2C\\d+?x\\d+?|\\d+?x\\d+?%2C\\d+?x\\d+?)
+[\\d]*-test-(.*)
+:(?!\\/|\\\\)
+^__version__ = ['\\\"]([^'\\\"]*)['\\\"]
+^([;:8][\"'-^]*[\\[\\(\\]\\)<DPdoOcCp]+)$
+//(get\\.adobe\\.com/([a-z_-]+/)*flashplayer|www\\.macromedia\\.com/go/getflash|www\\.adobe\\.com/go/getflash|helpx\\.adobe\\.com/flash-player/([a-z_-]+/)*flash-player)
+\n      (?: \\/\\* (?> (?:.|\\n)*? \\*\\/ ) ) |\n      (?: \\/\\/ .*(?:\\\\\\n.*)*(?:\\z|(?<!\\\\)\\n) )\n    
+^(input|select|textarea|button)$
+d([a:])s                $ 
+\\[object Object\\] is not a Broccoli node\\nused as output node$
+/android/app/src/main/java/com/SplashScreenPatch/MainActivity.java
+\\\\([\\.\\?\\|\\(\\)\\[\\]\\{\\}\\^\\$\\*\\+\\-])
+current Carat version
+[t][0-9]*[r][0-9]*
+camel.*case
+(hi|bye)
+try\\b
+^\\/?#content-
+</?stream\\b[^>]*?>
+([^D])DD([^D]|$)
+($r->{'verset_mots'})(?:$spaces)(?:$r->{'cv_list'})
+\\bmw:(?:(?:DisplaySpace\\s+mw:)?Placeholder|Entity)\\b
+$AND.*,
+android|iphone|ipad|ipod|blackberry|iemobile
+file not specified
+radiobutton
+\\W(Ruby\\WLicense)\\W
+(:?)-+(:?)
+\"\\/common.js\"
+^([[:xdigit:]]+)
+\\$?[A-Za-z]{1,3}\\$?[0-9]+(?![0-9A-Za-z_.])
+function *func *\\(_0x[a-f0-9]{4,6}, *..._0x[a-f0-9]{4,6}\\) *\\{
+^we should get a Capybara::UI::Widget::MissingSelector error$
+ \\G (>|\\+) \\s* 
+(\\s)$
+(?<=_)\\w[^_]*(?=_)
+^(.*)\\t
+\\A(.+)\\|.*\\z
+^(?:\\[(.{2})\\])(.*)
+an old node: The \\.read\\/\\.rebuild API[^\\n]*\\nused as output node
+ControllerTest$
+^\\/[\\w-]+$
+^<(\\d+)>(\\w{3} [ 0-9]{2} [0-9:]{8}) (.*)$
+\\G \\?
+^I should see the path of a failed test$
+\\A\\d{6,7}\\z
+^\\s*\\<\\!DOCTYPE\\s+[a-z0-9\\_\\-]\\:RDF\\s
+([\u00ab\u00bf\u00a1]) 
+(\\s|^)(?:btn-group|btn-group-vertical)(\\s|$)
+^Attean::Algebra::(LeftJoin|Minus)$
+^(break|case|chan|const|continue|default|defer|else|fallthrough|for|func|go|goto|if|import|interface|map|package|range|return|select|struct|switch|type|var)$
+Wind:
+^-(\\w.*)$
+login\\?redirect_after_login
+Show
+^\\s*CODE\\s*:
+-[0-9]{14}$
+Arg[\\d+\\s+][\\$\\%\\@]\\w+\\s+isa\\s+([\\w\"']+)
+^(.*)\\\\[([0-9]*)\\\\](.*)$
+gcc version
+::NoteOn$
+/admin(?:/(.*))?
+Integer number expected for dimension
+[^$v$k]+
+:on conditions for after_commit and after_rollback callbacks have to be one of \\[:create, :destroy, :update\\]
+certificate expired
+\u00e4\u00bd\u009c\u00e8\u0080\u0085.*?\\*
+png|jpg|gif|tiff
+\\G \\\\ 
+_IP
+^#<Proc:(.*?)@(.*)\\/to_s_spec\\.rb:16 \\(lambda\\)>$
+[^\\d,\\s]+
+(4|\u56db)
+%F
+Your user does not own the directory
+^:notry$
+<mod_aminoacid_mass 
+dll\\.js$
+[\\u02B0-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0374\\u037A\\u0559\\u0640\\u06E5\\u06E6\\u07F4\\u07F5\\u07FA\\u081A\\u0824\\u0828\\u0971\\u0E46\\u0EC6\\u10FC\\u17D7\\u1843\\u1AA7\\u1C78-\\u1C7D\\u1D2C-\\u1D6A\\u1D78\\u1D9B-\\u1DBF\\u2071\\u207F\\u2090-\\u209C\\u2C7C\\u2C7D\\u2D6F\\u2E2F\\u3005\\u3031-\\u3035\\u303B\\u309D\\u309E\\u30FC-\\u30FE\\uA015\\uA4F8-\\uA4FD\\uA60C\\uA67F\\uA717-\\uA71F\\uA770\\uA788\\uA7F8\\uA7F9\\uA9CF\\uAA70\\uAADD\\uAAF3\\uAAF4\\uFF70\\uFF9E\\uFF9F]|\\uD81B[\\uDF93-\\uDF9F]
+^'((?:[^'{]+|\\\\.)*)'$
+people\\?people_search(%5B|\\[)s(%5D|\\])=name\\+asc
+^(not null|N)
+((^(<[^>]+>|\\t|)+|(?:\\n)))
+<div.*id=\\\"header\\\".*>
+\\W(\\$iterator|include|require|get_defined_vars)\\W
+^.*<([^>]*)>
+\\A\\Q$key\\E-(\\d(?:[.]\\d*)?)
+D,.*DEBUG -- ddtrace: \\[ddtrace\\].*\\) unfinished span: Span\\(name:child_1
+/accounts$
+\\\"isWithdraw\":true
+select\\(
+$line_is{MGI}
+[- ._]*(thin|normal|book|regular|medium|black|heavy|[1-9]00|(?:extra|ultra|semi|demi)?[- ._]*(?:light|bold))[- ._]*
+charset=([\\w-]*)
+^ice-ufrag:(\\S*)
+^I do Ebooks\\.generate\\(config\\)$
+sekritD
+^$ATT_STRING$
+\\A(.+?)(?: ([/+]) (.+) )?\\z
+Syntax error at end of
+^(0x)?[0-9a-f]{2,}$
+^[-+]?\n                      (\\d{4,})-\\d{2}-\\d{2}  # CCCC...-MM-DD\n                      T \n                      \\d{2}:\\d{2}:\\d{2}     # hh:mm:ss\n                      (?:\\.\\d+)?            # .sss...\n                      (?:\n                        (?:Z)               # Z == +00:00\n                        |\n                        (?:[-+]\\d{2}:\\d{2}) # +hh:mm\n                      )?\n                    
+Could not find file: .+non-existing-view\\.json
+^.*\\/(\\w+\\.js)$
+^\\S+\\s++(?:(?:\\.{3}\\s*)?(\\$\\S+)\\s+)?[^$]
+WORKFLOW
+^\\[?([.0-9a-f:]+)\\]?(:[0-9]+)?$
+(\\\\)?\\.\\*
+Subject: simple
+^demo
+src=\"scripts\\/
+^og:(?:url|image|audio|video)(?:(?:$|:)(?:url|secure_url|$))
+-[0-9a-f]{40}\\.
+\\!:
+c-[[:alnum:]]{5}:(p|project)-[[:alnum:]]{5}
+^DECLARE_PEM_rw\\s*\\(\\s*(\\w*)\\s*,
+cesium
+[\\s|\\-]+
+accounts.test.ledger
+Holy Grail
+[\\n\\u0085\\u2028\\u2029]
+^(\\u0434\\u043d\\u044f|\\u0432\\u0435\\u0447\\u0430\\u0440\\u0430)$
+^\"([^\"]*)\" is added to FactoryBot's file definitions path$
+^FLUX_AUTO
+^([a-z]){3,10}:\\/\\/.+
+the \"(.*)\" folder contains the following entries:
+VALUE (\\S+) (\\d+) (\\d+)
+@iterable\\s\\$([\\w]+)
+Invalid callback specified.
+\\{#[\\s\\S]*?#\\}
+ (['\"])?\\)$
+$quoted_comment
+Patient ID for this exam: ([[:graph:]]+)
+^\\d\\.\\d+
+place
+app\\/assets
+^YAML(::|$)
+^I am testing background$
+At line 4: fest:include is not allowed inside fest:var
+^\\/auth\\.git\\b
+\\bpico-close\\b
+yahoo\\.com$
+[ \\t]+(?:(\\d+(?:\\.\\d*)?|(?:\\d*\\.)?\\d+)([*+]))?([<^>](?:\\.[<^>]?)?|(?:[<^>]?\\.)?[<^>])?([a-z])?$
+\\{(?:\\|.+\\|)?(.*)\\}
+<=+>
+testing.assertions.selector
+^((0|10|172\\.(1[6-9]|2[0-9]|3[01])|192\\.168|255|127)\\.|unknown)
+CompCheck\\: +(\\d+)
+f\\.input :headerable_type
+Requires a bearerToken to be set.
+^an empty export directory$
+[s??zk??c??][h?l?].{1,3}[dt????]
+([0-9]+) *x *([0-9]+)
+Basic\\s+(?<token>.*)$
+\\@[a-z0-9]+
+^.*_(\\w+)$
+No modules object defined
+autosplit into .*lib.auto.(.*\\.al)
+gemset_id=\\\"(.*)\\\"
+[+-]?\\d+(\\.\\d+)?[dDfFlL]?
+Build type\\s+\\|\\s+([a-zA-Z]+)
+\\$\\([^)]+\\)|`[^`]+`
+^[\\w\\s]{1,30}$
+rr|ch|ll|\u00f1|\u00e1|\u00e9|\u00ed|\u00f3|\u00fa|\u00fc|\\w
+.*?WARNING.*?watch out!$
+must define OctocatalogDiff::Config.config!
+[\\[\\(]((\\d\\d?)(:(\\d\\d?|\\?|\\d\\.\\d))+)[\\)\\]]$
+<meta\\s+http-equiv=\"Content-Type\"\\s+content=\"[^\"]+charset=([a-z0-9-]{3,15})\"
+^(={1,4})(?!=)\\s*(?=\\S)
+^(\\d+)[.:](\\d{2})\\s*([ap]).?m.?$
+([^:]|\\A)\\/\\/
+(IV|I{1,3}|VI{0,2}|iv|i{1,3}|vi{0,2}|N)
+(\\b|[-._ ])mac(\\.|\\s)?osx(\\b|[-_. ])
+^\\/maintenance\\/([^/]+)\\/([^/]+)\\.(svg|png|gif|jpg|json)$
+^(<|<=||=|==|>=|>|!=|\\^|~|~=)(\\d.*)$
+KIND
+1.4
+^I should see the no profile matching message$
+define\\([\"']WP_CONTENT_DIR[\"'],[\\s]*(.*)\\)
+^Timeplot$
+^\\s*(?:once|always|inherit)\\s+$
+\\s*<-> (.*)
+(?i)PID
+^- (.+) - [0123456789\\.]+ [KMG]B - (Seeding|Done)
+Encryption key\\s*[:|=]\\s*on
+^\\?(\\s+?.+?)?$
+(,[fh1])(,[olx][sb])+,[olx]s
+\\swv\\).+(chrome)\\/([\\w\\.]+)
+( *)interface LoDashStatic {
+ST[0-7]
+/+\\.?/+
+/\\.\\.?(/|$)
+^((?:[A-Za-z0-9-]+(?:=\"[^\"]+\")?,?)+ *)?(ssh-(?:dss|rsa)) *([^ ]*) *(.*)
+^(?:3\\d\\d)$
+\"bili-cid=\\d+&bili-aid=\\d+&vid=([^\"]+)\"
+Epoch(\\d)d
+^-0b
+(?<!\\\\)\\$\\{(.*?)\\}
+No DICOM
+^(!\\s)?rtl:begin:ignore$
+^[\u00e0\u00bb\u0080-\u00e0\u00bb\u0084]?$consonant([\u00e0\u00ba\u00a3\u00e0\u00ba\u00a5\u00e0\u00ba\u00bc])
+^GC(\\w+)$
+^.[^a\u00e0e\u00e8i\u00eco\u00f2u\u00f9]
+rv:([0-9\\.]*)
+\\b9\\.\\d(\\.\\d+)* safari
+</[vV][aA][rR]>
+^last\\s*(.+)\\s*(year|years|quarter|quarters|month|months|week|weeks|day|days)$
+(.*)/[^/]+
+\\W(EUPL-1.1|European\\WUnion\\WPublic\\WLicense\\W1.1)\\W
+^coulnd't create collection with compression level.*\\n  cause.*
+SKIP
+\"(?:\\\\.|[^\\\\\"])*\"(?=\\s*:)
+.*(;)\\s+
+\\[Unit Type\\] (\\S+)
+helpers|pickers|progress
+label>\n%        if ($request->{template_args}->{errors}->{$col}) {\n            <span class=\"error\"> <%$request->{template_args}->{errors}->{$col}%> <
+^B[0-9]*$
+^\\d{5}((-|\\s)\\d{4})?$
+^select the (.*) from (.*) folder$
+\\A(ftp|https?)://
+^  get 'account\\/foo'
+\\\\~\\{u\\}
+^( *>[^\\n]+(\\n(?!def)[^\\n]+)*\\n*)+
+\\x1f([^\\x1f])([^\\x1f]+)
+^[#0]+
+ActiveRecord::Migration\\.check_pending!
+\b
+^[a-z_\\\\x80-\\\\xff][\\w\\\\x80-\\\\xff]*$
+\\b([\\d]+(\\.[\\d]+)?|0x[a-f0-9]+)\\b
+\n            ([-_\\w]+)\\s # capture gem name\n            [(](\n                (?:\n                    (?:\n                        (?:\\d+\\.)*\\d+\n                    )\n                    ,?\\s?\n                )+\n            )[)]
+^([a-zA-Z0-9]+)$
+# Define ENV variables for development environment
+(?P<region>[+-]?(?:ann(?=\\s))?\\s*[a-z]+?\\[[^=]+\\])(?:\\s*[,]\\s*(?P<parameters>.*))?
+^configuration$|^.*files$|^entries$|^gradeitems$|^outcomes$|^comments$|^ratings
+^<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>
+^ *===* *[^0-9]*(.*[^= ]) *===*.*$
+<p class=\"text\" style=\"color:\\s+#f00;\\s*line-height:\\s+1.5\">
+\\APORT 127,0,0,1,(\\d+),(\\d+)\\r\\n\\z
+((?<=(\\[|\\(|\\{|=|\\s|,|;))|^)'
+^draft\\d+$
+([0-9]{1,2})\\/([0-9]{1,2})\\/([0-9]{4,4})
+(\\?|&)ts=\\d+
+\\<\\:(.*?)\\>
+b\\.js
+status\\:0, error:undefined method `blah!'
+Could not find resource file
+000_(dropbox|mega|soundcloud)
+\\A5[.]3[.]5\\z
+^sup\\/
+^([bcdfghjklmnpqrstvwxyz])(el[aiueo])(.*)$
+[a-zA-Z1-9]{27,35}$
+#([^#]+?)#
+([\\d]{4})(-([\\d]{2})(-([\\d]{2})(T([\\d]{2}):([\\d]{2})(:([\\d]{2})(\\.([\\d]+))?)?(Z|(([-+])([\\d]{2}):([\\d]{2})))?)?)?)?
+ \\.\\.\\..*?$
+\\/nixevent (.+)
+\\AAttempt to report a duration on an interval that has not started\\Z
+(iPhone|iPod|android|ios|iPad|windows phone|tablet)
+(?i)https?://.*\\.googlesource.com.*
+^noetags$
+data-remote=\"true\"
+^(\\w)+(\\?|\\!)?$
+generated|vendor|dispatch|ruby|script\\/\\w+
+typedef\\s+enum\\s+(\\w+)\\s*\\{([^}]+)}\\s*\\w+;
+([a-zA-Z_0-9]+)\\s=\\s(.*)
+\\AS
+quickmeme.com
+DROP TABLE \"?NOT_TEMP_TBL\"?
+(?i)\\bmetaphone(?=\\s*\\()
+\\.module\\(('[^']*'|\"[^\"]*\")\\s*,(\\s*\\[([^\\]]*)\\]\\s*\\))
+\u02cb
+\\\\'|\\\\\\\\
+-pc-sco3\\.2v5
+^TIS-620$
+\\?.*=
+$self->{'special'}->{$parameter}->{'special_pattern'}
+<AVSDestphoneNum>1234567890
+^\\Q$dir\\E[\\/\\\\]
+[\\$\\@\\%]\\w+
+^joh?n
+preval\\((.*)\\)
+(submission|action)\\/?$
+callprotoargument\\b
+\\btxnColTransDate\\b
+^I drag element \"([^\"]*)?\" to element \"([^\"]*)?\"$
+Edubuntu[\\/|\\ ]([.0-9a-zA-Z]+)
+(?=<!\\|)\\|(?=!\\|)
+^i(?:Phone|Pad|Pod)\\d+?,\\d+?/([\\d\\.]+)
+^(\\w+)!(.*)$
+[a-z0-9]+$
+amp4ads-boilerplate
+^(\\s*)unique_keys
+([<>])\\s+(\\u0007\\d+\\u0007)
+\\{method}
+[-|_| ]+
+Parallel\\(.+
+utm_source
+(bsd|solaris)
+^(?:\\s+|\\-)(am|pm)
+[\\s\\v]
+^\\\\\\@
+[a-zA-Z][-\\w]*
+\\boldgnu\\b.*\\bformat\\b
+chrom.*bookmarks
+^[a-zA-Z0-9,\\.\\-_]$
+(?:s)*
+((?:(?:[a-z]{1,8})|(?:\\*))\\-?(?:[a-zA-Z]{1,8})?)
+^[-a-z0-9~!$%^&*_=+}{'?]+(\\.[-a-z0-9~!$%^&*_=+}{'?]+)*@([a-z0-9_][-a-z0-9_]*(\\.[-a-z0-9_]+)*\\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}))(:[0-9]{1,5})?$
+^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]+$
+^nocache$
+^@([^\\n]+)
+(matrix)\\((.+)\\)
+(dex2oat|dalvikvm) W .* method_verifier.cc:.*] Verification of .* took .*ms\\r?\\n
+^(\\d+|addToNewsList|formMail|recoverPassword|updateCart|addProfile)$
+^1[34578]\\d{9}$|^[2-9]\\d{6,7}(-\\d{1,4})?$|^6[1-9]{2,5}$
+(_[a-zA-Z])
+/packages/source/[^/#.]+/([^/#.]+)/
+TODO|FIXME|XXX|ZZZ
+\\A(=begin(.*)\\n=end\\s(.*))\\n
+Sequence$
+^[^ ]+@[a-z\\-\\.]+\\.[a-z]{2,}$
+shared repository: (?P<repository>.*)\\n
+### Features[\\w\\W]*module:[\\w\\W]*amazing new module.[\\w\\W]*CHANGELOG$
+(#\\s*)\\b(define|elif|else|endif|error|ifdef|ifndef|if|import|include|line|pragma|undef|using)\\b
+(?<![<>])(<C>[Gg]o<\\/C> <F>[Bb]rach<\\/F>)(?![<>])
+^\\s*(?<_1>#\\s*(?<_2>pragma\\s+mark)\\s+(?<_3>.*))
+^magnet:
+^(?:[a-z0-9]{4}:) ((?:[a-z0-9]{2} ){1,16})
+\\[ham-project\\.README\\]
+--program
+INSERT_VERSION_HERE
+(0x[0-9a-f]+)
+parameter=([A-z0-9_]+)
+Generated 3 screenshots from 1 url and 1 size
+COMPILER
+([\\n][ \\t]+)
+<\\/icon>
+[^,;\\s]+
+>(\\s+)<
+\\A\\s*(
+^<\\d+>
+#<Class:0x[0-9a-f]+>
+^z?many$
+\\s*[;#]
+\"user\":\\s?{.+\"external_url\":\\s?\"([^\"]+)\"
+protocol fault \\(no status\\)
+,([a-z])
+s3[-\\w\\d]*\\.amazonaws\\.com$
+^4[0-9]{12}([0-9]{3})?$
+((\\(.*\\))( \\d+))|( \\d+)*$
+LAST POSTED:\u00a0(\\d{2}\\/\\d{2}\\/\\d{4} \\d{2}:\\d{2}:\\d{2})
+Executing: ls -z
+^EXPDTA 
+url\\([^)]*\\)
+[\\u0A81-\\u0A83\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABC-\\u0AC5\\u0AC7-\\u0AC9\\u0ACB-\\u0ACD\\u0AD0\\u0AE0-\\u0AE3\\u0AE6-\\u0AF1]
+[^\\s]+.*
+[^-_.!~*'()a-zA-Z\\d\\/?:@+$\\[\\] \"\\x80-\\xfd><;=,]
+<iframe .*>
+^(.*);(s\\d{1,3})$
+[^{]*({.*})[^}]*$
+^->
+Messages(.*)\\.php$
+^\\D\\D\\D\\d\\d$
+/automatic_validation/no_request_schema
+^find[_-]{0,1}get[_-]{0,1}next$
+evening
+Payload/(.*).app/$
+\\(.+\\)\\s*$
+^\\s*\\{\\s*\\}\\s*$
+^(.)(.+)\\1(.+)\\1
+myserver
+\\A$WS+  
+CARGO_FEATURE_PYTHON(\\d+)(_(\\d+))?
+\\r?\\n\\}\\s*?\\);[^}\\w]*$
+^gen\\.?(naio)?$
+\\%\\{
+IS REGISTERED
+(\\S+)/lib(\\w+)\\.($lib_ext_re)\\b
+\\d{3}\\s*\\d{2}$
+\\n:
+error properties:.*someProperty.*hello there
+^(?:content|_?cursor|_?background(?:-image)?|(?:-[a-z]+-)?(?:border-image(?:-source)?|mask|mask-image|mask-image-source|mask-box-image|mask-box-image-source)|(?:\\+|-webkit-)?filter)$
+industry
+\\G \\n?+ (?:.+\\n)* (\\n+)
+.*?\\..*?\\..*?
+^\\w{2,3}_\\w{2}$
+^u\\s+(.*?)\\s+(.*)\\s+(.*)
+@(\\p{Word}++):?
+^\n[ \t]+[*]?
+<createdTime>(.*)<\\/createdTime>
+.+[\\\\/](.+)$
+($re_num)
+([A-Za-z]\\-\\d+|App)
+^the client is notified that the record \"([^\"]*)\" was written without error$
+([.%|(){}\\[\\]])
+using temporary
+([^\\/]+)_(\\d+).wav$
+\\/\\*,\\*\\/\\s*(function(?:\\s+[\\w$_]+)?\\s*\\(\\s*([^()]+)\\s*\\))
+^\u05d4
+^(W|L)
+^\\0?$
+ \\A [_ab] \\z 
+^\n        (  [a-zA-Z_]\n         | \\\\\\\\u[0-9a-fA-F]{4}\n        )\n        (  [0-9a-zA-Z_\\.-/]\n         | \\\\\\\\u([0-9a-fA-F]{4})\n        )*\n      $
+^([\\'\\^\\\"])([$vocs])([\\'\\^\\\"]?)([$vocs])
+^[a-zA-Z]:[/\\\\].*
+(?<=<!-- END content -->)(.*)$
+h2. Version (\\d+\\.[^\\s]+) - upcoming
+(po|m\u016bs\u0173)
+^refs\\/heads\\/(\\S+)\\b
+^b\\b\\s*(\\d*)\\s*(.*)
+\\\\(.|\\z)
+\\{\\s+\\}
+[^_a-zA-Z0-9]+
+conf\\.paths\\.tmp, '\\/serve[^\\s]*\\.module\\.js'
+^alternate\\s+(\\S*)
+giblets
+^\\s*(\\.\\d+)
+^.*=\\s+
+(<|>)
+(.+)(\\.|::)(\\S+)\\Z
+9 views and 4 downloads since January 1, 2014
+^\\s*CALL\\s+SYSPROC\\.ADMIN_CMD\\('REORG\\s+TABLE\\b
+^GANGLIA_MINOR_VERSION=(\\d+)
+__or__
+^[+,]
+rays
+\\G$WS([0-9\\.]+)
+\\s*\\{\\s*$
+\\b(if|then|else)\\b
+^the file \"([^\"]*)\" contains \"([^\"]*)\" exactly \"(\\d+)\" times$
+(2\\.4|3\\.[02])\\.\\d+
+oidal$
+^__INIT__$
+whole
+^the file ([^ ]+) should be identical to the local (.+)$
+^\\=\\<\\>
+ Columns$
+(\\ninstall\\s+::)
+\" (int|tinyint|smallint|bigint)\\([0-9]+\\) NOT NULL(,)?\\n
+^\\x00.\\x00
+.+<frozen<.+
+\\wukong\\.input\\.type.*kafka
+^\\s*(?:(?:(?:thin|medium|thick|0|[+-]?\\d+(?:\\.\\d+)?(?:em|ex|px|in|cm|mm|pt|pc))\\s+){1,4}|inherit\\s+)$
+(?m)\\A\\s*$
+\\(((Lorg/osgi/service/component/ComponentContext;)|(Lorg/osgi/framework/BundleContext;)|(Ljava/util/Map;))*\\)V
+jwks_uri could not be refreshed
+applying.*?shoulda.*?test
+^(\n                             # classic commands\n                             make\n                             |test\n                             |install\n                             |clean\n\n                             # pragmas for classic commands\n                             |ff?orce\n                             |notest\n\n                             # compounds\n                             |report\n                             |smoke\n                             |upgrade\n                            )$
+^([0-9]+)\\s*(.*s)?$
+\\>\\s?\\<
+queue_as :admin
+^\\Q$address\\E
+^.*\\/components-browser
+-panels$
+^AR_MENU_REFRESH_(\\w+)
+A7 
+href=\"http://videos\\.francetv\\.fr/video/(?P<video_id>.+?)(?:@.+?)?\"
+closedir\\(
+^-?datetime_created$
+\\((?!\\?)
+Until$
+A.?
+(?x)\n            (?:  ^\\s*)                             # begin-of-line\n            ((?!while|for|do|if|else|switch|catch|enumerate|r?iterate)[A-Za-z_][A-Za-z0-9_:]*) # actual name\n             \\s*(\\()                            # start bracket or end-of-line\n          
+\\W(Fair\\WLicense)\\W
+^[^A-F]*[a-f][^A-F]*$
+\\W(Intel\\WOpen\\WSource\\WLicense)\\W
+^I visit the sample feature page$
+formula.rb
+\n          [?](\\\\[MC]-)*     # modifiers\n          (\\\\([\\\\abefnrstv\\#\"']|x[a-fA-F0-9]{1,2}|[0-7]{1,3})|\\S)\n          (?!\\w)\n        
+magnet:\\?xt=urn:[a-z0-9]+:[a-z0-9]{32}
+([\\-\\+~])([\\w]+)
+^\\S+ is \\S+$
+\\bchxt=x,y,r\\b
+(?<=\\w)(\\.|!)[ \\t]|(\\.$|!)|\\n
+.*\\}\\}\\n$
+os (Windows|macOS|Linux)(\\/.*)?;
+^[^ \\?]*(\\?.*)?$
+t.integer\\s+\"atoms_in_universe\",\\s+precision: 38,\\s+scale: 0
+^(?:(-?[_A-Za-z\\xA0-\\xFF][-\\w\\xA0-\\xFF]*)|\\x01(\\d+)~):
+\\brv[ :]+(\\.?\\d+(\\.\\d+)*)
+file
+Log::Any::Adapter::Mojo:\\d+
+^(.*)_([dis])(r?)$
+\\.(mp4|m4a)$
+^the calculator adds$
+^hubot
+.*(\\[.*\\]).*
+version\\: \\'([\\.0-9]*)\\'
+^SD  (.+)$
+\\)[\\s]*\\]
+windows\\s(ce|mobile);\\sppc;
+[\\p{Cc}&&[^\\t\\r\\n]]
+couch-([A-Z])
+%[Ddhms]
+<script [^>]*src=[\"']([^'\"]+)[\"']

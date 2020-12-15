@@ -1,0 +1,184 @@
+/^SITE[ \t]+CPWD[ \t][^\n]{100}/mi
+/.*\x3cj2se[^\x3e]*(initial|max)-heap-size\s*\x3d\s*(\x22|\x27)[^\2]{50}/i
+/(\x16\x03\x01.{4}\x02)|(.{4}\x02\x16\x03\x01)/
+/.*mfcisapicommand=[^&\r\n\x3b]{25}/smi
+/.*rbtool\x3d[^\x20\x26\x3b]{1}/
+/^RETR[ \t][^\n]{200}/mi
+/.*\x2Fmrow\x5Fpin\x2F\x3Fid\d+[a-z]{5}\d{5}\x26rnd\x3D\d+/smi
+/^User-Agent\x3A[^\r\n]*Agent[0-9]{7}/smi
+/(.{1}\x01.{4}\x00\x02)|(.{4}\x00\x02.{1}\x01)/
+/^STOU\s[^\n]{200}/smi
+/^PWD[ \t][^\n]{190}/mi
+/.*isComponentInstalled\s*\([^,\)]{25}/smi
+/^DESCRIBE[ ][^\n]{30}/smi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*E56CCB42-598C-462D-9AD8-4FD5B4498C5D\s*}?\s*\1/si
+/^MKD[ \t][^\n]{180}/mi
+/.{1}\x01\x00\x02/
+/.*w3who.dll\x3F[^\r\n]{51}/i
+/[\x3f&]connectID=#[^&\x3b\x3f\r\n]{255}/smit
+/.*\x5B(OPTIONS|WINDOWS|MERGE FILES|MAP|ALIAS|TEXT\x20POPUPS|INFOTYPES|SUBSETS)\x5D.*(Contents|Index|Compiled|Sample List|Full text search stop list)\x20file\s*\x3D[^\r\n]{20}/smi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*67DABFBF-D0AB-41fa-9C46-CC0F21721616\s*}?\4.*\3\.(Resize)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*67DABFBF-D0AB-41fa-9C46-CC0F21721616\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(Resize)\(/si
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*4124FDF6-B540-44C5-96B4-A380CEE9826A\s*}?\4.*\3\.(ExportSiteList|VerifyPackageCatalog)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*4124FDF6-B540-44C5-96B4-A380CEE9826A\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(ExportSiteList|VerifyPackageCatalog)\(/si
+/^MODE[ \t]+[^ABSC]{1}/msi
+/[\x3f&]username=#[^&\x3b\x3f\r\n]{255}/sit
+/^RETR[ \t]([^\n%]*%){2}/mi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*52A2AAAE-085D-4187-97EA-8C30DB990436\s*}?\s*\1/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*0006F063-0000-0000-C000-000000000046\s*}?\s*\1/si
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*AA218328-0EA8-4D70-8972-E987A9190FF4\s*}?\4.*\3\.(TextETACalculating)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*AA218328-0EA8-4D70-8972-E987A9190FF4\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(TextETACalculating)\(/si
+/^Content-Length\x3A\s*[^\r\n]{10}/smi
+/^MDTM[ \t][^\n]{100}/mi
+/^SITE[ \t]+CHMOD[ \t][^\n]{200}/mi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*0B9C9C7D-ED81-4594-AFCB-FC5588125382\s*}?\4.*\3\.(LoadLibrary)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*0B9C9C7D-ED81-4594-AFCB-FC5588125382\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(LoadLibrary)\(/si
+/^SYST[ \t][^\n]{100}/mi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*238F6F83-B8B4-11cf-8771-00A024541EE3\s*}?\s*\1/si
+/.*\w+\.substringData\([^\),]+,\s*(\d{4}|25[7-9]|2[6-9][0-9]|[3-9][0-9]{2}|0x0*([1-9a-f][1-9a-f]{3}|[2-9a-f][0-9a-f]{2}|1([0-9a-f][0-9a-f]|0[1-9a-f])))/smi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*7261EE42-318E-490A-AE8F-77649DBA1ECA\s*}?\4.*\3\.(LoadLibrary)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*7261EE42-318E-490A-AE8F-77649DBA1ECA\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(LoadLibrary)\(/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*75C11604-5C51-48B2-B786-DF5E51D10EC9\s*}?\s*\1/si
+/.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fb\.fcgi/i
+/^Authorization\x3a(\s*|\s*\r?\n\s+)Basic\s[^\n]{25}/smi
+/\x16\x03\x00.{2}\x01.{3}\x03\x00.{32}\x00/
+/[\x3f&]sid=#[^&\x3b\x3f\r\n]{255}/sit
+/^SITE\s+ZIPCHK\s[^\n]{100}/smi
+/^NLST[ \t][^\n]{200}/mi
+/^LIST[^\n]{120}/smi
+/.*<[pv]\x3Arecolorinfo\s+[^>]*numfills\s*=\s*(\x22[1-9]\d{4}\x22|\x27[1-9]\d{7}\x27)[^>]*>.*<[pv]\x3Arecolorinfoentry\s+[^>]*tocolor/smi
+/^CWD[ \t][^\n]{180}/mi
+/^\x2F40e800[0-9A-F]{30}$/i
+/.*get-dated-rev\x20\x28\x20\d{1,4}\x3a([^T\x2d\x3a]{9}|[^\x2d]{4}\x2d[^\x2d]{3}|[^\x2d]{4}\x2d[^\x2d]{2}\x2d[^\x2d]{3})/i
+/^SITE[ \t]+CHOWN[ \t][^\n]{100}/mi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*261F6572-578B-40A7-B72E-61B7261D9F0C\s*}?\s*\1/si
+/(\x16\x03\x01.{4}\x01)|(.{4}\x01\x16\x03\x01)/
+/.*(\x5c[^\x5c]{16}|\x2f[^\x2f]{16})\.cda$/smi
+/^SITE[ \t]+NEWER[ \t][^\n]{100}/mi
+/^CEL[ \t][^\n]{100}/mi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*8422DAE7-9929-11CF-B8D3-004033373DA8\s*}?\s*\1/si
+/^(\d{5}|390[1-9]|39[1-9][0-9]|[4-9][0-9]{3})\x3A/R
+/^REST[ \t][^\n]{100}/mi
+/.*tid\x3D\x7B([0-9A-z]+\x2D){4}[0-9A-z]+\x7D/smi
+/^RMD[ \t][^\n]{100}/mi
+/[\x3f&]instancename=#[^&\x3b\x3f\r\n]{513}/smit
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*54BDE6EC-F42F-4500-AC46-905177444300\s*}?\4.*\3\.(DownloadAgent)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*54BDE6EC-F42F-4500-AC46-905177444300\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(DownloadAgent)\(/si
+/.*<OBJECT\s+[^>]*type\s*=[\x22\x27]\x2f{32}/smi
+/^HELP[ \t][^\n]{200}/mi
+/.*\x2Fbi\x2Fservlet\x2FThinstall(Pre|Result).*^User-Agent\x3A[^\r\n]*\.exe[^\r\n]*\x7B[\dA-Za-z]{8}-[\dA-Za-z]{4}-[\dA-Za-z]{4}-[\dA-Za-z]{4}-[\dA-Za-z]{12}\x7D\x7C[\dA-Za-z]{8}\x7C\d{5}-\d{3}-\d{7}-\d{5}/smi
+/^RMDIR[ \t][^\n]{100}/mi
+/.*A?<\s*[A-Za-z]{3,5}\x3A\x2F\x2F[^>]+> T</sm
+/(.{1}\x04.{4}\x00\x02)|(.{4}\x00\x02.{1}\x04)/
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*127698E4-E730-4E5C-A2B1-21490A70C8A1\s*}?\s*\1/si
+/.*contenttype=[^\r\n\x3b\x38]{10}/smiU
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*405DE7C0-E7DD-11D2-92C5-00C0F01F77C1\s*}?\s*\1/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*438DA5E0-F171-11D0-984E-0000F80270F8\s*}?\s*\1/si
+/^NLST\s+[^\n]*\x2a{10}/smi
+/^\x23\d+\x7c([0-9A-E]{2}\x2d){5}[0-9A-E]{2}\x7croogoo\x7c/smi
+/^POST \x2F[A-Z\d]{16} /smi
+/^RNTO[ \t][^\n]{200}/mi
+/^SITE\s+CPWD\s[^\n]{100}/smi
+/^STOR[ \t][^\n]{200}/mi
+/.*\xFC\x02[\x08\x06]\x00.{4}(\?!\x00\x00)/s
+/.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fchk\.fcgi/i
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*6E3197A3-BBC3-11D4-84C0-00C04F7A06E5\s*}?\s*\1/si
+/.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]/
+/.*cache_lastpostdate\[[^\]]+\]=[^\x00\x3B\x3D]{30}/smi
+/^File[0-9]+=http\x3a\x2f\x2f[^\n]{15}/Rsmi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*DA2BD42B-07E8-413A-9FEA-BB3B2E825340\s*}?\4.*\3\.(ObtenerTamano)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*DA2BD42B-07E8-413A-9FEA-BB3B2E825340\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(ObtenerTamano)\(/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*BADA82CB-BF48-4D76-9611-78E2C6F49F03\s*}?\s*\1/si
+/^[^\x29]*\x2E[0-9]{11}/R
+/(\x16\x03.{4}\x01.{8}[^\x03]*)|(\x16\x03.{8}[^\x03]*.{4}\x01)|(.{4}\x01\x16\x03.{8}[^\x03]*)|(.{4}\x01.{8}[^\x03]*\x16\x03)|(.{8}[^\x03]*\x16\x03.{4}\x01)|(.{8}[^\x03]*.{4}\x01\x16\x03)/
+/(.{1}\x01.{10}\x8F)|(.{10}\x8F.{1}\x01)/
+/.{1}\x01\x03/
+/^SITE\s+CHOWN\s[^\n]{100}/smi
+/(\x16\x03\x00.{4}\x01)|(.{4}\x01\x16\x03\x00)/
+/.*wallclock\x28((\d{2}\x3A){2}\d{2}\.\d{11}|\d{4}-\d{2}-\d{2}T(\d{2}\x3A){2}\d{2}\.\d{11})/smi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*DA56F851-D3C5-11D3-844C-00C04F7A06E5\s*}?\s*\1/si
+/^XMKD[ \t][^\n]{200}/mi
+/[\x3f&]wqPassword=#[^\r\n\x26\x3f]{294}/it
+/(.{2}\x01.{5}\x00\x02)|(.{5}\x00\x02.{2}\x01)/
+/^[ \t]+[^ \t\n]([^\n%]*%){2}/mi
+/^XCWD[ \t][^\n]{100}/mi
+/.*(EAL|EAR|ETT)\s*-0{0,4}1/i
+/^USER[ \t]([^\n%]*%){2}/mi
+/^STAT[ \t][^\n]{190}/mi
+/^SITE[ \t]+ZIPCHK[ \t][^\n]{100}/mi
+/^SITE[ \t]+INDEX[ \t]([^\n%]*%){2}/mi
+/.*skype4com\x3A[A-Z\d]{0,6}[^A-Z\d]/smi
+/^DELE[ \t][^\n]{100}/mi
+/.*unescape\s*\x28(\x22|\x27|\x26quot\x3B|\x5c\x22)[\x25\x5c][0-9a-f]{2}[\x25\x5c][0-9a-f]{2}/smi
+/^CMD[ \t][^\n]{200}/mi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*DA2BD42B-07E8-413A-9FEA-BB3B2E825340\s*}?\4.*\3\.(Analizar|Reinicializar)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*DA2BD42B-07E8-413A-9FEA-BB3B2E825340\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(Analizar|Reinicializar)\(/si
+/^PWD\s.{190}/smi
+/^RENAME[ \t]([^\n%]*%){2}/mi
+/^Content-Disposition\x3a(\s*|\s*\r?\n\s+)[^\r\n]*\{[\da-fA-F]{8}(-[\da-fA-F]{4}){3}-[\da-fA-F]{12}\}/smi
+/^ALLO[ \t][^\n]{200}/mi
+/.*\x2Fezsb\d{4}\x2Fbar_pl\x2Ffav\.fcgi/i
+/^TEST[ \t][^\n]{100}/mi
+/.*connectID=[^&\x3b\r\n]{25}/smi
+/.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fchk_bar\.fcgi/i
+/^.{3}(\x00[^\x00]|[^\x00]\x00|[^\x00][^\x00]){25}/Rs
+/^XMD5[ \t][^\n]{200}/mi
+/.*(\x3c[a-zA-Z\x5f][a-zA-Z0-9\x5f]*[^\x3e]*[^\x2f]\x3e){50}/
+/.*unescape\s*\x28(\x22|\x27|\x26quot\x3B|\x5c\x22)[\x25\x5c]u[0-9a-f]{4}(\x22\s*\x2B\s*\x22)?[\x25\x5c]u[0-9a-f]{4}/smi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*EC5D5118-9FDE-4A3E-84F3-C2B711740E70\s*}?\4.*\3\.(DownloadCertificateExt)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*EC5D5118-9FDE-4A3E-84F3-C2B711740E70\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(DownloadCertificateExt)\(/si
+/.*rbtool\x3d[^\x20\x26\x3b]{1}/P
+/.*[cC][wW][dD].{1}.*C\x3A\x5C/
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*19B7F2D6-1610-11D3-BF30-1AF820524153\s*}?\s*\1/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*60664CAF-AF0D-0004-A300-5C7D25FF22A0\s*}?\s*\1/si
+/^Authorization\x3a\s*Negotiate\s*((YE4G.{40}LgMc)|(YIIQ.{40}QUFB))/smi
+/.*\x28\s*\x22\s*\x25([2-9][6-9][5-9]|[1-9][0-9]{3})f/mi
+/^USER[ \t][^\n]{100}/mi
+/^Authorization\x3a([ \t]*|[ \t]*\r?\n[ \t]+)Basic[ \t][^\n]{51}/smi
+/^MKDIR[ \t]([^\n%]*%){2}/mi
+/^[^\x3a\x3f]{11}\x3a\x2f/smi
+/^http\x3a\x2f\x2f[^\n]{40}/smi
+/.*tree\s*\x3d\s*(\d{4}|25[6-9]|2[6-9]|[3-9])/mi
+/^User-Agent\x3a[^\n]{21}/smi
+/(.{1}\x01.{2}\x03\x01)|(.{2}\x03\x01.{1}\x01)/
+/.*SoftCart.exe\?[^\s]{10}/smi
+/^TEST[ \t][^\n]{100,}/mi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*00000514-0000-0010-8000-00AA006D2EA4\s*}?\4.*\3\.(Execute)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*00000514-0000-0010-8000-00AA006D2EA4\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(Execute)\(/si
+/[\x3f&]username=#[^&\x3b\x3f\r\n]{250}/smit
+/.*Visio \x28TM\x29 Drawing\r\n\x00{4}([^\x00]|\x00[^\x00]|\x00\x00[^\x01-\x06\x0b]|\x00\x00[\x01-\x06\x0b][^\x00])/smi
+/.*<\w+\x3afill\s[^>]*method\s*=\s*(\x27[^\x27]{32}|\x22[^\x22]{32}|[^\s>]{32})/smi
+/.*(\r?\n){2}MZ/sm
+/^RNFR\s[^\n]{200}/smi
+/^PORT[ \t][^\n]{400}/mi
+/^Authorization\x3a[ ]*Basic[ ][^\n]{20}/smi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*66F50F46-70A0-4A05-BD5E-FBCC0F9641EC\s*}?\4.*\3\.(remove)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*66F50F46-70A0-4A05-BD5E-FBCC0F9641EC\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(remove)\(/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*08F04139-8DFC-11D2-80E9-006008B066EE\s*}?\s*\1/si
+/.*[lL][iI][sS][tT].{1}.*\.\..{1}.*\.\./
+/^SITE\s+CHMOD\s[^\n]{200}/smi
+/^SITE\s+NEWER\s[^\n]{100}/smi
+/.*<ref\s+href\s*=\s*\x22([^\x22]{2}|(\x25[0-9A-Z]{2}){1,2})\x3A\x2F[^\x22]{100}/smi
+/(\x16\x03.{4}\x01)|(.{4}\x01\x16\x03)/
+/.*username=[^&\x3b\r\n]{25}/si
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*233C1507-6A77-46A4-9443-F871F945D258\s*}?\4.*\3\.(BGCOLOR|SRC|AutoStart|Sound|DrawLogo|DrawPress)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*233C1507-6A77-46A4-9443-F871F945D258\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(BGCOLOR|SRC|AutoStart|Sound|DrawLogo|DrawPress)\(/si
+/^SITE[ \t][^\n]{100}/mi
+/.*qt\x3anext\s*\x3d\s*\x22\s*file\x3a\x2f{3}/i
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*44990200-3c9d-426d-81df-aab636fa4345\s*}?\4.*\3\.(EnableExtension)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*44990200-3c9d-426d-81df-aab636fa4345\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(EnableExtension)\(/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*19E6E148-BAEC-11D2-B03A-EAFC20524153\s*}?\s*\1/si
+/^MODE\s+[^ABSC]{1}/msi
+/.*<[pv]\x3Arecolorinfo\s+[^>]*numcolors\s*=\s*(\x22[1-9]\d{4}\x22|\x27[1-9]\d{7}\x27)[^>]*>.*<[pv]\x3Arecolorinfoentry\s+[^>]*tocolor/smi
+/^SITE[ \t]+EXEC[ \t]([^\n%]*%){2}/mi
+/.*crypto\x3Arc4_(encrypt|decrypt)\x28\x27[^\x27]{12}/smi
+/[\x3f&]mfcisapicommand=#[^&\r\n\x3b\x3f]{250}/smit
+/^file\x3a\x2f\x2f[^\n]{40}/smi
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*08D75BB0-D2B5-11D1-88FC-0080C859833B\s*}?\s*\1/si
+/.*\x2Fezsb\d{4}\x2Fbar_pl\x2Fshdoclc\.fcgi/i
+/.*GNU\x2esparse\x2enumblocks\s*\x3d\s*(0|[6-9]\d{4})/smi
+/.*\x2FCSuserCGI\x2Eexe\x3FLogout\x2B[^\s]{96}/i
+/^RNFR[ \t][^\n]{200}/mi
+/^SIZE[ \t]+[\x2F\x5C][^\x2F\x3A\x5C\n][^\n]{526}/mi
+/(\x16\x03.{4}\x02)|(.{4}\x02\x16\x03)/
+/^STOU[ \t][^\n]{200}/mi
+/^Host\x3A[ ][^\n]{30}/smi
+/.*wqPassword=[^\r\n\x26]{29}/i
+/^PASS[ \t]([^\n%]*%){2}/mi
+/^PASS[ \t][^\n]{100}/mi
+/^Content-Length\x3A[^\r\n]{10}/smi
+/.*\x2Edll[\x2F\x5C][^\x3E\x00\s\x2F\x5C]*[\x2F\x5C](\x23|%23)(\d{6}|[7-9]\d{4}|6[6-9]\d{3}|65[6-9]\d{2}|655[4-9]\d|6553[6-9])/smi
+/^[^\n]*[\x80-\xFF].*\nAccept-Language\x3A\s*[\S]{32}/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*8422DAE3-9929-11CF-B8D3-004033373DA8\s*}?\s*\1/si
+/.*<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*0006F023-0000-0000-C000-000000000046\s*}?\s*\1/si
+/^APPE[ \t][^\n]{200}/mi
+/.*<OBJECT\s*[^>]*\s*id\s*=((\x22|\x27)([^\2]*)\2)\s*classid\s*=\s*(\x22|\x27|)clsid\s*\x3a\s*{?\s*EC4CF635-D196-11CE-9027-02608C4BF3B5\s*}?\4.*\3\.(UpdateRecord)\(|<OBJECT\s*[^>]*\s*classid\s*=\s*(\x22|\x27|)\s*clsid\s*\x3a\s*{?\s*EC4CF635-D196-11CE-9027-02608C4BF3B5\s*}?\s*\6\s*id\s*=\s*((\x22|\x27)([^\8]*)\8).*\9\.(UpdateRecord)\(/si
+/^User-Agent\x3a[^\n]{24}/smi
+/^USER[ \t][^\n]{100,}/mi

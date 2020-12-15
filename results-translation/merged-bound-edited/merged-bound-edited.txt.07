@@ -1,0 +1,30 @@
+^USER[ \n\t\r\f]+[^\n]{100,}
+^[ \n\t\r\f]*Cookie[ \n\t\r\f]*\x3a.*?OvOSLocale[ \n\t\r\f]*\x3d[ \n\t\r\f]*[^\x3b \n\t\r\f]{249}
+\x3D[^ \n\t\r\f\n]{88}
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300}
+^RCPT TO\x3a[ \n\t\r\f]*[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}
+^SOML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}
+^Accept\x2dLanguage\x3a[ \n\t\r\f]*([0-9a-zA-Z_]{1,36}[ \n\t\r\f]*(\x2e|\x2d|\x3b|\x3d|\x2c)[ \n\t\r\f]*)*[^\x2d\x3b\x2c\x3d\n]{37}
+.{84}.*\[wW][iI][nN][rR][eE][gG]\x00
+[^ \n\t\r\f]{190}.rt
+^Location[ \n\t\r\f]*\x3a[ \n\t\r\f]*[0-9a-zA-Z_]+\x3a\/\/([^\n]*\x3a)?[^\n]{128}
+.{199}\xFF\xF6\xFF\xF6\xFF\xFB\x08\xFF\xF6
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1025,}
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128}
+^From\x3A[ \n\t\r\f]+[^\r\n]{256}
+php.*\x3f[^\n]{256}
+^PASS[ \n\t\r\f]+[^\n]{100}
+.{84}.*\\x00[wW]\x00[iI]\x00[nN]\x00[rR]\x00[eE]\x00[gG]\x00
+^TEST[ \n\t\r\f]+[^\n]{100,}
+[ \n\t\r\f]{230,}.htr
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437}
+^SEARCH[ \n\t\r\f]+[^\n]{1024}
+^[ \n\t\r\f]*Content-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\r\n]{300}
+.{0,92}\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f
+^To\x3A[ \n\t\r\f]+[^\r\n]{256}
+^Via\x3A[ \n\t\r\f]+SIP\x2F2\x2E0\x2F(TCP|UDP)[ \n\t\r\f]+[^\x3B\r\n]{63}
+200 [^\x0a]{64}
+.{59}\x00\x14
+^Content-Length\x3A[ \n\t\r\f]*[^\r\n]{100,}
+\x3C[^\x3E\x0a]{500}
+\x99{40}\xeb\x12\x01\x99{4}\x18A{5}.{4}A{6}

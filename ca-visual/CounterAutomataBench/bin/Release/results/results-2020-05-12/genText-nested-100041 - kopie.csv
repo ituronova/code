@@ -1,0 +1,260 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+ (H(T(T(P(\/(\d+(\.(\d+\r?)?)?)?)?)?)?)?)?;ERROR WHILE CONVERTING TO DCA.
+ (H(T(T(P(\/(\d+(\.(\d+\r?)?)?)?)?)?)?)?)?\Z;ERROR WHILE CONVERTING TO DCA.
+ IN[ ]*\([ ]*([0-9]+|'[^']*')([ ]*,[ ]*([0-9]+|'[^']*')[ ]*){0,5}[ ]*\);ERROR WHILE CONVERTING TO DCA.
+%((?:-?\+.?\d*)?|(?:\[[^\[|\\]]*\\]))?([sjdDZ]);ERROR WHILE CONVERTING TO DCA.
+%(?:\d+\$)?[#0\- +']*[,;:_]?(?:-?\d+|\*(?:-?\d+\$)?)?(?:\.(?:-?\d+|\*(?:-?\d+\$)?)?)?(?:hh|h|ll|l|j|t|z|q|L|vh|vl|v|hv|hl)?[diouxXDOUeEfFgGaACcSspn%];ERROR WHILE CONVERTING TO DCA.
+%(?:\s*[0-9a-f]){2,};ERROR WHILE CONVERTING TO DCA.
+%{([slodipvh])((?:(?:\d+)?r?)?)?([-.+,/_=])?};ERROR WHILE CONVERTING TO DCA.
+&([a-zA-Z][a-zA-Z0-9]*|#[0-9]*)?|<([a-zA-Z][^<>]*|/([a-zA-Z][^<>]*)?|![^<>]*)?;ERROR WHILE CONVERTING TO DCA.
+(#[0-9a-f]{6}|#[0-9a-f]{3}|#(?:[0-9a-f]{2}){2,4}|(rgb|hsl)a?\((-?\d+%?[,\s]+){2,3}\s*[\d\.]+%?\));ERROR WHILE CONVERTING TO DCA.
+(( )*\n){3,};ERROR WHILE CONVERTING TO DCA.
+((([0-9A-Fa-f]{1,4}:){7}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){6}:[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){5}:([0-9A-Fa-f]{1,4}:)?[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){4}:([0-9A-Fa-f]{1,4}:){0,2}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){3}:([0-9A-Fa-f]{1,4}:){0,3}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){2}:([0-9A-Fa-f]{1,4}:){0,4}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){6}((\d((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\d)\.){3}(\d((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\d))|(([0-9A-Fa-f]{1,4}:){0,5}:((\d((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\d)\.){3}(\d((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\d))|(::([0-9A-Fa-f]{1,4}:){0,5}((\d((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\d)\.){3}(\d((25[0-5])|(1\d{2})|(2[0-4]\d)|(\d{1,2}))\d))|([0-9A-Fa-f]{1,4}::([0-9A-Fa-f]{1,4}:){0,5}[0-9A-Fa-f]{1,4})|(::([0-9A-Fa-f]{1,4}:){0,6}[0-9A-Fa-f]{1,4})|(([0-9A-Fa-f]{1,4}:){1,7}:));TIMEOUT.
+((([a-zA-Z]+(-[a-zA-Z0-9]+){0,2})|\*)(;q=[0-1](\.[0-9]+)?)?)*;ERROR WHILE CONVERTING TO DCA.
+((.*)(<strong>.*<\/strong>)){2};ERROR WHILE CONVERTING TO DCA.
+((.*)(<strong>.*<\/strong>)){3};ERROR WHILE CONVERTING TO DCA.
+((?: [A-Za-z]+[ ]?[+-]?|Z| [+-])(?:[0-9]{1,2}(?::?[0-9]{1,2})?)?)([ ]*[A-Za-z]+)?;ERROR WHILE CONVERTING TO DCA.
+((?: +[\dA-F]{4}){10,});ERROR WHILE CONVERTING TO DCA.
+((?:(?:0|1[\d]{0,2}|2(?:[0-4]\d?|5[0-5]?|[6-9])?|[3-9]\d?)\.){3}(?:0|1[\d]{0,2}|2(?:[0-4]\d?|5[0-5]?|[6-9])?|[3-9]\d?));ERROR WHILE CONVERTING TO DCA.
+((?:.*(?:\n|$)){3})$;ERROR WHILE CONVERTING TO DCA.
+((?:.|[\r\n])*)(\{(?:l10n:([a-zA-Z_][a-zA-Z0-9_\-]*(?:\.[a-zA-Z_][a-zA-Z0-9_\-]*)*(?:\.\{[a-zA-Z_][a-zA-Z0-9_\-]*\})?)\})?|<(\/|!--(\s*\{)?)?|$);ERROR WHILE CONVERTING TO DCA.
+((?:::){0,1}(?:[a-z_](?:[\w-]*[\w])?))+;ERROR WHILE CONVERTING TO DCA.
+((?:[^\n]*\n?){1,40});ERROR WHILE CONVERTING TO DCA.
+((?:[0-9$lets](?:\s+|-|\.)?){5,});ERROR WHILE CONVERTING TO DCA.
+((?:[0-9]*\.){3}[0-9]*);ERROR WHILE CONVERTING TO DCA.
+((?:[0-9A-Fa-f]{1,4}:){6}(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|::(?:[0-9A-Fa-f]{1,4}:){5}(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|(?:[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){4}(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){3}(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|(?:(?:[0-9A-Fa-f]{1,4}:){,2}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:){2}(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|(?:(?:[0-9A-Fa-f]{1,4}:){,3}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}:(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|(?:(?:[0-9A-Fa-f]{1,4}:){,4}[0-9A-Fa-f]{1,4})?::(?:[0-9A-Fa-f]{1,4}:[0-9A-Fa-f]{1,4}|(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))|(?:(?:[0-9A-Fa-f]{1,4}:){,5}[0-9A-Fa-f]{1,4})?::[0-9A-Fa-f]{1,4}|(?:(?:[0-9A-Fa-f]{1,4}:){,6}[0-9A-Fa-f]{1,4})?::);TIMEOUT.
+((?:[a-f0-9]{1,2}:?){6});ERROR WHILE CONVERTING TO DCA.
+((?:\+\d+)?\d\d\d\d)(?:-(\d\d)(?:-(\d\d)(?:[T ]([0-9:.,]*)(?:Z|([+-][0-9:.,]*))?)?)?)?;ERROR WHILE CONVERTING TO DCA.
+((?:\d{1,2}:?){2});ERROR WHILE CONVERTING TO DCA.
+((?:\s*\n){2});ERROR WHILE CONVERTING TO DCA.
+((?:\w*\W){2})(?:ago);ERROR WHILE CONVERTING TO DCA.
+((?:^|[&(])[ \t]*)for(?: ?\/[a-z?](?:[ :](?:\"[^\"]*\"|\S+))?)* \S+ in \([^)]+\) do;ERROR WHILE CONVERTING TO DCA.
+((?:^|[&(])[ \t]*)if(?: ?\/[a-z?](?:[ :](?:\"[^\"]*\"|\S+))?)* (?:not )?(?:cmdextversion \d+|defined \w+|errorlevel \d+|exist \S+|(?:\"[^\"]*\"|\S+)?(?:==| (?:equ|neq|lss|leq|gtr|geq) )(?:\"[^\"]*\"|\S+));ERROR WHILE CONVERTING TO DCA.
+((?:^|[&(])[ \t]*)set(?: ?\/[a-z](?:[ :](?:\"[^\"]*\"|\S+))?)* (?:[^^&)\r\n]|\^(?:\r\n|[\s\S]))*;ERROR WHILE CONVERTING TO DCA.
+(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?;ERROR WHILE CONVERTING TO DCA.
+(([^/]*/){2}[a-fA-F0-9]{32}$);ERROR WHILE CONVERTING TO DCA.
+(([0-9A-F]{4}\s*){10});ERROR WHILE CONVERTING TO DCA.
+(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]));ERROR WHILE CONVERTING TO DCA.
+((a{0,5}){0,5})*[c];ERROR WHILE CONVERTING TO DCA.
+((https?://)(www\.|[-\w\.]+[-\w])+(:\d+)?(/([\w/_\.#-]*(\?\S+)?[^\.\s])?)?);ERROR WHILE CONVERTING TO DCA.
+((set +\w+ +\d+) +p(o(l(y(g(o(n)?)?)?)?)?)? +from +-?\d+(\.\d+)?([eE]?\-?\d+)?\,-?\d+(\.\d+)?([eE]?\-?\d+)?( +to +-?\d+(\.\d+)?([eE]?\-?\d+)?\,-?\d+(\.\d+)?([eE]?\-?\d+)?)+ +);ERROR WHILE CONVERTING TO DCA.
+(.*):([^\(]*)(\((\d*|\*|-\*)?\))?$;ERROR WHILE CONVERTING TO DCA.
+(.*)? (?:\((.*)?\))?;ERROR WHILE CONVERTING TO DCA.
+(.*(?:\d{1,3}\.?){4}).*;ERROR WHILE CONVERTING TO DCA.
+(.*)(?:(?:\?(.*)?)?)(?:(?:#)?)$;ERROR WHILE CONVERTING TO DCA.
+(.*)<(/?\w+)[^>]*>(?:([^<]*)(<.*>)?)?;ERROR WHILE CONVERTING TO DCA.
+(.*\n){10,};ERROR WHILE CONVERTING TO DCA.
+(.*\.){2,};ERROR WHILE CONVERTING TO DCA.
+(.*\.@each){2,};ERROR WHILE CONVERTING TO DCA.
+(.*\n){30}.*;ERROR WHILE CONVERTING TO DCA.
+(.*validator(?:\.min)?.js)(\?.*(?:local|css|dir)(?:=[\w\-]*)?)?;ERROR WHILE CONVERTING TO DCA.
+(?:(?:(?:(?:[a-zA-Z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])+(?:\.(?:[a-zA-Z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])+)*)|(?:(?:\x22)(?:(?:(?:(?:\x20|\x09)*(?:\x0d\x0a))?(?:\x20|\x09)+)?(?:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])|(?:\(?:[\x01-\x09\x0b\x0c\x0d-\x7f]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF]))))*(?:(?:(?:\x20|\x09)*(?:\x0d\x0a))?(\x20|\x09)+)?(?:\x22)))@(?:(?:(?:[a-zA-Z]|\d|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])|(?:(?:[a-zA-Z]|\d|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])(?:[a-zA-Z]|\d|-|\.|_|~|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])*(?:[a-zA-Z]|\d|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])))\.)+(?:(?:[a-zA-Z]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])|(?:(?:[a-zA-Z]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])(?:[a-zA-Z]|\d|-|\.|_|~|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])*(?:[a-zA-Z]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])))\.?(?:[a-zA-Z]|[\x00A0-\xD7FF\xF900-\xFDCF\xFDF0-\xFFEF])+;ERROR WHILE CONVERTING TO DCA.
+(?:(?:[a-z0-9](?:[-a-z0-9_]*[a-z0-9])?)\.)*;ERROR WHILE CONVERTING TO DCA.
+(?:([a-zA-Z0-9\-]+\:))?(?:\/\/(?:[^@]*@)?([^\/:\?#]+)(?::([0-9]+))?)?([^\?#]*)(?:(\?[^#]+)|\?)?(?:(#.*))?;ERROR WHILE CONVERTING TO DCA.
+(?:(\d(:?.\d*)?)\s*to\s*)?(\d+(:?.\d*)?)\s*credit(:?s| hours);ERROR WHILE CONVERTING TO DCA.
+(?:.*[A-Za-z]){3}.*;ERROR WHILE CONVERTING TO DCA.
+(?:.*[^a-zA-Z0-9]){2};ERROR WHILE CONVERTING TO DCA.
+(?:.*\d){3};ERROR WHILE CONVERTING TO DCA.
+(?:.*\n){2,};ERROR WHILE CONVERTING TO DCA.
+(?:[ \t\r\f\v]*\n){2,}[ \t\r\f\v]*;ERROR WHILE CONVERTING TO DCA.
+(?:[^\n]*\n){0,2};ERROR WHILE CONVERTING TO DCA.
+(?:[^\S\n]*\n){2,};ERROR WHILE CONVERTING TO DCA.
+(?:[0-9a-fA-F]:?){12};ERROR WHILE CONVERTING TO DCA.
+(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\\])\s?((?:#|ext\.?\s?|x\.?\s?){1}(?:\d+)?)?$;ERROR WHILE CONVERTING TO DCA.
+(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\\]);ERROR WHILE CONVERTING TO DCA.
+(?:[a-z0-9!#$%&'*+/=?^_{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_{|}~-]+)*|\"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\\]);ERROR WHILE CONVERTING TO DCA.
+(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*|\"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\\]);ERROR WHILE CONVERTING TO DCA.
+(?:[A-Za-z0-9!#$%&'*+=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+=?^_`{|}~-]+)*|\"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])*\")@(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[A-Za-z0-9-]*[A-Za-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\\]);ERROR WHILE CONVERTING TO DCA.
+(?:\r*\n){2,};ERROR WHILE CONVERTING TO DCA.
+(?:\s*[\r\n]){3,};ERROR WHILE CONVERTING TO DCA.
+(?:\s*\n){3,};ERROR WHILE CONVERTING TO DCA.
+(?:\w+(?:=(?:(?:\w|[0-9_-])+|\"[^\"]*\")?)?);ERROR WHILE CONVERTING TO DCA.
+(?:^|.*/)CMSSW[0-9_]*/python/((?:\w*/){2})((?:\w*/)*)(\w*\.py)$;ERROR WHILE CONVERTING TO DCA.
+(?:<h2>(?:<a name=\".*\">)?(.*)(?:</a>)?</h2>)|(?:<tr(?: class=\".*\")?><t[hd](?: class=\".*\")?>(.*)\s*</t[hd]>(?:<t[hd](?: class=\".*\")?>(.*)\s*</t[hd]>(?:<t[hd](?: class=\".*\")?>(.*)\s*</t[hd]>)?)?</tr>);ERROR WHILE CONVERTING TO DCA.
+(?:<wbr(?:[ \t\r\n][^>]*)?>)+;ERROR WHILE CONVERTING TO DCA.
+(?:EDID_DATA|: EDID \(in hex\)|EDID):\n((.*\n){8});ERROR WHILE CONVERTING TO DCA.
+(?<line>(?<marker>@{1,2})(?<name>[\w\.]*)(\(?(?<parameters>\w*[^(].*[^)]*)?\)\s*)?([.\s]*)?(?<body>.*));ERROR WHILE CONVERTING TO DCA.
+(?i)((?:issue|pr|pull|pull ?req(?:uest)?)s? )?((?:([a-zA-Z][-a-zA-Z0-9]*)/)?([a-zA-Z][-a-zA-Z0-9]*)(?:/pull/|/issue/|#)|#)?([0-9]+);ERROR WHILE CONVERTING TO DCA.
+(?i)(-? [a-z0-9]+-?|\(?\d{4}\)?(_|-)[a-z0-9]+)\.jpg\"?| [a-z0-9]+\.mu3\"?|((\d{1,3})?\.part(\d{1,5})?|\d{1,5} ?|sample|- Partie \d+)?\.(7z|avi|diz|docx?|epub|idx|iso|jpg|m3u|m4a|mds|mkv|mobi|mp4|nfo|nzb|par(\s?2|\")|pdf|rar|rev|rtf|r\d\d|sfv|srs|srr|sub|txt|vol.+(par2)|xls|zip|z{2,3})\"?|(\s|(\d{2,3})?-)\d{2,3}\.mp3|\d{2,3}\.pdf|\.part\d{1,4}\.;ERROR WHILE CONVERTING TO DCA.
+(?i)[A-Z0-9!#$%&'*+/=?^_{|}~-]+(?:\.[A-Z0-9!#$%&'*+/=?^_{|}~-]+)*@(?:[A-Z0-9](?:[A-Z0-9-]*[A-Z0-9])?\.)+[A-Z0-9](?:[A-Z0-9-]*[A-Z0-9])?;ERROR WHILE CONVERTING TO DCA.
+(?i)\A[A-Z0-9._%+-]{1,64}@(?:[A-Z0-9-]*\.){1,125}[A-Z]{2,63}\z;ERROR WHILE CONVERTING TO DCA.
+(?i)\x1b\[([0-9]{1,2}(;[0-9]{1,2})?)?[a|b|m|k];ERROR WHILE CONVERTING TO DCA.
+(?i)^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))$;ERROR WHILE CONVERTING TO DCA.
+(?i)^((\s*)(--.*\n)?)*select;ERROR WHILE CONVERTING TO DCA.
+(?i)^([0-9a-z]{2}\s+){16};ERROR WHILE CONVERTING TO DCA.
+(?i)^[a-z0-9._%+\-]+@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?;ERROR WHILE CONVERTING TO DCA.
+(?i)^\-?full_h(e(l(p)?)?)?$;ERROR WHILE CONVERTING TO DCA.
+(?i)^\-?h(e(l(p)?)?)?$;ERROR WHILE CONVERTING TO DCA.
+(?i)Daily[-_\.]Show|Nightly News|^\[[a-zA-Z\.\-]+\\].*[-_].*\d{1,3}[-_. ]((\[|\()(h264-)?\d{3,4}(p|i)(\\]|\))\s?(\[AAC\\])?|\[[a-fA-F0-9]{8}\\]|(8|10)BIT|hi10p)(\[[a-fA-F0-9]{8}\\])?|(\d\d-){2}[12]\d{3}|[12]\d{3}(\.\d\d){2}|\d+x\d+|\.e\d{1,3}\.|s\d{1,3}[-._ ]?[ed]\d{1,3}([ex]\d{1,3}|[-.\w ])|[-._ ](\dx\d\d|C4TV|Complete[-._ ]Season|DSR|(D|H|P|S)DTV|EP[-._ ]?\d{1,3}|S\d{1,3}.+Extras|SUBPACK|Season[-._ ]\d{1,2})([-._ ]|$)|TVRIP|TV[-._ ](19|20)\d\d|TrollHD;TIMEOUT.
+(?i:^thu(r(s(days?)?)?)?);ERROR WHILE CONVERTING TO DCA.
+(?m)^([\*\-_] ?){3,}$;ERROR WHILE CONVERTING TO DCA.
+(?s)(.*VERSION:4\.0){3}.*;ERROR WHILE CONVERTING TO DCA.
+(?x)^\s* (?: (?:(-)\s+)* (:?\w[\w\s\-]*\s*(:)\s+)? ) (?: (\&\w\S*)\s+ )? (?: (!!?(?:\w[\w:/]*)?)? \s+ )? \s* (\");ERROR WHILE CONVERTING TO DCA.
+(?x)^\s* (?: (?:(-)\s+)* (:?\w[\w\s\-]*\s*(:)\s+)? ) (?: (\&\w\S*)\s+ )? (?: (!!?(?:\w[\w:\/]*)?)? \s+ )? \s* (');ERROR WHILE CONVERTING TO DCA.
+([ \t\r]*\n){2,};ERROR WHILE CONVERTING TO DCA.
+([ \t]*[-*_]){3,};ERROR WHILE CONVERTING TO DCA.
+([ \t]*\r?\n){2,};ERROR WHILE CONVERTING TO DCA.
+([ \t]*\r|[ \t]*\n|[ \t]*\r\n){2,};ERROR WHILE CONVERTING TO DCA.
+([\d\w]{8}-){3}[\d\w]{8}|OPEN-SOURCE-GPLV3-LICENSE;TIMEOUT.
+([\d]{4})(-([\d]{2})(-([\d]{2})(T([\d]{2}):([\d]{2})(:([\d]{2})(\.([\d]+))?)?(Z|(([-+])([\d]{2}):([\d]{2})))?)?)?)?;ERROR WHILE CONVERTING TO DCA.
+([\w-\.\#]+)(?:\:([\w\.]*)(?:\((.*)?\))?)?(\s?[\+\-\*\/]\s?[\d\.\+\-\*\/\(\)]+)?;ERROR WHILE CONVERTING TO DCA.
+([^/]*/){0,2}[^/]*$;ERROR WHILE CONVERTING TO DCA.
+([^:/?#]+:)?(?:(?:\/\/)(?:([^/?#]*:[^@/]+)@)?([^/:?#]+)(?:(?::)(\d+))?)?(\/?[^?#]*)?(\?[^#]*)?(#[^\s]*)?;ERROR WHILE CONVERTING TO DCA.
+([^:]+):\/\/(([^:]+):([^@]+)@)?(([^:\/]+)(:([0-9]+))?((\/[^?#]*)(\?([^#]*))?)?)(\#(.*))?;ERROR WHILE CONVERTING TO DCA.
+([^\/]+)(\.(dzi|xml|js)?(\?[^\/]*)?)?\/?$;ERROR WHILE CONVERTING TO DCA.
+([^\:\:]+)(::([^\(\)]+)?(\((.*)\))?)?;ERROR WHILE CONVERTING TO DCA.
+([^\S\n]*\n){2,};ERROR WHILE CONVERTING TO DCA.
+([^\w\s]{2,}){5,};ERROR WHILE CONVERTING TO DCA.
+([+]*[-\(\)\. x0-9]){7,};ERROR WHILE CONVERTING TO DCA.
+([0-2]?[0-9])[Hh:](([0-5]?[0-9])([Mm:]([0-5]?[0-9])([sS:.]([0-9]{0,3}))?)?)?$;ERROR WHILE CONVERTING TO DCA.
+([0-9]{1,3}.?){4};ERROR WHILE CONVERTING TO DCA.
+([1-9]\d*\.)(\d*\.){1,2}\d*;ERROR WHILE CONVERTING TO DCA.
+([a-z\d*]+([-+/.][a-z\d*]+)*)\s*(;\s*q\s*=\s*(1(\.0{0,3})?|0(\.\d{0,3})?)?)?;ERROR WHILE CONVERTING TO DCA.
+([a-z]{1,8}(-[a-z]{1,8})*|\*)\s*(;\s*q\s*=\s*(1(\.0{0,3})?|0(\.[0-9]{0,3})?)?)?;ERROR WHILE CONVERTING TO DCA.
+([a-z0-9!#$%&'*+\/=?^_`{|.}~-]+@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?);ERROR WHILE CONVERTING TO DCA.
+([a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`\"\"{|}~-]+)*(@|\sat\s)(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(\.|\"\"\sdot\s))+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?);ERROR WHILE CONVERTING TO DCA.
+([a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*(@|\sat\s)(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(\.|\sdot\s))+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?);ERROR WHILE CONVERTING TO DCA.
+([a-zA-Z0-9]+)(\[([0-9]*)?\\])?;ERROR WHILE CONVERTING TO DCA.
+([ghkGHK](a(i|ng?|o)?|e(i|ng?)?|o(u|ng)|u(a(i|ng?)?|i|n|o)?));ERROR WHILE CONVERTING TO DCA.
+([jqxJQX](i(a(o|ng?)?|[eu]|ong|ng?)?|u(e|a?n)?));ERROR WHILE CONVERTING TO DCA.
+(\((?:[^\(\)]|\([^\(\)]*\)){0,250})\n((?:[^\(\)]|\([^\(\)]*\)){0,250}\));ERROR WHILE CONVERTING TO DCA.
+(\*)(?:(?::([a-zA-Z_][a-zA-Z_0-9]*)?()(?:#(.*)#)?)|(?:<([a-zA-Z_][a-zA-Z_0-9]*)?(?::([a-zA-Z_]*)(?::((?:\.|[^\>]+)+)?)?)?>));ERROR WHILE CONVERTING TO DCA.
+(\.((-?\d+)|\*(-?\d+\$)?)?)?;ERROR WHILE CONVERTING TO DCA.
+(\[(?:[^\[\\]]|\[[^\[\\]]*\\]){0,250})\n((?:[^\[\\]]|\[[^\[\\]]*\\]){0,250}\\]);ERROR WHILE CONVERTING TO DCA.
+(\|.*[\n\r]{1,2}){3,};ERROR WHILE CONVERTING TO DCA.
+(\|[^\|]*){3,3}\|[CF*];ERROR WHILE CONVERTING TO DCA.
+(\A([0-9a-f]{1,4}:){1,1}(:[0-9a-f]{1,4}){1,6}\Z)|(\A([0-9a-f]{1,4}:){1,2}(:[0-9a-f]{1,4}){1,5}\Z)|(\A([0-9a-f]{1,4}:){1,3}(:[0-9a-f]{1,4}){1,4}\Z)|(\A([0-9a-f]{1,4}:){1,4}(:[0-9a-f]{1,4}){1,3}\Z)|(\A([0-9a-f]{1,4}:){1,5}(:[0-9a-f]{1,4}){1,2}\Z)|(\A([0-9a-f]{1,4}:){1,6}(:[0-9a-f]{1,4}){1,1}\Z)|(\A(([0-9a-f]{1,4}:){1,7}|:):\Z)|(\A:(:[0-9a-f]{1,4}){1,7}\Z)|(\A((([0-9a-f]{1,4}:){6})(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3})\Z)|(\A(([0-9a-f]{1,4}:){5}[0-9a-f]{1,4}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3})\Z)|(\A([0-9a-f]{1,4}:){5}:[0-9a-f]{1,4}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z)|(\A([0-9a-f]{1,4}:){1,1}(:[0-9a-f]{1,4}){1,4}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z)|(\A([0-9a-f]{1,4}:){1,2}(:[0-9a-f]{1,4}){1,3}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z)|(\A([0-9a-f]{1,4}:){1,3}(:[0-9a-f]{1,4}){1,2}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z)|(\A([0-9a-f]{1,4}:){1,4}(:[0-9a-f]{1,4}){1,1}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z)|(\A(([0-9a-f]{1,4}:){1,5}|:):(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z)|(\A:(:[0-9a-f]{1,4}){1,5}:(25[0-5]|2[0-4]\d|[0-1]?\d?\d)(\.(25[0-5]|2[0-4]\d|[0-1]?\d?\d)){3}\Z);TIMEOUT.
+(\A\z)|(\A(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?\z);ERROR WHILE CONVERTING TO DCA.
+(\A\z)|(\A[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?)?\z);ERROR WHILE CONVERTING TO DCA.
+(\d\d\d\d)(?:(\d\d)(?:(\d\d)(?:T([0-9:.,]*)(?:Z|([+-][0-9:.,]*))?)?)?)?;ERROR WHILE CONVERTING TO DCA.
+(\d{1,3}|\*\.){3}\d{1,3}|\*;ERROR WHILE CONVERTING TO DCA.
+(\d{2})(\d{2})(?:(\d)(\d)(?:(\d{1,6}))?)?;ERROR WHILE CONVERTING TO DCA.
+(\d{4})(?:-(\d{2})(?:-(\d{2})?)?)?;ERROR WHILE CONVERTING TO DCA.
+(\d+)\.(\d+)(?:\.(\d+))?(?:_(\d+))?(?:-(?:.*-)?b(\d+))?.*;ERROR WHILE CONVERTING TO DCA.
+(\n(\s)?){3,};ERROR WHILE CONVERTING TO DCA.
+(\s*\n){2,};ERROR WHILE CONVERTING TO DCA.
+(\s*at f \(\[eval\\]:1:\d*\)\r?\n){100};ERROR WHILE CONVERTING TO DCA.
+(\w*\n){2,};ERROR WHILE CONVERTING TO DCA.
+(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$);ERROR WHILE CONVERTING TO DCA.
+(^([^/]*/){3});ERROR WHILE CONVERTING TO DCA.
+(^\s*(([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5]))\s*$)|(^\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))(%.+)?\s*$);TIMEOUT.
+(^|[\r\n])((?i:((limited[ \t]*)?(private[ \t]*)?with))[ \t]+(\w+(\.\w+)*);[ \t]*)+;ERROR WHILE CONVERTING TO DCA.
+(^|[^\\](?:\)*)\$!?(?:[a-z][\w-]*(?:\([^)]*\))?(?:\.[a-z][\w-]*(?:\([^)]*\))?|\[[^\\]]+])*|{[^}]+});ERROR WHILE CONVERTING TO DCA.
+(^|\n)([ \t]*\n){3,};ERROR WHILE CONVERTING TO DCA.
+(^|\s|\(|,)calc\((([^()]*(\([^()]*\))?)*)\);ERROR WHILE CONVERTING TO DCA.
+(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/(\S)+)?;ERROR WHILE CONVERTING TO DCA.
+(i?)[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a0-9])?;ERROR WHILE CONVERTING TO DCA.
+--(inspect|debug)(-brk)?(=((\[[0-9a-fA-F:]*\\]|[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+|[a-zA-Z0-9\.]*):)?(\d+))?;ERROR WHILE CONVERTING TO DCA.
+(mongodb(?:\+srv|)):\/\/(?: (?:[^:]*) (?: : ([^@]*) )? @ )?([^/?]*)(?:\/|)(.*);ERROR WHILE CONVERTING TO DCA.
+(p\.)?([A-Za-z*]*)(\d+)(_([A-Za-z*]*)(\d+))?(del([^i][A-Za-z*\d]*)?)?(ins([A-Za-z*]+))?>?([A-Za-z*]+)?(fs((Ter|[\*Xx])(\d+))?)?(ref([A-Za-zx*]*))?$;ERROR WHILE CONVERTING TO DCA.
+(S*([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}S*|S*([0-9a-fA-F]{1,4}:){1,7}:S*|S*([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}S*|S*([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}S*|S*([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}S*|S*([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}S*|S*([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}S*|S*[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})S*|S*:((:[0-9a-fA-F]{1,4}){1,7}|:)S*|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]).){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]).){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]));TIMEOUT.
+(youtube\.com|youtu\.be|youtube\-nocookie\.com)\/(watch\?(.*&)?v=|v\/|u\/|embed\/?)?(videoseries\?list=(.*)|[\w-]{11}|\?listType=(.*)&list=(.*))(.*);ERROR WHILE CONVERTING TO DCA.
+.json([.][a-z]{0,3}){0,2};ERROR WHILE CONVERTING TO DCA.
+/(<br[^>]*>[ \n\r\t]*){2,}/i;ERROR WHILE CONVERTING TO DCA.
+:not\((([^()]*(\([^()]*\))?)*)\);ERROR WHILE CONVERTING TO DCA.
+@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?;ERROR WHILE CONVERTING TO DCA.
+[ \t]+(?:(\d+(?:\.\d*)?|(?:\d*\.)?\d+)([*+]))?([<^>](?:\.[<^>]?)?|(?:[<^>]?\.)?[<^>])?([a-z])?$;ERROR WHILE CONVERTING TO DCA.
+[\w!#$%&'*+/=?^_`{|}~-]+(?:\.[\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[\w](?:[\w-]*[\w])?;ERROR WHILE CONVERTING TO DCA.
+[\w!#$%&'*+/=?^_`{|}~-]+(?:\.[\w!#$%&'*+/=?^_`{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[a-zA-Z0-9](?:[\w-]*[\w])?;ERROR WHILE CONVERTING TO DCA.
+[\w!#$%&'*+/=?^_{|}~-]+(?:\.[\w!#$%&'*+/=?^_{|}~-]+)*@(?:[\w](?:[\w-]*[\w])?\.)+[a-zA-Z0-9](?:[\w-]*[\w])?;ERROR WHILE CONVERTING TO DCA.
+[1-9]\d*(\.(0|[1-9]\d*)){1,3};ERROR WHILE CONVERTING TO DCA.
+[a-z0-9!#$%&*+/=?^_`{|}~-]+(?:[\.a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])+;ERROR WHILE CONVERTING TO DCA.
+[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?;ERROR WHILE CONVERTING TO DCA.
+[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*(@|\sat\s)(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?(\.|\sdot\s))+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?;ERROR WHILE CONVERTING TO DCA.
+[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?;ERROR WHILE CONVERTING TO DCA.
+[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*;ERROR WHILE CONVERTING TO DCA.
+[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$;ERROR WHILE CONVERTING TO DCA.
+[a-zA-Z]{2}[0-9]{2}[a-zA-Z0-9]{4}[0-9]{7}([a-zA-Z0-9]?){0,16};ERROR WHILE CONVERTING TO DCA.
+[a-zA-Z]+(:[0-9\.\-]+(,[0-9\.\-]+){0,5})?;ERROR WHILE CONVERTING TO DCA.
+[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$;ERROR WHILE CONVERTING TO DCA.
+[a-zA-Z0-9!#$%&'+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?;ERROR WHILE CONVERTING TO DCA.
+\"annotations\":\s+\{(\n.*){0,10}\"helm-keep\":\s+\"true\";ERROR WHILE CONVERTING TO DCA.
+\$F:[-\w.]+\?[-\w.]+(?:,(?:\|?(?:[-#.^+*~]*(?:[\w+][^$]*)|=(?:[\S+][^$]*)|@[-#]*(?:\w+.)[\w+.]+)?)*)?\$;ERROR WHILE CONVERTING TO DCA.
+\$XF:{[-\w.]+\?[-\w.]+(?:,(?:\|?(?:[-#.^+*~]*(?:[\w+][^$]*)|=(?:[\S+][^$]*)|@[-#]*(?:\w+.)[\w+.]+)?)*)?}:XF\$;ERROR WHILE CONVERTING TO DCA.
+\((.*\,?\s?){6}\)$;ERROR WHILE CONVERTING TO DCA.
+\(([-a-zA-Z]+):(([^()]*(\([^()]*\))?)*)\);ERROR WHILE CONVERTING TO DCA.
+\(\s*((?:-?\d*\.?(?:\s*\/?\s*)?\d+[a-z]*)?)\s*(<|>)(=?)\s*([a-z-]+)\s*(<|>)(=?)\s*((?:-?\d*\.?(?:\s*\/?\s*)?\d+[a-z]*)?)\s*\);ERROR WHILE CONVERTING TO DCA.
+\(\s*([a-z-]+)\s*([<>])(=?)\s*((?:-?\d*\.?(?:\s*\/?\s*)?\d+[a-z]*)?)\s*\);ERROR WHILE CONVERTING TO DCA.
+\*\s{0,4}@param:?\s+(?:\{(.+)?\})?\s*(?:([^[ ]+)|(?:\[([^=]+)(?:=(.*)?)?\\]))\s*-?\s*(.+)?$;ERROR WHILE CONVERTING TO DCA.
+\*\s{0,4}@param\s+(?:\{(.+)?\})?\s*(?:([^[ ]+)|(?:\[([^=]+)(?:=(.*)?)?\\]))\s*-?\s*(.+)?$;ERROR WHILE CONVERTING TO DCA.
+\.(html|css|js|png|jpg|jpeg|gif|ico|xml|rss|txt|eot|svg|ttf|woff|woff2|cur)(\?((r|v|rel|rev)=[\-\.\w]*)?)?$;ERROR WHILE CONVERTING TO DCA.
+\/(([^\/]*)\/){2}([^\/]*)$;ERROR WHILE CONVERTING TO DCA.
+\@\{([^}^:-]*)(:-([^}]*)?)?\};ERROR WHILE CONVERTING TO DCA.
+\[([a-zA-Z]+|#[0-9a-zA-Z]{6}|\-)?(:([a-zA-Z]+|#[0-9a-zA-Z]{6}|\-)?(:([lbdru]+|\-)?)?)?\\];ERROR WHILE CONVERTING TO DCA.
+\[(gosecret(\|[^\\]\|]*){4})\\];ERROR WHILE CONVERTING TO DCA.
+\{([\w-\.\#]+)(?:\:([\w\.]*)(?:\((.*)?\))?)?(\s?[\+\-\*\/]\s?[\d\.\+\-\*\/\(\)]+)?\};ERROR WHILE CONVERTING TO DCA.
+\{([\w\-]+)(?:\:([\w\.]*)(?:\((.*)?\))?)?\};ERROR WHILE CONVERTING TO DCA.
+\{([\w\-]+)(?:\:([\w\.]*)(?:\((\.*)?\))?)?\};ERROR WHILE CONVERTING TO DCA.
+\{([\w-]+)(?:\:([\w\.]*)(?:\((.*)?\))?)?\};ERROR WHILE CONVERTING TO DCA.
+\{?(?:[0-9a-f]\-*){32}\}?;ERROR WHILE CONVERTING TO DCA.
+\{?(?:[0-9a-fA-F]\-*){32}\}?;ERROR WHILE CONVERTING TO DCA.
+\<iframe\s[^>]*src=\"https?://(.*)?\.google\.(.*)/(.*)\?(.+)\"[^>]*\>\s*\</iframe\>(?:\s*(?:\<br\s*/?\>)?\s*\<small\>.*\</small\>)?;ERROR WHILE CONVERTING TO DCA.
+\A(((?<prj>\S*):)?(?<dts>\S*)\.)?(?<tbl>\S*)\z;ERROR WHILE CONVERTING TO DCA.
+\A(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|[0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))\z;ERROR WHILE CONVERTING TO DCA.
+\A(?:.*\n){0,2};ERROR WHILE CONVERTING TO DCA.
+\A(?:::)?([0-9a-zA-Z_:]+)\n\t\t\t\t   (-([0-9][0-9_]*(?:\._*[0-9][0-9_]*)?)?)?\z;ERROR WHILE CONVERTING TO DCA.
+\A(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\Z;ERROR WHILE CONVERTING TO DCA.
+\A(?:\n            ([a-z]{2,3}(?:(?:-[a-z]{3}){0,3})?|[a-z]{4}|[a-z]{5,8}) # language\n            (?:-([a-z]{4}))?                                        # script\n            (?:-([a-z]{2}|\d{3}))?                                  # region\n            (?:-([0-9a-z]{5,8}|\d[0-9a-z]{3}))*                     # variant\n            (?:-([0-9a-wyz](?:-[0-9a-z]{2,8})+))*                   # extension\n            (?:-(x(?:-[0-9a-z]{1,8})+))?|                           # privateuse subtag\n            (x(?:-[0-9a-z]{1,8})+)|                                 # privateuse tag\n            /* ([a-z]{1,3}(?:-[0-9a-z]{2,8}){1,2}) */               # grandfathered\n            )\z;TIMEOUT.
+\A(?:\n          ([a-z]{2,3}(?:(?:-[a-z]{3}){0,3})?|[a-z]{4}|[a-z]{5,8}) # language\n          (?:-([a-z]{4}))?                                        # script\n          (?:-([a-z]{2}|\d{3}))?                                  # region\n          (?:-([0-9a-z]{5,8}|\d[0-9a-z]{3}))*                     # variant\n          (?:-([0-9a-wyz](?:-[0-9a-z]{2,8})+))*                   # extension\n          (?:-(x(?:-[0-9a-z]{1,8})+))?|                           # privateuse subtag\n          (x(?:-[0-9a-z]{1,8})+)|                                 # privateuse tag\n          /* ([a-z]{1,3}(?:-[0-9a-z]{2,8}){1,2}) */               # grandfathered\n          )\z;TIMEOUT.
+\A(?:0|[1-9]\d*)(?:\.(?:0|[1-9]\d*)){3}\z;ERROR WHILE CONVERTING TO DCA.
+\A([\w\!\#\z\%\&\'\*\+\-\/\=\?\A\`{\|\}\~]+\.)*[\w\+-]+@((((([a-z0-9]{1}[a-z0-9\-]{0,62}[a-z0-9]{1})|[a-z])\.)+[a-z]{2,6})|(\d{1,3}\.){3}\d{1,3}(\:\d{1,5})?)\z;ERROR WHILE CONVERTING TO DCA.
+\A(-[^-]*){14};ERROR WHILE CONVERTING TO DCA.
+\A(-[^-]*){14}\Z;ERROR WHILE CONVERTING TO DCA.
+\A(\".{60,}\"\n){2}\Z;TIMEOUT.
+\A(\s*(\/\*.*\*\/)?)*\{;ERROR WHILE CONVERTING TO DCA.
+\A(\s*[*-]\s*){3,}\z;ERROR WHILE CONVERTING TO DCA.
+\A(\s*[\*\-_]\s*){3,}\z;ERROR WHILE CONVERTING TO DCA.
+\A(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?\z;ERROR WHILE CONVERTING TO DCA.
+\A(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?\Z;ERROR WHILE CONVERTING TO DCA.
+\A[A-H](\d{2}([A-Z](\d{1,2}\/\d{2,3})?)?)?\z;ERROR WHILE CONVERTING TO DCA.
+\A[Ll](?:[Ii](?:[Nn][Kk]?)?)?\n\t\t\t\t\t\t[\ \t]+([!-~]+)[\ \t]+\n\t\t\t\t\t\t([!-~]+)[\ \t\n];ERROR WHILE CONVERTING TO DCA.
+\A[Zz](?:[Oo](?:[Nn][Ee]?)?)?\n\t\t\t\t\t\t[ \t]+([!-~]+)[ \t\n];ERROR WHILE CONVERTING TO DCA.
+\A\n\t\t([0-9]{4})\n\t\t(?:.*([0-9]{2})\n\t\t(?:.*([0-9]{2})\n\t\t(?:.*([0-9]{2})\n\t\t(?:.*([0-9]{2})\n\t\t(?:.*([0-9]{2})\n\t\t)?)?)?)?)?\n\t;ERROR WHILE CONVERTING TO DCA.
+\A\n\t\t\t([-+])\n\t\t\t([0-9]{2})\n\t\t\t(?:.*([0-9]{2})\n\t\t\t(?:.*([0-9]{2})\n\t\t\t)?)?\n\t\t;ERROR WHILE CONVERTING TO DCA.
+\A\s*(([-+]?(\d{2}|\d{4})|--)\d{2}\d{2}|\n              ([-+]?(\d{2}|\d{4}))?\d{3}|-\d{3}|\n              (\d{2}|\d{4})?w\d{2}\d)\n        (t?\n        \d{2}\d{2}(\d{2}([,.]\d+)?)?\n        (z|[-+]\d{2}(\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(([-+]?(\d{2}|\d{4})|--)\d{2}\d{2}|\n          ([-+]?(\d{2}|\d{4}))?\d{3}|-\d{3}|\n          (\d{2}|\d{4})?w\d{2}\d)\n    (t?\n    \d{2}\d{2}(\d{2}([,.]\d+)?)?\n    (z|[-+]\d{2}(\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(([-+]?(\d{2}|\d{4})|--)\d{2}\d{2}|\n\t      ([-+]?(\d{2}|\d{4}))?\d{3}|-\d{3}|\n\t      (\d{2}|\d{4})?w\d{2}\d)\n\t(t?\n\t\d{2}\d{2}(\d{2}([,.]\d+)?)?\n\t(z|[-+]\d{2}(\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(([-+]?\d{2,}|-)-\d{2}-\d{2}|\n              ([-+]?\d{2,})?-\d{3}|\n              (\d{2}|\d{4})?-w\d{2}-\d|\n              -w-\d)\n        (t\n        \d{2}:\d{2}(:\d{2}([,.]\d+)?)?\n        (z|[-+]\d{2}(:?\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(([-+]?\d{2,}|-)-\d{2}-\d{2}|\n          ([-+]?\d{2,})?-\d{3}|\n          (\d{2}|\d{4})?-w\d{2}-\d|\n          -w-\d)\n    (t\n    \d{2}:\d{2}(:\d{2}([,.]\d+)?)?\n    (z|[-+]\d{2}(:?\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(([-+]?\d{2,}|-)-\d{2}-\d{2}|\n\t      ([-+]?\d{2,})?-\d{3}|\n\t      (\d{2}|\d{4})?-w\d{2}-\d|\n\t      -w-\d)\n\t(t\n\t\d{2}:\d{2}(:\d{2}([,.]\d+)?)?\n\t(z|[-+]\d{2}(:?\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(\d{2}:\d{2}(:\d{2}([,.]\d+)?)?\n        (z|[-+]\d{2}(:?\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(\d{2}:\d{2}(:\d{2}([,.]\d+)?)?\n    (z|[-+]\d{2}(:?\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(\d{2}:\d{2}(:\d{2}([,.]\d+)?)?\n\t(z|[-+]\d{2}(:?\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(\d{2}\d{2}(\d{2}([,.]\d+)?)?\n        (z|[-+]\d{2}(\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(\d{2}\d{2}(\d{2}([,.]\d+)?)?\n    (z|[-+]\d{2}(\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(\d{2}\d{2}(\d{2}([,.]\d+)?)?\n\t(z|[-+]\d{2}(\d{2})?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*(http[s]?:\/\/)?[a-z0-9]+([-.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*[mtsh]?\d{2}\.\d{2}\.\d{2}\n        (t\n        (\d{2}:\d{2}(:\d{2}([,.]\d*)?)?\n        (z|[-+]\d{2}(:?\d{2})?)?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*[mtsh]?\d{2}\.\d{2}\.\d{2}\n    (t\n    (\d{2}:\d{2}(:\d{2}([,.]\d*)?)?\n    (z|[-+]\d{2}(:?\d{2})?)?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*[mtsh]?\d{2}\.\d{2}\.\d{2}\n\t(t\n\t(\d{2}:\d{2}(:\d{2}([,.]\d*)?)?\n\t(z|[-+]\d{2}(:?\d{2})?)?)?)?\s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*\n      (?:\n          (?<year>[-+]?(?:\d{4}|\d{2})|--) (?<mon>\d{2}|-) (?<mday>\d{2})\n        | (?<year>[-+]?(?:\d{4}|\d{2})) (?<yday>\d{3})\n        | -(?<yday2>\d{3})\n        | (?<cwyear>\d{4}|\d{2}|-) w(?<cweek>\d{2}|-) (?<cwday>\d)\n      )\n      (?:\n        t?\n        (?<hour>\d{2}) (?<min>\d{2}) (?:(?<sec>\d{2})(?:[,.](?<sec_fraction>\d+))?)?\n        (?<zone>z | [-+]\d{2}(?:\d{2})?)?\n      )?\n      \s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*\n      (?:\n          (?<year>[-+]?\d{2,} | -) - (?<mon>\d{2})? - (?<mday>\d{2})\n        | (?<year>[-+]?\d{2,})? - (?<yday>\d{3})\n        | (?<cwyear>\d{4}|\d{2})? - w(?<cweek>\d{2}) - (?<cwday>\d)\n        | -w- (?<cwday2>\d)\n      )\n      (?:\n        t\n        (?<hour>\d{2}) : (?<min>\d{2}) (?: :(?<sec>\d{2})(?:[,.](?<sec_fraction>\d+))?)?\n        (?<zone>z | [-+]\d{2}(?::?\d{2})?)?\n      )?\n      \s*\z;ERROR WHILE CONVERTING TO DCA.
+\A\s*\n      (?<hour>\d{2})\n      (?:\n        : (?<min>\d{2})\n        (?:\n          :(?<sec>\d{2})(?:[,.](?<sec_fraction>\d+))?\n          (?<zone>z | [-+]\d{2}(?: :?\d{2})?)?\n        )?\n      |\n        (?<min>\d{2})\n        (?:\n          (?<sec>\d{2})(?:[,.](?<sec_fraction>\d+))?\n          (?<zone>z | [-+]\d{2}(?:\d{2})?)?\n        )?\n      )\n      \s*\z;ERROR WHILE CONVERTING TO DCA.
+\Abytes=((?:,[ \t]*)*(?:\d+-\d*|-\d+)(?:[ \t]*,(?:[ \t]*\d+-\d*|-\d+)?)*)\z;ERROR WHILE CONVERTING TO DCA.
+\d\d\d\d-\d\d?-\d\d?(?:(?:[Tt]| +)\d\d?:\d\d:\d\d(?:\.\d*)? *(?:Z|[-+]\d\d?(?::\d\d)?)?)?$;ERROR WHILE CONVERTING TO DCA.
+\d\d\d\d-\d\d?-\d\d?(?:(?:[Tt]| +)\d\d?:\d\d:\d\d(?:\.\d*)? *(?:Z|[-+]\d\d?(?::\d\d)?)?)?\z;ERROR WHILE CONVERTING TO DCA.
+\d{0,3}(\.\d{0,3}){3};ERROR WHILE CONVERTING TO DCA.
+\e\[(?:(?:[0-9]{1,3});){0,2}(?:[0-9]{1,3})m;ERROR WHILE CONVERTING TO DCA.
+\e\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K];ERROR WHILE CONVERTING TO DCA.
+\n                    --TEST--\s*(.*)\s*(?:--CONDITION--\s*(.*))?\s*((?:--TEMPLATE(?:\(.*\))?--(?:.*))+)\s*(?:--DATA--\s*(.*))?\s*--EXCEPTION--\s*(.*);ERROR WHILE CONVERTING TO DCA.
+\n                PHP_ARG_ENABLE\(\n                    \s*([^,]*)\n                    (?:\n                        \s*,\s*\n                        (\n                            [^,\)]*\n                        )\n                        (?:\n                            \s*,\s*\n                            \[ \n                                \s* \n                                ([^\s]+)\n                                \s+ \n                                ([^,\)]*)\n                                \s* \n                            \\]\n                        )?\n                    )?;ERROR WHILE CONVERTING TO DCA.
+\n                PHP_ARG_WITH\(\n                    \s*\n\n                    ([^,]*)\n\n                    (?:\n                        \s*,\s*\n                        \[?\n                            ([^,\)]*)\n                        \\]?\n\n                        (?:\n                            \s*,\s* \n\n                            \[ \n                                \s*\n\n                                # simple match (\S+)\n\n                                ([a-zA-Z0-9-]+)  # option\n                                (?:\n                                    =?\n\n                                    \[?\n                                        =?([^\s\\]]*) \n                                    \\]?\n                                )?                 # option value hint\n\n                                \s+\n\n                                ([^,\)]*)        # option description\n                                \s*                 \n                            \\]\n\n                            (?:\n                                \s*,\s* \n                                ([^,\)]*)\n\n                                (?:\n                                    \s*,\s* \n                                    ([^,\)]*)\n                                )?\n                            )?\n                        )?\n                    )?;TIMEOUT.
+\n            --TEST--\s*(.*)\s*(?:--CONDITION--\s*(.*))?\s*((?:--TEMPLATE(?:\(.*\))?--(?:.*))+)\s*--EXCEPTION--\s*(.*);TIMEOUT.
+\n          (?:@(base|prefix)) |                                            # Turtle keywords\n          [\"']{3} |                                                       # STRING_LITERAL_LONG_SINGLE_QUOTE/2\n          \"[^\"]*\"^^ | \"[^\"]*\"@ |                                          # Typed/Language literals\n          (?:\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))\s*[,;]) ||\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))){3}\n          )\n        ;ERROR WHILE CONVERTING TO DCA.
+\n          (?:@(base|prefix)) |                                            # Turtle keywords\n          [\"']{3} |                                                       # STRING_LITERAL_LONG_SINGLE_QUOTE/2\n          \"[^\"]*\"^^ | \"[^\"]*\"@ |                                          # Typed/Language literals\n          (?:\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))\s*[,;]) ||\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))){3}\n          )\n        ;TIMEOUT.
+\n          (\n            \w+/[\w+.-]+)     # eg application/vnd.example.myformat+xml\n          (?:\n           (?:;[^,]*)?       # optionally multiple formats in a row\n           ;\s*q=([\d.]+)     # optional \"quality\" preference (eg q=0.5)\n          )?\n        ;ERROR WHILE CONVERTING TO DCA.
+\n          (\n            \w+/[\w+.-]+)     # eg application/vnd.example.myformat+xml\n          (?:\n           (?:;[^,]*)?       # optionally multiple formats in a row\n           ;\s*q=([\d.]+)     # optional \"quality\" preference (eg q=0.5)\n          )?\n        ;ERROR WHILE CONVERTING TO DCA.
+\n        (?:([^:/?#]+):)?            # scheme\n        (?://                       # authority\n            (?:([^/?\#@]*)@)?       # userinfo\n            ([^/?\#]*)              # host:port\n        )?\n        ([^?\#]*)                   # path\n        \??([^\#]*)                 # query\n        \#?(.*)                     # fragment\n        ;TIMEOUT.
+\n        (?:@(base|prefix)) |                                            # Turtle keywords\n        [\"']{3} |                                                       # STRING_LITERAL_LONG_SINGLE_QUOTE/2\n        \"[^\"]*\"^^ | \"[^\"]*\"@ |                                          # Typed/Language literals\n        (?:\n          (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))\s*[,;]) ||\n          (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))){3}\n        )\n      ;TIMEOUT.
+\n        (?:\n          (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\")))?           # IRIref\n          \s*\{                                                         # Graph Start\n          (?:\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))\s*[,;]) ||\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:[\"']+[^\"']*[\"']+))){3}\n          )*                                                            # triples\n          [\s\.]*\}\s*                                                  # Graph end\n        )\n      ;ERROR WHILE CONVERTING TO DCA.
+\n        (?:\n          (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\")))?           # IRIref\n          \s*\{                                                         # Graph Start\n          (?:\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))\s*[,;]) ||\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:[\"']+[^\"']*[\"']+))){3}\n          )*                                                            # triples\n          [\s\.]*\}\s*                                                  # Graph end\n        )\n      ;ERROR WHILE CONVERTING TO DCA.
+\n        (?:\n          (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\")))?           # IRIref\n          \s*\{                                                         # Graph Start\n          (?:\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:\"[^\"]*\"))\s*[,;]) ||\n            (?:\s*(?:(?:<[^>]*>) | (?:\w*:\w+) | (?:[\"']+[^\"']*[\"']+))){3}\n          )*                                                            # triples\n          [\s\.]*\}\s*                                                  # Graph end\n        )\n      ;TIMEOUT.
+\n        ([012*.][0-9*.][0-9*.][A-Z@*.]) # tag\n        (\[([0-9*.]{2,3})\\])?           # occurence\n        (\$?([_A-Za-z0-9]+))?           # subfields\n        (\/(\d+)?(-(\d+)?)?)?           # position\n    ;TIMEOUT.
+\n        ([012*.][0-9*.][0-9*.][A-Z@*.]) # tag\n        (\[([0-9*.]{2})\\])?             # occurence\n        (\$?([_A-Za-z0-9]+))?           # subfields\n        (\/(\d+)?(-(\d+)?)?)?           # position\n    ;ERROR WHILE CONVERTING TO DCA.
+\n        \{\n            (([_A-Za-z](\w*)(\.[_a-z]\w*|\[\d+\\])?)|\w+)?  # fieldname\n            (![rs])?  # conversion\n            (:\.?[<>=^]?[+ -]?\w*,?(\.\w+)?[bcdeEfFgGnosxX%]?)?  # format_spec\n        \}\n        ;ERROR WHILE CONVERTING TO DCA.
+\n        \{\n            (([_A-Za-z](\w*)(\.[_a-z]\w*|\[\d+\\])?)|\w+)?  # fieldname\n            (![rs])?  # conversion\n            (:\.?[<>=^]?[+ -]?\w*,?(\.\w+)?[bcdeEfFgGnosxX%]?)?  # format_spec\n        \}\n        ;TIMEOUT.
+\n      (\n        [^=\[]+     # Any char, but not an assignment operator\n                    # or subscript (non-greedy)\n        (?:         # One or multiple conditional subscripts\n          \[\n          [^\\]]*    # The subscript key\n          (?:\n            =       # The subscript comparison operator\n            [^\\]]*  # The subscript value\n          )?\n          \\]\n        )*\n      )\n      \s*           # Whitespaces after the key (needed because subscripts\n                    # always end with ']')\n      =             # The assignment operator\n      (.*)          # The value\n    ;ERROR WHILE CONVERTING TO DCA.
+\n      (\n        [^=\[]+     # Any char, but not an assignment operator\n                    # or subscript (non-greedy)\n        (?:         # One or multiple conditional subscripts\n          \[\n          [^\\]]*    # The subscript key\n          (?:\n            =       # The subscript comparison operator\n            [^\\]]*  # The subscript value\n          )?\n          \\]\n        )*\n      )\n      \s*           # Whitespaces after the key (needed because subscripts\n                    # always end with ']')\n      =             # The assignment operator\n      (.*)          # The value\n    ;TIMEOUT.
+\n      [^\w]ts\s*                                    # match \"ts\" with whitespace\n      \(\s*                                         # match \"(\" argument list start\n      ((?:(?:'(?:\'|[^'])*'|\"(?:\"|[^\"])*\")(?:\s*\+\s*)?)+)\s*\n      [,\)]                                         # match \")\" or \",\" to finish\n      ;TIMEOUT.
+\n      \A ( [A-PR-UWYZ01][A-HJ-Z0]? )     # area\n      (?: ( [0-9IO][0-9A-HJKMNPR-YIO]? ) # district\n        (?: \s* ( [0-9IO] )              # sector\n          ( [ABD-HJLNPQ-Z]{2} )? )? )?   # unit\n      \Z\n    ;TIMEOUT.
+\n    (                  # first date (don't match beginning of string)\n    (?:\d{4}|\d{1,2})  # first part can be 1-2 or 4 digits long (DD, MM, YYYY)\n    (?:[\.\-\/]?\d{1,2}[\.\-\/]?)? # middle part (1-2 digits), optionally separated\n    (?:\d{4}|\d{1,2})? # end part (1-2, 4 digits), optionally separated\n    )                  # end of first date\n    (?:-(              # optional second date, separated by \"-\"\n    (?:\d{4}|\d{1,2})  # first part can be 1-2 or 4 digits long (DD, MM, YYYY)\n    (?:[\.\-\/]?\d{1,2})? # middle part (1-2 digits), optionally separated\n    (?:[\.\-\/]?(?:\d{4}|\d{1,2}))? # end part (1-2, 4 digits), optionally separated\n    ))?                # end of optional second date\n    ;ERROR WHILE CONVERTING TO DCA.

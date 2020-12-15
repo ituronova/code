@@ -1,0 +1,10 @@
+.*[ab]{4}.*[dc]{3}.*{e}{8}
+.* [rR][eE][nN][aA][mM][eE] [^\x0a]{1000}
+^POST [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1000,}
+.* [fF][iI][nN][dD] [^\x0a]{1000}
+^GET [^\r\n]*\x3F([^\r\n]*\x26)*[^\x3D\r\n]{1000,}
+\sCREATE\s[^\n]{1000}
+^POST [^ab]*w([^ab]*d)*[^gab]{1000,}
+^GET [^ab]*w([^ab]*d)*[^gab]{1000,}
+\sCREATE\s[^\n]{1000}
+\sCREATE\s[^\n]{1000}

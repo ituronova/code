@@ -1,0 +1,19 @@
+^.{0,23}Wtzup Use
+^.{0,24}ISSPNGRQ
+^.{0,24}\x49\x53\x53\x50\x4e\x47\x52\x51
+^.{0,92}\x38\x39\x3a\x3b\x3c\x3d\x3e\x3f
+^200 [^\x0a]{64}
+^.{24}.{0,17}NAMENAME
+^.{24}.{0,17}\x4e\x41\x4d\x45\x4e\x41\x4d\x45
+^.{29}6[iI][sS][sS] [eE][cC][nN][rR][aA] [bB][uU][iI][lL][tT]-[iI][nN] [pP][rR][oO][vV][iI][dD][eE][rR], [sS][tT][rR][oO][nN][gG] [eE][nN][cC][rR][yY][pP][tT][iI][oO][nN]
+^.{53}.*[aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][iI][oO][nN] [uU][nN][sS][uU][cC][cC][eE][sS][sS][fF][uU][lL]
+^.{82}.*Login failed for user 'sa'
+^.{82}.*Login failed for user \x27sa\x27
+^.* [aA][uU][tT][hH][eE][nN][tT][iI][cC][aA][tT][eE] [^\x0a]{100}
+^[aA][uU][tT][hH][iI][nN][fF][oO] [uU][sS][eE][rR] [^\x0a]{500}
+^.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x0A]{512}
+^.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]: [bB][aA][sS][iI][cC] [^\x0A]{512}
+^.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]\x3A [bB][aA][sS][iI][cC] [^\x0A]{512}
+^.*[aA][uU][tT][hH][^\x0a]{50}
+^.*[cC][eE][lL] [^\x0a]{100}
+^.* [cC][hH][oO][wW][nN] [^\x0a]{100}

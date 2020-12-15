@@ -1,0 +1,25 @@
+All benchmarks were run with the following settings:
+TIMEOUT: 10 minute
+6 times for each regex
+
+Filtered first 152 regexes. 
+
+The filter is set such that it filteres first regular, than from the correct
+regexes with counters and at the end monadic from the rest.
+
+regexes-filtered - passed regular, monadic with counter
+regexes-notSupported - non regular or such that we do not handle them
+regexes-nonMonadic - non monadic
+regexes-noCounters - no counters
+
+33 passed
+27 not suppported
+91 no counters
+1 non monadic
+0 simple strings
+0 from non monadic are not nested counters
+
+152 in total.
+
+
+

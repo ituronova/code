@@ -1,0 +1,1000 @@
+\\n  <env:Body
+foo_key
+physicalsample_(\\w+)
+^[ \\w\\!#\\$%&'\\(\\)\\*\\+,\\-\\.\\/\\:;<\\=>\\?@\\[\\]\\^`\\{\\|\\}~]+$
+ THEN 
+[^\\x00-\\xff](((.*)*)*x)
+[+-]?[0-9]*\\.[0-9]+?
+[-+]?[0-9]*\\.?[0-9]+([E|e][0-9]+)?
+can't alter this type
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:1\\.?[\\s\\xa0]*Petrus)|(?:1(?:[\\s\\xa0]*Petr|Pet|\\.[\\s\\xa0]*Petr)|Erste[\\s\\xa0]*Petrus))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+/BM (\\d+)
+[0-9]{14}$
+<(jv|johan)
+-arch\\s+\\w+\\s
+^(\\-)?0x([0-9a-fA-F]*)\\.?([0-9a-fA-F]*)$
+^help (.*?)$
+^NXDOMAIN$
+^(STR)?UUID$
+^(.*?)\\@\\@.*$
+REQUIRED\\-CONSTANT\\-REPLACEMENT\\-\\p{Digit}+
+^[;.,:/]
+(\\d+) hrs
+^(\\s*#.*)?\\s*$
+\\W*[0-9]+\\W*
+^\\s+(\\w+)\\s+=>
+($NUM)\\s*([\\*/])\\s*($NUM)
+^fun (.*) (.*)=(.*)\\(position (.*), bool (.*)\\)$
+^12583.
+BLOB \\(OMITTED\\)
+; ([^;)]+)\\)
+^__.*__$
+(?:\"[^\"]+\"|[^\\s]+)
+\\w{20}
+^Verbose explanation
+^the serialized value should be a JSON (.*)$
+^\\/widget\\/ui\\/localstorage\\/(.*\\.js)$
+^http(s?)(s?):\\/\\/youtu.be
+^//+
+false *<- array\\[index\\]\\.upcase == value$
+^I set the value of the (.+) \"([^\"]*)\" tag to \"([^\"]*)\"$
+^[*]((?>\\\\[*]|[^*]|[*][*][^*]+?[*][*])+?)[*](?![*][^*])
+\\d+\\s+(\\D\\w?.*)$
+Help is available on '(.*)'
+()<B><Z>(?:<[^>]+>)*<V p=\"y\" t=\"ord\".><V p=\"y\" t=\"caite\".>(?:<[^>]+>)*<\\/Z>([AEIOU\\x{c1}\\x{c9}\\x{cd}\\x{d3}\\x{da}][^<]*)<\\/B>()
+^.+\\.gemspec
+0+Z
+^[a-z\\s]+$
+^I should see that the date picker is in (time|date|date and time) mode$
+^\\s*(?:#(?:[0-9a-f]{3}){1,2}|aqua|black|blue|fuchsia|gray|green|lime|maroon|navy|olive|purple|red|silver|teal|white|yellow|invert|inherit)\\s+$
+\\+|\\!|\\-|&(gt|lt|amp);|\\/\\=|\\||\\@|\\:|\\.|\\+{2}|\\:|\\*|\\=|#|\\.{2}|(\\\\)[a-zA-Z_]
+___(?!subtmpl)\\w+?___
+^--- ([^ ]+) (.*)$
+/oauth/token/info\\?access_token=
+(UPDATE|DELETE|TRUNCATE|ALTER|DROP|FLUSH|INSERT|REPLACE|SET|CREATE|CONCAT)
+passenger_module
+offset=1
+\\+(\\d+)% Increased Healing from Potions
+Node not-found-node.github.net not found in PuppetDB
+I am \"(.+?)\"$
+Errors found in the connection profile in the card
+Host
+^Send 127\\.0\\.0\\.1:6379 id [0-9]+: \\*3\\r\\n\\$5\\r\\nrpush\\r\\n\\$13\\r\\nblocking list\\r\\n\\$13\\r\\ninitial value\\r\\n\\n$
+[a-zA-Z0-9-]+=.*
+^Host:\\s+example.org$
+string|comment
+(http[^\\s]+)
+^the MD5 checksum of the response data should equal the generated checksum$
+^id=
+\\s+Registered on:\\s+(.+)\\n
+^([+-]\\d{2})(?::(\\d{2}))?$
+^bundler/gems/tester[^/]*/lib/tester/version\\.rb
+ban(k|c)(a|o)?
+^\\[some\\-uuid\\] Completed 
+horizontal-scroll-
+^(-v|--version)$
+^(\\\\[0-9A-Fa-f]{2})+$
+nineteen\\b
+(\\D)\\.0+(,|\\}|\\))
+[ \\t\\r\\n\\\\*/]+
+user: ''
+(?:^|;)[A-Z-]+:
+^(Solaris)
+\\&nbsp;
+^0(b|o|x)
+(binary|string|table)([\\?\\*]{0,2})?$
+\\[|\\]\\s*
+user_literal!>
+t\\.datetime\\s+\"created_at\",\\s+precision: 0,\\s+null: false$
+\tISO-2022-JP-MS\t
+(.+)\\((.*)\\).*
+%value
+\\A(perl|Config)\\z
+[A-Za-z0-9-.]+
+(?<!\\\\)>
+^(\\s*(\\/\\*\\*|\\*)).*
+^<(.+)>(.+)=(.+)<\\/\\1>$
+(mole)s?
+max-age= *([0-9]+)
+\\G$s=$s
+::ok
+\\/actions\\/2\\/card
+^\\#([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})
+^text-wiki(.+)$
+[^a-z0-9_\\-. ]
+\\AUser defined target of method invocation
+^\\s*GSL_VAR const gsl_\\w+_type\\s*\\*\\s*(gsl_\\w+)\\s*;
+^!\\S*
+('.+?')
+^(\\d{4})-(\\d\\d)-(\\d\\d)_(\\d\\d)-(\\d\\d)-(\\d\\d)(Z?),(\\d+)$
+INITIAL_ACTIVITY
+[\\u014e\\u014c\\u00d4\\u00d5]
+#([a-z][a-z_0-9]*)\\b(.*)
+\n            CRYPTOPP_CLASS_METHOD\\(\n              \\s*(\\w+)\\s*,\n              \\s*\"([^\"]+)\"\\s*,\n              \\s*(\\w+)\\s*,\n              \\s*(-?\\w+)\\s*\n            \\)\n            (?:;\\s*/[*/]\\s+in\\s+(\\w+?\\.cpp))?\n          
+\\A[a-zA-Z0-9!?_]+\\Z
+Host: ([\\d\\.]+) \\(([\\w\\.\\-]*)\\)
+\\.ya?ml(\\.dist)?$
+[\\sH']
+\\bINFO\\b.+\\bGET http://sushi\\.com/temaki\\b
+\\\\\\[|\\\\\\]
+\u0430|\u044f
+\\*\\*\\s2\\b
+Coverage for functions .* global
+Function
+^(GD|GD::SVG|PDF)$
+(\\d{1,3}):([0-5]\\d):([0-5]\\d)$
+state:.*BOUND PARTICIPANT NOT FOUND
+\\/\\/\\*+.*\\*+
+filename\\*?=(?:([a-zA-Z0-9_-]+?)'')?\"?([a-z0-9_.~%-]+)\"?
+^~[^/]*$
+^$NEGATIVE(.*)$
+\\.([a-zA-Z0-9_-]+)
+^\\s*\\S+\\s+(online|offline|restricted)(\\s+\\S+){2}
+^\\-?(0|[1-9]\\d*)(.\\d+)([eE][\\+\\-]\\d+)?$
+(?P<htmlchars>[<&>])|(?P<space>^[ \\t]+)|(?P<lineend>\\r\\n|\\r|\\n)
+^([^@:]+@)?([^:]+):(.+)$
+\\/(ad|pfad)[x|i|j]?\\/
+you must define the `workspaces` property in package.json with at least one workspace to use workspaces with ember-try
+\\/[0-9].*$
+^refs/heads/
+^pg_db_size(\\\\.|-).*
+^\\[\\n[ ]{2}{\\n[ ]{4}
+\\breadFileSync\\b
+^Invalid Argument
+(?i)^or\\b
+,ip_addr=\"[\\d\\.]+\"$
+^(\u304b\u3064|&&)
+^the node on port (\\d+) has the following log:$
+Destroyed: (.+)
+<a[^.]+href[^.]+>
+not authorised
+auf
+last_(\\d+)_items
+Model name:\\s+(.*)
+^-?(notes)$
+(?:<)(.+)(?:>)$
+<a href=[\\'\\\"](?P<url>.*?)[\\'\\\"]>(?P<text>.*?)<\\/a>
+^[[:print:]+]$
+(?P<loc1>[A-Z0-9]{3,4})\\s?-\\s?(?P<loc2>[A-Z0-9]{3,4})
+youtube\\.com\\/embed\\/\\w+
+Invalid enum value
+^click( element)? (.+)$
+^#!(/.*)
+[\\x00-\\xff]*?^$self->{Begin}
+OPR/((\\d+)\\.(\\d+)\\.\\d+\\.\\d+)
+in property \"a\": not a number
+\\(50deg\\)
+cpu([0-9]+)
+^(\\d+)\\.(\\d+)\\.([\\d\\.]+)\\.(\\d+)$
+^($Geo::Coder::US::Addr_Match{direct})\\s+(?=\\S)
+[\\u00ce]
+^\\(\\s*([\\s\\S]+)\\s*\\)$
+\"taggings\":\\[
+^(\\d+):(\\d+):.*
+ text with spaces $
+<script async custom-element=\"amp-iframe\" src=\"https:\\/\\/cdn.ampproject.org\\/v0\\/amp-iframe-0.1.js\"><\\/script>
+^\\#[\\da-f]{3}$
+\\bui-treenode-space\\b
+<li itemprop=\"Format\">\\s*<strong>Format:</strong>\\s*(.*?)</li>
+/gems/
+\\ARAA - (.*)\\Z
+\\s{4,}
+(?!-)([\\w\\-]+):\\s*(.*)
+^(\\s*)<style.*?>(.*?)\\s*</style
+^__author__ = ['\\\"]([^'\\\"]*)['\\\"]
+^(any|boolean|float|int|string|object|void)$
+IDENTITY_START
+\\+\\+|\\+|--|-|\\*|\\/=|\\/|=\\/=|=:=|==|=<|=|<-|<|>=|>|!
+^\\d+[.]{0,1}\\d*[E][+-]{0,1}\\d*|^\\.\\d+[E][+-]{0,1}\\d*|^0x\\d+|^\\d+[.]{0,1}\\d*|^\\.\\d+|^\\(\\/.*[^\\\\]\\/\\)
+^(@)
+\\s(\\s+)
+\\\\textasciibreve 
+\\/layout.*\\.(html|hbs|handlebars|markdown|md|mdown)$
+()<B><Z>(?:<[^>]+>)+<\\/Z>([Aa]n)<\\/B>( (?:<[\\/A-DF-Z][^>]*>)+faoi<\\/[A-DF-Z]>)
+apple-touch-icon(?:-\\d+x\\d+)?(?:-precomposed)?\\.png
+<\\/?(?:h[1-5]|[a-z]+(?::[a-z]+)?)[^>]*>
+^I should see the page iframe$
+kernel: isdn_net: ippp0 connected
+[_]*[a-z]+[a-zA-Z0-9$]*[_]?
+^[0-9a-zA-Z-_$\\(\\)\\.~!,;:*+@=]+$
+[^\\\\]\\$
+(.*?)\\s*\\(.*\\)
+^o[u\u00f9\u00fb](.*)
+^(\\w+)\\/
+\r\n        <div>\r\n         <span \\s class='category'[^>]*>\r\n           country \\s comparison \\s to \\s the \\s world: \\s*\r\n         <\\/span>\r\n          \\s*\r\n         <span \\s class='category_data'[^>]*>\r\n          \\s*\r\n            <a \\s [^>]+>\r\n             .+?\r\n            <\\/a>\r\n          \\s*\r\n         <\\/span>\r\n         <\\/div>\r\n        
+&(index|element)(?:\\(([- \\d])\\))?
+Error: Couldn't find ### TSC Emeriti in the README
+(<guide>.*</guide>)
+Invalid value \"bar\".
+Electron
+#(?:[^%]|%[^>])*
+timeframe
+$self->{triggers}{mod_cat}
+^ *(?:package|use|no|#line) 
+/\\?%*:|\"<>
+^flickr_[\\w]+
+^\\s*\\]
+\\x{fb02}
+^Metrics: unhandled exception foo
+((0(x|X)[0-9a-fA-F]*)|(\\+|-)?\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\\b
+^[\\u0021\\u0023-\\u0027\\u002A-\\u002B\\u002D-\\u002E\\u0030-\\u0039\\u0041-\\u005A\\u005E-\\u007E]*$
+ceph_osd_up{cluster=\"ceph\",osd=\"osd.0\"} 1
+[16]$
+^rsync --progress
+^[ATGCN]+$
+([.])([ \\t]*)(
+Not exists(;|$)
+86_64
+\\W(BSD-3-Clause|\\\"BSD\\W3-clause\\W\\\"\\\"New\\\"\\\"\\Wor\\W\\\"\\\"Revised\\\"\\\"\\WLicense\\\")\\W
+\\$(\\d+|&|`|')
+^(.*:\\/\\/)
+SessionNotOnOrAfter=\"
+Bit|Array|Module|Parameter
+<code
+NilClass#(\\w*)
+^([\\+-][0-9]{2})$
+^tubepress-multisource-([0-9]+)-.+$
+\\.(?:pf[ab]|ps)$
+^#?([0-9a-f]{6})$
+[ diD]
+Temp$
+I5.2|I5.3|I6
+\\$(?:\\\\[\\\\\\$]|[^\\$])*\\$
+aria-label=\"hi\"
+expr=\"([^\\\"]*)\"
+textmode\\:(.*)
+listen
+dcache:
+ isn't a member of project 
+DEFAULT nextval\\('[a-z]+_id_seq'::regclass\\)
+<<8774(.+?)>>(.*?|)<<4587>>
+repository is not a valid url
+[~!@#\\$%\\^&\\*_\\-\\+=\\x60\\|\\(\\){}\\[\\]:;\"'<>,\\.\\?/]+
+\\((\\d*),(\\d)*,\\[(\\d*),(\\d*)\\)\\) -> \\((\\d*),(\\d)*,\\[(\\d*),(\\d*)\\)\\), that is: \\\"(.*)\\\" -> \\\"(.*)\\\"
+^(\\d+\\.\\d+\\.\\d+\\.\\d+)/(.+)$
+^thread-(\\d+)-.*
+\\/jdeleteform.wsql$
+\\.alias\\.drushrc\\.php$
+$FIELD_RX
+(?<![<>])(<T>[Nn]a<\\/T> <N pl=\"n\" gnt=\"n\" gnd=\"m\">coilleadh<\\/N>)(?![<>])
+([\\d.]+)([mgk])
+^mevlo$g
+(^|[^\\\\])\\\\c
+$\\.DBF
+^--(enable|disable)-(\\w+)$
+Expiration date: (.+?)\\n
+<link rel=\"stylesheet\" type=\"text\\/css\" href=\"lib\\/css\\/jquery.multiselect-1\\.13\\.css\" \\/>
+^\n\t\t\t([a-z0-9*]+)\\s*  # Name\n\t\t\t\\w+\\s+           # Mtu\n\t\t\t<Link\\#\\w+>      # Network\n\t\t\t(?:\\D+|\\s+\\w+:\\w+:\\w+:\\w+:\\w+:\\w+\\s+)  # MAC address\n\t\t\t(\\w+)\\s+  # Ipkts\n\t\t\t(\\w+)\\s+  # Ierrs\n\t\t\t(\\w+)\\s+  # Ibytes\n\t\t\t(\\w+)\\s+  # Opkts\n\t\t\t(\\w+)\\s+  # Oerrs\n\t\t\t(\\w+)\\s+  # Obytes\n\t\t\t(\\w+)\\s+  # Coll\n\t\t\t(\\w+)?\\s*  # Drop\n\t\t\t$
+^x\\-bce\\-
+\\e\\[0;
+an|arn
+^Marsh marigold
+^\\xa1\\xa1\\xa1\\xa1\\xa1\\xa1\\xa1\\xa1\\xa1\\xa1
+(?:<a href=\\\".+?\\\">)(.+)(?:<\\/a>)
+^I put \"([^\"]*)\" to the key \"([^\"]*)\" with ContentLength (\\d+)$
+ '$unknown' for filter '$filter'\"
+\\$\\{(?:hostname|uuid:[a-z]+)\\}
+oh(?=[ksthmrgzdbp])
+^(.*?):(\\d+)(:\\d+)?$
+^.*[/:]
+sudo find \\.\\/ -type d -exec chmod 00775 \\{\\} \\\\;
+requires localfile section
+^[A-Z_]+\\w
+(js|tsx?)$
+(\\D+)(?:, (?:[bdf]l?\\. )?(?:ca. )?\\d{4}(?:\\?| or \\d{1,2})?(?:-(?:[bdf]l?\\. )?(?:ca. )?\\d{4}(?:\\?| or \\d{1,2})?)?|(?:\\d{2}th(?:/\\d{2}th)? cent\\.)\\.?)
+^! On terminal: [^\\n]*\\n
+^/spec/
+[^\\.\\'a-zA-Z]
+$SUBTEST_PLAN
+(?:^|[\\/\\\\])([\\w-]+)(?:\\.\\w+)?$
+^([a-zA-Z][a-zA-Z0-9_]+):$
+^https?\\:\\/\\/[a-z0-9\\.\\-]+\\/.*
+^(Per|Ta).*
+include Hydra\\:\\:User.*$
+manifest\\.json
+test\\/unit\\/meta_request\\/log_interceptor_test.rb$
+.*\\\\.vmwarevm$
+^MojoX::Session::Store::File::Driver::
+set ddns-fwd-name = \\\"(.*)\\\";
+\\A[A-Z]{3}\\z
+width=\"200\"
+^(.*)?:\\s*(.*)$
+:|(&#0*58)|(&#x70)|(&#x0*3a)|(%|&#37;)3A
+^(dire|flow|noredir|retry|sleep|check)$
+unifi_devices_wireless_transmitted_bytes_total{id=\"123\",mac=\"ab:ad:1d:ea:ab:ad\",name=\"OneTwoThree\",site=\"Some Site\"} 20
+http:\\/\\/127\\.0\\.0\\.1.*\\/posts\\/1
+^([a-z]{2}(-[A-Z]{2})?)/(.*)$
+Beginning r10k deploy
+^$Ident$
+(<=|>=|<|>|=)
+^((?P<name>.*?)<(?P<namedEmail>[^>]+)>|(?P<email>.+))$
+([\\+\\-\\s])(\\d\\d):?(\\d\\d)?
+(.*?)(<%%|<%=|<%#|<%|\\z)
+^(\\+\\-|\\+\\/\\-|\\+|\\-|\\\\pm\\s?)?([0-9]+(?:[,.][0-9]+)?|[0-9]*(?:\\.[0-9]+)?)\\^([+\\-]?[0-9]+|\\{[+\\-]?[0-9]+\\})
+^ES\\d
+^([[:print:]]+):([[:alnum:]]+)$
+literal|identifier
+^(.*?) \u0441\u043e\u0442\u0440\u0438 (\\d+) (\u0441\u043b\u043e\u0432\u043e|\u0441\u043b\u043e\u0432\u0430|\u0441\u043b\u043e\u0432) (\u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430|\u043f\u043b\u0438\u0437|please)
+\\[(.*)\\]:(\\d+)$
+(?im)<title>(.*) - Video</title>
+\\.(png|jpg|jpeg|gif|tiff|woff|ttf|eot|svg|map)
+(?:[\\s,]\\s*)
+\\A\\w+(?:\\(.*\\))?\\z
+\\.build
+[<>{};?\"`]
+^I should be able to hide the submission$
+[^\u25c6]\u25b2
+^Net::Frame::Layer::CDP::Constants::
+^\\s*P\\s\\d
+\\.t\\b
+\\AA*\\z
+\\$\\(.+?\\)
+^([0-9a-z]{4}:)+[0-9a-z]{4}$
+%([-:\\w]+)([-:\\w\\.\\#\\@]*)(.*)
+[^\\w \\d]+
+$Template::Qtpl::var_begin[E]LSE$Template::Qtpl::var_end
+\\A([^\\w]*)\\w
+http://datastore/favorites
+^I enter my new password$
+\\/?network-breadcrumb-test\\.html$
+^\\/publish
+.+\\.hot-update\\.js$
+^[+-]?nan$
+^\\s*\\Q((\\E\\s*sort(?:\\s+by\\s+(.*?))?\\s*\\Q))\\E$
+#\\s*include\\s+\"INTERN\\.h\"
+^([A-Z]+)(\\d+)
+(s)([^A-Za-z0-9 \\t])(.*\\2.*\\2)([ixsmogce]*(?=[ \\t]*(?:\\)|;)))
+^\\w+\\-\\d+
+(http:\\/\\/[^][<>\\s\"|])(&client=firefox-a|&lt=)(?=[][<>\\s\"|&])
+\\G\\/([\\.\\w]+)
+Grails
+Please specify --card or -c only once
+(\\r?\\n){2}.*
+(u:|v)
+python\\s*module\\s*\\w+\\Z
+invalid value for
+^maj7?(?:\\.?(.*))?
+\\sbl\\s
+^ABMON_
+pt_.*
+\\{\\{ colorAxis \\}\\}
+the adapters are reset
+^(MLG)(\\d+)$
+^I am on the Mammoth Workwear home page$
+\\?_dc=[\\d]+
+\\A(3|error)\\z
+^https?:\\/\\/(soundcloud.com|snd.sc)\\/(.*)$
+\\b(include|use|load)\\b
+\\w*=\\(component.*?\\)
+\\*?(?:[$@]|::)?(?:[a-z_]\\w*(?:::\\s*))*[_a-z]\\w*
+dhxwin_parked
+\\n(.+) specs?
+chocolate\\/
+^[aA]bc$
+GLOSSARY{[^}]+}
+13 Credibility Street
+_(.*)
+expected: 2.*got: 1
+apple
+(qualified|as|hiding)
+^(\\d{1,4})([\\s\\/\\\\_.-])(\\d{1,2})\\2(\\d{1,4})$
+(thead|tbody|tfoot)
+.*\\.app/
+($VALID_ZONES)\\. Zone
+308\\n
+(?s)<li id=\"showview_videos_media_(\\d+)\"[^>]+>.*?<a href=\"([^\"]+)\"
+^[\\444]*$
+'(\\{\\{[^'}]*\\}\\})'
+keypad
+data-pagenate=\"false\"
+\\.[^\\.\\\\\\/]*$
+^(\\d+)$day$past$
+stashdump
+^(\\w+:)?(.+)$
+\\'(?=\\W|s\\b)
+^SASL.*?\\sCRAM-MD5\\b
+cc=foo\\@test\\.com
+line: (\\d+)
+^[a-fA-F0-9]{12}$
+^$self->{db}:\\s*(.*)$
+\\[\\s*ref\\s*=(['\"])@([\\w\\.\\-\\/\\\\]+?)(\\.css|\\.less|\\.scss|\\.mx|\\.mmx|\\.style):([\\w\\-]+)\\1\\]
+darwin-?([1][2-9]|[2-9]\\d)
+[^\\s\\(\\)\\[\\]\\{\\}'`,.]+
+^the output should include \"(.*)\"$
+^I should have (\\d+) text areas$
+^\\s*(\\S+)\\s*:\\s*(.*)\\s*$
+mocha=true
+span_context_test\\.rb$
+hulu\\.com/watch/([0-9]{4,10})
+\\bmusl\\b
+^(\\w+)([:;])(.*)
+\\<input[^>]+?type\\=[\"']file[\"']
+Can't add, conflict with existing attribute name `value`
+^(keep_caps|noroot|no_setuid_fixup)(_locked)?
+yweather:location city=\"(.+)\"( +)region=\"(.+)\"( +)country=\"(.+)\"
+^Book Article$
+:|\\s+
+\\A[. \u00e9\u00c6\u00d8\u00c5\u00e6\u00f8\u00e5la-z0-9-]+\\z
+^[A-Za-z]+-\\d+$
+=SCALAR
+^$wr
+^the value at \"([^\"]*)\" should be a string$
+(?<![<>])(<V cop=\"y\">[Mm]urab<\\/V> <[A-DF-Z][^>]*>[^aeiouAEIOU\\x{e1}\\x{e9}\\x{ed}\\x{f3}\\x{fa}\\x{c1}\\x{c9}\\x{cd}\\x{d3}\\x{da}][^<]+<\\/[A-DF-Z]>)(?![<>])
+bundled by this gem is \\[([^\\]]*)\\]
+parse: error with status=500 and body=\"a\"
+[^\\x00-\\x7F\\x{0E01}-\\x{0E3A}\\x{0E3F}-\\x{0E5B}]
+\\{\\{numrand-([0-9]+)\\}\\}
+^processing-instruction\\(
+^GetRecord|ListIdentifiers|ListRecords$
+I wait (\\d+) seconds?$
+^(\\p{Letter})+(\\d+)\\.(\\d+)(E|e)(\\d+)$
+\\\\b[A-Fa-f0-9]{64}\\\\b
+\\nend-commit\\n
+\\/?!?$
+a{2,}a{2,}?
+\n            url\\(\n                ('|\"|)\n                (?<url>.*?)\n                \\1\n            \\)\n            
+Invalid buffer
+^I send (\\d+) messages to the queue$
+^\\s*([^=]+)=\\s*(\\-?\\d+(\\.\\d+)?)\\s*$
+^([_-].*)?(.*[_-])?$
+^(hi|s)
+<\\?php (.*)\\?>
+^\\s+(\\d+)\\s
+expect `method` to be a string
+^ASSEMBLY
+use Text::RewriteRules;
+^\\s*\\[(([^#;]|\\\\#|\\\\;)+)\\]\\s*([#;].*)?$
+\\.(css|js)$
+The expected times failed is a required argument and must be a number.
+awseb.+?AutoScalingGroup[^,]+
+prerequire app\\/extend\\/application.js
+sizes
+%Z$
+Missing expected file: missing_file
+Apache/([\\d\\.]+)
+\\/([^\\/]+).rb$
+^(?:[0-9a-f]{3}){1,2}$
+^SETUP (.+)$
+(?:(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}|\\s[a-z0-9.-]{3,100}?\\.[a-z]{2,10}))(?:\\s*:\\s*|\\s+)(\\d{2,5})
+(.*?)\\:?\\/\\/(.*)
+.*\\.exe
+^([!<>=]?)([0-9]+)
+\\sinstalled
+^(\\d+)month$
+SuSe
+\\[(%[\\w%\\+]+\\%)]
+19102008.jpg$
+^\\d+\\s\\=\\>\\s$
+\\A$qr_ip4_addr\\z
+/hello/(\\w+)/(?:(\\w+)(?:/(\\w+))?)?
+(?:[a-zA-Z_][a-zA-Z0-9_]*(?:\\.[a-zA-Z_][a-zA-Z0-9_]*)*)|\\[([a-zA-Z_][a-zA-Z0-9_]*(?:\\.[a-zA-Z_][a-zA-Z0-9_]*)*)\\]
+Match
+^gmail
+a duplicate index name, SecondaryIndex, is not allowed
+:[:]?
+(?i)\\b(spl_(classes|object_hash|autoload(_(call|unregister|extensions|functions|register))?)|class_(implements|uses|parents)|iterator_(count|to_array|apply))\\b
+vbi
+\\GLOOKUP\\s+\"([^\"]+)\"\\s+
+(\\\\|\\/)+$
+^@(var|property) (\\w+) ((.|[\\s\\S])*)
+src=\"javascript:
+<[^>\\d]+>
+^\\s*#\\s.*$
+^=~$
+The option '
+\"release_status\" : \"stable\",
+big smelly creatures
+\\$simple-sprite-names\\: blue red
+(\\S+)='((?:\\\\'|[^'])*)'
+^\\s*//.*?\\n
+Couldn't parse object
+^\\s+(?:\\/private)?
+^[^1]\\d{6}$
+\\b(?<_1>implements)\\b\\s+
+JSCL-(\\d.+)
+\\\\\\^{}
+^Query HMM:\\s+(\\S+)
+\\A\n        U \\+ [0-9a-fA-F]{4,}\n    \\z
+Identities = \\S+ \\((\\d+%?)\\)
+github.com[/:](?P<owner>.*)/(?P<name>.*)\\.git
+\\@([\\w_]+)
+(?<!\\\\)\\$\\{(?P<var>[a-zA-Z_]\\w*):(?P<plus_minus>[+-])(?P<default>[^}]+)\\}
+^ *### +
+\\A\\~\\~\\~content_1\\~\\~\\~
+^Equus spec
+(<span)\\s+(style=\\\"font-variant:)\\s*(small-caps);?(\\\")[^>]*(>)
+^\\s*if [\\w.\"\\'\\[\\]]+ != True:$
+^([0-9]+[^:]+):\\s(.+)$
+^info .*\\bscore (\\w+) (-?\\d+)
+.dar$
+\\\\n\\\"$
+ ^(\\$(?:\\_[\\w:]|::)) 
+ROText$
+^PING\\r\\n
+^([[:alpha:]_]([[:alnum:]\\-\\.]*)?:)?[[:alpha:]_]([[:alnum:]\\_\\-\\.]+)?$
+phone\\.rb
+\\s*into\\s*\\(
+^nodev\\s+(\\S+)
+^\\/(include|js|pages|style).*$
+(.+?)(?:\\s+([^\\s]+)\\s+\\()?([^\\s@:]+):(\\d+):(\\d+)\\)?
+feeddemon
+^define\\s+(\\w+)
+'LANG_NAME'\\s*=>\\s*'((?:[^']|\\')+?)'
+^graphite should have recieved results$
+factory_girl \\[not found\\]
+there is no 'notemplate\\.xhtml' associated with this action
+(.+)ion$
+aws-sdk-sampleapi.\\/1.0.0
+--(.+)
+[\\d]{2}
+Listening for connections on port (?P<port>\\d+)
+(?<=[>\\s])\\n(?=[<\\s])
+(Apache($|[^-])|HTTPD)
+^metafield$
+\\n\\s*VERSION_ID=\"?(.*)\"?
+/test (gke|all)
+^mailx?$
+^[-]{1,2}
+^escape$
+^Did not inline ([^ ]*) called from ([^ ]*) \\(([^\\)]+)\\)\\.$
+ TINYINT 
+^SUB\\s+([^\\r\\n]+)\\r\\n
+(^|/)bootstrap([^.]*)\\\\.(js|css|less|scss|styl)$
+^\\\\\\.(.*?)\\\\=\\\\(['\"])(.*?)\\\\\\2((?:\\\\,.*)?)$
+^plugin\\.([^.]+)\\.build\\.task$
+^phone\\/
+^\\d{1,2}/\\d{4}$
+(?:\\s*\\/\\/.*)*\\s*return isBindFast[^:]+:\\s*
+Unresolved<\\/resolution>
+redacted
+^Current \\s Time: \\s (.+)$
+((\\.(f|i|b))?\\.js|\\.html|\\.array)\\z
+UTC_MS_TO_(.+)
+^inc[\\/\\\\]
+(-?)([\\+| ]?)([^\\.1-9])?([1-9][0-9]*)?(\\.[1-9][0-9]*)?$
+[\\s\\t]$_[\\s\\t]
+Nintendo (Wii);
+this is a string\\.
+\\w+(\\|\\w+){3}
+^su (?:p[\u00e1a]gina|portada)$
+\"homepage_uri\":\\s*\"([^\"]*)\"
+Set-Cookie.*
+\\s+\\+\\s+
+no longer available in memory
+name=\"_csrf\" value=\"([^\"]+)\"
+(.*)\\tdevice$
+([^\\$\\w\\d])WWWwWWw([^\\w\\d])
+${issuerDBCASPath}${cas_validate}
+\\AxMin
+^AUTH CRAM-MD5
+[\\<\\>\"']
+\"{{ color-3 }}\"
+^there is a page route for viewing a product$
+Failed to close
+\"_:(\\w+)\"
+^ *([^ ]*) +(.*) *$
+# sourceMappingURL=data:
+marker\\.bindPopup\\('Farewell!'\\)
+firefox|iceweasel|fxios
+\\.\\/src|package\\.json|^(ts\\-node|glob)$
+\\/src\\/mappers\\/html-comparison$
+\\bmax(imum)?\\b
+(?x)^\\s*\n          ((?:\\b(public|private|protected|static|final|native|synchronized|abstract|export)\\b\\s*)*) # modifier\n          (class|interface)\\s+\n          (\\w+)\\s* # identifier\n          (?:\\(\\s*([^\\)]+)\\s*\\)|)\\s* # Template type\n          (?:\n            \\s*(:)\\s*\n            (\\w+)\n            (?:\\s*,\\s*(\\w+))?\n            (?:\\s*,\\s*(\\w+))?\n            (?:\\s*,\\s*(\\w+))?\n            (?:\\s*,\\s*(\\w+))?\n            (?:\\s*,\\s*(\\w+))?\n            (?:\\s*,\\s*(\\w+))?\n          )? # super class\n          
+nos|se
+(?:pr|pull request)
+(.+): (Done|Exited)
+|#.*
+(.*)Changes to be committed(.*)
+^BSS\\s
+[^\\\\{$\"]+
+^\\.?(legacy-)?rustfmt.toml$
+\\/html\\/dom\\/reflection-original.html$
+round
+post=([\\d]{1,})
+charset=[^=]+$
+^(?:FunctionDeclaration|FunctionExpression|ArrowFunctionExpression)$
+(?:^|\\r?\\n) *(@[^\\r\\n]*?) *\\r?\\n *(?![^@\\r\\n]*\\/\\/[^]*)([^@\\r\\n\\s][^@\\r\\n]+?) *\\r?\\n
+^dist\\/locale
+\\%$tag
+[^ \\n\\r]
+^[ \\t]*\\*[ ]?
+height=\"\\S+\"
+(?P<from>.*)?(?P<email>\\<.*\\>)
+[!%^&*\\-=+:,.|\\\\~<>\\?]+|\\/|\\/=
+\\Adir\\+bosh://(.+)\\z
+^homura-
+(?i)\\bpreg_(split|quote|filter|last_error|replace(_callback)?|grep|match(_all)?)\\b
+[\\/@\\s\\+%:]
+\\\\{2,}
+cmap_(.*)\\.png
+<(?:\\s*?)br(?:\\s*?)(/?)(?:\\s*?)>
+^-?wait$
+\\_.*
+\\.$port\\s+.+LISTEN$
+^finished (\\S+):(\\S+) (\\S+)
+^@_@$
+custom_cookie_name=.+;
+^$store
+^of\\s
+(\\.[a-z0-9_]+)+$
+Door
+^you jelly, bro?
+Authorization scheme is not OAuth
+([^&=]+)=([^&]*)
+^(?:\\s+|#.*)+
+cpu family\\s+:\\s(.+)
+_buf\\+\\=\\'\\'\\;
+no manifest found
+(?m)^const defaultBeatVersion = \"(.+)\"\\r?$
+instantsearch-theme-algolia\\.scss
+Value flag '(.+)' already given
+ethernetSettings
+^supervise\\/(.*)$
+^include(?=[ \"'(;])
+^[!=]=
+\\x5cx[0-9a-fA-F]{2}
+^I run rake (.*)$
+^($langdef->{examples}):$
+\\.ps1\\s*$
+trace must be an Array
+##EOF##
+options\\[:(\\w+)\\]
+^v0\\.10
+name must be specified as the first argument
+(.*)(<input .*\\/>)(.*)
+([a-f0-9]{32})
+PseudoClass
+([ #;?%&,.+*~\\':\"!^$[\\]()=>|\\/\\\\@])
+\\.[\\w\\-]+
+\\A(block (\\([^)]+\\) )?in )?
+\\+'';\\s*
+^(\\d+)noon$
+Such feature is not registered
+(?:Creation Date|Created On|created|Registered on)\\.*:\\s*([ \\ta-z0-9\\/\\-:\\.]+)
+ \\A\n\t    ( $rel_re ) \\D*\t\t\t\t# Relative day\n\t    (?: ( \\d{2} ) \\D*\t\t\t\t# Hour\n\t\t(?: ( \\d{2} ) \\D*\t\t\t# Minute\n\t\t    (?: ( \\d{2} ) \\D* )?\t\t# Second\n\t\t)?\n\t    )? \\z 
+L_([a-zA-Z]+)([0-9]{0,2})
+^[^\\0-\\x1F\"\\\\]
+\\s+pack\\s*\\(([^\\)]*)\\)
+[\\u00F5]
+<form method=\"post\" action=\"\\/device\">
+\\\\([tnrfbae])
+timeout while updating resource
+tpl.
+de|du
+^$self->{thumbnails_directory}(\\/.+\\.(jpg$|jpeg$|png$|gif$))$
+state:\\s*(.+)\\s*
+OMG! It's blank!
+ALTER TABLE .* MODIFY
+lib/app_perf_rpm
+^\\/demo\\.(css|js)$
+(['\"])NG_VERSION_FULL\\1
+^Basic ([^:]*)[:](.*)$
+\\bchd=s:AB899\\b
+^var port = (\\d+);$
+^((13[0-9])|(15[^4])|(18[0-9])|(17[0-8])|(147,145))\\d{8}$
+(\\d+\\s+[ap]m\\.\\s+)\\Q$marker\\E
+^\\s*nplurals\\s*=\\s*(\\d+)\\s*;\\s+plural\\s*=\\s*(.+)$
+<weight>4</weight>
+\\s*([:;])\\s*
+<script type=\"text/javascript\">parent.Zend_ProgressBar_Update\\((.*?)\\);</script>
+\\[(vocabulary|v):([A-Za-z0-9_\\-]*)(.*?)\\]
+^vol-[0-9a-f]{8}
+git-bug.bridge.([^\\.]+\\.[^\\.]+)
+\\bneedsclick\\b
+width=\"\\d+\"
+^(on)
+^https?\\:\\/\\/gist.github.com
+\u767e\u5ea6\u641c\u7d22.*javascript
+^[ -~\\r\\n]*$
+(^\\d+)::([a-f0-9]{32})::(.*)$
+^xs
+^(\\w[^:]+)\\s*:\\s*(.*)$
+at position( |:)([0-9]+)
+^((\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d)|(\\d\\d?)-([A-Za-z]{3})-(\\d\\d(\\d\\d)?))\\s*([\\sT](\\d\\d):(\\d\\d)(:(\\d\\d)(\\.(\\d\\d\\d))?)?Z?)?$
+(?m)\\n+
+\\A([0-9]{4})(?:[0-9]{2})\\/(?:[0-9]{2})\\Z
+[^a-zA-Z0-9_?!]
+((vendor|plugins).*)(/config/plugin.php)
+ceph_osd_perf_apply_latency_seconds{cluster=\"ceph\",osd=\"osd.0\"} 0.031
+^:import\\(.+\\)$
+(.*)/profile/(.*)
+modified:\\s+CHANGELOG
+\\,\\s{2,}
+([^ ]*)-([^-]+-[^-]+)
+##-##PACKAGE_NAME##-##
+STRONGLOOP
+\\A([0-9a-f]{40})
+cvc
+[^'\"\\/\\\\]
+^\\-*
+(^.*)!([^!]+)$
+(.mtd)*$
+UV Index:
+^(\\d\\d\\d\\d)\\D(\\d\\d?)\\D(\\d\\d?)$
+[\\xAA\\xB5\\xBA\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0370-\\u0374\\u0376\\u0377\\u037A-\\u037D\\u037F\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03F5\\u03F7-\\u0481\\u048A-\\u052F\\u0531-\\u0556\\u0559\\u0560-\\u0588\\u05D0-\\u05EA\\u05EF-\\u05F2\\u0620-\\u064A\\u066E\\u066F\\u0671-\\u06D3\\u06D5\\u06E5\\u06E6\\u06EE\\u06EF\\u06FA-\\u06FC\\u06FF\\u0710\\u0712-\\u072F\\u074D-\\u07A5\\u07B1\\u07CA-\\u07EA\\u07F4\\u07F5\\u07FA\\u0800-\\u0815\\u081A\\u0824\\u0828\\u0840-\\u0858\\u0860-\\u086A\\u08A0-\\u08B4\\u08B6-\\u08BD\\u0904-\\u0939\\u093D\\u0950\\u0958-\\u0961\\u0971-\\u0980\\u0985-\\u098C\\u098F\\u0990\\u0993-\\u09A8\\u09AA-\\u09B0\\u09B2\\u09B6-\\u09B9\\u09BD\\u09CE\\u09DC\\u09DD\\u09DF-\\u09E1\\u09F0\\u09F1\\u09FC\\u0A05-\\u0A0A\\u0A0F\\u0A10\\u0A13-\\u0A28\\u0A2A-\\u0A30\\u0A32\\u0A33\\u0A35\\u0A36\\u0A38\\u0A39\\u0A59-\\u0A5C\\u0A5E\\u0A72-\\u0A74\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABD\\u0AD0\\u0AE0\\u0AE1\\u0AF9\\u0B05-\\u0B0C\\u0B0F\\u0B10\\u0B13-\\u0B28\\u0B2A-\\u0B30\\u0B32\\u0B33\\u0B35-\\u0B39\\u0B3D\\u0B5C\\u0B5D\\u0B5F-\\u0B61\\u0B71\\u0B83\\u0B85-\\u0B8A\\u0B8E-\\u0B90\\u0B92-\\u0B95\\u0B99\\u0B9A\\u0B9C\\u0B9E\\u0B9F\\u0BA3\\u0BA4\\u0BA8-\\u0BAA\\u0BAE-\\u0BB9\\u0BD0\\u0C05-\\u0C0C\\u0C0E-\\u0C10\\u0C12-\\u0C28\\u0C2A-\\u0C39\\u0C3D\\u0C58-\\u0C5A\\u0C60\\u0C61\\u0C80\\u0C85-\\u0C8C\\u0C8E-\\u0C90\\u0C92-\\u0CA8\\u0CAA-\\u0CB3\\u0CB5-\\u0CB9\\u0CBD\\u0CDE\\u0CE0\\u0CE1\\u0CF1\\u0CF2\\u0D05-\\u0D0C\\u0D0E-\\u0D10\\u0D12-\\u0D3A\\u0D3D\\u0D4E\\u0D54-\\u0D56\\u0D5F-\\u0D61\\u0D7A-\\u0D7F\\u0D85-\\u0D96\\u0D9A-\\u0DB1\\u0DB3-\\u0DBB\\u0DBD\\u0DC0-\\u0DC6\\u0E01-\\u0E30\\u0E32\\u0E33\\u0E40-\\u0E46\\u0E81\\u0E82\\u0E84\\u0E87\\u0E88\\u0E8A\\u0E8D\\u0E94-\\u0E97\\u0E99-\\u0E9F\\u0EA1-\\u0EA3\\u0EA5\\u0EA7\\u0EAA\\u0EAB\\u0EAD-\\u0EB0\\u0EB2\\u0EB3\\u0EBD\\u0EC0-\\u0EC4\\u0EC6\\u0EDC-\\u0EDF\\u0F00\\u0F40-\\u0F47\\u0F49-\\u0F6C\\u0F88-\\u0F8C\\u1000-\\u102A\\u103F\\u1050-\\u1055\\u105A-\\u105D\\u1061\\u1065\\u1066\\u106E-\\u1070\\u1075-\\u1081\\u108E\\u10A0-\\u10C5\\u10C7\\u10CD\\u10D0-\\u10FA\\u10FC-\\u1248\\u124A-\\u124D\\u1250-\\u1256\\u1258\\u125A-\\u125D\\u1260-\\u1288\\u128A-\\u128D\\u1290-\\u12B0\\u12B2-\\u12B5\\u12B8-\\u12BE\\u12C0\\u12C2-\\u12C5\\u12C8-\\u12D6\\u12D8-\\u1310\\u1312-\\u1315\\u1318-\\u135A\\u1380-\\u138F\\u13A0-\\u13F5\\u13F8-\\u13FD\\u1401-\\u166C\\u166F-\\u167F\\u1681-\\u169A\\u16A0-\\u16EA\\u16EE-\\u16F8\\u1700-\\u170C\\u170E-\\u1711\\u1720-\\u1731\\u1740-\\u1751\\u1760-\\u176C\\u176E-\\u1770\\u1780-\\u17B3\\u17D7\\u17DC\\u1820-\\u1878\\u1880-\\u18A8\\u18AA\\u18B0-\\u18F5\\u1900-\\u191E\\u1950-\\u196D\\u1970-\\u1974\\u1980-\\u19AB\\u19B0-\\u19C9\\u1A00-\\u1A16\\u1A20-\\u1A54\\u1AA7\\u1B05-\\u1B33\\u1B45-\\u1B4B\\u1B83-\\u1BA0\\u1BAE\\u1BAF\\u1BBA-\\u1BE5\\u1C00-\\u1C23\\u1C4D-\\u1C4F\\u1C5A-\\u1C7D\\u1C80-\\u1C88\\u1C90-\\u1CBA\\u1CBD-\\u1CBF\\u1CE9-\\u1CEC\\u1CEE-\\u1CF1\\u1CF5\\u1CF6\\u1D00-\\u1DBF\\u1E00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD0-\\u1FD3\\u1FD6-\\u1FDB\\u1FE0-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2071\\u207F\\u2090-\\u209C\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2118-\\u211D\\u2124\\u2126\\u2128\\u212A-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E\\u2160-\\u2188\\u2C00-\\u2C2E\\u2C30-\\u2C5E\\u2C60-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2\\u2CF3\\u2D00-\\u2D25\\u2D27\\u2D2D\\u2D30-\\u2D67\\u2D6F\\u2D80-\\u2D96\\u2DA0-\\u2DA6\\u2DA8-\\u2DAE\\u2DB0-\\u2DB6\\u2DB8-\\u2DBE\\u2DC0-\\u2DC6\\u2DC8-\\u2DCE\\u2DD0-\\u2DD6\\u2DD8-\\u2DDE\\u3005-\\u3007\\u3021-\\u3029\\u3031-\\u3035\\u3038-\\u303C\\u3041-\\u3096\\u309B-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3105-\\u312F\\u3131-\\u318E\\u31A0-\\u31BA\\u31F0-\\u31FF\\u3400-\\u4DB5\\u4E00-\\u9FEF\\uA000-\\uA48C\\uA4D0-\\uA4FD\\uA500-\\uA60C\\uA610-\\uA61F\\uA62A\\uA62B\\uA640-\\uA66E\\uA67F-\\uA69D\\uA6A0-\\uA6EF\\uA717-\\uA71F\\uA722-\\uA788\\uA78B-\\uA7B9\\uA7F7-\\uA801\\uA803-\\uA805\\uA807-\\uA80A\\uA80C-\\uA822\\uA840-\\uA873\\uA882-\\uA8B3\\uA8F2-\\uA8F7\\uA8FB\\uA8FD\\uA8FE\\uA90A-\\uA925\\uA930-\\uA946\\uA960-\\uA97C\\uA984-\\uA9B2\\uA9CF\\uA9E0-\\uA9E4\\uA9E6-\\uA9EF\\uA9FA-\\uA9FE\\uAA00-\\uAA28\\uAA40-\\uAA42\\uAA44-\\uAA4B\\uAA60-\\uAA76\\uAA7A\\uAA7E-\\uAAAF\\uAAB1\\uAAB5\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2\\uAADB-\\uAADD\\uAAE0-\\uAAEA\\uAAF2-\\uAAF4\\uAB01-\\uAB06\\uAB09-\\uAB0E\\uAB11-\\uAB16\\uAB20-\\uAB26\\uAB28-\\uAB2E\\uAB30-\\uAB5A\\uAB5C-\\uAB65\\uAB70-\\uABE2\\uAC00-\\uD7A3\\uD7B0-\\uD7C6\\uD7CB-\\uD7FB\\uF900-\\uFA6D\\uFA70-\\uFAD9\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFBB1\\uFBD3-\\uFD3D\\uFD50-\\uFD8F\\uFD92-\\uFDC7\\uFDF0-\\uFDFB\\uFE70-\\uFE74\\uFE76-\\uFEFC\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC]|\\uD800[\\uDC00-\\uDC0B\\uDC0D-\\uDC26\\uDC28-\\uDC3A\\uDC3C\\uDC3D\\uDC3F-\\uDC4D\\uDC50-\\uDC5D\\uDC80-\\uDCFA\\uDD40-\\uDD74\\uDE80-\\uDE9C\\uDEA0-\\uDED0\\uDF00-\\uDF1F\\uDF2D-\\uDF4A\\uDF50-\\uDF75\\uDF80-\\uDF9D\\uDFA0-\\uDFC3\\uDFC8-\\uDFCF\\uDFD1-\\uDFD5]|\\uD801[\\uDC00-\\uDC9D\\uDCB0-\\uDCD3\\uDCD8-\\uDCFB\\uDD00-\\uDD27\\uDD30-\\uDD63\\uDE00-\\uDF36\\uDF40-\\uDF55\\uDF60-\\uDF67]|\\uD802[\\uDC00-\\uDC05\\uDC08\\uDC0A-\\uDC35\\uDC37\\uDC38\\uDC3C\\uDC3F-\\uDC55\\uDC60-\\uDC76\\uDC80-\\uDC9E\\uDCE0-\\uDCF2\\uDCF4\\uDCF5\\uDD00-\\uDD15\\uDD20-\\uDD39\\uDD80-\\uDDB7\\uDDBE\\uDDBF\\uDE00\\uDE10-\\uDE13\\uDE15-\\uDE17\\uDE19-\\uDE35\\uDE60-\\uDE7C\\uDE80-\\uDE9C\\uDEC0-\\uDEC7\\uDEC9-\\uDEE4\\uDF00-\\uDF35\\uDF40-\\uDF55\\uDF60-\\uDF72\\uDF80-\\uDF91]|\\uD803[\\uDC00-\\uDC48\\uDC80-\\uDCB2\\uDCC0-\\uDCF2\\uDD00-\\uDD23\\uDF00-\\uDF1C\\uDF27\\uDF30-\\uDF45]|\\uD804[\\uDC03-\\uDC37\\uDC83-\\uDCAF\\uDCD0-\\uDCE8\\uDD03-\\uDD26\\uDD44\\uDD50-\\uDD72\\uDD76\\uDD83-\\uDDB2\\uDDC1-\\uDDC4\\uDDDA\\uDDDC\\uDE00-\\uDE11\\uDE13-\\uDE2B\\uDE80-\\uDE86\\uDE88\\uDE8A-\\uDE8D\\uDE8F-\\uDE9D\\uDE9F-\\uDEA8\\uDEB0-\\uDEDE\\uDF05-\\uDF0C\\uDF0F\\uDF10\\uDF13-\\uDF28\\uDF2A-\\uDF30\\uDF32\\uDF33\\uDF35-\\uDF39\\uDF3D\\uDF50\\uDF5D-\\uDF61]|\\uD805[\\uDC00-\\uDC34\\uDC47-\\uDC4A\\uDC80-\\uDCAF\\uDCC4\\uDCC5\\uDCC7\\uDD80-\\uDDAE\\uDDD8-\\uDDDB\\uDE00-\\uDE2F\\uDE44\\uDE80-\\uDEAA\\uDF00-\\uDF1A]|\\uD806[\\uDC00-\\uDC2B\\uDCA0-\\uDCDF\\uDCFF\\uDE00\\uDE0B-\\uDE32\\uDE3A\\uDE50\\uDE5C-\\uDE83\\uDE86-\\uDE89\\uDE9D\\uDEC0-\\uDEF8]|\\uD807[\\uDC00-\\uDC08\\uDC0A-\\uDC2E\\uDC40\\uDC72-\\uDC8F\\uDD00-\\uDD06\\uDD08\\uDD09\\uDD0B-\\uDD30\\uDD46\\uDD60-\\uDD65\\uDD67\\uDD68\\uDD6A-\\uDD89\\uDD98\\uDEE0-\\uDEF2]|\\uD808[\\uDC00-\\uDF99]|\\uD809[\\uDC00-\\uDC6E\\uDC80-\\uDD43]|[\\uD80C\\uD81C-\\uD820\\uD840-\\uD868\\uD86A-\\uD86C\\uD86F-\\uD872\\uD874-\\uD879][\\uDC00-\\uDFFF]|\\uD80D[\\uDC00-\\uDC2E]|\\uD811[\\uDC00-\\uDE46]|\\uD81A[\\uDC00-\\uDE38\\uDE40-\\uDE5E\\uDED0-\\uDEED\\uDF00-\\uDF2F\\uDF40-\\uDF43\\uDF63-\\uDF77\\uDF7D-\\uDF8F]|\\uD81B[\\uDE40-\\uDE7F\\uDF00-\\uDF44\\uDF50\\uDF93-\\uDF9F\\uDFE0\\uDFE1]|\\uD821[\\uDC00-\\uDFF1]|\\uD822[\\uDC00-\\uDEF2]|\\uD82C[\\uDC00-\\uDD1E\\uDD70-\\uDEFB]|\\uD82F[\\uDC00-\\uDC6A\\uDC70-\\uDC7C\\uDC80-\\uDC88\\uDC90-\\uDC99]|\\uD835[\\uDC00-\\uDC54\\uDC56-\\uDC9C\\uDC9E\\uDC9F\\uDCA2\\uDCA5\\uDCA6\\uDCA9-\\uDCAC\\uDCAE-\\uDCB9\\uDCBB\\uDCBD-\\uDCC3\\uDCC5-\\uDD05\\uDD07-\\uDD0A\\uDD0D-\\uDD14\\uDD16-\\uDD1C\\uDD1E-\\uDD39\\uDD3B-\\uDD3E\\uDD40-\\uDD44\\uDD46\\uDD4A-\\uDD50\\uDD52-\\uDEA5\\uDEA8-\\uDEC0\\uDEC2-\\uDEDA\\uDEDC-\\uDEFA\\uDEFC-\\uDF14\\uDF16-\\uDF34\\uDF36-\\uDF4E\\uDF50-\\uDF6E\\uDF70-\\uDF88\\uDF8A-\\uDFA8\\uDFAA-\\uDFC2\\uDFC4-\\uDFCB]|\\uD83A[\\uDC00-\\uDCC4\\uDD00-\\uDD43]|\\uD83B[\\uDE00-\\uDE03\\uDE05-\\uDE1F\\uDE21\\uDE22\\uDE24\\uDE27\\uDE29-\\uDE32\\uDE34-\\uDE37\\uDE39\\uDE3B\\uDE42\\uDE47\\uDE49\\uDE4B\\uDE4D-\\uDE4F\\uDE51\\uDE52\\uDE54\\uDE57\\uDE59\\uDE5B\\uDE5D\\uDE5F\\uDE61\\uDE62\\uDE64\\uDE67-\\uDE6A\\uDE6C-\\uDE72\\uDE74-\\uDE77\\uDE79-\\uDE7C\\uDE7E\\uDE80-\\uDE89\\uDE8B-\\uDE9B\\uDEA1-\\uDEA3\\uDEA5-\\uDEA9\\uDEAB-\\uDEBB]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D\\uDC20-\\uDFFF]|\\uD873[\\uDC00-\\uDEA1\\uDEB0-\\uDFFF]|\\uD87A[\\uDC00-\\uDFE0]|\\uD87E[\\uDC00-\\uDE1D]
+\\A(\\d{4})[-/](\\d{1,2})[-/](\\d{1,2})T([0-2]\\d):([0-5]\\d):([0-5]\\d)\\z
+([0-9]+)x([0-9]+)
+\\/Date\\((-?\\d+)([-\\+]?\\d{2})?(\\d{2})?\\)\\/
+deeply-nested
+[\\u0459]
+^&#x(\\h+);$
+([\\^~])
+Mondo Shop
+<switch> element is not supported
+(\\(default.*\\))\\s*$
+\\G\n\t\t/\n\t\t( (?:[^/*\\\\[] | \\\\. | \\[ (?>(?:[^]\\\\] | \\\\.)*) \\] )\n\t\t  (?>(?:[^/\\\\[] | \\\\. | \\[ (?>(?:[^]\\\\] | \\\\.)*) \\] )*) )\n\t\t/\n\t  \t($id_cont*)\n\t      
+^(?!http)
+II$
+false|true|null
+\\battach(ment|ed|ing|)\\b
+^(10|11|12|0?[1-9]):[0-5][0-9](am|pm)$
+^STARTTLS\\s*$
+\\A([\\t\\s]*)
+auto-delivered\\s+wirelessly
+([^aeiouy]|qu)ies$
+(<[a-zA-Z][a-zA-Z0-9_-]*)(\\s+.*?>)
+^(sym\\_semi)$
+\\[%(.+?)%\\]
+(\\d{1,3})%?\\s(\\d{1,3})%?,\\s(\\d{1,3})%?\\s(\\d{1,3})%?
+^($PL_v_irregular_pres)((\\s.*)?)$
+\u00e1\u00bf\u0099
+get|post|put|patch|delete
+^I create a SimpleDB domain$
+(Reads|Writes|>1wk|1day-1wk|1hr-1day|10min-1hr|1-10min|0-60sec)
+fakeurl\\.com$
+^invalid options: -p .with files.
+^(\\d+)(s|m|h|d)$
+$caller_dir\\/
+^/\\* XPM \\*/
+^bottom
+CREATE SEQUENCE \\\"
+^([0-9]{4})_([0-9]{2})$
+^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$
+<AREA ([^>]*?[^\\/])>
+\\\\?(.*?)\\<(.*?)\\>
+^supportmbgp$
+Unknown user
+widget_with_widget_default_layout
+%\\((?P<name>[^\\)]+)\\)s
+shouldn't have been asked if changed\\? 0 times, but was
+sss
+^SET (?:last_insert_id|insert_id|timestamp)
+q=(\\d\\.\\d+|\\d+)
+\\d+\\s\\w+\\s\\w+
+([0-9a-f]{8})
+^wp-cli/.+-command$
+reboot
+([a-z_0-9]+)
+^I should see a file upload button$
+^[^ \\f\\n\\r\\t\\v\\da-zA-Z]+$
+([A-Z]+[a-z0-9]+)
+\"amount\":1.0
+^(......)(..).*
+^(?:\\d{3,4}\\-)?8?\\d{7}$
+^I press button of translated l10n?key \"?([^\\\"]*)\"?$
+!=|==
+\\$\\$__hostname__\\$\\$
+^CopyPlistFile\\s(.*\\.plist)\\s(.*\\.plist)
+\\.mp\\Z
+\\/*# sourceMappingURL=
+\\A([_a-zA-z0-9]+)\\s*=\\s*(\"([^\"]*)\"|'([^']*)')\\s*(.*)\\z
+^\\s*(?:DASSERT|DREQUIRE|DENSURE|VERIFY)\\b
+^[ ]*(?x)\n    (</(?i:FilesMatch|Files|DirectoryMatch|Directory|LocationMatch|Location|VirtualHost|IfModule|IfDefine|Perl)>\n    )
+missing userId
+^[\\w_\\-]+\\.so\\.[0-9]+\\.*.[0-9]*$
+bad access data
+http://wimpmusic.se/artist/\\d+
+^\\/([^/]*)\\/
+^extensions\\.conf$
+R (\\S+)\\s+([=<>!]+)\\s*(\\S+)
+^\\s*x\\s+(\\d+)\\s+(\\d+)
+^ENTRY       .+ Reaction\\s*
+(.*?)HWaddr(.*)
+(.*)@.*$
+(http://fb\\.me(/[\\w/]+))
+^utf[\\-_]?(\\d{1,2})?(\\w{1,2})$
+[^a-z0-9\u00e4\u00e2\u00e0\u00e9\u00e8\u00eb\u00ea\u00ef\u00ee\u00f6\u00f4\u00f9\u00fc\u00fb\u0153\u00e7]+
+coreplayer
+[^->]*>[^(]*
+^\\s*(inode|committime|position):\\s*(\\d+)
+$advice_segment_terminator
+(?<!')(:[\\w]*)(?!')
+([a-zA-Z_?$][\\w?$]*)\\s*(=)\\s*(function)\\s*(\\()(.*?)(\\))
+^\\s*database\\s
+Unknown resource wtfs for v1
+^$Config{man3dir}/(.+)$
+requires.*?=>.*?\\{(.*?)\\}
+Circular reference
+^inc
+(.*)_[0-9]+$
+^cookbooks\\/([^\\/]*)
+[#'<>^|&();` ]
+/multi_rnn_cell/
+^all: destination$
+\\[(\\+|\\*|\\(|%)([^:\\+\\[\\]]+)([^\\[\\]]*?)(\\1|\\)|%)\\]
+^$cfg->{markroot}$
+([\"|{}])
+\\s\\.(?P<nums>[0-9]+)
+^\"\"\"
+\\s*gem 'sdoc', require: false\\nend
+^one abc \\d+$
+\"url\": \"http:\\/\\/testurl.com\\/tag\\/tagtitle\\/\"
+^(?<prefix>[+-]?)(?<numeric_part>\\d{2,})(?<suffix>)$
+\\$([a-z_][a-z0-9_]*)(.*)$
+[A-Za-z\\xAA\\xB5\\xBA\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0370-\\u0374\\u0376\\u0377\\u037A-\\u037D\\u037F\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03F5\\u03F7-\\u0481\\u048A-\\u052F\\u0531-\\u0556\\u0559\\u0561-\\u0587\\u05D0-\\u05EA\\u05F0-\\u05F2\\u0620-\\u064A\\u066E\\u066F\\u0671-\\u06D3\\u06D5\\u06E5\\u06E6\\u06EE\\u06EF\\u06FA-\\u06FC\\u06FF\\u0710\\u0712-\\u072F\\u074D-\\u07A5\\u07B1\\u07CA-\\u07EA\\u07F4\\u07F5\\u07FA\\u0800-\\u0815\\u081A\\u0824\\u0828\\u0840-\\u0858\\u08A0-\\u08B2\\u0904-\\u0939\\u093D\\u0950\\u0958-\\u0961\\u0971-\\u0980\\u0985-\\u098C\\u098F\\u0990\\u0993-\\u09A8\\u09AA-\\u09B0\\u09B2\\u09B6-\\u09B9\\u09BD\\u09CE\\u09DC\\u09DD\\u09DF-\\u09E1\\u09F0\\u09F1\\u0A05-\\u0A0A\\u0A0F\\u0A10\\u0A13-\\u0A28\\u0A2A-\\u0A30\\u0A32\\u0A33\\u0A35\\u0A36\\u0A38\\u0A39\\u0A59-\\u0A5C\\u0A5E\\u0A72-\\u0A74\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABD\\u0AD0\\u0AE0\\u0AE1\\u0B05-\\u0B0C\\u0B0F\\u0B10\\u0B13-\\u0B28\\u0B2A-\\u0B30\\u0B32\\u0B33\\u0B35-\\u0B39\\u0B3D\\u0B5C\\u0B5D\\u0B5F-\\u0B61\\u0B71\\u0B83\\u0B85-\\u0B8A\\u0B8E-\\u0B90\\u0B92-\\u0B95\\u0B99\\u0B9A\\u0B9C\\u0B9E\\u0B9F\\u0BA3\\u0BA4\\u0BA8-\\u0BAA\\u0BAE-\\u0BB9\\u0BD0\\u0C05-\\u0C0C\\u0C0E-\\u0C10\\u0C12-\\u0C28\\u0C2A-\\u0C39\\u0C3D\\u0C58\\u0C59\\u0C60\\u0C61\\u0C85-\\u0C8C\\u0C8E-\\u0C90\\u0C92-\\u0CA8\\u0CAA-\\u0CB3\\u0CB5-\\u0CB9\\u0CBD\\u0CDE\\u0CE0\\u0CE1\\u0CF1\\u0CF2\\u0D05-\\u0D0C\\u0D0E-\\u0D10\\u0D12-\\u0D3A\\u0D3D\\u0D4E\\u0D60\\u0D61\\u0D7A-\\u0D7F\\u0D85-\\u0D96\\u0D9A-\\u0DB1\\u0DB3-\\u0DBB\\u0DBD\\u0DC0-\\u0DC6\\u0E01-\\u0E30\\u0E32\\u0E33\\u0E40-\\u0E46\\u0E81\\u0E82\\u0E84\\u0E87\\u0E88\\u0E8A\\u0E8D\\u0E94-\\u0E97\\u0E99-\\u0E9F\\u0EA1-\\u0EA3\\u0EA5\\u0EA7\\u0EAA\\u0EAB\\u0EAD-\\u0EB0\\u0EB2\\u0EB3\\u0EBD\\u0EC0-\\u0EC4\\u0EC6\\u0EDC-\\u0EDF\\u0F00\\u0F40-\\u0F47\\u0F49-\\u0F6C\\u0F88-\\u0F8C\\u1000-\\u102A\\u103F\\u1050-\\u1055\\u105A-\\u105D\\u1061\\u1065\\u1066\\u106E-\\u1070\\u1075-\\u1081\\u108E\\u10A0-\\u10C5\\u10C7\\u10CD\\u10D0-\\u10FA\\u10FC-\\u1248\\u124A-\\u124D\\u1250-\\u1256\\u1258\\u125A-\\u125D\\u1260-\\u1288\\u128A-\\u128D\\u1290-\\u12B0\\u12B2-\\u12B5\\u12B8-\\u12BE\\u12C0\\u12C2-\\u12C5\\u12C8-\\u12D6\\u12D8-\\u1310\\u1312-\\u1315\\u1318-\\u135A\\u1380-\\u138F\\u13A0-\\u13F4\\u1401-\\u166C\\u166F-\\u167F\\u1681-\\u169A\\u16A0-\\u16EA\\u16F1-\\u16F8\\u1700-\\u170C\\u170E-\\u1711\\u1720-\\u1731\\u1740-\\u1751\\u1760-\\u176C\\u176E-\\u1770\\u1780-\\u17B3\\u17D7\\u17DC\\u1820-\\u1877\\u1880-\\u18A8\\u18AA\\u18B0-\\u18F5\\u1900-\\u191E\\u1950-\\u196D\\u1970-\\u1974\\u1980-\\u19AB\\u19C1-\\u19C7\\u1A00-\\u1A16\\u1A20-\\u1A54\\u1AA7\\u1B05-\\u1B33\\u1B45-\\u1B4B\\u1B83-\\u1BA0\\u1BAE\\u1BAF\\u1BBA-\\u1BE5\\u1C00-\\u1C23\\u1C4D-\\u1C4F\\u1C5A-\\u1C7D\\u1CE9-\\u1CEC\\u1CEE-\\u1CF1\\u1CF5\\u1CF6\\u1D00-\\u1DBF\\u1E00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD0-\\u1FD3\\u1FD6-\\u1FDB\\u1FE0-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2071\\u207F\\u2090-\\u209C\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2119-\\u211D\\u2124\\u2126\\u2128\\u212A-\\u212D\\u212F-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E\\u2183\\u2184\\u2C00-\\u2C2E\\u2C30-\\u2C5E\\u2C60-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2\\u2CF3\\u2D00-\\u2D25\\u2D27\\u2D2D\\u2D30-\\u2D67\\u2D6F\\u2D80-\\u2D96\\u2DA0-\\u2DA6\\u2DA8-\\u2DAE\\u2DB0-\\u2DB6\\u2DB8-\\u2DBE\\u2DC0-\\u2DC6\\u2DC8-\\u2DCE\\u2DD0-\\u2DD6\\u2DD8-\\u2DDE\\u2E2F\\u3005\\u3006\\u3031-\\u3035\\u303B\\u303C\\u3041-\\u3096\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3105-\\u312D\\u3131-\\u318E\\u31A0-\\u31BA\\u31F0-\\u31FF\\u3400-\\u4DB5\\u4E00-\\u9FCC\\uA000-\\uA48C\\uA4D0-\\uA4FD\\uA500-\\uA60C\\uA610-\\uA61F\\uA62A\\uA62B\\uA640-\\uA66E\\uA67F-\\uA69D\\uA6A0-\\uA6E5\\uA717-\\uA71F\\uA722-\\uA788\\uA78B-\\uA78E\\uA790-\\uA7AD\\uA7B0\\uA7B1\\uA7F7-\\uA801\\uA803-\\uA805\\uA807-\\uA80A\\uA80C-\\uA822\\uA840-\\uA873\\uA882-\\uA8B3\\uA8F2-\\uA8F7\\uA8FB\\uA90A-\\uA925\\uA930-\\uA946\\uA960-\\uA97C\\uA984-\\uA9B2\\uA9CF\\uA9E0-\\uA9E4\\uA9E6-\\uA9EF\\uA9FA-\\uA9FE\\uAA00-\\uAA28\\uAA40-\\uAA42\\uAA44-\\uAA4B\\uAA60-\\uAA76\\uAA7A\\uAA7E-\\uAAAF\\uAAB1\\uAAB5\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2\\uAADB-\\uAADD\\uAAE0-\\uAAEA\\uAAF2-\\uAAF4\\uAB01-\\uAB06\\uAB09-\\uAB0E\\uAB11-\\uAB16\\uAB20-\\uAB26\\uAB28-\\uAB2E\\uAB30-\\uAB5A\\uAB5C-\\uAB5F\\uAB64\\uAB65\\uABC0-\\uABE2\\uAC00-\\uD7A3\\uD7B0-\\uD7C6\\uD7CB-\\uD7FB\\uF900-\\uFA6D\\uFA70-\\uFAD9\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFBB1\\uFBD3-\\uFD3D\\uFD50-\\uFD8F\\uFD92-\\uFDC7\\uFDF0-\\uFDFB\\uFE70-\\uFE74\\uFE76-\\uFEFC\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC]|\\uD800[\\uDC00-\\uDC0B\\uDC0D-\\uDC26\\uDC28-\\uDC3A\\uDC3C\\uDC3D\\uDC3F-\\uDC4D\\uDC50-\\uDC5D\\uDC80-\\uDCFA\\uDE80-\\uDE9C\\uDEA0-\\uDED0\\uDF00-\\uDF1F\\uDF30-\\uDF40\\uDF42-\\uDF49\\uDF50-\\uDF75\\uDF80-\\uDF9D\\uDFA0-\\uDFC3\\uDFC8-\\uDFCF]|\\uD801[\\uDC00-\\uDC9D\\uDD00-\\uDD27\\uDD30-\\uDD63\\uDE00-\\uDF36\\uDF40-\\uDF55\\uDF60-\\uDF67]|\\uD802[\\uDC00-\\uDC05\\uDC08\\uDC0A-\\uDC35\\uDC37\\uDC38\\uDC3C\\uDC3F-\\uDC55\\uDC60-\\uDC76\\uDC80-\\uDC9E\\uDD00-\\uDD15\\uDD20-\\uDD39\\uDD80-\\uDDB7\\uDDBE\\uDDBF\\uDE00\\uDE10-\\uDE13\\uDE15-\\uDE17\\uDE19-\\uDE33\\uDE60-\\uDE7C\\uDE80-\\uDE9C\\uDEC0-\\uDEC7\\uDEC9-\\uDEE4\\uDF00-\\uDF35\\uDF40-\\uDF55\\uDF60-\\uDF72\\uDF80-\\uDF91]|\\uD803[\\uDC00-\\uDC48]|\\uD804[\\uDC03-\\uDC37\\uDC83-\\uDCAF\\uDCD0-\\uDCE8\\uDD03-\\uDD26\\uDD50-\\uDD72\\uDD76\\uDD83-\\uDDB2\\uDDC1-\\uDDC4\\uDDDA\\uDE00-\\uDE11\\uDE13-\\uDE2B\\uDEB0-\\uDEDE\\uDF05-\\uDF0C\\uDF0F\\uDF10\\uDF13-\\uDF28\\uDF2A-\\uDF30\\uDF32\\uDF33\\uDF35-\\uDF39\\uDF3D\\uDF5D-\\uDF61]|\\uD805[\\uDC80-\\uDCAF\\uDCC4\\uDCC5\\uDCC7\\uDD80-\\uDDAE\\uDE00-\\uDE2F\\uDE44\\uDE80-\\uDEAA]|\\uD806[\\uDCA0-\\uDCDF\\uDCFF\\uDEC0-\\uDEF8]|\\uD808[\\uDC00-\\uDF98]|[\\uD80C\\uD840-\\uD868\\uD86A-\\uD86C][\\uDC00-\\uDFFF]|\\uD80D[\\uDC00-\\uDC2E]|\\uD81A[\\uDC00-\\uDE38\\uDE40-\\uDE5E\\uDED0-\\uDEED\\uDF00-\\uDF2F\\uDF40-\\uDF43\\uDF63-\\uDF77\\uDF7D-\\uDF8F]|\\uD81B[\\uDF00-\\uDF44\\uDF50\\uDF93-\\uDF9F]|\\uD82C[\\uDC00\\uDC01]|\\uD82F[\\uDC00-\\uDC6A\\uDC70-\\uDC7C\\uDC80-\\uDC88\\uDC90-\\uDC99]|\\uD835[\\uDC00-\\uDC54\\uDC56-\\uDC9C\\uDC9E\\uDC9F\\uDCA2\\uDCA5\\uDCA6\\uDCA9-\\uDCAC\\uDCAE-\\uDCB9\\uDCBB\\uDCBD-\\uDCC3\\uDCC5-\\uDD05\\uDD07-\\uDD0A\\uDD0D-\\uDD14\\uDD16-\\uDD1C\\uDD1E-\\uDD39\\uDD3B-\\uDD3E\\uDD40-\\uDD44\\uDD46\\uDD4A-\\uDD50\\uDD52-\\uDEA5\\uDEA8-\\uDEC0\\uDEC2-\\uDEDA\\uDEDC-\\uDEFA\\uDEFC-\\uDF14\\uDF16-\\uDF34\\uDF36-\\uDF4E\\uDF50-\\uDF6E\\uDF70-\\uDF88\\uDF8A-\\uDFA8\\uDFAA-\\uDFC2\\uDFC4-\\uDFCB]|\\uD83A[\\uDC00-\\uDCC4]|\\uD83B[\\uDE00-\\uDE03\\uDE05-\\uDE1F\\uDE21\\uDE22\\uDE24\\uDE27\\uDE29-\\uDE32\\uDE34-\\uDE37\\uDE39\\uDE3B\\uDE42\\uDE47\\uDE49\\uDE4B\\uDE4D-\\uDE4F\\uDE51\\uDE52\\uDE54\\uDE57\\uDE59\\uDE5B\\uDE5D\\uDE5F\\uDE61\\uDE62\\uDE64\\uDE67-\\uDE6A\\uDE6C-\\uDE72\\uDE74-\\uDE77\\uDE79-\\uDE7C\\uDE7E\\uDE80-\\uDE89\\uDE8B-\\uDE9B\\uDEA1-\\uDEA3\\uDEA5-\\uDEA9\\uDEAB-\\uDEBB]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D]|\\uD87E[\\uDC00-\\uDE1D]
+Bacon
+http(s?)
+^SyntaxError: At least two arguments are needed - the key and the Scrypt paramaters object$
+\\[font\\s*=\\s*([^\\]]+)\\](.*?)\\[/font\\]
+\\A\\n\n       File\\ does\\ not\\ exist:\\ 
+master|wif|privateKey
+^0(\\w+)\\.
+c=\"&amp;C&amp;\"
+^(ancestor|ancestor-or-self|attribute|child|descendant|descendant-or-self|\n\t\t\t\tfollowing|following-sibling|namespace|parent|preceding|preceding-sibling|self)$
+blockType=config
+$PRIVATE_FIELD_IDENTIFIER
+\\A(?:tag:yaml\\.org,2002:|!!?)str\\z
+^<(\\w+)\\s*.*?>(.+)</\\s*\\1>$
+Inside
+# Too many connections[.]
+\\/sharedWorkspace\\/tree\\/file
+the config admin page
+\\/saveColumn
+^[0-9A-Z]{1}
+(?m)^__version__\\s*=\\s*['\\\"](.+)['\\\"]$
+Iteration 5
+^[.,;{}:^<>=\\\\/+*?#!-]
+[#!{}|]
+^([12])\\.(\\d+)$
+^ ( .{$min,$max} ) # $max to 30 chars\n                       [ \\t]            # followed by a WSP\n                    
+$self->{command_end_pattern}
+^msgctxt \"(.*)\"$
+^\\d{1,7}-?\\d{2}-?$
+(:)|(;)
+roles:
+<\\/BODY[^>]*?>
+<head.*?>(?<head>.*?)<\\/head>.*?<body.*?>(?<body>.*?)<\\/body>
+^e\\b
+^(?P<STATUS>Status[\\w\\s]*\\w)\\s*\\((?P<DAEMON>\\S+)\\s+(?P<DAEMON_VER>\\S+),.*\\):$
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:1(?:[\\s\\xa0]*Samuelin(?:[\\s\\xa0]*kirja)?|[\\s\\xa0]*?Sam)|I[\\s\\xa0]*Samuelin(?:[\\s\\xa0]*kirja)?|[1I]\\.[\\s\\xa0]*Samuelin(?:[\\s\\xa0]*kirja)?|Ensimm[a\\xE4]inen[\\s\\xa0]*Samuelin(?:[\\s\\xa0]*kirja)?))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+ 030([01])
+\\G (?= \\%[^\\s\\d] ) 
+^Couldn't look up columns for series: 
+(.+)/(.+):(\\d+)
+^[a-z_0-9\\-]+$
+hap update CarbonDioxideSensor CarbonDioxideDetected 0
+[ \\r\\n]
+^I abort the upload$
+(\\d+)X(\\d+)
+(\\d+) child
+name=\"something\"
+supplemental\\/currencyData\\/fractions\\/[A-Za-z]{3}$
+\\.(tpl(\\.css|\\.txt)?|cml|tml)$
+LogfileLinks
+ HTTP/1.1$
+\\.pm$
+^\\{,
+([^\\$\\w\\d])wWWWwW([^\\w\\d])
+^($op_match)(.+)$
+^application/
+\\{label\\}
+Publish Date:[\\s]+(\\d\\d)/(\\d\\d)/(\\d\\d)
+^https:\\/\\/(www|m).facebook.com\\/
+^\\d{3} ?\\d{2}$
+([^0])0+$
+^(.*)\\.src$
+\\/FOO\\/
+create\\s*table\\s*`(\\w[\\w\\d]*)`
+###USER_ID_PRESENT###
+index\\.covered\\.js$
+Shutting down modules...
+^(chromosome_?|chr)
+(id|style|colspan)
+\\\"\\.\\.\\/images\\/misc\\/test\\.23012\\.png
+([a-z]+)([0-9]+)([a-z]+)([0-9]+)_
+^305
+[\"\"]
+^\\/(.+\\/$|$)
+^\\s*<\\?xml[^>]+encoding=\"(.+?)\"[^>]*\\?>
+no\\s+mailbox
+__webpack_exports__
+^(light|bright)
+^0?(\\d+)[_,-]+(.*)$
+(\u52d5.[\u56db\u4e94](\uff3b[^\uff3d]+\uff3d)?)|(\u52d5..\u4e8c)
+^\\t\\t\\t<key>(?<key>\\w+(?:\\s+\\w+)*)</key><\\w+>(?<value>.+)</\\w+>$
+\n[\n ]+
+\\d*\\.(\\d+)
+^pat
+DateTime::TimeZone::OlsonDB
+\\Aspoo(o+)?f\\z
+$create
+the agents list
+^(([^:\\/?#]+):)?(\\/\\/(([^:\\/?#]*)(:(\\d+))?))?([^?#]*)(\\?([^#]*))?(#(.*))?
+Error:.*Jon Snow
+<CustomerProfileFromOrderInd>S
+marc
+^_(.*?)
+tion
+[a-z]+\\:\\/\\/
+Full scan on NULL key(;|$)
+^Units: (\\d+)/(\\d+)/(\\d+)
+\\A\\[([0-9]+)\\]\\z
+\\*\\*\\*Total:\\s+(.*)
+^[1-9a-hj-km-np-z]{8}$
+(.*)(?:->|::)
+phil.*
+url\\s*\\(
+highlight
+^@[^/]+\\/
+^\\s*([^=\\s]+)\\s*=\\s*\"?(.*?)\"?\\s*$
+^$tmp_dir\\/
+png
+^[;:,]$
+germany
+width=\"([^\"]+)*\"
+{([^}]*)}(.*)
+^[\\-\\+][0-9\\.,]{8}$
+^gcc\\s+version
+^value([A-Z]{1,2})$
+^([^|\\s]+)\\s*\\|?\\s*([^\\s]+)?$
+> ([^ ]+) ([^:]+):([0-9]+) .*[(]PC: (0x[a-z0-9]+)[)]\\n
+[, ]+
+\\s?#\\d+:\\s
+\\\\(?P<header_name>chapter|section|subsection) # Header\n                                    {(?P<header_contents>.*?)}
+entitlement\\.created
+^the output should contain one of the following:$
+\\\\ElsevierGlyph\\{2129\\}
+^[.]{1}.*
+terminal _implicit_terminal_1 is automatically generated
+(:controller|:action|:mime|:type)
+build\\/lib\\/uiauto$
+^the client puts with no path$
+'([^'\\\\]|\\\\.)*'
+(Powered by <a href=.http:\\/\\/www\\.cubecart\\.com|<p[^>]+>Powered by CubeCart)
+(\\{|(do))\\s*\\|.*\\|
+\\G(\\%ENV)
+\\bup\\b
+^the following link exists:$
+^([^\\s\\xc2\\xa0]*)([\\s\\xc2\\xa0]*)\\p{N}{3}(?:[,.]\\p{N}+)?([\\s\\xc2\\xa0]*)([^\\s\\xc2\\xa0]*)$
+STAR svn revision compiled=(.+)
+comment><comment>returns true if the last character processed was a deliminator.<
+^https?:\\/\\/((www\\.|encrypted\\.)?google(\\.com|\\.co)?\\.[a-z]{2,3}\\/(search|webhp)\\?|24e12c4a-a-95274a9c-s-sites.googlegroups.com\\/a\\/google.com\\/flash-api-test-harness\\/apiharness.swf|([A-Za-z0-9-]{1,63}\\.)*(imasdk\\.googleapis\\.com|corp\\.google\\.com|borg\\.google\\.com|docs\\.google\\.com|drive\\.google\\.com|googleplex\\.com|play\\.google\\.com|prod\\.google\\.com|sandbox\\.google\\.com|photos\\.google\\.com|picasaweb\\.google\\.com|lh2\\.google\\.com|plus\\.google\\.com|books\\.googleusercontent\\.com|mail\\.google\\.com|talkgadget\\.google\\.com|survey\\.g\\.doubleclick\\.net|youtube\\.com|youtube\\.googleapis\\.com|youtube-nocookie\\.com|youtubeeducation\\.com|vevo\\.com)(:[0-9]+)?([\\/\\?\\#]|$))
+(\\<\\%[\\+\\-\\=\\~]? $TT .* [\\+\\-\\=\\~]?\\>.*){3}
+@c=f
+^(u?int)(\\d{1,3})$
+\\A(?:pending)\\z
+(modified|\\*Unsaved)
+(\\s*[+/*%-])+$
+^\\d{6}
+^.*-0$
+config\\.domain = 'domain\\.com'
+ewski|ewsky|owski|owsky
+COS[\\/ ]?([0-9]\\.[0-9.]+)
+(?:<footer[^>]*>)(.*)<\\/footer>
+classNameBindings must not have spaces in them
+(<R>[Nn]\\x{ed}(?: ?ba|b)<\\/R> <E[^>]*><A pl=\"n\" gnt=\"y\" gnd=\"f\">[Ff]h?aide<\\/A><\\/E>)
+(aix)\\s((\\d)(?=\\.|\\)|\\s)[\\w\\.])*
+Path=\"(.*?)\"\\s
+byeer\\s*<p
+[^\\\\]*$
+http://web.archive.org/[^\"]*(http://[^\"]*)
+(.*?)\\|(.*)
+id: \\\"[0-9]{1,3}\\\"\\nname: \\/var_b
+^( {0,3})([`~]{3,}) *(\\\\S*)?(?:.*)
+{@ref +([^\\\\}\\\\s]+)\\\\s*([^\\\\}]*)}
+safi
+$fuzzy_addr
+Martin D\u00fcrst
+^(.|\\r|\\n)*?\\r?\\n\\r?\\n
+^hierarchy$
+table name
+\\s+\\*(.+)\\s+=\\s+\\\\&(.+);
+^green$
+^.*all.*\\.deb$
+(?P<amount>\\d+)d(?P<sides>\\d+)\\+?(?P<modifier>\\d+)?
+ipod|ipad|iphone|android
+Pair.traverse: Both functions must return an Apply of the same type
+^(https?:)?\\/\\/
+^ *(#{1,6}) *([^\\n]*?) *#* *(?:\\n|$)
+[Ii]mmutable field
+<\\/href

@@ -1,0 +1,466 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max CS;Status
+((((ABC)((DE?FGH?I)JKE(L|M))?(((NOPQ)R?S?TU)(VW?XY?)(Zab?cd)(e)f{12}g))|((hBC)((DE?ijH?k)lmE(n|o))(((NOPQ)R?S?Tp)(VW?XY?)(Zab?cd)(e)f{12}g))|((hBC)((DE?ijH?k)lmo)(((NOPQ)R?S?Tp)(VW?XY?)(Zab?cd)(e)f{12}g))|(q(((NOPQ)R?S?Tp)(VW?XY?)(Zab?cd)(e)f{12}g))|((((NOPQ))(VW?XY?)(Zab?cd)(e)f{12}g))|((hBC)((DE?ijH?k)rmE(n|o))?(((NOPQ))(VW?XY?)(Zab?cd)(e)f{12}g)))s);;;;;;TIMEOUT while finding cycles.
+((((A{100}|((B|C)|D|E)|F){2}G+){3}));;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A)(B|C){13});1;15;15;1;1;Text generated.
+((A){20}){4};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?)(BC{14}));2;17;17;1;1;Text generated.
+((A?|B*|C*|D*|E?|F?|G*|H*|I*|J*|K*|L*|M*|N*|O*|P*|Q*|R*|S*|T*|U?|V?){25});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B*|C*|D*|E?|F?|G*|H*|I*|J*|K*|L*|M?|N?|O?|P*|Q*|R*|S*|T*|U*|V*|W*|X?|Y?|Z?|a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?){35});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?){2}C{40}(D{5}|E?){2}F?);;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?|C?|D?|E?|F?|G*|H*|I*|J*|K*|L*|M*|N*|O*|P*|Q*|R*|S*|T*|U?|V?){25});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?|C?|D?|E?|F?|G?|H?|I?|J*|K*|L*|M?|N*|O*|P*|Q*|R*|S*|T*|U*|V*|W*|X*|Y*|Z?|a?|b?|c?|d?|e?|f?|g?|h?|i?|j?|k?|l?|m?){35});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?|C?|D?|E?|F?|G?|H?|I?|J?|K?|L?){11});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?|C|D?|E?|F?|G?|H?|I?|J?|K?|L?){12});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?|C|D?|E|F|G|H?|I?|J?|K?|L?|M|N?){14});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A?|B?|C|D?|E|F|G|H?|I?|J?|K?|L|M?){13});;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((AB?)(C{32}D{12}));1;47;47;2;1;Text generated.
+((AB?)(C{7}D{6}E{12}));1;28;28;3;1;Text generated.
+((AB?C{5}D?E?F{99}G)|H);4;113;111;2;1;Text generated.
+((AB?C{99})|D);3;105;104;1;1;Text generated.
+((ABC?D?)(E{18}));2;23;23;1;1;Text generated.
+((ABCD?E?)(FG{10}H?I?));3;17;17;1;1;Text generated.
+((ABCD?E?F?)(GH{10}I{99}));3;117;117;2;1;Text generated.
+((A{50})(B?C?D?E?F?G*H*I{2}J{2}K?L?M?N?O?P?Q?R?S?));3;61;61;3;50;Text generated.
+((A{99}));1;100;100;1;99;Text generated.
+((A|B)CDE{16}FGHI?J?K?L?M?);1;23;23;1;1;Text generated.
+((A|B)C{15});1;17;17;1;1;Text generated.
+((A|B){10}(C|D|E|F|G|H|I){30}J);1;42;42;2;10;Text generated.
+((A|B){11});1;12;12;1;11;Text generated.
+((A|B?){2}C{40}(D{5}|E?){2}F?G?HI?J?K?H);;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+((A|B|C)D?EF(G|H|I|J)K{999999}L{999999}M{999999}N?O{999999}P{999999}Q{999999}R?S?T{999999}U{999999}V{999999}W?X{999999}Y{999999}Z{999999}a?b?cd?);1;0;7;12;1;TIMEOUT.
+((A|B|C|D|E|F){10});1;11;11;1;10;Text generated.
+((A|B|C|D|E|F|G|H|I|J){10});1;11;11;1;10;Text generated.
+((A|B|C|D|E|F|G|H|I|J|K|L){12});1;13;13;1;12;Text generated.
+((A|B|C|D|E|F|G|H|I|J|K|L|M|N|O){15});1;16;16;1;15;Text generated.
+((|A){15});1;1;1;1;0;Text generated.
+((|A){16});1;1;1;1;0;Text generated.
+(A(B{99})(C{99})DE?F?G?H?);1;201;201;2;1;Text generated.
+(A(B|C)D{99}E{9}F{5}G);1;117;117;3;1;Text generated.
+(A(B|C|D|E|F)GHIJ?(KL)?M{64}N?OPQRST?UVWXYZ{8}a?b?c?d?e?fghijklmno?p?q?r?stuvw);3;116;116;2;1;Text generated.
+(A){100};1;101;101;1;100;Text generated.
+(A){12};1;13;13;1;12;Text generated.
+(A){15};1;16;16;1;15;Text generated.
+(A){20};1;21;21;1;20;Text generated.
+(A){100};1;101;101;1;100;Text generated.
+(A){20};1;21;21;1;20;Text generated.
+(A){50};1;51;51;1;50;Text generated.
+(A*B*C*D*E?F*G*H{99}I*J*K*L*M*N*O*P*Q*RS*T*U?V{99}W{99});;;;;;TIMEOUT while finding cycles.
+(A*B*C*D{99}E?F);3;105;105;1;99;Text generated.
+(A*BC?(D|E){14}F*);1;18;18;1;1;Text generated.
+(A*BCD{15}E?F?G{});1;24;24;1;1;Text generated.
+(A*BC{18}D*E?);2;21;21;1;1;Text generated.
+(A*B{10}C?D{5}E?);2;19;18;2;10;Text generated.
+(A*B{10}CD{5}E?);2;18;18;2;10;Text generated.
+(A*B{99});2;101;101;1;99;Text generated.
+(A?){20};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(A?){99};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(A?B*C*D*E*F?G*H{10});2;16;16;1;10;Text generated.
+(A?B*C*D*E*F?G*H{14});2;20;20;1;14;Text generated.
+(A?B*C{11});2;13;13;1;11;Text generated.
+(A?B?){99};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(A?B?C*D?E*F*G?H?I?J{10}K?L?M?N*O?P?Q?R?S?T?);2;19;18;1;10;Text generated.
+(A?B?C?D?E?(F{10}|G{10}));3;26;26;2;10;Text generated.
+(A?B?C?D?E?F?){50};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(A?B?C?D?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?){22};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(A?B?C?D?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?i?j?k?l?m?n?o?p?q?r?s?t?u?v?w?x?y?z{9999});;;;;;TIMEOUT while finding cycles.
+(A?B?C?D?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?i?j?k?l?m?n?o?p?q?r?s?t{9999}u{9999}v{9999}w{9999}x{9999}y?z{9999});;;;;;TIMEOUT while converting to DCA.
+(A?B?C?D?E?F?G?H?I{2}J?K?L?M?N?O?P{20}Q?R{20}S?T?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?i?j?k?l?m?);;;;;;TIMEOUT while finding cycles.
+(A?B?C?D?E?F?G?H?I{2}J{3}K?L?M?N?O?P?Q{20}R?S{20}T?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?i?j?k?l?m?n{2});;;;;;TIMEOUT while converting to DCA.
+(A?B?C?D?E?F?G{32}H{32}I{10});2;87;81;3;32;Text generated.
+(A?B?C?D?EFG?H?I{99}J?K*);2;108;108;1;1;Text generated.
+(A?B?C?D?E{99}F?G{99}H?I?);101;308;204;2;99;Text generated.
+(A?B?C?D?E{99}F?G{9});11;128;114;2;99;Text generated.
+(A?B?C?DE{10}F?G?H?I?J?K?L?M?NO?P?Q?R?S?T?U?V{3}W?X?Y?Z?a?b?c?d?e?f?g?h?i{3}j{3}k{3}l{3}m?);;;;;;TIMEOUT while converting to DCA.
+(A?B?C?D{7}E{48});49;108;59;2;7;Text generated.
+(A?B?C?D{99});2;104;103;1;99;Text generated.
+(A?B?CD?E?F?G?(H{99})I?J?);3;107;107;1;1;Text generated.
+(A?B?CD{3}E?F?G?H?I?J?K?L?M?N?O?P{18}Q?R{5}S?T?U?);12;53;42;3;1;Text generated.
+(A?B?C{10}D?E?F?G?H?I);3;20;19;1;10;Text generated.
+(A?B?C{20});2;24;23;1;20;Text generated.
+(A?B?C{20}D{3}E{5}F{5}G{10}H?I?J?);;;;;;TIMEOUT while converting to DCA.
+(A?B?C{20}D{3}E{5}F{5}G{10}H?IJ?);;;;;;TIMEOUT while converting to DCA.
+(A?B?C{5}D{3}E{5}F{5}G{10}H?IJ?);;;;;;TIMEOUT while converting to DCA.
+(A?BC*DEF?GHIJ?K{12}L*M*(N|O)*P*Q?R+);3;28;28;1;1;Text generated.
+(A?BC*DEF?GHIJ?K{13}L*M*(N|O)*P*Q?R+);3;29;29;1;1;Text generated.
+(A?BC?D?E?F?G?H?I?J?K?L?M?N?O{18}P?Q{5}R?);3;50;48;5;20;Text generated.
+(A?BCD?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W*X*Y?Z?a?b?c?d?e?f?g?h*i?j{10}k*l?m?n?o?p?q?r?s?t?u?v?w*x?y?z*);;;;;;TIMEOUT while converting to DCA.
+(A?BCD?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z*a*b?c?d?e?f?g?h?i?j?k*l?m{10}n*o?p?q?r?s?t?u?v?w?x?y?z*);;;;;;TIMEOUT while converting to DCA.
+(A?BCD?E{10}F?G?H?I?J?K?L?M?N?O?P?Q*R?S?);;;;;;TIMEOUT.
+(A?B{1000}C{1000}D{100}E?F?);;;;;;TIMEOUT.
+(A?B{100});1;102;102;1;100;Text generated.
+(A?B{10});1;12;12;1;10;Text generated.
+(A?B{10}C*D*);1;12;12;1;10;Text generated.
+(A?B{128});1;130;130;1;128;Text generated.
+(A?B{16});1;18;18;1;16;Text generated.
+(A?B{16}C?D{8});1;27;27;2;16;Text generated.
+(A?B{18});1;20;20;1;18;Text generated.
+(A?B{198});1;200;200;1;198;Text generated.
+(A?B{19});1;21;21;1;19;Text generated.
+(A?B{20});1;22;22;1;20;Text generated.
+(A?B{20}C?);1;22;22;1;20;Text generated.
+(A?B{20}C?D{20}E{2});1;45;45;3;20;Text generated.
+(A?B{25});1;27;27;1;25;Text generated.
+(A?B{26});1;28;28;1;26;Text generated.
+(A?B{5}C?D?E*F?G?H{5}I{15}J?K{99}L{99});;;;;;TIMEOUT while converting to DCA.
+(A?B{5}C{50});;;;;;TIMEOUT.
+(A?B{7}C?D?E{99}F?);1;109;110;2;7;Text generated.
+(A?B{7}C?D?E{99}F?);2;110;110;2;7;Error while generating text.
+(A?B{8}C{32}D*);1;42;42;2;8;Text generated.
+(A?B{99});1;101;101;1;99;Text generated.
+(A?B{9}C?D?E?F?G?H{99}I?J{10}K?L?M?N);5;130;130;3;9;Text generated.
+(A?B{26});1;28;28;1;26;Text generated.
+(A?B{5}C{5}D{99}E?F?G);3;114;114;3;5;Text generated.
+(A?B{5}C{5}D{99}E{9}F?G?H?I);3;124;124;4;5;Text generated.
+(AB(C{10}|D{10})EF?G?);2;24;24;2;1;Text generated.
+(AB(C{99}|D{5})E?F?G);4;110;110;2;1;Text generated.
+(AB){16};1;33;33;1;16;Text generated.
+(AB){50};1;101;101;1;50;Text generated.
+(AB*C?DE*F?G?H?I*J?K?L?M{99}N{99}O);3;209;209;2;1;Text generated.
+(AB*C{17});1;19;19;1;1;Text generated.
+(AB+C+DEFGH{20}I);1;29;29;1;1;Text generated.
+(AB+C?D?EF{100});3;106;106;1;1;Text generated.
+(AB?C?D?E?F?G?H?I?J?K?L?M?N?O?P?Q?R{9}S?T?U?V{99}W?X?Y?Z?a?);5;129;129;2;1;Text generated.
+(AB?C?D?E?F?G?H?I?J?K?L?M?N?O{35});3;50;50;1;1;Text generated.
+(AB?C?D?E?F?G?H?I{35}J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?i?j?k?);;;;;;TIMEOUT while finding cycles.
+(AB?C?D?E?F{99});3;105;105;1;1;Text generated.
+(AB?C?D?EF?G?H?I?J{99}K?L{99}MNOP?Q?R?S?T?UV?W?X{9999}Y{999});1;0;2560;4;1;TIMEOUT.
+(AB?C?D?E{35}F?G?H?I?J?K?L?M?N?O?P?Q?R?S?);3;40;40;1;1;Text generated.
+(AB?C?D?E{5}F?G?H?I?J?K?L?M?N?O{4}P?Q?R?S?T{5}U{20}V?W?X{5}Y?Z{5}a{4}b{5}c?d?e{10}f?gh{2}i?j?k?l{2}m?n?o{8}p{21}q{2});;;;;;TIMEOUT while finding cycles.
+(AB?C?D?E{99}F{4}G{999}H{99}I{99}J{9}K{999}L{99}M{99}N{999});;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.
+(AB?C?DE?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X{5}Y?Z?a?b?c?d{20}e?f?g?h?i?j?k?l?m?n?o?p?q?r?s?t?);;;;;;TIMEOUT while finding cycles.
+(AB?C?D{10});2;14;14;1;1;Text generated.
+(AB?C?D{3}E{13}F?G?H);4;23;23;2;1;Text generated.
+(AB?C?D{4}E{99}F{99}G{99}H{9}I{99}J{99});2;512;512;7;1;Text generated.
+(AB?C?D{999}E?F{999}G{999});1;0;2307;3;1;TIMEOUT.
+(AB?CD?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S*T?U?V{10}W?X{10}Y?);;;;;;TIMEOUT while finding cycles.
+(AB?CD?E?F?G?H?I?J?K?LM*N?O?P?Q?R?S?T?U?V?W?X?Y?Za?bc?de?fg?h?i*j*k?l{10}m{10}n?);;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.
+(AB?CD?E?F?G?H?I?J?K?LM?N?O?P?Q?R?S?T?U?V?W?X?Y?Za?bc?de?fg?h?i?j?k?l{10}m{10}n?);;;;;;TIMEOUT while finding cycles.
+(AB?CD?E?F?GH*I?J?KL?MN?O?P?Q?R?S?T?U?V?W?X?YZab?c?d?e{10}f{10}g?);;;;;;TIMEOUT while finding cycles.
+(AB?CD?E?FGH?IJ?K?L?M{5}N?O?P?Q?R?S?T{20}U?V?W?X?Y?Z?a?b?cd?e?f?g?h?i?j?k?l?);;;;;;TIMEOUT while finding cycles.
+(AB?CD?E?F{10}G?H?I?J?K?L?M?N?O{2}P?Q?R?S?T{2}U?V?W{10}X{10}Y?Z?a{3}b{3}c{2}d?e?f{2}g?h{2}i{2}j{2}k{2}l{2}m{2}n{4}o?p{6}q?r?s?t?u{10}v{999});;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.
+(AB?CD?E?F{10}G?H?I?J?K?L?M?N?O{2}P?Q?R?S?T{2}U?V?W{10}X{10}Y?Z?a{3}b{3}c{2}d?e?f{2}g?h{2}i{2}j{2}k{2}l{2}m{2}n{4}o?p{6}q?r?s?t?u{10}v{999});;;;;;TIMEOUT while converting to DCA.
+(AB?CDE{15});1;20;20;1;1;Text generated.
+(AB?C{10}D{9999});1;0;1144;2;1;TIMEOUT.
+(AB?C{20});;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.
+(AB?C{2}D{99}E?F?G{99}H{20});2;225;225;4;1;Text generated.
+(AB?C{3}D{9}E{999}F{9});1;0;787;4;1;TIMEOUT.
+(AB?C{5}D{10});1;18;18;2;1;Text generated.
+(AB?C{5}D{2}E?F?G?H?I?JK?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?a?b?c?d{10}e?f?g?h?i?j?k{3}l{5}m{5}n{5}o{5}p{5}q{5}r{5}s{5}t{5}u{5}v{5}w{5}x{5}y{5}z{5});;;;;;TIMEOUT while finding cycles.
+(AB?C{5}D{2}E?F?G?H?IJ?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?a?b{10}c{10}d{10}e{10}f{10}g?h?i?j?k?l?m{3}n{5}o{5}p{5}q{5}r{5}s{5}t{5}u{5}v{5}w{5}x{5}y{5}z{5});;;;;;Error while finding cycles: Dimenze pole překročily podporovaný rozsah.
+(AB?C{5}D{2}E?F?G?H?IJ?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?a?b{10}c{10}d{10}e{10}f{10}g?h?i?j?k?l?m{3}n{5}o{5}p{5}q{5}r{5}s{5}t{5}u{5}v{5}w{5}x{5}y{5}z{5});;;;;;TIMEOUT while converting to DCA.
+(AB?C{5}D{99}E{99}F{99});;;;;;TIMEOUT while converting to DCA.
+(AB?C{999});;;;;;TIMEOUT.
+(AB?C{99});;;;;;TIMEOUT.
+(AB?C{99}D?E{5});1;0;2;2;1;TIMEOUT.
+(ABC?D?E?F?G?H?I?J?K?L{10}M?N*O?P?Q?R?S?T?U*V{10});1;108;108;2;1;Text generated.
+(ABC?D?E?F?G?H?I?J?K?L{10}M?N*O?P?Q?R?S?T?U*V{10});1;108;108;2;1;Text generated.
+(ABC?D?E?F?G?H?I?J?K?L{10}M?N*O?P?Q?R?S?T?U*V{10});;;;;;Error while finding cycles: Odkaz na objekt není nastaven na instanci objektu.
+(ABC?D?E?F?G?H?I?J?K?L{10}M?N?O?P?Q?R?S?T*);3;22;22;1;1;Text generated.
+(ABC?D?E?FFFG{30}H?I*);1;39;39;1;1;Text generated.
+(ABC?D?EF?G{120}H?I{99}J?K{96}L{5}M?);1;329;329;4;1;Text generated.
+(ABC?DE*F*GH{2000}I*);2;2007;2007;1;1;Text generated.
+(ABC?DEFG{100});1;107;107;1;1;Text generated.
+(ABC?DEF{9999}G?);1;0;3410;1;1;TIMEOUT.
+(ABC?DE{200}F{5});2;210;210;2;1;Text generated.
+(ABC?D{128});1;132;132;1;1;Text generated.
+(ABC?D{200});1;204;204;1;1;Text generated.
+(ABC?D{32});1;36;36;1;1;Text generated.
+(ABCD*E*F{128}G?H*);2;133;133;1;1;Text generated.
+(ABCD?E?){99};1;5;5;2;1;Text generated.
+(ABCD?EF?G{100}H*);1;107;107;1;1;Text generated.
+(ABCD?EF{9999}G?H{99}I?);1;0;3226;2;1;TIMEOUT.
+(ABCDE?F?G?H?I?J?K?L?M?N{9}O?P?Q?R{99}S?T?U?V?);5;125;125;2;1;Text generated.
+(ABCDE?F?GHI?J?KL?M?N?O?P?Q?R?S?TU?V+W?X?Y?Za?b{999});1;1027;1027;1;1;Text generated.
+(ABCDE?F?GH{50}I?J?K{3}L{50}M{50}N{50}O{50}PQ?R?E?F?S?);;;;;;TIMEOUT while converting to DCA.
+(ABCDE?F{100}G?H?I?J{100}K{100}L?M?N?O?P?);;;;;;TIMEOUT.
+(ABCDE?F{363}G{99});;;;;;TIMEOUT.
+(ABCDEF?G?H?I?J?K{32}L?M?);;;;;;TIMEOUT.
+(ABCDEF?G?H?I?J{100}K{100}L?M?N?O?P?);;;;;;TIMEOUT.
+(ABCDEFGH*I?J?K*LMN{10}O?P?);;;;;;TIMEOUT.
+(ABCDEF{50}G?H?I{3}J{50}K{50}L{50}M{50}NO?P?Q?R?S?);;;;;;TIMEOUT while converting to DCA.
+(ABCDE{2000}F);;;;;;TIMEOUT.
+(ABCD{17}EFGHI);;;;;;TIMEOUT.
+(ABCD{99}E?);;;;;;TIMEOUT.
+(ABCD{99}E?F?G{99});;;;;;TIMEOUT.
+(ABCD{100});;;;;;TIMEOUT.
+(ABC{1000});;;;;;TIMEOUT.
+(ABC{100}DE?F?G?H?I?J?);;;;;;TIMEOUT.
+(ABC{100}DEF?G?H?I?J?K?);;;;;;TIMEOUT.
+(ABC{10});;;;;;TIMEOUT.
+(ABC{10}D{10});;;;;;TIMEOUT.
+(ABC{11}D?E*F?G*HI?J?K?L?M?N?O?);;;;;;TIMEOUT.
+(ABC{15}D?E?F{});;;;;;TIMEOUT.
+(ABC{200});;;;;;TIMEOUT.
+(ABC{2}D?E{48}F?G?H?I?J?K?L?M?N{20}O{198});;;;;;TIMEOUT while converting to DCA.
+(ABC{5000});1;5003;5003;1;1;Text generated.
+(ABC{500}D{200}E{200}F{200});1;1103;1103;4;1;Text generated.
+(ABC{5}D?E?F?G?H?I{25}J?K?L?M{25});5;66;66;3;1;Text generated.
+(ABC{99}D{9});1;111;111;2;1;Text generated.
+(ABC{10});1;13;13;1;1;Text generated.
+(ABC{24});1;27;27;1;1;Text generated.
+(ABC{25});1;28;28;1;1;Text generated.
+(ABC{30});1;33;33;1;1;Text generated.
+(ABC{31});1;34;34;1;1;Text generated.
+(ABC{96}D);1;100;100;1;1;Text generated.
+(ABC{9999}D?);1;10002;10002;1;1;Text generated.
+(ABC{999});1;1002;1002;1;1;Text generated.
+(ABC{10});1;13;13;1;1;Text generated.
+(AB{100});1;102;102;1;1;Text generated.
+(AB{100}C{5});1;107;107;2;1;Text generated.
+(AB{10});1;12;12;1;1;Text generated.
+(AB{10}C*);1;12;12;1;1;Text generated.
+(AB{10}C?);1;12;12;1;1;Text generated.
+(AB{10}C?D?E?F?G?);1;12;12;1;1;Text generated.
+(AB{10}C?D{10});1;23;23;2;1;Text generated.
+(AB{10}C{10});1;22;22;2;1;Text generated.
+(AB{10}C{10}D{10});1;32;32;3;1;Text generated.
+(AB{10}C{10}D{10}E{1000});1;1032;1032;4;1;Text generated.
+(AB{10}C{20});1;32;32;2;1;Text generated.
+(AB{10}C{25}D{10});1;47;47;3;1;Text generated.
+(AB{10}C{5}D{5}E{5}F{9}G{99}H{99}I{10}J{10}K{10}L{9999}M{5});1;0;6144;12;1;TIMEOUT.
+(AB{10}C{99}D{10});1;121;121;3;1;Text generated.
+(AB{10}C{99}D{10}E{10}F{10}G{100}H{100}I{100}J{5}K{99}L?M?N{20}O{99}P{5}Q{9}R{99}S{9999}T{100}U{1000}V{9999}W{10});1;0;3913;20;1;TIMEOUT.
+(AB{10}C{99}D{10}E{10}F{9}G?H{9}I{99}J{99}K{10}L{10}M{99}N{10}O{9999});1;0;3948;13;1;TIMEOUT.
+(AB{12});1;14;14;1;1;Text generated.
+(AB{19});1;21;21;1;1;Text generated.
+(AB{20}C{3}D{5});1;30;30;3;1;Text generated.
+(AB{25}C{5}D{99}E{5}F{5});1;141;141;5;1;Text generated.
+(AB{25}C{5}D{99}E{9999}F{5}G{5});1;0;5453;6;1;TIMEOUT.
+(AB{25}C{99}D{99}E{5}F{5}G?H{5}I{35}J{1000}K{1000}L?M?N{99}O?P{99}Q{10}R{25}S{10}T{10}U{9999}V{99}W{99}X{30}Y{10}Z{5}a{100}b{999});1;0;1210;23;1;Text generated.
+(AB{25}C{99}D{99}E{5}F{5}G?H{5}I{35}J{1000}K{1000}L?M?N{99}O?P{99}Q{10}R{25}S{10}T{10}U{9999}V{99}W{99}X{30}Y{10}Z{5}a{100}b{999});1;0;3759;23;1;TIMEOUT.
+(AB{25}C{99}D{99}E{99}F{5}G{5}H{35}I{10}J{99}K{1000}L{1000}M?N{99}O?P{99}Q{99}R{999}S{10}T?U{25}V{9999}W{99}X{9999}Y{10}Z{999}a{99}b{10}c{5}d{10}e{100}f{999}g{10});1;0;2470;29;1;TIMEOUT.
+(AB{25}C{99}D{99}E{99}F{5}G{5}H{35}I{10}J{99}K{1000}L{1000}M?N{99}O?P{99}Q{99}R{999}S{10}T{25}U{9999}V{99}W{9999}X{10}Y{999}Z{99}a{10}b{5}c{10}d{100}e{999}f{10}g{999});1;0;1499;30;1;TIMEOUT.
+(AB{30});1;32;32;1;1;Text generated.
+(AB{4}CDE?FG?H?I?J*K{3}L?M?N{99}O*P?Q*);4;117;117;3;1;Text generated.
+(AB{5}C?D?E?F?G?H?I{4}J{4}K{4}L{4}M{4}N{4}O{5}P?Q{59}R?);3;102;102;9;1;Text generated.
+(AB{5}C?D{9999});1;0;3093;2;1;TIMEOUT.
+(AB{5}C?D{99}E{5}F{999});1;1111;1111;4;1;Text generated.
+(AB{5}C{1000});1;1007;1007;2;1;Text generated.
+(AB{5}C{10}D?E{10}F{10});1;38;38;4;1;Text generated.
+(AB{5}C{25}D{5}E{10});1;47;47;4;1;Text generated.
+(AB{5}C{5}D{10});1;22;22;3;1;Text generated.
+(AB{5}C{5}D{2}E{5}F{2}G{5}H{2}I{99});1;127;127;8;1;Text generated.
+(AB{5}C{5}D{5}E?F{99});1;117;117;4;1;Text generated.
+(AB{5}C{5}D{5}E{5}F{10});1;32;32;5;1;Text generated.
+(AB{5}C{5}D{99999});1;0;1754;3;1;TIMEOUT.
+(AB{5}C{5}D{99}E{5}F{5});1;121;121;5;1;Text generated.
+(AB{5}C{99});1;106;106;2;1;Text generated.
+(AB{5}C{99}D?);1;106;106;2;1;Text generated.
+(AB{5}C{99}D{99});1;205;205;3;1;Text generated.
+(AB{5}C{9}D{9999}E{9999});1;0;2708;4;1;TIMEOUT.
+(AB{6}C?D{10});1;19;19;2;1;Text generated.
+(AB{6}C{20}D?E?F?G?H{6}I?J{9}K{20});3;68;68;5;1;Text generated.
+(AB{98});1;100;100;1;1;Text generated.
+(AB{999999});1;0;175;1;1;Text generated.
+(AB{999999});1;0;725;1;1;TIMEOUT.
+(AB{999999}C{999999});1;0;187;2;1;TIMEOUT.
+(AB{999});1;1001;1001;1;1;Text generated.
+(AB{99});1;101;101;1;1;Text generated.
+(AB{99}C?);1;101;101;1;1;Text generated.
+(AB{99}C{5}D{99}E{5}F{5});1;215;215;5;1;Text generated.
+(AB{99}C{99});1;200;200;2;1;Text generated.
+(AB{9}C?D{10}E{10}F{9});1;41;41;4;1;Text generated.
+(AB{9}C{10}D{999});1;1020;1020;3;1;Text generated.
+(AB{9}C{99});1;110;110;2;1;Text generated.
+(AB{9}C{99}D{5}E{5}F{2}G{5}H{9}I{5}J{2});1;143;143;9;1;Text generated.
+(AB{9}C{99}D{99}E?);1;209;209;3;1;Text generated.
+(AB{9}C{9}D{9}E{9999}F{9999});1;0;2340;5;1;TIMEOUT.
+(AB{1000}C{20}D{20}E{40}FG);1;1084;1084;4;1;Text generated.
+(AB{100});1;102;102;1;1;Text generated.
+(AB{10});1;12;12;1;1;Text generated.
+(AB{10}C)*;1;1;1;1;0;Text generated.
+(AB{10}C{5}D{9}E{99}F{10}G{10}H{99}I{10}J{10}K{9999}L{9999}M?);1;0;1352;11;1;TIMEOUT.
+(AB{128});1;130;130;1;1;Text generated.
+(AB{15});1;17;17;1;1;Text generated.
+(AB{16});1;18;18;1;1;Text generated.
+(AB{18});1;20;20;1;1;Text generated.
+(AB{20}C?);1;22;22;1;1;Text generated.
+(AB{20}C?D?);1;22;22;1;1;Text generated.
+(AB{250});1;252;252;1;1;Text generated.
+(AB{35}C?D{5}E?F{99}G{10}H{10}I?J{10}K{99999}L{99}M{5}N{99}O{10}P{10}Q{5}R{99}S{1000}T{9999}U{100}V?W?X{9999999}YZ{10}a{100}b{10}c{15});1;0;7;22;1;TIMEOUT.
+(AB{35}C?D{5}E{999}F{99}G{10}H{9999}I?J{99}K{5}L{5}M{10}N{10}O{5}P{99}Q{10}R{10}S{25}T{99}U{999}V{200000}WX{12}Y{10}Z{10});1;0;24;22;1;TIMEOUT.
+(AB{35}C?D{5}E{999}F{99}G{10}H{9999}I{99}J{5}K{5}L{10}M{10}N{5}O{99}P{10}Q{10}R{25}S{99}T{999}U{999}V{200000}WX{99}Y{10}Z{10});1;0;7;23;1;TIMEOUT.
+(AB{40}C?);1;42;42;1;1;Text generated.
+(AB{4}C{2}DE{11});1;20;20;3;1;Text generated.
+(AB{50});1;52;52;1;1;Text generated.
+(AB{50}C);1;53;53;1;1;Text generated.
+(AB{5}C{5}D{5}E?F{99}G{5}H{99}I{5}J{999999}KL{99}M{99});1;0;8;10;1;TIMEOUT.
+(AB{5}C{5}D{5}E{2}F{5}G{100}H{5}I{9999});1;0;904;8;1;TIMEOUT.
+(AB{9999});1;0;1072;1;1;TIMEOUT.
+(AB{99});1;101;101;1;1;Text generated.
+(AB{11});1;13;13;1;1;Text generated.
+(AB{16});1;18;18;1;1;Text generated.
+(AB{5}CD{9}E{999}F{9999});1;0;285;4;1;TIMEOUT.
+(AB{6}CD{9}E{999}F{9999});1;0;969;4;1;TIMEOUT.
+(AB{20});1;22;22;1;1;Text generated.
+(AB{22});1;24;24;1;1;Text generated.
+(AB{23});1;25;25;1;1;Text generated.
+(AB{24});1;26;26;1;1;Text generated.
+(AB{60});1;62;62;1;1;Text generated.
+(A{1000});1;1001;1001;1;1000;Text generated.
+(A{1000}B?);1;1001;1001;1;1000;Text generated.
+(A{1000}BC*);1;1002;1002;1;1000;Text generated.
+(A{100});1;101;101;1;100;Text generated.
+(A{100}BC);1;103;103;1;100;Text generated.
+(A{100}B{100});1;201;201;2;100;Text generated.
+(A{1024});1;1025;1025;1;1024;Text generated.
+(A{10});1;11;11;1;10;Text generated.
+(A{10}B*);1;11;11;1;10;Text generated.
+(A{10}B?);1;11;11;1;10;Text generated.
+(A{10}B?C?);1;11;11;1;10;Text generated.
+(A{10}B?C?D?);1;11;11;1;10;Text generated.
+(A{10}B{10}C{10}D{10}E?);1;41;41;4;10;Text generated.
+(A{10}B{10});1;21;21;2;10;Text generated.
+(A{11});1;12;12;1;11;Text generated.
+(A{12});1;13;13;1;12;Text generated.
+(A{12})?;1;1;1;1;0;Text generated.
+(A{12}B);1;14;14;1;12;Text generated.
+(A{12}B*);1;13;13;1;12;Text generated.
+(A{13});1;14;14;1;13;Text generated.
+(A{1536}B{1536});1;0;2970;2;1536;TIMEOUT.
+(A{1536}B{768});1;0;1232;2;1231;Text generated.
+(A{1536}B{768});1;2305;2305;2;1536;Text generated.
+(A{15});1;16;16;1;15;Text generated.
+(A{15})?;1;1;1;1;0;Text generated.
+(A{16});1;17;17;1;16;Text generated.
+(A{16})?;1;1;1;1;0;Text generated.
+(A{18});1;19;19;1;18;Text generated.
+(A{18}B?C?D{5}E?);2;26;26;2;18;Text generated.
+(A{200});1;201;201;1;200;Text generated.
+(A{200}B{200});1;401;401;2;200;Text generated.
+(A{200}B{200}C?);1;401;401;2;200;Text generated.
+(A{20});1;21;21;1;20;Text generated.
+(A{20}B{20}C?D{20}E{20}F{6}G?H{20}I{20});1;129;129;7;20;Text generated.
+(A{20}B{20}C{10}D{30}E{5}F{10}G{15});1;111;111;7;20;Text generated.
+(A{22});1;23;23;1;22;Text generated.
+(A{23});1;24;24;1;23;Text generated.
+(A{24});1;25;25;1;24;Text generated.
+(A{255});1;256;256;1;255;Text generated.
+(A{25}B*);1;26;26;1;25;Text generated.
+(A{25}B{25}){25};1;51;51;2;25;Text generated.
+(A{25}B{25}){4};1;51;51;2;25;Text generated.
+(A{300});1;301;301;1;300;Text generated.
+(A{30});1;31;31;1;30;Text generated.
+(A{30}B{30});1;61;61;2;30;Text generated.
+(A{30}|B{30}|C{30});4;92;92;3;30;Text generated.
+(A{31});1;32;32;1;31;Text generated.
+(A{31}B{31});1;63;63;2;31;Text generated.
+(A{32});1;33;33;1;32;Text generated.
+(A{38});1;39;39;1;38;Text generated.
+(A{3}((B(CD{10})?)|(E{5}F?G?HC?D{10})|(CD{10})));3;24;24;3;3;Text generated.
+(A{500});1;501;501;1;500;Text generated.
+(A{50});1;51;51;1;50;Text generated.
+(A{5}B{5}C?D{99}E{99});1;210;210;4;5;Text generated.
+(A{5}B{5}C{10});1;21;21;3;5;Text generated.
+(A{63});1;64;64;1;63;Text generated.
+(A{64});1;65;65;1;64;Text generated.
+(A{64}B?);1;65;65;1;64;Text generated.
+(A{67});1;68;68;1;67;Text generated.
+(A{9999});1;0;2183;1;2182;Text generated.
+(A{9999});1;0;2962;1;2961;TIMEOUT.
+(A{999}B{99});1;1099;1099;2;999;Text generated.
+(A{99});1;100;100;1;99;Text generated.
+(A{99}B*);1;100;100;1;99;Text generated.
+(A{99}B?);1;100;100;1;99;Text generated.
+(A{99}B?C);2;102;102;1;99;Text generated.
+(A{99}B?C?D?E?F?);1;100;100;1;99;Text generated.
+(A{99}B{3}C{4}D{9}E{3}F{3});1;122;122;6;99;Text generated.
+(A{99}B{99});1;199;199;2;99;Text generated.
+(A{99}B{99}C?);1;199;199;2;99;Text generated.
+(A{1000});1;1001;1001;1;1000;Text generated.
+(A{100});1;101;101;1;100;Text generated.
+(A{100}){5};;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+(A{100}B);1;102;102;1;100;Text generated.
+(A{100}BC*);1;102;102;1;100;Text generated.
+(A{10}(B{2}|C{4})*);1;11;11;3;10;Text generated.
+(A{10});1;11;11;1;10;Text generated.
+(A{10}B?);1;11;11;1;10;Text generated.
+(A{10}BC?D{10});1;23;23;2;10;Text generated.
+(A{10}B{5}C?);1;16;16;2;10;Text generated.
+(A{11});1;12;12;1;11;Text generated.
+(A{127});1;128;128;1;127;Text generated.
+(A{128});1;129;129;1;128;Text generated.
+(A{12});1;13;13;1;12;Text generated.
+(A{136});1;137;137;1;136;Text generated.
+(A{146});1;147;147;1;146;Text generated.
+(A{14}B{14});1;29;29;2;14;Text generated.
+(A{15});1;16;16;1;15;Text generated.
+(A{15}B?);1;16;16;1;15;Text generated.
+(A{15}B{14});1;30;30;2;15;Text generated.
+(A{17});1;18;18;1;17;Text generated.
+(A{18});1;19;19;1;18;Text generated.
+(A{192});1;193;193;1;192;Text generated.
+(A{20000});1;0;3473;1;3473;TIMEOUT.
+(A{2000});1;2001;2001;1;2000;Text generated.
+(A{200});1;201;201;1;200;Text generated.
+(A{200}B);1;202;202;1;200;Text generated.
+(A{20});1;21;21;1;20;Text generated.
+(A{20}B?C?D?);1;21;21;1;20;Text generated.
+(A{21});;;;;;TIMEOUT while converting to DCA.
+(A{24}BC);1;27;27;1;24;Text generated.
+(A{256});1;257;257;1;256;Text generated.
+(A{25});1;26;26;1;25;Text generated.
+(A{26});1;27;27;1;26;Text generated.
+(A{26}B?);1;27;27;1;26;Text generated.
+(A{27});1;28;28;1;27;Text generated.
+(A{299});1;300;300;1;299;Text generated.
+(A{29}BC?D?E?F?G{10}HI?J?K?L?M?N?(OP{1000})?);3;46;46;3;29;Text generated.
+(A{300})?;1;1;1;1;0;Text generated.
+(A{30});1;31;31;1;30;Text generated.
+(A{30}B?);1;31;31;1;30;Text generated.
+(A{350});1;351;351;1;350;Text generated.
+(A{36});1;37;37;1;36;Text generated.
+(A{39});1;40;40;1;39;Text generated.
+(A{40});1;41;41;1;40;Text generated.
+(A{45})?;1;1;1;1;0;Text generated.
+(A{4}B?C?D?E?F{50}G?H?I?J?K?L?M?N?O?P?Q?RS?T?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?);;;;;;TIMEOUT while converting to DCA.
+(A{500});1;501;501;1;500;Text generated.
+(A{50});1;51;51;1;50;Text generated.
+(A{51});1;52;52;1;51;Text generated.
+(A{60});1;61;61;1;60;Text generated.
+(A{63});1;64;64;1;63;Text generated.
+(A{64});1;65;65;1;64;Text generated.
+(A{6}B?C?D?E?F?G{50}H?I?J?K?L?M?N?O?P?Q?R?ST?U?V?W?X?Y?Z?a?b?c?d?e?f?g?h?i?j?k?l?);;;;;;TIMEOUT while finding cycles.
+(A{87});1;88;88;1;87;Text generated.
+(A{90});1;91;91;1;90;Text generated.
+(A{9999});1;0;2243;1;2242;TIMEOUT.
+(A{999});1;1000;1000;1;999;Text generated.
+(A{99}(B?));1;100;100;1;99;Text generated.
+(A{99});1;100;100;1;99;Text generated.
+(A{99}BC{9999}D{99});1;0;1030;3;99;TIMEOUT.
+(A{99}B{5}C?D?);1;105;105;2;99;Text generated.
+(A{9}B{10});1;20;20;2;9;Text generated.
+(A{20});1;21;21;1;20;Text generated.
+(A{99}B{99}){100};1;199;199;2;99;Text generated.
+(A{10});1;11;11;1;10;Text generated.
+(A{11});1;12;12;1;11;Text generated.
+(A{127});1;128;128;1;127;Text generated.
+(A{12});1;13;13;1;12;Text generated.
+(A{13}B?C?);1;14;14;1;13;Text generated.
+(A{15});1;16;16;1;15;Text generated.
+(A{16});1;17;17;1;16;Text generated.
+(A{10});1;11;11;1;10;Text generated.
+(A{12});1;13;13;1;12;Text generated.
+(A{13});1;14;14;1;13;Text generated.
+(A{200});1;201;201;1;200;Text generated.
+(A{99});1;100;100;1;99;Text generated.
+(A{20}B{20}C{20}D{20}E{20}F{20}G{20}H{20}I{20}J{20}K{20});1;221;221;11;20;Text generated.
+(A{23});1;24;24;1;23;Text generated.
+(A{24});1;25;25;1;24;Text generated.
+(A{999});1;1000;1000;1;999;Text generated.
+(A{365});1;366;366;1;365;Text generated.
+(A{15});1;16;16;1;15;Text generated.
+(A{4}B{31}C{16});1;52;52;3;4;Text generated.
+(A{51});1;52;52;1;51;Text generated.
+(A{54});1;55;55;1;54;Text generated.
+(A{60});1;61;61;1;60;Text generated.
+(A{30});1;31;31;1;30;Text generated.
+(A{85});1;86;86;1;85;Text generated.
+(A{});1;0;1;0;0;Error while generating text.
+(A|B){10};1;11;11;1;10;Text generated.
+(A|B|C|D){99};1;100;100;1;99;Text generated.
+(A|B|C|D|E|F){10};1;11;11;1;10;Text generated.
+(A|B|C|D|E|F|G|H|I|J|K|L|M|N){15};1;16;16;1;15;Text generated.
+(|A{24});1;1;1;0;0;Text generated.
+(|A{10})*;1;1;1;1;0;Text generated.
+(|A{11});1;1;1;0;0;Text generated.

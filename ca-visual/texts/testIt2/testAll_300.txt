@@ -1,0 +1,2 @@
+$stateProvider    state('test', {      url: '/test',      templateUrl: 'home/test?tpl html',      controller: 'TestCtrl'})
+$stateProvider     state('test', {      url: '/test',      templateUrl: 'home/test.tpl[html',      controller: 'TestCtrl'})

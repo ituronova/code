@@ -1,0 +1,9 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+^AUTH[ \n\t\r\f]+[^ \n\t\r\f]+[ \n\t\r\f]+[^\n]{128};129;8392;8392;128;Text generated.
+^Content-Length\x3A[ \n\t\r\f]*[^\r\n]{100,};101;5166;5166;100;Text generated.
+^[ \n\t\r\f]*Content-Transfer-Encoding[ \n\t\r\f]*\x3A[ \n\t\r\f]*[^\n]{100};101;5177;5177;100;Text generated.
+^PASS[ \n\t\r\f]+[^\n]{100};101;5156;5156;100;Text generated.
+^USER[ \n\t\r\f]+[^\n]{100,};101;5156;5156;100;Text generated.
+^TEST[ \n\t\r\f]+[^\n]{100,};101;5156;5156;100;Text generated.
+^[ \n\t\r\f]*Cookie[ \n\t\r\f]*\x3a.*?OvOSLocale[ \n\t\r\f]*\x3d[ \n\t\r\f]*[^\x3b \n\t\r\f]{249};;;;;Error while converting to DCA: Match generation with mixed lazy and eager loops currently not supported.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};127;30056;30057;126;Text generated.

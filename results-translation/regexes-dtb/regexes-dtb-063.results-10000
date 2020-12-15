@@ -1,0 +1,1001 @@
+pattern	MIN-trans	DFA-trans	timeouts-classical	regex->NFA (milliseconds)	NFA->DFA (milliseconds)	DFA->min (milliseconds)	|NFA|	|DFA|	|min|	Classical exception
+^([^=]+=\\s*)([^]*?)\\s*$										ERROR
+^(\\s*)(str\\(\\S+\\)) ([^ \\t\\n\\r\\f\\(|,]+)(\\.as\\(:\\S+\\))?(,?)$	25	25		19.6393	17.94	11.7605	26	21	21	
+^\"([^\"]*)\" should be selected as the current Content Type$	50	50		0.7242	4.104	0.2091	51	50	50	
+>blank<	21	39		0.4989	0.5843	0.4304	8	14	8	
+^<\\?xml version=\"1.0\" encoding=\"UCS-2\" standalone=\"yes\"\\?>$	57	57		0.4336	0.4909	0.4249	58	56	56	
+(?P<hl_lines>\\d+(?:[ \\t]+\\d+)*)										ERROR
+[^)\"']*[\"']([^\"']*)[\"'](,\\s*({[\\s\\S]*})){0,1}\\s*	23	72		0.6978	0.8689	0.3942	15	18	8	
+\\A${repcons}										ERROR
+(?<![#@])\\b[a-z]{1,15}\\b										ERROR
+^${\\(SUBJECT_FIELD)}:										ERROR
+Constants.pm$	41	41		0.0415	0.2884	0.2219	13	14	14	
+^(\\w+)\\s*:\\s*\\[\\s*([\\+\\-\\(\\)]*)\\s*(\\w+)\\s*([\\+\\-\\(\\)]+)\\s*(\\w+)\\s*\\*\\s*(\\w+)\\s*([\\+\\-\\(\\)]+)\\s*(\\w+)\\s*(\\)*)\\s*\\]$										ERROR
+<KEYWORD>	27	51		0.188	0.3329	0.2465	10	18	10	
+\\A(?:zzz|<zzz>)[-+]?00?(?::00(?::00)?)?\\z	63	123		3.9012	0.5837	0.459	24	40	21	
+@hourly .*	24	79		0.0675	0.5458	0.4075	10	25	9	
+^genisoimage	12	12		0.0496	0.0002	0.0587	12	12	12	
+Error: missing command method	87	171		0.082	0.6897	0.5446	30	58	30	
+\\([\\w\\d]+\\)$	10	14		0.0888	0.1003	0.0677	5	5	4	
+^Installing 	12	12		0.0654	0.0002	0.0932	12	12	12	
+^(\\+972|0)([23489]|5[0248]|77)[1-9]\\d{6}	20	20		0.5039	0.3377	0.1834	17	16	16	
+\\r*\\n*	6	21		0.0285	0.1542	0.0911	5	7	3	
+\\s*(['\"])(.*)\\1\\s*	16	54		0.0569	0.4571	0.2604	9	15	6	
+ |\\/\\/|\\/|::|\\.|-	10	10		0.4895	9.6596	0.0385	19	4	4	
+^.((\\d)\\d).$	6	6		0.04	0.0001	1.1446	7	7	7	
+^Error: Argument error, options\\.multipart\\.$	43	43		0.1024	0.0002	0.1559	44	44	44	
+^!ng\\.([^\\.]+)\\._inject_([^\\.]+)^										ERROR
+TypeError: Too few arguments in function log \\(expected: any, index: 0\\)	210	417		0.1572	6.5182	1.1384	71	140	71	
+extension recursion detected	84	165		0.0647	0.6693	0.5401	29	56	29	
+(0x[a-fA-F0-9]+)	8	30		0.1607	0.1803	0.1056	5	10	4	
+(?<!ph)\u00e4(?=ro[bds])										ERROR
+^urn:nfc:[x]?sn:[a-zA-Z][a-zA-Z0-9-_:\\.]*$	15	15		0.293	0.1871	0.0945	15	14	14	
+^#\\{|\\}$	17	17		0.0655	0.5291	0.0634	8	7	7	
+\\.[t|j]sx?$	24	24		0.0705	0.1791	0.1207	6	8	8	
+^id=\"(.*?)\"	7	7		0.0434	0.0001	0.0524	7	7	7	
+.*\\?[a-zA-Z0-9]+=.+	8	72		0.0703	0.397	0.2003	10	17	4	
+(\\.(js|vue)$)	35	35		0.0524	0.369	0.2342	7	10	10	
+^VMX([SP])	5	5		0.1544	0.0001	0.0852	5	5	5	
+;([a-z])=function\\(\\){return this}\\(\\);try{\\1=\\1\\|\\|Function\\(\"return this\"\\)\\(\\)\\|\\|\\(0,eval\\)\\(\"this\"\\)}catch\\(t\\){\"object\"==typeof window&&\\(\\1=window\\)}	3	3		1.3691	7.2283	0.0169	136	2	2	
+^[A-Fa-f0-9]{7,40}$	40	40		0.054	0.0002	0.1994	41	41	41	
+^[0-7xzXZ]+$	2	2		0.1408	0.0002	0.0467	2	2	2	
+^\"([^\"]*)\" should be minified$	22	22		0.0713	0.8568	0.0895	23	22	22	
+\\{:	9	15		0.0224	0.0536	0.2837	4	6	4	
+redis_version:(\\d+).(\\d+)	71	146		0.0607	0.6981	0.5821	22	46	23	
+\\b#(\\d+)\\b	21	40		0.0386	0.1715	0.1198	9	14	8	
+(\"\\.[-\\w]+\") is not documented	83	169		0.1211	0.7353	0.6325	25	54	27	
+[^\\w .*\\-,@']+										ERROR
+([A-Za-z]{1,3})(\\d+)	9	44		0.0461	0.2298	0.1576	9	14	4	
+\n\\s*?\\*\\s*?	16	29		0.0355	0.1474	0.1075	7	10	6	
+karma-jasmine\\/karma-jasmine.d.ts	111	219		0.0782	0.9032	0.6721	34	72	37	
+^FIREFOX_NIGHTLY_(\\d+)_END$	23	23		0.1619	0.1778	0.1064	24	23	23	
+\\[([^\\]]*)\\]\\(([^\\)]*)\\)										ERROR
+\\s+className=(\"([^\"]+)\"(.*)\\s+className={(.*?)}((\\s+[a-zA-Z0-9-]+=)|(\\s*>)))	293	1620		0.1945	8.2273	4.1905	44	352	70	
+not checked Unavailable\\n(?=checked Unavailable\\n)										ERROR
+[.=$&]	3	3		0.1123	0.0527	0.0296	2	2	2	
+(\\w+):\\s($|[\\w, \\d.]+)(?:\\s|$)										ERROR
+mar(ch)?\\.?	19	47		0.046	0.3103	0.2918	10	16	7	
+-utf8	15	27		0.0231	0.1832	0.1429	6	10	6	
+([\\<\\>]+\\.+[\\<\\>]+)	11	56		0.0659	0.223	0.1465	9	16	5	
+^---+$	4	4		0.021	0.0001	0.0392	4	4	4	
+[a-z_A-Z0-9]	3	3		0.0597	0.037	0.0373	2	2	2	
+(?:,\\s|,|\\s)	7	7		0.1448	0.5954	0.0274	10	3	3	
+completely evaporated.	65	129		0.0543	0.6139	0.4763	23	44	23	
+^(reference|ref\\(\\*\\))$	12	12		0.074	0.1018	0.0864	15	12	12	
+([\\s\\-]?)([0-9]+)$	4	9		0.0613	0.1006	0.0551	5	3	2	
+[\\u00e0\\u00e1]	3	3		0.101	0.0456	0.0257	2	2	2	
+^(?:\\s+|\\W+|\\w+)\\s*	11	15		0.0576	0.2206	0.1896	10	8	6	
+\\d{4}ms.+	23	83		0.0401	0.2259	0.1001	10	26	9	
+^[a-z_][\\w]*$	2	2		0.0625	0.0001	0.0397	2	2	2	
+(\\A|, *)[^,]*\\b(?=\\w+(?=,|\\z))										ERROR
+--([a-z0-9](?:\\s|$))	14	25		0.0939	0.1513	0.1662	6	10	6	
+mail/thread/atom/	51	99		0.0534	0.4051	0.3354	18	34	18	
+([ti])a$	7	7		0.0574	0.089	0.0461	3	3	3	
+http://[^/]+$	45	45		0.0461	0.3476	0.2357	9	14	14	
+^Kb	3	3		0.0169	0.0002	0.0364	3	3	3	
+^.*_dsa.pub$	28	28		0.0367	0.8368	0.2214	10	10	10	
+^\\s*(.+)(\\s+as\\s+)(.+)\\s*$	24	59		0.0514	1.2602	0.2463	16	20	11	
+^([-]?(0|0{1}[1-9]+[0-9]*|[1-9]+[0-9]*[\\.]?[0-9]*))$	9	21		0.097	0.2779	0.2273	12	11	5	
+^([\\+\\-]?\\d+)$	7	7		0.051	0.0827	0.0532	5	5	5	
+^([0-9a-z]+[0-9a-z\\-]+\\.)+[0-9a-z]+[0-9a-z\\-]+$	23	66		1.9544	0.3714	0.3902	16	24	11	
+\\[([^\\]]*)\\](:\\d+)?										ERROR
+/\\S*/libc\\.so\\S*	41	86		0.0552	0.4337	0.3354	15	28	14	
+OS [0-4](_\\d)+ like Mac	49	107		0.1177	0.5629	0.5183	20	36	17	
+^(?:\\s*-\\.-\\s*)	8	12		0.0499	0.0939	0.0706	9	9	7	
+%[AaBbCcDdeGghjmuYy](?:[^%]*%[AaBbCcDdeGghjmuYy])*	6	21		4.1886	0.143	0.0868	8	9	3	
+,|\\(|\\/|\\s										ERROR
+INTERVAL=	27	51		0.034	0.3639	0.3342	10	18	10	
+.+dbname=(.+)$	33	62		0.0476	0.4088	0.4004	12	17	10	
+\\A\\d{2,2}-\\d{1,2}-\\d{1,2}\\z	46	89		0.0602	0.2952	0.6474	18	30	16	
+\\A reverse \\z	39	75		0.041	0.2033	0.1226	14	26	14	
+([$htmlspecialchars])	3	3		0.2473	0.0383	0.0293	2	2	2	
+[1-9]\\d* error(s)	28	53		0.0515	0.3083	0.2335	11	18	10	
+:-*\\$	7	7		0.031	0.111	0.4838	4	3	3	
+Died at \\(eval \\d+\\)	52	101		0.0641	0.4573	0.3248	19	34	18	
+cmis:properties	45	87		1.162	0.2696	0.2425	16	30	16	
+^(.* BET .+) - (.+)	23	91		0.079	0.4761	0.3647	14	28	11	
+\\GEXEC(UTE)?\\s+IMMEDIATE\\s+	67	138		0.0806	0.5673	0.4563	26	46	23	
+^(skip|test|todo) 	13	13		0.072	0.0534	0.1055	12	11	11	
+^([^\\/]+:\\/\\/|\\/)	11	13		0.0792	0.1246	0.0755	10	9	7	
+^(?:SOME\\b)	7	7		0.0266	0.0002	0.065	7	7	7	
+([a-zA-Z][-.a-zA-Z0-9:_]*)(?:\\s|/(?!>))*										ERROR
+UPDATE ([a-z0-9_]+).*?WHERE(.*)/	59	265		0.0999	1.9536	1.4105	18	68	19	
+#\\s*([a-zA-Z0-9_]+)\\s*\\{(\\s*(((\"([^\"\\\\]|\\\\\")*\")|\\[\\s*((\"([^\"\\\\]|\\\\\")*\"\\s*),?)*\\])\\s*,?\\s*)*\\s*)\\}										ERROR
+^<(script|style)(?=(\\s|>|$))										ERROR
+^m(in|inute)?s?	2	17		0.0552	0.1347	0.0923	11	9	2	
+([0-9a-f]{0,4}:){2,7}[0-9a-f]{0,4}	17	81		0.1984	0.4841	0.168	64	27	7	
+^\\s*:-	5	5		0.0268	0.0688	0.0566	5	4	4	
+(file\\:|file\\:\\/\\/)\\/X:\\/foo\\/bar$	74	76		0.1035	0.5865	0.3255	32	26	25	
+\\[E\\]	5	9		0.0554	0.8821	0.0405	3	4	3	
+https?://eelsdb\\.eu/wp-content/uploads/\\d{4}/\\d{2}/.+\\.msa	178	897		0.139	4.0823	3.1475	57	218	58	
+[-+]?[.]?[\\d]+(?:,\\d\\d\\d)*[\\.]?\\d*(?:[eE][-+]?\\d+)?	10	165		0.1282	0.9677	0.3885	25	29	4	
+^:filter off$	11	11		0.0376	0.0002	1.0067	12	12	12	
+\\0+$	8	8		0.0186	0.038	0.0318	3	3	3	
+^\\s*<\\?((\\w+)\\s*)?(.*)$	4	16		0.0377	0.1836	0.1344	11	8	3	
+^Linux 2\\.	10	10		0.0374	0.0001	0.0603	10	10	10	
+(\\d+:\\d+:\\d+)	24	54		0.0504	0.1926	0.1166	12	18	9	
+^\n\t\t\t\t\\#\\s?\n\t\t\t\t(?:\n\t\t\t\t\t(?:\n\t\t\t\t\t\t(include)\t\t\t# $1\n\t\t\t\t\t\t\\s\n\t\t\t\t\t\t(?:\n\t\t\t\t\t\t\t([^'\"]+?)\t\t# $2\n\t\t\t\t\t\t\t|\n\t\t\t\t\t\t\t\"([^']+?)\"\t\t# $3\n\t\t\t\t\t\t\t|\n\t\t\t\t\t\t\t'(.+?)'\t\t\t# $4\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t\t|\n\t\t\t\t\t(?:\n\t\t\t\t\t\t(for)\t\t\t\t# $5\n\t\t\t\t\t\t\\s\n\t\t\t\t\t\t\\#\\#\n\t\t\t\t\t\t(\\w+?)\t\t\t\t# $6\n\t\t\t\t\t\t\\#\\#\n\t\t\t\t\t)\n\t\t\t\t\t|\n\t\t\t\t\t(?:\n\t\t\t\t\t\t( if | elsif )\t\t\t# $7\n\t\t\t\t\t\t\\s\n\t\t\t\t\t\t(.+)\t\t\t\t# $8\n\t\t\t\t\t)\n\t\t\t\t\t|\n\t\t\t\t\t( endfor | else | endif )\t\t# $9\n\t\t\t\t)\n\t\t\t$										ERROR
+^([^<]*)(<\\/)	5	5		0.033	0.0532	0.0492	5	4	4	
+\\s\\(?$paatext\\)?\\s										ERROR
+Polarity$	25	25		0.0311	0.2491	0.1568	9	9	9	
+^the	4	4		0.0284	0.0002	0.0385	4	4	4	
+(\\d\\d\\d\\d)(\\d\\d)(\\d\\d)(\\d\\d)(\\d\\d)	61	120		0.0784	0.3161	0.1685	25	48	25	
+^P7 332	7	7		0.0553	0.0001	0.0586	7	7	7	
+(-[ao])( .+|$)	11	43		0.0682	0.2496	0.1426	6	14	5	
+^[^{]+\\{\\s+|\\s+}$	39	39		0.0696	0.7784	0.0889	14	13	13	
+(?i)(limit [0-9]+)$	23	23		22.8445	0.2467	0.1508	8	8	8	
+^\\s*(\\w+)\\s*=>\\s*(\\S+)	14	18		0.0741	0.1209	0.0927	15	12	10	
+(^|[^aeiou])r($|[^aeiou])	8	19		0.1585	0.1768	0.1061	6	7	4	
+/?Action=ListTopics	51	139		0.0602	0.7693	0.6714	21	36	18	
+^(<<|>>)\\s*(.*)$	6	10		0.0487	0.0736	0.078	6	7	5	
+^($NCName):\\*$										ERROR
+-\\d$	10	10		0.0236	0.0648	0.0638	4	4	4	
+^<!DOCTYPE msi \\[										ERROR
+([^\\$\\w\\d])WWWwWw([^\\w\\d])	25	49		0.1383	0.2144	0.1873	9	16	9	
+([0-9])n	6	9		0.031	0.0606	0.0747	3	4	3	
+^Merge\\s\\w{40}\\sinto\\s\\w{40}$	97	97		0.116	0.0001	0.2868	98	98	98	
+(-)?P(\\d+W)?(\\d+D)?(?:T(\\d+H)?(\\d+M)?(\\d+S)?)?	3	95		0.0834	0.9468	0.3957	31	22	2	
+\\x0d+$	14	14		0.0352	0.0463	0.0392	5	5	5	
+^(\\-?)cosech$	9	9		0.0426	0.0837	0.1138	10	9	9	
+smartphone_(backoffice|frontoffice)\\.php$	96	114		0.131	0.6372	0.5099	37	38	32	
+^\\s* ([+-]?)\n                     (\\d*)\n\t\t     (\\.?)\n\t\t     (\\d*)\n\t\t     ([Ee]?)\n\t\t     ([+-]?\\d+)? \\s*$	77	77		0.2187	1.9559	0.3498	76	68	68	
+^bundles\\/	10	10		0.0355	0.0001	0.0602	10	10	10	
+\n\t\t\t\t^(\\#{1,6})\t# $1 = string of #'s\n\t\t\t\t[ ]*\n\t\t\t\t(.+?)\t\t# $2 = Header text\n\t\t\t\t[ ]*\n\t\t\t\t\\#*\t\t\t# optional closing #'s (not counted)\n\t\t\t\t\\n+\n\t\t\t										ERROR
+ZMQ::Socket instance \\w* has been destroyed by the ZMQ framework	187	371		0.1998	1.4183	1.0703	64	124	63	
+Bitte geben Sie ein g&uuml;ltiges Datum ein	129	255		0.097	0.8668	0.7246	44	86	44	
+^[*+\\-%<>!=&|~^]										ERROR
+^-?t(f|l|t|n|rpl|pl|p|sp|sl|st|s|vp|v|ol|od|or|ou)?(\\d*)-?(\\d*)	25	29		0.7306	0.807	0.5128	23	15	13	
+.*\\.html	26	67		0.0441	0.3491	0.2248	9	18	9	
+\\[hr\\]	5	9		0.0592	0.112	0.0479	3	4	3	
+src=\".\\/	28	53		0.0383	0.1959	0.1695	9	18	10	
+\\G\\(.*?\\)	16	36		0.0314	0.1374	0.1308	6	14	7	
+CURSOR	18	33		0.0263	1.0484	0.2005	7	12	7	
+/\\* \\d+ methods \\*/	43	84		0.056	0.3755	0.31	18	28	15	
+\\s*(\\d+)\\s*(\\d+)\\s*ACCEPT.*\\/\\* bw:(\\S+) \\*\\/	90	338		0.0914	1.6892	1.3335	34	82	26	
+Status: Closed	42	81		0.0494	0.5127	0.4088	15	28	15	
+^I have have a queue$	19	19		0.1044	0.0001	1.2982	20	20	20	
+$feature_sep										ERROR
+^(?:MPL-1.0)	8	8		0.0386	0.0001	0.0572	8	8	8	
+[^[:print:]|\\r|\\n]	3	3		0.262	0.0444	0.0341	2	2	2	
+^.*\\@([^\\@]+)$	14	14		0.0692	0.1834	0.1032	5	5	5	
+^<(\\/?)([a-z]+)\\s*>$	9	9		0.0459	0.1411	0.1085	10	7	7	
+enum\\((.*)\\)	18	69		0.0426	0.4379	0.3274	8	20	7	
+([^';]*|('[^']*')*)+;	3	20		0.2339	0.2066	0.0718	6	8	2	
+[\\]]+	6	16		0.0549	0.1091	0.072	4	6	3	
+--\\[\\[COLONY_MODULE\\]\\][\\s\\S]*$	19	19		0.2261	0.1409	0.0902	7	7	7	
+^\\D[a-z_\\d]*\\(.*\\)$	8	14		0.0867	0.1515	0.0908	7	7	5	
+(?<!\\\\)%(\\d*\\.?\\d*)z										ERROR
+<div class=\"writeboardbody\">(.*?)</div>	108	213		0.0973	0.9432	0.7304	36	72	37	
+^<\\?xml version=\"1.0\" encoding=\"UTF-8\"\\?>\\n<rss	47	47		0.1339	0.2092	0.1575	47	45	45	
+ROOTED	18	33		0.0265	0.2107	0.1708	7	12	7	
+^\\#\\s*if\\s+(!defined\\(([^\\)]+)\\)(\\s+\\&\\&\\s+!defined\\(([^\\)]+)\\))*)$	28	43		0.1711	0.3216	0.2992	43	37	24	
+^\\s*-\\s*raw\\s*$|^\\s*flags\\s*:.*\\braw\\b	38	64		0.1218	0.2682	0.2354	28	29	22	
+OWNER TO	23	44		0.0369	0.2667	0.2017	9	16	9	
+#EXT-X-STREAM-INF:(\\w+=\\w+)+	70	163		0.1426	1.6232	0.5476	33	53	24	
+(svg|a|area|input|select|textarea|button|iframe|div)$	149	275		0.1539	4.5287	1.5065	44	35	22	
+<InclusiveNamespaces xmlns=\"http://www.w3.org/2001/10/xml-exc-c14n#\" PrefixList=\"#default saml ds xs xsi\"/>	329	655		0.2361	2.5967	2.5105	108	218	110	
+^([^(<?]+)(?:\\(([^)]+)\\))?(?:<(.*)>)?(\\?)?$	28	59		0.1789	0.6017	0.6944	13	16	10	
+const VERSION = [\\'\\\"]([0-9.]{0,}|master)[\\'\\\"]\\;	84	165		0.19	0.859	0.6731	30	54	28	
+^<svg xmlns=\"http:\\/\\/www\\.w3\\.org\\/2000\\/svg\">(.*)<\\/svg>$	68	68		0.1444	0.4782	0.2533	55	54	54	
+\"swagger\":\"2.0\"	48	94		0.0496	0.4475	0.3543	16	32	17	
+\\s*([^=\\s]+)	6	16		0.0627	0.1378	0.0861	5	6	3	
+^$Sign\\d+$										ERROR
+\n        (.+?)          # base name (group 1)\n        ([^\\s\\w].+)    # extended part (group 2)\n    	441	880		0.2334	4.431	2.7523	84	262	132	
+^(?s)SequenceNumber: (\\\\d+)\\n(.*)$	23	23		0.088	0.128	0.0888	23	22	22	
+[\\u042F]	3	3		0.0887	0.0517	0.027	2	2	2	
+dec_osf	21	39		0.0365	0.1049	0.1779	8	14	8	
+\\d{4}-\\d{1,2}-\\d{1,2} \\d{1,2}:\\d{1,2}:\\d{1,2}(\\.\\d{1,10})?	75	202		0.0974	0.5596	0.2311	45	66	25	
+NFS\\d+_HOST	31	59		0.0487	1.5453	0.2911	12	20	11	
+\\balt\\b	20	38		0.0383	0.1052	0.0898	8	14	8	
+XRV9	12	21		0.0307	0.1587	0.1261	5	8	5	
+([\u30a4\u30ad\u30b7\u30c1\u30cb\u30d2\u30df\u30ea])\u30fc	6	9		0.5037	0.1001	0.0709	3	4	3	
+{space}	21	39		0.036	0.2778	0.21	8	14	8	
+\\w{16,32}	51	153		0.0485	0.3811	0.1491	35	52	18	
+Response: nobugfixtillyoubuy	84	165		0.0721	0.7429	0.6055	29	56	29	
+[^\\d\\\\]+|\\\\\\d+	12	12		0.0775	0.4523	0.0361	11	5	5	
+[a-zA-Z0-9_]+\\.[a-z0-9_]+	16	38		0.0677	0.2253	0.1884	8	12	6	
+^the state of VM \"([^\"]*)\" is not \"([^\"]*)\"$	30	30		0.0835	0.1398	0.1069	31	29	29	
+Window id:(.*?)\\(										ERROR
+\\d{1,3}px	20	37		0.0378	0.1835	0.1688	8	12	7	
+<url>(.+?)<\\/url><token>(.+?)<\\/token>	96	189		0.0943	0.5091	0.3563	31	64	33	
+\\bhover(\\.\\S+)?\\b	42	85		0.0579	0.2777	0.2494	15	29	15	
+Cell \\d\\d - 	36	69		0.0393	0.3077	0.2415	13	24	13	
+^[a-z][a-z0-9+-\\.]*:.+$	5	13		0.1089	0.1504	0.0767	5	6	4	
+format_quotes	39	75		0.0457	0.9513	0.3105	14	26	14	
+^([\\w\\d]*)::(.*)	4	8		0.0538	0.0824	0.0653	5	5	3	
+^[a-z]{1,6}$	6	6		0.0179	0.0002	0.0717	7	7	7	
+Argument #1 expected MyClass instance, but was <anon> instance	186	369		0.1297	1.3095	0.9323	63	124	63	
+<h1><span>([^<]+)	32	66		0.039	0.2761	0.1484	13	24	12	
+^\\%PDF\\-	8	8		0.0399	0.0002	0.0514	8	8	8	
+^b_?(call|jump)\\b	15	15		0.0776	0.2142	0.1295	13	12	12	
+\\A(\\w{3,5})_(\\w{3,5})\\z	53	103		0.06	0.3732	1.4087	20	34	18	
+\\{\\s*(if|elseif)\\s*(.+?)\\s*\\}	83	168		0.09	0.7124	0.5682	19	48	24	
+Response:  y u no syncronize your clock\\?	117	240		0.1008	0.6319	0.3908	42	81	40	
+^[a-z]+ [a-z]+$	5	5		0.0388	0.0687	0.0863	5	4	4	
+(- ?([^-]+(?:-={[^-]+-?$)?))$										ERROR
+_${t}\\d*_										ERROR
+data:[^;\\n]+;base64,(.*)	41	219		0.1171	1.2177	0.6843	17	58	15	
+<h1><a.+?>([^<]+)	30	62		0.0483	0.2214	0.1607	11	22	11	
+expected boolean in ['true', 'false'], but got 'True'	115	227		0.2808	0.7705	0.6066	38	76	39	
+^.*(?:(?:youtu\\.be\\/)|(?:youtube\\.com)\\/|v\\/|u\\/\\w\\/|embed\\/|watch\\?v=|\\&v=)([^#\\&\\?]*)	408	1205		0.3029	8.0186	4.6031	52	140	52	
+0\\d{2}[\\-\\s]?\\d{6}	41	79		0.0792	0.3091	0.2048	14	26	14	
+(</html>|</b>)	22	22		0.0605	1.6852	0.0702	14	8	8	
+^((20)|(25)|(2f)|(3d)|(40))+	7	21		0.0838	0.2976	0.2366	13	10	5	
+skip|kill|killnowait	28	28		0.0836	1.5604	0.052	22	8	8	
+^Jekyll should throw a \"(.+)\"$	28	28		0.0973	0.1768	0.097	27	26	26	
+INLINE \\((.*)\\)	27	114		0.0491	0.7776	0.5592	11	32	10	
+^16CN	5	5		0.0336	0.0001	0.0458	5	5	5	
+(\\d*) *	3	13		0.0321	0.0711	0.0354	4	5	2	
+/v2/_catalog	36	69		0.0373	0.3083	0.2766	13	24	13	
+debugger listening on port	78	153		0.0683	0.2935	0.3652	27	52	27	
+([\\n\\t ])(\\[[0-9A-Za-z_/:-]+\\]|[A-Za-z0-9]+[A-Z_/:-][0-9A-Za-z_/:-]*)	63	400		0.381	1.6922	0.9434	11	68	12	
+^domain$	6	6		0.0265	0.0002	0.0511	7	7	7	
+(\\[.*?\\])\\(.*\\/commits\\/SHA\\)	69	172		0.1616	1.4739	0.5074	20	46	20	
+^(?:(?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2})[.](?:25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{1,2}))$	51	71		0.2437	0.6008	0.4595	47	40	24	
+\\A0[0-7]{3,4}\\z	27	51		0.0493	0.187	0.1231	11	18	10	
+^(\\-?\\d+(\\.\\d{1,2})?)@ms(\\d+(\\.\\d{1,2})?)?$	24	24		0.0657	0.1764	0.2	24	20	20	
+Block Comment Off = (\\S{1,5})	66	147		0.0695	0.5779	0.4023	28	50	23	
+crate.client.exceptions.ProgrammingError:	134	265		0.1133	0.6746	0.5201	42	88	45	
+#pragma unroll_loop\\s+for\\s*\\(\\s*int\\s+i\\s*=\\s*([\\w\\d]+);\\s*i\\s+<\\s+([\\w\\d]+);\\s*i\\s*\\+\\+\\s*\\)\\s*\\{\\n([^}]*)\\}	223	1194		0.2308	5.8958	3.5565	80	282	68	
+\\.[a-z0-9]{8}\\.html	96	188		0.0681	0.547	0.4141	17	58	30	
+[\\'\u2019](s|ll|d|ve)?\\b	25	47		0.148	0.461	1.2903	8	12	7	
+\"host\":\"localhost\\.foo\\.com\"	91	180		0.0858	0.5211	0.445	29	60	31	
+\\son\\w+\\s*=	34	63		0.0457	0.2742	0.2111	11	20	11	
+^0x[0-9a-f]{1,31}$	33	33		0.0644	0.0001	0.1785	34	34	34	
+^fun int EncodedFromUTF8=2449\\(string utf8, stringresult encoded\\)	64	64		0.1489	0.0001	0.2089	64	64	64	
+^-?(\\d+|\\d*(\\.\\d+))\\s*([/*%+-]\\s*-?(\\d+|\\d*(\\.\\d+)))+$	40	55		0.3149	0.4621	0.3925	41	31	22	
+(['\"])([^,;'\"]+)(\\1)	15	27		0.0989	0.2521	0.1438	6	8	5	
+\\bmodifier\\-uppercase\\b|\\bmodifier\\-lowercase\\b	75	75		0.1589	2.3809	0.1353	49	26	26	
+symbol 	21	39		0.0353	0.1519	0.176	8	14	8	
+^NS_|_PATH$	25	25		0.0512	1.4176	0.0634	11	10	10	
+<key>dashIndexFilePath</key>	84	165		0.0649	0.4451	0.2928	29	56	29	
+^ *command: .*	11	15		0.0428	0.1088	0.0813	12	12	10	
+relation_expr 'ALTER' 	66	129		0.0565	0.5818	0.5305	23	44	23	
+(<mpx>.*)<arc>(.*<\\/mpx>)	61	191		0.0686	0.8595	0.6919	20	52	18	
+responses = 10	42	81		0.0481	0.2372	0.1949	15	28	15	
+<CandidateCUI>(.*?)<\\/CandidateCUI>	96	189		0.0798	0.4527	0.309	32	64	33	
+^http:\\/\\/example\\.com\\/avatars\\/data\\?\\d*$	39	39		0.0996	0.1883	0.1387	40	39	39	
+^[a-zA-Z0-9]*$	1	1		0.0356	0.0001	0.0267	1	1	1	
+\\0*$	4	4		0.0176	0.0319	0.0274	2	2	2	
+^The domain (.+?) was not found!$	27	27		0.0726	0.0001	0.1049	28	28	28	
+\\{\\{param::filter\\?([^}]*)\\}\\}	62	261		0.069	1.3393	0.7046	25	78	22	
+      02 	21	40		0.031	0.161	0.1276	10	18	10	
+^(sij|velj|o\u017eu|tra|svi|lip|srp|kol|ruj|lis|stu|pro)	29	44		0.1748	0.8999	0.497	38	33	19	
+([^/]+)\\.git$	37	37		0.0358	0.2757	0.1543	9	10	10	
+^0\\.[0-9]+	5	9		0.033	0.0564	0.0604	6	7	5	
+(^.*/l/\\w{0,32})/(?P<type_id>\\w{0,32})/(!.*)?$										ERROR
+^$_->[0]										ERROR
+flashfire	27	51		0.0312	0.2306	0.2127	10	18	10	
+env value1	30	57		0.0332	0.2183	0.174	11	20	11	
+^([^=\"']+)=(.+)	5	9		0.0618	0.1029	0.0582	6	6	4	
+\\s{3,}[-:\\#\\(\\[]+([-a-z0-9]{4,})[\\]\\)]+$										ERROR
+^http://microformats.org/profile/	33	33		0.0795	0.0001	0.1249	33	33	33	
+http://api.douban.com/miniblog/(\\d+)	107	218		0.0951	0.5992	0.4165	35	72	36	
+\\\\ding\\{228\\}	36	69		0.049	0.2246	0.1604	14	26	14	
+^(\u7b2c\\s*)?\\d+	7	11		0.0604	0.0902	0.0716	7	7	5	
+http://schema.org/ComedyEvent	91	179		0.0831	0.5077	0.3981	30	60	31	
+^.+\\:	7	13		0.0248	0.0987	0.064	5	6	4	
+wast.* 90 ?s	32	98		0.0418	1.5094	0.6524	12	24	10	
+^[\\w\\d]{1,3}[.][\\w]*$	7	7		0.0516	0.1109	0.1192	6	5	5	
+(?i)^where\\b	8	8		7.9005	0.0002	0.0943	8	8	8	
+\n\t     ([\\000-\\037]|[\\177-\\377])\n\t   	38	74		0.4137	0.2343	0.1846	14	26	14	
+([^/]*)(/.*)$	4	10		0.026	0.0639	0.0569	4	4	2	
+^(?:[0-:A-Z_a-z\\xAA\\xB2\\xB3\\xB5\\xB9\\xBA\\xBC-\\xBE\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0370-\\u0374\\u0376\\u0377\\u037A-\\u037D\\u037F\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03F5\\u03F7-\\u0481\\u048A-\\u052F\\u0531-\\u0556\\u0559\\u0561-\\u0587\\u05D0-\\u05EA\\u05F0-\\u05F2\\u0620-\\u064A\\u0660-\\u0669\\u066E\\u066F\\u0671-\\u06D3\\u06D5\\u06E5\\u06E6\\u06EE-\\u06FC\\u06FF\\u0710\\u0712-\\u072F\\u074D-\\u07A5\\u07B1\\u07C0-\\u07EA\\u07F4\\u07F5\\u07FA\\u0800-\\u0815\\u081A\\u0824\\u0828\\u0840-\\u0858\\u0860-\\u086A\\u08A0-\\u08B4\\u08B6-\\u08BD\\u0904-\\u0939\\u093D\\u0950\\u0958-\\u0961\\u0966-\\u096F\\u0971-\\u0980\\u0985-\\u098C\\u098F\\u0990\\u0993-\\u09A8\\u09AA-\\u09B0\\u09B2\\u09B6-\\u09B9\\u09BD\\u09CE\\u09DC\\u09DD\\u09DF-\\u09E1\\u09E6-\\u09F1\\u09F4-\\u09F9\\u09FC\\u0A05-\\u0A0A\\u0A0F\\u0A10\\u0A13-\\u0A28\\u0A2A-\\u0A30\\u0A32\\u0A33\\u0A35\\u0A36\\u0A38\\u0A39\\u0A59-\\u0A5C\\u0A5E\\u0A66-\\u0A6F\\u0A72-\\u0A74\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABD\\u0AD0\\u0AE0\\u0AE1\\u0AE6-\\u0AEF\\u0AF9\\u0B05-\\u0B0C\\u0B0F\\u0B10\\u0B13-\\u0B28\\u0B2A-\\u0B30\\u0B32\\u0B33\\u0B35-\\u0B39\\u0B3D\\u0B5C\\u0B5D\\u0B5F-\\u0B61\\u0B66-\\u0B6F\\u0B71-\\u0B77\\u0B83\\u0B85-\\u0B8A\\u0B8E-\\u0B90\\u0B92-\\u0B95\\u0B99\\u0B9A\\u0B9C\\u0B9E\\u0B9F\\u0BA3\\u0BA4\\u0BA8-\\u0BAA\\u0BAE-\\u0BB9\\u0BD0\\u0BE6-\\u0BF2\\u0C05-\\u0C0C\\u0C0E-\\u0C10\\u0C12-\\u0C28\\u0C2A-\\u0C39\\u0C3D\\u0C58-\\u0C5A\\u0C60\\u0C61\\u0C66-\\u0C6F\\u0C78-\\u0C7E\\u0C80\\u0C85-\\u0C8C\\u0C8E-\\u0C90\\u0C92-\\u0CA8\\u0CAA-\\u0CB3\\u0CB5-\\u0CB9\\u0CBD\\u0CDE\\u0CE0\\u0CE1\\u0CE6-\\u0CEF\\u0CF1\\u0CF2\\u0D05-\\u0D0C\\u0D0E-\\u0D10\\u0D12-\\u0D3A\\u0D3D\\u0D4E\\u0D54-\\u0D56\\u0D58-\\u0D61\\u0D66-\\u0D78\\u0D7A-\\u0D7F\\u0D85-\\u0D96\\u0D9A-\\u0DB1\\u0DB3-\\u0DBB\\u0DBD\\u0DC0-\\u0DC6\\u0DE6-\\u0DEF\\u0E01-\\u0E30\\u0E32\\u0E33\\u0E40-\\u0E46\\u0E50-\\u0E59\\u0E81\\u0E82\\u0E84\\u0E87\\u0E88\\u0E8A\\u0E8D\\u0E94-\\u0E97\\u0E99-\\u0E9F\\u0EA1-\\u0EA3\\u0EA5\\u0EA7\\u0EAA\\u0EAB\\u0EAD-\\u0EB0\\u0EB2\\u0EB3\\u0EBD\\u0EC0-\\u0EC4\\u0EC6\\u0ED0-\\u0ED9\\u0EDC-\\u0EDF\\u0F00\\u0F20-\\u0F33\\u0F40-\\u0F47\\u0F49-\\u0F6C\\u0F88-\\u0F8C\\u1000-\\u102A\\u103F-\\u1049\\u1050-\\u1055\\u105A-\\u105D\\u1061\\u1065\\u1066\\u106E-\\u1070\\u1075-\\u1081\\u108E\\u1090-\\u1099\\u10A0-\\u10C5\\u10C7\\u10CD\\u10D0-\\u10FA\\u10FC-\\u1248\\u124A-\\u124D\\u1250-\\u1256\\u1258\\u125A-\\u125D\\u1260-\\u1288\\u128A-\\u128D\\u1290-\\u12B0\\u12B2-\\u12B5\\u12B8-\\u12BE\\u12C0\\u12C2-\\u12C5\\u12C8-\\u12D6\\u12D8-\\u1310\\u1312-\\u1315\\u1318-\\u135A\\u1369-\\u137C\\u1380-\\u138F\\u13A0-\\u13F5\\u13F8-\\u13FD\\u1401-\\u166C\\u166F-\\u167F\\u1681-\\u169A\\u16A0-\\u16EA\\u16EE-\\u16F8\\u1700-\\u170C\\u170E-\\u1711\\u1720-\\u1731\\u1740-\\u1751\\u1760-\\u176C\\u176E-\\u1770\\u1780-\\u17B3\\u17D7\\u17DC\\u17E0-\\u17E9\\u17F0-\\u17F9\\u1810-\\u1819\\u1820-\\u1877\\u1880-\\u1884\\u1887-\\u18A8\\u18AA\\u18B0-\\u18F5\\u1900-\\u191E\\u1946-\\u196D\\u1970-\\u1974\\u1980-\\u19AB\\u19B0-\\u19C9\\u19D0-\\u19DA\\u1A00-\\u1A16\\u1A20-\\u1A54\\u1A80-\\u1A89\\u1A90-\\u1A99\\u1AA7\\u1B05-\\u1B33\\u1B45-\\u1B4B\\u1B50-\\u1B59\\u1B83-\\u1BA0\\u1BAE-\\u1BE5\\u1C00-\\u1C23\\u1C40-\\u1C49\\u1C4D-\\u1C7D\\u1C80-\\u1C88\\u1CE9-\\u1CEC\\u1CEE-\\u1CF1\\u1CF5\\u1CF6\\u1D00-\\u1DBF\\u1E00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD0-\\u1FD3\\u1FD6-\\u1FDB\\u1FE0-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2070\\u2071\\u2074-\\u2079\\u207F-\\u2089\\u2090-\\u209C\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2119-\\u211D\\u2124\\u2126\\u2128\\u212A-\\u212D\\u212F-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E\\u2150-\\u2189\\u2460-\\u249B\\u24EA-\\u24FF\\u2776-\\u2793\\u2C00-\\u2C2E\\u2C30-\\u2C5E\\u2C60-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2\\u2CF3\\u2CFD\\u2D00-\\u2D25\\u2D27\\u2D2D\\u2D30-\\u2D67\\u2D6F\\u2D80-\\u2D96\\u2DA0-\\u2DA6\\u2DA8-\\u2DAE\\u2DB0-\\u2DB6\\u2DB8-\\u2DBE\\u2DC0-\\u2DC6\\u2DC8-\\u2DCE\\u2DD0-\\u2DD6\\u2DD8-\\u2DDE\\u2E2F\\u3005-\\u3007\\u3021-\\u3029\\u3031-\\u3035\\u3038-\\u303C\\u3041-\\u3096\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3105-\\u312E\\u3131-\\u318E\\u3192-\\u3195\\u31A0-\\u31BA\\u31F0-\\u31FF\\u3220-\\u3229\\u3248-\\u324F\\u3251-\\u325F\\u3280-\\u3289\\u32B1-\\u32BF\\u3400-\\u4DB5\\u4E00-\\u9FEA\\uA000-\\uA48C\\uA4D0-\\uA4FD\\uA500-\\uA60C\\uA610-\\uA62B\\uA640-\\uA66E\\uA67F-\\uA69D\\uA6A0-\\uA6EF\\uA717-\\uA71F\\uA722-\\uA788\\uA78B-\\uA7AE\\uA7B0-\\uA7B7\\uA7F7-\\uA801\\uA803-\\uA805\\uA807-\\uA80A\\uA80C-\\uA822\\uA830-\\uA835\\uA840-\\uA873\\uA882-\\uA8B3\\uA8D0-\\uA8D9\\uA8F2-\\uA8F7\\uA8FB\\uA8FD\\uA900-\\uA925\\uA930-\\uA946\\uA960-\\uA97C\\uA984-\\uA9B2\\uA9CF-\\uA9D9\\uA9E0-\\uA9E4\\uA9E6-\\uA9FE\\uAA00-\\uAA28\\uAA40-\\uAA42\\uAA44-\\uAA4B\\uAA50-\\uAA59\\uAA60-\\uAA76\\uAA7A\\uAA7E-\\uAAAF\\uAAB1\\uAAB5\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2\\uAADB-\\uAADD\\uAAE0-\\uAAEA\\uAAF2-\\uAAF4\\uAB01-\\uAB06\\uAB09-\\uAB0E\\uAB11-\\uAB16\\uAB20-\\uAB26\\uAB28-\\uAB2E\\uAB30-\\uAB5A\\uAB5C-\\uAB65\\uAB70-\\uABE2\\uABF0-\\uABF9\\uAC00-\\uD7A3\\uD7B0-\\uD7C6\\uD7CB-\\uD7FB\\uF900-\\uFA6D\\uFA70-\\uFAD9\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFBB1\\uFBD3-\\uFD3D\\uFD50-\\uFD8F\\uFD92-\\uFDC7\\uFDF0-\\uFDFB\\uFE70-\\uFE74\\uFE76-\\uFEFC\\uFF10-\\uFF19\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC]|\\uD800[\\uDC00-\\uDC0B\\uDC0D-\\uDC26\\uDC28-\\uDC3A\\uDC3C\\uDC3D\\uDC3F-\\uDC4D\\uDC50-\\uDC5D\\uDC80-\\uDCFA\\uDD07-\\uDD33\\uDD40-\\uDD78\\uDD8A\\uDD8B\\uDE80-\\uDE9C\\uDEA0-\\uDED0\\uDEE1-\\uDEFB\\uDF00-\\uDF23\\uDF2D-\\uDF4A\\uDF50-\\uDF75\\uDF80-\\uDF9D\\uDFA0-\\uDFC3\\uDFC8-\\uDFCF\\uDFD1-\\uDFD5]|\\uD801[\\uDC00-\\uDC9D\\uDCA0-\\uDCA9\\uDCB0-\\uDCD3\\uDCD8-\\uDCFB\\uDD00-\\uDD27\\uDD30-\\uDD63\\uDE00-\\uDF36\\uDF40-\\uDF55\\uDF60-\\uDF67]|\\uD802[\\uDC00-\\uDC05\\uDC08\\uDC0A-\\uDC35\\uDC37\\uDC38\\uDC3C\\uDC3F-\\uDC55\\uDC58-\\uDC76\\uDC79-\\uDC9E\\uDCA7-\\uDCAF\\uDCE0-\\uDCF2\\uDCF4\\uDCF5\\uDCFB-\\uDD1B\\uDD20-\\uDD39\\uDD80-\\uDDB7\\uDDBC-\\uDDCF\\uDDD2-\\uDE00\\uDE10-\\uDE13\\uDE15-\\uDE17\\uDE19-\\uDE33\\uDE40-\\uDE47\\uDE60-\\uDE7E\\uDE80-\\uDE9F\\uDEC0-\\uDEC7\\uDEC9-\\uDEE4\\uDEEB-\\uDEEF\\uDF00-\\uDF35\\uDF40-\\uDF55\\uDF58-\\uDF72\\uDF78-\\uDF91\\uDFA9-\\uDFAF]|\\uD803[\\uDC00-\\uDC48\\uDC80-\\uDCB2\\uDCC0-\\uDCF2\\uDCFA-\\uDCFF\\uDE60-\\uDE7E]|\\uD804[\\uDC03-\\uDC37\\uDC52-\\uDC6F\\uDC83-\\uDCAF\\uDCD0-\\uDCE8\\uDCF0-\\uDCF9\\uDD03-\\uDD26\\uDD36-\\uDD3F\\uDD50-\\uDD72\\uDD76\\uDD83-\\uDDB2\\uDDC1-\\uDDC4\\uDDD0-\\uDDDA\\uDDDC\\uDDE1-\\uDDF4\\uDE00-\\uDE11\\uDE13-\\uDE2B\\uDE80-\\uDE86\\uDE88\\uDE8A-\\uDE8D\\uDE8F-\\uDE9D\\uDE9F-\\uDEA8\\uDEB0-\\uDEDE\\uDEF0-\\uDEF9\\uDF05-\\uDF0C\\uDF0F\\uDF10\\uDF13-\\uDF28\\uDF2A-\\uDF30\\uDF32\\uDF33\\uDF35-\\uDF39\\uDF3D\\uDF50\\uDF5D-\\uDF61]|\\uD805[\\uDC00-\\uDC34\\uDC47-\\uDC4A\\uDC50-\\uDC59\\uDC80-\\uDCAF\\uDCC4\\uDCC5\\uDCC7\\uDCD0-\\uDCD9\\uDD80-\\uDDAE\\uDDD8-\\uDDDB\\uDE00-\\uDE2F\\uDE44\\uDE50-\\uDE59\\uDE80-\\uDEAA\\uDEC0-\\uDEC9\\uDF00-\\uDF19\\uDF30-\\uDF3B]|\\uD806[\\uDCA0-\\uDCF2\\uDCFF\\uDE00\\uDE0B-\\uDE32\\uDE3A\\uDE50\\uDE5C-\\uDE83\\uDE86-\\uDE89\\uDEC0-\\uDEF8]|\\uD807[\\uDC00-\\uDC08\\uDC0A-\\uDC2E\\uDC40\\uDC50-\\uDC6C\\uDC72-\\uDC8F\\uDD00-\\uDD06\\uDD08\\uDD09\\uDD0B-\\uDD30\\uDD46\\uDD50-\\uDD59]|\\uD808[\\uDC00-\\uDF99]|\\uD809[\\uDC00-\\uDC6E\\uDC80-\\uDD43]|[\\uD80C\\uD81C-\\uD820\\uD840-\\uD868\\uD86A-\\uD86C\\uD86F-\\uD872\\uD874-\\uD879][\\uDC00-\\uDFFF]|\\uD80D[\\uDC00-\\uDC2E]|\\uD811[\\uDC00-\\uDE46]|\\uD81A[\\uDC00-\\uDE38\\uDE40-\\uDE5E\\uDE60-\\uDE69\\uDED0-\\uDEED\\uDF00-\\uDF2F\\uDF40-\\uDF43\\uDF50-\\uDF59\\uDF5B-\\uDF61\\uDF63-\\uDF77\\uDF7D-\\uDF8F]|\\uD81B[\\uDF00-\\uDF44\\uDF50\\uDF93-\\uDF9F\\uDFE0\\uDFE1]|\\uD821[\\uDC00-\\uDFEC]|\\uD822[\\uDC00-\\uDEF2]|\\uD82C[\\uDC00-\\uDD1E\\uDD70-\\uDEFB]|\\uD82F[\\uDC00-\\uDC6A\\uDC70-\\uDC7C\\uDC80-\\uDC88\\uDC90-\\uDC99]|\\uD834[\\uDF60-\\uDF71]|\\uD835[\\uDC00-\\uDC54\\uDC56-\\uDC9C\\uDC9E\\uDC9F\\uDCA2\\uDCA5\\uDCA6\\uDCA9-\\uDCAC\\uDCAE-\\uDCB9\\uDCBB\\uDCBD-\\uDCC3\\uDCC5-\\uDD05\\uDD07-\\uDD0A\\uDD0D-\\uDD14\\uDD16-\\uDD1C\\uDD1E-\\uDD39\\uDD3B-\\uDD3E\\uDD40-\\uDD44\\uDD46\\uDD4A-\\uDD50\\uDD52-\\uDEA5\\uDEA8-\\uDEC0\\uDEC2-\\uDEDA\\uDEDC-\\uDEFA\\uDEFC-\\uDF14\\uDF16-\\uDF34\\uDF36-\\uDF4E\\uDF50-\\uDF6E\\uDF70-\\uDF88\\uDF8A-\\uDFA8\\uDFAA-\\uDFC2\\uDFC4-\\uDFCB\\uDFCE-\\uDFFF]|\\uD83A[\\uDC00-\\uDCC4\\uDCC7-\\uDCCF\\uDD00-\\uDD43\\uDD50-\\uDD59]|\\uD83B[\\uDE00-\\uDE03\\uDE05-\\uDE1F\\uDE21\\uDE22\\uDE24\\uDE27\\uDE29-\\uDE32\\uDE34-\\uDE37\\uDE39\\uDE3B\\uDE42\\uDE47\\uDE49\\uDE4B\\uDE4D-\\uDE4F\\uDE51\\uDE52\\uDE54\\uDE57\\uDE59\\uDE5B\\uDE5D\\uDE5F\\uDE61\\uDE62\\uDE64\\uDE67-\\uDE6A\\uDE6C-\\uDE72\\uDE74-\\uDE77\\uDE79-\\uDE7C\\uDE7E\\uDE80-\\uDE89\\uDE8B-\\uDE9B\\uDEA1-\\uDEA3\\uDEA5-\\uDEA9\\uDEAB-\\uDEBB]|\\uD83C[\\uDD00-\\uDD0C]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D\\uDC20-\\uDFFF]|\\uD873[\\uDC00-\\uDEA1\\uDEB0-\\uDFFF]|\\uD87A[\\uDC00-\\uDFE0]|\\uD87E[\\uDC00-\\uDE1D])(?:[\\-\\.0-:A-Z_a-z\\xAA\\xB2\\xB3\\xB5\\xB9\\xBA\\xBC-\\xBE\\xC0-\\xD6\\xD8-\\xF6\\xF8-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0370-\\u0374\\u0376\\u0377\\u037A-\\u037D\\u037F\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03F5\\u03F7-\\u0481\\u048A-\\u052F\\u0531-\\u0556\\u0559\\u0561-\\u0587\\u05D0-\\u05EA\\u05F0-\\u05F2\\u0620-\\u064A\\u0660-\\u0669\\u066E\\u066F\\u0671-\\u06D3\\u06D5\\u06E5\\u06E6\\u06EE-\\u06FC\\u06FF\\u0710\\u0712-\\u072F\\u074D-\\u07A5\\u07B1\\u07C0-\\u07EA\\u07F4\\u07F5\\u07FA\\u0800-\\u0815\\u081A\\u0824\\u0828\\u0840-\\u0858\\u0860-\\u086A\\u08A0-\\u08B4\\u08B6-\\u08BD\\u0904-\\u0939\\u093D\\u0950\\u0958-\\u0961\\u0966-\\u096F\\u0971-\\u0980\\u0985-\\u098C\\u098F\\u0990\\u0993-\\u09A8\\u09AA-\\u09B0\\u09B2\\u09B6-\\u09B9\\u09BD\\u09CE\\u09DC\\u09DD\\u09DF-\\u09E1\\u09E6-\\u09F1\\u09F4-\\u09F9\\u09FC\\u0A05-\\u0A0A\\u0A0F\\u0A10\\u0A13-\\u0A28\\u0A2A-\\u0A30\\u0A32\\u0A33\\u0A35\\u0A36\\u0A38\\u0A39\\u0A59-\\u0A5C\\u0A5E\\u0A66-\\u0A6F\\u0A72-\\u0A74\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABD\\u0AD0\\u0AE0\\u0AE1\\u0AE6-\\u0AEF\\u0AF9\\u0B05-\\u0B0C\\u0B0F\\u0B10\\u0B13-\\u0B28\\u0B2A-\\u0B30\\u0B32\\u0B33\\u0B35-\\u0B39\\u0B3D\\u0B5C\\u0B5D\\u0B5F-\\u0B61\\u0B66-\\u0B6F\\u0B71-\\u0B77\\u0B83\\u0B85-\\u0B8A\\u0B8E-\\u0B90\\u0B92-\\u0B95\\u0B99\\u0B9A\\u0B9C\\u0B9E\\u0B9F\\u0BA3\\u0BA4\\u0BA8-\\u0BAA\\u0BAE-\\u0BB9\\u0BD0\\u0BE6-\\u0BF2\\u0C05-\\u0C0C\\u0C0E-\\u0C10\\u0C12-\\u0C28\\u0C2A-\\u0C39\\u0C3D\\u0C58-\\u0C5A\\u0C60\\u0C61\\u0C66-\\u0C6F\\u0C78-\\u0C7E\\u0C80\\u0C85-\\u0C8C\\u0C8E-\\u0C90\\u0C92-\\u0CA8\\u0CAA-\\u0CB3\\u0CB5-\\u0CB9\\u0CBD\\u0CDE\\u0CE0\\u0CE1\\u0CE6-\\u0CEF\\u0CF1\\u0CF2\\u0D05-\\u0D0C\\u0D0E-\\u0D10\\u0D12-\\u0D3A\\u0D3D\\u0D4E\\u0D54-\\u0D56\\u0D58-\\u0D61\\u0D66-\\u0D78\\u0D7A-\\u0D7F\\u0D85-\\u0D96\\u0D9A-\\u0DB1\\u0DB3-\\u0DBB\\u0DBD\\u0DC0-\\u0DC6\\u0DE6-\\u0DEF\\u0E01-\\u0E30\\u0E32\\u0E33\\u0E40-\\u0E46\\u0E50-\\u0E59\\u0E81\\u0E82\\u0E84\\u0E87\\u0E88\\u0E8A\\u0E8D\\u0E94-\\u0E97\\u0E99-\\u0E9F\\u0EA1-\\u0EA3\\u0EA5\\u0EA7\\u0EAA\\u0EAB\\u0EAD-\\u0EB0\\u0EB2\\u0EB3\\u0EBD\\u0EC0-\\u0EC4\\u0EC6\\u0ED0-\\u0ED9\\u0EDC-\\u0EDF\\u0F00\\u0F20-\\u0F33\\u0F40-\\u0F47\\u0F49-\\u0F6C\\u0F88-\\u0F8C\\u1000-\\u102A\\u103F-\\u1049\\u1050-\\u1055\\u105A-\\u105D\\u1061\\u1065\\u1066\\u106E-\\u1070\\u1075-\\u1081\\u108E\\u1090-\\u1099\\u10A0-\\u10C5\\u10C7\\u10CD\\u10D0-\\u10FA\\u10FC-\\u1248\\u124A-\\u124D\\u1250-\\u1256\\u1258\\u125A-\\u125D\\u1260-\\u1288\\u128A-\\u128D\\u1290-\\u12B0\\u12B2-\\u12B5\\u12B8-\\u12BE\\u12C0\\u12C2-\\u12C5\\u12C8-\\u12D6\\u12D8-\\u1310\\u1312-\\u1315\\u1318-\\u135A\\u1369-\\u137C\\u1380-\\u138F\\u13A0-\\u13F5\\u13F8-\\u13FD\\u1401-\\u166C\\u166F-\\u167F\\u1681-\\u169A\\u16A0-\\u16EA\\u16EE-\\u16F8\\u1700-\\u170C\\u170E-\\u1711\\u1720-\\u1731\\u1740-\\u1751\\u1760-\\u176C\\u176E-\\u1770\\u1780-\\u17B3\\u17D7\\u17DC\\u17E0-\\u17E9\\u17F0-\\u17F9\\u1810-\\u1819\\u1820-\\u1877\\u1880-\\u1884\\u1887-\\u18A8\\u18AA\\u18B0-\\u18F5\\u1900-\\u191E\\u1946-\\u196D\\u1970-\\u1974\\u1980-\\u19AB\\u19B0-\\u19C9\\u19D0-\\u19DA\\u1A00-\\u1A16\\u1A20-\\u1A54\\u1A80-\\u1A89\\u1A90-\\u1A99\\u1AA7\\u1B05-\\u1B33\\u1B45-\\u1B4B\\u1B50-\\u1B59\\u1B83-\\u1BA0\\u1BAE-\\u1BE5\\u1C00-\\u1C23\\u1C40-\\u1C49\\u1C4D-\\u1C7D\\u1C80-\\u1C88\\u1CE9-\\u1CEC\\u1CEE-\\u1CF1\\u1CF5\\u1CF6\\u1D00-\\u1DBF\\u1E00-\\u1F15\\u1F18-\\u1F1D\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD0-\\u1FD3\\u1FD6-\\u1FDB\\u1FE0-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2070\\u2071\\u2074-\\u2079\\u207F-\\u2089\\u2090-\\u209C\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2119-\\u211D\\u2124\\u2126\\u2128\\u212A-\\u212D\\u212F-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E\\u2150-\\u2189\\u2460-\\u249B\\u24EA-\\u24FF\\u2776-\\u2793\\u2C00-\\u2C2E\\u2C30-\\u2C5E\\u2C60-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2\\u2CF3\\u2CFD\\u2D00-\\u2D25\\u2D27\\u2D2D\\u2D30-\\u2D67\\u2D6F\\u2D80-\\u2D96\\u2DA0-\\u2DA6\\u2DA8-\\u2DAE\\u2DB0-\\u2DB6\\u2DB8-\\u2DBE\\u2DC0-\\u2DC6\\u2DC8-\\u2DCE\\u2DD0-\\u2DD6\\u2DD8-\\u2DDE\\u2E2F\\u3005-\\u3007\\u3021-\\u3029\\u3031-\\u3035\\u3038-\\u303C\\u3041-\\u3096\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3105-\\u312E\\u3131-\\u318E\\u3192-\\u3195\\u31A0-\\u31BA\\u31F0-\\u31FF\\u3220-\\u3229\\u3248-\\u324F\\u3251-\\u325F\\u3280-\\u3289\\u32B1-\\u32BF\\u3400-\\u4DB5\\u4E00-\\u9FEA\\uA000-\\uA48C\\uA4D0-\\uA4FD\\uA500-\\uA60C\\uA610-\\uA62B\\uA640-\\uA66E\\uA67F-\\uA69D\\uA6A0-\\uA6EF\\uA717-\\uA71F\\uA722-\\uA788\\uA78B-\\uA7AE\\uA7B0-\\uA7B7\\uA7F7-\\uA801\\uA803-\\uA805\\uA807-\\uA80A\\uA80C-\\uA822\\uA830-\\uA835\\uA840-\\uA873\\uA882-\\uA8B3\\uA8D0-\\uA8D9\\uA8F2-\\uA8F7\\uA8FB\\uA8FD\\uA900-\\uA925\\uA930-\\uA946\\uA960-\\uA97C\\uA984-\\uA9B2\\uA9CF-\\uA9D9\\uA9E0-\\uA9E4\\uA9E6-\\uA9FE\\uAA00-\\uAA28\\uAA40-\\uAA42\\uAA44-\\uAA4B\\uAA50-\\uAA59\\uAA60-\\uAA76\\uAA7A\\uAA7E-\\uAAAF\\uAAB1\\uAAB5\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2\\uAADB-\\uAADD\\uAAE0-\\uAAEA\\uAAF2-\\uAAF4\\uAB01-\\uAB06\\uAB09-\\uAB0E\\uAB11-\\uAB16\\uAB20-\\uAB26\\uAB28-\\uAB2E\\uAB30-\\uAB5A\\uAB5C-\\uAB65\\uAB70-\\uABE2\\uABF0-\\uABF9\\uAC00-\\uD7A3\\uD7B0-\\uD7C6\\uD7CB-\\uD7FB\\uF900-\\uFA6D\\uFA70-\\uFAD9\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB36\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFBB1\\uFBD3-\\uFD3D\\uFD50-\\uFD8F\\uFD92-\\uFDC7\\uFDF0-\\uFDFB\\uFE70-\\uFE74\\uFE76-\\uFEFC\\uFF10-\\uFF19\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC]|\\uD800[\\uDC00-\\uDC0B\\uDC0D-\\uDC26\\uDC28-\\uDC3A\\uDC3C\\uDC3D\\uDC3F-\\uDC4D\\uDC50-\\uDC5D\\uDC80-\\uDCFA\\uDD07-\\uDD33\\uDD40-\\uDD78\\uDD8A\\uDD8B\\uDE80-\\uDE9C\\uDEA0-\\uDED0\\uDEE1-\\uDEFB\\uDF00-\\uDF23\\uDF2D-\\uDF4A\\uDF50-\\uDF75\\uDF80-\\uDF9D\\uDFA0-\\uDFC3\\uDFC8-\\uDFCF\\uDFD1-\\uDFD5]|\\uD801[\\uDC00-\\uDC9D\\uDCA0-\\uDCA9\\uDCB0-\\uDCD3\\uDCD8-\\uDCFB\\uDD00-\\uDD27\\uDD30-\\uDD63\\uDE00-\\uDF36\\uDF40-\\uDF55\\uDF60-\\uDF67]|\\uD802[\\uDC00-\\uDC05\\uDC08\\uDC0A-\\uDC35\\uDC37\\uDC38\\uDC3C\\uDC3F-\\uDC55\\uDC58-\\uDC76\\uDC79-\\uDC9E\\uDCA7-\\uDCAF\\uDCE0-\\uDCF2\\uDCF4\\uDCF5\\uDCFB-\\uDD1B\\uDD20-\\uDD39\\uDD80-\\uDDB7\\uDDBC-\\uDDCF\\uDDD2-\\uDE00\\uDE10-\\uDE13\\uDE15-\\uDE17\\uDE19-\\uDE33\\uDE40-\\uDE47\\uDE60-\\uDE7E\\uDE80-\\uDE9F\\uDEC0-\\uDEC7\\uDEC9-\\uDEE4\\uDEEB-\\uDEEF\\uDF00-\\uDF35\\uDF40-\\uDF55\\uDF58-\\uDF72\\uDF78-\\uDF91\\uDFA9-\\uDFAF]|\\uD803[\\uDC00-\\uDC48\\uDC80-\\uDCB2\\uDCC0-\\uDCF2\\uDCFA-\\uDCFF\\uDE60-\\uDE7E]|\\uD804[\\uDC03-\\uDC37\\uDC52-\\uDC6F\\uDC83-\\uDCAF\\uDCD0-\\uDCE8\\uDCF0-\\uDCF9\\uDD03-\\uDD26\\uDD36-\\uDD3F\\uDD50-\\uDD72\\uDD76\\uDD83-\\uDDB2\\uDDC1-\\uDDC4\\uDDD0-\\uDDDA\\uDDDC\\uDDE1-\\uDDF4\\uDE00-\\uDE11\\uDE13-\\uDE2B\\uDE80-\\uDE86\\uDE88\\uDE8A-\\uDE8D\\uDE8F-\\uDE9D\\uDE9F-\\uDEA8\\uDEB0-\\uDEDE\\uDEF0-\\uDEF9\\uDF05-\\uDF0C\\uDF0F\\uDF10\\uDF13-\\uDF28\\uDF2A-\\uDF30\\uDF32\\uDF33\\uDF35-\\uDF39\\uDF3D\\uDF50\\uDF5D-\\uDF61]|\\uD805[\\uDC00-\\uDC34\\uDC47-\\uDC4A\\uDC50-\\uDC59\\uDC80-\\uDCAF\\uDCC4\\uDCC5\\uDCC7\\uDCD0-\\uDCD9\\uDD80-\\uDDAE\\uDDD8-\\uDDDB\\uDE00-\\uDE2F\\uDE44\\uDE50-\\uDE59\\uDE80-\\uDEAA\\uDEC0-\\uDEC9\\uDF00-\\uDF19\\uDF30-\\uDF3B]|\\uD806[\\uDCA0-\\uDCF2\\uDCFF\\uDE00\\uDE0B-\\uDE32\\uDE3A\\uDE50\\uDE5C-\\uDE83\\uDE86-\\uDE89\\uDEC0-\\uDEF8]|\\uD807[\\uDC00-\\uDC08\\uDC0A-\\uDC2E\\uDC40\\uDC50-\\uDC6C\\uDC72-\\uDC8F\\uDD00-\\uDD06\\uDD08\\uDD09\\uDD0B-\\uDD30\\uDD46\\uDD50-\\uDD59]|\\uD808[\\uDC00-\\uDF99]|\\uD809[\\uDC00-\\uDC6E\\uDC80-\\uDD43]|[\\uD80C\\uD81C-\\uD820\\uD840-\\uD868\\uD86A-\\uD86C\\uD86F-\\uD872\\uD874-\\uD879][\\uDC00-\\uDFFF]|\\uD80D[\\uDC00-\\uDC2E]|\\uD811[\\uDC00-\\uDE46]|\\uD81A[\\uDC00-\\uDE38\\uDE40-\\uDE5E\\uDE60-\\uDE69\\uDED0-\\uDEED\\uDF00-\\uDF2F\\uDF40-\\uDF43\\uDF50-\\uDF59\\uDF5B-\\uDF61\\uDF63-\\uDF77\\uDF7D-\\uDF8F]|\\uD81B[\\uDF00-\\uDF44\\uDF50\\uDF93-\\uDF9F\\uDFE0\\uDFE1]|\\uD821[\\uDC00-\\uDFEC]|\\uD822[\\uDC00-\\uDEF2]|\\uD82C[\\uDC00-\\uDD1E\\uDD70-\\uDEFB]|\\uD82F[\\uDC00-\\uDC6A\\uDC70-\\uDC7C\\uDC80-\\uDC88\\uDC90-\\uDC99]|\\uD834[\\uDF60-\\uDF71]|\\uD835[\\uDC00-\\uDC54\\uDC56-\\uDC9C\\uDC9E\\uDC9F\\uDCA2\\uDCA5\\uDCA6\\uDCA9-\\uDCAC\\uDCAE-\\uDCB9\\uDCBB\\uDCBD-\\uDCC3\\uDCC5-\\uDD05\\uDD07-\\uDD0A\\uDD0D-\\uDD14\\uDD16-\\uDD1C\\uDD1E-\\uDD39\\uDD3B-\\uDD3E\\uDD40-\\uDD44\\uDD46\\uDD4A-\\uDD50\\uDD52-\\uDEA5\\uDEA8-\\uDEC0\\uDEC2-\\uDEDA\\uDEDC-\\uDEFA\\uDEFC-\\uDF14\\uDF16-\\uDF34\\uDF36-\\uDF4E\\uDF50-\\uDF6E\\uDF70-\\uDF88\\uDF8A-\\uDFA8\\uDFAA-\\uDFC2\\uDFC4-\\uDFCB\\uDFCE-\\uDFFF]|\\uD83A[\\uDC00-\\uDCC4\\uDCC7-\\uDCCF\\uDD00-\\uDD43\\uDD50-\\uDD59]|\\uD83B[\\uDE00-\\uDE03\\uDE05-\\uDE1F\\uDE21\\uDE22\\uDE24\\uDE27\\uDE29-\\uDE32\\uDE34-\\uDE37\\uDE39\\uDE3B\\uDE42\\uDE47\\uDE49\\uDE4B\\uDE4D-\\uDE4F\\uDE51\\uDE52\\uDE54\\uDE57\\uDE59\\uDE5B\\uDE5D\\uDE5F\\uDE61\\uDE62\\uDE64\\uDE67-\\uDE6A\\uDE6C-\\uDE72\\uDE74-\\uDE77\\uDE79-\\uDE7C\\uDE7E\\uDE80-\\uDE89\\uDE8B-\\uDE9B\\uDEA1-\\uDEA3\\uDEA5-\\uDEA9\\uDEAB-\\uDEBB]|\\uD83C[\\uDD00-\\uDD0C]|\\uD869[\\uDC00-\\uDED6\\uDF00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D\\uDC20-\\uDFFF]|\\uD873[\\uDC00-\\uDEA1\\uDEB0-\\uDFFF]|\\uD87A[\\uDC00-\\uDFE0]|\\uD87E[\\uDC00-\\uDE1D])*$	2	322		3.5098	11.2826	1.2636	352	82	2	
+106	9	15		0.034	0.1178	0.107	4	6	4	
+^\"([^\\\"]*)\"\u306b\"([^\\\"]*)\"\u3068\u8868\u793a\u3055\u308c\u3066\u3044\u306a\u3044\u3053\u3068$	18	18		0.2386	0.1751	0.0745	19	17	17	
+INGRESSCOOKIE=[0-9a-f]{40}	162	321		0.0932	0.823	0.6111	55	108	55	
+git remote add name url	69	135		0.066	0.6091	0.509	24	46	24	
+(abc)\\\\Q(?<named>\\d+)\\\\E	34	65		0.4373	0.3508	0.2628	13	22	12	
+^fetch the latest bookmark$	25	25		0.0679	0.0001	0.108	26	26	26	
+^ \\[ \\s* (.*) \\s* \\] $	4	4		0.1696	0.0001	0.0699	5	5	5	
+(-C?\\d+)*\\.[^\\.]+$	14	65		0.0956	0.5064	0.3883	11	15	5	
+<\\?.+?\\?>	23	58		0.0337	0.2479	0.2442	8	16	7	
+^settings/([^/]+)$	11	11		0.0471	0.0001	0.0589	11	11	11	
+^Predicted .+?:	13	13		0.0464	0.0002	0.0623	13	13	13	
+flag	12	21		0.0287	0.0994	0.0848	5	8	5	
+<MAC>	15	27		0.0322	0.1234	0.1028	6	10	6	
+^--.+=.+	7	20		0.0276	0.0819	0.0804	8	10	6	
+Initialized OctocatalogDiff::Catalog::JSON for from-catalog	177	351		0.1229	1.137	0.8573	60	118	60	
+ALTER TABLE .* RENAME COLUMN	91	315		0.0827	1.9325	1.3963	28	74	27	
+^(\\s)*[\\{\\[]	2	7		0.0609	0.1178	0.0632	4	4	2	
+^select.+? from	13	13		0.7275	0.0002	0.0763	13	13	13	
+\\G<(!--(\\#?).*?--)>	53	102		0.0618	0.4757	0.3709	14	32	17	
+^(\\d+|-\\.)	6	11		0.0558	0.0605	0.0615	7	8	5	
+()<B><Z>(?:<[^>]+>)+<\\/Z>([Cc]huir)<\\/B>()	67	259		0.3529	1.0067	0.6382	31	80	25	
+^#{1,6}(?=\\s*[^ #]|\\s+#.)										ERROR
+Migration to version 	63	123		0.0542	0.5503	0.4739	22	42	22	
+(.+?): +(\\d+) *	19	50		0.032	0.2729	0.2018	9	13	6	
+It does not appear that you are the owner of enough apps	168	333		0.1212	0.7724	0.4997	57	112	57	
+FOREIGN KEY \\(\"([^\"]+)\"\\) REFERENCES \"([^\"]+)\" \\(\"([^\"]+)\"\\)(?:\\sON\\sDELETE\\s(SET\\sNULL|SET\\sDEFAULT|CASCADE|NO\\sACTION|RESTRICT))?(?:\\sON\\sUPDATE\\s(SET\\sNULL|SET\\sDEFAULT|CASCADE|NO\\sACTION|RESTRICT))?	477	2544		0.4813	14.3962	3.2106	156	678	132	
+[^\\w\\.-]+.*$	3	11		0.1043	0.1169	0.0454	4	4	2	
+\\n(([^|\\n]+ *\\| *)+([^|\\n]+\\n))((:?\\-+:?\\|)+(:?\\-+:?)*\\n)((([^|\\n]+ *\\| *)+([^|\\n]+)\\n)+)	139	620		0.402	3.0917	1.2173	53	132	37	
+(attr_accessor|attr_reader)\\s+([A-Za-z0-9:, ]+)(#\\s*((@type_info|IBOutlet)\\s+(\\w+)?)?)?	60	245		0.2984	1.803	0.7239	57	75	21	
+\\[\\[([^\\[\\]])+\\]\\]										ERROR
+[A-Z]{5}	11	20		0.0342	0.0886	0.0666	7	10	6	
+(\\\"\\w*([Pp]ass|access_token)\\w*\\\"):\\\"[^\\\"]*\\\"	96	190		0.1662	0.7687	0.4348	30	60	31	
+is required	33	63		0.0349	0.2837	0.2712	12	22	12	
+{{env}}	20	37		0.0286	0.1697	0.134	8	14	8	
+list jobs\\z	33	63		0.0377	0.4306	0.3207	12	22	12	
+^g 	3	3		0.0191	0.0002	0.0415	3	3	3	
+\\b([ab])\\b	14	26		0.0816	0.1209	0.0766	6	10	6	
+^(?:EUPL-1.0)	9	9		0.0442	0.0001	0.0546	9	9	9	
+Health: (\\d+)	30	64		0.0478	0.4289	0.3177	12	22	11	
+@param\\s(\\S+)	30	64		0.0435	1.06	0.2739	12	22	11	
+,?\\s*moduleId\\s*:\\s*[^,}]*(?=(\\n})|(,))										ERROR
+Static	18	33		0.026	0.1502	0.1186	7	12	7	
+^(rule\\(:rib_group_inet_type\\) do)\\s*c\\(\\s*arg										ERROR
+(?:Element|InlineComponent|Head)	105	105		0.0942	3.2537	0.1411	30	22	22	
+(.+)\t1-T:(\\d+)\t1-F:(\\d+)\t2-T:(\\d+)\t2-F:(\\d+)	117	240		0.0984	0.9102	0.7395	36	60	30	
+.+(?:???|???|?|?|??)										ERROR
+^mtime:(.+)$	8	8		0.0306	0.0002	0.0528	8	8	8	
+Chrome\\/([^\\s]*)	24	76		0.0566	0.5466	0.2682	10	24	9	
+\\b(try)\\b	20	38		0.0393	0.1105	0.0869	8	14	8	
+\\$\\{?(?i:ENV):([A-Z][A-Z0-9_]*)\\}?										ERROR
+(^--[^-][\\s\\S])	5	5		0.0468	0.0002	0.0447	5	5	5	
+\n            @import\n            \\s+\n                (?:\n                    url\\(\n                        ('|\"|)\n                            (?<url>.*?)\n                        \\1\n                    \\)\n                |\n                    (['\"])\n                        (?<url2>.*?)\n                    \\3\n                )\n                \\s*;\n            	840	1780		0.9028	5.8884	3.199	322	594	281	
+user-data-dir	39	75		0.0425	0.3829	0.312	14	26	14	
+new\\sTHREE.(\\w+)\\s?	47	100		0.0664	0.456	0.3723	18	33	16	
+^Uptime:\\s.+	11	15		0.06	0.0875	0.0672	12	13	11	
+::([\\w.]+)$	10	10		0.0655	0.0954	0.0516	4	4	4	
+per_page=	27	51		0.05	0.3288	0.2432	10	18	10	
+#OP#	11	20		0.0172	0.1344	0.0896	5	8	5	
+(?:www\\.)?vimeo\\.com\\/([0-9]*)	40	168		0.0905	0.904	0.7401	21	44	14	
+^\\/?user\\-package\\/(.*)	19	23		0.0595	0.1587	0.1373	20	20	18	
+\\G(.*?)(:(?:\\{([^}]+?)\\}|(\\w+)(?=\\W|$)))										ERROR
+sites sorted by position	72	141		0.0613	0.3977	0.3211	25	48	25	
+(?<![<>])(<Y>ao'<\\/Y>)(?![<>])										ERROR
+\\u25a0	18	33		0.0416	0.1195	0.1076	7	12	7	
+[?#]d=([\\d]{1,4}%?)x([\\d]{1,4}%?)	37	93		0.1351	0.5401	0.4784	19	26	11	
+^x86_64|^ppc64|^s390x|^aarch64	20	27		0.1135	0.0002	0.2537	24	24	17	
+&(there4|#8756)(;|$|(?=\\W))										ERROR
+\\AGLI	15	27		0.0224	0.1377	0.1064	6	10	6	
+^Member_Attr	12	12		0.044	0.0002	0.0767	12	12	12	
+\\.\\.\\/lib\\/|\\.js	72	72		0.0796	1.7127	0.1521	18	21	21	
+\u00ef\u00ac\u0081	9	15		0.0907	0.1467	0.1166	4	6	4	
+\\(([1-5])\\)$	10	10		0.0629	0.0867	0.0494	4	4	4	
+\n\\s*(({\\|)|(\\|-+)|(\\|})).*?(?=\n)										ERROR
+^([a-z0-9])\\/	4	4		0.0428	0.0001	0.0344	4	4	4	
+^\u0111\u00eam	4	4		0.0547	0.0002	0.0685	4	4	4	
+^I should be able to install the sample application$	50	50		0.1045	0.0001	0.1642	51	51	51	
+TRAILING	24	45		0.0282	0.3032	0.2362	9	16	9	
+^I set verbose option to \"(.*)\"$	29	29		0.0711	0.1371	0.0973	28	27	27	
+[\\n\\r\\t }]	3	3		0.0865	0.054	0.0314	2	2	2	
+href=[\"'](.*?)[\"']	28	52		0.059	0.2298	0.1948	9	18	10	
+^iov	4	4		0.0184	0.0001	0.0472	4	4	4	
+[\\\\,()]	3	3		0.0883	0.0436	0.0412	2	2	2	
+(<!--\\s*$data_regex\\s*-->|$data_regex)										ERROR
+^(\\d{4})-(0[1-9]|1[0-2])-([12]\\d|0[1-9]|3[01])T(0\\d|1\\d|2[0-3]):([0-5]\\d)$	28	31		0.8149	0.0001	0.2525	27	27	25	
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:1[\\s\\xa0]*Korinttilaisille)|(?:1(?:[\\s\\xa0]*Korinttolaiskirje|(?:[\\s\\xa0]*K|C)or|[\\s\\xa0]*Kirje[\\s\\xa0]*korinttilaisille)|I[\\s\\xa0]*K(?:orintt(?:olaiskirj|ilaisill)|irje[\\s\\xa0]*korinttilaisill)e|[1I]\\.[\\s\\xa0]*K(?:orintt(?:olaiskirj|ilaisill)|irje[\\s\\xa0]*korinttilaisill)e|Ensimm[a\\xE4]inen[\\s\\xa0]*K(?:orintt(?:olaiskirj|ilaisill)|irje[\\s\\xa0]*korinttilaisill)e))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)										ERROR
+(de|in)crease|prev|next|left|right|upper|lower|un|all	284	284		0.2155	17.0306	0.4054	53	30	30	
+\\bresetTSFileName\\b	56	110		0.0655	0.253	0.2072	20	38	20	
+UPDATE `?site`? SET `?value`? = '?(?P<patch>\\d+)'? WHERE `?setting`? = 'sqlpatch'										ERROR
+^#line\\s+([0-9]+)	10	14		0.0542	0.1122	0.0898	11	11	9	
+Signed tags require messages	84	165		0.0839	0.4522	0.3718	29	56	29	
+eitherToLast: Either returning function required	144	285		0.119	0.8023	0.6508	49	96	49	
+^(AvailablePrice|Fee|OriginalPrice)$	24	30		0.1352	0.0002	0.1915	29	29	23	
+^FakeMailer: Sent mail to user@example.com in \\(*										ERROR
+\\G$sub_decl										ERROR
+SUSE LINUX (Products )?GmbH, Nuernberg, Germany.\\s*$	145	145		0.1515	0.8277	0.5243	48	48	48	
+Action: (comment|correspond)	67	260		0.1108	0.5702	0.3293	26	88	23	
+[^a-zA-Z0-9_ ]	3	3		0.1235	0.051	0.0305	2	2	2	
+pic\\.twitter\\.com	59	115		0.0663	0.4804	0.4765	18	38	20	
+http://www.google.com/kml/ext/.*?	100	199		0.1115	0.5319	0.4599	32	66	34	
+conflicts with existing option	90	177		0.0832	0.4514	0.3836	31	60	31	
+^$open										ERROR
+Property int is a primitive or enum	105	207		0.0914	0.6154	1.3438	36	70	36	
+^\\s*([0-9A-F]{6})\\s+\\(base 16\\)\\s+(.*)	23	31		0.0872	0.2056	0.1277	25	24	21	
+unifi_devices_wired_transmitted_bytes_total{id=\"123\",mac=\"ab:ad:1d:ea:ab:ad\",name=\"OneTwoThree\",site=\"Default\"} 10	342	681		0.2559	2.3932	1.4365	115	228	115	
+([-\\+][0-9]+)\\s	14	25		0.0701	0.1827	1.3045	6	8	5	
+Request string not found	72	141		0.0668	0.3816	0.231	25	48	25	
+-inc 	15	27		0.0313	0.1509	0.1149	6	10	6	
+[^\\w\\.\\-$]										ERROR
+\\\\ding\\{196\\}	36	69		0.0624	0.1948	0.1518	14	26	14	
+\\)(\\s+(\\w+))\\s+WHERE\\s+										ERROR
+[^\\\\/#]+	3	8		0.0878	0.0713	0.0307	4	4	2	
+\\A[a-z0-9]{64}\\z	204	405		1.7057	1.2212	0.4723	69	136	69	
+(Thunderbird)/(\\d+)\\.(\\d+)\\.(\\d+(?:pre)?)	76	166		0.1505	0.7541	0.4646	30	53	25	
+peach	15	27		0.0204	0.0988	0.1106	6	10	6	
+^(-?[0-9]*);?([0-9]*);?([0-9]*)(M|m)	12	21		0.1396	0.3737	0.2813	11	8	5	
+username.Gloves the Kitten	82	161		0.0754	0.5785	0.4282	27	54	28	
+^the proxy should have been tunneled through$	43	43		0.1522	0.0002	0.1593	44	44	44	
+$args										ERROR
+^most of the steps pass$	22	22		0.0934	0.0002	0.1174	23	23	23	
+strings\\.json$	44	44		0.0456	0.2735	0.1827	14	15	15	
+\"(.+)\"\u901a\u8fc7\u626b\u63cf\"?(.+)\"?\u5206\u4eab\u7684\u4e8c\u7ef4\u7801\u52a0\u5165\u7fa4\u804a	65	225		0.6221	1.7919	0.6434	25	52	19	
+^TAO\\\\PropertyContainer\\\\([^\\\\]+)$	26	26		0.0908	0.0001	0.1117	26	26	26	
+$self->{'range_symbol'}										ERROR
+^the bibliography's options should match:$	40	40		0.0833	0.0001	0.1493	41	41	41	
+(^|(?:\\r?\\n|\\r){2}).+(?:\\r?\\n|\\r)[!\"#$%&'()*+,\\-.\\/:;<=>?@\\[\\\\\\]^_`{|}~]{2,}(?=\\r?\\n|\\r|$)										ERROR
+(^|[^0-9A-Za-z\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06dc\u06df-\u06e8\u06ea-\u06ef\u06fa-\u06fc\u06ff\u0750-\u077f\u08a0\u08a2-\u08ac\u08e4-\u08fe\ufb50-\ufbb1\ufbd3-\ufd3d\ufd50-\ufd8f\ufd92-\ufdc7\ufdf0-\ufdfb\ufe70-\ufe74\ufe76-\ufefc])((?:\u0625\u0633\u062f\u0631\u0627\u0633[\\s\\xa0]*\u0627\u0644\u0623\u0648\u0644|1Esd))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)										ERROR
+^.*/dapeng-container.*\\.jar$	72	148		0.1232	1.2036	1.1096	25	42	25	
+^(.+)(?::(\\d*))$	9	9		0.0283	0.078	0.0972	5	4	4	
+^(left|right)$	8	9		0.1171	0.0002	0.1435	9	9	8	
+(?<_1><&\\|)(?<_2>(?<_3>\\w|\\.|\\:)*)(?!&>)										ERROR
+^1\\d{10}$	12	12		0.0587	0.0001	0.1048	13	13	13	
+($p->[0])										ERROR
+^($word)[,-]?:\\s(.+)										ERROR
+[0-9]{3}-[0-9]{7}	28	54		0.0395	0.1864	0.114	13	22	12	
+Vector\\.<(.*?)>	41	78		0.0828	0.4842	0.4114	12	26	14	
+#deployer#	29	56		0.038	0.2265	0.192	11	20	11	
+DBIx::SQLEngine::	51	99		0.0924	0.533	0.451	18	34	18	
+[ \\t\\r\\n]+|[A-Z\\xB5\\xC0-\\xD6\\xD8-\\xDF\\u0100\\u0102\\u0104\\u0106\\u0108\\u010A\\u010C\\u010E\\u0110\\u0112\\u0114\\u0116\\u0118\\u011A\\u011C\\u011E\\u0120\\u0122\\u0124\\u0126\\u0128\\u012A\\u012C\\u012E\\u0130\\u0132\\u0134\\u0136\\u0139\\u013B\\u013D\\u013F\\u0141\\u0143\\u0145\\u0147\\u0149\\u014A\\u014C\\u014E\\u0150\\u0152\\u0154\\u0156\\u0158\\u015A\\u015C\\u015E\\u0160\\u0162\\u0164\\u0166\\u0168\\u016A\\u016C\\u016E\\u0170\\u0172\\u0174\\u0176\\u0178\\u0179\\u017B\\u017D\\u017F\\u0181\\u0182\\u0184\\u0186\\u0187\\u0189-\\u018B\\u018E-\\u0191\\u0193\\u0194\\u0196-\\u0198\\u019C\\u019D\\u019F\\u01A0\\u01A2\\u01A4\\u01A6\\u01A7\\u01A9\\u01AC\\u01AE\\u01AF\\u01B1-\\u01B3\\u01B5\\u01B7\\u01B8\\u01BC\\u01C4\\u01C5\\u01C7\\u01C8\\u01CA\\u01CB\\u01CD\\u01CF\\u01D1\\u01D3\\u01D5\\u01D7\\u01D9\\u01DB\\u01DE\\u01E0\\u01E2\\u01E4\\u01E6\\u01E8\\u01EA\\u01EC\\u01EE\\u01F0-\\u01F2\\u01F4\\u01F6-\\u01F8\\u01FA\\u01FC\\u01FE\\u0200\\u0202\\u0204\\u0206\\u0208\\u020A\\u020C\\u020E\\u0210\\u0212\\u0214\\u0216\\u0218\\u021A\\u021C\\u021E\\u0220\\u0222\\u0224\\u0226\\u0228\\u022A\\u022C\\u022E\\u0230\\u0232\\u023A\\u023B\\u023D\\u023E\\u0241\\u0243-\\u0246\\u0248\\u024A\\u024C\\u024E\\u0345\\u0370\\u0372\\u0376\\u037F\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03AB\\u03B0\\u03C2\\u03CF-\\u03D1\\u03D5\\u03D6\\u03D8\\u03DA\\u03DC\\u03DE\\u03E0\\u03E2\\u03E4\\u03E6\\u03E8\\u03EA\\u03EC\\u03EE\\u03F0\\u03F1\\u03F4\\u03F5\\u03F7\\u03F9\\u03FA\\u03FD-\\u042F\\u0460\\u0462\\u0464\\u0466\\u0468\\u046A\\u046C\\u046E\\u0470\\u0472\\u0474\\u0476\\u0478\\u047A\\u047C\\u047E\\u0480\\u048A\\u048C\\u048E\\u0490\\u0492\\u0494\\u0496\\u0498\\u049A\\u049C\\u049E\\u04A0\\u04A2\\u04A4\\u04A6\\u04A8\\u04AA\\u04AC\\u04AE\\u04B0\\u04B2\\u04B4\\u04B6\\u04B8\\u04BA\\u04BC\\u04BE\\u04C0\\u04C1\\u04C3\\u04C5\\u04C7\\u04C9\\u04CB\\u04CD\\u04D0\\u04D2\\u04D4\\u04D6\\u04D8\\u04DA\\u04DC\\u04DE\\u04E0\\u04E2\\u04E4\\u04E6\\u04E8\\u04EA\\u04EC\\u04EE\\u04F0\\u04F2\\u04F4\\u04F6\\u04F8\\u04FA\\u04FC\\u04FE\\u0500\\u0502\\u0504\\u0506\\u0508\\u050A\\u050C\\u050E\\u0510\\u0512\\u0514\\u0516\\u0518\\u051A\\u051C\\u051E\\u0520\\u0522\\u0524\\u0526\\u0528\\u052A\\u052C\\u052E\\u0531-\\u0556\\u0587\\u10A0-\\u10C5\\u10C7\\u10CD\\u1E00\\u1E02\\u1E04\\u1E06\\u1E08\\u1E0A\\u1E0C\\u1E0E\\u1E10\\u1E12\\u1E14\\u1E16\\u1E18\\u1E1A\\u1E1C\\u1E1E\\u1E20\\u1E22\\u1E24\\u1E26\\u1E28\\u1E2A\\u1E2C\\u1E2E\\u1E30\\u1E32\\u1E34\\u1E36\\u1E38\\u1E3A\\u1E3C\\u1E3E\\u1E40\\u1E42\\u1E44\\u1E46\\u1E48\\u1E4A\\u1E4C\\u1E4E\\u1E50\\u1E52\\u1E54\\u1E56\\u1E58\\u1E5A\\u1E5C\\u1E5E\\u1E60\\u1E62\\u1E64\\u1E66\\u1E68\\u1E6A\\u1E6C\\u1E6E\\u1E70\\u1E72\\u1E74\\u1E76\\u1E78\\u1E7A\\u1E7C\\u1E7E\\u1E80\\u1E82\\u1E84\\u1E86\\u1E88\\u1E8A\\u1E8C\\u1E8E\\u1E90\\u1E92\\u1E94\\u1E96-\\u1E9B\\u1E9E\\u1EA0\\u1EA2\\u1EA4\\u1EA6\\u1EA8\\u1EAA\\u1EAC\\u1EAE\\u1EB0\\u1EB2\\u1EB4\\u1EB6\\u1EB8\\u1EBA\\u1EBC\\u1EBE\\u1EC0\\u1EC2\\u1EC4\\u1EC6\\u1EC8\\u1ECA\\u1ECC\\u1ECE\\u1ED0\\u1ED2\\u1ED4\\u1ED6\\u1ED8\\u1EDA\\u1EDC\\u1EDE\\u1EE0\\u1EE2\\u1EE4\\u1EE6\\u1EE8\\u1EEA\\u1EEC\\u1EEE\\u1EF0\\u1EF2\\u1EF4\\u1EF6\\u1EF8\\u1EFA\\u1EFC\\u1EFE\\u1F08-\\u1F0F\\u1F18-\\u1F1D\\u1F28-\\u1F2F\\u1F38-\\u1F3F\\u1F48-\\u1F4D\\u1F50\\u1F52\\u1F54\\u1F56\\u1F59\\u1F5B\\u1F5D\\u1F5F\\u1F68-\\u1F6F\\u1F80-\\u1FAF\\u1FB2-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD2\\u1FD3\\u1FD6-\\u1FDB\\u1FE2-\\u1FE4\\u1FE6-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2126\\u212A\\u212B\\u2132\\u2160-\\u216F\\u2183\\u24B6-\\u24CF\\u2C00-\\u2C2E\\u2C60\\u2C62-\\u2C64\\u2C67\\u2C69\\u2C6B\\u2C6D-\\u2C70\\u2C72\\u2C75\\u2C7E-\\u2C80\\u2C82\\u2C84\\u2C86\\u2C88\\u2C8A\\u2C8C\\u2C8E\\u2C90\\u2C92\\u2C94\\u2C96\\u2C98\\u2C9A\\u2C9C\\u2C9E\\u2CA0\\u2CA2\\u2CA4\\u2CA6\\u2CA8\\u2CAA\\u2CAC\\u2CAE\\u2CB0\\u2CB2\\u2CB4\\u2CB6\\u2CB8\\u2CBA\\u2CBC\\u2CBE\\u2CC0\\u2CC2\\u2CC4\\u2CC6\\u2CC8\\u2CCA\\u2CCC\\u2CCE\\u2CD0\\u2CD2\\u2CD4\\u2CD6\\u2CD8\\u2CDA\\u2CDC\\u2CDE\\u2CE0\\u2CE2\\u2CEB\\u2CED\\u2CF2\\uA640\\uA642\\uA644\\uA646\\uA648\\uA64A\\uA64C\\uA64E\\uA650\\uA652\\uA654\\uA656\\uA658\\uA65A\\uA65C\\uA65E\\uA660\\uA662\\uA664\\uA666\\uA668\\uA66A\\uA66C\\uA680\\uA682\\uA684\\uA686\\uA688\\uA68A\\uA68C\\uA68E\\uA690\\uA692\\uA694\\uA696\\uA698\\uA69A\\uA722\\uA724\\uA726\\uA728\\uA72A\\uA72C\\uA72E\\uA732\\uA734\\uA736\\uA738\\uA73A\\uA73C\\uA73E\\uA740\\uA742\\uA744\\uA746\\uA748\\uA74A\\uA74C\\uA74E\\uA750\\uA752\\uA754\\uA756\\uA758\\uA75A\\uA75C\\uA75E\\uA760\\uA762\\uA764\\uA766\\uA768\\uA76A\\uA76C\\uA76E\\uA779\\uA77B\\uA77D\\uA77E\\uA780\\uA782\\uA784\\uA786\\uA78B\\uA78D\\uA790\\uA792\\uA796\\uA798\\uA79A\\uA79C\\uA79E\\uA7A0\\uA7A2\\uA7A4\\uA7A6\\uA7A8\\uA7AA-\\uA7AD\\uA7B0\\uA7B1\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFF21-\\uFF3A]|\\uD801[\\uDC00-\\uDC27]|\\uD806[\\uDCA0-\\uDCBF]	3	3		2.0163	1.032	0.0245	23	2	2	
+(include_once|include)[ ]+\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\"[ ]*\\r?(?:\\n|$)	147	432		0.2276	2.4695	1.6345	36	103	38	
+\\n\\/\\/# sourceMappingURL=(.*)\\n?	78	253		0.0786	0.9769	0.4107	30	77	27	
+M{0,3}(?:CM|DC{0,3}|CD|C{1,3})?(?:XC|LX{0,3}|XL|X{1,3})?(?:IX|VI{0,3}|IV|I{1,3})?	1	256		0.2429	2.3669	0.2331	42	32	1	
+\\A(?:@[A-Z_]+)	12	28		0.0671	0.1378	0.1023	6	10	5	
+_toString not implemented for Node	102	201		0.1352	0.7783	0.5801	35	68	35	
+(\\d+)\\s*(.*)	9	46		0.0265	0.194	0.0887	7	13	4	
+(^(&nbsp;|\\s)+|(&nbsp;|\\s)+$)	58	58		0.2415	1.5698	0.0962	31	16	16	
+\\[FILENAME\\]	5	9		0.1946	0.0843	0.0494	3	4	3	
+path\\=	18	33		0.0521	0.1285	0.0787	7	12	7	
+['\"]file['\"]\\s*:\\s*(?P<quote>['\"])(?P<url>.*?)(?P=quote)										ERROR
+<link rel=\"stylesheet\" type=\"text\\/css\" href=\"css\\/vis\\.min\\.css\" \\/>	215	427		0.2149	1.4723	0.5509	70	142	72	
+There was an error getting the hardware info.+it blew up.+	175	1098		0.5455	4.1347	2.4287	59	258	57	
+/(\\\\d*)(/.*)?	9	37		0.0787	0.1675	0.0589	7	12	4	
+window\\.open\\('([^']+)'										ERROR
+(\\d+):(\\d+|\\*)	10	53		0.0898	0.1804	0.0648	11	18	4	
+\\$\\[(.+?)\\]}										ERROR
+^\\-+(.+)$	4	7		0.041	0.0764	0.0602	5	5	4	
+\\G(?:\\s+|#.*)	13	104		0.047	0.8806	0.1306	8	32	5	
+parseInt\\(([^,\\)\\(]+)\\)	32	136		0.1599	0.9008	0.6991	13	38	12	
+^(?:jj|nn|rb|vb)	7	12		0.0904	0.0002	0.1774	9	9	5	
+(cris|test|diagnos)(?:is|es)$	87	102		0.1632	0.9647	1.6665	20	21	18	
+YA_GOOFED	27	51		0.0344	0.3003	0.2581	10	18	10	
+INTENSITY VALUES: (\\d+) x (\\d+) BYTES	95	187		0.1445	0.5791	0.4017	34	62	32	
+\\.0*[1-9]+	14	40		0.0321	0.2632	0.1911	6	12	5	
+\\A\\.?/	23	40		0.0562	0.2287	0.2271	7	14	8	
+MKV|AVI	20	20		0.0438	0.9821	0.05	9	6	6	
+^[0-9A-Za-z._-]{0,100}$	100	100		0.1849	0.0001	0.4257	101	101	101	
+\\/([a-zA-z]+)	8	30		0.0779	0.1859	0.0905	5	10	4	
+id must be string	51	99		0.0827	0.2819	0.2191	18	34	18	
+gecko\\/(\\d+(\\.\\d+)?)	27	76		0.0538	1.591	0.2322	16	25	10	
+\\A\\:\\:	18	33		0.0643	0.1427	0.0946	7	12	7	
+.+longProperty which is not declared as an array in the model.	239	480		0.1496	1.5641	0.9864	64	122	62	
+[\\u2013]	3	3		0.1059	0.0519	0.0336	2	2	2	
+^(view)$	4	4		0.0208	0.0001	0.0483	5	5	5	
+/images/flags/	41	80		0.0802	0.2414	0.1707	15	28	15	
+REGISTER_LONG_CONSTANT\\(\\s*\"([a-zA-Z0-9_]+)\"										ERROR
+%d	6	9		0.036	0.1012	0.0706	3	4	3	
+^(.+?\\/)(?:seajs\\/)+(?:\\d[^/]+\\/)?$	19	25		0.0783	0.1304	0.1216	24	22	16	
+run `actionhero help` to learn more	105	207		0.159	0.5674	0.4029	36	70	36	
+^([^\\s]+)\\=([^\\s]+)$	6	6		0.0746	0.0505	0.0431	6	5	5	
+TypeError: Cannot calculate median, unexpected type of argument	189	375		0.2151	1.4495	0.5399	64	126	64	
+embed src=\"([^\"]+)\"	37	154		0.0461	0.7325	0.6925	15	46	14	
+%m%	8	14		0.0405	0.1121	0.0627	4	6	4	
+^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|valueLink|accept|acceptCharset|accessKey|action|allow|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|default|defer|dir|disabled|download|draggable|encType|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|itemProp|itemScope|itemType|itemID|itemRef|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class)|(on[A-Z].*)|((data|aria|x)-.*))$	1478	2268		10.9836	33.0619	25.0723	3044	1936	1149	
+^(?:DATEADD\\b)	10	10		0.0721	0.0004	1.3316	10	10	10	
+at\\s\\S+\\.pm\\s+line\\s+[0-9]+\\.\\s*$	80	80		0.0896	0.5072	0.3066	27	25	25	
+value for outfile not set	75	147		0.131	0.5931	0.4889	26	50	26	
+[a-zA-Z_0-9]+$	4	4		0.0443	0.0359	0.0255	3	2	2	
+\\n|\\r|\\f	6	6		0.0859	0.6315	0.0268	10	3	3	
+(^|[^\\\\])\\.	5	13		0.0361	0.0803	0.0454	6	6	3	
+^struct\\s+	9	13		0.0639	0.1217	0.0829	10	11	9	
+^$self->{title}										ERROR
+ideogram	24	45		0.0586	0.1976	0.1306	9	16	9	
+(.*?):(.*)	6	14		0.0371	0.1013	0.0478	4	6	3	
+\\/c9.ide.scm	44	85		0.0466	0.2212	0.1826	13	28	15	
+<\\/cluster>	33	63		0.0543	0.1694	0.1001	12	22	12	
+([^\\/]+)(?=\\.\\w+$)										ERROR
+\\\\.tar.gz(.enc)?$	53	53		0.0778	0.188	0.1284	14	18	18	
+^el programa debe terminarse\\.$	29	29		0.0666	0.0001	0.1114	30	30	30	
+\\${([^{}]*|{[^{}]*})*}										ERROR
+:([a-zA-Z_$][a-zA-Z0-9_$]*)|\\*\\*|\\*|\\(|\\)	1	2		0.2075	1.0305	0.0154	17	2	1	
+/nifi-api/tenants/users	69	135		0.0942	0.4	0.3896	24	46	24	
+Daily[-_\\.]Show|Nightly News|^\\[[a-zA-Z\\.\\-]+\\].*[-_].*\\d{1,3}[-_. ](([\\[\\(])(h264-)?\\d{3,4}([pi])([\\]\\)])\\s?(\\[AAC\\])?|\\[[a-fA-F0-9]{8}\\]|(8|10)BIT|hi10p)(\\[[a-fA-F0-9]{8}\\])?|(\\d\\d-){2}[12]\\d{3}|[12]\\d{3}(\\.\\d\\d){2}|\\d+x\\d+|\\.e\\d{1,3}\\.|s\\d{1,3}[-._ ]?[ed]\\d{1,3}([ex]\\d{1,3}|[-.\\w ])|[-._ ](\\dx\\d\\d|C4TV|Complete[-._ ]Season|DSR|([DHPS])DTV|EP[-._ ]?\\d{1,3}|S\\d{1,3}.+Extras|SUBPACK|Season[-._ ]\\d{1,2})([-._ ]|$)|TVRIP|TV[-._ ](19|20)\\d\\d|Troll(HD|UHD)										ERROR
+<ds:DigestMethod Algorithm='http:\\/\\/www.w3.org\\/2001\\/04\\/xmlenc#sha512'\\/>	236	469		0.2678	2.3209	0.7248	77	156	79	
+data:.+\\/(.+);base64,(.*)	57	373		0.0792	1.8153	1.2333	21	74	18	
+^/usr/bin/(?!cygcrypt\\b)|^\\Q$system_root\\E/										ERROR
+\\s*\u00d7\\s*	8	22		0.0534	0.182	0.1082	6	8	4	
+comment_permalink	51	99		0.072	0.2541	0.1973	18	34	18	
+^(.*)_before$	22	22		0.0336	0.2244	0.0988	9	8	8	
+m:([a-zA-Z_\\x7f-\\xff][a-zA-Z0-9_\\x7f-\\xff-]*)\\s*(\\(((?>[^)(]+|(?2))*)\\))?										ERROR
+^(424519|42496[23]|450875|48440[6-8]|4844[1-5][1-5]|4917[3-5][0-9]|491880)\\d{10}(\\d{3})?$	44	44		0.293	0.4138	0.4974	52	39	39	
+[^\\w~#]+	3	8		0.145	0.0688	0.0357	4	4	2	
+^php-(?=(\\d+\\.\\d+\\.\\d+((alpha|beta|RC)\\d+)?)$)										ERROR
+(?:(.)\\1+)	10	26		0.0271	0.1662	0.0812	5	8	4	
+\\.tif	23	43		0.0267	0.1561	0.1328	6	14	8	
+^sub(\\d+)$	6	6		0.043	0.0001	0.0638	6	6	6	
+\\.keyword$	36	36		0.0363	0.1376	0.0932	10	12	12	
+\\<\\{(perlout|perl)\\s*(.+?)\\s*\\}\\>	82	161		0.1353	1.1612	0.4558	24	50	26	
+^RSpec.describe \"(.*)\\/index\										ERROR
+^ByGroup\\d+\\.	13	13		0.0594	0.1029	0.0597	13	12	12	
+raw/	12	21		0.0191	0.1192	0.1173	5	8	5	
+^the cartridge (.+) status should be (.+)$	69	125		0.1294	0.4913	0.6961	36	53	35	
+\\[quote\\b[^]]*\\]((?>[^[]++|\\[(?!/?quote))*)\\[/quote\\]										ERROR
+^ *(`{3,}|~{3,}) *(\\w+)? *\\n([\\s\\S]+?)\\s*\\1 *(?:\\n+|$)	32	36		0.1709	0.4156	0.3405	25	21	19	
+>Summary:\\s*</span>\\s*([^<]+)\\s*<br	125	259		0.0775	1.5926	1.1777	28	70	35	
+^vpc-([a-z0-9]{8}|[a-z0-9]{17})$	21	21		0.1267	0.0755	0.1007	29	22	22	
+\\A(.+)<(.+)>\\z	24	115		0.04	0.5624	0.411	11	26	9	
+^skip_\\d+$	8	8		0.0489	0.0002	0.0733	8	8	8	
+font-weight:\\s?bold;?	55	116		0.0578	0.4041	0.3565	22	39	19	
+([A-Z][A-Za-z]+)	5	22		0.0548	0.1397	0.0523	4	8	3	
+Array.values must be an array	91	179		0.0742	0.4089	0.3189	30	60	31	
+^I have an alignment with islands$	32	32		0.1066	0.0002	0.1271	33	33	33	
+^:[+0-9]	3	3		0.0497	0.0001	0.0504	3	3	3	
+Logstash tried to bind to port range	108	213		0.1177	0.7675	0.5951	37	72	37	
+^(Emulated|Native)$	14	14		0.0716	0.0002	0.1324	14	14	14	
+($|\\r?\\n)	1	2		0.327	0.334	0.0154	8	2	1	
+.*\\/src\\/	20	58		0.0371	0.1921	0.1331	10	16	8	
+^value=(.*)	7	11		0.0486	0.0872	0.0605	8	9	7	
+accept tcp .*:.*: use of closed network connection	171	605		0.1116	2.5972	2.4667	49	132	47	
+([a-z]+)([A-Z])([a-z]+)	8	20		0.0541	0.1311	0.0725	7	8	4	
+^@(-(moz|ms|o|webkit)-)?keyframes$	24	24		0.0965	0.2799	0.2109	23	21	21	
+kommittedirektiv/\\d+/\\d+/[a-z]*\\.?-?(\\d{4})(\\d+)-?/$	203	208		0.1431	1.5302	0.8609	43	55	54	
+[\\W|^]+	3	8		0.098	0.0714	0.0329	4	4	2	
+mod5-mask	27	51		0.0482	0.2735	0.2465	10	18	10	
+^I should see routing error on (.+)$	32	32		0.0714	0.0001	0.1259	32	32	32	
+natural ?gift	37	71		0.0612	0.3092	0.2467	14	24	13	
+[+]?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?	6	88		0.074	0.5558	0.1829	18	22	3	
+[a-z/]$	4	4		0.0398	0.028	0.0349	2	2	2	
+^[@]	2	2		0.0111	0.0002	0.0368	2	2	2	
+\\G([^{?*\\\\\\},]*)	6	16		0.1757	0.1079	0.0677	4	6	3	
+\\A(.+[^s])s$	21	39		0.0336	0.255	0.1323	7	11	8	
+    example\\/failure\\.js:\\d+:\\d+: i	100	197		0.1324	0.7621	0.3735	36	68	35	
+\\s+name ('|\").*('|\")	28	118		0.0665	1.4322	0.5548	12	32	10	
+(?:(?:the )? *(\\w+) *)	6	76		0.0529	0.5144	0.321	12	17	3	
+^.*\\/(?<precision>\\d+)$	14	14		0.0341	0.1251	0.0603	6	5	5	
+^\\/r\\/(.+)$	7	7		0.0472	0.0002	0.0677	7	7	7	
+^rgb(\\d+,\\s*\\d+,\\s*\\d+)$	18	18		0.0558	0.1075	0.0818	18	14	14	
+wait-for-script	45	87		0.052	0.3161	0.2726	16	30	16	
+&sigmav;?	21	48		0.0333	0.2611	0.2308	10	17	8	
+\\n(\\d+)\\n	18	34		0.0504	0.1563	0.0801	8	12	7	
+^([\\\\\\/]|\\w:)	2	8		0.0574	0.0378	0.0497	5	5	2	
+\\[master\\] exit with code:0	61	119		0.1639	0.3017	0.2765	20	40	21	
+.[aeiou][td]ed$	22	22		0.0705	0.2521	0.0951	6	6	6	
+<([cC].*?)>|(.)	3	3		0.0767	0.452	0.0176	8	2	2	
+^\\s*(?:for|if)\\s*\\(([\\s\\S]+?)\\)\\s*;?\\s*$	18	18		0.0884	0.1528	0.1176	17	13	13	
+\\#\\#\\#\\#\\#\\sSigned\\sby\\s([^\\n\\r\\s]*)\\s*```([^`]*)```\\s*	218	473		0.2023	1.8204	1.7217	37	139	66	
+The broker\\[.+\\] not exist	66	129		0.1714	0.3257	0.2392	23	44	23	
+/api/catalog/accounts/([^/]+)/account_preferences/([^/]+)	144	303		0.1175	0.7505	0.4735	48	104	50	
+^.*\\-([^\\-]+)(?:tar(?:\\.gz|\\.bz2)?|tgz|zip)$	152	171		0.1916	1.7015	0.8697	23	40	37	
+export ([^=]+)=\"(.+)\"	69	283		0.0862	1.9447	1.6169	15	71	20	
+^(\\d+)\\.(\\d+)\\s+recvmsg\\([^\\\"]*\\\"([^\\\"]*)\\\".*\\) = (\\d+)$	45	45		0.1802	0.3122	0.1449	33	27	27	
+^PLUS\\s*\\((\\d+)\\)	12	12		0.044	0.0905	0.0593	12	10	10	
+<BR><BR><B>(.+?)<\\/B><BR>	64	126		0.1083	0.3143	0.2271	22	44	23	
+Valid endpoints	45	87		0.041	0.4173	0.3459	16	30	16	
+^`r.polygon` takes at least 3 arguments, 0 provided	51	51		0.1865	0.0001	0.1676	51	51	51	
+^\\s*#.*ECOD\\s*version\\s+(\\S+).*	53	126		0.0718	0.8259	0.6127	25	37	19	
+[\\u01b3]	3	3		0.1512	0.0464	0.0311	2	2	2	
+([^a-z0-9_.])+	3	8		0.096	0.0672	0.0313	4	4	2	
+^\\s*\\/?\\$	6	6		0.0468	0.0818	0.0799	7	5	5	
+Timer Stopped\\. \\d+ ms	68	133		0.0611	0.3798	0.2665	23	44	23	
+\n    ^\n    (?: (?<protocol> \\* | [a-zA-Z][A-Za-z+.-]+) ://)?\n    (?: (?<username> \\* | [a-zA-Z0-9%_.!~*'();&=+$,-]+)\n        (?: : (?<password> \\* | [a-zA-Z0-9%_.!~*'();&=+$,-]*))?\n        @\n    )?\n    (?<hostname> [a-zA-Z0-9\\.\\*\\-_]+?)?\n    (?: : (?<port> \\* | \\d+))?\n    (?<path> / [^\\?\\#]*)?                 ## captures leading /\n    (?: \\? (?<query> [^\\#]*) )?\n    (?: \\# (?<fragment> .*) )?\n    $\n  										ERROR
+(<li>)	12	21		0.0204	0.0677	0.0636	5	8	5	
+^tests\\/	8	8		0.0632	0.0001	0.0716	8	8	8	
+(\\d+\\s*decades?\\s*)?(\\d+\\s*years?\\s*)?(\\d+\\s*months?\\s*)?(\\d+\\s*weeks?\\s*)?(\\d+\\s*days?\\s*)?(\\d+\\s*hours?\\s*)?(\\d+\\s*minutes?\\s*)?(\\d+\\s*seconds?\\s*)?(\\d+\\s*milliseconds?\\s*)?(\\d+\\s*microseconds?\\s*)?	1	285		0.3181	2.8637	0.3712	152	90	1	
+\\/\\*\\s?|\\s?\\*\\/	15	15		0.118	0.6345	0.0367	15	6	6	
+(?<token>(?:\n                                 { |\n                                 } |\n                                 \\bpackage \\s+ $MODULE \\s* ; |\n                                 \\b(?:class|role) \\s+ $MODULE (.+)? { ))\n                        										ERROR
+^\\s*(#|\\*(\\/)?)+\\s*	7	40		0.168	0.2412	0.1734	17	13	4	
+5\\.9[1-6]|6\\.0[0-5]	53	53		0.1029	1.8959	0.1107	13	14	14	
+--*no-gui	21	39		0.0814	0.2209	0.1417	9	14	8	
+[\\.\\s:,`'\"#]+	3	8		0.2002	0.0661	0.0444	4	4	2	
+^[a-z]\\d+ ([^:\r\n]+)	7	11		0.1729	0.0808	0.0602	8	8	6	
+[\\/~]	3	3		0.0465	0.0451	0.0409	2	2	2	
+key='([-\\\\w ]*)'	19	35		0.1389	0.2642	0.2076	8	12	7	
+(^|[^\\\\])(\\/\\*([\\s\\S]*?)\\*\\/|([^:]|^)\\/\\/(.*)$)										ERROR
+^tf-test-	9	9		0.0548	0.0002	0.0761	9	9	9	
+(^[ ]+)|([ ]+$)	7	7		0.035	0.3189	0.0286	7	4	4	
+\\A *Basic (.*)\\Z	32	111		0.0838	0.4749	0.3884	13	32	11	
+-$lang$										ERROR
+require \"spec_helper\"	63	123		0.0939	0.3555	0.2966	22	42	22	
+^Stack \\[(.+)\\] does not exist$	23	23		0.1471	0.0001	0.1085	24	24	24	
+<ds:DigestMethod Algorithm='http:\\/\\/www.w3.org\\/2000\\/09\\/xmldsig#sha1'\\/>	233	463		0.2342	1.8138	0.5439	76	154	78	
+Taglines:</h4>\\s*(.*?)\\s*<	69	134		0.0585	0.6018	0.4504	21	42	22	
+(?i)\\bwddx_(serialize_va(lue|rs)|deserialize|packet_(start|end)|add_vars)\\b	163	336		22.5198	1.4731	1.2689	56	110	54	
+(get|post|delete|put)	51	51		0.0796	2.3362	0.0882	21	11	11	
+tcRunResult	32	62		0.0721	0.2324	0.196	12	22	12	
+^[0-9a-fA-F]{2}(?::[0-9a-fA-F]{2}){2,5}	9	28		0.094	0.1374	0.0842	24	19	9	
+^child	6	6		0.0479	0.0002	0.0717	6	6	6	
+\uff3b\uff03\u4e2d\u898b\u51fa\u3057\uff3d(.*?)\uff3b\uff03\u4e2d\u898b\u51fa\u3057\u7d42\u308f\u308a\uff3d	57	111		0.2658	0.3877	0.287	19	38	20	
+^(.+?)-(\\d+)-(.*)$	7	7		0.0676	0.074	0.0637	7	6	6	
+([^\\$\\w\\d])wwwwWWw([^\\w\\d])	28	55		0.0705	0.2018	0.1334	10	18	10	
+<\\/p><p[^>]*>	23	76		0.078	0.3733	1.3186	10	24	9	
+!CONTRIBUTORS!	41	80		0.0519	0.4451	0.364	15	28	15	
+Finalized config	48	93		0.0782	0.3616	0.3329	17	32	17	
+^(-?\\d+)\\!$	7	7		0.0302	0.0629	0.061	8	6	6	
+^\\s*(<\\s*([^\\s>]+)([^>]+)\\/\\s*>|\t# <unary \\/>\n\t\t\t\t\t <\\?\\s*([^\\s>]+)\\s*([^>]*)\\?>|\t# <? headers ?>\n\t\t\t\t\t <!--(.+?)-->|\t\t\t# <!-- comments -->\n\t\t\t\t\t <!\\[CDATA\\s*\\[(.*?)\\]\\]\\s*>\\s*| \t# CDATA \n\t\t\t\t\t <!DOCTYPE\\s*([^\\[>]*)(\\[.*?\\])?\\s*>\\s*|\t# DOCTYPE\n\t\t\t\t\t <!ENTITY\\s*([^\"'>]+)\\s*([\"'])([^\\11]+)\\11\\s*>\\s*| # ENTITY\n\t\t\t\t\t ([^<]+))(.*)	201	270		0.9763	1.8447	1.0827	214	194	168	
+^[^<]*[\\$|%|#|>|~]\\s*$	12	12		0.1411	0.167	0.0968	4	4	4	
+(\\d+)ticks$	23	23		0.0702	0.1357	0.0669	9	8	8	
+REE	9	15		0.0169	0.0563	0.0688	4	6	4	
+([\\s\\S]+?)(?::(\\d+))(?::(\\d+))?	13	42		0.0974	0.2654	0.1538	10	13	5	
+(?<![<>])(<[A-DF-Z][^>]*>[Ss]h?eacht<\\/[A-DF-Z]> <N pl=\"n\" gnt=\"n\" gnd=\"f\">[Ss]eachtain<\\/N>)(?![<>])										ERROR
+^field::	8	8		0.0527	0.0002	0.0693	8	8	8	
+^\\s*and\\s+	8	12		0.034	0.0835	0.0692	9	9	7	
+mailto:(										ERROR
+([^0-9]),	6	9		0.022	0.0776	0.0609	3	4	3	
+^the output should match '(.+)'$	30	30		0.104	0.2034	0.1419	29	28	28	
+^UFID$	4	4		0.0291	0.0001	0.0431	5	5	5	
+Task template name can't be nil	93	183		0.1237	0.3904	0.2529	32	62	32	
+(?!\\()										ERROR
+^SYSTEM	7	7		0.0488	0.0002	0.0725	7	7	7	
+^\\/[_0-9a-zA-Z-]+\\/(wp-(content|admin|includes).*)	30	34		0.1799	0.2125	0.1602	29	29	27	
+dtr, version ([0-9.]+)$	44	44		0.1029	0.1479	0.114	15	15	15	
+^([a-z0-9]+)([A-Z][a-z0-9]+)*$	3	6		0.0741	0.0748	0.0705	5	4	2	
+^METHODS\\((.*)\\)$	12	12		0.0905	0.1257	0.0754	11	10	10	
+gcc47	15	27		0.0222	0.1462	0.1162	6	10	6	
+300 seconds	33	63		0.0713	0.3611	0.3076	12	22	12	
+train	15	27		0.0201	0.1168	0.0998	6	10	6	
+matching	24	45		0.0619	0.1802	0.136	9	16	9	
+^\\d{4}\\-\\d{2}\\-\\d{2}	16	16		0.0458	0.0001	0.0885	16	16	16	
+(^|/)	1	2		0.0667	0.1793	0.0148	4	2	1	
+CPU states:[ ]*([0-9\\.\\% a-z]*),[ ]*([0-9\\.\\% a-z]*),[ ]*([0-9\\.\\% a-z]*),[ ]*([0-9\\.\\% a-z]*),[ ]*([0-9\\.\\% a-z]*)	49	191		0.2234	0.7215	0.514	26	50	16	
+Parameter user failed	63	123		0.0999	0.3355	0.2243	22	42	22	
+expected not to find text \"This is a test\"	126	249		0.0867	0.5705	0.8003	43	84	43	
+^[a-z\\u00C0-\\u00ff]+$	2	2		0.0885	0.0002	0.0597	2	2	2	
+^\\s*SELECT (@@|COUNT\\()										ERROR
+(?m)\\\\	5	8		0.0285	0.0476	0.0449	3	4	3	
+(\\d\\d\\d) (.*)	19	63		0.0448	0.2074	0.0885	9	22	8	
+Must call Logger with opts argument	105	207		0.1459	0.6728	0.4964	36	70	36	
+Success.*[^\\d](\\d+) percent \\((\\d+)\\/(\\d+)\\)	170	447		0.1008	2.2385	1.2207	32	104	47	
+NUM_HEMI_LIGHTS	45	87		0.0849	0.3659	0.298	16	30	16	
+\n    ^[\\ \\t]*(\n        from[\\ \\t]+[\\w\\.]+[\\ \\t]+import\\s+\\([\\s\\w,]+\\)|\n        from[\\ \\t]+[\\w\\.]+[\\ \\t]+import[\\ \\t\\w,]+|\n        import[\\ \\t]+\\([\\s\\w,]+\\)|\n        import[\\ \\t]+[\\ \\t\\w,]+\n    )\n										ERROR
+(name)(=)((\")[^\"]*(\"))	20	77		0.0785	0.4006	0.3118	9	24	8	
+^([^=\\[\\]]+)\\[\\][^=]*=(.*)$	8	8		0.0692	0.1074	0.0666	8	6	6	
+\\\\madda{}	26	49		0.0708	0.1481	0.1363	10	18	10	
+version: Apache/(\\d)	54	105		0.0542	0.9122	0.2833	19	36	19	
+^[A-Za-z]\\\\w*@[A-Za-z0-9][\\\\w.]*:	9	9		0.1123	0.1364	0.0937	9	7	7	
+[\\x{0700}-\\x{0745}]										ERROR
+[Pp]ublic [Dd]omain	39	75		0.1072	0.5045	0.4172	14	26	14	
+must be located under base	78	153		0.068	0.3642	0.2789	27	52	27	
+^([^-]+)-([^\\(]+)\\(([+-])\\)$	8	8		0.1168	0.1129	0.0632	9	7	7	
+gx:	9	15		0.0177	0.122	0.0999	4	6	4	
+All done. Go play!	58	113		0.1048	0.3256	0.2372	19	38	20	
+^\\s*\\{.*?\\}\\s*$	9	9		0.0381	0.0657	0.0601	9	8	8	
+^(?:Model|Sequence)\\s+Domain	23	23		0.1402	0.1755	0.1294	22	21	21	
+^(SoftBank|Vodafone)	17	18		0.0677	0.0001	0.1377	17	17	16	
+^client=	8	8		0.0533	0.0002	0.0773	8	8	8	
+^composes$	8	8		0.0274	0.0001	0.0591	9	9	9	
+^boom\\nUser Message: bam\\n\\n.*	28	32		0.1261	0.1456	0.1073	29	30	28	
+$opt{origin}										ERROR
+Improperly formatted armor header	99	195		0.1178	0.3835	0.2329	34	66	34	
+^0{2,}	3	7		0.014	0.0512	0.0548	4	5	3	
+Version\\/11\\.0 Safari	67	131		0.1355	0.4919	0.3987	22	44	23	
+\\b(and|land|lor|lsl|lsr|lxor|mod|or)\\b	41	110		0.1325	0.5673	0.8845	23	34	13	
+(?i)^SET PREFIX\\\\s	14	14		2.2687	0.0001	0.0772	14	14	14	
+^\\/v1\\/metering|^\\/batch$	20	20		0.0832	0.1122	0.1261	22	20	20	
+\\bq[qwxr]?([^\\w({<[])[\\s\\S]*?\\1	40	76		0.2488	0.4877	0.4197	10	24	13	
+^(\\s*)(https?://[^\\s\"]+)(\\s*)$	15	15		0.0865	0.1286	0.0962	15	12	12	
+^\\s*QUIT\\s*$	8	8		0.0738	0.1126	0.0676	8	7	7	
+(?m)^\\>.*\\n+	16	38		0.3584	0.1523	0.0756	9	12	6	
+Video\\: (.*)	24	79		0.0762	0.4076	0.1827	10	25	9	
+<Link>\\s+<Id>(\\d+)</Id>	59	115		0.0627	0.3693	0.2479	22	38	20	
+&ucirc;	21	39		0.0521	0.205	0.1522	8	14	8	
+^\u0e21\u0e34	3	3		0.0644	0.0002	0.0931	3	3	3	
+^points	7	7		0.0488	0.0002	0.0725	7	7	7	
+<% content_for :js do %>(.*?)<% end %>	105	207		0.1035	0.6439	0.4258	35	70	36	
+^[@:0-9a-zA-Z_\\-]*$	1	1		0.1992	0.0001	0.0425	1	1	1	
+^the output is successfully ascii\\-edited to the following:$	58	58		0.1278	0.0001	0.1869	59	59	59	
+(<E[^>]*><T>[Aa]n<\\/T> <A pl=\"n\" gnt=\"n\">(?:seacht|naoi|deich)<\\/A><\\/E> <A pl=\"n\" gnt=\"n\">gc\\x{e9}ad<\\/A>)	268	541		0.3204	2.7138	0.8753	91	180	90	
+^0[oO]	3	3		0.0495	0.0002	0.0498	3	3	3	
+\\d{1,2}[:.]\\d{2}	22	42		0.0981	0.2049	0.1755	9	14	8	
+HTTP/1.1 200 OK\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Length: 7\r\nDate: .+\r\nServer: .+\r\n\r\n200: OK	510	1017		0.2449	5.2825	2.9442	109	290	146	
+(e|=)	3	3		0.0637	0.0459	0.0315	2	2	2	
+RuntimeError: Ticket ([-\\w]+):(\\d+): (.*)	83	275		0.1049	1.2024	0.588	31	82	28	
+both|balloon	28	28		0.0893	1.183	0.0654	14	10	10	
+^([0-9][0-9]+):([0-5][0-9]):([0-5][0-9])|(60)(\\.([0-9])+)?$	72	72		0.0958	1.4672	0.9035	17	22	22	
+\\ (CrMo|Chrome|CriOS)\\/	44	85		0.1483	0.3064	0.2411	18	28	15	
+radius-server timeout (\\d+)	72	148		0.0635	0.4262	0.2954	26	50	25	
+nochown	20	38		0.0534	0.175	0.1337	8	14	8	
+\\.\\z	19	34		0.0251	0.1113	0.0816	5	12	7	
+=(.*)=(.*)	6	14		0.0468	0.1082	0.0588	5	6	3	
+\\A\\s*\n        (-?\\d+)(?:-(\\d\\d)(?:-(\\d\\d)\n        (?:T\n        (\\d\\d)(?::(\\d\\d)(?::(\\d\\d)\n        (\\.\\d+)?\n        )?)?)?\n        (Z|[+-]\\d\\d:\\d\\d)?\n        )?)?\n        \\s*\\z	390	777		0.4183	2.6698	1.964	129	250	126	
+Please obtain	39	75		0.0811	0.2715	0.1572	14	26	14	
+^(\\#|\\!)	3	5		0.0411	0.0841	0.0615	5	4	3	
+html4	15	27		0.0482	0.1458	0.0882	6	10	6	
+LD_RUN_PATH=\\S*\\s*	43	90		0.0548	0.5696	0.4343	17	30	15	
+-v+	6	16		0.0395	0.1362	0.0656	4	6	3	
+\\b(.*)\\.(bundle|customLocation(AllowAlternateVolumes)?|description(-mime-type)?|(start_)?enabled|id|(start_)?selected|tooltip|(start_)?visible|title|packages|packageUpgradeAction)\\b	611	1343		0.4582	8.4348	2.762	156	292	129	
+(?:wday|wd) *\\{(.*?)\\}	34	67		0.12	0.4424	0.3094	14	21	11	
+^(ccomp: 3.66)\\d+	14	18		0.0521	0.1003	0.848	15	16	14	
+Zombie.js\\/\\d\\.\\d	59	115		0.1055	0.4243	0.359	18	38	20	
+re\\splace	27	51		0.031	0.1338	0.1006	10	18	10	
+git please fail.*exited with error code \\d+	144	484		0.1754	2.5619	2.1521	43	110	41	
+(\\()([^()]*?)(\\))\\s*([=-]>)	41	78		0.0814	0.4028	0.273	8	24	13	
+[^<>, ]*\\$([^<>, $]*)										ERROR
+(;|(?<!\\*)\\/)$										ERROR
+\\bnamespace\\b	38	74		0.0552	0.2067	0.1268	14	26	14	
+.*BEGIN (RSA )?PRIVATE KEY.*	64	260		0.0836	1.2682	0.9096	26	66	22	
+ID=\"[^\"]+\"	16	56		0.0501	0.2696	0.208	8	18	7	
+\\=.*	6	19		0.0265	0.0914	0.0478	4	7	3	
+[ \\t]*\\r?\\n[ \\t]*	12	54		0.1005	0.3149	0.2169	9	15	5	
+\\A(?:tag:yaml\\.org,2002:|!!?)merge\\z	98	199		0.1596	0.5876	0.4892	32	64	32	
+weekdays\\.yml$	44	44		0.0701	0.2681	0.1509	14	15	15	
+\\.(ts|html|scss)	55	440		0.0725	1.1872	0.5041	13	120	15	
+^# User\\@Host: (.+?) \\@ (.*?) \\[(.*?)\\]	24	24		0.1715	0.0001	0.105	24	24	24	
+resize$	19	19		0.0237	0.1042	0.0673	7	7	7	
+(\\-[a-z])	9	15		0.0522	0.1181	0.0668	4	6	4	
+^is bad$	6	6		0.0235	0.0002	0.0537	7	7	7	
+(\\w[\\w-]*\\s*):([^;}]+)	20	72		0.1065	0.7172	0.2556	9	20	7	
+^I am redirected to the \"([^\"]*)\" project page$	39	39		0.0965	0.1917	0.1295	40	39	39	
+(^VERSION *|720P|1080P|HDTV|PROPER|RERIP|INTERNAL|X\\.?264)	418	418		0.2436	15.7337	0.6482	56	47	47	
+tbi_aware.tbi...$	84	84		0.0586	0.346	0.2956	17	27	27	
+(deleted:.*)$\\n?										ERROR
+\\Gnext	18	33		0.0379	0.1059	0.0865	7	12	7	
+\\(irb\\):3:in.+\\(irb\\):2:in	71	221		0.1179	0.8216	0.5991	23	62	22	
+(?P<type>\\S+):\\s+(?P<size>[0-9]+)										ERROR
+^Python-urllib/	15	15		0.0828	0.0002	0.0978	15	15	15	
+(?:^[^?#]*\\?([^#]*).*$)?.*										ERROR
+^arn:aws:iam:.*:role\\/[^:]+$	39	39		0.1136	0.3131	0.2097	22	22	22	
+^$dir$										ERROR
+--rc=([^\\s]+)	16	59		0.086	0.354	0.1502	8	20	7	
+[\\),]	3	3		0.0593	0.0418	0.0312	2	2	2	
+\\.re$	21	21		0.0487	0.1771	0.0642	5	7	7	
+(embed|edit|watch|download|source)$	159	164		0.1029	1.8872	0.6195	30	28	27	
+mastercoin	30	57		0.0686	0.1616	0.1126	11	20	11	
+ \\s+ | \\n | , 	16	16		0.0667	1.7288	0.0446	16	6	6	
+UnformattedNote	45	87		0.087	0.4622	0.4181	16	30	16	
+snippet	21	39		0.0254	0.1104	0.0863	8	14	8	
+^(?:[_a-zA-Z]\\w*)?:[a-zA-Z]\\w*$|^[^\\{\\}<>]*$	15	15		0.193	1.1972	0.1082	9	9	9	
+GSE	9	15		0.0193	0.1301	0.1062	4	6	4	
+(\\d+|^a)$	13	13		0.0702	0.3313	0.0314	6	5	5	
+^I expect the (first|last|\\d+(?:st|nd|rd|th)) entry to be:$	41	46		0.1722	0.2977	0.2583	42	41	37	
+^$Opt{'root'}										ERROR
+#### node\\nundefined	57	111		0.0569	0.2432	0.2372	21	40	21	
+^I update the ?(default)* profile with id \"([^\"]*)\" by adding the role \"([^\"]*)\"$	67	67		0.2273	0.3069	0.2169	65	62	62	
+^($field)$										ERROR
+(\\?|&)u_tz=-?\\d+(&|$)	29	106		0.0932	0.8472	0.4588	18	23	10	
+^\\.Sh BUGS$	9	9		0.0365	0.0001	0.0627	10	10	10	
+^<p(ty<|ipe)$	8	8		0.0897	0.0001	0.0864	8	8	8	
+CONSTRAINT `$fk` FOREIGN KEY										ERROR
+^$query\\.										ERROR
+ulb(c*)	9	22		0.0323	0.0864	0.0671	5	8	4	
+class=[\"|']?[^\"']*size-([^\"'\\s]+)[^\"']*[\"|']?	74	322		0.2007	3.1475	1.0329	20	67	19	
+^>([\\s\\S]+?)(\\n\\n|$)	7	7		0.0705	0.0001	0.0778	7	7	7	
+ [+]:plus 	23	44		0.0485	0.1676	0.18	9	16	9	
+; *(MODECOM )([^;/]+) Build	59	115		0.1047	0.8347	0.5554	19	32	17	
+\\b(q(int8|int16|int32|int64|longlong|real|uint8|uint16|uint32|uint64|ulonglong)|u(char|int|long|short))\\b	106	318		0.4186	1.5011	1.1372	72	98	33	
+^([\\+-]?\\d{4}(?!\\d{2}\\b))((-?)((0[1-9]|1[0-2])(\\3([12]\\d|0[1-9]|3[01]))?|W([0-4]\\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\\d|[12]\\d{2}|3([0-5]\\d|6[1-6])))([T\\s]((([01]\\d|2[0-3])((:?)[0-5]\\d)?|24\\:?00)([\\.,]\\d+(?!:))?)?(\\17[0-5]\\d([\\.,]\\d+)?)?([zZ]|([\\+-])([01]\\d|2[0-3]):?([0-5]\\d)?)?)?)?$										ERROR
+\\b$enc\\b										ERROR
+unless: Function required for second argument	135	267		0.0974	7.5635	0.5949	46	90	46	
+[/\\*<>{}[\\]~`]	12	21		0.2366	0.2032	0.1984	5	8	5	
+(^|[^0-9\\\\x1f])((?:\u6492(?:\u6bcd\u8033[\u8a18\u8bb0]\u4e0b\u300b?|\u4e0b\u300b?|\u6155\u723e\u7d00\u4e0b\u300b?)|2Sam|\u300a\u6492(?:\u6bcd\u8033[\u8a18\u8bb0]\u4e0b\u300b?|\u4e0b\u300b?|\u6155\u723e\u7d00\u4e0b\u300b?)))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)										ERROR
+(^images\\/)+(.*)(.gif|.jpg|.jpeg|.png)$										ERROR
+universal-darwin(\\d)	54	105		0.0694	0.4053	0.2585	19	36	19	
+^sha256\\$.{0,32}\\$[a-f0-9]{64}$										ERROR
+'RESTORE'	26	50		0.0463	0.3559	0.2871	10	18	10	
+`repeating\\.byMonthDay` contains invalid value `32`	156	310		0.1808	1.3517	1.1585	52	104	53	
+^((->)|(=>)|(\\+\\+)|(\\+\\=)|(\\-\\-)|(\\-\\=)|(\\*\\*)|(\\*\\=)|(\\/\\/)|(\\/\\=)|(==)|(!=)|(<=)|(>=)|(<>)|(<<)|(>>)|(//))	1	2		0.3107	3.017	0.0222	68	2	1	
+\\ARequest for frame (?P<frnum>\\d+) exceeds the range of 0 through (?P<nframes>\\d+)\\Z										ERROR
+^(.*?)(\\/t\\/.*)$	7	7		0.0756	0.0003	0.0769	7	7	7	
+vhdl	12	21		0.0261	0.1098	0.0985	5	8	5	
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:(?:1(?:Joh|[\\s\\xa0]*J|[\\s\\xa0]*Jua)|I[\\s\\xa0]*Jua|[1I]\\.[\\s\\xa0]*Jua|Una(?:ng)?[\\s\\xa0]*Jua)n))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)										ERROR
+%r\\[										ERROR
+^(broadcast/(data/|broad/)([\\w\\d]+[^/]/))(.*)	28	33		0.1539	0.2805	0.2001	26	27	24	
+Dls	9	15		0.022	0.1212	0.0821	4	6	4	
+^<p>foo<span .*data-cke-widget-wrapper=\"1\".*><b data-cke-widget-data=\"%7B%7D\" data-cke-widget-keep-attr=\"0\" data-cke-widget-upcasted=\"1\" data-widget=\"testup2\">bar<\\/b><\\/span><\\/p>$	501	741		1.7151	5.4193	3.1258	178	202	176	
+^I search for users with group \"([^\"]*)\"$	33	33		0.1053	1.9365	0.1437	34	33	33	
+/JavaBridge	33	63		0.0621	0.2761	0.1741	12	22	12	
+`GlobMatchController.*matched` requests	127	473		0.1183	2.6593	2.6157	39	112	38	
+^[0-9]{4}\\/[0-9]{2}$	8	8		0.0862	0.0004	0.0796	9	9	9	
+^(?<param>columns|order)\\[(?<idx>[0-9]+)\\]\\[(?<sub_param1>[^]]+)\\](\\[(?<sub_param2>[^]]+)\\])?$										ERROR
+::\\s$	12	12		0.0353	0.0888	0.0766	5	5	5	
+SUPER$	16	16		0.0237	0.0596	0.0968	6	6	6	
+must call initialize before calling this function	147	291		0.1534	0.9326	0.5683	50	98	50	
+Registered:\\s+(.+)$	42	97		0.0466	0.3152	0.3975	16	28	15	
+onsenui	21	39		0.0378	0.1814	0.1958	8	14	8	
+\\A([a-zA-Z0-9\\-\\_\\~\\+\\\\]+\\.[a-zA-Z0-9\\-\\_\\~\\+\\\\]+\\.[a-zA-Z0-9\\-\\_\\~\\+\\\\]*)\\z	133	395		1.7503	1.9029	1.5189	14	100	36	
+(q?\\.[a-z]+)	13	78		0.0559	0.3673	0.2721	8	20	5	
+use Filter\\:\\:NumberLines::Simple;	102	201		0.1012	0.556	0.3859	35	68	35	
+^after	6	6		0.0326	0.0002	0.0607	6	6	6	
+^the background job ran$	22	22		0.0745	0.0001	0.1048	23	23	23	
+Finished \\\"\\/cable\\?token=123\\\" \\[AnyCable\\].*\\(Closed\\)	130	594		0.2707	3.5494	3.3297	44	146	42	
+(y|a|x)	3	3		0.0781	0.0562	0.0339	2	2	2	
+^total memory: \\d+kB$	19	19		0.0836	0.1315	0.112	20	19	19	
+^(\\d+)\\.(.*?)(?:-((?:TRIAL|RC)\\d+))?$	17	17		0.1053	0.096	0.12	16	15	15	
+(T\\d+)	9	22		0.0352	0.092	0.0498	5	8	4	
+^<object\\s+.*</object>$	37	43		0.0692	0.3232	0.1868	21	21	19	
+(\\\\\\/)?(\\\\\\.)?:(\\w+)(\\(.*?\\))?(\\*)?(\\?)?	29	77		0.082	0.3454	0.268	22	21	9	
+urn\\:com\\.microsoft\\.wc\\.(.*)	82	277		0.093	0.9764	0.4693	27	83	28	
+^((hd(?P<Unit>\\d+)),.*(?P<Partition>\\d+))$										ERROR
+^\\@(base|prefix|forSome|forAll|keywords|namepattern|dtpattern|pattern|term|profile|import|pragma)\\b	64	78		0.296	1.0649	0.5701	75	67	53	
+(<select[^>]*>.*</select[^>]*>)	116	684		0.079	3.3599	1.8608	21	160	31	
+^thisid$	6	6		0.0335	0.0001	0.0513	7	7	7	
+\"setup\" must have an arity of 1	93	183		0.0912	0.5095	0.3957	32	62	32	
+Unable to parse config	66	129		0.0622	0.4618	0.3787	23	44	23	
+\\A$dldir/([^/]+)\\z										ERROR
+Heading1	24	45		0.0367	0.1949	0.1255	9	16	9	
+last\\s+updated\\s+date:\\s+((\\S+\\s+)+){1,6}	82	198		0.2396	1.5858	0.451	108	62	27	
+^(?:export|import)\\s	11	15		0.0845	0.0002	0.1056	14	14	10	
+^(.+?)-dev$	5	5		0.046	0.0001	0.0478	6	6	6	
+.*[?#]	3	10		0.0433	0.0951	0.0613	4	4	2	
+is-bin|INTERSHOP	56	56		0.0832	1.6385	0.0781	18	15	15	
+^(.+) (\\w{12}): *(\\d+): 	65	149		0.049	0.4716	0.3341	24	44	23	
+[^\\s=\\[\\]\\(\\),\"\\/\\?@:;]+=[^\\s=\\[\\]\\(\\),\"\\/\\?@:;]*	86	183		0.1439	0.7833	0.5129	29	51	25	
+(\\s*)\\)										ERROR
+[\\u0750-\\u077F]	3	3		0.0313	0.0254	0.0252	2	2	2	
+Originating centre:\\s+(\\d+)	70	144		0.0653	0.505	0.411	26	48	24	
+Airbrake\\.setErrorDefaults.*	82	271		0.0796	1.1126	0.5052	28	82	28	
+^('|\")[\\s\\S]*\\1$	6	6		0.0571	0.0832	0.0586	5	4	4	
+(FLOAT|DOUBLE)	40	40		0.0578	1.8769	0.0629	14	11	11	
+program body and a filename	81	159		0.0624	0.4009	0.392	28	54	28	
+\\s*<a href=\"/title/tt\\d{7}/(plotsummary|synopsis)[^>]*>See full (summary|synopsis).*$	394	886		0.2164	4.4824	4.2349	73	228	116	
+bank	12	21		0.024	0.0688	0.1297	5	8	5	
+<PKIT_(MESSAGES|IS_ERROR|NOT_ERROR|HAVE_MESSAGES|HAVE_NOT_MESSAGES)>	103	323		0.2225	0.948	0.811	59	106	34	
+success!!	27	51		0.0341	0.1664	0.1421	10	18	10	
+\u00ce\u00bb	6	9		0.0639	0.0972	0.0694	3	4	3	
+instagram.com\\/p\\/[a-zA-Z0-9_\\/\\?\\-\\=]+	60	206		0.2333	1.1543	0.4641	21	62	21	
+\\d+\\.\\d{2}ms	41	79		0.0381	0.22	0.1836	11	26	14	
+^(...)\\\\.(.+)/(...)$	39	39		0.0464	0.151	0.1243	13	23	23	
+(\\d\\d\\d\\d)$	22	22		0.0356	0.0717	0.0642	9	9	9	
+'Server already running'	71	140		0.0614	1.1685	0.4795	25	48	25	
+threw exception	45	87		0.0435	0.2744	0.2612	16	30	16	
+\\A\\-\\-\\-\\s*\\n	37	71		0.0493	0.2636	0.1872	13	24	13	
+\\-+|\\s+	6	6		0.0455	0.4418	0.0252	9	3	3	
+background-color	48	93		0.0542	0.2939	0.3014	17	32	17	
+(<img.*?\\/>)|<span class=\"emoji.*?<\\/span>	107	107		0.1599	2.2102	0.1699	38	35	35	
+^(?:fn)	3	3		0.0198	0.0001	0.0403	3	3	3	
+media=\"([^\"]+)\"	25	98		0.0414	0.4391	0.3728	11	30	10	
+^(?:.*\\/)?resources\\/	38	91		0.0647	0.296	0.1659	17	28	14	
+^write\\((\\d+),.*, (\\d+)\\)\\s+= (\\d+)$	47	47		0.0756	0.4286	0.233	25	21	21	
+^\\W(.*?)\\s	6	6		0.0304	0.0001	0.0492	6	6	6	
+(version\\:\\s*\\')([^\\']+)\\'	85	166		0.0892	0.912	0.6245	18	46	24	
+##$name##										ERROR
+^1.1	4	4		0.0185	0.0002	0.0403	4	4	4	
+^form$	4	4		0.0233	0.0002	0.0456	5	5	5	
+^Content-Disposition: attachment; filename=jogeva.txt$	52	52		0.1254	0.0001	0.1712	53	53	53	
+^Alt	4	4		0.0191	0.0001	0.0388	4	4	4	
+This pair is already active	81	159		0.069	0.336	0.2439	28	54	28	
+^system-address$	14	14		0.0451	0.0001	0.0651	15	15	15	
+translate\\(0px,\\s*(-?\\d+)px\\)	66	129		0.0771	0.4533	0.4195	25	42	22	
+QChar(?:[^\\w]+(?:.*?))+?$	24	112		0.0616	0.8119	0.4323	11	27	9	
+(\\w+:|#)	12	12		0.0394	0.4911	0.0371	8	4	4	
+\\(:\\(\\.\\*\\)\\)	22	58		0.0397	0.1559	0.1182	9	21	9	
+\\<(.+?)\\>\\s*;\\s*rel=\"(.+?)\"(?:\\s*,\\s*)?	62	144		0.0766	0.5951	0.3935	23	45	20	
+^(?:y\\{[^}]*\\})	9	9		0.038	0.0814	0.0463	7	6	6	
+\\A(\\h{32}|\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12})\\z	172	407		0.1724	1.6746	0.5539	78	136	58	
+^([+-]) 	3	3		0.0363	0.0001	0.0349	3	3	3	
+apres	15	27		0.034	0.076	0.0741	6	10	6	
+#<BatchLoader:0x\\w+>	58	113		0.0645	0.4867	0.3552	21	38	20	
+class IntegrationTest < ActionDispatch::IntegrationTest	165	327		0.115	0.72	0.5182	56	110	56	
+\\Q*	3	8		0.022	0.0824	0.0474	3	4	2	
+itag=(\\d+)	21	46		0.0431	0.1502	0.0977	9	16	8	
+^dsn?	3	6		0.025	0.0479	0.0423	5	5	3	
+[^$_RE_BidiClass_L\\p{Bc:EN}\\p{Bc:ES}\\p{Bc:CS}\\p{Bc:ET}\\p{Bc:BN}\\p{Bc:ON}\\p{Bc:NSM}]	3	3		0.4128	0.0538	0.0381	2	2	2	
+\\bdelete\\b(?<_1>\\s*\\[\\])?|\\bnew\\b(?!\\])										ERROR
+http://example\\.com/1/.+	72	245		0.0668	0.6861	0.3972	25	74	25	
+http\\:\\/\\/it\\.at\\.there\\/\\d+	91	186		0.0782	0.4248	0.2713	29	62	31	
+^www\\.nytimes\\.com	18	18		0.0571	0.0002	0.0803	18	18	18	
+\\b([0-9\\.e\\+\\-]+)\\b	20	38		0.1116	0.1893	0.1781	7	12	7	
+.*(?=\\/)(.*)(?:.*)$										ERROR
+(?xi)\n      \\b (function|macro|if|foreach|while) \\b\n   |  \\b else(if)? \\b\n   |  \\( [^)]* $\n  										ERROR
+(u|b)?r?'''	7	40		0.0593	0.2336	0.1352	9	10	4	
+$publishing_point_name										ERROR
+(?<![\\d.])(\\d+\\.)([^\\d,]|\\z|,(?!\\d))										ERROR
+[\\s\\u2000-\\u206F\\u2E00-\\u2E7F\\\\'!\"#$%&()*+,\\-.\\/:;<=>?@\\[\\]^_`{|}~]+										ERROR
+(?>(?>(?>[[:space:]])+|(?>\\#)(?>(?>[^\\n])*))*)(?>(?>super)(?![[:alnum:]_]))										ERROR
+^\\s*#{0,1}([0-9a-fA-F]{3})\\s*$	9	9		0.0511	0.1304	0.1311	9	7	7	
+(name|department|address|department-employment|manager)	142	142		0.164	5.0635	0.1871	55	26	26	
+\\/:	9	15		0.0299	0.0506	0.044	4	6	4	
+Binding key .* cannot contain	95	325		0.0811	2.1656	1.2249	29	76	28	
+^foo-bar$	7	7		0.0301	0.0001	0.0545	8	8	8	
+^{ Error: ENOENT: no such file or directory, scandir '.*nonexistent.*'	88	170		0.1505	1.0808	1.0444	68	87	66	
+^attribute_not_exists\\s*\\((.*)\\)$	27	27		0.068	0.1341	0.0936	26	24	24	
+^([\\d.]+|localhost)$	11	11		0.0938	0.0001	0.1176	11	11	11	
+^USE `(.+)`;	12	18		0.0378	0.1666	0.1097	10	11	9	
+\\}\\s*\\z	19	35		0.0345	0.1826	0.1364	7	12	7	
+^.*?($rbpat).*$										ERROR
+\\A([\\x00-\\x7f]|[\\xa1-\\xfe][\\xa1-\\xfe]|\\x8e[\\xa1-\\xdf]|\\x8f[\\xa1-\\xfe][\\xa1-\\xfe])*\\z	37	112		0.3302	1.1015	0.8117	16	26	10	
+(\\{[^}]+$)	9	18		0.0345	0.0583	0.0803	4	6	4	
+(^|[^@])\\b(?:0x[\\da-f]+|\\d+)	26	191		0.0959	1.6378	0.3898	13	47	8	
+/dp/([^/\\?\\&]+)	14	45		0.0927	0.255	0.1414	7	15	6	
+ \\Q$rule\\E\\b										ERROR
+\\s+!default$	32	32		0.0416	0.1408	0.0859	12	11	11	
+\\u{0000}	3	3		0.0176	0.0276	0.026	2	2	2	
+^([^\\/]+)\\/(\\d+)$	7	7		0.049	0.0624	0.0444	7	6	6	
+([^<>=!\\s]+)\\s*(.*)$	7	20		0.1476	0.172	0.146	6	6	3	
+Error: no tests were given to suppress!	117	231		0.0846	0.5971	0.4321	40	78	40	
+^(.*)_at$	10	10		0.0262	0.0832	0.0555	5	4	4	
+(\\S+):\\s(\\S*)(?:\\b(?!:)|$)										ERROR
+^(\\s+)?\\{(\\s+)?\\/\\*(\\s+)?endinject(\\s+)?\\*\\/(\\s+)?}$	40	40		0.096	0.2799	0.2882	34	27	27	
+test-testdep-nodeps.*missing	84	357		0.0709	1.7645	1.2503	28	88	27	
+\\\\\\+$	8	8		0.0255	0.0379	0.0347	4	4	4	
+([\\$@%]\\w+)[\\[{ -=\\(\\r\\n]	14	26		0.2066	0.2774	0.1859	6	8	5	
+&(lt;|gt;|quot;|apos;|amp;)	33	1552		0.1115	4.1704	1.228	22	512	11	
+(?i)\\bsha1(?<_1>_file)?(?=\\s*\\()										ERROR
+^ ?(case|default)	15	16		0.067	0.1235	0.0941	14	13	12	
+\\(p\\)	8	14		0.0263	0.0493	0.0542	4	6	4	
+id=\\w+	15	34		0.0318	0.1394	0.0788	7	12	6	
+empty meta.description string	91	179		0.0889	0.4381	0.9961	30	60	31	
+\\G$hex_num										ERROR
+\\/\\w\\w\\w\\w\\/.*?\\/	47	92		0.0532	0.2464	0.1607	16	32	17	
+inappropriate access	60	117		0.0503	0.28	0.2107	21	40	21	
+[^a-z0-9\\s-]	3	3		0.0653	0.0258	0.0383	2	2	2	
+Unrecognized value for parameter 'type'	117	231		0.0852	0.5872	0.4269	40	78	40	
+([0-9a-f][0-9a-f])	5	8		0.043	0.0336	0.0489	3	4	3	
+AppleWebKit.*Mobile	56	219		0.0576	1.2789	1.0376	19	54	18	
+^border-(top|bottom)-(left|right)-radius	33	34		0.1313	0.0002	0.1379	32	32	31	
+The current identity, with the name \\'alice1\\' and the identifier \\'e38b9db5b7167f8033fb48f04efe5d5fd7ec36c8d7be51ed019f81e1ac66657f\\', cannot be activated because it is in an unknown state \\'ACTIVATED\\'	609	1215		0.3886	3.9889	1.6168	204	406	204	
+:headers	24	45		0.0435	0.2348	0.1558	9	16	9	
+^dts\\d+	6	10		0.0337	0.0604	0.0625	7	8	6	
+^(?i)blockExplorer|waitingAcceptNewKey|SetupPassword|CfCatalog|CfPagePreview|CfStart|Check_sign|CheckNode|GetBlock|GetMinerData|GetMinerDataMap|GetSellerData|Index|IndexCf|InstallStep0|InstallStep1|InstallStep2|Login|SignLogin|SynchronizationBlockchain|UpdatingBlockchain|Menu$	1484	1484		8.3923	89.5571	2.1986	273	148	148	
+ (vga|3d).*(display|graphics|controller)	153	1604		0.1722	9.5934	2.6538	32	256	29	
+^(.*[\\.])	3	5		0.056	0.0891	0.0484	3	3	2	
+[/\\\\].original\\.js:1$	67	67		0.0831	0.498	0.2896	17	21	21	
+usage: [\\S]+ remote run	58	113		0.0886	0.3443	0.2578	21	38	20	
+^ii	3	3		0.0253	0.0001	0.0502	3	3	3	
+(-?\\d+(?:\\.\\d+)?)\\s*(days?|d)	13	203		0.0901	0.7398	0.3391	20	49	5	
+E<([^<]*)>	13	22		0.0379	0.2003	0.1402	5	8	5	
+^iOS 	5	5		0.0313	0.0002	0.0571	5	5	5	
+\\\\\\\\+$	10	10		0.0355	0.0539	0.0478	5	5	5	
+^\\/api\\/(.*)(\\?(.*))?$	8	13		0.0617	0.09	0.0643	11	10	8	
+^\\/?\\.\\.?\\/	13	13		0.0547	0.7884	0.0875	11	10	10	
+(```md\\n(.*?)\\n```\\s+```html).*?(\\n```)	82	162		0.1025	0.4428	0.2926	30	60	31	
+^bibtex	7	7		0.0229	0.0002	0.0568	7	7	7	
+expect.async can't be within a expect.async context.	163	325		0.151	0.727	0.5764	53	108	55	
+^CN=(.+?),	6	6		0.0477	0.0002	0.0602	6	6	6	
+^Action\\_	9	9		0.042	0.0001	0.0581	9	9	9	
+(?:firefox)[ \\/](\\d+)	30	64		0.0927	0.2483	0.1766	12	22	11	
+IIS	8	13		0.0277	0.0655	0.0546	4	6	4	
+^\\s*<\\s*([\\w-]+)\\W.*?<\\/\\s*\\1\\s*>\\s*$	24	24		0.1001	0.2127	0.1286	22	17	17	
+\n        1-0       |    # white wins\n        0-1       |    # black wins\n        1\\/2-1\\/2 |    # draw\n        \\*             # ?\n      	413	413		0.3729	9.7625	1.2227	137	111	111	
+\u00ca\u0083n	9	15		0.0815	0.1411	0.1154	4	6	4	
+^after_dequeue	14	14		0.0599	0.0001	0.0798	14	14	14	
+^[a-zA-Z_][^a-zA-Z0-9_]*[\\?!]?	2	11		0.1667	0.1225	0.0699	5	5	2	
+\\@name\\@	23	44		0.0402	0.1186	0.0788	9	16	9	
+^(.+?)\\015?\\012\\015?\\012(.*?)$	20	20		0.0849	0.1152	0.0954	21	19	19	
+<input type=\"text\" name=\"dhcpRangeEnd\" size=\"12\" maxlength=\"15\" value=\"(.+?)\">	226	449		0.1861	1.1646	0.5503	75	150	76	
+borderLighter|borderDarker|imageOpacity50|imageScale150|imageScaleIn80|imageSlide2Up|imageSlide2Down|imageSlide2Left|imageSlide2Right|imageSlide2Random|imageSlide2UpRight|imageSlide2UpLeft|imageSlide2DownRight|imageSlide2DownLeft|imageScale150Outside|scale120	313	313		0.6415	24.8804	0.3747	261	62	62	
+^    at Object\\.exports\\.test \\((?:.*\\/)?.generated.js:1:34\\)$	100	102		0.1729	0.4765	0.2556	55	55	54	
+^[\\s\\S]+<svg.+class=\"js-calendar-graph-svg\">	97	215		0.1509	0.9955	0.6993	39	67	37	
+(?<!\\\\)%D										ERROR
+.*unique_together = \\((.+),\\).*	66	474		0.0801	1.8402	1.9765	27	106	23	
+^[^\\/\\\\]+	2	6		0.033	0.0392	0.0498	3	4	2	
+^\\s*\\/(.*)\\/\\s*	12	36		0.0399	0.1536	0.0797	10	13	7	
+\\.test\\.jsx$	51	51		0.0409	0.2002	0.1425	12	16	16	
+__\\w*__	13	24		0.0301	0.1371	0.0888	7	10	6	
+^(?:AE|AnyEvent::(?:Socket|Handle|Util|Debug|Strict|Base|CondVar|CondVar::Base|Impl::.*)|Coro::AnyEvent::CondVar)$	79	84		0.3377	0.7773	0.4394	93	84	71	
+<!SGML	18	33		0.0357	0.1282	0.1123	7	12	7	
+(\\d{2})\\/(\\d{2})\\/(\\d{4})	43	83		0.0601	0.2132	0.1311	16	30	16	
+height=(['\"])([0-9]+)(['\"])	31	59		0.0749	0.2521	0.1606	12	20	11	
+not implemented yet	57	111		0.057	0.2885	0.2274	20	38	20	
+unexpected character	60	117		0.0574	0.2659	0.1853	21	40	21	
+((?:(?:\\[[^\\]]+\\])|(?:[^\\s\\+\\>~:]))+)((?:::?[^\\s\\+\\>\\~\\(:]+(?:\\([^\\)]+\\))?)*\\s*[\\s\\+\\>\\~]?)\\s*	73	428		0.4684	1.9617	1.5695	30	80	17	
+\\>\\>\\=	17	31		0.0304	0.1266	0.0915	7	12	7	
+[^\\w\\s:_-]	3	3		0.095	0.0509	0.0319	2	2	2	
+ char varying\\((\\d+)\\)	52	101		0.0566	0.3023	0.235	19	34	18	
+^([0-9]+):	4	4		0.0216	0.0411	0.0346	4	3	3	
+parseType$	28	28		0.0301	0.1186	0.0766	10	10	10	
+^TypeError: \"defaultMaxListeners\" must be a positive number$	58	58		0.1183	0.0002	0.191	59	59	59	
+^(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})-(\\d{1,3})$	35	35		0.0633	0.168	0.1443	32	28	28	
+^Date: 	7	7		0.0344	0.0002	0.0476	7	7	7	
+var *\\[_0x[a-f0-9]{4,6}, *\\.\\.\\.*_0x[a-f0-9]{4,6}] *= *_0x[a-f0-9]{4,6};	151	805		0.2446	3.8815	2.7186	46	158	40	
+(?<!http:)//										ERROR
+<img([^>]*)src=['\"]data:image/(\\w+);base64,([^\"']*)['\"]([^>]*)>	120	838		0.1481	4.8141	3.5618	37	172	33	
+(?:rgba|hsla)\\(0,0%?,0%?,0\\)	70	148		0.0965	0.6956	0.5037	23	37	18	
+^\\s*INTERFACE\\s*:	15	15		0.0489	0.1051	0.0829	15	13	13	
+\\@([^.]+)\\.(.+)	18	155		0.0375	0.5111	0.2462	9	41	8	
+^I set the default tap (?:wait|delay) to ((?:\\d+(?:\\.\\d+)?)\\s*s(?:ecs?|econds?))$	57	57		0.2226	0.2713	0.978	55	51	50	
+^_|[ \\r\\n\\t]|_$	9	9		0.0583	0.4612	0.0606	7	4	4	
+obj *\\|\\| *\\(obj *= *\\{}\\);	3	3		0.0906	1.765	0.0168	24	2	2	
+atom|string|variable	80	80		0.0796	2.2289	0.1268	22	17	17	
+recombRate	30	57		0.0303	0.1458	0.1032	11	20	11	
+^(\\> )(.*)	4	8		0.0304	0.0511	0.0463	5	6	4	
+^gsl_cdf_	9	9		0.0306	0.0001	0.056	9	9	9	
+.*-.*-\\d+	14	42		0.0391	0.1771	0.1215	9	12	5	
+_i tag content_	44	86		0.0454	0.2202	0.229	16	30	16	
+\\/\\*\\* ignored by jsdoc \\*\\*\\/\\s*[^]*										ERROR
+sta|opus	23	23		0.0629	0.7778	0.0606	10	7	7	
+^(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2}(?:\\.{0,1}\\d*))(?:Z|(\\+|-)([\\d|:]*))?$	40	53		0.1581	0.5516	0.4464	35	37	33	
+^u\\w+\\s+(\\w+)	10	14		0.0344	0.0718	0.0583	11	10	8	
+--|->	5	5		0.0326	0.4208	0.0257	7	3	3	
+^(//)(.*?)(/.*|\\?.*|#.*|$)	4	23		0.06	0.7005	0.0892	11	13	4	
+\\/\\/([a-z0-9\\.\\-]+)\\/	25	48		0.0817	0.2222	0.1754	9	16	9	
+^.*/\\./	13	30		0.0374	0.1184	0.0718	6	11	6	
+\\s*(\\w+)\\s*	13	30		0.027	0.0976	0.0672	8	10	5	
+Form parameter \\'param1\\' already exists	120	237		0.086	0.6459	0.449	41	80	41	
+(-\\d*\\.\\d*)	15	50		0.0416	0.1357	0.078	8	16	6	
+ti	6	9		0.0236	0.0382	0.0342	3	4	3	
+^\\s*DECLARE_ASN1_SET_OF\\s*\\(\\s*(\\w*)\\s*\\)	32	32		0.0923	0.1491	0.1053	32	27	27	
+^\"[^\"]+\"\\s*	6	10		0.0324	0.057	0.0502	7	7	5	
+^(data-|id|aria-haspopup)	21	23		0.0798	0.0002	0.1166	21	21	19	
+^[a-z]([a-z]|[0-9]|\\-|\\.)*([a-z]|[0-9])$	6	6		0.0766	0.0504	0.0665	6	4	4	
+^MIME-Version: 1.0\r?\n	21	21		0.0549	0.1362	0.1098	21	20	20	
+\\[email=([^\\]]+)\\](.*?)\\[/email\\]										ERROR
+^lv_	4	4		0.0192	0.0001	0.039	4	4	4	
+\\(\\?P=([^)]+)\\)	14	60		0.0349	0.2894	0.2418	9	19	6	
+\n        \"                          # beginning of string\n        (\n          [[:print:]&&[^\\\\\"]] |    # printing characters except quote and backslash\n          \\\\\\\\                |    # escaped backslashes\n          \\\\\"                      # escaped quotation marks\n        )*                         # zero or more of the above\n        \"                          # end of string\n      	1040	2136		0.9195	7.1382	2.7135	367	712	347	
+ (\\d+) \\. (\\d+) 	43	90		0.06	0.236	0.2084	13	30	15	
+^(\\S+)\\s	6	6		0.0298	0.0524	0.0517	6	5	5	
+Current Image	39	75		0.0415	0.2669	0.2193	14	26	14	
+\\s+(ASC|DESC)	20	96		0.0596	0.3029	0.1956	11	32	7	
+[-._ ]Got[-._ ]News[-._ ]For[-._ ]You	51	99		0.1532	0.6165	1.23	18	34	18	

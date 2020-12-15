@@ -1,0 +1,8 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+/world\n.{40};1;0;88;1;40;40;1;0,00019;14;58;125;TIMEOUT.
+/hello\n.{40};18;561;1019;1;40;40;3;0,00219;14;58;258;TIMEOUT.
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300};1;0;158;1;300;300;72;0,005852;20;36;897;Text generated.
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300};1;0;541;1;300;300;264;0,071289;20;36;897;TIMEOUT.
+\n\s{25,26};42;564;1047;1;26;26;26;0,017533;4;10;1519;TIMEOUT.
+\$31\$(\d\d?)\$(.{43});9;283;699;1;43;43;3;0,001405;36;167;2205;Text generated.
+\$31\$(\d\d?)\$(.{43});19;565;1356;1;43;43;3;0,003067;36;167;2205;TIMEOUT.

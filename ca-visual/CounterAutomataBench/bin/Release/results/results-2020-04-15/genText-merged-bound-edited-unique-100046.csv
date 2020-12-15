@@ -1,0 +1,38 @@
+Regex;Lines;Visited;Cache Size(Found);Status
+user(name)?[ -~ \n\t\r\f]{0,70}(secret|password);507;17415;41050;TIMEOUT.
+php.*\x3f[^\n]{256};88;13780;41251;TIMEOUT.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};113;22716;44754;TIMEOUT.
+M{1000};1;1001;1001;Text generated.
+identityId:.*[0-9a-z]{64};65;562;562;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;82;8259;21046;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;152;15444;39024;TIMEOUT.
+Color Name[ \n\t\r\f]{2,}RGB[^-]*-{70}.(.*?)-{70};6;70;70;Text generated.
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437};43;7494;13143;Text generated.
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437};106;21768;36380;TIMEOUT.
+a{51};1;52;52;Text generated.
+a{256};1;257;257;Text generated.
+5[0-9a-zA-Z]{50};318;11298;22001;Text generated.
+5[0-9a-zA-Z]{50};471;16500;32099;Text generated.
+5[0-9a-zA-Z]{50};494;17282;33607;TIMEOUT.
+200 [^\x0a]{64};155;7411;14069;Text generated.
+200 [^\x0a]{64};692;30030;56605;TIMEOUT.
+>([^<]{100,})<;13;13038;44271;TIMEOUT.
+={65}.*?(?:EXPORTED\n\n)+;1;142;142;Text generated.
+<pre>(?:.{1000}\n){1000}</pre>;2;8;8;Text generated.
+<?(a)?:?([0-9a-zA-Z_]{2,32}):([0-9]{17,19})>?;4;85;85;Text generated.
+-{20,40}[0-9a-zA-Z_]{6,24}[\n\r]*;4;45;45;Text generated.
+_{58};1;59;59;Text generated.
+^X?PAT[ \n\t\r\f]+[^\n]{1000};32;30570;30572;Text generated.
+^Via\x3A[ \n\t\r\f]+SIP\x2F2\x2E0\x2F(TCP|UDP)[ \n\t\r\f]+[^\x3B\r\n]{63};65;2098;2098;Text generated.
+^USER[ \n\t\r\f]+[^\n]{100,};101;5156;5156;Text generated.
+^To\x3A[ \n\t\r\f]+[^\r\n]{256};180;30076;30077;Text generated.
+^TEST[ \n\t\r\f]+[^\n]{100,};101;5156;5156;Text generated.
+^SOML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};202;20520;20519;Text generated.
+^SEARCH[ \n\t\r\f]+[^\n]{1000};18;16888;17668;Text generated.
+^SEARCH[ \n\t\r\f]+[^\n]{1000};32;30573;30574;Text generated.
+^SAML FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};202;20520;20519;Text generated.
+^RCPT TO\x3a[ \n\t\r\f]*[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};203;20517;20516;Text generated.
+^PASS[ \n\t\r\f]+[^\n]{100};101;5156;5156;Text generated.
+^MAIL FROM\x3a[ \n\t\r\f]+[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,}\x3b[a-z0-9A-Z_ \n\t\r\f@\.]{200,};202;20520;20519;Text generated.
+^Location[ \n\t\r\f]*\x3a[ \n\t\r\f]*[0-9a-zA-Z_]+\x3a\/\/([^\n]*\x3a)?[^\n]{128};559;19536;37984;TIMEOUT.
+^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?ethereum\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+);66;2064;2064;Text generated.

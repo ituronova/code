@@ -1,0 +1,1000 @@
+msie\\s(\\d).+?;
+^I should be in sign in page$
+^([$namechars]*)
+variable @a is undefined
+([\uff1a\uff0c\uff1b\u3002\uff1f\uff01\u300d\u300f.;:\\?])([^\uff1a\uff0c\uff1b\u3002\uff1f\uff01\u300d\u300f.;:\\?])
+with packed
+__\\S+__
+^/v1/
+^output does not include \\\"([^\\\"]*)\"$
+.*\\.(js|css|coffee|sass|scss|less)
+.*<body(?:\\s[^>]*)?>(.+?)</body>.*
+.*yum install[^\\n]+wget
+<div\\s+id=(['\"])zenario:(\\w+)([,;]?)(.*?)\\1([^>]*?)/?>
+=HASH\\(.+\\)
+\\(\u00e6\u00b3\u00a8:
+(?<named>x)
+^https?://.*search\\.biglobe\\.ne\\.jp/.*?
+^I'm able to do a multi get with \"([^\"]*)\" and get \"(\\d*)\" profiles$
+\"message\":\"resque\\serror\".*\"params\":{.*\n         \"class\":\"BingoWorker\",\"args\":\\[\"bango\",\"bongo\"\\].*}
+%UNIQUE_[0-9A-Za-z_-]+%
+^\\*main:
+^\\d+\\s\\d+\\s\\d+
+(greenkeeper)-((([a-zA-Z0-9]*)-)*)([0-9]*.[0-9]*.[0-9]*)
+s.author\\s+= \"Some Body\"
+\\([01,]+\\)
+^files:
+^(registrarName|creditLimit|availableCredit)$
+^I make request$
+^I expect that element \"([^\"]*)?\" is( not)* positioned at ([\\d]+)px on the (x|y) axis$
+$rgx
+         state
+^Signature
+\\$(i)
+^(https?:|mailto:|tel:)
+^applewebdata://
+^skaffold/v(\\d)(?:(alpha|beta)(\\d))?$
+......
+^(base|current)_level$
+^(.+)/Controllers/(.*)$
+\\x1b\\\\
+(.*\\.\\d+)\\..*$
+(?P<name>[a-zA-Z]+) (?P<age>[0-9]+)
+^.*\\\\._Ctype_unsignedchar$
+^(?:SEARCH\\b)
+^Right.*0$
+some-log-type.*some-filters
+[\\xAD\\u0600-\\u0605\\u061C\\u06DD\\u070F\\u180E\\u200B-\\u200F\\u202A-\\u202E\\u2060-\\u2064\\u2066-\\u206F\\uFEFF\\uFFF9-\\uFFFB]|\\uD804\\uDCBD|\\uD82F[\\uDCA0-\\uDCA3]|\\uD834[\\uDD73-\\uDD7A]|\\uDB40[\\uDC01\\uDC20-\\uDC7F]
+(\\$+)
+\\G((?:\\\\.|[^()])*?[()])
+^POE\\-(.+)$
+mandiant.com
+^\\/.*?\\/$
+create_table \"barcodes\", primary_key: \"code\", id: :string, limit: 42
+^=\\s+(.*)$
+LINKER_PARAM requires two params, name and id
+in_progress
+^(COMPRESSED )(.*)$
+^Perl\\::ToPerl6\\::Transformer\\::
+(.*?)($regexp)
+[|=]
+/BlueValues\\s+\\[.+?\\]\\s+def
+<(?:tb|td|tf|th|tr|col|opt|leg|cap|area)
+(\\n1.*@.+@.*(?:(?:\\n[2-9].*)*))((?:\\n1.*(?:\\n[2-9].*)*)*\\1)
+^2[5-9]\\d$
+#\\b(AllowSameLineComments|ClipboardTimeout|CommentFlag|ErrorStdOut|EscapeChar|HotkeyInterval|HotkeyModifierTimeout|Hotstring|IfWinActive|IfWinExist|IfWinNotActive|IfWinNotExist|Include|IncludeAgain|InstallKeybdHook|InstallMouseHook|KeyHistory|LTrim|MaxHotkeysPerInterval|MaxMem|MaxThreads|MaxThreadsBuffer|MaxThreadsPerHotkey|NoEnv|NoTrayIcon|Persistent|SingleInstance|UseHook|WinActivateForce)\\b
+^[0-9\\.]+(?:/\\d+)?$
+^the file \"([^\"]*)\" should have the following coverage:
+#define GL_(.*?)\\s+(.*?)\n
+^[A-Za-z_][A-Za-z0-9_]*[\\?\\!]?$
+(bus)(?:es)?$
+\\d{7,10}
+^_RETURN\\s+
+You tried to render a .+ that accesses relationships off of a post, but that model didn't have all of its required relationships preloaded ('comments')*
+EventEmitter memory leak
+^HTTP\\/1.1 ([0-9]{3,3}) (.*)$
+^AWS$
+https?\\:\\/\\/(?:www|rss)?\\.?([^\\/]+)
+^\\/usr\\/bin
+(.*)(<html[^>]*>)(.*)
+\\ARegexp::Pattern::
+^99955
+^([a-zA-Z][-_\\w]*)=.*$
+classDef.*:\\S*#.*;
+([\\x00-\\x1F\\*\\(\\)\\\\])
+(.*)\\.
+\\#00ffff
+$gm_pr_reg
+\\|#
+^CREATE TABLE (\\S+) AS (.*)$
+service\\('foo'
+^arn:aws:mq:[a-z0-9-]+:[0-9]{12}:broker:[a-z0-9-]+:[a-f0-9-]+$
+^-([bcDeFiLlmOopRS])(.*)
+LoadModule[\\s\\t]+passenger_module[\\s\\t]+(.*)
+(?i)(gif|animate)\\s+([^\\s].*)
+^(?:0|10(?:01|20|66))
+peer-test
+^-?[0-9]{1,3}$
+^%prec\\b
+template file
+[\\u0980-\\u09FF]
+^(#{1,})((?![\\s#]+).+)$
+ui-corner-([a-z]){2,6}
+to sector\\s+(\\d+)
+  field :hqmfOid, type: String\\n
+/^977(\\d{7})/
+(?ims)\\n+
+couchdb
+[0-9]+([\\.,][0-9]*)?|[0-9]*[\\.,][0-9]+$
+changelog_file CHANGELOG
+[^\\/\\.]+
+ext/.*$
+(\\([a-zA-Z0-9.+-+]+\\))
+^a+$
+^gauge\\.response\\.(.+)$
+charset=\"([^\"]+)\"
+\\px
+$entity([wbr])
+^_set
+([#]|[0][xX])?[A-Fa-f0-9]{6}
+^\\-\\-\\- .*$
+^[^#].*
+(\\d{4})(\\d{2})(\\d{2})\\w(\\d{2})(\\d{2})(\\d{2})
+^WARN (.*)\\n?$
+Auth
+^image\\/
+(.*)tmp(.*)
+MY_LOCATION
+^\\s*\\+(\\d+)\\s*$
+^lines (\\d+)
+(\\.txt)
+\u00e1\u00bd\u0095
+^\\[(r|f)\\]\\s+
+BRANCH=(.*)
+\\AUTF-\\d\\d
+\\ +$
+<|>|\\|
+^\\<p\\>(.*)\\<\\/p\\>$
+^0.(3+).*
+(\\d[\\w:]*)\\s+to\\s+(\\d[\\w:]*)\\s+(\\w+)-(\\w+)$
+\\{%(.+?)%\\}
+The text 'PressMe' does not match the value 'Default' of the 'type' property for 'Element sap.m.Button#button'
+\\b(abs|add|aload|anchorsearch|and|arc|arcn|arct|arcto|array|ashow|astore|atan|awidthshow|begin|bind|bitshift|bytesavailable|cachestatus|ceiling|charpath|clear|cleartomark|cleardictstack|clip|clippath|closefile|closepath|colorimage|concat|concatmatrix|condition|configurationerror|copy|copypage|cos|count|countdictstack|countexecstack|counttomark|cshow|currentblackgeneration|currentcacheparams|currentcmykcolor|currentcolor|currentcolorrendering|currentcolorscreen|currentcolorspace|currentcolortransfer|currentcontext|currentdash|currentdevparams|currentdict|currentfile|currentflat|currentfont|currentglobal|currentgray|currentgstate|currenthalftone|currenthalftonephase|currenthsbcolor|currentlinecap|currentlinejoin|currentlinewidth|currentmatrix|currentmiterlimit|currentobjectformat|currentpacking|currentpagedevice|currentpoint|currentrgbcolor|currentscreen|currentshared|currentstrokeadjust|currentsystemparams|currenttransfer|currentundercolorremoval|currentuserparams|curveto|cvi|cvlit|cvn|cvr|cvrs|cvs|cvx|def|defaultmatrix|definefont|defineresource|defineusername|defineuserobject|deletefile|detach|deviceinfo|dict|dictfull|dictstack|dictstackoverflow|dictstackunderflow|div|dtransform|dup|echo|eexec|end|eoclip|eofill|eoviewclip|eq|erasepage|errordict|exch|exec|execform|execstack|execstackoverflow|execuserobject|executeonly|executive|exit|exp|false|file|filenameforall|fileposition|fill|filter|findencoding|findfont|findresource|flattenpath|floor|flush|flushfile|FontDirectory|for|forall|fork|ge|get|getinterval|globaldict|GlobalFontDirectory|glyphshow|grestore|grestoreall|gsave|gstate|gt|handleerror|identmatrix|idiv|idtransform|if|ifelse|image|imagemask|index|ineofill|infill|initclip|initgraphics|initmatrix|initviewclip|instroke|internaldict|interrupt|inueofill|inufill|inustroke|invalidaccess|invalidcontext|invalidexit|invalidfileaccess|invalidfont|invalidid|invalidrestore|invertmatrix|ioerror|ISOLatin1Encoding|itransform|join|kshow|known|languagelevel|le|length|limitcheck|lineto|ln|load|lock|log|loop|lt|makefont|makepattern|mark|matrix|maxlength|mod|monitor|moveto|mul|ne|neg|newpath|noaccess|nocurrentpoint|not|notify|null|nulldevice|or|packedarray|pathbbox|pathforall|pop|print|printobject|product|prompt|pstack|put|putinterval|quit|rand|rangecheck|rcurveto|read|readhexstring|readline|readonly|readstring|realtime|rectclip|rectfill|rectstroke|rectviewclip|renamefile|repeat|resetfile|resourceforall|resourcestatus|restore|reversepath|revision|rlineto|rmoveto|roll|rootfont|rotate|round|rrand|run|save|scale|scalefont|scheck|search|selectfont|serialnumber|setbbox|setblackgeneration|setcachedevice|setcachedevice2|setcachelimit|setcacheparams|setcharwidth|setcmykcolor|setcolor|setcolorrendering|setcolorscreen|setcolorspace|setcolortransfer|setdash|setdevparams|setfileposition|setflat|setfont|setglobal|setgray|setgstate|sethalftone|sethalftonephase|sethsbcolor|setlinecap|setlinejoin|setlinewidth|setmatrix|setmiterlimit|setobjectformat|setoverprint|setpacking|setpagedevice|setpattern|setrgbcolor|setscreen|setshared|setstrokeadjust|setsystemparams|settransfer|setucacheparams|setundercolorremoval|setuserparams|setvmthreshold|shareddict|show|showpage|sin|sqrt|srand|stack|stackoverflow|stackunderflow|StandardEncoding|start|startjob|status|statusdict|stop|stopped|store|string|stringwidth|stroke|strokepath|sub|syntaxerror|systemdict|timeout|transform|translate|true|truncate|type|typecheck|token|uappend|ucache|ucachestatus|ueofill|ufill|undef|undefined|undefinedfilename|undefineresource|undefinedresult|undefinefont|undefineresource|undefinedresource|undefineuserobject|unmatchedmark|unregistered|upath|userdict|UserObjects|usertime|ustroke|ustrokepath|version|viewclip|viewclippath|VMerror|vmreclaim|vmstatus|wait|wcheck|where|widthshow|write|writehexstring|writeobject|writestring|wtranslation|xcheck|xor|xshow|xyshow|yield|yshow)\\b
+^(\\d*)\\x{6642}
+k\\s*\\(.*
+proposals\\/speaker_confirm
+ou=(.*)
+^=BODY
+\\G%([a-z]+)
+&q=
+Matches\\: (\\d+)
+^the response should be a list of \"([^\\\"]*)\"$
+Ds ?(\\d{4}:\\d+)
+[^0-9]*(\\d+)\\.(\\d+)(?:\\.(\\d+))?.*
+(^|\\s)dbname='db01'
+^\\#[0-9a-fA-F]{3}[0-9a-fA-F]{3}?$
+(.+)-\\S+
+^\\.L 
+^[a-zA-Z]{0,}:[^\\/]{0,1}
+\\\\gneqq 
+In order to deploy applications.*rhc create-domain
+((\")([a-z][a-z0-9_]+\\/)+[a-z0-9_\\.]+(\"))|(\\b([a-z][a-z0-9_]+\\/)+[a-z0-9_\\.]+\\b)
+[a-zA-Z_0-9.:#]
+id=\"(.+?)\"
+(.+)_id$
+\\/\\* *rtl *: *([\\S| ]*?) *\\*\\/$
+example_name_eq
+theApp.EvtMax
+^\\s*__DATA__
+^(.)\\.*$
+^Sat Jan 15 2000 23:59:59
+^(?P<name>[a-zA-Z0-9\\-\\.!%\\*_\\+`'~]*)[ \t]*<(?P<uri>[^>]+)>[ \t]*(?:;(?P<params>[^\\?]*))?
+[^\\.]\\b(id)\\b\\s*=
+^\\s*<title>(.*?)<\\/title>
+(^[^a-z])|[a-z-][A-Z]
+\n(^|\\s) # start of string or has whitespace before it\n(https?://[:/.?=&;a-zA-Z0-9_-]+) # the URL itself, http or https only\n(\\s|$) # trailing whitespace or end of string\n
+[\"(\\']\\w+[\")\\']
+^[ ]*((<)(Directory(?:Match)?)(?:[ ]+([^>]+))?(>))
+^it should give me \"(.*?)\"$
+\\Q$ext\\E$
+^the test tag source line \"([^\"]*)\"$
+^\\$state\\.(\\w+)
+foo.*bar
+Parsed 1 statements
+^the timeline?$
+^Rate limited
+(?s)^Error: hello-error\n\tgithub.com/palantir/pkg/cobracli_test.TestExecuteWithDefaultParams.+
+\\b[a-z0-9]{40}\\b
+^99962
+\\/blah
+open\\s*\\(.*\\)\\Z
+does not have an alt attribute
+\"sxdist\".+?>(.+?)<
+^\n\t [^\\n]*\\n                      #skip  format id\n\t [^\\n]*\\n                      #skip coment\n\t (\\d+)\\s+(\\d+)\\n         #width, height\n\t (\\d+)\\n                 #depth\n\t (.*)$                   #data\n       
+(?<statement_number>\\d{5})\\/(?<sequence_number>\\d{3,5})
+^I am interested in a proposal for a \"([^\\\"]*)\" event$
+^(.*?):(?:\\s+)(.*)$
+([\\\\d.-]+)(.+)
+^(\\s*?)&:extend\\((.*)\\);?$
+<!doctype [\\s\\S]*?>
+(FOREIGN[\\s]+KEY)
+([XY]+) (\\d+) check
+\\-([\\d]+)
+No connection type provided
+\\b(GL(_(R(GB(_SCALE(_(EXT|ARB))?|A(_(MODE|UNSIGNED_DOT_PRODUCT_MAPPING_NV))?)?|IGHT|E(GISTER_COMBINERS_NV|S(CALE_NORMAL(_EXT)?|TART_SUN|AMPLE_(REPLICATE_SGIX|ZERO_FILL_SGIX|DECIMATE_SGIX))|NDER(_MODE|ER)?|CLAIM_MEMORY_HINT_PGI|TURN|D(_(M(IN_CLAMP_INGR|AX_CLAMP_INGR)|BI(T(S|_EXT)|AS)|SCALE)|UCE(_EXT)?)?|P(EAT|L(ICATE_BORDER(_HP)?|ACE(MENT_CODE_(SUN|ARRAY_(S(TRIDE_SUN|UN)|TYPE_SUN|POINTER_SUN))|_(MIDDLE_SUN|OLDEST_SUN|EXT))?))|F(ERENCE_PLANE_(SGIX|EQUATION_SGIX)|LECTION_MAP(_(NV|EXT|ARB))?)|AD_(BUFFER|ONLY(_ARB)?|WRITE(_ARB)?))|ASTER_POSITION_UNCLIPPED_IBM)?|G(RE(EN(_(M(IN_CLAMP_INGR|AX_CLAMP_INGR)|BI(T(S|_EXT)|AS)|SCALE))?|ATER)|E(NERATE_MIPMAP(_(SGIS|HINT(_SGIS)?))?|OMETRY_DEFORMATION_SGIX|QUAL)|L(OBAL_ALPHA_(SUN|FACTOR_SUN)|EXT_(VERSION|FUNCTION_POINTERS|LEGACY)))|X(_EXT|OR)|M(I(RROR(_CLAMP_(TO_(BORDER_EXT|EDGE_(EXT|ATI))|EXT|ATI)|ED_REPEAT(_ARB)?)|N(MAX(_(SINK(_EXT)?|EXT|FORMAT(_EXT)?))?|_(PBUFFER_VIEWPORT_DIMS_APPLE|EXT|WEIGHTED_ATI))?)|O(D(ULATE(_(S(IGNED_ADD_ATI|UBTRACT_ATI)|ADD_ATI))?|ELVIEW(_(MATRIX|STACK_DEPTH|PROJECTION_NV))?)|V_EXT)|UL(_EXT|T(ISAMPLE(_(BIT(_ARB)?|SGIS|EXT|FILTER_HINT_NV|ARB))?)?)|VP_MATRIX_EXT|A(GNITUDE_(BIAS_NV|SCALE_NV)|X(_(RECTANGLE_TEXTURE_SIZE_(EXT|ARB)|GENERAL_COMBINERS_NV|MODELVIEW_STACK_DEPTH|S(HININESS_NV|POT_EXPONENT_NV)|NAME_STACK_DEPTH|C(O(MBINED_TEXTURE_IMAGE_UNITS(_ARB)?|NVOLUTION_(HEIGHT(_EXT)?|WIDTH(_EXT)?)|LOR_MATRIX_STACK_DEPTH(_SGI)?)|UBE_MAP_TEXTURE_SIZE(_(EXT|ARB))?|LI(P(MAP_(DEPTH_SGIX|VIRTUAL_DEPTH_SGIX)|_PLANES)|ENT_ATTRIB_STACK_DEPTH))|T(RACK_MATRI(X_STACK_DEPTH_NV|CES_NV)|EXTURE_(MAX_ANISOTROPY_EXT|S(TACK_DEPTH|IZE)|COORDS(_ARB)?|IMAGE_UNITS(_ARB)?|UNITS(_ARB)?|LOD_BIAS(_EXT)?))|OPTIMIZED_VERTEX_SHADER_(IN(STRUCTIONS_EXT|VARIANTS_EXT)|VARIANTS_EXT|LOCAL(S_EXT|_CONSTANTS_EXT))|D(RAW_BUFFERS(_ARB)?|EFORMATION_ORDER_SGIX)|P(RO(GRAM_(MATRI(X_STACK_DEPTH_ARB|CES_ARB)|NATIVE_(TE(X_IN(STRUCTIONS_ARB|DIRECTIONS_ARB)|MPORARIES_ARB)|INSTRUCTIONS_ARB|PARAMETERS_ARB|A(TTRIBS_ARB|DDRESS_REGISTERS_ARB|LU_INSTRUCTIONS_ARB))|TE(X_IN(STRUCTIONS_ARB|DIRECTIONS_ARB)|MPORARIES_ARB)|INSTRUCTIONS_ARB|PARAMETERS_ARB|ENV_PARAMETERS_ARB|LOCAL_PARAMETERS_ARB|A(TTRIBS_ARB|DDRESS_REGISTERS_ARB|LU_INSTRUCTIONS_ARB))|JECTION_STACK_DEPTH)|N_TRIANGLES_TESSELATION_LEVEL_ATI(X)?|IXEL_MAP_TABLE)|E(XT|VAL_ORDER|LEMENTS_(INDICES(_EXT)?|VERTICES(_EXT)?))|V(IEWPORT_DIMS|ERTEX_(SHADER_(IN(STRUCTIONS_EXT|VARIANTS_EXT)|VARIANTS_EXT|LOCAL(S_EXT|_CONSTANTS_EXT))|HINT_PGI|TEXTURE_IMAGE_UNITS(_ARB)?|UNI(TS_ARB|FORM_COMPONENTS(_ARB)?)|A(RRAY_RANGE_ELEMENT_(NV|APPLE)|TTRIBS(_ARB)?))|ARYING_FLOATS(_ARB)?)|F(RA(GMENT_(UNIFORM_COMPONENTS(_ARB)?|LIGHTS_SGIX)|MEZOOM_FACTOR_SGIX)|OG_FUNC_POINTS_SGIS)|WEIGHTED_ATI|LI(GHTS|ST_NESTING)|A(SYNC_(READ_PIXELS_SGIX|HISTOGRAM_SGIX|TEX_IMAGE_SGIX|DRAW_PIXELS_SGIX)|CTIVE_LIGHTS_SGIX|TTRIB_STACK_DEPTH)))?|T(RIX_(MODE|EXT)|_(S(HININESS_BIT_PGI|PECULAR_BIT_PGI)|COLOR_INDEXES_BIT_PGI|DIFFUSE_BIT_PGI|EMISSION_BIT_PGI|AMBIENT_(BIT_PGI|AND_DIFFUSE_BIT_PGI))|ERIAL_SIDE_HINT_PGI)|D_EXT|P_(STENCIL|COLOR)))|B(GR(_EXT|A(_EXT)?)?|YTE|I(NORMAL_ARRAY_(STRIDE_EXT|TYPE_EXT|POINTER_EXT|EXT)|TMAP(_TOKEN)?|AS_B(Y_NEGATIVE_ONE_HALF_NV|IT_EXT))|OOL(_ARB)?|UFFER_(MAP(_POINTER(_ARB)?|PED(_ARB)?)|SIZE(_ARB)?|OBJECT_APPLE|USAGE(_ARB)?|ACCESS(_ARB)?)|L(UE(_(M(IN_CLAMP_INGR|AX_CLAMP_INGR)|BI(T(S|_EXT)|AS)|SCALE))?|END(_(SRC(_(RGB(_EXT)?|ALPHA(_EXT)?))?|COLOR(_EXT)?|DST(_(RGB(_EXT)?|ALPHA(_EXT)?))?|EQUATION(_(RGB_EXT|EXT|ALPHA_EXT))?))?)|ACK(_(RIGHT|NORMALS_HINT_PGI|LEFT))?)|S(RC_(COLOR|ALPHA(_SATURATE)?)|MOOTH(_(POINT_SIZE_(RANGE|GRANULARITY)|LINE_WIDTH_(RANGE|GRANULARITY)))?|H(ININESS|ORT|A(R(PEN_TEXTURE_FUNC_POINTS_SGIS|ED_TEXTURE_PALETTE_EXT)|D(ING_LANGUAGE_VERSION|OW_ATTENUATION_EXT|E(R_(SOURCE_LENGTH|CONSISTENT_NV|TYPE|O(BJECT_ARB|PERATION_NV))|_MODEL))))|C(REEN_COORDINATES_REND|ISSOR_(B(IT|OX)|TEST)|AL(E_BY_(TWO_NV|ONE_HALF_NV|FOUR_NV)|AR_EXT))|T(R(ICT_(SCISSOR_HINT_PGI|DEPTHFUNC_HINT_PGI|LIGHTING_HINT_PGI)|EAM_(READ(_ARB)?|COPY(_ARB)?|DRAW(_ARB)?))|ORAGE_(SHARED_APPLE|C(LIENT_APPLE|ACHED_APPLE)|PRIVATE_APPLE)|E(REO|NCIL(_(REF|B(ITS|UFFER_BIT|ACK_(REF|PASS_DEPTH_(PASS(_ATI)?|FAIL(_ATI)?)|VALUE_MASK|F(UNC(_ATI)?|AIL(_ATI)?)|WRITEMASK))|CLEAR_VALUE|TEST(_TWO_SIDE_EXT)?|INDEX|PASS_DEPTH_(PASS|FAIL)|VALUE_MASK|F(UNC|AIL)|WRITEMASK))?)|A(CK_(OVERFLOW|UNDERFLOW)|TIC_(READ(_ARB)?|COPY(_ARB)?|DRAW(_ARB)?)))|I(GNED_(RGB(_(NV|UNSIGNED_ALPHA_NV)|A_NV)|HILO_NV|NEGATE_NV|I(NTENSITY_NV|DENTITY_NV)|LUMINANCE_(NV|ALPHA_NV)|ALPHA_NV)|NGLE_COLOR(_EXT)?)|UB(_EXT|TRACT(_ARB)?|PIXEL_BITS)|P(RITE_(MODE_SGIX|SGIX|TRANSLATION_SGIX|OBJECT_ALIGNED_SGIX|EYE_ALIGNED_SGIX|AXI(S_SGIX|AL_SGIX))|HERE_MAP|OT_(CUTOFF|DIRECTION|EXPONENT)|ECULAR)|E(CONDARY_(COLOR_(NV|ARRAY(_(BUFFER_BINDING(_ARB)?|S(TRIDE(_EXT)?|IZE(_EXT)?)|TYPE(_EXT)?|POINTER(_EXT)?|EXT|LIST_(STRIDE_IBM|IBM)))?)|INTERPOLATOR_EXT)|T|PARATE_SPECULAR_COLOR(_EXT)?|LECT(ION_BUFFER_(SIZE|POINTER))?)|WIZZLE_ST(R(_(DR_EXT|EXT)|Q_(DQ_EXT|EXT))|Q_(DQ_EXT|EXT))|A(MPLE(R_CUBE(_ARB)?|S(_(SGIS|PASSED(_ARB)?|EXT|ARB))?|_(MASK_(SGIS|INVERT_(SGIS|EXT)|EXT|VALUE_(SGIS|EXT))|BUFFERS(_(SGIS|EXT|ARB))?|COVERAGE(_(INVERT(_ARB)?|VALUE(_ARB)?|ARB))?|PATTERN_(SGIS|EXT)|ALPHA_TO_(MASK_(SGIS|EXT)|COVERAGE(_ARB)?|ONE(_(SGIS|EXT|ARB))?)))|TURATE_BIT_EXT))?|H(I(STOGRAM(_(RED_SIZE(_EXT)?|GREEN_SIZE(_EXT)?|BLUE_SIZE(_EXT)?|SINK(_EXT)?|EXT|FORMAT(_EXT)?|WIDTH(_EXT)?|LUMINANCE_SIZE(_EXT)?|ALPHA_SIZE(_EXT)?))?|NT_BIT|_(BIAS_NV|SCALE_NV)|LO_NV)|ALF_(BI(T_EXT|AS_N(ORMAL_NV|EGATE_NV))|APPLE))|Y(CRCB(_SGIX|A_SGIX)|_EXT)|N(ICEST|O(R(MAL(_(MAP(_(NV|EXT|ARB))?|BIT_PGI|ARRAY(_(BUFFER_BINDING(_ARB)?|STRIDE(_EXT)?|COUNT_EXT|TYPE(_EXT)?|P(OINTER(_EXT)?|ARALLEL_POINTERS_INTEL)|EXT|LIST_(STRIDE_IBM|IBM)))?)|IZE(D_RANGE_EXT)?))?|NE|_ERROR|TEQUAL|OP)|UM_(GENERAL_COMBINERS_NV|COMPRESSED_TEXTURE_FORMATS(_ARB)?|IN(STRUCTIONS_(TOTAL_EXT|PER_PASS_EXT)|PUT_INTERPOLATOR_COMPONENTS_EXT)|PASSES_EXT|FRAGMENT_(REGISTERS_EXT|CONSTANTS_EXT)|LOOPBACK_COMPONENTS_EXT)|E(GAT(IVE_(X_EXT|Y_EXT|Z_EXT|ONE_EXT|W_EXT)|E_BIT_EXT)|VER|AREST(_(MIPMAP_(NEAREST|LINEAR)|CLIPMAP_(NEAREST_SGIX|LINEAR_SGIX)))?)|A(ME_STACK_DEPTH|ND|TIVE_GRAPHICS_(BEGIN_HINT_PGI|HANDLE_PGI|END_HINT_PGI)))|C(MYK(_EXT|A_EXT)|ND_EXT|CW|O(M(BINE(R_(M(UX_SUM_NV|APPING_NV)|BIAS_NV|S(CALE_NV|UM_OUTPUT_NV)|C(OMPONENT_USAGE_NV|D_(OUTPUT_NV|DOT_PRODUCT_NV))|INPUT_NV|AB_(OUTPUT_NV|DOT_PRODUCT_NV))|_(RGB(_(EXT|ARB))?|EXT|A(RB|LPHA(_(EXT|ARB))?)))?|P(RESSED_(RGB(_ARB|A(_ARB)?)?|TEXTURE_FORMATS(_ARB)?|INTENSITY(_ARB)?|LUMINANCE(_A(RB|LPHA(_ARB)?))?|ALPHA(_ARB)?)|_BIT_EXT|ILE(_(STATUS|AND_EXECUTE))?|ARE_R_TO_TEXTURE(_ARB)?))|N(S(T(_EYE_NV|ANT(_(BORDER(_HP)?|COLOR(_EXT)?|EXT|A(RB|TTENUATION|LPHA(_EXT)?)))?)|ERVE_MEMORY_HINT_PGI)|VOLUTION_(BORDER_(MODE(_EXT)?|COLOR(_HP)?)|H(INT_SGIX|EIGHT(_EXT)?)|F(ILTER_(BIAS(_EXT)?|SCALE(_EXT)?)|ORMAT(_EXT)?)|WIDTH(_EXT)?))|ORD_REPLACE(_(NV|ARB))?|PY(_(INVERTED|PIXEL_TOKEN))?|EFF|LOR(_(MAT(RIX(_S(GI|TACK_DEPTH(_SGI)?))?|ERIAL(_(PARAMETER|FACE))?)|BUFFER_BIT|SUM(_(CLAMP_NV|EXT|ARB))?|CLEAR_VALUE|TABLE(_(RED_SIZE(_SGI)?|GREEN_SIZE(_SGI)?|B(IAS(_SGI)?|LUE_SIZE(_SGI)?)|S(GI|CALE(_SGI)?)|INTENSITY_SIZE(_SGI)?|FORMAT(_SGI)?|WIDTH(_SGI)?|LUMINANCE_SIZE(_SGI)?|ALPHA_SIZE(_SGI)?))?|INDEX(ES)?|FLOAT_APPLE|WRITEMASK|LOGIC_OP|A(RRAY(_(BUFFER_BINDING(_ARB)?|S(TRIDE(_EXT)?|IZE(_EXT)?)|COUNT_EXT|TYPE(_EXT)?|P(OINTER(_EXT)?|ARALLEL_POINTERS_INTEL)|EXT|LIST_(STRIDE_IBM|IBM)))?|LPHA_PAIRING_EXT)))?)|U(RRENT_(RASTER_(NORMAL_SGIX|COLOR|TEXTURE_COORDS|INDEX|DISTANCE|POSITION(_VALID)?)|MATRIX_(STACK_DEPTH_(NV|ARB)|NV|ARB)|BI(NORMAL_EXT|T)|SECONDARY_COLOR(_EXT)?|NORMAL|COLOR|T(EXTURE_COORDS|ANGENT_EXT)|INDEX|PROGRAM|VERTEX_(EXT|WEIGHT_EXT|ATTRIB(_ARB)?)|QUERY(_ARB)?|FOG_COORD(INATE(_EXT)?)?|WEIGHT_ARB|ATTRIB_NV)|BIC_(HP|EXT)|LL_(MODES_NV|VERTEX_(IBM|OBJECT_POSITION_EXT|E(XT|YE_POSITION_EXT))|F(RAGMENT_NV|ACE(_MODE)?)))|W|L(I(P_(NEAR_HINT_PGI|VOLUME_CLIPPING_HINT_EXT|FAR_HINT_PGI)|ENT_(PIXEL_STORE_BIT|VERTEX_ARRAY_BIT|A(CTIVE_TEXTURE(_ARB)?|TTRIB_STACK_DEPTH|LL_ATTRIB_BITS)))|EAR|AMP(_TO_(BORDER(_(SGIS|ARB))?|EDGE(_SGIS)?))?)|ALLIGRAPHIC_FRAGMENT_SGIX)|T(R(IANGLE(S|_(STRIP|FAN|LIST_SUN))|UE|A(NS(POSE_(MODELVIEW_MATRIX(_ARB)?|NV|C(OLOR_MATRIX(_ARB)?|URRENT_MATRIX_ARB)|TEXTURE_MATRIX(_ARB)?|PROJECTION_MATRIX(_ARB)?)|FORM_(BIT|HINT_APPLE))|CK_MATRIX_(NV|TRANSFORM_NV)))|EXT(_FRAGMENT_SHADER_ATI|URE(_(R(E(SIDENT(_EXT)?|CTANGLE_(EXT|ARB)|D_SIZE(_EXT)?)|ANGE_(POINTER_APPLE|LENGTH_APPLE))|G(REEN_SIZE(_EXT)?|E(N_(R|MODE|S|T|Q)|QUAL_R_SGIX))|M(IN(_(FILTER|LOD(_SGIS)?)|IMIZE_STORAGE_APPLE)|ULTI_BUFFER_HINT_SGIX|A(G_(SIZE_NV|FILTER)|X_(L(OD(_SGIS)?|EVEL(_SGIS)?)|ANISOTROPY_EXT)|T(RIX|ERIAL_(PARAMETER_EXT|FACE_EXT))))|B(I(NDING_(RECTANGLE_(EXT|ARB)|CUBE_MAP(_(EXT|ARB))?)|T)|ORDER(_(COLOR|VALUES_NV))?|LUE_SIZE(_EXT)?|ASE_LEVEL(_SGIS)?)|S(HADER_NV|T(ORAGE_HINT_APPLE|ACK_DEPTH))|H(I_SIZE_NV|EIGHT)|NORMAL_EXT|C(O(MP(RESS(ION_HINT(_ARB)?|ED(_(IMAGE_SIZE(_ARB)?|ARB))?)|ONENTS|ARE_(MODE(_ARB)?|SGIX|OPERATOR_SGIX|F(UNC(_ARB)?|AIL_VALUE_ARB)))|NSTANT_DATA_SUNX|ORD_ARRAY(_(BUFFER_BINDING(_ARB)?|S(TRIDE(_EXT)?|IZE(_EXT)?)|COUNT_EXT|TYPE(_EXT)?|P(OINTER(_EXT)?|ARALLEL_POINTERS_INTEL)|EXT|LIST_(STRIDE_IBM|IBM)))?|LOR_(TABLE_SGI|WRITEMASK_SGIS))|UBE_MAP(_(NEGATIVE_(X(_(EXT|ARB))?|Y(_(EXT|ARB))?|Z(_(EXT|ARB))?)|POSITIVE_(X(_(EXT|ARB))?|Y(_(EXT|ARB))?|Z(_(EXT|ARB))?)|EXT|ARB))?|LIPMAP_(CENTER_SGIX|OFFSET_SGIX|DEPTH_SGIX|VIRTUAL_DEPTH_SGIX|FRAME_SGIX|LOD_OFFSET_SGIX))|TOO_LARGE_EXT|IN(TE(RNAL_FORMAT|NSITY_SIZE(_EXT)?)|DEX_SIZE_EXT)|D(S_SIZE_NV|T_SIZE_NV|E(PTH(_(SIZE(_ARB)?|EXT))?|FORMATION_SGIX))|P(R(IORITY(_EXT)?|E_SPECULAR_HP)|OST_SPECULAR_HP)|ENV(_(MODE|BIAS_SGIX|COLOR))?|FILTER_CONTROL(_EXT)?|W(RAP_(R(_EXT)?|S|T|Q_SGIS)|IDTH)|L(IGHT(_EXT|ING_MODE_HP)|O(_SIZE_NV|D_BIAS(_(R_SGIX|S_SGIX|T_SGIX|EXT))?)|UMINANCE_SIZE(_EXT)?|EQUAL_R_SGIX)|A(PPLICATION_MODE_EXT|LPHA_SIZE(_EXT)?)))?)|A(BLE_TOO_LARGE(_EXT)?|NGENT_ARRAY_(STRIDE_EXT|TYPE_EXT|POINTER_EXT|EXT)))?|I(GNORE_BORDER(_HP)?|MAGE_(ROTATE_(ORIGIN_(X_HP|Y_HP)|ANGLE_HP)|M(IN_FILTER_HP|AG_FILTER_HP)|SCALE_(X_HP|Y_HP)|CUBIC_WEIGHT_HP|TRANSLATE_(X_HP|Y_HP))|N(STRUMENT_(MEASUREMENTS_SGIX|BUFFER_POINTER_SGIX)|CR(_WRAP(_EXT)?)?|T(E(R(POLATE(_(EXT|ARB))?|LACE_(READ_INGR|SGIX))|NSITY(_EXT)?))?|DEX_(M(ODE|ATERIAL_(PARAMETER_EXT|EXT|FACE_EXT))|BIT(S|_PGI)|SHIFT|CLEAR_VALUE|TEST_(REF_EXT|EXT|FUNC_EXT)|OFFSET|WRITEMASK|LOGIC_OP|ARRAY(_(BUFFER_BINDING(_ARB)?|STRIDE(_EXT)?|COUNT_EXT|TYPE(_EXT)?|POINTER(_EXT)?|EXT|LIST_(STRIDE_IBM|IBM)))?)|V(ER(SE_(NV|TRANSPOSE_NV)|T(ED_SCREEN_W_REND)?)|A(RIANT_(DATATYPE_EXT|EXT|VALUE_EXT)|LID_(OPERATION|ENUM|VALUE)))|FO_LOG_LENGTH)|DENTITY_NV)|Z(_EXT|OOM_(X|Y)|ERO)|O(R(_(REVERSE|INVERTED)|DER)?|BJECT_(S(HADER_SOURCE_LENGTH_ARB|UBTYPE_ARB)|COMPILE_STATUS_ARB|TYPE_ARB|INFO_LOG_LENGTH_ARB|D(ISTANCE_TO_(POINT_SGIS|LINE_SGIS)|ELETE_STATUS_ARB)|P(OINT_SGIS|LANE)|VALIDATE_STATUS_ARB|LIN(E(_SGIS|AR)|K_STATUS_ARB)|A(CTIVE_(UNIFORM(S_ARB|_MAX_LENGTH_ARB)|ATTRIBUTE(S_ARB|_MAX_LENGTH_ARB))|TTACHED_OBJECTS_ARB))|NE(_MINUS_(SRC_(COLOR|ALPHA)|CONSTANT_(COLOR(_EXT)?|ALPHA(_EXT)?)|DST_(COLOR|ALPHA)))?|CCLUSION_TEST_(RESULT_HP|HP)|UT(_OF_MEMORY|PUT_(VERTEX_EXT|FOG_EXT))|P_(R(OUND_EXT|ECIP_(SQRT_EXT|EXT))|M(IN_EXT|OV_EXT|UL(_EXT|TIPLY_MATRIX_EXT)|A(X_EXT|DD_EXT))|S(UB_EXT|ET_(GE_EXT|LT_EXT))|NEGATE_EXT|C(ROSS_PRODUCT_EXT|LAMP_EXT)|INDEX_EXT|POWER_EXT|F(RAC_EXT|LOOR_EXT)|ADD_EXT)|FFSET_(HILO_(TEXTURE_RECTANGLE_NV|PROJECTIVE_TEXTURE_RECTANGLE_NV)|TEXTURE_(RECTANGLE_(SCALE_NV|NV)|MATRIX_NV|BIAS_NV|SCALE_NV)|PROJECTIVE_TEXTURE_RECTANGLE_(SCALE_NV|NV)))|D(RAW_(BUFFER|PIXEL(S_APPLE|_TOKEN))|S(_(BIAS_NV|SCALE_NV)|T_(COLOR|ALPHA)|DT_(MAG_(NV|INTENSITY_NV|VIB_NV)|NV))|YNAMIC_(READ(_ARB)?|COPY(_ARB)?|DRAW(_ARB)?)|T_(BIAS_NV|SCALE_NV)|I(S(CARD_NV|TANCE_ATTENUATION_(SGIS|EXT))|THER|FFUSE)|O(MAIN|NT_CARE|T_PRODUCT_(REFLECT_CUBE_MAP_NV|NV|CONST_EYE_REFLECT_CUBE_MAP_NV|TEXTURE_(RECTANGLE_NV|CUBE_MAP_NV)|D(IFFUSE_CUBE_MAP_NV|EPTH_REPLACE_NV)|PASS_THROUGH_NV|AFFINE_DEPTH_REPLACE_NV)|UBLE(BUFFER)?)|UAL_TEXTURE_SELECT_SGIS|E(C(R(_WRAP(_EXT)?)?|AL)|TAIL_TEXTURE_(MODE_SGIS|FUNC_POINTS_SGIS|LEVEL_SGIS)|P(TH(_(RANGE|B(I(TS|AS)|OUNDS_(TEST_EXT|EXT)|UFFER_BIT)|SCALE|C(OMPONENT|L(EAR_VALUE|AMP_NV))|TE(XTURE_MODE(_ARB)?|ST)|PASS_INSTRUMENT_(MAX_SGIX|SGIX|COUNTERS_SGIX)|FUNC|WRITEMASK))?|ENDENT_RGB_TEXTURE_CUBE_MAP_NV)|FORMATIONS_MASK_SGIX|LETE_STATUS))|U(N(SIGNED_(BYTE|SHORT|I(N(T|VERT_NV)|DENTITY_NV))|PACK_(R(OW_LENGTH|ESAMPLE_SGIX)|S(UBSAMPLE_RATE_SGIX|KIP_(ROWS|IMAGES(_EXT)?|PIXELS|VOLUMES_SGIS)|WAP_BYTES)|C(MYK_HINT_EXT|ONSTANT_DATA_SUNX|LIENT_STORAGE_APPLE)|IMAGE_(HEIGHT(_EXT)?|DEPTH_SGIS)|LSB_FIRST|ALIGNMENT))|PPER_LEFT)|P(R(IMARY_COLOR(_(NV|EXT|ARB))?|O(GRAM_(RESIDENT_NV|BINDING_ARB|STRING_(NV|ARB)|NA(ME_ARB|TIVE_(TE(X_IN(STRUCTIONS_ARB|DIRECTIONS_ARB)|MPORARIES_ARB)|INSTRUCTIONS_ARB|PARAMETERS_ARB|A(TTRIBS_ARB|DDRESS_REGISTERS_ARB|LU_INSTRUCTIONS_ARB)))|T(E(X_IN(STRUCTIONS_ARB|DIRECTIONS_ARB)|MPORARIES_ARB)|ARGET_NV)|INSTRUCTIONS_ARB|OBJECT_ARB|UNDER_NATIVE_LIMITS_ARB|PARAMETER(S_ARB|_NV)|ERROR_(STRING_ARB|POSITION_(NV|ARB))|FORMAT_A(RB|SCII_ARB)|LENGTH_(NV|ARB)|A(TTRIBS_ARB|DDRESS_REGISTERS_ARB|LU_INSTRUCTIONS_ARB))|XY_(HISTOGRAM(_EXT)?|COLOR_TABLE(_SGI)?|TEXTURE_(RECTANGLE_(EXT|ARB)|C(OLOR_TABLE_SGI|UBE_MAP(_(EXT|ARB))?))|POST_(CO(NVOLUTION_COLOR_TABLE(_SGI)?|LOR_MATRIX_COLOR_TABLE(_SGI)?)|IMAGE_TRANSFORM_COLOR_TABLE_HP))|JECTION(_(MATRIX|STACK_DEPTH))?)|E(VIOUS(_(TEXTURE_INPUT_NV|EXT|ARB))?|FER_DOUBLEBUFFER_HINT_PGI))|HONG_(HINT_WIN|WIN)|N_TRIANGLES_(NORMAL_MODE_(QUADRATIC_ATI(X)?|LINEAR_ATI(X)?|ATI(X)?)|TESSELATION_LEVEL_ATI(X)?|POINT_MODE_(CUBIC_ATI(X)?|LINEAR_ATI(X)?|ATI(X)?)|ATI(X)?)|IXEL_(GROUP_COLOR_SGIS|M(IN_FILTER_EXT|ODE_BIT|A(G_FILTER_EXT|P_(R_TO_R(_SIZE)?|G_TO_G(_SIZE)?|B_TO_B(_SIZE)?|S_TO_S(_SIZE)?|I_TO_(R(_SIZE)?|G(_SIZE)?|B(_SIZE)?|I(_SIZE)?|A(_SIZE)?)|A_TO_A(_SIZE)?)))|CUBIC_WEIGHT_EXT|T(ILE_(GRID_(HEIGHT_SGIX|DEPTH_SGIX|WIDTH_SGIX)|BEST_ALIGNMENT_SGIX|HEIGHT_SGIX|CACHE_(SIZE_SGIX|INCREMENT_SGIX)|WIDTH_SGIX)|EX(_GEN_(MODE_SGIX|SGIX)|TURE_SGIS))|FRAGMENT_(RGB_SOURCE_SGIS|ALPHA_SOURCE_SGIS))|O(S(T_(CO(NVOLUTION_(RED_(BIAS(_EXT)?|SCALE(_EXT)?)|GREEN_(BIAS(_EXT)?|SCALE(_EXT)?)|BLUE_(BIAS(_EXT)?|SCALE(_EXT)?)|COLOR_TABLE(_SGI)?|ALPHA_(BIAS(_EXT)?|SCALE(_EXT)?))|LOR_MATRIX_(RED_(BIAS(_SGI)?|SCALE(_SGI)?)|GREEN_(BIAS(_SGI)?|SCALE(_SGI)?)|BLUE_(BIAS(_SGI)?|SCALE(_SGI)?)|COLOR_TABLE(_SGI)?|ALPHA_(BIAS(_SGI)?|SCALE(_SGI)?)))|TEXTURE_FILTER_(BIAS_(RANGE_SGIX|SGIX)|SCALE_(RANGE_SGIX|SGIX))|IMAGE_TRANSFORM_COLOR_TABLE_HP)|ITION)|INT(S|_(BIT|S(MOOTH(_HINT)?|IZE(_(RANGE|GRANULARITY|M(IN(_(SGIS|EXT|ARB))?|AX(_(SGIS|EXT|ARB))?)))?|PRITE(_(R_MODE_NV|NV|COORD_ORIGIN|ARB))?)|CULL_(MODE_ATI|C(ENTER_ATI|LIP_ATI))|TOKEN|DISTANCE_ATTENUATION(_ARB)?|FADE_THRESHOLD_SIZE(_(SGIS|EXT|ARB))?))?|LYGON(_(MODE|BIT|S(MOOTH(_HINT)?|TIPPLE(_BIT)?)|TOKEN|OFFSET_(BIAS_EXT|UNITS|POINT|EXT|F(ILL|ACTOR(_EXT)?)|LINE)))?)|ER(SPECTIVE_CORRECTION_HINT|_STAGE_CONSTANTS_NV|TURB_EXT)|A(RALLEL_ARRAYS_INTEL|SS_THROUGH_(NV|TOKEN)|CK_(R(OW_LENGTH|ESAMPLE_SGIX)|S(UBSAMPLE_RATE_SGIX|KIP_(ROWS|IMAGES(_EXT)?|PIXELS|VOLUMES_SGIS)|WAP_BYTES)|CMYK_HINT_EXT|IMAGE_(HEIGHT(_EXT)?|DEPTH_SGIS)|LSB_FIRST|ALIGNMENT)))|E(X(TENSIONS|P(AND_N(ORMAL_NV|EGATE_NV))?)|M(BOSS_(MAP_NV|CONSTANT_NV|LIGHT_NV)|ISSION)|YE_(RADIAL_NV|DISTANCE_TO_(POINT_SGIS|LINE_SGIS)|P(OINT_SGIS|LANE(_ABSOLUTE_NV)?)|LINE(_SGIS|AR))|NABLE_BIT|_TIMES_F_NV|IGHTH_BIT_EXT|DGE(_FLAG(_ARRAY(_(BUFFER_BINDING(_ARB)?|STRIDE(_EXT)?|COUNT_EXT|POINTER(_EXT)?|EXT|LIST_(STRIDE_IBM|IBM)))?)?|FLAG_BIT_PGI)|VAL_BIT|QU(IV|AL)|LEMENT_(BUFFER_BINDING_APPLE|ARRAY_(BUFFER(_(BINDING(_ARB)?|ARB))?|TYPE_APPLE|POINTER_APPLE|APPLE)))|V(I(BRANCE_(BIAS_NV|SCALE_NV)|EWPORT(_BIT)?)|E(R(SION|TEX_(BLEND_ARB|S(HADER(_(BINDING_EXT|IN(STRUCTIONS_EXT|VARIANTS_EXT)|OPTIMIZED_EXT|EXT|VARIANTS_EXT|LOCAL(S_EXT|_CONSTANTS_EXT)|ARB))?|TATE_PROGRAM_NV)|CONSISTENT_HINT_PGI|DATA_HINT_PGI|PR(OGRAM_(BINDING_NV|NV|TWO_SIDE(_(NV|ARB))?|POINT_SIZE(_(NV|ARB))?|ARB)|ECLIP_(SGIX|HINT_SGIX))|WEIGHT(_ARRAY_(S(TRIDE_EXT|IZE_EXT)|TYPE_EXT|POINTER_EXT|EXT)|ING_EXT)|A(RRAY(_(RANGE_(NV|POINTER_(NV|APPLE)|VALID_NV|WITHOUT_FLUSH_NV|LENGTH_(NV|APPLE)|APPLE)|B(INDING_APPLE|UFFER_BINDING(_ARB)?)|S(T(RIDE(_EXT)?|ORAGE_HINT_APPLE)|IZE(_EXT)?)|COUNT_EXT|TYPE(_EXT)?|P(OINTER(_EXT)?|ARALLEL_POINTERS_INTEL)|EXT|LIST_(STRIDE_IBM|IBM)))?|TTRIB_ARRAY_(BUFFER_BINDING(_ARB)?|S(TRIDE(_ARB)?|IZE(_ARB)?)|NORMALIZED(_ARB)?|TYPE(_ARB)?|POINTER(_ARB)?|ENABLED(_ARB)?))))|NDOR|CTOR_EXT)|A(RIA(BLE_(G_NV|B_NV|C_NV|D_NV|E_NV|F_NV|A_NV)|NT_(DATATYPE_EXT|EXT|VALUE_EXT|ARRAY_(STRIDE_EXT|TYPE_EXT|POINTER_EXT|EXT)))|LIDATE_STATUS))|KEEP|Q(U(ERY_(RESULT(_A(RB|VAILABLE(_ARB)?))?|COUNTER_BITS(_ARB)?)|A(RTER_BIT_EXT|D(RATIC_ATTENUATION|S|_(STRIP|TEXTURE_SELECT_SGIS)))))?|F(R(ONT(_(RIGHT|FACE|LEFT|AND_BACK))?|A(GMENT_(MATERIAL_EXT|SHADER(_(DERIVATIVE_HINT|EXT|ARB))?|NORMAL_EXT|COLOR_(MATERIAL_(SGIX|PARAMETER_SGIX|FACE_SGIX)|EXT)|DEPTH(_EXT)?|PROGRAM_ARB|LIGHT(_MODEL_(NORMAL_INTERPOLATION_SGIX|TWO_SIDE_SGIX|LOCAL_VIEWER_SGIX|AMBIENT_SGIX)|ING_SGIX))|MEZOOM_(SGIX|FACTOR_SGIX)))|ILL|O(RCE_BLUE_TO_ONE_NV|G(_(MODE|BIT|S(CALE_(SGIX|VALUE_SGIX)|TART|PECULAR_TEXTURE_WIN)|HINT|CO(ORD(_(SRC|ARRAY(_(BUFFER_BINDING(_ARB)?|STRIDE|TYPE|POINTER))?)|INATE(_(SOURCE(_EXT)?|EXT|ARRAY(_(BUFFER_BINDING(_ARB)?|STRIDE(_EXT)?|TYPE(_EXT)?|POINTER(_EXT)?|EXT|LIST_(STRIDE_IBM|IBM)))?))?)?|LOR)|INDEX|OFFSET_(SGIX|VALUE_SGIX)|D(ISTANCE_MODE_NV|ENSITY)|END|FUNC_(SGIS|POINTS_SGIS)))?)|U(NC_(REVERSE_SUBTRACT(_EXT)?|SUBTRACT(_EXT)?|ADD(_EXT)?)|LL_(RANGE_EXT|STIPPLE_HINT_PGI))|E(NCE_APPLE|EDBACK(_BUFFER_(SIZE|TYPE|POINTER))?)|L(OAT|AT)|A(STEST|LSE))|W(R(ITE_ONLY(_ARB)?|AP_BORDER_SUN)|_EXT|IDE_LINE_HINT_PGI|EIGHT_(SUM_UNITY_ARB|ARRAY_(BUFFER_BINDING(_ARB)?|S(TRIDE_ARB|IZE_ARB)|TYPE_ARB|POINTER_ARB|ARB)))|L(I(GHT(_(MODEL_(SPECULAR_VECTOR_APPLE|COLOR_CONTROL(_EXT)?|TWO_SIDE|LOCAL_VIEWER|AMBIENT)|ENV_MODE_SGIX)|ING(_BIT)?)|ST_(MODE|B(IT|ASE)|INDEX|PRIORITY_SGIX)|N(E(S|_(RESET_TOKEN|BIT|S(MOOTH(_HINT)?|T(RIP|IPPLE(_(REPEAT|PATTERN))?))|TOKEN|WIDTH(_(RANGE|GRANULARITY))?|LOOP)|AR(_(MIPMAP_(NEAREST|LINEAR)|SHARPEN_(SGIS|COLOR_SGIS|ALPHA_SGIS)|CLIPMAP_(NEAREST_SGIX|LINEAR_SGIX)|DETAIL_(SGIS|COLOR_SGIS|ALPHA_SGIS)|ATTENUATION))?)?|K_STATUS))|O(GIC_OP(_MODE)?|CAL_(CONSTANT_(DATATYPE_EXT|EXT|VALUE_EXT)|EXT)|_(BIAS_NV|SCALE_NV)|WER_LEFT|AD)|UMINANCE(_ALPHA)?|E(RP_EXT|SS|QUAL|FT))|A(RRAY_(BUFFER(_(BINDING(_ARB)?|ARB))?|ELEMENT_LOCK_(COUNT_EXT|FIRST_EXT))|MBIENT(_AND_DIFFUSE)?|BGR(_EXT)?|SYNC_(READ_PIXELS_SGIX|MARKER_SGIX|HISTOGRAM_SGIX|TEX_IMAGE_SGIX|DRAW_PIXELS_SGIX)|ND(_(REVERSE|INVERTED))?|C(CUM(_(RED_BITS|GREEN_BITS|B(UFFER_BIT|LUE_BITS)|CLEAR_VALUE|ALPHA_BITS))?|TIVE_(STENCIL_FACE_EXT|TEXTURE(_ARB)?|UNIFORM(S|_MAX_LENGTH)|VERTEX_UNITS_ARB|ATTRIBUTE(S|_MAX_LENGTH)))|TT(RIB(_(STACK_DEPTH|ARRAY_(S(TRIDE_NV|IZE_NV)|TYPE_NV))|UTE_ARRAY_POINTER_NV)|ENUATION_EXT|ACHED_SHADERS)|DD(_(SIGNED(_(EXT|ARB))?|EXT))?|U(X_BUFFERS|TO_NORMAL)|VERAGE_(HP|EXT)|L(IASED_(POINT_SIZE_RANGE|LINE_WIDTH_RANGE)|PHA(_(M(IN_(SGIX|CLAMP_INGR)|AX_(SGIX|CLAMP_INGR))|B(I(TS|AS)|LEND_EQUATION_ATI)|SCALE|TEST(_(REF|FUNC))?))?|WAYS(_(SOFT_HINT_PGI|FAST_HINT_PGI))?|L(_ATTRIB_BITS|OW_DRAW_(MEM_HINT_PGI|OBJ_HINT_PGI|FRG_HINT_PGI|WIN_HINT_PGI)))))|UT_(R(GB(A)?|IGHT_BUTTON|ED)|G(REEN|AME_MODE_(REFRESH_RATE|HEIGHT|DISPLAY_CHANGED|P(IXEL_DEPTH|OSSIBLE)|WIDTH|ACTIVE))|XLIB_IMPLEMENTATION|M(IDDLE_BUTTON|ULTISAMPLE|ENU_(N(OT_IN_USE|UM_ITEMS)|IN_USE)|ACOSX_IMPLEMENTATION)|BLUE|S(CREEN_(HEIGHT(_MM)?|WIDTH(_MM)?)|T(ROKE_(ROMAN|MONO_ROMAN)|E(REO|NCIL))|INGLE)|H(IDDEN|AS_(MOUSE|SPACEBALL|TABLET|OVERLAY|DIAL_AND_BUTTON_BOX|JOYSTICK|KEYBOARD))|N(O(RMAL(_DAMAGED)?|T_VISIBLE)|UM_(MOUSE_BUTTONS|BUTTON_BOX_BUTTONS|SPACEBALL_BUTTONS|TABLET_BUTTONS|DIALS))|CURSOR_(RIGHT_(SIDE|ARROW)|BOTTOM_(RIGHT_CORNER|SIDE|LEFT_CORNER)|SPRAY|HELP|NONE|C(ROSSHAIR|YCLE)|T(OP_(RIGHT_CORNER|SIDE|LEFT_CORNER)|EXT)|IN(HERIT|FO)|DESTROY|UP_DOWN|FULL_CROSSHAIR|WAIT|LEFT_(RIGHT|SIDE|ARROW))|TRANSPARENT_INDEX|IN(IT_(DISPLAY_MODE|WINDOW_(X|HEIGHT|Y|WIDTH))|DEX)|O(VERLAY(_(DAMAGED|POSSIBLE))?|WNS_JOYSTICK)|D(ISPLAY_MODE_POSSIBLE|O(UBLE|WN)|E(PTH|VICE_(IGNORE_KEY_REPEAT|KEY_REPEAT)))|UP|JOYSTICK_(BUTTON(S|_(B|C|D|A))|POLL_RATE|AXES)|PARTIALLY_RETAINED|E(NTERED|LAPSED_TIME)|VI(SIBLE|DEO_RESIZE_(X(_DELTA)?|HEIGHT(_DELTA)?|Y(_DELTA)?|IN_USE|POSSIBLE|WIDTH(_DELTA)?))|KEY_(R(IGHT|EPEAT_(O(N|FF)|DEFAULT))|HOME|INSERT|DOWN|UP|PAGE_(DOWN|UP)|END|LEFT)|FULLY_(RETAINED|COVERED)|WIN(GDIAPI_DEFINED|DOW_(R(GBA|ED_SIZE)|GREEN_SIZE|X|B(UFFER_SIZE|LUE_SIZE)|STE(REO|NCIL_SIZE)|HEIGHT|Y|NUM_(SAMPLES|CHILDREN)|C(OLORMAP_SIZE|URSOR)|D(OUBLEBUFFER|EPTH_SIZE)|PARENT|FORMAT_ID|WIDTH|A(CCUM_(RED_SIZE|GREEN_SIZE|BLUE_SIZE|ALPHA_SIZE)|LPHA_SIZE)))|L(UMINANCE|EFT(_BUTTON)?|AYER_IN_USE)|A(C(CUM|TIVE_(SHIFT|CTRL|ALT))|PI(_VERSION|ENTRY_DEFINED)|LPHA))))\\b
+^((?:not )?ok)(.*)$
+^I should see Enter name overlay$
+^$IPv6_re$
+\\.(hbs|handlebars)$
+.*\\.mp3
+src=[\\\"\\'](.+?\\.(?:jpg|jpeg|png|gif))[\\\"\\']
+ActiveRecord::LogSubscriber
+\\\\Elzrtln 
+^OSA::(.+)::.+$
+^\\$([A-Za-z0-9_-]+)$
+>{$name};\n}\n\nsub create_[% field %] {\n\tmy ( $self, $name, @attrs ) = @_;\n\t$self
+stsMap
+c_int_5.*limit: 8
+\\blo0\\b
+^(\\d+)(.?)$
+^refresh_token$
+\\_reply$
+(\\w+)\\/(\\w+)\\/([\\w-]+)(\\.html|\\/)?$
+(?<!\\^)/
+^X-DSPAM-Result:\\s+([\\w]+)\\,
+^([a-zA-Z_]\\w*)$
+\\s+$base_arg(\\=\\S+|\\s+|$)
+^http:\\/\\/domain$
+<html><body><h1>Test<\\/h1><\\/body><\\/html>
+.*::|Capture\\z
+([^\\$\\w\\d])WwWwwWW([^\\w\\d])
+(?<=(\\A)|(?:\\s))
+^( {0,3})<\\/?([a-zA-Z]+)( |>|\\/>|$)(.*)$
+(radial|linear)gradient
+(?:^\\\\)?\\[[^\\[\\]\\n\\r]*\\](?!\\])
+Cure
+(.+)\\.(\\w+)
+^[A-Za-z]\\d[A-Za-z] \\d[A-Za-z]\\d$
+%%message%%
+\\#[0-9a-f]{6}
+<a(?:$attr)*href=[\"']?([^\"'<>]*)[\"']?(?:$attr)*>(.*?)<\\/a>
+\\S(?:.*\\S)?
+(?m)^\\\\s*@inline\\\\s*(:?\\r\\n|\\n)
+`inspect'
+\\s*\\.\\s*|\\s+
+^([-a-z]+):\\s*(.*)$
+(_backoffice|_frontoffice|_menu)?\\.php
+wap\\.|\\.wap
+^((?!@license)[\\s\\S])*$
+[- :UTC]
+^\\s*<head|<body
+descr
+(\\\\['\"]|['\":,\\\\]|\\\\.)
+^\\/([a-z]{2,3}|[a-z]{2,3}-[a-zA-Z]{4}|[a-z]{2,3}-[A-Z]{2,3})(\\/.*)?$
+^Set-Cookie2?$
+^$Root
+<\\/del>
+/redirects/(\\d+)
+`test_([^']*)'
+^\\d+/\\d+
+<!\\[CDATA\\[(.*?)]]\\>
+Cannot use reserved event names
+\\/config\\/.+\\.(rb|yml)
+(.{69})
+\\b(?<_1>let|and)\\s+(?!\\(\\*)(?<_2>(?<_3>rec\\s+)(?<_4>[a-z_][a-zA-Z0-9_']*)\\b|(?<_5>[a-z_][a-zA-Z0-9_']*|\\([^)]+\\))(?=\\s)(?<_6>(?=\\s*=\\s*(?=fun(?:ction)\\b))|(?!\\s*=)))
+select version from osquery_info
+^/~([^/]+)/?$
+\\.(pl|pod|pm|t)$
+#<Concurrent::Atom.+value:2
+\\(?S\\d+[\\s)]\\s?
+mailto:(\\S+@\\S+)
+ ([A-Z][A-Za-z]+)
+actions$
+^:61:(\\d{6})(C|D)(\\d+),(\\d{0,2})
+^dom(ingo)?$
+Invalid value 'md5' for parameter supported_checksum_types. Allowed values are 'sha256'
+end(\\n| )*$
+(^[a-zA-Z0-9]+([a-zA-Z_0-9.-]*))$
+(^0000-00-00.*$|^0[0]*$|^0\\.00$|CURRENT_TIMESTAMP|NULL)
+[@$&]{.*?}
+\\s*[, ]\\s*
+{%\\s*extends\\s+([/aA-zZ0-9-_.]+)\\s*%}
+ (\\w+) 
+<\\/PSYCHOGENIC_ROOT_ELEMENT>
+ob:\\/\\/@
+\\r?\\n[\\t ]
+\\w+|\\[(\\d+)\\]
+\\.(png|jpg|)$
+Features.*neon.*
+/\\n\\n\\n/
+<\\\\\\s*body
+.*_(?P<bitrate>[0-9]+k)\\.mp4
+tok
+^they should be redirected to \"([^\"]*)\"$
+^\\s*url\\(\\s*[^\"']
+\\s*Geometry: (\\d+)x(\\d+)
+\\377\\330\\377\\340..JFIF
+Connecting to byebug server at localhost:9999\\.\\.\\.
+(\"TOBESTRIPPED)|(TOBESTRIPPED\")
+\\bcost\\b
+(Opera|OPR)\\/(\\d+(\\.\\d+)?)
+(\\d+\\.)
+^\\d+\\:\\t
+create table
+ t [-|+]\\[[^ ]*\\([^ ]*\\) [^ ]*\\]
+!callback *&& *isString\\(collection\\)[\\s\\S]+?: *
+\\{ ([^{}]*) \\}
+(=|\\[| )
+year[s]?
+er|en
+^from[\\s\\n]
+(User|UserAccount)
+^(set|create|delete)
+[A-Fa-f0-9]+
+(dos|866|alt)
+Manufacturer: Amazon EC2
+^-inf$
+([a-z0-9]+[A-Z]+[a-z0-9]*)+
+SendMessageBatchRequestEntry\\.\\d+\\.MessageBody
+windows phone (\\d+).(\\d+)
+\n\t\t\t(?:\n\t\t\t\t\t[+-] \\d\\d:?\\d\\d \\s+ \\( \"? (?: [A-Z]{1,4}[TCW56] | IDLE ) \\)\t\t\t\t# lines 424-435\n\t\t\t\t|\tGMT \\s* [-+]\\d{1,2}\t\t\t\t\t\t\t\t\t\t\t\t\t\t# line 441\n\t\t\t\t|\t(?: GMT \\s* )? [+-] \\d\\d:?\\d\\d\t\t\t\t\t\t\t\t\t\t\t# line 452\n\t\t\t\t|\t\"? (?: [A-Z]{1,4}[TCW56] | IDLE )\t\t\t\t\t\t\t\t\t\t# line 457 (and 695-700)\n\t\t\t) $break 
+P<.+>
+^(\\\\\\\\)*\\}
+use .+;
+$sys_include_file_new
+^20\\d$
+90$
+^a document$
+\\\\x1b[[][?0123456789]*;?[?0123456789]*[ABEFHJRSTfminsulhp]
+[!?/\\\\]
+^align
+cool dynamic text
+\\.self\\.js$
+^xabc
+\\/(test\\.[0-9a-f]+\\.txt)
+The layout
+[^\\w .:-\\[\\]\\(\\)\\{\\}\\']
+^[0-9]+[MDhms]$
+[\\p{Ps}\\p{Pe}\\p{Pi}\\p{Pf}\\p{Po}\\p{S}\\p{Z}\\p{C}\\p{No}]+
+^1*0*$
+.*(spec|vendor).*
+^BEGIN_DECRYPTION
+^[0-9]+:[0-9]+$
+Environment name cannot be longer than 12 and can only contain letters, numbers, '-' and '.': a@ss
+^[\\s,;]
+\\A\\#!\\s*\\S*ruby\\S*
+\\.(?<_1>addMonthRenderer|addMonths|addRenderer|addWeekdayRenderer|addYears|callChildFunction|clear|configPageDate|configPages|constructChild|delegateConfig|deselect|deselectAll|deselectCell|getSelectedDates|init|initEvents|nextMonth|nextYear|previousMonth|previousYear|render|renderFooter|renderHeader|reset|select|selectCell|setChildFunction|setMonth|setYear|sub|subtractMonths|subtractYears|unsub)\\b(?=\\()
+Microsoft SharePoint
+[\\x00-\\x1f\\u200c-\\u200f\\u2028-\\u202f\\u2060-\\u206f\\ufff0-\\uffff]
+((?:^|})\\s*)(?:catch|finally)\\b
+^I should see the name of a pending test$
+^(get|has)_next$
+^[.\\d -]+
+\\\\secref{(.*?)}
+vitro
+protocolInfo=\\\"http-get:[^:]*:([^:]*):.*\\\"
+^I should not get a trial$
+(vi\\/|v=|\\/v\\/|youtu\\.be\\/|\\/embed\\/)
+\\$[ck]
+epo
+<img src=\"http:\\/\\/example\\.com\\/images\\/test\\.jpg\\\">
+<p>1<!--.+?--><\\/p>
+domains\\/
+Expected valid crop id\\/name\\/strategy for crop but received 1.1 of type number
+^ +Bullet.bullet_logger = true$
+^(\\^,|[^,])*
+included in any toctree
+ ( (v?) ([\\d.]+) (?: _ (\\d+) )? ) (?:\\. (?: tar \\. gz | zip ) )? $
+^//[ ]?end
+^#o
+$symbol -
+viewcal=[0-9]+&?
+\\Apostgres(ql)?:\\/\\/
+(zookeeper://)|(backup=)
+Baidu Yi
+(^|[^0-9A-Za-z\u00aa\u00b5\u00ba\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u024f\u1e00-\u1eff\u2c60-\u2c7f\ua722-\ua788\ua78b-\ua78e\ua790-\ua793\ua7a0-\ua7aa\ua7f8-\ua7ff])((?:(?:IV|4)[\\s\\xa0]*Mak(?:abejsk[a\\xE1])?|4Macc|(?:IV|4)\\.[\\s\\xa0]*Mak(?:abejsk[a\\xE1])?|[C\u010c]tvrt[a\\xE1][\\s\\xa0]*Mak(?:abejsk[a\\xE1])?))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+http://(?:www.)?identifiers.org/([^/]+)/([^/]+)/?
+qf\\s*=\\s*'([^']+)'|qf\\s*=\\s*(\\S+)[\\s|}]
+(xlsx|XLSX|xls|XLS)$
+\\bwith changes:.*\\b
+(?m)^Running on machine: .*\\n
+javascript:detalharCep\\('\\d+','\\d+'\\);
+(?:$vcirc|$consonant)(?:$altere)(?:e|\u00c4\u0093[oiu])$
+(scrypt|\\.node)$
+([^<]+)(<([^,>]+)(,([^,>]+))*>)?
+(?:^[~!@#%&*|>?:,'\"`{}\\[\\]]|^-+$|\\s|:\\z)
+(?:darwin|mac)
+\\+([A-Za-z0-9\\/]*)-?
+([a-z0-9\\-]+)\\.compute\\.amazonaws\\.com
+^\\$CondorVersion: (\\d+)\\.(\\d+)\\.(\\d+) .+$
+def new_path
+EVE\\-IGB
+\\[<.*>\\]
+undefined method `push' (for|on) nil:NilClass
+^I should get back some error$
+([^/\\n]*)
+(\\D\\z)
+ruby-plsql\\s+
+^\\w+?H\\s*\\*
+ W 
+(\\(|,|\\))
+Please assign <i>Cesium.Ion.defaultAccessToken<\\/i>
+^[a-z-]+://
+<yellow>(.*?)</yellow>
+ALTER COLUMN \"test_id\" DROP DEFAULT
+###REC_FIELD_(.*)###
+[\\.=,]
+^([a-z]{2,}):
+^\\s+\"(.+)\"\\s([^\"]+)$
+Invalid password provided
+-v08.raml
+^\\-i
+^[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+\\s+((ssh|ecdsa)[^\\s]+)\\s+(.*)
+Build
+(?<=typedef const struct )\\w+
+(?:c)\\[([d-f0-9]+)](?<named>x)
+^([\\w\\_\\/\\-\\.\\+]+(\\.git)?)$
+\\s+cpan\\.testers\\:\\s+FAIL
+%.*?(?:\\{(.*?)\\})?([
+ERROR.+
+^[0-9][0-9]:[0-9][0-9]:[0-9][0-9]$
+^\\s*#\\s*define\\s+\\w+\\s+\"[^\"]*\"\\s*$
+\\x0d\\x0a|\\x0d|\\x0a
+country:\\s+(.+)\\n
+SUPER::
+^\\s*(null|\\\\N)?\\s*$
+^(\\+|-)?(.*)$
+^I should see the test time in red$
+^(?:documentclass|usepackage|pagestyle)$
+^(?:BR)
+^([a-z0-9\u00fc!]+ ){1,2}(N|Vol)?\\d{1,4}(a|b|c)?$|^([a-z0-9]+ ){1,2}(Jan( |unar|$)|Feb( |ruary|$)|Mar( |ch|$)|Apr( |il|$)|May(?![a-z0-9])|Jun( |e|$)|Jul( |y|$)|Aug( |ust|$)|Sep( |tember|$)|O(c|k)t( |ober|$)|Nov( |ember|$)|De(c|z)( |ember|$))
+(?m)^([\\\\*\\\\-_] ?){3,}$
+[a-z0-9_:-]+(,[a-z0-9_:-]*)*
+^[_a-zA-Z][\\w:']*$
+%[^0-9A-Fa-f]|%[0-9A-Fa-f][^0-9A-Fa-f]
+^--- Logical volumes ---
+^the client subscribes to presence events for \"([^\"]*)\"$
+([\\\"\\'])[^\\'\\\"]+\\1
+CDN$
+([^\\$\\w\\d])x([^\\w\\d])
+\\n\\$MAKECODE\\n
+[\\x00-\\x1f\\x7f-\\xff]+
+^\\*+ Found virus (\\S+)
+^No match for domain \"\\S+\"\\.
+^\\/__stackprof__
+([^:]|^)\\/\\/[^\\n]*
+^user[0-9]*@email.com$
+(HMM\\S+)
+^generation=(\\d+)
+C
+^[0-9]{1,3}(\\.[0-9]{2})?$
+DocumentRoot[\\s\\t]\"(.*)\"
+.*-pr\\..{2}-.{2}.*
+^\\$([0-9]+)\\s+=\\s+(.*)$
+\\/\\*\\*([^](?!\\*\\/))*@module([^](?!\\*\\/))*@private[^]*?\\*\\/
+<\\S+.*?>
+CONSTRAINT ([`\"])(.*)\\1 FOREIGN KEY \\(\\1(.*)\\1\\) REFERENCES \\1(.*)\\1 \\(\\1(.*)\\1\\)
+lt-\\d+
+<[^> ]*
+<td>NC</td>
+Current organization is not set
+URI $uri_string:
+, [\"']\\.\\/PNotify(\\w*)?\\.html[\"']
+^Method not found\\: (.+)
+\\.\\/lib\\/transport
+Cannot read property 'yoyo' of undefined
+(\\w)H
+\\$TYPE
+^.*\\s+mode=([^\\s]*).*$
+^(MS\\d{2}-\\d{3}):
+Cannot `process` without `Compiler`
+^[a-z]{3}
+^github$
+\\bComplex\\b
+\\r?\\n\\s
+git commit.*--author='katapult \\<katapult@makandra\\.com\\>'
+^HTTP\\/1\\.[01] (\\d{3}) (.*)
+^(.+\\d+\u00ef\u00be\u0081\u00ef\u00be\u009c\u00ef\u00be\u0098)(?:\\((.+)\\))?$
+ \\G (?= - ) 
+re\\-?direct
+^\\%start\\s+(.*)
+[<>*+\\-]
+([^.]+)(\\..+)?
+(TOUCH(?:TAB|PAD).+?) Build/
+token_auth=[0-9a-h]+
+\\b(and|then)\\b
+^From: (.*)$
+host=([\\w\\d.]+)
+^$ValidName$
+^[ -~]
+\\ASMTP error .+ ([A-Z]{4}) command:\\z
+^(?:[a-z0-9\\/]+)$
+<td WIDTH=\"4%\".*?nowrap>(.*?)<\\/td><td WIDTH=\"94%\" CLASS=\"h120\"><A HREF=\"(.*?)\".*?>(.*?)<\\/A>(.*?)<\\/td><td WIDTH=\"1%\" nowrap CLASS=\"f08\"><A HREF=\"(.*?)\".*?>(.*?)<\\/A><\\/td><td WIDTH=\"1%\" nowrap CLASS=\"f08\">(.*?)<\\/td><\\/tr>
+Alternate world
+foo([1-9\\s]|[\\S1-9])bar
+(^\\+252|\\D)
+^\\.*$
+(ab|a)b*c
+([\\u2e80-\\u2eff\\u2f00-\\u2fdf\\u3040-\\u309f\\u30a0-\\u30ff\\u3100-\\u312f\\u3200-\\u32ff\\u3400-\\u4dbf\\u4e00-\\u9fff\\uf900-\\ufaff])([A-Za-z0-9`\\$%\\^&\\*\\-=\\+\\\\\\|\\/@\\u00a1-\\u00ff\\u2022\\u2027\\u2150-\\u218f])
+^[1-9]0$
+^\\s*$|^#|^SET
+^V(A|O)N 
+\\A[0-6]\\Z
+volume/vol-.+
+jnlp$
+^\\s*?(assert_(array_equal|real_equal|false|true|equal_within|equal))\\(.*\\)
+([0-9]..)$
+^\\w[\\w\\d+.-]*:
+Cannot determine bucket ARN. At least `bucketArn` or `bucketName` is needed
+@js(.*?)@endjs
+(Do)({\\w+})?
+([^ a-zA-Z0-9*_.-]+)
+ ($block) \\s* but \\s* first \\s* ($block) }\n                 
+UNKNOWN: INTERNAL ERROR: (RuntimeError: )?no valid datapoints
+(MQQBrowser/Mini)(?:(\\d+)(?:\\.(\\d+)(?:\\.(\\d+))?)?)?
+Env.*already present
+^VERSION_ID=(.*)
+\\.bz2$
+[^a-z0-9!=\\\\?]
+ (\\d{1,2}) \u0432 \u041e\u043a\u0442\u044f\u0431\u0440\u0435
+(?<![<>])(<Q>[Aa]n<\\/Q> (?:<V[^>]*t=\"caite\"[^>]*>[^<]+<\\/V>))(?![<>])
+^(((?=.*(::))(?!.*\\3.+\\3))\\3?|[\\dA-F]{1,4}:)([\\dA-F]{1,4}(\\3|:\\b)|\\2){5}(([\\dA-F]{1,4}(\\3|:\\b|$)|\\2){2}|(((2[0-4]|1\\d|[1-9])?\\d|25[0-5])\\.?\\b){4})\\Z
+^[a-fA-F0-9]{6}
+^=skipto (\\S+)
+; *(AirTab)[ _\\-]([^;/]+) Build
+^ell(.*)
+[^a-z0-9\\- ]
+No executor available
+^((p)|(h\\d+)|(address)|(pre)|(blockquote)|(li)|(dd)|(dt)|(abbr)|(acronym))$
+([-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?)\\s*([A-Za-z]*)
+HAMIL[0-9]
+Mozilla Public Licen[sc]e, version 2.0
+the response from the service has a Content-Type of '(.*)'
+\\\\(n|t|r|s)
+<td class=\"metadata_label\">(?:<span[^>]*>)?$pub(?:</span>)?</td><td class=\"metadata_value\">(?:<span[^>]*>)?([^<]+)(?:</span>)?</td>
+^I create a homepage$
+^ze
+^(?:[\\u0021-\\u0027\\u002A-\\u002E\\u003F\\u0041-\\u005A\\u0061-\\u007A\\u00AA\\u00B5\\u00BA\\u00C0-\\u00D6\\u00D8-\\u00F6]|[\\u00F8-\\u02C1\\u02C6-\\u02D1\\u02E0-\\u02E4\\u02EC\\u02EE\\u0370-\\u0374\\u0376\\u0377]|[\\u037A-\\u037D\\u0386\\u0388-\\u038A\\u038C\\u038E-\\u03A1\\u03A3-\\u03F5]|[\\u03F7-\\u0481\\u048A-\\u0527\\u0531-\\u0556\\u0559\\u0561-\\u0587\\u05D0-\\u05EA]|[\\u05F0-\\u05F2\\u0620-\\u064A\\u066E\\u066F\\u0671-\\u06D3\\u06D5\\u06E5\\u06E6\\u06EE]|[\\u06EF\\u06FA-\\u06FC\\u06FF\\u0710\\u0712-\\u072F\\u074D-\\u07A5\\u07B1\\u07CA-\\u07EA]|[\\u07F4\\u07F5\\u07FA\\u0800-\\u0815\\u081A\\u0824\\u0828\\u0840-\\u0858\\u08A0]|[\\u08A2-\\u08AC\\u0904-\\u0939\\u093D\\u0950\\u0958-\\u0961\\u0971-\\u0977]|[\\u0979-\\u097F\\u0985-\\u098C\\u098F\\u0990\\u0993-\\u09A8\\u09AA-\\u09B0\\u09B2]|[\\u09B6-\\u09B9\\u09BD\\u09CE\\u09DC\\u09DD\\u09DF-\\u09E1\\u09F0\\u09F1\\u0A05-\\u0A0A]|[\\u0A0F\\u0A10\\u0A13-\\u0A28\\u0A2A-\\u0A30\\u0A32\\u0A33\\u0A35\\u0A36\\u0A38\\u0A39]|[\\u0A59-\\u0A5C\\u0A5E\\u0A72-\\u0A74\\u0A85-\\u0A8D\\u0A8F-\\u0A91\\u0A93-\\u0AA8]|[\\u0AAA-\\u0AB0\\u0AB2\\u0AB3\\u0AB5-\\u0AB9\\u0ABD\\u0AD0\\u0AE0\\u0AE1\\u0B05-\\u0B0C]|[\\u0B0F\\u0B10\\u0B13-\\u0B28\\u0B2A-\\u0B30\\u0B32\\u0B33\\u0B35-\\u0B39\\u0B3D\\u0B5C]|[\\u0B5D\\u0B5F-\\u0B61\\u0B71\\u0B83\\u0B85-\\u0B8A\\u0B8E-\\u0B90\\u0B92-\\u0B95\\u0B99]|[\\u0B9A\\u0B9C\\u0B9E\\u0B9F\\u0BA3\\u0BA4\\u0BA8-\\u0BAA\\u0BAE-\\u0BB9\\u0BD0]|[\\u0C05-\\u0C0C\\u0C0E-\\u0C10\\u0C12-\\u0C28\\u0C2A-\\u0C33\\u0C35-\\u0C39\\u0C3D]|[\\u0C58\\u0C59\\u0C60\\u0C61\\u0C85-\\u0C8C\\u0C8E-\\u0C90\\u0C92-\\u0CA8\\u0CAA-\\u0CB3]|[\\u0CB5-\\u0CB9\\u0CBD\\u0CDE\\u0CE0\\u0CE1\\u0CF1\\u0CF2\\u0D05-\\u0D0C\\u0D0E-\\u0D10]|[\\u0D12-\\u0D3A\\u0D3D\\u0D4E\\u0D60\\u0D61\\u0D7A-\\u0D7F\\u0D85-\\u0D96\\u0D9A-\\u0DB1]|[\\u0DB3-\\u0DBB\\u0DBD\\u0DC0-\\u0DC6\\u0E01-\\u0E30\\u0E32\\u0E33\\u0E40-\\u0E46\\u0E81]|[\\u0E82\\u0E84\\u0E87\\u0E88\\u0E8A\\u0E8D\\u0E94-\\u0E97\\u0E99-\\u0E9F\\u0EA1-\\u0EA3]|[\\u0EA5\\u0EA7\\u0EAA\\u0EAB\\u0EAD-\\u0EB0\\u0EB2\\u0EB3\\u0EBD\\u0EC0-\\u0EC4\\u0EC6]|[\\u0EDC-\\u0EDF\\u0F00\\u0F40-\\u0F47\\u0F49-\\u0F6C\\u0F88-\\u0F8C\\u1000-\\u102A]|[\\u103F\\u1050-\\u1055\\u105A-\\u105D\\u1061\\u1065\\u1066\\u106E-\\u1070\\u1075-\\u1081]|[\\u108E\\u10A0-\\u10C5\\u10C7\\u10CD\\u10D0-\\u10FA\\u10FC-\\u1248\\u124A-\\u124D]|[\\u1250-\\u1256\\u1258\\u125A-\\u125D\\u1260-\\u1288\\u128A-\\u128D\\u1290-\\u12B0]|[\\u12B2-\\u12B5\\u12B8-\\u12BE\\u12C0\\u12C2-\\u12C5\\u12C8-\\u12D6\\u12D8-\\u1310]|[\\u1312-\\u1315\\u1318-\\u135A\\u1380-\\u138F\\u13A0-\\u13F4\\u1401-\\u166C]|[\\u166F-\\u167F\\u1681-\\u169A\\u16A0-\\u16EA\\u1700-\\u170C\\u170E-\\u1711]|[\\u1720-\\u1731\\u1740-\\u1751\\u1760-\\u176C\\u176E-\\u1770\\u1780-\\u17B3\\u17D7]|[\\u17DC\\u1820-\\u1877\\u1880-\\u18A8\\u18AA\\u18B0-\\u18F5\\u1900-\\u191C]|[\\u1950-\\u196D\\u1970-\\u1974\\u1980-\\u19AB\\u19C1-\\u19C7\\u1A00-\\u1A16]|[\\u1A20-\\u1A54\\u1AA7\\u1B05-\\u1B33\\u1B45-\\u1B4B\\u1B83-\\u1BA0\\u1BAE\\u1BAF]|[\\u1BBA-\\u1BE5\\u1C00-\\u1C23\\u1C4D-\\u1C4F\\u1C5A-\\u1C7D\\u1CE9-\\u1CEC]|[\\u1CEE-\\u1CF1\\u1CF5\\u1CF6\\u1D00-\\u1DBF\\u1E00-\\u1F15\\u1F18-\\u1F1D]|[\\u1F20-\\u1F45\\u1F48-\\u1F4D\\u1F50-\\u1F57\\u1F59\\u1F5B\\u1F5D\\u1F5F-\\u1F7D]|[\\u1F80-\\u1FB4\\u1FB6-\\u1FBC\\u1FBE\\u1FC2-\\u1FC4\\u1FC6-\\u1FCC\\u1FD0-\\u1FD3]|[\\u1FD6-\\u1FDB\\u1FE0-\\u1FEC\\u1FF2-\\u1FF4\\u1FF6-\\u1FFC\\u2071\\u207F]|[\\u2090-\\u209C\\u2102\\u2107\\u210A-\\u2113\\u2115\\u2119-\\u211D\\u2124\\u2126\\u2128]|[\\u212A-\\u212D\\u212F-\\u2139\\u213C-\\u213F\\u2145-\\u2149\\u214E\\u2183\\u2184]|[\\u2C00-\\u2C2E\\u2C30-\\u2C5E\\u2C60-\\u2CE4\\u2CEB-\\u2CEE\\u2CF2\\u2CF3]|[\\u2D00-\\u2D25\\u2D27\\u2D2D\\u2D30-\\u2D67\\u2D6F\\u2D80-\\u2D96\\u2DA0-\\u2DA6]|[\\u2DA8-\\u2DAE\\u2DB0-\\u2DB6\\u2DB8-\\u2DBE\\u2DC0-\\u2DC6\\u2DC8-\\u2DCE]|[\\u2DD0-\\u2DD6\\u2DD8-\\u2DDE\\u2E2F\\u3005\\u3006\\u3031-\\u3035\\u303B\\u303C]|[\\u3041-\\u3096\\u309D-\\u309F\\u30A1-\\u30FA\\u30FC-\\u30FF\\u3105-\\u312D]|[\\u3131-\\u318E\\u31A0-\\u31BA\\u31F0-\\u31FF\\u3400-\\u4DB5\\u4E00-\\u9FCC]|[\\uA000-\\uA48C\\uA4D0-\\uA4FD\\uA500-\\uA60C\\uA610-\\uA61F\\uA62A\\uA62B]|[\\uA640-\\uA66E\\uA67F-\\uA697\\uA6A0-\\uA6E5\\uA717-\\uA71F\\uA722-\\uA788]|[\\uA78B-\\uA78E\\uA790-\\uA793\\uA7A0-\\uA7AA\\uA7F8-\\uA801\\uA803-\\uA805]|[\\uA807-\\uA80A\\uA80C-\\uA822\\uA840-\\uA873\\uA882-\\uA8B3\\uA8F2-\\uA8F7\\uA8FB]|[\\uA90A-\\uA925\\uA930-\\uA946\\uA960-\\uA97C\\uA984-\\uA9B2\\uA9CF\\uAA00-\\uAA28]|[\\uAA40-\\uAA42\\uAA44-\\uAA4B\\uAA60-\\uAA76\\uAA7A\\uAA80-\\uAAAF\\uAAB1\\uAAB5]|[\\uAAB6\\uAAB9-\\uAABD\\uAAC0\\uAAC2\\uAADB-\\uAADD\\uAAE0-\\uAAEA\\uAAF2-\\uAAF4]|[\\uAB01-\\uAB06\\uAB09-\\uAB0E\\uAB11-\\uAB16\\uAB20-\\uAB26\\uAB28-\\uAB2E]|[\\uABC0-\\uABE2\\uAC00-\\uD7A3\\uD7B0-\\uD7C6\\uD7CB-\\uD7FB\\uF900-\\uFA6D]|[\\uFA70-\\uFAD9\\uFB00-\\uFB06\\uFB13-\\uFB17\\uFB1D\\uFB1F-\\uFB28\\uFB2A-\\uFB36]|[\\uFB38-\\uFB3C\\uFB3E\\uFB40\\uFB41\\uFB43\\uFB44\\uFB46-\\uFBB1\\uFBD3-\\uFD3D]|[\\uFD50-\\uFD8F\\uFD92-\\uFDC7\\uFDF0-\\uFDFB\\uFE70-\\uFE74\\uFE76-\\uFEFC]|[\\uFF21-\\uFF3A\\uFF41-\\uFF5A\\uFF66-\\uFFBE\\uFFC2-\\uFFC7\\uFFCA-\\uFFCF]|[\\uFFD2-\\uFFD7\\uFFDA-\\uFFDC_])
+Whois information is not available for domain
+-([a-z])
+:children$
+[{} \"#-:\\\\\\/\\.,]
+cannot touch
+^#comment
+[\\s\\$\\@\\%]
+(?<![<>])((?:<V[^>]*t=\"foshuit\"[^>]*>[^<]+<\\/V>))(?![<>])
+^(Error whilst parsing: Unexpected end whilst parsing (?:xpath|xml|string))([\\s\\S]*)
+devise_for :admins
+^-dTEXFONTSDIR=
+setPath: Non-empty Array of non-empty Strings and\\/or Integers required for first argument
+^\\s*$single
+#{(.+?)}
+\\s*vsh_tcp_port\\s*=\\s*(0x([0-9a-f]+)|(\\d+))
+\\/os\\/sles12$
+of length.*\\.\\.
+(-*)([.|\\d]+)
+DOTMULTI\\.([^\\.])
+[\\x00-\\x1F\"\\\\\\x7F-\\uFFFF]
+\\A[ \\[ \\{ ]
+\\b$map$
+psyc:\\/\\/
+key:.*
+'quoted'
+\\\\\\$
+<[a-zA-Z][a-zA-Z0-9]*/
+^\\'(.*?)\\'(?:\\s+\\#.*)?\\z
+(<\\!--\\[if[^<]*?\\])--\\>([\\S\\s]*?)<\\!--(\\[endif\\]--\\>)
+<\\/GENE_LIST>
+\\n\\n. \n. 
+(09C7|09C8) 09B0 09CD
+,|:|=|\\n
+\\b(?:int|long|float|double|chararray|bytearray|boolean|datetime|biginteger|bigdecimal|tuple|bag|map)\\b
+mostly temperate
+TrackID$
+(?s).*<table\\s*class=\\\"one\\\">\\s*<tbody>\\s*<tr>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"1\\\"\\s*type=\\\"checkbox\\\"\\s*checked=\\\"checked\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Open\\s*</label>\\s*</td>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"2\\\"\\s*type=\\\"checkbox\\\"\\s*checked=\\\"checked\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Submitted\\s*</label>\\s*</td>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"3\\\"\\s*type=\\\"checkbox\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Accepted\\s*</label>\\s*</td>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"4\\\"\\s*type=\\\"checkbox\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Rejected\\s*</label>\\s*</td>\\s*</tr>\\s*</tbody>\\s*</table>\\s*<table\\s*border=\\\"5\\\"\\s*style=\\\"two\\\">\\s*<tbody>\\s*<tr>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"1\\\"\\s*type=\\\"checkbox\\\"\\s*checked=\\\"checked\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Open\\s*</label>\\s*</td>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"2\\\"\\s*type=\\\"checkbox\\\"\\s*checked=\\\"checked\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Submitted\\s*</label>\\s*</td>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"3\\\"\\s*type=\\\"checkbox\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Accepted\\s*</label>\\s*</td>\\s*<td>\\s*<input\\s*name=\\\".*\\\"\\s*id=\\\".*\\\"\\s*value=\\\"4\\\"\\s*type=\\\"checkbox\\\"/>\\s*<label\\s*for=\\\".*\\\"\\s*class=\\\"\\\">\\s*Rejected\\s*</label>\\s*</td>\\s*</tr>\\s*</tbody>\\s*</table>.*
+At line 3: attribute \"iterate\" has SyntaxError: Unexpected token ILLEGAL
+thi
+([^\\da-zA-Z])(top|parent)([.])(location|frames)
+.*\\[(.+)\\]$
+@cntxtParam\\([a-zA-Z0-9_]+\\)
+^I expect rec\\.sample\\['Original'\\]\\.ad to be \\[(\\d+),(\\d+)\\]$
+^mruby-(.*)
+\\A\\s*(.)
+Library\\/Application Support\\/u3d\\/ini_files\\/unity-1.2.3f4-linux.ini
+\\.\\n$
+^36|55|30[0-5]
+^(b\\.?\\s?c\\.?|b\\.?\\s?c\\.?\\s?e\\.?|a\\.?\\s?d\\.?|c\\.?\\s?e\\.?)
+((?<A>a)(?<B>(?(<A>)b|((?(<B>)[e-g]|[h-j])))))
+range_key.*specified
+^KEYLIST
+!.*r
+^([0-9A-F]+)\\.\\.([0-9A-F]+)$
+([^#]+)#(.*)
+^{([^{}]+)}$
+^tacacs.*host.*$
+^I should be able to moderator distinguish the submission$
+\\A(?<start>\\s*).*?\\n(?<end>\\s*)\\z
+NO\\b
+(\\-+BEGIN\\s*([^\\-]+)\\-+(.*?)\\-+END[^\\-]+\\-+)
+^TeaPart::arg_substitution$
+([ ,-:;\\x{2013}\\x{2014}]+$)
+(?<=\\.cdef)\\s*(\\[(=*)\\[)
+mime
+^\\/([^\\/?#]+)(?:\\/([^\\/?#]+)(?:\\/(?:(subscription)|(fork)|(issues)|([^\\/?#]+)))?)?(?:[\\/?#]|$)
+LICENSE|COPYING
+\\bPAGE_CNT\\b
+    ([^\\s\\\\]+) \\((.*)\\n
+MSIE ([0-9\\.]+)
+ target=\"_[^\"]+\"
+w(?:eb)?osbrowser\\/(\\d+(\\.\\d+)?)
+^onceAttr[A-Z]
+^I am a nested step$
+$cooked_segment_substitute
+ely$
+Strange things are afoot
+zz
+^.+?(?:dbname|database)=(.+?)(?=;|$)
+_(pm)$
+</head>(.*)
+\\n\\/\\/# sourceMappingURL=data:application\\/json(;.*?)?;base64,(.*)
+\\.s?html?
+^[a-zA-Z_$][a-zA-Z_$0-9\\-\\/]*
+(?<!^)(?<!\\s)[ ]{2,}
+^I playback recording \"([^\\\"]*)\"$
+(?i:\\ALGTM[!.,]\\s+|\\s+LGTM[.!,]*\\z|\\ALGTM[.!,]*\\z)
+^--h$
+didi.com$
+\\$me->trace\\(.+?\\);
+^bam_to_bed$
+matcheos
+(?P<card_num>\\d+)-(?P<dev_num>\\d+)
+\\p{bc=Arabic_Letter}+
+(^|\\n)(\\s*[^\\s].*(\\n|$))+
+((?:^|\\s)table[^\\s>]*[\\s])
+\\015|\\Q$end\\E{1,2}\\s*\\r?$
+$QR2
+\\A(?!_)[a-z0-9_]+\\z
+([a-z0-9]|\\%[0-9a-f]{2})+
+\\/[^\\/.]+\\.[^\\/.]+$
+: Compiled successfully.
+$all_lcs
+\\$\\$(?=\\$*\\{.*?\\})
+(?i)\\bldap_(s(tart_tls|ort|e(t_(option|rebind_proc)|arch)|asl_bind)|next_(entry|attribute|reference)|co(nnect|unt_entries|mpare)|t61_to_8859|8859_to_t61|d(n2ufn|elete)|unbind|parse_re(sult|ference)|e(rr(no|2str|or)|xplode_dn)|f(irst_(entry|attribute|reference)|ree_result)|add|list|get_(option|dn|entries|values_len|attributes)|re(name|ad)|mod_(del|add|replace)|bind)(?=\\s*\\()
+^\\*?\\s+
+r([0-9]+)-
+\\A\\d\\.\\d\\.\\d\\n\\z
+fs-extra[^\\s]+
+^I fetch foos using a query named (\\w+)$
+(\\+|-|\\*|\\/)(?=[^\\s])
+AND\\(st.TF >= [0-9\\.,]+\\)
+isbn: (.+)
+<DbField $NAME\\.(\\w+)>
+(.)\\1{1,}
+ \\!ruby\\/(object|struct):(RDoc::RI|RI).*
+dd?|DD?|mm?|MM?|yy(?:yy)?
+href=\"([^/]+\\.html)\"
+: Array<(.+)>$
+delete|void|typeof|\\+\\+|--|\\+|-|~|!
+[^\\s\u3000]
+-Nv
+^  The following filters were applied during inspection:
+# raises\\s*(\\S*)
+^HTTP\\/[0-9.]+ 200 
+^(method)$
+Bob
+^[^=]+.
+^@@.*@@
+^(ClassProperty|ClassMethod)$
+\\A\\e\\[.*m\\z
+Hyphenated::Name::Engine\\.routes\\.draw do
+`src`
+<pre><code>\\s*@example( +[^\\n]*)?\\s+
+\\$4
+Argument 2 must be a Function
+(<code>[\\s\\S]*?<\\/code>)
+CommandLine
+cannot handle cmd_\\Q$command\\E event
+^mw:
+^I visit (.*)$
+\\0*\\z
+rel=\"(.*)\".*items=\"(.*)\"
+(\\[\\[(?:[^\\][]|\\\\\\])+\\]\\])
+Invalid langtag \\(repeated variant: \"nedis\"\\)
+$tbl
+/api/(?P<Version>.+)/(?P<Format>.+)/(?P<Service>.+)/(?P<Method>.+)
+\"\\$\\(INST_BIN\\)\" \"\\$\\(DESTINSTALLVENDORBIN\\)\" \\\\
+https:\\/\\/\\S*\\.now\\.sh
+(^[#][^\\n]*$\\n)\\n+([^#])
+^[0-9a-zA-Z]{12}$
+.*sources\\.jar$
+^(?=[ \\t]*>)(?:(?:(?:[ \\t]*>[^\\n]*\\n)*(?:[ \\t]*>[^\\n]+(?=\\n|$))|(?![ \\t]*>)(?![ \\t]*\\[((?:[^\\\\](?:\\\\|\\\\(?:\\\\{2})+)\\]|[^\\]])+)\\]:[ \\t\\n]*(<[^>\\[\\]]+>|[^\\s\\[\\]]+)(?:[ \\t\\n]+['\"(]((?:[^\\n]|\\n(?!\\n))*?)['\")])?[ \\t]*(?=\\n|$))[^\\n]+)(?:\\n|$))*(?:[ \\t]*>[ \\t]*(?:\\n[ \\t]*>[ \\t]*)*)?
+^$eof
+this is a test
+[^\\P{P}-]|\\s+-\\s+
+Snow
+Channel:([0-9]{1,2})
+^(find|query|get|delete|remove)([A-Z][\\w$_]*)?By([A-Z][\\w$_]*)$
+node_modules\\/(browserify|browser\\-pack|mocha|mocaccino)\\/
+([ \\t]+[\\*][\\r\\n]+)
+open: is a directory
+[&$+,\\/:;=?@<>\\[\\]\\{\\}\\|\\\\\\^~%# ]
+$RE{balanced}{-parens=>'()'}
+datatype><normal>)} <
+^(\\w+).original.png$
+test*
+^https?:\\/\\/coub\\.com\\/view\\/
+^%Z
+^sep?tiembre$
+^(?:debian|ubuntu)$
+\\[\\d+-(\\d+)\\]
+^([0-9A-Za-z]*).*Mass: (.*)..DBE: (.*)..Dev: (.*)..CE:(-?[0-9]* -?[0-9]*)
+_confirmation$
+(;|#)(.*$)
+Node \\d+ not found
+^the output should contain the right DNS info$
+('|\\\")
+^[0-9a-zA-Z_\\-.]+$
+text/.*css
+<code>(.+?)<\\/code>
+<img src=\"([^\"]+)\".*alt=\"([^\"]+)\".*\\s*\\/?>
+<$F\\d*\\s[^>]*[sS][iI][zZ][eE]\\s*=\\s*[\"']?([+-]?)(\\d+\\.?\\d*)$R
+vendored gemfile\\.lock
+^(Perl \\S* required)
+((^|[^%])(%%)*%s)
+^application/(vnd|prs|x)\\.(.+)\\+(xml|json|phps|php)$
+^(float8|double precision|numeric)
+\\$(TEST_NGINX_[_A-Z0-9]+)
+^[a-z\\s]+\\d+$
+^(\\d{1})(\\d{1})(\\d{1})(\\d{1})(\\d{1})(\\d{1})(\\d{1})
+\\?BV_SessionID=([^\"]+)
+^[\\s\\w]+function\\s+(.+)\\s*\\(
+Whois Server: (\\S+)
+HTTP 204 and 205 responses must not include a message body
+anyipsum-output\">(.*?\\.)
+^arn:aws:ssm:[a-z]{2}-[a-z]+-\\d{1}:\\d{12}:document/.*$
+\\[url=(home|forum)\\.php([^\\]]+)\\](.*)\\[\\/url\\]
+\\x{1061}
+/(markdown|m)
+hello(\\d+)
+^([^:]+)://([^:@]*(?:[:][^@]*)?@)?([^/:@?#]*)(?:[:]([^/?#]*))?(/[^?#]*)?((?:[?](?:[^#]*))?)((?:#.*)?)$
+^(?:force|notest)$
+^(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?$
+(\\@|\\\\|\\%|#)
+(href\\=\\\"mailto):([\\w\\.\\@]+)\\\"
+could\\ not\\ find\\ class
+(id|class)=\"[^\"]+\"
+%classname
+^(<[\\w.-]+>)$
+^([0-9]+)[\\s]+([0-9]+)[\\s]+obj
+\\.?(pdf|doc|docx|odt|xls|xlsx|ods|ppt|pptx|odp)$
+ PV ?(\\d)?(?:[^a-zA-Z0-9]|$)
+x\\[\\[(.*)\\[\\[x
+Valid injection targets for this module are:\\n - \\.\\/a\\.js\\n - \\.\\/b\\.js\\n - \\.\\/c\\.js
+^from (\\S+) by (\\S+) with local
+^label-(?P<locale>[\\w_]+)$
+erConfigClassLhConfig::getInstance\\(\\)->getDirLanguage\\((\\s?)'([a-zA-Z0-9-\\.-\\/\\_]+)'(\\s?)\\)
+\\$FOO
+[\ufffd\\{udc00}]
+var FooView = Backbone.View.extend\\(\\{(.|\\n)*app\\/scripts\\/templates\\/foo.ejs
+KODAK
+^--([^=]+)=([\\w]*)
+\\b[a-z][a-zA-Z0-9_]*\\b
+[\u00fd\u00ff]
+loop limit
+^el-icon-
+<|>|\\s
+^data:[^,]+,
+_.+?__
+$re0
+&return.falseforfailure;
+(?<![<>])(<V cop=\"y\">[Dd]ar<\\/V> <N pl=\"n\" gnt=\"n\">\\x{e9}is<\\/N>)(?![<>])
+^(\\S+?)\\s*-\\s*(\\S+)$
+(.*(?:^|\\s))\\x40todo\\s+#([\\w\\-\\.:/]+)\\s+(.+)
+\n          <directPreApproval>\n            .*<sender>\n              .*<documents>\n                .*<document>\n                  .*<type>CPF</type>\n                  .*<value>23606838450</value>\n                .*</document>\n              .*</documents>\n        
+,[ ]*
+^(?:\u00e0\u00bb\u0080\u00e0\u00ba\u00b2\u00e0\u00ba\u00b0|\u00e0\u00ba\u00bb\u00e0\u00ba\u00a7\u00e0\u00ba\u00b0|\u00e0\u00bb\u0080\u00e0\u00ba\u00b1\u00e0\u00ba\u00bd|\u00e0\u00bb\u0080\u00e0\u00ba\u00b1\u00e0\u00ba\u008d|\u00e0\u00bb\u0080\u00e0\u00ba\u00b7\u00e0\u00ba\u00ad|\u00e0\u00bb\u0080\u00e0\u00ba\u00b4\u00e0\u00ba\u00b0|\u00e0\u00bb\u0080\u00e0\u00ba\u00bb\u00e0\u00ba\u00b2)
+ \\s+\\z 
+UnitBase: ([0-9]+)\n
+(?xm)^\n                  ([[:xdigit:]]{4,6})                              # low code point\n                  (?:\\.\\.([[:xdigit:]]{4,6}))?                     # high code point (option)\n                  [[:space:]]*;[[:space:]]*\n                  ([[:word:]]*)                                    # status\n                  [[:space:]]*\n                  (?:\n                    ;[[:space:]]*\n                    ([[:xdigit:]]{4,6}(?:\\x20[[:xdigit:]]{4,6})*)? # mapping (option)\n                    [[:space:]]*\n                    (?:\n                      ;[[:space:]]*\n                      (NV8|XV8)                                    # IDNA2008 Status (option)\n                      [[:space:]]*\n                    )?\n                  )?\n                \\#
+((pbrpc[gs]?):\\/\\/)?([^:]+)(:([0-9]+))?/?
+^SIP-C/4.0 (\\d{3})
+<!DOCTYPE [^>]+>
+^(?:a|the) (\\d+) byte file(?: named)? \"([^\"]*)\" should (not )?exist$
+from UglifyJs
+(?=((?:a|b){6,8}))\\1(?:)
+^ {0,4}(?P<content>.*)
+Test::BrokenRelation
+^\\s*\\\\(?:\\w+\\*?)
+[\\u2019]
+<[^\\n]+?>
+div>\t\n[$else$]\n  [# Workaround around segfault in Embperl 2.1.1-dev *grmpf* #]\n  <[# #]input\n  class=\"cBase cControl cControlButton\"  name=\"[+ $self->{name} +]\"\n  value=\"[+ $self -> {showvalue}?($self -> {value} || $self->{text}):$self -> form -> convert_label ($self, undef, undef, $req) +]\"\n  title=\"[+ $self -> {showtext}?($self->{text}):$self -> form -> convert_label ($self, undef, undef, $req) +]\"\n  [$if $self -> {onclick} $] onClick=\"[+ do { local $escmode = 0 ; $self -> {onclick} } +]\" [$endif$]\n  [+ do { local $escmode = 0 ; $self -> {eventattrs} } +]\n  [$if $self -> {image} $]\n  type=\"image\" src=\"[+ $self -> {image} +]\"\n  [$else$]\n  type=\"button\"\n  [$endif$]\n  style=\"[+ $self->{style} || 'text-align: center;' +]\"\n  [#    onMouseOver=\"buttonover(this);\" onMouseOut=\"buttonout(this);\" #]\n    [$ foreach my $attr (keys %$button) $]\n      [$ if exists $button->{\"__$attr\".'_escmode'} $]\n        [+ $attr +]=\"[+ do { local $escmode = int $button->{\"__${attr}_escmode\"}; $button->{$attr}; } +]\"\n      [$ else $]\n        [+ $attr +]=\"[+ $button->{$attr} +]\"\n      [$ endif $]\n    [$ endforeach $]>\n  [$endif$]\n[$ endforeach $]\n\n  <
+^Form::Factory::Control::(\\w+)$
+/.*\\.conflict\\.\\d+
+^$self->{'prefix'}
+conf.paths.tmp, '\\/serve'
+PTS1 query prediction
+MemTotal:\\s*(\\d+)\\s*kB
+Country does not use lookup_by
+^((\\.\\.\\/)+|\\/)(?!\\.\\.\\/)(.*?[^\\/])\\/+$
+^\\$(.)
+Id eq \"([a-zA-Z0-9\\-]*)\"
+^adenovirus type 5
+^&lt;\\/?
+^it will perform a pan gesture on the coordinates of the screen starting from the left going to the right$
+\\Ahttp://vision\\.ameba\\.jp/watch\\.do.*?\\?movie=(\\d+)
+[/+]javascript$
+property=\"og:title\" content=\"([^\"]+)\"
+([^aeiouy][aeiouy][^aeiouy]{1,2}e*)i|i$
+^the duration should range from \"([^\"]*)\" to \"([^\"]*)\"$
+^(.*)\\/\\*$
+.*reqbody
+/(selectedCues|runningCues|runningOrPausedCues)
+(qr|m|s)#
+\\/a\\\\_twisty\\\\_path
+%fullpath\\b
+(===== FCP CFMODE =====.*?)=====
+\\{\\{languageName\\}\\}
+([^\\s;]+)(?:\\s*;\\s*(.*))?\\z
+router\\.es5\\.js
+^([a-zA-Z]*)\\@([a-zA-Z]+)=(.+)
+\\[warn\\] No public key was found in #keys for '16325C61'
+.+Netto(\\d\\.\\d{3},\\d{2})IBAN.+
+fog
+Cell (\\S+) status: (no )?setuid allowed
+.*_channel
+^(SCALAR|ARRAY|HASH|CODE|REF|GLOB|LVALUE)
+Invalid plugin configuration
+^sigren\\s+\\\"([^\\\"]+)\\\"\\s+\\\"([^\\\"]+)\\\"
+[^a-zA-Z0_.-]+
+^lib/(WordList/.+)\\.pm$
+ERRbaddrive
+\\.dtd\\z
+\\b_\\b
+^($numeric_re)i\\z
+^I should set rs_agent_dev:package to \"(.*)\"\\.$
+^\\s*[$namechars]+\\s*$
+^\\s*Lines:\\s*(\\d+.\\d+)\\%
+(<body[^>]*>)
+IL
+MOUSE_BTN(\\d+)(?:_DBL)?\\s+(.+)$
+api\\/v1\\/sandboxes
+^(?:19|20)\\d\\d(?:0\\d|1[012])(?:[012]\\d|3[01])
+; PHICOMM (i800) Build/
+<strong>Look</strong>
+.*\\/(.+)\\.\\w+
+^([^\\x20\\xa0]+)
+^svm:
+^a(.+)
+^\\s{4,}\\S
+been disabled
+(^\\s*\\#{2,3}\\s*$|
+http://neurolex.org/wiki/Special:URIResolver/Category-3A
+(\\S)+\\.(\\d)+\\s{2}
+(?<![<>])(<S>[Gg]o dt\\x{ed}<\\/S> (?:<[^\\/AY][^>]*>(?:[CcDdFfGgMmPpSsTt][Hh]|[Bb]h[^fF])[^<]+<\\/[^AY]>))(?![<>])
+foo (\\d+)
+block\\.partial\\((.*?),(.*?)\\)
+/active_model/validations/length.rb$
+pricelist\\[(\\d+)\\]\\.productAssignmentRule
+utf-?8
+^(885)
+systemd-foreman
+\\\\ding\\{109\\}
+VERSION = \"(.*)\"
+Chrome
+--Vectors End--
+return Model\\.extend\\('Testing',
+^Language_
+```([a-z]+)(.+)```([\\n\\r]+)?
+\\/(\\(\\.|$)
+^(asInvoker|highestAvailable|requireAdministrator)$
+\\s*(-|\\|)\\s*$
+(^\\d+\u00e3\u0080\u0081)|(\\s*[\\.]+\\s*$)
+@\\{(.*)\\}
+\u7b2c([\u4e00\u4e8c\u4e09\u56db\u4e94\u516d\u4e03\u516b\u4e5d\u5341\u58f1\u5f10\u53c2\u62fe\u767e\u3007]+)\u7bc0
+\\.html\\?.*|\\.html$
+^I attempt to hit enter at the terminal$
+unclosed section \"people\" at 27
+sudo sed -n '\\/\\.\\*Please login\\/d; w\\/root\\/\\.ssh\\/authorized_keys' 
+^Property description must be an object
+foo something
+ /\\* (!)? (?: .*? \\*/ | .* ) 
+SCSS_CACHE/styles/test-[a-f0-9]{12}.css
+ \\G (\\s+) 
+^([+-]?\\d*\\.?\\d+)(%|[a-z]+)?$
+\\G([^\\x00\\x0a\\x0d]+)([\\x00\\x0a\\x0d]+)
+^\\-?\\d+(\\.\\d+)?$
+<script type=\"text/javascript\" src=\"{% static 'js/email-verification.js' %}\">
+%numx%
+^([a-zA-Z0-9_\\.]+)~([a-zA-Z0-9_:]+)@([a-zA-Z0-9_]+)$
+[ye]
+^[A-Za-z0-9_:/]*$
+^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,3})?(?:[+|-]\\d{2}:\\d{2})?$
+[\u0110\u0111\u00f0]
+'latin1',
+drugbank-id
+(T[0-9][0-9][0-9])
+tuoli                   $ 
+invalid region name
+create[^\\s]+  setup\\.py
+\\bAppendItem\\b
+(.*)\\.(\\d+)$
+expected false
+(.*[\\]>\\/]+)(.*)
+^(?P<w>\\d+)x(?P<h>\\d+)$
+using a shared \\(threadsafe!\\) runtime
+^\\d+\\W*(\\w.*)$
+<\\/p>|<br\\s?\\/?>
+opera|opr
+[(\\.|\\!|\\?)]+
+--password .*
+\\bMATCH\\s+(FULL|PARTIAL|SIMPLE)\\b
+coffee-script
+ ([^a-zA-Z0-9_<>]) 
+(?:<[\\/A-DF-Z][^>]*>)+([Aa])<\\/[A-DF-Z]> (?:<[\\/A-DF-Z][^>]*>)+([Ss]eacht)<\\/[A-DF-Z]>
+(?:@import\\s+)?\\burl\\s*\\(\\s*(\"(?:[^\\\\\"\\r\\n\\f]|\\\\[\\s\\S])*\"|'(?:[^\\\\'\\n\\r\\f]|\\\\[\\s\\S])*'|[^)}\\s]+)\\s*\\)(\\s*;?)
+\\.rhtml$
+Could not find resource 'Notify\\[alias_2\\]'
+$file: RPM
+\\A3
+CURB_VER_PATCH\\s+\\d+
+^Access denied
+^(?:[^_]+)\\_
+^_$prefix
+Debug Proxy online, now you could attach to 6666
+\\A(?:(.*?)$arg[0])
+\\A(\\\\)
+(?<=^interface\\s)[Et|Po].+
+(\\d{3})(\\d{3})(\\d{4})$
+1 uncommited changed files.*awholenewfile
+role FAILED_TO_VALIDATE .*\\{invalid_key,<<\\\"([^\"]*)\\\">>\\} <<\\\"([^\\\"]*)\\\">> <<\\\"([^\\\"]*)\\\">>$
+[a-z]\\-[a-z]
+\\d+\\.\\d+\\.\\d+(-[a-z\\d]+)?\\.xml$
+$patterns[5]
+^mailto:([^.][a-z0-9!#$%&'*+-\\/=?`{|}~^]+@([a-z0-9.-]+))
+Android\\s*([0-9\\.]+).*?;
+=\\s*<<
+:-*\\(
+-\\d{1,2}(?=:)
+^gsl_cdf_(\\w+)$
+Autotest for PHP was installed successfully
+(<iframe [^<>]*>)
+\\Q \\E
+^(.*)\\.(\\d+)$
+#   policy\\.connect_src
+^sitemap2
+&#(\\w+?);
+^\\\\r\\\\n|\\\\r|\\r\\n|\\r
+#4 agent get 2 workers \\[ \\d+, \\d+ \\]
+[^-]+-(.)-(\\d+)
+^S_plugin_
+Usage: .*egg-bin.* \\[command] \\[options]
+(\\S+) \\(id: (-?\\d+)\\)
+(joli|[kxln]?ubuntu|debian|suse|opensuse|gentoo|(?=\\s)arch|slackware|fedora|mandriva|centos|pclinuxos|redhat|zenwalk|linpus)[\\/\\s-]?(?!chrom)([\\w\\.-]*)
+>Object Moved<
+\\G(\\w*):
+^TestEvent$
+(\\(\\d{4}?\\))
+\\s+([A-Z0-9_]+)\\s*=\\s*(\\d+)
+type\\s+TResult\\s*=\\s*([^;]+);
+(?i:^\\s*(drop)\\s+(aggregate|conversion|database|domain|function|group|index|language|operator class|operator|rule|schema|sequence|table|tablespace|trigger|type|user|view))
+;}
+:[^:]*:
+(?<![<>])(<[A-DF-Z][^>]*>[Mm]h?ithid<\\/[A-DF-Z]>)(?![<>])
+[^\\de+]
+Express Admin
+^\\w{11}$
+\\G$WS\\*([a-zA-Z0-9_:]+)
+^(PBX|XC)
+\\((\\d+):(\\d+)\\)$
+\\A([^\\\"][^ \\t,]+|\\\"[^\\\"]+\\\")(\\s*,\\s*)*
+s\\:([^.]+)
+(-)\\1+
+CZ00[12]
+^(?:TEXT|COMMENT)$
+\\[(\\s*[-\\w]+\\s*)([~|^$*]?=)\\s*([-\\w#]*?#[-\\w#]*)\\s*\\]
+^\\\\c
+\\A(.*)writes$
+^(([a-z][a-z0-9+.-]*)?:)?\\/\\/
+^ter([bcdfghjklmnpqrstvwxyz])er([aiueo].*)$
+(\\s|,|:) ($to_prefix) (\\s|,)
+([^\\x20-\\xFE])
+[aeiouy\u00e2\u00e0\u00eb\u00e9\u00ea\u00e8\u00ef\u00ee\u00f4\u00fb\u00f9]$p$
+^__DIR__
+contain id
+\n          .*<paymentMethod>\n            .*<creditCard>\n              .*<holder>\n                .*<phone>\n                  .*<areaCode>11</areaCode>\n                  .*<number>988881234\n          
+^\\tWidget\\s+(\\w+)
+Error:( \\d+:)? unexpected token at 'invalid agent\\njson'
+\\.cmd$
+Infinity
+[ \\t\\n]+\\n
+^(?:FIXED\\b)
+editing.*taketo.*
+^(\\d{1,2})(st|nd|rd|th)?$
+([^?#&=]+)=([^#&]*)
+(\\d+) insertions?
+\\/rest\\/v\\d+
+^$QNWild$
+^\\w+\\/|^\\.\\/
+line length
+(area|tag)
+\\A\\w+\\(

@@ -1,0 +1,29 @@
+Regex;Lines;Visited;Cache Size(Found);Counters;Max Counter;Sum Counters;Max CS;Avrg CS;DCA-states;DCA-trans;Deter-TIME [milisec];Status
+(.{1,980}[,])\s+(\S);1;0;120;1;980;980;60;0,003659;7;17;73;Text generated.
+\x20[^\x21\x22]{500};1;0;120;1;500;500;60;0,0036;2;4;3;Text generated.
+\x3C[^\x3E\x0a]{500};1;0;120;1;500;500;60;0,0036;2;4;5;Text generated.
+^SOML FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,1000};1;0;110;3;1000;1400;49;0,00245;45;203;16;Text generated.
+^SEND FROM\x20\s+[\w\s@\.]{200,}\x20[\w\s@\.]{200,}\x20[\w\s@\.]{200,1000};1;0;110;3;1000;1400;49;0,00245;45;203;21;Text generated.
+php.*\x3f[^\n]{256};1;0;172;1;256;256;56;0,004676;15;65;11;Text generated.
+php.*\x3f[^\n]{256};1;0;172;1;256;256;56;0,004676;15;65;16;Text generated.
+php.*\x20[^\n]{256};1;0;172;1;256;256;56;0,004676;15;65;14;Text generated.
+php.*\x20[^\n]{256};1;0;172;1;256;256;56;0,004676;15;65;13;Text generated.
+^(NT|CallBack|SID|TimeOut)\s*\x20\s*[^\n]{512};1;0;115;1;512;512;51;0,002652;25;43;28;Text generated.
+^(NT|CallBack|SID|TimeOut)\s*\x20\s*[^\n]{512};1;0;115;1;512;512;51;0,002652;25;43;21;Text generated.
+^(NT|CallBack|SID|TimeOut)\s*\x20\s*[^\n]{512};1;0;115;1;512;512;51;0,002652;25;43;18;Text generated.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};1;0;116;1;300;300;55;0,00308;11;21;9;Text generated.
+^[nN][aA][mM][eE]=s*[^\r\n\x3b\x20\x09\x0b\x2c]{300};1;0;116;1;300;300;55;0,00308;11;21;9;Text generated.
+^\s*Content-Encoding\s*\x3A\s*[^\r\n]{300};1;0;104;1;300;300;43;0,001892;24;40;9;Text generated.
+\x3D[^\s\n]{88};1;0;120;1;88;88;60;0,0036;2;4;6;Text generated.
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300};1;0;108;1;300;300;47;0,002256;20;36;16;Text generated.
+^\s*Content-Type\s*\x3A\s*[^\r\n]{300};1;0;108;1;300;300;47;0,002256;20;36;17;Text generated.
+^[\w /-]{0,256}[\w -]{1,253}\.js$;1;0;122;2;256;509;61;0,001951;6;11;8;Text generated.
+\x3D[^\s\n]{88};1;0;120;1;88;88;60;0,0036;2;4;28;Text generated.
+^From\x3A\s+[^\r\n]{256};1;0;115;1;256;256;54;0,00297;13;27;17;Text generated.
+^To\x3A\s+[^\r\n]{256};1;0;117;1;256;256;56;0,003192;11;25;3;Text generated.
+^\s*SAML\s+[^\n]{246};1;0;116;1;246;246;55;0,00308;12;27;9;Text generated.
+^\s*SAML\s+[^\n]{246};1;0;116;1;246;246;55;0,00308;12;27;9;Text generated.
+^\s*SEND\s+[^\n]{246};1;0;116;1;246;246;55;0,00308;12;27;4;Text generated.
+^\s*SEND\s+[^\n]{246};1;0;116;1;246;246;55;0,00308;12;27;7;Text generated.
+^\s*SOML\s+[^\n]{246};1;0;116;1;246;246;55;0,00308;12;27;9;Text generated.
+^\s*SOML\s+[^\n]{246};1;0;116;1;246;246;55;0,00308;12;27;4;Text generated.

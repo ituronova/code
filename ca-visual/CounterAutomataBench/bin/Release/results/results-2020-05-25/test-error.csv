@@ -1,0 +1,38 @@
+Pattern;Message;
+Pattern;Message;
+((bb|bbb)a){4};Push 1 to counting set with more elements.
+
+Pattern;Message;
+(a(bb|bbb)){4};ERROR: nonmonadic regex!
+((bb|bbb)a){4};ERROR: nonmonadic regex!
+Pattern;Message;
+(a(bb|bbb)){4};Index je mimo hranice pole.
+((bb|bbb)a){4};Index je mimo hranice pole.
+(a(bb|bbb)c){4};Index je mimo hranice pole.
+Pattern;Message;
+((bb|bbb)a){4};ERROR: nonmonadic regex!
+(a(bb|bbb)c){4};ERROR: nonmonadic regex!
+Pattern;Message;
+(a(bb|bbb)){4};Odkaz na objekt není nastaven na instanci objektu.
+((bb|bbb)a){4};Odkaz na objekt není nastaven na instanci objektu.
+Pattern;Message;
+((bb|bbb)a){4};Odkaz na objekt není nastaven na instanci objektu.
+(a(bb|bbb)c){4};Odkaz na objekt není nastaven na instanci objektu.
+Pattern;Message;
+((bb|bbb)a){4};Odkaz na objekt není nastaven na instanci objektu.
+(a(bb|bbb)c){4};Odkaz na objekt není nastaven na instanci objektu.
+Pattern;Message;
+((bb|bbb)a){4};Odkaz na objekt není nastaven na instanci objektu.
+(a(bb|bbb)c){4};Odkaz na objekt není nastaven na instanci objektu.
+Pattern;Message;
+((bb|bbb)a){4};Odkaz na objekt není nastaven na instanci objektu.
+(a(bb|bbb)c){4};Odkaz na objekt není nastaven na instanci objektu.
+Pattern;Message;
+(a(bb|bbb)){4};InternalError_Conflict
+((bb|bbb)a){4};InternalError_Conflict
+Pattern;Message;
+Pattern;Message;
+/hello\n.{40};Položka se stejným klíčem již existuje.
+Pattern;Message;
+Pattern;Message;
+Pattern;Message;

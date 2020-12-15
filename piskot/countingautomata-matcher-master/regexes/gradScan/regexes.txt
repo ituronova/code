@@ -1,0 +1,152 @@
+﻿%[0-9a-fA-F]{2}
+%2[^bf]
+((\s-(user)?password\s+("(?<Password>[^"]+)"|'(?<Password>[^'])+')|\s-(user)?password\s+(?<Password>[^$\(\[<\{\-\s]+)\s)|net(\.exe)?.{1,5}?user\s+?[^\s]+\s+?(?<Password>[^\s]{0,50})\s+/add|[a-z_\s](password|secret)\s*=\s*(?<Password>[^\s"']{2,200})|certutil(\.exe)?\s+\-p\s+(?<Password>[^\s]{0,50}))
+(?<before>[^a-z0-9/])\+(?<after>[^a-z0-9/])
+(?<cert>[a-z0-9/+\s"',\\\r\n\u0085]{87}={0,2})([^a-z0-9+]*?([^a-z0-9/+\r\n\u0085\s"',\\]|$))
+(?<header>eyj[a-zA-z0-9\-_%]+)\.(?<payload>eyj[a-zA-z0-9\-_%]+)\.(?<signature>[a-zA-z0-9\-_%]+)
+(?-i)[^\s]{0,50}([a-z]+[A-Z]+\d+|[a-z]+\d+[A-Z]+|[A-Z]+[a-z]+\d+|[A-Z]+\d+[a-z]+|\d+[a-z]+[A-Z]+|\d+[A-Z]+[a-z]+|[a-z]+[A-Z]+[^a-zA-Z\d\s]+|[a-z]+[^a-zA-Z\d\s]+[A-Z]+|[A-Z]+[a-z]+[^a-zA-Z\d\s]+|[A-Z]+[^a-zA-Z\d\s]+[a-z]+|[^a-zA-Z\d\s]+[a-z]+[A-Z]+|[^a-zA-Z\d\s]+[A-Z]+[a-z]+|\d+[A-Z]+[^a-zA-Z\d\s]+|\d+[^a-zA-Z\d\s]+[A-Z]+|[A-Z]+\d+[^a-zA-Z\d\s]+|[A-Z]+[^a-zA-Z\d\s]+\d+|[^a-zA-Z\d\s]+\d+[A-Z]+|[^a-zA-Z\d\s]+[A-Z]+\d+|[a-z]+\d+[^a-zA-Z\d\s]+|[a-z]+[^a-zA-Z\d\s]+\d+|\d+[a-z]+[^a-zA-Z\d\s]+|\d+[^a-zA-Z\d\s]+[a-z]+|[^a-zA-Z\d\s]+[a-z]+\d+|[^a-zA-Z\d\s]+\d+[a-z]+)[^\s]{0,50}
+(?-i)\-{5}BEGIN( ([DR]SA|EC|OPENSSH))? PRIVATE KEY\-{5}
+(?-i)eyJ(?i)[a-z0-9\-_%]+\.(?-i)eyJ(?i)[a-z0-9\-_%]+\.[a-z0-9\-_%]+
+(?-i)userPWD=
+(["']|=)(?<HostName>[^"'=\.,]+)\.redis\.cache\.windows\.net
+([^a-z0-9]|\\u[a-f0-9]{4})PII[^a-z0-9]
+([a-z_\s]password["']?\s*[=,]\s*(\$?@?|N?|(u8?|L)?R?)['"](?<Password>[^\s'"]{2,200}?)['"])|([cC]onvert[tT]o\-?[sS]ecure[sS]tring\s*(\(|\-[sS]tring)\s*['"](?<Password>[^\s'"]{2,200}?)['"])|(new(\-Object)?\s+((System\.Security\.Cryptography\.X509Certificates\.)?X509Certificate2?|(System\.Net\.)?NetworkCredential)\([^\(\),]+\s*,\s*"(?<Password>[^\s"]{2,200}?)")
+(^|["'>;=\s])(?<PartialCertificate>(?-i)MII(?i)[a-z0-9/+\r\n\u0085\s"',\\]{200,20000}[a-z0-9/+]={0,2})
+(^|[^a-z])((data source|server|addr|(network )?address)\s*=\s*|:\s*["'\\]+|jdbc:sqlserver://)(?<ServerName>[a-z\-_0-9:\.]+)
+(^|[^a-z])(initial catalog|database(name)?)(\s*=\s*|["']\s*=>\s*["']|["'\\]+\s*:\s*["'\\]+)(?<DbName>[^;"'\s\r\n]{4,50}?)[;|"'\s\r\n<`,]
+(^|[^a-z])(initial catalog|database(name)?)[^a-z0-9]
+(^|[a-z\s"'])((app(lication)?|client)[_\- ]?(key|secret)|refresh[_\- ]?token|AccessToken(Secret)?|Consumer(Secret|Key)|(Twilio(Account|Auth)(Sid|Token)))([\s=:>]{1,7}|[\s"':=]{3,7})(?<ClientSecret>([a-z0-9/+=_.-]{10,200}|[^\s"';]{4,200}))
+(accountSharedKey|connectionString)\s*=\s*"(?<EncryptedKeyPrefix>[^\s"]{40})
+(api|client|app(lication)?)[_\- ]?(key|secret)|ida:password
+(app(lication)?|client)[_\- ]?id
+(decryption|validation)Key\s*=\s*"[a-f0-9]{48,}"
+(Doc(ument)?|cosmos)Db(Conn(ection)?Str(ing)?|(Access)?Key)
+(Endpoint=sb://|'|")(?<HostName>[^=\.;]+)\.servicebus\.windows\.net
+(Get|Access)_?Token[^a-z]
+(ht|f)tps?://[^%:\s"'/][^:\s"'/\$]+[^:\s"'/\$%]:(?<Password>[^%\s"'/][^@\s"'/]{0,100}[^%\s"'/])@[a-z0-9:\.\-_%\?=/]+
+(password|pwd)(\s*=\s*|["']\s*=>\s*["']|["'\\]+\s*:\s*["'\\]+)(?<Password>[^;"'\s\r\n<]{4,50}?)[;|"'\s\r\n<`,]
+(password|pwd)[ -~\s\r\n]+(foo|bar|default|(your|my|test|[\+|=]\s*\$?[a-z]+|_|\.)(password|pwd)|(password|pwd)_)
+(password|pwd)[^"']+[\{\[\(\<][a-z0-9\.\s]+[\}\]\)\>]|(password|pwd)[ -~\s\r\n]{1,5}(privatesettingsref:|[\{\[\(\<\$%][a-z0-9\.\s\-_\$%"']+[\{\[\(\<\}\]\)\>\$%]|[\{\[\(\<]\s*[\}\]\)\>]|redacted|null|none|string|""|''|["']\s|#.{1,50}#)
+(secret|credential|token)s?[^a-eg-oqrtuw-z]
+(SharedAccess(Policy)?|SAS|Primary|Secondary)Key|SharedAccessSignature|SharedKey
+(start|end)date
+(tcp:)?(?<ServerName>[a-z\-_0-9:\.]+(\.database(\.secure)?\.windows\.net|\.cloudapp\.net|\.database\.usgovcloudapi\.net|\.database\.chinacloudapi\.cn|\.database.cloudapi.de))
+(user id|uid|user(name)?)(\s*=\s*|["']\s*=>\s*["']|["'\\]+\s*:\s*["'\\]+)(?<UserName>[^;"'\s\r\n/]{2,50}?)[;|"'\s\r\n<`,]
+(user id|uid|user(name)?)[=\s'"\\]{1,7}(user|uid)|password[=\s'"\\]{1,7}password
+(Verification|Symmetric)Key
+@encrypted|encrypteddata|[^;]\s?encrypt\s*=\s*true
+[":\s]((x?corp|extranet(test)?|ntdev)(\.microsoft\.com)?|corp|redmond|europe|middleeast|northamerica|southpacific|southamerica|fareast|africa|exchange|extranet(test)?|partners|parttest|ntdev|ntwksta|sys\-wingroup|windeploy|wingroup|winse|segroup|xcorp|xred|mslpa|cdocidm|cez\.ice|(phx|gme|ame|cme|usme|rno)\.gbl|POOP|MSSTORE|(PROD\.)?SD\.NET|(INT\.)?SDINT\.NET|((DEV|SEHVA)\.)?WDG[AU]E|CAE|(BRASS(AZURE)?|HALOWAYPOINT|MGMT|[MX]KMS|MUSS|NONPROD|PCE|PROD|SECOPS|SURFACE)(\.(LOCAL|LIVE))?)
+["']TokenCache["']\s*:\s*\{\s*["']CacheData["']\s*:\s*["'][a-z0-9/\+]{86}
+[\\/]?[^\\/]*?(password|pwd)[^\\/]*?$
+[\r\n\u0085\s"',\\]
+[\s\r\n]{5}|\{\d\}
+[^a-z\$](user id|uid|user(name)?)\s*[^a-z\s,][ -~\r\n\s]{2,50}?[^a-z\s\$]\s*(password|pwd)\s*[^a-z,\+&\)\]\}\[\{][ -~\r\n\s]{2,350}?([;|<,})]|$)
+[^a-z0-9/\+\._\$,\\](?<SymmetricKey>[a-z0-9/\+]{22}==)([^a-z0-9/\+\._\$]|$)
+[^a-z0-9/\+\._\$,\\](?<SymmetricKey>[a-z0-9/\+]{43}=)([^a-z0-9/\+\._\$]|$)
+[^a-z0-9/\+\._\-\$,\\%](?<SymmetricKey>[a-z0-9%]{43,63}%3d)
+[^a-z0-9/\+\._\-\$,\\%](?<SymmetricKey>[a-z0-9%]{54,74}(%3d){2})
+[^a-z0-9/\+\._\-\$,\\](?<SymmetricKey>(?-i)[a-z2-7]{52}(?i))([^a-z0-9/\+\._\-\$,\\]|$)
+[^a-z0-9/\+\._\-\$,\\](?<SymmetricKey>[a-z0-9/\+]{40})([^a-z0-9/\+\._\-\$,\\]|$)
+[^a-z0-9/\+\._\-\$,\\](?<SymmetricKey>[a-z0-9/\+]{54})={2}([^a-z0-9/\+\._\-\$,\\]|$)
+[^a-z0-9/\+\._\-\$,\\](?<SymmetricKey>[a-z0-9/\+]{60})[^a-z0-9/\+\._\-\$,\\]
+[^a-z0-9/\+\._\-\$,\\](?<SymmetricKey>[a-z0-9/\+]{86}==)([^a-z0-9/\+\._\-\$]|$)
+[^a-z0-9]AWS|Amazon
+[^a-z0-9]etag|[^a-z0-9]digest|[^a-z0-9]hawk|&hkey=|hash|mac:|HMACSHA\d{3}
+[^a-z0-9]sse\-?c[^a-z0-9]
+[0-9%=\-]{20}
+[A-F0-9]{60}
+[a-z0-9/\+]{44}
+[a-z0-9/+]{44}
+\$ANSIBLE_VAULT;\d+\.\d+;AES256\s+\d+
+\(\?<[^>]+>
+\({2}|\){2}|_{3}|\?{3}|\*{3}|\.{3}|#{5}|x{3}|z{3}|a{5}|b{5}|\u25CF{5}|/{5}
+\.(?<ResourceType>vhd|cspkg|azpkg|wacontent|ispac|dacpac|jar|pfx|pvk|keystore|p7b|p12|pkcs12|pem|key|priv|ini|settings|config)\?
+\.(001|32bitinstall|asax|ascx|asl|asmmeta|aspx|bak|c|cmd|conf|config|cpp|cs|cshtml|csv|dart|dbg|dsql|groovy|h|hpp|htm|html|idl|iis|inc|inf|ini|ipynb|j2|ja|java|jsx?|json|jsonnet|map|md|mef|ois_export|omi|opn|out|php|pl|pm|positive|ps1|psclass1|psm1|py|rake|rb|ruby|rc|reg|resjson|resx|retail|scala|scr|script|sdf|sh|SHF|side|side2|snippet|sql|strings|svc|svn\-base|template|test|trx|tsx?|tt|txt|usersaptinstall|vbs?|webtest|xaml|xml\+?)$
+\.(1|8|as|c|cc|cmd|conf|cs|cxx|erb|gitcredentials|html|ijs|js|json|md|my|nuspec|php|pl|pm|pod|py|sql|tcl|textile|ts|txt|xml\+?)$|^userconfig([\-a-z]+)?$
+\.(as|c|cs|erb|go|js|key|md|pem|php|pm|pub|py|xml\+?|priv)$
+\.(azure|bat|ccf|cmd|config|cpp|cs|cscfg|defaults|definitions|deployment|dtsx|ini|java|jsx?|json|keys|loadtest|m|md|php|properties|ps1|psm1|pubxml|py|resx|sample|scala|settings|sql|ste|tempalte|test|tsx?|txt|wadcfgx|waz|xml\+?|yml)$
+\.(bat|Beta|BF|config|cpp|cs|cscfg|cshtml|definitions|dtsx|FF|ini|java|jsx?|json|local|managers|md|ps|ps1|psm1|pub|pubxml|publishsettings|py|r|rds|resx|SAMPLE|sql|settings|template|tsx?|txt|xaml|xml\+?)$
+\.(bat|c|cmd|config|cpp|csv|ini|js|json|md|pm|ps1|trx|ts|txt|xml\+?)$
+\.(bat|c|cs|cpp|cmd|ps1|psm1|psd|log)$|script$
+\.(bat|cmd|ini|j2|json|ps|ps1|psm1|txt)$
+\.(config|jsx?|json|tsx?|txt|cs|xml\+?|java|py|scala|linq|md)$
+\.(config|ps1|psm1|jsx?|tsx?|json|coffee|xml\+?|md|html|py|php|java|ipynb|rake|rb|ruby|scala)$|hubot
+\.(cs|c|cpp|ini|jsx?|json|ps1|psm1|publishsettings|template|trd|tsx?|xml\+?|txt)$
+\.(cs|xml\+?|config|cfg|txt|defaults|deployment|local|log|managers|template)$
+\.(cs|xml\+?|config|jsx?|json|tsx?|cfg|txt|ps1|bat|cscfg|publishsettings|cmd|psm1|aspx|asmx|vbs|added_cluster|clean|pubxml|ccf|ini|svd|sql|c|xslt|csv|FF|ExtendedTests|settings|cshtml|template|trd|argfile|defaults|deployment|managers|local)$
+\.(cspkg|azpkg|wacontent|ispac|dacpac|jar)\?
+\.(json)$
+\.(pfx|pvk|key(store)?|p7b|p12|pkcs12)$
+\.(publishsettings|jsx?|json|tsx?)$
+\.(txt|log)$
+\.(xml\+?|config|cfg|txt|log|defaults|deployment|template|managers|local)$
+\.(yml|json)$
+\.pbix$
+\.txt$
+\?{3}|\*{3}|#{5}|x{5}|z{5}|a{5}|b{5}|\u25CF{5}|/{5}
+\?{4}|\*{3}|#{5}|x{5}|z{5}|a{5}|b{5}|\u25CF{5}|/{5}
+\[\s*SuppressMessage\s*\(\s*@?"Microsoft.Security"\s*,\s*@?"CS001(:SecretInline)?"\s*(,\s*Justification\s*=\s*"(?<justification>[^"]*)"\s*)?\)\s*\]
+\[\s*SuppressMessage\s*\(\s*@?"Microsoft.Security"\s*,\s*@?"CS002(:SecretInNextLine)?"\s*(,\s*Justification\s*=\s*"(?<justification>[^"]*)"\s*)?\)\s*\]
+\sNetworkCredential\([^,]+,\s*"[^,]+"\s*,
+^(https?://)
+^(yes|no|true|false)$
+^.*$
+^[ -￿]
+^["']?([%\$]+[a-z\d]|[\$%](\{\d\}|[\{\[\(\<]?[a-z\.\-_]+[\}\]\)\>]?))
+^[^a-z0-9]+$
+^[a-z%=]+(\d{1,3})?$
+^[a-z]+\-[a-z]+$
+^[a-z0-9\.]+\($
+^[a-z0-9]+=
+^\$?[a-z0-9\.]+[\[\(]\d+[\]\)]
+_{3}|\?{3}|\*{3}|#{5}|x{5}|z{10}|a{10}|b{10}|\u25CF{5}|/{5}
+<(machineKey|[a-z]+AccountInfo)
+<(password|pwd|secret|credential)>(?<Password>[^<]+)</(password|pwd|secret|credential)>|<(add\s+key|(setting|credential)\s+name)\s*=\s*"[^"]*([kK][eE][yY]([sS]|[0-9])?|([cC]redential|CREDENTIAL)[sS]?|([sS]ecret|SECRET)(s|S|[0-9])?|[pP]ass[wW]ord|PASSWORD|[tT]oken|TOKEN|([kK]ey|KEY)([pP]rimary|PRIMARY|[sS]econdary|SECONDARY|[oO]r[sS]as|SAS|[eE]ncrypted|ENCRYPTED))"\s*value\s*=\s*"(?<Password>[^"]+)"|<add\s+key\s*=\s*"[^"]+"\s*value\s*=\s*"[^"]*?([eE]ncrypted|ENCRYPTED).?([sS]ecret|SECRET)(?<Password>[^"]+)"
+<Subscription\s+id\s*=\s*"(?<SubId>[0-9a-z]{8}-([0-9a-z]{4}-){3}[0-9a-z]{12})
+127\.0\.0\.1:\d{5}
+Access.?Key
+Account|Storage|Access|Primary[^v]|Secondary[^v]|Blob
+AccountEndpoint=(?<AccountEndpoint>https?://[a-z0-9_\.]+\.documents\.azure\.com(:\d+)?)/?[;"']
+AccountName=(?<AccountName>[a-z0-9_]+);
+ApiKey
+AsmPubKeys
+authorization: (basic|digest|hoba|mutual|negotiate|oauth( oauth_token=)?|bearer|scram\-sha\-1|scram\-sha\-256|vapid|aws4\-hmac\-sha256)[\s\r\n]{1,10}(?<Token>[a-z0-9/+_.=]{10,})
+azs\-playground|cli\-backup
+azurewebsites\.net/api/
+azurewebsites\.net/api/[a-z][a-z0-9\-_]{1,128}\?code=
+batch\.azure\.com
+bitmap|image
+code
+contoso|fabrikam|northwind|sandbox|onebox|localhost|127\.0\.0\.1|testacs\.com|s-int\.net
+dsas_secret=(?<value>.*?)[^a-z0-9%\-]
+encdata|encrypted
+Endpoint=(?<Endpoint>https?://[a-z0-9_]{3,50}\.(table|blob|queue|file).[a-z0-9\.]{10,50})/?;
+EndpointSuffix=(?<EndpointSuffix>[a-z0-9\._]{10,50})[;"']
+forbiden|well\-?known
+hash\s?:|"placeholder"\s?:
+HostName=(?<HostName>[^=\.;]+)\.azure-devices\.net
+Initial ?Catalog|Data ?Source|thumbprint|server.name
+iotHub
+key ?=|[^ ]key[^a-eg-oqrtuw-z]|password[^a-eg-oqrtuw-z]|[a-z]{3}pwd|passphrase
+Key|Credential
+L"
+ManagementCertificate\s*=\s*
+Mds(?-i)[^a-z](?i)
+mongodb://.+:
+odbc.?connect
+password\(["'](?<Password>.+?)["']\)
+refresh[_ ]?token
+replace|removed|redacted|\seg:|e\.g\.|example|sample|[^a-z0-9]invalid|[^a-z0-9]foobar|[^a-z0-9]dummy|[^a-z0-9]badly|badpassword|mock(up)?(user|key|sample)|fake(user|key|sample)|guestaccesstoken|publickey|[^a-z0-9]pubkey|cache.?key|replica.?token|with hash|hashed|sha.?(512|256)
+RootManageSharedAccessKey
+se=(?<value>.*?)[^a-z0-9%\-]
+SecretIssuer
+SecretValue
+ServiceBus(Namespace|(SaS|SharedAccess(Policy)?)Key)
+Shared(Access(Key|Policy)Name|SecretIssuer)\s?=
+Shared(Access(Policy)?Key|SecretValue)\s?=
+SharedAccessKeyName=(?<KeyName>[^=;'"]+)
+sig=(?<value>.*?)[^a-z0-9%\-]
+st=(?<value>.*?)[^a-z0-9%\-]
+user(name)?[ -~\s]{0,70}(secret|password)
+username\(["'](?<UserName>.+?)["']\)
+xox[pbar]\-[a-z0-9\-]+

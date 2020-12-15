@@ -1,0 +1,1000 @@
+^[ \\t]*#.*$
+^\\s*%[\\w:]+
+wechat appSecret
+([\\d.]+)\\s?(ms|sec|min|hour|day|week|month|year)(?:ond|ute)?s?
+run: IO required
+test(\\/|\\Z)
+([0-9])+$
+\\(\\d+ ms
+ #.*$
+my_
+^(!)?(\\w+)(:[-?=+~:])?(.*)
+[HTCE]
+^\\s*struct.*\\*\\s*$
+^inform
+changed
+precondition
+d(e)                    $ 
+\\.zip\\z
+charset=\\w+
+^the consul key \"(.+)\" should exist$
+^([^`\\x00-\\x1F\\x7F-\\x9F]+)$
+(?i)^\\\\.b(ook)?m(ark)?$
+PONG|EX_OK
+^-state
+\\\"\\[.*\\]:\\d*\\\"
+^(\\/|https?:\\/\\/)
+^inventory_
+^include::.*\\[tag\\=.*\\]$
+\\b($uf_class)\\b
+^(?:(joy))
+^[A-Za-z0-9.%+\\-_]+@(?:(?:[a-zA-Z0-9]+-?)*[a-zA-Z0-9]\\.)+[A-Za-z]{2,4}$
+expected to be Integer but instead was String
+X-WR-TIMEZONE:.*?\\n
+\\G \\s+                 
+Name.+TestArtistUpdate
+^current-state$
+(.*\\.)((?i)hprof)(\\.[0-9]*)?
+(?i:googlecloudmonitoring|pingdom.com|go .* package http|sourcegraph e2etest|bot|crawl|slurp|spider|feed|rss|camo asset proxy|http-client|sourcegraph-client)
+ruhroh
+\\b(?:boolean|byte|char|color|double|float|int|XML|[A-Z]\\w*)\\b
+(?P<first>\\/)?(?P<sab>[a-z]+)?(?P<last>\\/)?$
+\\$APPLICATION->SetTitle\\s*\\(\\s*\"(.*?)(?<!\\\\)\"\\s*\\);
+model Header
+foo > bar > baz
+\\G%(token)
+^I should be able to clear the text of the text field on that screen$
+^(?:\\*\\/)
+F
+/api/deployments
+<RegistrationGroups>(.*?)</RegistrationGroups>
+/([^/]*)$
+auth-token=blah
+^my \\$config_sh = <<'!END!';$
+name\\s*=\\s*['\"]([^'\"]+)['\"]
+([a-z]*)$
+( \\* @method.*?\\n)+
+episodenumber(\\d+)
+ICMP TYPE=(\\d+)\\sCODE=(\\d+)
+([^\\r]|^)\\n
+\\A$scheme://$host(?:/|\\Z)
+^I get the broken image element load status$
+sapo\\.pt/(?:[\\w\\d]+)$
+^Parsing\\ YAML\\ request\\ parameters\\ enables\\ 
+^mdat
+([^ a-zA-Z0-9-]+)
+^(.*?)([^/]+)$
+\\b(nodename nor servname provided, or not known)\\b
+<city>Ottawa</city>
+^\\s*#\\s*#docplaster\\s*(.*)\\s*$
+^multipolygon
+^([_A-Z]+)\\/([_A-Z]+)\\/([_A-Z]+)$
+require\\(.+\\/?walkdir[\\\"\\']\\)
+-ssl
+\\/(?:a|BRANDING|CENTER|COMPONENTSONLYONCUSTOM|CUSTOMSTRING\\=|date|e|ENABLECANCEL|FILESONLY|file|FINAL|GLOBAL|gray|ifempty|ifndef|ignorecase|IMGID\\=|ITALIC|LANG\\=|NOCUSTOM|noerrors|NONFATAL|nonfatal|oname\\=|o|REBOOTOK|redef|RESIZETOFIT|r|SHORT|SILENT|SOLID|STRIKE|TRIM|UNDERLINE|utcdate|windows|x)\\b
+\\.eot(\\?v=\\d+.\\d+.\\d+)?$
+gtag\\('config', 'happy', {\\\"allow_display_features\\\":false}\\)
+\\G($Ident)((?>\\'*))(?:\\(($Ident(?:,$Ident)*)\\))?
+^before|after|lines$
+is already in use
+nonce=\"([^\"]+)\"
+Cannot specify queryb and query
+\\%3F
+\\/index.html
+\\b(m)\\b
+QUX=two\\\\ words
+<B>Grand average of hydropathicity \\(GRAVY\\):<\\/B>\\s*(-{0,1}\\d*\\.{0,1}\\d*)
+(^|[^\\\\])#
+^xwininfo: Window id:.*\"(.*)\"$
+^data-([a-z0-9_]+)(-editable)?
+[\"'\\n\\s/=:,]
+(jpg|gif|png)$
+\"context\":{.*\"environment\":\"production\".*}
+^( *\\|(.+))\\n( *\\|( *[-:]+[-| :]*)\\n)((?: *\\|.*(?:\\n|$))*)
+baidubrowser
+^[\\.]+
+C1: foo is , bar is .*C2: foo is the_foo, bar is the_bar
+\\A(\\s+\\|){2,}
+^(PERL = .*)
+^I select \"([^\"]*)\" request media type$
+([^\\:\\:]+)(::([^\\(\\)]+)(\\((.*)\\))?)?
+(?<!\\\\)\\$([\\w\\-_]+)
+\\s*=(?:[^;](?!;))*[^;]?;\\s*
+^NOT\\s+
+(?<_1><<)(?<_2>\"|'|)(?<_3>TEXTILE)\\k<_2>
+1.8.*
+No suitable hosts found without {:platform=>\"
+no command
+^native-path:\\s*(.*)$
+^ */(.+)$
+([0-9a-z_-]+)_min_nodes
+\\s+(?:[\\$|\\w|\\n]+)$
+REC-xml-19980210
+^[^\\s]+@[^\\s]+\\.[^\\s]+$
+\\s*<wmmeta\\s*name=([^\\s>]+)\\s*>(.*?)<\\/\\s*wmmeta\\s*>\\s*
+^(\\d+)e
+Don't use `path\\.replaceWith\\(\\)` with a source string, use `path\\.replaceWithSourceString\\(\\)`
+##FILTER=<ID=(.+),Description=\"(.*)\">
+^[^=]+=.*$
+tizen[/\\s](\\d+(\\.\\d+)*)
+node-superagent
+^(crDate|upDate|trDate|exDate)$
+Browserslist config should
+\\\\rightharpoondown 
+^MPF\\0
+Enforcing
+barbaz rake -T RAILS_ENV='env2'
+\\b$outserial_key=(\\w+)
+^\\s*\\@reimplemented\\s*
+\\.part-\\w+$
+yyyy|yy|y|M{1,4}|dd?|EEEE?|HH?|hh?|mm?|ss?|([.,])sss|a|Z{1,2}|ww|w|'(([^']+|'')*)'
+(?:\\A|-)(.)
+script src=\"(/js(-socks)?/.+?\\.js)
+\\b(?<_1>Parser|Lexer|TreeWalker)\\b
+[[\\].]{1,2}
+^https:\\/\\/(d-\\d+\\.ampproject\\.net)\\/\\$\\internal\\w+\\$\\/frame\\.html$
+.*Launching `.*` \\[.*\\] 
+ ([1-9])
+^\\(\\?
+\\{0\\|(.+)\\}
+\\\\[`'^\"H~ckl=b.druvt](\\{[a-zA-Z]\\}|[a-zA-Z])
+\u00e2$
+<(table|tr|td|th|blockquote|dd|div|dt|h1|h2|h3|h4|h5|h6|br|hr|li|ol|ul|p)([^\\>]*)>[\\n\\r\\t]+
+\\.\\. PYPI-BEGIN([\\r\\n]|.)*?PYPI-END
+ier$
+(?<=Configure::write\\('Security.cipherSeed', ')(\\d+)(?='\\))
+^\\-searchbeforestop=(.*)
+^#define\\s+SERVER_(BASE|)(VERSION|REVISION)\\s+\"(.*)\\s*\".*
+invalid signature
+^Processor\\d+: (.*)
+([^\\$\\w\\d])unpack([^\\w\\d])
+.atom.erb
+\\s*([*+-/=><\\s]*=)\\s*
+\\%s
+\\[\\)
+\\[foo\\]
+\\A(?:(=~|\\!~))
+^.*: (.+?) FOUND$
+^\\s*(.+?)\\((.*)\\)\\s*$
+\u00e1\u00be\u009c
+[\"\\\\\\s,]
+^http:\\/\\/0\\.0\\.0\\.0:8080
+(\\\\ )+
+\\s*((\\S+\\s+)*)(left|right)
+^((?:(GET|HEAD|POST|PUT|PATCH|DELETE),)*(GET|HEAD|POST|PUT|PATCH|DELETE))\\s+(.*)
+^v$dbic_ver_re$
+^(?:\\s+\\d+\\>)?([^\\s].*)\\((\\d+|\\d+,\\d+|\\d+,\\d+,\\d+,\\d+)\\)\\s*:\\s+(error|warning|info)\\s+(\\w{1,2}\\d+)\\s*:\\s*(.*)$
+>\\s*Description\\s*<\\/h[^>]*>
+[\\u017a\\u017c\\u017e]
+(?P<all>(?P<href>href=(\"|'))?(?P<link>https?://(?P<name>[^\\s]+)))
+welcome
+\\s+:\\/\\/
+version: 0
+\\b((?:0?[1-9]|[12][0-9]|3[01])(?:st|nd|rd|th))\\b
+\\A#<Class:
+\\\\Em
+Refunded|Reversed
+y.*c|c.*y
+already under version
+SplashScreen\\.scale-100\\.png$
+^((\\d;)?(\\d))?([A-Za-z])$
+.please.\\sis not a git command
+(?s)<video[^>]+data-mpd=\"([^\"]+)\"[^>]*>(.+?)</video>
+ de [Dd]'
+eui\\.[0-9a-f]{16}$
+^Sent
+^sponsorship_([a-z0-9]+)_(\\d{4}-\\d{2}-\\d{2}_\\d{2}:\\d{2})_?(\\d+)?$
+.*<$RECORDELEMENT 
+auth-failure
+^\\-+\\n
+(?<![<>])(<V cop=\"y\">[Ii]narb<\\/V> <[A-DF-Z][^>]*>[^aeiouAEIOU\\x{e1}\\x{e9}\\x{ed}\\x{f3}\\x{fa}\\x{c1}\\x{c9}\\x{cd}\\x{d3}\\x{da}][^<]+<\\/[A-DF-Z]>)(?![<>])
+:[a-zA-Z1-9]+
+^he refreshes the token$
+($swallow)$
+[a-z]+[\\w_]*
+Unpopulated
+(.*)(,\\s*LIBS\\s*,)(.*)
+([\\d.]{3})
+^yum.*
+^\\s*(?=@[_a-zA-Z\\x7F-\\xFF][_a-zA-Z0-9\\x7F-\\xFF-]*)
+^a document with no attachments$
+(?i:\\s*(?<_1>drop)\\s+(?<_2>table)\\s+(?<_3>\\w+)(?<_4>\\s+cascade)?\\b)
+([A-Z])(?=[a-z]{2})
+^a{,2}$
+^(amd64|x86_64)-Linux
+^letscert 
+'{3}([\\s\\S]*?'{3})
+\\b\\d\\b
+^Bad data in sent message
+either :only or :exclude
+;(?:MODEL|MDL):\\s*(.+?)\\s*;
+browsex
+^\\s*User\\s+(\\S+)\\s*$
+#(\\d+) Added
+\\$\\{[^\\}]+\\}
+SEE ([^;\\n]+)
+[^\\d\\w\\.]require\\([\"']([^'\"\\s]+)[\"']\\)
+Joey
+\\.(?:json|xml)$
+unexpected end of line .+?: line 2, column 28
+(ipad|iphone|ipod|android|blackberry|playbook|windows ce|webos)
+-?\\d+\\.?\\d*|\\.?\\d+
+5.0
+^(.*)\\?(.*)$
+define\\([\"']DB_PASSWORD[\"'],[\\s]*[\"'](.*)[\"']\\)
+^([^\\t\\n]*)(\\t+)
+\\.(gif|jpg|jpeg|png|bmp)$
+<input type='hidden' name='csrfmiddlewaretoken' value='(.*)' />
+<\\/pp>
+Failed to build gem native extension
+application/(atom|rss)+xml
+ibm\\swebexplorer
+(^|[^0-9A-Za-z\u0400-\u0481\u0483-\u0487\u048a-\u0527\u2de0-\u2dff\ua640-\ua66f\ua674-\ua67d\ua67f-\ua697\ua69f])((?:2[\\s\\xa0]*\u041f\u0435\u0442(?:\u0440\u0443\u0441|\u0438\u0440)\u0430)|(?:2[\\s\\xa0]*\u041f\u0435\u0442\u0440\u0430)|(?:2(?:[\u0435\u044f](?:\\.[\\s\\xa0]*(?:\u041f\u0435\u0442(?:\u0440(?:\u0443\u0441)?|\u0438\u0440)|\u043f\u043e\u0441\u043b\u0430\u043d\u0438\u0435[\\s\\xa0]*\u041f\u0435\u0442\u0440)|[\\s\\xa0]*(?:\u041f\u0435\u0442(?:\u0440(?:\u0443\u0441)?|\u0438\u0440)|\u043f\u043e\u0441\u043b\u0430\u043d\u0438\u0435[\\s\\xa0]*\u041f\u0435\u0442\u0440))\u0430|\\.[\\s\\xa0]*(?:\u041f\u0435\u0442(?:\u0440(?:\u0443\u0441)?|\u0438\u0440)|\u043f\u043e\u0441\u043b\u0430\u043d\u0438\u0435[\\s\\xa0]*\u041f\u0435\u0442\u0440)\u0430|[\\s\\xa0]*\u043f\u043e\u0441\u043b\u0430\u043d\u0438\u0435[\\s\\xa0]*\u041f\u0435\u0442\u0440\u0430|[\\s\\xa0]*\u041f\u0435\u0442|Pet|\\-?[\u0435\u044f](?:\\.[\\s\\xa0]*(?:\u041f\u0435\u0442(?:\u0440(?:\u0443\u0441)?|\u0438\u0440)|\u043f\u043e\u0441\u043b\u0430\u043d\u0438\u0435[\\s\\xa0]*\u041f\u0435\u0442\u0440)|[\\s\\xa0]*(?:\u041f\u0435\u0442(?:\u0440(?:\u0443\u0441)?|\u0438\u0440)|\u043f\u043e\u0441\u043b\u0430\u043d\u0438\u0435[\\s\\xa0]*\u041f\u0435\u0442\u0440))\u0430)))(?:(?=[\\d\\s\\xa0.:,;\\x1e\\x1f&\\(\\)\\uff08\\uff09\\[\\]\\/\"'\\*=~\\-\\u2013\\u2014])|$)
+\\||~|>>
+<%= ([^ ]+) %>|\\$\\{ ?([^{} ]+) ?\\}|\\{\\{([^{} ]+)\\}\\}
+</[sS][aA][mM][pP]>
+height=\"60\"
+(mz)-([\\w-]{2,})
+\\:(\\d+)$
+Puppet\\:\\:Parser\\:\\:Functions.*newfunction
+(\\-|\\+){0,1}(\\W|^)\\d+\\.{0,}\\d{0,}
+[<>\\\"\\\\|?!:/%*]
+^2\\.(\\d)
+Unable to read configuration file.*foo
+(\\d\\d\\d\\d)(\\d\\d)(\\d\\d)(\\d\\d)(\\d\\d)(\\d\\d)
+^/github/(git|contents|pulls|branches|merges)/?
+^([\\d\\w\\*_\\s]+)\\(([\\d\\w\\*_\\s\\,\\[\\]]*)\\)$
+routerlink
+^<\\?xml(.*?)>
+^The object isa
+^\\s*down(?:\\s+(\\d+))?$
+DEPRECATED: global use of must_equal from
+<svg([^>]+)>(.*)<\\/svg>
+binary: Function required
+Unity API Magic request to [^ ]+ \\[SomeRequest\\] [0-9.]+ seconds
+site.com|copy.com
+initialCentroids
+paragraph|bullet_list
+<p>Paragraph 1\\s*</p>\\s*<h2>\\s*An h2</h2>
+Structure
+^I have a file \"(.*)\" with:$
+^exports
+(\\'|\\\"|px|%)
+^last-([0-9]+)$
+(mellom)\\s+(?P<start>.+)\\s+og\\s+(?P<stop>.+)
+\\/[\\dr]
+\\.(png|pdf|ps)$
+\\s*\\&\\s*
+\\u1ecc\\u0301
+[0..1]{16}
+^(621267|623063)\\d{12}$
+^File change event detected
+_(\\d{8})c[\\- \\.\\d]{1,3}s[\\- \\.\\d]{1,3}
+rails_geometry\\.png$
+Cannot find somefile.lock
+^=cut|!NO!SUBS!
+name cannot start with a number
+Field \"conn\" on \"TestCase\" interface .* field is not defined
+-?(is|isme|isasi|i|kan|an)$
+([^kf])puts\\(
+^--(\\d\\d)-(\\d\\d)(Z|(?:[+\\-]\\d\\d:\\d\\d)?)?$
+is tighter\\((.*?)\\)
+protocols
+\\A([ ]*)([\"']|)(\\w+)\\2:\\s*(.*)\\s*\\z
+materialized
+(?<perms>[^ ]+) (?<size>\\d+) (?<name>.+)
+[Cc][0-9]+
+^I execute \"(.*?)\"$
+(thisnamespaceistoobig|invalidnamespace)
+<link rel=\"stylesheet\" type=\"text\\/css\" href=\"css\\/styles.css\" \\/>
+LH1
+\\A(.*)wife$
+^0(\\d{3}[1-9])00000(\\d)(\\d)$
+\\{%\\s*highlight[\\w\\W]*?\\{%\\s*endhighlight\\s*%\\}
+^the cache should be empty$
+^printer (.+) is idle\\. (.+)$
+/javascripts/effects.js
+/?search/?
+([^a-z0-9]|^)(PB|Postbox)([\\s\\.:])
+(?m)^rpcuser=.+$
+({(\\$[$\\w][^\t]*)})
+\\A \\s* [}] \\s* \\z
+^( ([a-z]{2,}) | (xn--[a-z0-9]{4,}) )$
+[_$a-z\\xA0-\\uFFFF][$\\w\\xA0-\\uFFFF]*(?=\\s*\\()
+\"ustream:channel_id\"\\s+content\\s*=\\s*\"(\\d+)\"
+(^.*/\\.rvm/rubies)/([^/]+)/bin$
+(iPad)|(iPhone)|(iPod)|(Android)|(PlayBook)|(BB10)|(BlackBerry)|(Opera Mini)|(IEMobile)|(webOS)|(MeeGo)
+\\A(?:29|30)\\z
+^$authsuperuserdir
+^([^(]+)(\\(\\d+\\)|)$
+win|mac
+[\\u1EA7]
+(\\S+)\\s+\\(\\S+\\s([^\\)]+)\\)
+false|no|0
+(foobar)
+(\\D+)0*1(\\D+|$)
+missing.*
+no upstream configured for branch
+\\bP\\d+$
+([^\\\\\\][^,]|\\\\,)+
+\\s*define\\s+([a-zA-Z0-9_]+)\\s+\"?(.*?)\"?(#|$)
+<td scope=\\\"row\\\" class=\\\"name\\\">(\\w+)</td>(?s).*?>([^<]+?)</a>
+repo_
+<meteor-bundled-css[^<>]*>
+http://.*:5984/
+[\\u0000-\\u001f\\u007f\\u00ad\\u200b-\\u200f\\u2028\\u2029\\ufeff]
+([\\x00-\\x1F\\x80-\\xFF])
+(\\.(php|pl|cgi|bash|sh|bat|exe|com|htm|html|shtml))$
+^\\!init
+by (\\S+\\.hotmail\\.msn\\.com) 
+\\{{3}\\d+\\}{3}([[:alpha:]]+)
+from.*\\b(?:juno|untd)\\.com.*[\\[\\(]$IP_ADDRESS[\\]\\)].*by
+(_at|_on)$
+^\\[(<=|>=|<>|<|>|=)(-?[0-9.]+)\\]
+(<[A-DF-Z][^>]*>[Aa]<\\/[A-DF-Z]> <E[^>]*><A pl=\"n\" gnt=\"n\" h=\"y\">(?:h[Aa]on|h[Oo]cht)<\\/A><\\/E>)
+^([\\?\\+\\*])
+setInterval\\(function\\(([\\w\\d.=,]*)\\){
+^$self->{debug_root}
+\\bdepends\\s*\\(\\s*\"([^\"]+)\"\\s*\\)
+[\u00ee\u00ef\u00ed\u00ec]
+\\AContent-Type:[ ]*(?:message/rfc822|text/rfc822-headers)\\z
+^[Uu].*8$
+(w[[:\\-1\\]).U]*)\\+(.*)$
+^(\\d+):?$
+\\.woff(2)?(\\?[a-z0-9#=&.]+)?$
+^\\d\\d?\\d?\\.\\d\\d?\\d?\\.\\d\\d?\\d?\\.\\d\\d?\\d?/\\d\\d?$
+\\b\\d+\\.?\\d*
+^[a-zA-Z0-9-._~:/?#[\\]@!$&'()*+,;=%]+$
+\\s*(\\n\\s*){2,}
+\\/users\\/sign_in
+TABLE `(\\w+)`
+^[\\u2070-\\u218F]
+(\\?[\\d\\D]*)$
+([^\\xBB])(\\xBB)
+register SassInitializer
+<[^\\>]+>
+^nsIDOMHTML\\w*Element$
+CDN.*is not supported.
+^I send an \"([^\\\"]*)\" header of \"([^\\\"]*)\"$
+Ruby Keyword: (.+)
+ \\A vsop87[a-e]? \\z 
+([0-9]+)(nd|st|th|rd)([^a-zA-Z0-9]+)
+^((?:\\w+:)?\\w+/[\\w/]+)(?::h(?:ash)?:(.+)|:v(?:ersion)?:(.+)|:t(?:ag)?:(.+))?$
+\\(?(\\({2}.*?\\){2})
+\\p{L}
+(?<_1>%|&|\\*\\*|\\*|\\+|\\-|\\/)
+\\s{2,}
+.js$|.css$|.less$|.scss$|.sass$|.styl$
+^UFID?$
+[a-z0-9_.]+(?:\\([^)]+\\))?
+^\\s*raise[ \n]
+CTYPE
+SERVER
+^I call selector with (unsigned int|int) argument$
+\\.\\. start matchers.*\\.\\. end matchers
+[^_]user
+\\.stories\\.jsx$
+^[0-9]{5}
+^end\\n*$
+^[\\-\\^]
+(No tests defined( for [\\w:]+ extension)?\\.)
+a regex
+^\\s*page=\\s*(?P<page>\\S+)\\s+pfn=(?P<pfn>[0-9]+)\\s+order=(?P<order>[0-9]+)\\s+migratetype=(?P<mt>[0-9]+)\\s+gfp_flags=(?P<flags>\\S+)
+%([0-9]+)
+invalid document
+^refund_id_[0-9]+$
+^([^\\s]*)\\s*(\\+|\\-|\\*\\*?|\\/|\\^|%|aln-sim( with)?|aln-score( with)?)\\s*([^\\s]*)$
+describedescribe
+gfycat\\.com/
+([^a-zA-Z0-9 '=\\(\\)\\+,\\-\\.\\/:\\?])
+^$objname$
+\\s%\\*?c
+^#{1,6} (.*)$
+^arch/.*/kernel/traps.c
+^multipart/form-data.+boundary=\"?([^;\"]+)
+(?:v=|v\\/|embed\\/|youtu.be\\/)(.{11})
+Domain status : ((.+\\n)+)\\s+\\n
+Argument #1 expected number, but was NaN
+[-~+\\/*%=<>&^|@]=?|!=
+[0-9]{4}-[0-1][0-9]-[0-3][0-9]T[0-2][0-9]:[0-6][0-9]:[0-6][0-9](Z|-[0-2][0-9]:[0-6][0-9])?
+ data-[^ =]+(=\"[^\"]+\")? 
+[\\u{20}-\\u{7E}]
+^((?:\\\\.|[\\w-]|[^\\x00-\\xa0])+|[*])
+\\A\\s*(\\S+)(?:\\s(?![\\)])(.*))?\\Z
+\\#{3}[\\w\\d\\W]+\\#{3}
+^/api/servers/([^/]+)/alerts/([^/]+)/enable$
+([^aeiou]ese)$
+[^a-z0-9']+
+^enum::fields::
+s[0-9][0-9]e[0-9][0-9]
+\\.foobar$
+^(;|end)$
+Server ready
+^file\\[\\d+\\]
+^[a-zA-Z][-A-Za-z0-9]*( [a-zA-Z][-A-Za-z0-9]*)*$
+^seq1
+([a-z0-9]{32}).js
+([a-zA-Z\\d-]+)\\(([a-zA-Z\\d]+)\\)
+var *_0x([a-f0-9]){4} *= *\\['log'\\];
+(?i)<head>(.*?)</head>
+($PL_sb_C_us_i)us$
+\\$VTK_FLOAT
+^(?:typeof)
+report for mole\\@devnull.spamcop.net
+(.*)([$k])([a:])t          $ 
+\\<meta[^\\>]+http-equiv=\"refresh\" content=\"\\s*(\\d*)\\s*;\\s*url=(.*?)\"
+('use_openssl_def':) 1,
+^I fill following data:$
+^[a-z0-9]+$|^([0-9]+ ){1,}$|Part \\d+
+(\\d+)([-:])(\\d+)$
+glebot
+AudioSignalSource\\{audioInputStream=.+\\}
+addnew_to_editlist
+x|true
+mswin|msys|mingw|cygwin|bccwin|wince|emc|emx
+appletv
+type=metric cart=
+softwareRef=\"mspire_[\\d\\.]+
+ \u00d1\u0082\u00d1\u008b\u00d1\u0081\u00d1\u008f\u00d1\u0087a 
+^\\s*gem \\s+ ['|\"] \\s* [\\w|-]+ \\s* ['|\"]\\s*,\\s*['|\"]
+\\bcall (\\w+)\\b
+\\bRETVAL\\b
+return data *\\+ *options *\\+ *_0x[a-f0-9]{4,6};
+this\\.props
+^(<=|>=|<|>|!=|==|~=)?\\s*([^\\s,]+)$
+^(?:(([1-9]\\d+|\\d)))
+^[1-9][0-9][0-9]$
+RemixOS ([0-9]\\.[0-9])
+\"context\":{.*\"hostname\":\".+\".*}
+Path element '.*' does not match any valid parameter name:
+:(.*)\\)$
+(?P<num>\\d+)d[fF]
+^\\s*([+-])(\\d+)
+over|enter
+^Invalid Form Body
+^-IKC-CODEREF-(.+)-(\\*[:\\w]+)$
+^in\\b
+^\\+\\d+( \\d+)*$
+\\/ul
+\\.(\\d+)\\.|\\.(\\d+)$
+^(?P<path>.*): ((?P<virus>.+) )?(?P<status>(FOUND|OK|ERROR))$
+[\\s()\\-a-zA-Z]
+^HTTP/1\\.1\\s\\d{3,}\\s.+
+^975
+geminstaller
+([a-z0-9]+)$
+^([^:]+?)::([^:]+?)$
+^vs|^invib
+(?:[\u3005\u3007\u303b\\u3400-\\u9FFF\\uF900-\\uFAFF]|[\\uD840-\\uD87F][\\uDC00-\\uDFFF])
+Conversion 'symbol->float' unavailable
+Sort
+^tcp://
+($rexMatch)
+^a one\\-stage app using single deploy file with the following environments:$
+^(?:true|false\\b)
+/76
+^.*?(@|$)
+(?<![<>])(<N pl=\"n\" gnt=\"n\" gnd=\"m\">n?[Dd]h?all<\\/N> <T>na<\\/T> <N pl=\"y\" gnt=\"y\" gnd=\"f\">mull\\x{f3}g<\\/N>)(?![<>])
+[\\ \\,\\;]+
+On branch .*master
+\\(\\[\\^\\\\?\\\"\\]\\*\\??\\)
+^(f(,[-+]?[0-9]*\\.?[0-9]+([eE][-+]?[0-9]+)?)+|[CSI](,\\+?[0-9]+)+|[csi](,[-+]?[0-9]+)+)$
+- (\\d*) entries
+<pre>Error: boom!<br> &nbsp; &nbsp;at
+([^\\w.])
+\\A\\s*#\\s*@description
+\\[\\[(.*?)\\]\\](\\w*)
+The operation badcommand is not supported
+^<(?:(?:B|BIG|BLOCKQUOTE|CENTER|CITE|CODE|DFN|DIV|EM|I|KBD|P|SAMP|SMALL|SPAN|STRIKE|STRONG|STYLE|SUB|SUP|TT|U|VAR)\\s*>|(?:BR|HR)\\s*\\/{0,1}>|(?:A|BASE|BASEFONT|DIR|DIV|DL|!DOCTYPE|FONT|H\\d|HEAD|HTML|IMG|IFRAME|MAP|MENU|OL|P|PRE|TABLE|UL)\\b)
+(.*?)-.*$
+^A file (.*) must have an externally visible definition.
+[A-Z0-9_-]{64}
+(?<![${delim}])[${delim}]([^${delim}]+?[[:alnum:][:punct:]\\&<>])[${delim}]
+^([[:alpha:]]+)[[:space:]]*([[:alpha:]]*)$
+^http\\:\\/\\/
+^\"?
+\n\t\t\t(?:\\n|\\A)\n\t\t\t# 1: Opening marker\n\t\t\t(\n\t\t\t\t={3,} # Marker: equal sign.\n\t\t\t)\n\t\t\t\n\t\t\t[ ]?(?:\\[([^\\]]+)\\])?[ ]* \\n # Whitespace and newline following marker.\n\t\t\t\n\t\t\t# 3: Content\n\t\t\t(\n\t\t\t\t(?>\n\t\t\t\t\t(?!\\1 [ ]?(?:\\[([^\\]]+)\\])?[ ]* \\n)\t# Not a closing marker.\n\t\t\t\t\t.*\\n+\n\t\t\t\t)+\n\t\t\t)\n\t\t\t\n\t\t\t# Closing marker.\n\t\t\t\\1 [ ]?(?:\\[([^\\]]+)\\])?[ ]* \\n\n\t\t
+[0-9A-Za-z.\\-_\\/]+
+[\\$\\@%]
+^Length=(\\d+)
+\\A\\/[a-z]
+^(\\w+)\\s*\\(\\)(.*)
+^(\\s+linetail):\\s*$
+^unfilled-results$
+/gui/.*[?&]list=1&*.*
+^\\s*?(\"|')\\s*
+&(#?)(\\w+?);
+The provided timing value \"500xs\" is invalid
+^I can tell when buttons are disabled$
+[\\w\\d][\\w\\d!#\\$&\\-\\^_+\\.]*
+([0-9]+|[0-9]*\\.[0-9]+)
+(<style.*?>.+?<\\/style>)
+^<!--(.*)-->$
+0[dD]([0-9]|_)+
+\\s*y\\s*=\\s*['\"]?(\\d+)
+(\\(([0-9])*\\))$
+.asque$
+GLOB
+^\\s*>\\s$
+^proceedings
+\\A(-h|--h(elp)?)\\z
+^I run the (.*) command$
+(?i)(Android)
+(:+(active|hover|link|visited|focus))
+(^([A-Fa-f0-9]{2}:){2,5}[A-Fa-f0-9]{2}$)|(^([A-Fa-f0-9]{2}){3,6}$)
+midp
+\\.(bsm|bsml)$
+^(\\/|&)(-|_|:|\\.|#|[a-z])
+[a-z][a-z0-9_]*(\\.[a-z0-9_]+)+[0-9a-z_]
+First argument given to isolate\\(\\) must be a 'dataflowComponent' function
+\\x1b[^m]*h
+^First sector: (\\\\d*) \\\\(.*\\\\)$
+(?:Q|CC|CK)
+\\Abytes=(\\d*)-(\\d*)\\z
+CPU \\d+ is in RUN state
+\\\\u\\{e\\}
+paper
+(?:the )?apache(?: license)
+(?:-C\\s*[^-]\\S+)
+(sd|kf)[0349hijorstuw]+\\sbuild\\/[\\w\\.]+.*silk\\/
+([|\\/])
+Changes not staged for commit:[\\s\\S]+no changes added to commit
+^(.*)\\bON\\s*\\((.*)\\)\\s*$
+^Fixture could not be loaded:.*Failed to execute 'send' on 'XMLHttpRequest': Failed to load
+^_PATH(.*)_$
+/ab/
+HASH|REF
+^\\/\\/= require_tree \\.(\\\\n)?
+key not found: :message
+(BPS)
+^\\$VAR\\d+\\s=\\s
+^wow
+;;;
+\\s*(\\w*)\\[\\d*\\]?
+^\\s|[\\ufeff]$
+%([A-Za-z0-9]+?)\\((.*?)\\)
+^(userid|control|rows|export|skip|bindsize|silent|output)$
+(paste.*(to)?\\s((?P<location>\\\"?(.)*\\\"?)$)?)|paste.*
+\\/$|\\\\$
+(Updated to .+|Tree is up)$
+\\[\\[([^]]*\\|)?([^]]+)\\]\\]
+href=[\"'](/photo/.+)[\"']
+href=\"(/(\\w+))\"><img
+^(\\s*\"@gerhobbelt\\/(?:lex-parser|ebnf-parser|jison-lex|jison2json|json2jison)\":\\s*\")([^\"\\s]+)(\",?)
+&#39;|&apos;|&aposs;
+\\A(?:PREPARE)
+[A-Za-z](?:[A-Za-z0-9]*[\\._-])*[A-Za-z0-9]+
+^\\/sample\\.png\\?.*job=\\w+
+^Node \"([^\"]*)\" should have package \"([^\"]*)\" installed in the centos box$
+write failed
+<<end_user_code>>
+^!--
+\\*(.|\\s)\\/\\*
+^{\"|\"}$
+^[a-zA-Z0-9:_-]+$
+#[\\w-]+
+^queue:(heroes|dreamers)$
+&#(?:[xX][^a-fA-F0-9]|[^0-9xX])
+\\A($num)
+\\.(\\w+)\\W*
+_:a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:b \\.
+^Baz: Quux
+^[a-zA-Z0-9\\/]*$
+\n         (         # begin of *one* command\n          (?:        # group parts of a command (e.g ...:... )\n           [^\\s\"]+  # match anything but a space and a quote\n           (?:        # begin quoted group \n             \"         # begin of a string\n              (?:        # begin group\n                \\\\\"       # match an escaped quote\n                |         # or\n                [^\"]      # anything but a quote\n              )*         # lots of time\n             \"         # end of the string\n           )          # end of quoted group\n           ?          # match if I got more than one group\n          )+      # can have several parts in one command\n         )        # end of *one* command\n        
+^(Binary data|\\xff\\xd8\\xff)
+^(622937)\\d{13}$
+(0?[1-9]|1[0-2]):([0-5]\\d)(\\s[AP]M)|((?:[01]\\d|[2][0-4]):[0-5]\\d)
+^I should not see a sidebar titled \"([^\"]*)\"$
+$BAD_LOGIN_MSG
+(scale|rotate|translate)\\((-?[0-9\\.]+(px|pt|cm|in)?((,\\s*|\\s+)-?[0-9\\.]+(px|pt|cm|in)?)?)\\)
+MBINSERTPREVHREF
+(if *\\(className *!= *objectClass).+?noNodeClass[\\s\\S]+?{
+<@&([0-9]{18})>
+.+\\| ?
+Failed.*: TFTP feature not enabled
+^builddate=\"?([^\"\\n]+)\"?
+{%\\s+block\\s+(\\w+)\\s+%}(.*?){%\\s+endblock\\s+%}
+([^\\$\\w\\d])semop([^\\w\\d])
+<(xref.*?)>
+^(\\d+) meetings running in this server$
+.*:\\d+$
+seed (\\d+)
+^[-._a-z0-9]+$
+^(\\d+)(\\s*)%$
+\\s*_$var\\s*
+^\\/(?:@([^\\/]+)\\/)?([^@\\/]+)(?:@(.+?))?(?:\\/(.+?))?(?:\\?(.+))?$
+(?>(?>(?>[[:space:]])+|(?>[;#])(?>(?>[^\\n])*))*)((?>[[:alnum:]_])+)
+(ab(cd){3})?
+\\{\\s*\\\"@\\\"
+https?://(www\\.)?
+^[0-6]L$
+^(ac|dc|a|d)
+\\$=>(@.*.):(.*)
+propPath: Array of Non-empty Strings or Integers required for first argument
+(.)(?<a>.)(.)
+(\\n\\n|.*\\.\\.\\.\\n)
+\\bNofExecution\\b
+public static\\W+(\\w+)\\W+([a-zA-Z0-9_]+)\\((.*)\\)
+TCP Connection
+/P\\d+\\.json$
+^SERVER_ERROR
+^0(?![\\dx])
+^((e(s|d)t|c(s|d)t|m(s|d)t|p(s|d)t)|((gmt)?\\s*(\\+|\\-)\\s*\\d\\d\\d\\d?)|gmt)
+value=\"(.*?):en\"/>
+^([^\\s](([^*+\\n-].+)\\n){1,})
+<key>Starred</key>\\s*<false/>
+^250|^552|^451|^452|^500|^501|^421
+^[!?.]+$
+^(\t*)(\\d+):leaf=([^,]+),cover=(.+)$
+^(\\d+|\\d{4}-\\d{2}-\\d{2})$
+$current_set_str
+^post_(.+)$
+^(..)\\:(.+)$
+(\\||<br>)
+[0-9](\\.[0-9]*)?(eE[+-][0-9])?[flFLdD]?|0[xX][0-9a-fA-F]+[Ll]?
+(^__|^nil\\?$|^send$|proxy_|object_id)
+(\\*\\*/|^\\s*\\))
+^.*?(chrome)+?
+^(style|css|postcss|sass|resolve-url)(?!-loader)(?=\\?|$)
+No TypeConverter found
+\\@opp_strength\\@
+[_a-zA-Z][_a-zA-Z0-9]*$
+^\\s*->\\s*([\\@%])(.*)$
+Jerome
+\"+$
+\\G(LABEL)
+ECMM
+\\W(Apache-1.0|Apache\\WLicense\\W1.0)\\W
+\\.git\\/
+Would I be able to simply knead
+Scaling: .*no
+<input(.*?)data-alt-datetimepicker=('|\"|)true('|\"|)
+MSIE [9]
+^(?:\\s+([\\w.-]+)\\n){2,}
+\\G$WS,?$WS\\]
+\\* SHA: abc123
+\\uD83D[\\uDCA9-\\uDCAB]
+hap update GarageDoorOpener CurrentDoorState.STOPPED
+^\\!Sample_lot_batch\\s*=\\s*(.*)
+^\\(0[^.]
+StatementNode$
+degraded_objects{cluster=\"ceph\"} 10
+ {4}at callold \\(.+test\\.js:[0-9]+:[0-9]+\\)
+(\\d+)-(\\d\\d)-(\\d\\d)T(\\d\\d):(\\d\\d):(\\d\\d)
+for `interval`
+\\[\\]\\.?
+(<\\/checkstyle>)
+^Updated changelog
+END CHECK_COMPRESSION
+^\\s+(\\S+)\\s+(.*?)\\s*$
+(_[A-Z_]+)
+-1 is out of range
+[OU]
+^(\\s*\\*)
+^(\"([^\\\\\"]|\\\\.)*\"|([^\\s$term]|\\\\\\s)+)
+^help\\s*(?<command>.*)
+^\\w+ \\w+ installed$
+For your consideration
+^heartbeat$
+description: 'ProductReview PATCH success'
+^(CMVC level|Level):\\s+(\\S+)
+%name%
+^(?:|I )should not see an xml document$
+([ ]+)
+[\\u0172]
+\\b(of)\\b(?!')
+(-{1,2}[a-zA-Z]+) *
+^\\t{3}
+^[1-9]\\d*\\.\\d+$
+^$name\\[
+<lilevel([^1])([^>]*)>
+^Encoding:\\s+
+((?:^|\\r?\\n|\\r)([\\t ]*)):[\\w-]+(?:(?:\\r?\\n|\\r)(?:\\2[\\t ]+.+|\\s*?(?=\\r?\\n|\\r)))+
+cannot remove transactions from a transaction registry
+db_name user \\[tables...\\]$
+(\\$\\{[^}]*})
+^[ \\t]*\\/\\/[@#][ \\t]+sourceMappingURL=data:(?:application|text)\\/json;base64,(.+)
+(?sm)\\\\?\"(\\w[^\"]*?[ \\t]*&gt;[ \\t]*[^\" \\t][^\"]*)\"
+%([bc]){([^}]*)}
+<https://api.github.com|>; rel=\"|\"
+https?://stat.7gogo.jp
+\\.p(l|lx|m|od)$
+.*id=(\\d+).*
+(endfor)
+^([a-z0-9]+(?:-[a-z0-9]+)*)=(([0-9]+[bkmgBKMG]{1,2}|[0-9.]{1,5}|[0-9.]{1,5}m?)(/([0-9]+[bkmgBKMG]{1,2}|[0-9.]{1,5}|[0-9.]{1,5}m?}))?)$
+^(?:FILTERING\\b)
+lastToResult: Last returning function required for second argument
+^\\|\\|=$
+$category_test
+:FunctionDeclaration$
+^the placed file \"([^\"]*)\" exists$
+([\\s\\n]*
+^(de?sc(end(ing)?)?|omega)$
+(?P<year>[0-9]+)[-/][Qq](?P<quarter>[0-9]+)$
+\\/\\/\\S+
+^[\\&\\$\\@\\+\\%\\:]\\*?JS::
+^f\\s+(\\d+)\\/(\\d+)\\s+(\\d+)\\/(\\d+)\\s+(\\d+)\\/(\\d+)(?:\\s+(\\d+)\\/(\\d+))?
+required arguments 'server'
+ALTER TABLE (.*) ALTER (.*) TYPE (.*) USING CAST\\((.*)\\)
+\\`([^\\`]+)\\s\\<\\#[^\\`]+\\>\\`\\_\\_
+my.email@my.domain.com
+^\\s*((([a-z]+):\\/\\/|mailto:)|[\\?\\/])(.*)
+(TargetAttributes = {(?:\\n.*?)+?TestTargetID = )(.+?)(;\\n.*\\n)(.+)
+^$bind_addr:$port$
+(?<![<>])(<Y>'nuas<\\/Y>)(?![<>])
+\\bUsage\\b.+list
+[246]+
+^(\\S.*)\\s+<(.*)>$
+.pat$
+Invalid JSON pointer
+^\\s+(.*?)$
+Delayed::DeserializationError
+ ^ : (.*) $ 
+; (SAMSUNG-)([A-Za-z0-9\\-]+).* Build/
+if @place.save
+(^\\d{1,2}[\\/\\s]\\d{1,2}[\\/\\s]\\d{4})|(^\\d{4}[\\/\\s]\\d{1,2}[\\/\\s]\\d{1,2})
+\\s*Line ([0-9]+) of.* (\\S.*)
+queue_([^_]+?)_items
+(===== CIFS SESSIONS =====.*?)=====
+[^\\w\\s\\-.)(]
+^curl.*Connection refused
+<span class=\"bi_col_title\">ISBN-10</span>\\s*<span class=\"bi_col_value\">([0-9X]+)</span></div>
+[-+a-z0-9!*';:=,.$/%[\\]_~@|&]*
+\\.(?<_1>clearTicks|getOffsetFromParent|getValue|getXValue|getYValue|initSlider|onChange)\\b(?=\\()
+<PAGE>
+(\\d+)([MIDNSHP=X])
+,JFS2
+[\\w$<>\\.!`]
+^[\\(\\)]
+-[\\d]{4}$
+(DISTRIB_ID=Ubuntu)
+\\W(.+?)\\x00+$
+(?P<sign>[+-])(?P<hours>[0-9][0-9]):(?P<minutes>[0-9][0-9])
+target=\"blank\"
+(?><<-'((?:\\w+_|)CSS)')
+[^\\/]>$
+(HS-(?:U|EG?|I|T|X)[0-9]+[a-z0-9-]*)
+^(minute|minutes)$
+Enclosure Group could not be found
+P *\\= * ([e\\+\\-\\.\\d]+)
+^.+\\s*:\\s*
+^db_st_
+\\.(pl|pm)$
+Root Path Not Found
+{\\w+:[\\w\\W]+}
+module D
+=ARRAY\\(
+^([a-zA-Z_]+)[ ][ ]*(.*)$
+^\\s+\\-
+^(?:\\{\\{(~)?![\\S\\s]*?\\}\\})
+^Aws::
+<(/)?([^ ]+?)(?: (/)| .*?)?>
+^#[^\\s]+$
+#\\{(\\})
+<h2><%= title
+^(<-|:=?|\\\\.{3}|\\\\.)
+<([a-zA-Z0-9_]*)>
+AbcAeffchen\\\\Sephpa\\\\(PaymentCollections\\\\)?([^\\.]+)
+([:\\[\\]\\.])
+{\"file\":\"/PROJECT_ROOT/airbrake/ruby/spec/airbrake_spec.+
+^stub_
+\n(\\.\\. \\[(\\d+)\\].*(?:\n[ ]{7,8}.*)+)
+\\.(eot|woff|woff2|ttf|svg|png|jpe?g|jpg|gif)(\\?\\S*)?$
+(?:{)([\\w]+)(?:})
+&#xD;
+jquery-migrate-\\d+\\.\\d+\\.\\d+(?:-\\w+)?
+\\Aacos
+[1-8][ad]
+user\\.(\\d+)
+^(\\S+\\s+\\S+\\s+)(\\d)(\\s+)
+COMMANDS(.*)OPTIONS
+^export 
+((^|\\s)\\W+\\S)|\\S\\W+(\\s|$)
+\\?signature(=[^&]*)?&
+(function|var|let|const|return|export|\\\"|\\'|\\(|\\=)$
+^the legend should show the example metric data$
+^(?:66|F2|F3)$
+param1=value\\+with\\+spaces
+\nprocessing [a-f0-9]{7}: initial commit\n-> indexing added file cat\\/test\\.lua\nprocessing [a-f0-9]{7}: second commit\n-> indexing added file cat\\/test\\.jsfx\n-> indexing modified file cat\\/test\\.lua\nprocessing [a-f0-9]{7}: third commit\n-> indexing deleted file cat\\/test\\.lua
+^Rails\\ 2\\.3\\.14\\ contains\\ a\\ SQL\\ injection\\ vu
+diffHTML Component test-3 \\((.*)ms\\)
+get_cookie
+^I list CloudFront distributions$
+ldc.*\\/\\/String (.*)$
+\\&uuml;
+(^|\\n)\\+
+U$
+^lang\\.(.+?)\\.indent\\.triggers(\\.case_insensitive)?$
+(\\d+)?:?(\\d{2}):(\\d{2})[.,](\\d{3})
+all.css
+both a host and an array of hosts
+<ins data-type=\"movetoskin\" data-name=\"([\\w:-]+)\">([\\S\\s]*?)<\\/ins>
+^APPLICATION\\-WINDOW\\-BUTTON
+\\A\\s*(?:\n    class\\s | module\\s | include[\\s\\(]\n    )
+pause|resume
+(.*)\\/.*\\z
+(^[A-Z]\\d+)
+(<li[\\s]+[^>]*>|<li>)
+([a-zA-Z0-9_]+)
+ class=\\\"foo\\\"
+^\\s*term:\\s*(.+)
+_given$
+\\w\\.\\w\\w
+^[#0?]+
+^PHPillow backup tool - version: .*$
+(public static get Version\\(\\): string {\\s*return \")(.*)(\";\\s*})
+(?<=\\d)\\s+(?=\\d)
+^\\s*$ip6\\s*.*$
+^preserve|replace|collapse$
+^(?:mswin|dos|os2)
+<Error:
+(\\w)( |\\.|$)
+^TypeError: this\\.runInContext is not a function$
+(i\\d86)
+^([0-9a-z-]+?)-([0-9a-z]+)-([a-z]+)-([0-9]+)-([a-z0-9]+)$
+^RSpec.feature \\\"Posts\\\
+^\\$<([\\d.]+)([*\\/]{0,2})>
+foo\\/bar\\/something\\/
+\\A(?:RADIANS)
+Expecting WP to be instance of `node-wpapi`
+#+(\\{.*\\})?
+\\W(NTP\\WLicense)\\W
+(brave)\\/([\\w\\.]+)
+(?:CID)?FontName\\s+\\\"(\\S+)\\\"
+^#+[^#]*[^\\\\]#+$
+^(from)(.*)$
+url\\((?:([\"'])(\\\\\\n|\\\\?.)*?\\1|.*?)\\)
+$quadFloat
+(gem\\.homepage\\s*) =.*$
+[a-zA-Z0-9\\.\\/\\_\\-]
+lib/rspec_api_documentation/dsl/
+(must|wont)_(include|respond_to)
+\\b(AutoTrim|BlockInput|Break|Click|ClipWait|Continue|Control|ControlClick|ControlFocus|ControlGet|ControlGetFocus|ControlGetPos|ControlGetText|ControlMove|ControlSend|ControlSendRaw|ControlSetText|CoordMode|Critical|DetectHiddenText|DetectHiddenWindows|Drive|DriveGet|DriveSpaceFree|EnvAdd|EnvDiv|EnvGet|EnvMult|EnvSet|EnvSub|EnvUpdate|Exit|ExitApp|FileAppend|FileCopy|FileCopyDir|FileCreateDir|FileCreateShortcut|FileDelete|FileEncoding|FileGetAttrib|FileGetShortcut|FileGetSize|FileGetTime|FileGetVersion|FileInstall|FileMove|FileMoveDir|FileRead|FileReadLine|FileRecycle|FileRecycleEmpty|FileRemoveDir|FileSelectFile|FileSelectFolder|FileSetAttrib|FileSetTime|FormatTime|GetKeyState|Gosub|Goto|GroupActivate|GroupAdd|GroupClose|GroupDeactivate|Gui|GuiControl|GuiControlGet|Hotkey|ImageSearch|IniDelete|IniRead|IniWrite|Input|InputBox|KeyWait|ListHotkeys|ListLines|ListVars|Loop|Menu|MouseClick|MouseClickDrag|MouseGetPos|MouseMove|MsgBox|OnExit|OutputDebug|Pause|PixelGetColor|PixelSearch|PostMessage|Process|Progress|Random|RegDelete|RegRead|RegWrite|Reload|Repeat|Return|Run|RunAs|RunWait|Send|SendEvent|SendInput|SendMessage|SendMode|SendPlay|SendRaw|SetBatchLines|SetCapslockState|SetControlDelay|SetDefaultMouseSpeed|SetEnv|SetFormat|SetKeyDelay|SetMouseDelay|SetNumlockState|SetScrollLockState|SetStoreCapslockMode|SetTimer|SetTitleMatchMode|SetWinDelay|SetWorkingDir|Shutdown|Sleep|Sort|SoundBeep|SoundGet|SoundGetWaveVolume|SoundPlay|SoundSet|SoundSetWaveVolume|SplashImage|SplashTextOff|SplashTextOn|SplitPath|StatusBarGetText|StatusBarWait|StringCaseSense|StringGetPos|StringLeft|StringLen|StringLower|StringMid|StringReplace|StringRight|StringSplit|StringTrimLeft|StringTrimRight|StringUpper|Suspend|SysGet|Thread|ToolTip|Transform|TrayTip|URLDownloadToFile|WinActivate|WinActivateBottom|WinClose|WinGet|WinGetActiveStats|WinGetActiveTitle|WinGetClass|WinGetPos|WinGetText|WinGetTitle|WinHide|WinKill|WinMaximize|WinMenuSelectItem|WinMinimize|WinMinimizeAll|WinMinimizeAllUndo|WinMove|WinRestore|WinSet|WinSetTitle|WinShow|WinWait|WinWaitActive|WinWaitClose|WinWaitNotActive)\\b
+olives
+#<TamTam::MessageSet:0x[0-9a-f]+ size=3>
+files: \\[([^\\]]+)\\]\\(([^)]+)\\)
+^[a-z][_$a-zA-Z0-9]*
+\\s*-e\\s+.*#egg=(.*)$
+{\\\\\"one\\\\\"
+[\\^\\$\\.\\+\\*\\[\\{]
+^(?!$gramma)
+(.+)\\[(.*?)\\]
+^(.{50}).+$
+EUR\\s*1235
+>\\s*[\\w<]|\\]\\s*[\\w<\\[]
+^commands(:?\\s+(\\d+))?$
+(?:\n      area | base | br | col | command | embed | hr | img | input | keygen |\n      link | meta | param | source | track | wbr\n    )
+(?sx)<object\n            (?:\n                [^>]+?class=[\\'\"][^>]*?BrightcoveExperience.*?[\\'\"] |\n                [^>]*?>\\s*<param\\s+name=\"movie\"\\s+value=\"https?://[^/]*brightcove\\.com/\n            ).+?>\\s*</object>
+^\\s*\\#\\s*(\\w+)\\s+(.+)\\s*$
+The URL does not support the key 3
+<economyreward>
+Expected the `input` argument to be of type `Uint8Array`
+mail.*reject
+^the rack app is started$
+^Domain not found\\.
+[-][\\w\\d]
+ON DELETE ((NO |SET )?\\w+)
+[\\~\\*\\/\\[\\]]
+Use ey environments --all to see all environments.
+^(?=-|\\+)
+^/?(.*/)?(ac/|cas/)([a-f0-9]{64})$
+<paragraph></paragraph>
+Errno::ECONNRESET: Connection reset by peer - Could not create object
+^[\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\xA0\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\\u2028\\u2029\\uFEFF]+|[\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\xA0\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\\u2028\\u2029\\uFEFF]+$
+=\\s*(\\d+),
+<\\/strong><\\/font>
+^(EDID|frequency|screen|output_header|output|mode|cur_mode)_
+<script.*>//<!\\[CDATA\\[\\s*\n      if\\s\\(i<1\\)\\s\\{\\}\\s*//\\]\\]></script>
+%([^%]*)%
+_?Scene$
+\\n# pundle user customization start.*# pundle user customization end\\n
+^(?:([ \\t]+)|(\"[^\"\\\\]*(?:\\\\.[^\"\\\\]*)*\")|(true)|(false)|(null)|([\\-+]?[0-9]*(?:\\.[0-9]+)?))
+^/sprockets/[^_]+$
+^fev
+<br><br>
+([^=<>:&a-z])
+\\\\cyrchar\\\\CYRKOPPA 
+[\\s]+
+([\\x{1000}-\\x{1021}])\\x{108c}
+domain is already
+\\b(unix|win32|mac|debug|release)\\b
+^(?:ARRAY\\b)
+(<E[^>]*><S>[Gg]an<\\/S> (?:<N[^>]*>[BbCcGgMmPp][^Hh'][^<]*<\\/N>)<\\/E> <R>ar bith<\\/R>)
+^(-?)(\\d*)(\\.?)(\\d*)([EeDd][-\\+]?\\d+)?$
+InputMask: placeholderChar should be a single character or an empty string.
+^[^\\|]+\\|([^\\|]+)\\|
+Camel
+Submitted to Test Rail
+\\('?(.*?)'?\\)
+( |^|\\()[A-Z]{1,10}-[1-9][0-9]*\\b
+[\"'=]
+^(?:|I )attach the file \"([^\"]*)\" to \"([^\"]*)\"( within (?:.*))?$
+SQLITE_INC=.*
+\\.(mp4|ogg)$
+^I swipe (left|right|up|down) on number (\\d+)$
+ADD|REPLACE
+electerm-\\d+\\.\\d+\\.\\d+-win\\.tar\\.gz
+\\b($comp_re)s?\\b
+.+[.]properties
+cell cycle.independent
+Failed to retrieve public keys for users 
+([+-]?\\d)?(SU|MO|TU|WE|TH|FR|SA)
+<ul>\\n<li>\\n<a href=\"#a-title\">A Title</a>\\n</li>\\n</ul>\\n<h1 id=\"a-title\">A Title</h1>\\n
+^([#0?]+),([#0?]+)
+`location` must be empty when source's `type` is `NO_SOURCE`
+^(.*\\.)?\\Q${rule}\\E$
+@.*([{(])
+\\\\tau 
+\n    \\A\n    Query \\s+ ( \\S .* ) (?: \\n | \\r\\n | \\r )\n    Match_columns \\s+ ( \\d+ ) (?: \\n | \\r\\n | \\r )\n    No_of_seqs \\s+ ( \\d + ) \\s out \\s of \\s ( \\d+ ) (?: \\n | \\r\\n | \\r )\n    Neff \\s+ (\\S[^\\n^\\r]*) (?: \\n | \\r\\n | \\r )\n    Searched_HMMs \\s+ ( \\d+ ) (?: \\n | \\r\\n | \\r )\n    Date \\s+ (\\S[^\\n^\\r]*) (?: \\n | \\r\\n | \\r )\n    Command \\s+ (\\S.*)\n    \\Z\n    
+^ \\* \\%(GDOME.*): 
+super-foo
+Type: (Certification)
+^a \"versions\" array proxy for a document$
+([\"'])(?:\\\\?.)*?\\1
+/v\\d+
+(.*)@([1-9])x$
+medium\\-insert(?!\\-active)
+_Z.+?E\\b
+bytes=0-(.*)
+erb$
+<title>Error by ejs - 500<\\/title>
+^(?:\\\\(?:0(?:[0-3][0-7]{0,2}|[4-7][0-7]?)?|[1-9]\\d*|x[\\dA-Fa-f]{2}|u[\\dA-Fa-f]{4}|c[A-Za-z]|[\\s\\S])|\\(\\?[:=!]|[?*+]\\?|{\\d+(?:,\\d*)?}\\??)
+(?:$wd)|(?:$ld)|\\\"
+--kubelet-client-certificate
+Expected \"ObjOne\" object array or \"insert\", \"delete\", \"pop\", \"clear\"
+^\\s*DELETE\\s+(\\d+)\\s+(\\S+)
+DROP COLUMN
+^\\s*typedef\\s+enum\\s*(\\/\\*<\\s*flags\\s*>\\*\\/)?\\s*\n                \\{?\\s*(.*?)\n                \\}\\s*(\\w+);
+\\d+\\|t\\|
+\\x4d
+go([1-9])\\.(\\d+)(?:.\\d+)*
+(_+)([^_]+)
+\\\\s([^)=]+)=([^\\\\s]+)
+^record \"([^\\\"]*)\" coming from ([^\\\"]*) is analysed$
+\\n((>|\\s)*)\\n$
+^I should see a successful create flash$
+^(\\(\\s+\\()(\\s+)
+^projects/([^/]+)/instances/([a-z][-a-z0-9]*)$
+^I move the cursor to the end of the document$
+[ \\(\\)]
+\\#\\#\\s+
+(^|[^-]\\b)(?:s|tr|y)\\s*<(?:[^<>\\\\]|\\\\[\\s\\S])*>\\s*<(?:[^<>\\\\]|\\\\[\\s\\S])*>[msixpodualngcer]*
+([a-z])([A-Z][a-z])
+^validate(_with)?$
+error=
+[^-a-zA-Z0-9 ']
+expr\\{([a-zA-Z0-9_]+)\\}
+^[/!:]
+\\s*filter:\\s*progid:DXImageTransform.Microsoft.Matrix\\(([^\\)]+)\\);
+^-(\\S+)
+<title><\\/title>
+^str.*
+^\\/api\\/\\.*\\/\\.*
+\uff3b\uff03(.+?)\u508d\u70b9\uff3d
+([\\+%@]?)(\\S+)
+^\\s*($vregex)\\s*$
+\n    ^\n    \\s+\n    ([^!=]*)\n    (=?)\n    
+_time$
+(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}(:(6553[0-5]|655[0-2][0-9]\\d|65[0-4](\\d){2}|6[0-4](\\d){3}|[1-5](\\d){4}|[1-9](\\d){0,3}))?
+profiling not supported
+^(?:http:\\/\\/|https:\\/\\/)?([^/]*[^/.])\\.?($|\\/|:)
+type=\"text/css\"
+Writing configuration
+\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(i|L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\\b
+^\\/\\w+%3F
+(?:^|\\s)mw:(Extension|Param)
+conso(?!l).*console
+\\.[a-zA-Z0-9]+$
+^\\/server
+Host\\s(.+?)\\sHostName\\s(.+?)\\sUser\\s(.+?)\\s
+[^#\"]+
+([^aeiuo])[lI]{3}
+property.*configurable
+ width=\"[0-9]+\"
+^[A-Z_]+_[A-Z_]+$
+[\\s\\*\\#_\\|]+
+\"project_id\":\\s*\"([^\"]+)\",
+^\\s*(insert|replace) 
+%KEYWORDS%
+^.+=>
+([&^@;])

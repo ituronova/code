@@ -1,0 +1,16 @@
+Regex;Lines;Found;Visited;Cache Size;Status
+user(name)?[ -~ \n\t\r\f]{0,70}(secret|password);15;2408;1017;2408;Text generated.
+php.*\x3f[^\n]{256};7;3063;1030;3063;Text generated.
+name=[ \n\t\r\f]*[^\r\n\x3b \n\t\r\f\x2c]{300};5;1795;1203;1795;Text generated.
+M{1000};1;1001;1001;1001;Text generated.
+identityId:.*[0-9a-z]{64};24;211;1008;211;Text generated.
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%_\+.~#?&\/\/=]{2,256}\.[a-z]{2,4}[ \n\t\r\f](\/[-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)?;6;2301;1034;2301;Text generated.
+Color Name[ \n\t\r\f]{2,}RGB[^-]*-{70}.(.*?)-{70};6;70;70;70;Text generated.
+Authorization[ \n\t\r\f]*\x3A[ \n\t\r\f]*Basic[ \n\t\r\f]*[^\n]{437};4;2209;1331;2209;Text generated.
+a{51};1;52;52;52;Text generated.
+a{256};1;257;257;257;Text generated.
+5[0-9a-zA-Z]{50};27;1952;1002;1952;Text generated.
+200 [^\x0a]{64};19;1952;1021;1952;Text generated.
+>([^<]{100,})<;6;1977;1003;1977;Text generated.
+={65}.*?(?:EXPORTED\n\n)+;1;142;142;142;Text generated.
+<pre>(?:.{1023}\n){1024}</pre>;2;8;8;8;Text generated.

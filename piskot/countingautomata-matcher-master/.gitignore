@@ -1,0 +1,70 @@
+# ignore just binary files, do not ignore whole folders
+# because there are experiments-data in */bin/* and other folders
+
+**/bin/**/*.dll
+**/bin/**/*.exe
+**/bin/**/*.exe.config
+**/bin/**/*.deps.json
+**/bin/**/*.dll.config
+**/bin/**/*.runtimeconfig.json
+**/bin/**/*.runtimeconfig.dev.json
+
+**/obj/
+
+# ignore binaries in dependent projects
+src/**/bin/*
+
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
+# Visual studio local data
+.vs/
+*.csproj.user
+
+#############
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+#ignore installed nuget packages
+packages/*/
+src/TreeAutomataExperiments/benchmark/NFA/
+
+# keep those for now
+## Visual Studio profiler
+#*.psess
+#*.vsp
+#*.vspx
+
+#Ingnore key files for signing
+#*.snk
+

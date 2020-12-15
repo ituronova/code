@@ -1,0 +1,364 @@
+Regex;Lines;Visited;Cache Size(Found);Max CS;Status
+VeryLongRegExp!{1,1000}$
+^grub\.pbkdf2\.sha512\.[0-9]+\.([a-f0-9]{128,1000}\.|[0-9]+\.)?[a-f0-9]{128}$
+^a\0{511}\0{1000}$
+^234[5-9][0-9]{1000}$
+^[^ \n\t\r\f].{0,1000}$
+﻿^[0-9]{1000}$;;;;;Error while converting to DCA: SetIsEmpty
+^\"((?:(?:\\"|[^\"]){0,1000}){0,1000})\"[ \n\t\r\f]*(.*)$
+^[a-f0-9]{256}:[a-f0-9]{256}:[a-f0-9]{16}:[a-f0-9]{16}:[a-f0-9]{320}:[a-f0-9]{16}:[a-f0-9]{40}:[a-f0-9]{40}:[a-f0-9]{40}$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^[a-f0-9]{1000}$
+^[0-9]{4}:[a-f0-9]{16}:[a-f0-9]{1000}$
+^[\x21-\x7e]{20,1000}$
+^[-;\/\?:@&=\+\$,_\.!~\*'\(\)%0-9a-z\u00c0-\u00ff#]{1,1000}$|\${[^ \n\t\r\f]+}
+^.{1,1000}$
+^.\n\0{510}\0{1000}$;;;;;Error while converting to DCA: SetIsEmpty
+^([0-9]{1,12},){0,1000}[0-9]{1,12}$
+^([a-z0-9A-Z_ !\"#$%&'()*+,-.\/:;<>?@\[\]^`{|}~\]{1,1000})=(.*)$;;;;;Error while converting to DCA: analýza ^([a-z0-9A-Z_ !\"#$%&'()*+,-.\/:;<>?@\[\]^`{|}~\]{1,1000})=(.*)$ - Chybí pravá hranatá závorka (]).
+^(?:https?:\/\/|\/)[-;\/\?:@&=\+\$,_\.!~\*'\(\)%0-9a-z]{1,1000}$
+^(?:([^\"&'/:<>@]{1,1000})@)?([^/@]{1,1000})(?:/(.{1,1000}))?$
+^(?:!([-0-9a-z.]{1,40})!)?([-.a-z0-9A-Z_]{10,1000})$
+^(.{3,1000})$
+^'((?:(?:''|[^']){0,1000}){0,1000})'[ \n\t\r\f]*(.*)$
+^$|^[a-z0-9A-Z_ -/]{1,1000}$
+﻿^[a-f0-9]{256}:[a-f0-9]{256}:[a-f0-9]{16}:[a-f0-9]{16}:[a-f0-9]{320}:[a-f0-9]{16}:[a-f0-9]{40}:[a-f0-9]{40}:[a-f0-9]{32}$;;;;;Error while converting to DCA: SetIsEmpty
+^[a-zA-Z0-9_\-]{1,500}$
+^[a-zA-Z0-9.!#$%&'*+\/=?\^_`{|}~\-]+@[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,253}[a-zA-Z0-9])?)*$
+^(\.|[a-zA-Z0-9_\-]{1,255})(/[a-zA-Z0-9_/\-]{0,255})(\?.*)?$
+^[A-Za-z][A-Za-z0-9_]{3,500}$
+(^|[ \n\t\r\f(,;])((?:https?:\/\/|www[0-9]{0,3}[.][a-z0-9.\-]{2,249}|[a-z0-9.\-]{2,250}[.][a-z]{2,4}\/)[-a-z0-9A-Z_.!~*'();,/?:@&=+$#%]*)
+^[a-z0-9\-\, \n\t\r\f]{1,500}$
+^(0x)?[0-9A-F]{512}$
+^(.{0,256}):?[a-zA-Z][-_a-zA-Z0-9]{0,255}$
+^(0x)?[0-9a-f]{512}$
+^(ssh-rsa|ssh-dss|ecdsa-sha2-nistp256|ssh-ed25519) [a-zA-Z0-9/+]+=?=? ?.{0,512}\n?$
+^[a-zA-Z0-9_\-\:\.]{1,500}$
+^[a-z0-9A-Z_\-\.~/_=#]{1,512}$
+^[A-Za-z0-9\-\.]{0,511}[A-Za-z0-9\.]$
+^[A-Za-z0-9/_\-\.]{0,512}$
+^([A-F,0-9]){512}$
+^[a-z](([a-z0-9_*/-]{0,255})|([a-z0-9_*/-]{0,240}@[a-z][a-z0-9_*/-]{0,13}))$
+^[a-zA-Z][-_a-zA-Z0-9]{0,255}\[[-a-zA-Z0-9]{1,256}\]$
+^[a-z0-9A-Z_ /-]{0,256}[a-z0-9A-Z_ -]{1,253}\.js$
+^[a-z0-9_-]{3,250}(\.(\[0-9+\]|[a-z0-9_-]{1,250}))*$
+^a\0{511}$
+^(([a-zA-Z][-a-zA-Z0-9_]{0,255})|(([a-z][a-z0-9_-]{0,255}):)+([a-zA-Z][-a-zA-Z0-9_]{0,255}))$
+^[\a-z0-9A-Z_\-~\/\.]{1,400}$
+^hsl\(\[ \n\t\r\f]{0,31}[\-\.]?\[0-9]+\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}\.?\[0-9]+%\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}\.?\[0-9]+%\[ \n\t\r\f]{0,31}\)|hsla\(\[ \n\t\r\f]{0,31}[\-\.]?\[0-9]+\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}\.?\[0-9]+%\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}\.?\[0-9]+%\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}\.?\[0-9]+\[ \n\t\r\f]{0,31}\)$;;;;;Error while converting to DCA: SetIsEmpty
+^rgb\(\[ \n\t\r\f]{0,31}[\0-9]{1,3}\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}[\0-9]{1,3}\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}[\0-9]{1,3}\[ \n\t\r\f]{0,31}\)|rgba\(\[ \n\t\r\f]{0,31}[\0-9]{1,3}\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}[\0-9]{1,3}\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}[\0-9]{1,3}\[ \n\t\r\f]{0,31},\[ \n\t\r\f]{0,31}[\.\0-9]+\[ \n\t\r\f]{0,31}\)$;;;;;Error while converting to DCA: SetIsEmpty
+  _secure_another\+_setting: ([A-Za-z0-9\+/]{342}==)$
+^((?:@[^/]{1,100}\/)?[^@]{1,100})(?:@(.{1,100}))?$
+    _secure_another_setting: ([A-Za-z0-9\+/]{342}==)$
+    _secure_setting:       ([A-Za-z0-9\+/]{342}==)$
+^(.{2,250}) ([0-9]{4,10}) ([^,]{2,80}) *(,.+)?$
+^([A-Za-z0-9._-]+):([A-Za-z0-9._-]+):([A-Za-z0-9+/]{341}[AQgw]==)$
+^[^\.][a-z0-9_\-\+\~\^\{\}\.]{1,64}@[a-z0-9_\-\+\~\^\{\}\.]{1,255}\.[a-z0-9]{2,}$
+^[ -~]{344}$
+^[0-9]{1,309}\.[0-9]{1,2}$
+^[A-Za-z0-9][A-Za-z0-9\.\-]{1,255}$
+^[A-Za-z0-9,+/=-]{20,200}$
+^(?i)[0-9a-z\, \n\t\r\f\.\-]{1,255}$
+^[-a-zA-Z0-9_.]{3,255}$
+^(?:[01]{48}0(?:001|010|011|100|101)[01]{12}10[01]{62}|0{128})$
+^[a-zA-Z0-9-_/.]{2,200}$
+^.{1,256}$
+^[0-9a-z_]{3,255}$
+^[a-z][a-z0-9\-\.]{0,252}$
+^[^*]{1,255}$
+^[a-z0-9][a-z0-9\._-]{1,230}[a-z0-9]$
+^[a-zA-Z0-9:_-]{1,255}$
+^(.){0,255}$
+^[a-z0-9][a-z0-9\._-]{1,253}[a-z0-9]$
+^[a-zA-Z0-9_.]{4,256}$
+^((`[a-z0-9A-Z_-]{1,64}`|[a-z0-9A-Z_-]{1,64})\.)*(`[a-z0-9A-Z_-]{1,64}`|[a-z0-9A-Z_-]{1,64})( (asc|desc))?$
+^(ff){16}011c01040064007801010101ff(ab){255}$
+^[a-z0-9_]{3,250}$
+^text\/[a-zA-Z0-9\.\-\+]{1,100};[ \n\t\r\f]?charset=(\"[a-zA-Z0-9\.\-\+ \n\t\r\f]{0,70}\"|[a-zA-Z0-9\.\-\+]{0,70})([ \n\t\r\f]?\([a-zA-Z0-9\.\-\+ \n\t\r\f]{1,20}\))?$
+^[^\x00-\x1F<>]{0,256}$
+^[A-Za-z0-9.-_]{1,255}$
+^((`[-a-z0-9A-Z_ ]{1,64}`|[-a-z0-9A-Z_]{1,64})\.)?(`[-a-z0-9A-Z_ ]{1,64}`|[-a-z0-9A-Z_]{1,64})$
+^([a-zA-Z0-9-._~!$&'()*+,;=]|%[A-Fa-f0-9]{2}){1,254}$;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+^[a-zA-Z]{1}[a-zA-Z0-9-]{1,255}$
+^[a-z0-9A-Z_0-9\-\.]{1,255}$
+^([0-9a-f]{8})([0-9a-f]{32})([0-9a-f]{256})$
+^.{1,210}$
+^[-A-Za-z0-9_.]{1,255}$
+^[\*A-Za-z0-9]{1,255}$
+^[a-zA-Z]{1}[a-zA-Z0-9]{1,255}$
+^[\u0430-\u044fa-z0-9.-]{2,255}$
+^[a-zA-Z0-9_-]{1,256}$
+^[a-z0-9][a-z0-9_-]{0,254}$
+[^ \n\t\r\f]{0,254}$
+^[A-Za-z][A-Za-z0-9]{1,254}$
+^.{1,253}$
+^[^\.][a-z0-9A-Z_\-\.]{0,255}$
+^[a-f0-9]{256}$
+^github\.com/[a-z0-9A-Z_.-]{1,100}/[a-z0-9A-Z_.-]{1,100}$
+^([a-zA-Z0-9_.\-]{1,255})?$
+^[a-z]([-a-z0-9_.]{0,253}[a-z0-9])?$
+^[a-z][a-z0-9_-]{0,255}$
+^[a-zA-Z0-9]{3,255}$
+^[a-zA-Z0-9:\-_]{1,255}$
+^[a-zA-Z][-._~a-zA-Z0-9]{0,258}([a-zA-Z0-9])?$
+^[-a-z0-9A-Z_.]{3,255}$
+^ *([A-Za-z0-9][A-Za-z0-9!#$&^_-]{0,126})\/([A-Za-z0-9][A-Za-z0-9!#$&^_.+-]{0,126}) *$
+^[a-z0-9_./\-]{1,256}$
+^[A-Za-z0-9_.-]{3,200}$
+^.{1,255}$
+^[A-Za-z_][a-z0-9A-Z_\-]{0,254}$
+^(.){7,200}$
+(.{0,255})$
+.*/#(.{0,255})#/$
+^[a-zA-Z0-9][a-zA-Z0-9\._-]{1,253}[a-zA-Z0-9]$
+^[é0-9]{256}$
+\A[A-Za-z0-9()_$.;/+][A-Za-z0-9()_$.;/+-]{0,200}\z
+^[a-z0-9_.-]{3,255}$
+^([a-zA-Z0-9-._~!$&\'()*+,;=]|%[A-Fa-f0-9]{2}){1,254}$;;;;;Error while converting to DCA: Error: Creating loop in NCA.
+^[ 0-9a-zA-Z\._\+/\$-]{1,256}$
+^[a-zA-Z0-9.\-]{2,256}\.[a-z]{2,6}$
+^[ -~]{0,200}[!-~]$
+^(ff){16}012001040064007801010101ffff0100(ab){256}$
+^multipart\/[a-zA-Z0-9\.\-\+]{1,100}(;[ \n\t\r\f]?(boundary|charset)=(\"[a-zA-Z0-9\.\-\+ \n\t\r\f]{0,70}\"|[a-zA-Z0-9\.\-\+]{0,70})([ \n\t\r\f]?\([a-zA-Z0-9\.\-\+ \n\t\r\f]{1,20}\))?){0,2}$;;;;;Error while converting to DCA: Dimenze pole překročily podporovaný rozsah.
+^[a-zA-Z0-9-_]{1,255}$
+^(([0-9]+[ \n\t\r\f]*){1,255})(.*)?$
+^(ff){16}011b01040064007801010101fe(ab){254}$
+^[-a-z0-9%S_+]+(\.[-a-z0-9%S_+]+)*@(?:[a-z0-9-]{1,63}\.){1,125}[a-z]{2,63}$
+^[!-~]{1,250}$
+^[-.:_\/a-z0-9A-Z_ ]{1,255}$
+^[a-zA-Z][-_a-zA-Z0-9]{0,255}$
+^[A-Za-z0-9\.\-_]{1,255}$
+^[ \n\t\r\fa-z0-9_-]{1,200}$
+^([a-zA-Z0-9-_.]{1,100})\/([a-zA-Z0-9-_.]{1,100})$
+^[a-z][a-z_0-9]{0,254}$
+^[a-zA-Z0-9.\-_]{1,255}$
+^[\x21-\x7e]{1,255}$
+^(?:(?:((?:`[a-z0-9A-Z_-]{1,64}`|[a-z0-9A-Z_-]{1,64}))(?:\.))?(`[a-z0-9A-Z_-]{1,64}`|[a-z0-9A-Z_-]{1,64})(?: (asc|desc))?)$
+^(ff){16}012101040064007801010101ffff0101(ab){257}$
+^[a-zA-Z0-9\-\.]{3,255}$
+[^\x00-\x21\xff]{1,250}$
+[-a-z0-9A-Z_'+*$^&%=~!?{}#|/`]{1}([-a-z0-9A-Z_'+*$^&%=~!?{}#|`.]?[-a-z0-9A-Z_'+*$^&%=~!?{}#|`]{1}){0,31}[-a-z0-9A-Z_'+*$^&%=~!?{}#|`]?@(([a-zA-Z0-9]{1}([-a-zA-Z0-9]?[a-zA-Z0-9]{1}){0,31})\.{1})+([a-zA-Z]{2}|[a-zA-Z]{3}|[a-zA-Z]{4}|[a-zA-Z]{6}){1};;;;;Error while converting to DCA: Error: more than 7 counters.
+^[a-zA-Z]{4,99}$
+^[a-fA-f0-9]{64}$
+^([a-z0-9-])+/([a-zA-Z0-9_-]{1,63})$
+[a-f0-9]{64}$
+^[A-Za-z][A-Za-z0-9]{6,63}$
+^([a-z0-9A-Z_\-_+]+(?:\.[a-z0-9A-Z_\-_+]+)*)@((?:[a-z0-9A-Z_\-]+\.)*[0-9a-zA-Z_][a-z0-9A-Z_\-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+(?:^|[,&?])[ \n\t\r\f]*([a-z0-9]{50,}=*)(?:[^0-9a-zA-Z_]|$)
+^[a-zA-Z0-9][a-zA-Z0-9-]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$
+^:[0-9]{6} [0-9]{6} [0-9a-f]{40} [0-9a-f]{40} ([ACDMRTUX])[0-9]{0,3}\t(.+)$
+^0x[a-f0-9]{4}[a-f0-9]{16}[a-f0-9]{64}$
+^[ -~]{16,64}$
+.+\n([^\n]{30,70})$;;;;;Error while converting to DCA: SetIsEmpty
+^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9])(\.([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]))*$
+^[a-z0-9]{56}$
+^[a-f0-9]{64}(:.+)?$
+^[0-9a-fA-F]{64}$
+^[0-9A-HJ-NP-Za-km-z]{70,80}$
+^(\$snefru\$)?[a-f0-9]{64}$
+^(?i:0x)?([a-fA-F0-9]{10,64})$
+^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|(222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35[0-9]{3})[0-9]{11}|6[27][0-9]{14})$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^([a-f0-9]{64})$
+^0x[a-f0-9]{64}$
+^arn:aws:kms:[a-z]{2}-[a-z]+-\[0-9]{1}:[0-9]{12}:key/[a-z0-9-]{36}$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|gdata\.youtube\.com|prod\.google\.com)(:[0-9]+)?([\/\?\#]|$)
+^([a-z][0-9a-zA-Z_]{1,63})$
+^[a-zA-Z0-9_.-]{3,50}$
+^(long:0x[0-9a-fA-F]{16})/(short:0x[0-9a-fA-F]{8})(?:/(uuid:[0-9a-fA-F-]{36}))?$
+^([^\x00]{1,79})\x00(\x00|\x01)\x00([^\x00]*)(.)[^\x00]*\x00(.*)$;;;;;Error while converting to DCA: SetIsEmpty
+^(.{3,50})$
+^([a-z0-9A-Z_-]{0,63})(.*)$
+^[0-9a-zA-Z-]{1,50}$
+(.{1,78})(,|$) ?
+^[a-z0-9_]{1,63}$
+^[a-zA-Z0-9\u4E00-\u9FA5]{1}[a-zA-Z0-9\u4E00-\u9FA5-]{0,62}$
+^https?:\/\/((www\.|encrypted\.)?google(\.com|\.co)?\.[a-z]{2,3}\/(search|webhp)\?|24e12c4a-a-95274a9c-s-sites.googlegroups.com\/a\/google.com\/flash-api-test-harness\/apiharness.swf|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|photos\.google\.com|picasaweb\.google\.com|lh2\.google\.com|plus\.google\.com|books\.googleusercontent\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?([\/\?\#]|$))
+^QS([NDR])(.{4})(.{6})([0-9]{8})([0-9]{8}| {8})([01]{7})([ SH])([ ABXG])(.{4})(.{6})(.{8})(.{8})(.)$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^[\.\/0-9A-Za-z]{86}$
+(password|pwd)[^"']+[\{\[\(\<][a-z0-9\. \n\t\r\f]+[\}\]\)\>]|(password|pwd)[ -~ \n\t\r\f\r\n]{1,5}(privatesettingsref:|[\{\[\(\<\$%][a-z0-9\. \n\t\r\f\-_\$%"']+[\{\[\(\<\}\]\)\>\$%]|[\{\[\(\<][ \n\t\r\f]*[\}\]\)\>]|redacted|null|none|string|""|''|["'][ \n\t\r\f]|#.{1,50}#)
+^[A-Z_0-9-]{3,50}$
+^[a-zA-Z0-9_:.$%/-]{0,64}$
+^[a-zA-Z0-9\ ]{0,50}$
+(?:^|[^0-9a-f])([0-9a-f]{64})(?:[^0-9a-f]|$)
+^/[0-9a-f]{64}$
+^[a-z0-9]{51}$
+.{86}$
+^(.{30})(.*)(.{30})$
+^[a-z0-9][a-z0-9\.\-]{1,61}[a-z0-9]$
+^(\$wbb3\$\*1\*)?[a-f0-9]{40}[:*][a-f0-9]{40}$
+^([+a-z0-9A-Z_-]{0,63})(.*)$
+^[a-z0-9A-Z_]{32}:[a-z0-9A-Z_]{32}$
+^={77}$
+^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{95}$
+^[a-f0-9]{40}:[^*]{1,25}$
+^(?:[a-z0-9A-Z]{32}|[-a-z0-9]{2,28}|\$[A-Z][A-Z0-9_]*)$
+^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|(222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35[0-9]{3})[0-9]{11}|62[0-9]{14})$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^sha256:[0-9a-f]{64}$
+^https:\/\/example\.com\/authorization\?client_id=1234&nonce=[a-z0-9A-Z_0-9]{32}&response_type=code&scope=openid&state=[a-z0-9A-Z_0-9]{32}$
+^([A-Za-z][A-Za-z0-9]{2,62})$
+^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|0{8}-0{4}-0{4}-0{4}-0{12})$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^A-[A-Za-z0-9:]{95}$
+^[0-9A-Z]{52}$
+^[-+]{1}[0-9a-f]{64}$
+^[[0-9a-fA-F]{12}|[0-9a-fA-F]{40}]$
+^QB([NDR])(.{12})(.{8})(.{8})(.{24})(.{24})$
+^(?:(4[0-9]{12}(?:[0-9]{3})?)|(5[1-5][0-9]{14})|(6(?:011|5[0-9]{2})[0-9]{12})|(3[47][0-9]{13})|(3(?:0[0-5]|[68][0-9])[0-9]{11})|((?:2131|1800|35[0-9]{3})[0-9]{11}))$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^ITEM-STATUS    [ \n\t\r\f](.{80})[ \n\t\r\f](.*)$
+^[0-9a-f]{56}$
+^[a-z0-9]{10,64}$
+﻿^(?:<a?:[0-9a-zA-Z_]{2,32}:)?([0-9]{17,19})>?$;;;;;Error while converting to DCA: SetIsEmpty
+^[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,63})$
+^[a-zA-Z0-9-]{3,50}$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/+embed(\/+|\?|#|$)
+^ATCO-CIF([0-9][0-9])([0-9][0-9])(.{32})(.{16})([0-9]{8})([0-9]{4,6})$
+^(0x|0X)[a-fA-F0-9]{64}$
+^STM.{48,55}$
+(spotify:(?:\n    (?:artist|album|user:[^:]+:playlist):[a-zA-Z0-9]{22}\n    |track:[a-zA-Z0-9]{22}(?:\#[0-9]{1,2}:[0-9]{1,2})?\n    |user:[^:]+(?::starred)?\n    |search:(?:[-a-z0-9A-Z_$\.+!*'(),]+|%[a-fA-F0-9]{2})+\n    |image:[a-fA-F0-9]{40}\n    ))\n  ;;;;;Error while converting to DCA: SetIsEmpty
+(.{1,76})( +|$)
+^[a-fA-F0-9]{64}$
+^[0-9a-f]{64}$
+^      [0-9a-f]{64}$
+^[!-~]{64}$
+^[a-fA-F0-9]{64}$
+^[a-zA-Z2-7]{52}$
+^[A-Z ]{1,60}$
+(^[0-9a-fA-F]{64}$)|(^[0-9]+$)|(^[r][a-km-zA-HJ-NP-Z0-9]{26,34}$)|(-)
+^[A-Z0-9]{8}\-[A-Z0-9]{8}\-[A-Z0-9]{8}\-[A-Z0-9]{8}\-[A-Z0-9]{8}\-[A-Z0-9]{8}\-[A-Z0-9]{8}\-[A-Z0-9]{8}$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^[a-z0-9\._]{1,50}$
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$
+^[a-z0-9-!#\$%&'*+/=?^_`{|}\~]+(?:[.][a-z0-9-!#\$%&'*+/=?^_`{|}\~]+)*@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?[.])+[a-z-]{2,24}$
+^[0-9a-zA-Z_]{1,80}-[0-9a-zA-Z_]{1,8}$
+^[a-z][a-z0-9_-]{0,63}$
+^([0-9a-zA-Z_]{3,50})$
+^4[a-zA-Z0-9]{50}$
+^https?:\/\/((www\.|encrypted\.)?google(\.com|\.co)?\.[a-z]{2,3}\/(search|webhp)\?|(101epmpngvqtgfsf73utp3aomcvh4be6|mb33edaaot4tnevadfqhve4857kpq1rs|ot5106nq9r49sc62k7h52rtfngv5j94j)-a-hangout-opensocial\.googleusercontent\.com\/|24e12c4a-a-95274a9c-s-sites.googlegroups.com\/a\/google.com\/flash-api-test-harness\/apiharness.swf|([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|mail\.google\.com|talkgadget\.google\.com|survey\.g\.doubleclick\.net|youtube\.com|youtube-nocookie\.com|youtubeeducation\.com|vevo\.com)(:[0-9]+)?([\/\?\#]|$))
+a165627a7a72305820[0-9a-zA-Z_]{64}0029([0-9a-zA-Z_]*)$
+^[a-f0-9]{96}$
+(^(MD5:)?([a-f0-9]{2}:){15}[a-f0-9]{2})|(^SHA256:[a-zA-Z0-9\/\+]{43})$
+^[0-9a-z_-]{1,64}$
+^<Buffer (?:78 ){50}\.\.\. 1 more byte>$
+^[a-zA-Z]$|^[a-zA-Z][a-zA-Z0-9]$|^[a-zA-Z][a-z0-9A-Z_\-]{1,61}[a-zA-Z0-9]$
+^[0-9a-zA-Z-]{1,60}$
+^[a-f0-9]{32}:[a-z0-9]{16,32}$
+^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,63}$
+^[a-z \n\t\r\f]{1,50}$
+^sha256:[a-f0-9]{64}$
+^[0-9A-Fa-f]{1,64}$
+^[a-z0-9\-_]{2,50}$
+^BOR-STATUS[ \n\t\r\f]{10}[ \n\t\r\f].{5}[ \n\t\r\f]L[ \n\t\r\f](.{50})[ \n\t\r\f](.*)$
+^[A-Z0-9]{64}$
+\$?([a-z0-9A-Z_0-9]{40})(~|=)([a-z0-9A-Z_0-9]{1,19}) ([a-z0-9A-Z_-]+)
+(.{1,60})([ \n\t\r\f]|$)
+^(?i)([0-9a-h]{64})$
+^[A-Za-z][A-Za-z0-9\.\-_]{1,50}$
+^[a-fA-F0-9]{32}:[a-fA-F0-9]{32}$
+^[a-z0-9_.-]{1,64}$
+^(\$chap\$0\*)?[a-f0-9]{32}[\*:][a-f0-9]{32}(:[0-9]{2})?$
+^[a-zA-Z0-9]{64}$
+^-{72}$
+^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$
+^[a-zA-Z0-9]{58}$
+^[a-z][0-9a-zA-Z_]{0,63}$
+^[\x20-\x7E]{0,64}$
+^[^\.]{1,63}(\.[^\.]{1,63})*\.?$
+^((sha256\.[a-f0-9]{64})|(sif\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}))$
+^(?:[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?)$
+^[\x20-\x7E]{1,64}$
+a265627a7a72305820([0-9a-f]{64})6c6578706572696d656e74616cf50037$
+^0x[ABCDEF0-9]{8,64}$
+^0x0100[a-f0-9]{88}$
+^[a-z0-9-]{1,64}$
+^[a-z0-9A-Z_+=,.@-]{1,64}$
+^[a-z][a-z0-9]{2,64}@(yahoo-inc\.com|uk\.yahoo-inc\.com|yahoo-corp\.jp|tumblr\.com|yahoo\.com)$
+^[+a-z0-9A-Z_-]{0,63}$
+^(([^\/:@&_\*]+)\.)[^\/:@&_\*\-\.]{2,63}$
+^[a-z0-9\._-]{1,30}@([a-z0-9_-]{1,30}\.){1,5}[a-z]{2,4}$
+(CHK\@[a-zA-Z0-9,~\-]{54})[\/ ]+(.*)[ \n\t\r\f]*$
+^[ab]{64}$
+^[a-fA-F0-9]{64}-[0-9]{10}$
+^[A-Za-z0-9+=/]{80}$
+((.{1,80})([ \n\t\r\f]+|,|$))
+^((http(s)?):)?\/\/((((lh[3-6](-tt|-d[a-g,z])?\.((ggpht)|(googleusercontent)|(google)))|(([1-4]\.bp\.blogspot)|(bp[0-3]\.blogger))|((((cp|ci|gp)[3-6])|(ap[1-2]))\.(ggpht|googleusercontent))|(gm[1-4]\.ggpht)|(((yt[3-4])|(sp[1-3]))\.(ggpht|googleusercontent)))\.com)|(dp[3-6]\.googleusercontent\.cn)|(dp4\.googleusercontent\.com)|((dev|dev2|dev3|qa|qa2|qa3|qa-red|qa-blue|canary)[-.]lighthouse\.sandbox\.google\.com\/image)|(image\-dev\-lighthouse(-auth)?\.sandbox\.google\.com(\/image)?))\/|^https?:\/\/(s2\.googleusercontent\.com\/s2\/favicons\?|yt[3-4]\.ggpht\.com\/|([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|video\.google\.com|youtube\.com|ytimg\.com)(:[0-9]+)?([\/\?\#]|$))
+[a-zA-Z\0-9-]{1,63}$
+^[a-z0-9-\/]{0,50}$
+^-{79}$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|video\.google\.com|youtube\.com|youtube\.googleapis\.com|youtube\-nocookie\.com|youtubeeducation\.com)(:[0-9]+)?\/\/*embed(\/+|\?|#|$)
+^[a-z0-9A-Z_-]{1,50}$
+^[a-z0-9_-]{64}$
+^.{80,80}$
+^[\x00-\x7F]{8,63}$
+^(?:[1]{0,32}[0]{0,32})$
+^amp-[a-z0-9A-Z_.-]{22,64}$
+^0x[a-fA-F0-9]{64}$
+^(sha256:|)[a-z0-9]{64}\n$;;;;;Error while converting to DCA: SetIsEmpty
+(^[a-z]:)?/.{1,50}$
+^[a-zA-Z0-9_\-\=\@\,\.\;]{1,64}$
+^title *\= *[^\=]{2,60}$
+^[a-z0-9A-Z_](?:[a-z0-9A-Z_-]{0,61}[a-z0-9A-Z_])?$
+^[a-z][a-z0-9A-Z_\-]{2,63}$
+^[A-Z0-9][A-Z0-9._%+-]*@[A-Z0-9][A-Z0-9\-\.]{0,61}\.[A-Z0-9]+$
+^[0-9a-z\-]{1,63}$
+^/trireme/(uid/){0,1}[a-zA-Z0-9_:.$%]{1,64}$
+^([^\/:*?\"<>|]{1,20}:)?[a-f0-9]{32}(:[^\/:*?\"<>|]{1,20})?$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(corp\.google\.com|borg\.google\.com|prod\.google\.com|sandbox\.google\.com|youtube\.com)(:[0-9]+)?([\/\?\#]|$)
+^(0[xX])?[0-9a-fA-F]{32,64}$
+^[0-9a-f]{70}$
+^([a-zA-Z0-9_]{1}[a-zA-Z0-9_-]{0,62}){1}(\.[a-zA-Z0-9_]{1}[a-zA-Z0-9_-]{0,62})*[\._]?$
+^(cacheline_[a-zA-Z0-9]{1,50}|cl_[a-zA-Z0-9]{1,50})$
+^([a-z0-9A-Z_-]+(?:\.[a-z0-9A-Z_-]+)*)@((?:[a-z0-9A-Z_-]+\.)*[0-9a-zA-Z_][a-z0-9A-Z_-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$
+^[a-z]{1,50}$
+^0x[a-f0-9]{66}$
+^([a-zA-Z0-9]{4} ){2,8}[a-zA-Z0-9]{1,4}|[a-zA-Z0-9]{12,34}$
+^([^-]+)-([A-Za-z0-9+/=]{44,88})(\?[\x21-\x7E]*)*$
+([0-9a-fA-F]{40}) ([0-9a-fA-F]{40}) refs\/(heads|tags)\/(.*)( |00|\u0000)|^(0000)$
+^[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?$
+^[a-zA-Z0-9][a-z0-9A-Z_-]{0,62}$
+^0x[0-9a-f]{64}$
+^((?:[A-Z]{2,3}(?:-[A-Z]{3}){0,3})|[A-Z]{4}|[A-Z]{5,8})(?:-([A-Z]{4}))?(?:-([A-Z]{2}|[0-9]{3}))?((?:-[0-9A-Z]{5,8}|-[0-9][0-9A-Z]{3})*)((?:-[0-9A-WYZ](?:-[0-9A-Z]{2,8})+)*)(?:-(X(?:-[0-9A-Z]{1,8})+))?$;;;;;Error while converting to DCA: Error: more than 7 counters.
+^[-a-z0-9]{3,50}$
+^(?:[0-9a-f]{12}[1-5][0-9a-f]{3}[89ab][0-9a-f]{15}|0{32})$
+^[0-9a-zA-Z-_]{1,60}$
+^([A-Za-z]{1,25}|[0-9]{1,25})$
+^[a-z0-9\.,\+\-_@]{4,64}$
+^[a-z][a-z0-9-]{0,62}[a-z]$
+^([0-9a-fA-F]{32})-([0-9a-fA-F]{16})(-([0-9a-fA-F]{2}))?$
+^([0-9]{4})\.([0-9a-f]{56})\.mutlog$
+^[A-Za-z0-9]{20,64}$
+^([a-z0-9A-Z_-]+(?:\.[a-z0-9A-Z_-]+)*)@((?:[a-z0-9A-Z_-]+\.)*[0-9a-zA-Z_][a-z0-9A-Z_-]{0,85})\.([a-z]{2,6}(?:\.[a-z]{2})?)$
+^[cbdefghijklnrtuv]{32,64}$
+^[a-z0-9][a-z0-9-]{0,62}$
+^[0-9a-zA-Z\- \n\t\r\f_\+\#\:]{1,50}$
+^[a-f0-9]{40}:[a-f0-9]{0,32}$
+^[0-9A-Fa-f]{64}$
+^https?:\/\/(www\.gstatic\.com\/doubleclick\/studio\/innovation\/ytplayer|www\.gstatic\.com\/doubleclick\/studio\/innovation\/h5\/layouts\/tetris|tpc\.googlesyndication\.com\/safeframe\/|lightbox-(demos|builder)\.appspot\.com\/|([A-Za-z0-9-]{1,63}\.)*(imasdk\.googleapis\.com|2mdn\.net|googlesyndication\.com|corp\.google\.com|borg\.google\.com|googleads\.g\.doubleclick\.net|prod\.google\.com|static\.doubleclick\.net|static\.googleadsserving\.cn|studioapi\.doubleclick\.net|youtube\.com|youtube\.googleapis\.com|youtube-nocookie\.com|youtubeeducation\.com|ytimg\.com)(:[0-9]+)?([\/\?\#]|$))
+.{51,}$
+^{SSHA512}[a-z0-9\/+]{96}$
+^[0-9A-F]{64}$
+(([0-9a-zA-Z_]+\-+)|([0-9a-zA-Z_]+\.))*[0-9a-zA-Z_]{1,63}\.[a-zA-Z]{2,6}$
+^[a-zA-Z0-9,\-]{22,52}$
+^[0-9 ]+$|^[A-Fa-f0-9]{64,64}$
+^https?:\/\/([A-Za-z0-9-]{1,63}\.)*(ba\.l\.google\.com|c\.googlesyndication\.com|corp\.google\.com|borg\.google\.com|docs\.google\.com|drive\.google\.com|googleplex\.com|googlevideo\.com|play\.google\.com|prod\.google\.com|sandbox\.google\.com|plus\.google\.com|ed\.video\.google\.com|vp\.video\.l\.google\.com|youtube\.com|youtubeeducation\.com)(:[0-9]+)?([\/\?\#]|$)
+^[a-zA-Z][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9]$
+^[a-z0-9-]{1,63}$
+^((www\.)?(\*\.)?[A-Za-z0-9]+([\-\.]{1,2}[A-Za-z0-9]+)*\.[A-Za-z]{2,40}(:[0-9]{1,40})?(\/.*)?)$
+^[A-Za-z0-9_-]{40,50}$
+^([*]|[a-z0-9][a-z0-9\-]{0,62})(?:\.([*]|[a-z0-9][a-z0-9\-]{0,62}))*$
+^[a-z0-9_]{1,60}$
+^QL([NDR])(.{12})(.{48})(.)([BSPRID ])(.{8})$
+^UPDATE;arm:0;[0-9]{13};10\nUPDATE;arm:1;[0-9]{13};20\nUPDATE;arm:2;[0-9]{13};30\nUPDATE;arm:3;[0-9]{13};40\n$;;;;;Error while converting to DCA: SetIsEmpty
+^[a-z]([-a-z0-9]{0,61}[a-z0-9])?$
+^Merge[ \n\t\r\f][0-9a-zA-Z_]{40}[ \n\t\r\f]into[ \n\t\r\f][0-9a-zA-Z_]{40}$
+^[a-zA-Z0-9-.]{0,63}$
+(.{1,66})(?:[ \n\t\r\f]+|$)
+[A-Za-z0-9-_.]{0,63}$
+^[a-zA-Z][a-zA-Z0-9\-_]{0,63}$
+^[a-z][a-z0-9-]{0,62}$
+^([a-f0-9]{16}|[a-f0-9]{64})$
+^a{0,25}(a){25}$
+^[0-9a-zA-Z]{64}$
+^[A-z0-9]{50}$
+^[0-9a-z]{64}$
+^[^.]{1,63}(\.[^.]{1,63})*$
+(.{1,80})([ \n\t\r\f]+|$)
+^([a-z0-9A-Z_]+(?:\.[a-z0-9A-Z_]+)*)@((?:[a-z0-9A-Z_]+\.)*[0-9a-zA-Z_][a-z0-9A-Z_]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$
+^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])(\.([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9]))*$

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml" ZoomLevel="1.5" GraphDirection="TopToBottom" >
+<Nodes>
+<Node Id="init" Label="DCA - chart4" Stroke="white" Background="white"/>
+<Node Id="1" Label="S₀&#13;{q₀}" Category="State" >
+<Category Ref="InitialState" />
+</Node>
+<Node Id="2" Label="S₁&#13;{q₀,q₁}" Category="State" />
+<Node Id="3" Label="S₂&#13;{q₁}" Category="State" />
+<Node Id="4" Label="S₃&#13;{q₂}" Category="State" />
+<Node Id="5" Label="S₄&#13;{q₃}" Category="State" />
+<Node Id="6" Label="S₅&#13;{q₄}" Category="State" />
+<Node Id="7" Label="S₆&#13;{q₅}" Category="State" />
+<Node Id="8" Label="S₇&#13;{q₆}" Category="State" />
+<Node Id="9" Label="S₈&#13;{q₇}" Category="State" />
+<Node Id="10" Label="S₉&#13;{q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="11" Label="S₁₀&#13;{q₀,q₂}" Category="State" />
+<Node Id="12" Label="S₁₁&#13;{q₀,q₃}" Category="State" />
+<Node Id="13" Label="S₁₂&#13;{q₀,q₄}" Category="State" />
+<Node Id="14" Label="S₁₃&#13;{q₀,q₅}" Category="State" />
+<Node Id="15" Label="S₁₄&#13;{q₀,q₆}" Category="State" />
+<Node Id="16" Label="S₁₅&#13;{q₀,q₇}" Category="State" />
+<Node Id="17" Label="S₁₆&#13;{q₀,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="18" Label="S₁₇&#13;{q₀,q₁,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="19" Label="S₁₈&#13;{q₁,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="20" Label="S₁₉&#13;{q₂,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="21" Label="S₂₀&#13;{q₃,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="22" Label="S₂₁&#13;{q₄,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="23" Label="S₂₂&#13;{q₅,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="24" Label="S₂₃&#13;{q₆,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="25" Label="S₂₄&#13;{q₇,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="26" Label="S₂₅&#13;{q₀,q₂,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="27" Label="S₂₆&#13;{q₀,q₃,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="28" Label="S₂₇&#13;{q₀,q₄,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="29" Label="S₂₈&#13;{q₀,q₅,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="30" Label="S₂₉&#13;{q₀,q₆,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+<Node Id="31" Label="S₃₀&#13;{q₀,q₇,q₈}" Category="State" >
+<Category Ref="FinalState" />
+</Node>
+</Nodes>
+<Links>
+<Link Source="init" Target="1" Label="c₀={0}" Category="StartTransition" />
+<Link Source="1" Target="1" Label="[\x09\n\x0D\x20-79-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="1" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="1" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="2" Target="1" Label="[\x09\n\x0D\x20-7\x3A-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="2" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="2" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="2" Target="11" Label="9/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="2" Target="4" Label="9/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="3" Target="4" Label="9" Category="NonepsilonTransition" />
+<Link Source="4" Target="5" Label="[\x3A]" Category="NonepsilonTransition" />
+<Link Source="5" Target="6" Label=";" Category="NonepsilonTransition" />
+<Link Source="6" Target="7" Label="[\x3C]" Category="NonepsilonTransition" />
+<Link Source="7" Target="8" Label="=" Category="NonepsilonTransition" />
+<Link Source="8" Target="9" Label="[\x3E]" Category="NonepsilonTransition" />
+<Link Source="9" Target="10" Label="[\x3F]" Category="NonepsilonTransition" />
+<Link Source="10" Target="10" Label="[\x09\n\x0D\x20-\x7F]" Category="NonepsilonTransition" />
+<Link Source="11" Target="1" Label="[\x09\n\x0D\x20-79;-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="11" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="11" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="11" Target="12" Label="[\x3A]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="11" Target="5" Label="[\x3A]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="12" Target="1" Label="[\x09\n\x0D\x20-79\x3A\x3C-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="12" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="12" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="12" Target="13" Label=";/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="12" Target="6" Label=";/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="13" Target="1" Label="[\x09\n\x0D\x20-79-;=-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="13" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="13" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="13" Target="14" Label="[\x3C]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="13" Target="7" Label="[\x3C]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="14" Target="1" Label="[\x09\n\x0D\x20-79-\x3C\x3E-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="14" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="14" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="14" Target="15" Label="=/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="14" Target="8" Label="=/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="15" Target="1" Label="[\x09\n\x0D\x20-79-=\x3F-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="15" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="15" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="15" Target="16" Label="[\x3E]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="15" Target="9" Label="[\x3E]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="16" Target="1" Label="[\x09\n\x0D\x20-79-\x3E\x40-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="16" Target="2" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="16" Target="3" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="16" Target="17" Label="[\x3F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="16" Target="10" Label="[\x3F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="17" Target="17" Label="[\x09\n\x0D\x20-79-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="17" Target="10" Label="[\x09\n\x0D\x20-79-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="17" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="17" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="18" Target="17" Label="[\x09\n\x0D\x20-7\x3A-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="18" Target="10" Label="[\x09\n\x0D\x20-7\x3A-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="18" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="18" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="18" Target="26" Label="9/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="18" Target="20" Label="9/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="19" Target="20" Label="9" Category="NonepsilonTransition" />
+<Link Source="19" Target="10" Label="[\x09\n\x0D\x20-8\x3A-\x7F]" Category="NonepsilonTransition" />
+<Link Source="20" Target="21" Label="[\x3A]" Category="NonepsilonTransition" />
+<Link Source="20" Target="10" Label="[\x09\n\x0D\x20-9;-\x7F]" Category="NonepsilonTransition" />
+<Link Source="21" Target="22" Label=";" Category="NonepsilonTransition" />
+<Link Source="21" Target="10" Label="[\x09\n\x0D\x20-\x3A\x3C-\x7F]" Category="NonepsilonTransition" />
+<Link Source="22" Target="23" Label="[\x3C]" Category="NonepsilonTransition" />
+<Link Source="22" Target="10" Label="[\x09\n\x0D\x20-;=-\x7F]" Category="NonepsilonTransition" />
+<Link Source="23" Target="24" Label="=" Category="NonepsilonTransition" />
+<Link Source="23" Target="10" Label="[\x09\n\x0D\x20-\x3C\x3E-\x7F]" Category="NonepsilonTransition" />
+<Link Source="24" Target="25" Label="[\x3E]" Category="NonepsilonTransition" />
+<Link Source="24" Target="10" Label="[\x09\n\x0D\x20-=\x3F-\x7F]" Category="NonepsilonTransition" />
+<Link Source="25" Target="10" Label="[\x09\n\x0D\x20-\x7F]" Category="NonepsilonTransition" />
+<Link Source="26" Target="17" Label="[\x09\n\x0D\x20-79;-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="26" Target="10" Label="[\x09\n\x0D\x20-79;-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="26" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="26" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="26" Target="27" Label="[\x3A]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="26" Target="21" Label="[\x3A]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="27" Target="17" Label="[\x09\n\x0D\x20-79\x3A\x3C-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="27" Target="10" Label="[\x09\n\x0D\x20-79\x3A\x3C-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="27" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="27" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="27" Target="28" Label=";/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="27" Target="22" Label=";/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="28" Target="17" Label="[\x09\n\x0D\x20-79-;=-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="28" Target="10" Label="[\x09\n\x0D\x20-79-;=-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="28" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="28" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="28" Target="29" Label="[\x3C]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="28" Target="23" Label="[\x3C]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="29" Target="17" Label="[\x09\n\x0D\x20-79-\x3C\x3E-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="29" Target="10" Label="[\x09\n\x0D\x20-79-\x3C\x3E-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="29" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="29" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="29" Target="30" Label="=/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="29" Target="24" Label="=/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="30" Target="17" Label="[\x09\n\x0D\x20-79-=\x3F-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="30" Target="10" Label="[\x09\n\x0D\x20-79-=\x3F-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="30" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="30" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="30" Target="31" Label="[\x3E]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="30" Target="25" Label="[\x3E]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="31" Target="17" Label="[\x09\n\x0D\x20-79-\x7F]/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="31" Target="10" Label="[\x09\n\x0D\x20-79-\x7F]/HIGH(c₀)" Category="NonepsilonTransition" />
+<Link Source="31" Target="18" Label="8/MIDDLE(c₀)⇒INCR(c₀);" Category="NonepsilonTransition" />
+<Link Source="31" Target="19" Label="8/HIGH(c₀)" Category="NonepsilonTransition" />
+</Links>
+<Categories>
+<Category Id="EpsilonTransition" Label="Epsilon transition" IsTag="True" />
+<Category Id="StartTransition" Label="Initial transition" IsTag="True" />
+<Category Id="FinalLabel" Label="Final transition" IsTag="True" />
+<Category Id="FinalState" Label="Final state" IsTag="True" />
+<Category Id="SinkState" Label="Sink state" IsTag="True" />
+<Category Id="EpsilonState" Label="Epsilon state" IsTag="True" />
+<Category Id="InitialState" Label="Initial state" IsTag="True" />
+<Category Id="NonepsilonTransition" Label="Nonepsilon transition" IsTag="True" />
+<Category Id="State" Label="State" IsTag="True" />
+</Categories>
+<Styles>
+<Style TargetType="Node" GroupLabel="InitialState" ValueLabel="True">
+<Condition Expression="HasCategory('InitialState')" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="FinalState" ValueLabel="True">
+<Condition Expression="HasCategory('FinalState')" />
+<Setter Property="StrokeThickness" Value="4" />
+</Style>
+<Style TargetType="Node" GroupLabel="SinkState" ValueLabel="True">
+<Condition Expression="HasCategory('SinkState')" />
+<Setter Property="NodeRadius" Value="0" />
+</Style>
+<Style TargetType="Node" GroupLabel="EpsilonState" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonState')" />
+<Setter Property="Background" Value="tomato" />
+</Style>
+<Style TargetType="Node" GroupLabel="State" ValueLabel="True">
+<Condition Expression="HasCategory('State')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="Background" Value="white" />
+<Setter Property="MinWidth" Value="0" />
+</Style>
+<Style TargetType="Link" GroupLabel="NonepsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('NonepsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="StartTransition" ValueLabel="True">
+<Condition Expression="HasCategory('StartTransition')" />
+<Setter Property="Stroke" Value="black" />
+</Style>
+<Style TargetType="Link" GroupLabel="EpsilonTransition" ValueLabel="True">
+<Condition Expression="HasCategory('EpsilonTransition')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+<Style TargetType="Link" GroupLabel="FinalLabel" ValueLabel="False">
+<Condition Expression="HasCategory('FinalLabel')" />
+<Setter Property="Stroke" Value="black" />
+<Setter Property="StrokeDashArray" Value="8 8" />
+</Style>
+</Styles>
+</DirectedGraph>
